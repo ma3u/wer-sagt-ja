@@ -1,7 +1,7 @@
 // Erzeugt die Sprecher-Aufnahmen und Geräusche der Quiz-Show über die ElevenLabs-API.
 // Aufruf: npm run stimmen                 → fehlende oder geänderte Clips erzeugen
 //         npm run stimmen -- --nur-zeigen → nur zählen, was erzeugt würde (keine Kosten)
-// Der Schlüssel steht in .env.local (ELEVENLABS_API_KEY, nie in .env – die ist eingecheckt).
+// Der Schlüssel steht in .env.local oder .env (ELEVENLABS_API_KEY; beide stehen in .gitignore).
 // Beim ersten Lauf entwirft das Skript die beiden Stimmen (Voice Design) und merkt sich ihre IDs in
 // public/audio/manifest.json. Ergebnis: public/audio/*.mp3 und manifest.json mit Dauer und Wortzeiten.
 import { createHash } from 'node:crypto'
@@ -18,7 +18,7 @@ const manifestDatei = new URL('manifest.json', ordner)
 const nurZeigen = process.argv.includes('--nur-zeigen')
 
 function schluessel(): string {
-  for (const datei of ['../.env.local']) {
+  for (const datei of ['../.env.local', '../.env']) {
     const pfad = new URL(datei, import.meta.url)
     if (!existsSync(pfad)) continue
     const zeile = readFileSync(pfad, 'utf8').split('\n').find((z) => z.startsWith('ELEVENLABS_API_KEY='))
@@ -29,7 +29,7 @@ function schluessel(): string {
 
 const KEY = schluessel()
 if (!KEY && !nurZeigen) {
-  console.error('Kein ELEVENLABS_API_KEY in .env.local.')
+  console.error('Kein ELEVENLABS_API_KEY in .env.local oder .env.')
   process.exit(1)
 }
 
