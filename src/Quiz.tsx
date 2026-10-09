@@ -3,6 +3,7 @@ import { APP_NAME, UNTERTITEL } from './app'
 import { Fusszeile } from './Fusszeile'
 import { Logo } from './Logo'
 import { useErstesMal } from './erstesMal'
+import { nurJaFragen } from './fragen'
 import { istUnterseite, useHash } from './navigation'
 import { QuizAnsicht } from './Ansicht'
 import { useAnsicht } from './barrierefrei'
@@ -33,7 +34,7 @@ async function ladeQuiz(): Promise<QuizDaten> {
   const r = await fetch(`${import.meta.env.BASE_URL}fragen.json`)
   const d: unknown = r.ok && r.headers.get('content-type')?.includes('json') ? await r.json() : null
   if (!istQuizDaten(d)) throw new Error('Die Fragen konnten nicht geladen werden.')
-  return d
+  return { ...d, fragen: nurJaFragen(d.fragen) }
 }
 
 const einladungAus = (hash: string): Raum | null => {

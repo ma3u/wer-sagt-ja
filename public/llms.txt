@@ -1,7 +1,7 @@
 # Wer sagt Ja?
 
 > Kostenloses Mehrspieler-Quiz zu den Wahlprogrammen der Bundestagswahl 2025. Zu jeder Frage raten bis zu acht
-> Personen, welche der acht Parteien im Wahlprogramm Ja (oder Nein) sagen. Nach jeder Frage zeigt das Spiel für alle
+> Personen, welche der acht Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
 > Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
 
 Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Browser, ohne Konto und ohne Cookies.

@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
-import { anleitung, anleitungRegeln } from './fragen'
+import { readFileSync } from 'node:fs'
+import { anleitung, anleitungRegeln, nurJaFragen } from './fragen'
 import { bewerte, ZEIT_MS, zeitlimit } from './punkte'
 import {
   alleFertig,
@@ -7,6 +8,7 @@ import {
   alsLeitungNachricht,
   aufloesen,
   bereinigeName,
+  FRAGEN_JE_SPIEL,
   mitAntwort,
   mitSpieler,
   mitZeitfaktor,
@@ -173,5 +175,19 @@ describe('Nachrichten', () => {
     expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z })).toMatchObject({ t: 'zustand', du: 'a' })
     expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z: { ...z, phase: 'hack' } })).toBeNull()
     expect(alsLeitungNachricht({ t: 'abgelehnt', grund: 'voll' })).toEqual({ t: 'abgelehnt', grund: 'voll' })
+  })
+})
+
+describe('Nur Ja-Fragen („Wer sagt Ja?“)', () => {
+  it('nurJaFragen lässt Fragen nach Nein weg', () => {
+    const fragen = [{ id: 'a', gesucht: 'ja' as const }, { id: 'b', gesucht: 'nein' as const }]
+    expect(nurJaFragen(fragen).map((f) => f.id)).toEqual(['a'])
+  })
+
+  it('public/fragen.json hat genug Ja-Fragen für ein Spiel', () => {
+    const daten = JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as {
+      fragen: Pick<QuizFrage, 'gesucht'>[]
+    }
+    expect(nurJaFragen(daten.fragen).length).toBeGreaterThanOrEqual(FRAGEN_JE_SPIEL)
   })
 })

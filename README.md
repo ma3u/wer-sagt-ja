@@ -3,7 +3,7 @@
 ![Wer sagt Ja? – Das Quiz zu den Wahlprogrammen](public/vorschau.gif)
 
 Ein Quiz zu den Bundeswahlprogrammen 2025 für bis zu acht Personen. Eine Frage, acht Parteien: Wer sagt im Programm
-Ja (oder Nein)? Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr. Nach jeder Frage zeigt das Spiel für alle
+Ja? Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr. Nach jeder Frage zeigt das Spiel für alle
 Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
 
 Punkte gibt es fürs Wissen über Programme, nie für eine eigene Meinung. Keine Konten, keine Datenbank, keine KI im
@@ -23,7 +23,8 @@ Spiel: Das Spiel läuft zwischen den Browsern der Mitspielenden.
 Wertfrage die Position aller acht Bundesprogramme (Ja, Nein, teils, keine Aussage) mit Zitat und Seitenanker,
 erfasst nach einem Verfahren ohne Parteinamen. Dort `npm run quiz:erzeugen -- --entwuerfe` ausführen und die Datei
 `public/quiz/fragen-entwurf.json` hierher als `public/fragen.json` kopieren. Die Positionen werden hier nie von Hand
-geändert.
+geändert. Das Spiel fragt immer nach Ja: Fragen, zu denen keine Partei Ja sagt (dann fragt die Datei nach Nein),
+lässt es weg.
 
 Zurzeit sind alle Fragen **KI-Entwürfe, noch nicht von Menschen geprüft** – das Spiel sagt das auf der Startseite und
 in jeder Auflösung. „Keine Aussage im Programm“ zählt wie die heutige Lage (Feld `status_quo` je Frage).
