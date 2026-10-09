@@ -1,6 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { readFileSync } from 'node:fs'
-import { anleitung, anleitungRegeln, nurJaFragen } from './fragen'
+import { anleitung, anleitungRegeln } from './fragen'
 import { bewerte, ZEIT_MS, zeitlimit } from './punkte'
 import {
   alleFertig,
@@ -8,7 +7,6 @@ import {
   alsLeitungNachricht,
   aufloesen,
   bereinigeName,
-  FRAGEN_JE_SPIEL,
   mitAntwort,
   mitSpieler,
   mitZeitfaktor,
@@ -24,10 +22,11 @@ import {
 import type { QuizFrage } from './typen'
 
 describe('anleitung', () => {
-  it('nennt die gesuchte Seite und die Regeln', () => {
-    expect(anleitung({ art: 'mehrfach', gesucht: 'ja' })).toBe('Wer sagt Ja? Mehrere sind richtig.')
-    expect(anleitung({ art: 'einzeln', gesucht: 'nein' })).toBe('Nur eine Partei sagt Nein. Welche?')
+  it('fragt immer nach Ja und nennt die Regeln', () => {
+    expect(anleitung({ art: 'mehrfach' })).toBe('Wer sagt Ja? Mehrere sind richtig.')
+    expect(anleitung({ art: 'einzeln' })).toBe('Nur eine Partei sagt Ja. Welche?')
     expect(anleitungRegeln({ art: 'mehrfach', status_quo: null })).toEqual(['„teils“ zählt nicht'])
+    expect(anleitungRegeln({ art: 'mehrfach', status_quo: 'nein' })).toEqual(['„teils“ zählt nicht'])
     expect(anleitungRegeln({ art: 'einzeln', status_quo: 'ja' })).toEqual(['ein Tipp gibt ab', 'keine Aussage zählt als Ja'])
   })
 })
@@ -74,7 +73,7 @@ describe('bewerte', () => {
 
 describe('Spielleitung', () => {
   const frage: QuizFrage = {
-    id: 'h1', haltung_id: 1, frage: 'F?', beschreibung: '', art: 'einzeln', gesucht: 'ja', status_quo: null, richtig: [15], neutral: [],
+    id: 'h1', frage: 'F?', beschreibung: '', art: 'einzeln', status_quo: null, richtig: [15], neutral: [],
     positionen: [], zielkonflikte: [], ki_entwurf: false,
   }
   const raum = () => {
@@ -175,19 +174,5 @@ describe('Nachrichten', () => {
     expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z })).toMatchObject({ t: 'zustand', du: 'a' })
     expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z: { ...z, phase: 'hack' } })).toBeNull()
     expect(alsLeitungNachricht({ t: 'abgelehnt', grund: 'voll' })).toEqual({ t: 'abgelehnt', grund: 'voll' })
-  })
-})
-
-describe('Nur Ja-Fragen („Wer sagt Ja?“)', () => {
-  it('nurJaFragen lässt Fragen nach Nein weg', () => {
-    const fragen = [{ id: 'a', gesucht: 'ja' as const }, { id: 'b', gesucht: 'nein' as const }]
-    expect(nurJaFragen(fragen).map((f) => f.id)).toEqual(['a'])
-  })
-
-  it('public/fragen.json hat genug Ja-Fragen für ein Spiel', () => {
-    const daten = JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as {
-      fragen: Pick<QuizFrage, 'gesucht'>[]
-    }
-    expect(nurJaFragen(daten.fragen).length).toBeGreaterThanOrEqual(FRAGEN_JE_SPIEL)
   })
 })

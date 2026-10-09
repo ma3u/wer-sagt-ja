@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { APP_NAME, DATENQUELLE, QUELLCODE } from './app'
+import { APP_NAME, QUELLCODE } from './app'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { BETREIBER, betreiberVollstaendig, DATENSCHUTZ_STAND } from './betreiber'
 import { Logo } from './Logo'
@@ -66,10 +66,10 @@ function Impressum() {
       <h2>Zum Projekt</h2>
       <p>
         „{APP_NAME}“ ist ein privates, nicht-kommerzielles Quiz zu den Bundeswahlprogrammen 2025. Es wird von keiner
-        Partei beauftragt oder finanziert. Der <a href={QUELLCODE}>Quellcode ist offen</a>. Die Fragen und die Positionen
-        der Parteien stammen aus dem Datenkatalog des <a href={DATENQUELLE}>Politik-Duells</a>; sie sind zum großen Teil
-        mit KI-Hilfe erfasst und noch nicht von Menschen geprüft – das Spiel weist darauf hin und verlinkt jede Stelle im
-        Programm. Fehler bitte dort als Issue melden oder per E-Mail.
+        Partei beauftragt oder finanziert. Der <a href={QUELLCODE}>Quellcode ist offen</a>, ebenso die
+        Fragen mit den Positionen der Parteien. Die Positionen sind zum großen Teil mit KI-Hilfe aus den Programmen
+        erfasst und noch nicht von Menschen geprüft – das Spiel weist darauf hin und verlinkt jede Stelle im Programm.
+        Fehler bitte als <a href={`${QUELLCODE}/issues`}>Issue</a> oder per E-Mail melden.
       </p>
       <h2>Links</h2>
       <p>

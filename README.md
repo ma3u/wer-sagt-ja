@@ -17,17 +17,26 @@ Spiel: Das Spiel läuft zwischen den Browsern der Mitspielenden.
 - Zwei Moderatoren (KI-Stimmen, vorab aufgenommen) begleiten die Show; der Ton ist abschaltbar, alle Ansagen stehen
   auch als Text auf der Seite.
 
-## Woher die Fragen kommen
+## Fragen pflegen
 
-`public/fragen.json` entsteht im [Politik-Duell](https://github.com/ma3u/politik-duell) aus dessen *Haltungen*: je
-Wertfrage die Position aller acht Bundesprogramme (Ja, Nein, teils, keine Aussage) mit Zitat und Seitenanker,
-erfasst nach einem Verfahren ohne Parteinamen. Dort `npm run quiz:erzeugen -- --entwuerfe` ausführen und die Datei
-`public/quiz/fragen-entwurf.json` hierher als `public/fragen.json` kopieren. Die Positionen werden hier nie von Hand
-geändert. Das Spiel fragt immer nach Ja: Fragen, zu denen keine Partei Ja sagt (dann fragt die Datei nach Nein),
-lässt es weg.
+Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Je Frage:
+
+| Feld | Inhalt |
+| --- | --- |
+| `id` | Stabile Kennung, nie ändern – die Aufnahmen heißen danach (`frage-<id>.mp3`, `loesung-<id>.mp3`) |
+| `frage`, `beschreibung` | Neutral formulierte Ja/Nein-Frage mit Fragezeichen und eine Erläuterung |
+| `status_quo` | Was heute gilt (`"ja"`, `"nein"` oder `null`); „keine Aussage“ im Programm zählt wie diese Antwort |
+| `positionen` | Genau eine je Partei: `ja`, `nein`, `teils` oder `keine_aussage`. Ja, Nein und teils immer mit wörtlichem `zitat` und `beleg_url` (Seite im Programm), keine Aussage mit `begruendung`, was durchsucht wurde |
+| `zielkonflikte` | Argumente beider Seiten mit Quelle (optional, leere Liste) |
+| `ki_entwurf` | `true`, solange die Positionen nicht von Menschen geprüft sind – das Spiel sagt das dann an |
+
+Was richtig ist, leitet das Spiel ab (`src/katalog.ts`): Gefragt wird **immer, wer Ja sagt**. Eine Frage, zu der
+keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Frage, wer Ja sagt, und meldet
+Fehler; `npm test` prüft die Datei ebenso. Neue oder geänderte Fragen brauchen danach neue Aufnahmen
+(`npm run stimmen`, kostet ElevenLabs-Credits).
 
 Zurzeit sind alle Fragen **KI-Entwürfe, noch nicht von Menschen geprüft** – das Spiel sagt das auf der Startseite und
-in jeder Auflösung. „Keine Aussage im Programm“ zählt wie die heutige Lage (Feld `status_quo` je Frage).
+in jeder Auflösung.
 
 ## Technik
 
@@ -63,11 +72,12 @@ veröffentlicht auf GitHub Pages unter `/<repository>/`. Vor dem öffentlichen S
 ```
 src/            App: Quiz.tsx (Start, Räume), Ansicht.tsx (Frage, Auflösung, Ergebnis), spielleitung.ts (Regeln),
                 verbindung.ts (WebRTC + Firebase), show/ (Moderation, Ton), Rechtliches.tsx
-public/         fragen.json, audio/ (Stimmen und Geräusche), favicon.svg
-scripts/        stimmen.ts (ElevenLabs), aufraeumen.ts (Firebase)
+public/         fragen.json (Fragen und Positionen), audio/ (Stimmen und Geräusche), Vorschaubilder, llms.txt
+scripts/        fragen.ts (Übersicht und Prüfung), stimmen.ts (ElevenLabs), vorschau.ts, aufraeumen.ts (Firebase)
 firebase/       Regeln der Realtime Database
 ```
 
 ## Lizenz
 
-AGPL-3.0-or-later. Der Code stammt aus dem Quiz-Modus des [Politik-Duells](https://github.com/politik-duell/politik-duell).
+AGPL-3.0-or-later. Der ursprüngliche Code entstand als Quiz-Modus eines anderen AGPL-Projekts; die Urheberrechte
+der damaligen Mitwirkenden bleiben bestehen.

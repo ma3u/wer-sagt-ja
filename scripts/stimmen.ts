@@ -6,7 +6,7 @@
 // public/audio/manifest.json. Ergebnis: public/audio/*.mp3 und manifest.json mit Dauer und Wortzeiten.
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
-import type { QuizDaten } from '../src/typen.ts'
+import { quizDaten, type FragenDatei } from '../src/katalog.ts'
 import { alleClips, GERAEUSCHE, ohneTags, SPRECHER, STARTMUSIK, type Clip, type Sprecher } from '../src/show/texte.ts'
 import type { ShowManifest } from '../src/show/manifest.ts'
 
@@ -52,7 +52,7 @@ async function api(pfad: string, body: unknown): Promise<Response> {
 
 const hash = (...teile: unknown[]) => createHash('sha256').update(JSON.stringify(teile)).digest('hex').slice(0, 12)
 
-const daten = JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as QuizDaten
+const daten = quizDaten(JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as FragenDatei)
 const clips = alleClips(daten.fragen, daten.parteien)
 
 mkdirSync(ordner, { recursive: true })

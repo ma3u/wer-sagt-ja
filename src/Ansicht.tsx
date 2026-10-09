@@ -38,10 +38,10 @@ function ProgrammLink({ url }: { url: string }) {
 
 const sekunden = (ms: number) => (ms / 1000).toLocaleString('de-DE', { maximumFractionDigits: 1 })
 
-/** Was eine Position im Quiz bedeutet – „keine Aussage“ zählt wie die heutige Lage (README.md). */
+/** Was eine Position im Quiz bedeutet – „keine Aussage“ zählt als Ja, wenn heute schon Ja gilt (README.md). */
 function positionImQuiz(position: Positionswert, status_quo: QuizFrage['status_quo']): string {
-  if (position !== 'keine_aussage' || !status_quo) return POSITION_TEXT[position]
-  return `Keine Aussage – bleibt wie heute, zählt als ${status_quo === 'ja' ? 'Ja' : 'Nein'}`
+  if (position !== 'keine_aussage' || status_quo !== 'ja') return POSITION_TEXT[position]
+  return 'Keine Aussage – bleibt wie heute, zählt als Ja'
 }
 
 /** Springt zu einem Element, sobald es gebraucht wird – ohne Animation, wenn Bewegung aus ist (2.3.3). */
@@ -403,7 +403,7 @@ function kreuzText(frage: QuizFrage, parteiId: number, gewaehlt: boolean): { tex
   return null
 }
 
-/** Alle Positionen mit Beleg – feste Reihenfolge, keine Farben für Positionen (wie die Haltungskarte). */
+/** Alle Positionen mit Beleg – feste Reihenfolge, keine Farben für Positionen. */
 export function Positionen({ frage, parteien, auswahl }: { frage: QuizFrage; parteien: QuizPartei[]; auswahl: number[] | null }) {
   return (
     <ul className="position-liste quiz-positionen">
@@ -443,7 +443,7 @@ export function Positionen({ frage, parteien, auswahl }: { frage: QuizFrage; par
 function Zielkonflikte({ frage }: { frage: QuizFrage }) {
   if (!frage.zielkonflikte.length) return null
   return (
-    <details className="quiz-ziele haltung-ziele">
+    <details className="quiz-ziele aufklapp-liste">
       <summary>Welche Ziele gegeneinander stehen</summary>
       <ul>
         {frage.zielkonflikte.map((z, i) => (
@@ -504,13 +504,13 @@ function Stand({ z, ich, letzte }: { z: QuizZustand; ich: string; letzte?: Recor
 
 /** Kurzer Zusatz in der Lösungstafel. */
 function zeilenText(position: Positionswert, frage: QuizFrage): string {
-  if (position !== 'keine_aussage' || !frage.status_quo) return POSITION_TEXT[position]
-  return `keine Aussage, zählt als ${frage.status_quo === 'ja' ? 'Ja' : 'Nein'}`
+  if (position !== 'keine_aussage' || frage.status_quo !== 'ja') return POSITION_TEXT[position]
+  return 'keine Aussage, zählt als Ja'
 }
 
 function loesungText(frage: QuizFrage, parteien: QuizPartei[]) {
   const namen = frage.richtig.map((id) => parteien.find((p) => p.id === id)?.kurzname ?? id).join(', ')
-  return `Für ${frage.gesucht === 'ja' ? 'Ja' : 'Nein'} ${frage.richtig.length === 1 ? 'steht' : 'stehen'}: ${namen}`
+  return `Für Ja ${frage.richtig.length === 1 ? 'steht' : 'stehen'}: ${namen}`
 }
 
 const REAKTION_KNALL = {
@@ -558,8 +558,6 @@ function Aufloesung({ daten, z, ich, frage, istLeitung, allein, onWeiter }: Ansi
   })
   const war = (m: Marke) => show.gewesen.includes(m)
   const loesungDa = war('loesung')
-  const gesucht = frage.gesucht === 'ja' ? 'Ja' : 'Nein'
-
   return (
     <main className="seite quiz quiz-auftritt">
       <p className="quiz-fortschritt">
@@ -572,7 +570,7 @@ function Aufloesung({ daten, z, ich, frage, istLeitung, allein, onWeiter }: Ansi
         <h2 className="quiz-frage" ref={titel}>
           {frage.frage}
         </h2>
-        <p className={`buehne-meta${loesungDa ? '' : ' show-spannung'}`}>{loesungDa ? `${gesucht}-Stimmen im Programm:` : 'Und die Programme sagen …'}</p>
+        <p className={`buehne-meta${loesungDa ? '' : ' show-spannung'}`}>{loesungDa ? 'Ja-Stimmen im Programm:' : 'Und die Programme sagen …'}</p>
       </div>
       {/* Stimmzettel mit Stempel: im Takt der Ansage. Feste Reihenfolge, keine Farben für Positionen. */}
       <ul className="partei-liste stimmzettel show-tafel" aria-label="Lösung">
@@ -585,9 +583,9 @@ function Aufloesung({ daten, z, ich, frage, istLeitung, allein, onWeiter }: Ansi
               <span className="partei-zeile-name">
                 {partei.name}
                 {/* Der Stempel sagt es schon – der Zusatz nur, wo er etwas Neues sagt (Nein, teils, keine Aussage). */}
-                {show.fertig && p && p.position !== frage.gesucht && <small> · {zeilenText(p.position, frage)}</small>}
+                {show.fertig && p && p.position !== 'ja' && <small> · {zeilenText(p.position, frage)}</small>}
               </span>
-              {stempel && <span className="show-stempel">{gesucht}</span>}
+              {stempel && <span className="show-stempel">Ja</span>}
               {gewaehlt && <span className="sr-only">(dein Kreuz)</span>}
               <Kreuzfeld />
             </li>
@@ -608,7 +606,7 @@ function Aufloesung({ daten, z, ich, frage, istLeitung, allein, onWeiter }: Ansi
             <p className="quiz-ergebnis">Keine Antwort – 0 Punkte.</p>
           )}
           {/* Belege eingeklappt: Die Tafel oben zeigt das Ergebnis, hier steht der Wortlaut mit Seite. */}
-          <details className="quiz-belege haltung-ziele">
+          <details className="quiz-belege aufklapp-liste">
             <summary>Was in den Programmen steht (Wortlaut und Seite)</summary>
             <Positionen frage={frage} parteien={daten.parteien} auswahl={mein?.auswahl ?? []} />
             <p className="meta">

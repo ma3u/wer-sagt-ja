@@ -608,12 +608,12 @@ textarea {
   border-left: 2px solid var(--linie);
   font-style: italic;
 }
-.haltung-ziele ul {
+.aufklapp-liste ul {
   margin: 0;
   padding-left: 1.1rem;
   font-size: 0.92rem;
 }
-.haltung-ziele li + li {
+.aufklapp-liste li + li {
   margin-top: 4px;
 }
 .quiz-start-felder {

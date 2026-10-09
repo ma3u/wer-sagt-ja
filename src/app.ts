@@ -5,6 +5,3 @@ export const UNTERTITEL = 'Das Quiz zu den Wahlprogrammen'
 
 /** Öffentlicher Quellcode dieser App. */
 export const QUELLCODE = 'https://github.com/ma3u/wer-sagt-ja'
-
-/** Woher die Fragen stammen: der Datenkatalog des Politik-Duells (Haltungen mit Positionen aller Bundesprogramme). */
-export const DATENQUELLE = 'https://github.com/ma3u/politik-duell'

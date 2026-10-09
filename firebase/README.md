@@ -6,8 +6,21 @@ Firebase-SDK, damit im Browser nichts gespeichert wird.
 
 | | |
 | --- | --- |
-| Datenbank | `VITE_FIREBASE_DATABASE_URL` in `.env` (öffentlich; Schutz über die Regeln) |
+| Datenbank | lokal `VITE_FIREBASE_DATABASE_URL` in `.env`, beim Veröffentlichen die Repository-Variable `FIREBASE_DATABASE_URL` (öffentlich; Schutz über die Regeln) |
 | Regeln | [`database.rules.json`](database.rules.json) – in der Firebase-Konsole unter *Realtime Database → Rules* eintragen |
+
+## Eigenes Projekt anlegen oder wechseln
+
+1. In der [Firebase-Konsole](https://console.firebase.google.com/) ein Projekt anlegen (z. B. `wer-sagt-ja`), ohne
+   Google Analytics, Tarif Spark.
+2. *Realtime Database → Datenbank erstellen*, Standort `europe-west1` (Belgien), im gesperrten Modus starten.
+3. Unter *Rules* den Inhalt von [`database.rules.json`](database.rules.json) eintragen und veröffentlichen.
+4. Die Adresse der Datenbank (`https://<projekt>-default-rtdb.europe-west1.firebasedatabase.app`) setzen:
+   `gh variable set FIREBASE_DATABASE_URL --body "<Adresse>"` – der nächste Push veröffentlicht die App damit.
+   Lokal dieselbe Adresse als `VITE_FIREBASE_DATABASE_URL` in `.env`.
+5. Optional für das tägliche Aufräumen das Datenbank-Secret setzen (siehe unten).
+
+Die Datenschutzerklärung nennt den Standort automatisch aus der Adresse.
 
 ## Datenmodell
 

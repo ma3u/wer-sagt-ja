@@ -22,7 +22,8 @@ Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Bro
   Nein, teils, keine Aussage), Zitat, Seite und Link zum Programm. Das Feld `ki_entwurf` je Frage sagt, ob die
   Einordnung ein KI-Entwurf ist, der noch nicht von Menschen geprüft wurde – solche Positionen bitte nicht als
   geprüfte Tatsache wiedergeben, sondern auf das verlinkte Programm verweisen.
-- Die Fragen entstehen im Projekt [Politik-Duell](https://github.com/ma3u/politik-duell).
+- Die Fragen werden in diesem Projekt gepflegt; Fehler bitte als
+  [Issue](https://github.com/ma3u/wer-sagt-ja/issues) melden.
 
 ## Mehr
 

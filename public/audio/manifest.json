@@ -183,43 +183,6 @@
       ],
       "hash": "d3a756ac8606"
     },
-    "anl-einzeln-nein": {
-      "datei": "anl-einzeln-nein.mp3",
-      "sprecher": "ben",
-      "text": "Nur eine Partei sagt hier klar Nein. Welche?",
-      "dauer": 2.64,
-      "woerter": [
-        0.136,
-        0.224,
-        0.512,
-        0.864,
-        1.136,
-        1.28,
-        1.653,
-        2.22
-      ],
-      "hash": "cbf99d3ba03c"
-    },
-    "anl-mehrfach-nein": {
-      "datei": "anl-mehrfach-nein.mp3",
-      "sprecher": "ben",
-      "text": "Welche Parteien sagen Nein? Mehrere sind richtig – „teils“ zählt nicht.",
-      "dauer": 4.16,
-      "woerter": [
-        0,
-        0.272,
-        0.68,
-        0.933,
-        1.584,
-        2.048,
-        2.29,
-        2.76,
-        2.9,
-        3.44,
-        3.733
-      ],
-      "hash": "df7fd2f46e8c"
-    },
     "optionen": {
       "datei": "optionen.mp3",
       "sprecher": "ben",
@@ -1195,36 +1158,6 @@
         5.056
       ],
       "hash": "c798aa80b755"
-    },
-    "frage-h20": {
-      "datei": "frage-h20.mp3",
-      "sprecher": "mara",
-      "text": "Sollen Solaranlagen auf Ackerflächen gebaut werden dürfen?",
-      "dauer": 2.72,
-      "woerter": [
-        0,
-        0.307,
-        1.08,
-        1.24,
-        1.78,
-        2.046,
-        2.34
-      ],
-      "hash": "f57cf2f6bb02"
-    },
-    "loesung-h20": {
-      "datei": "loesung-h20.mp3",
-      "sprecher": "mara",
-      "text": "Nein sagen: AfD und BSW!",
-      "dauer": 2.8,
-      "woerter": [
-        0.069,
-        0.32,
-        1.253,
-        1.74,
-        2.08
-      ],
-      "hash": "ad2497e7b1c6"
     },
     "frage-h21": {
       "datei": "frage-h21.mp3",

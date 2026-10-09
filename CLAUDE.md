@@ -4,8 +4,10 @@ Mehrspieler-Quiz zu den Bundeswahlprogrammen 2025: Bis zu acht Personen raten, w
 sagen – nie nach Nein gefragt. React + Vite + TypeScript, ohne Datenbank und ohne KI im Spiel. Alles Wichtige steht in README.md.
 
 - `npm run dev | build | lint | typen | test`
-- Fragen (`public/fragen.json`) kommen aus dem Politik-Duell (`npm run quiz:erzeugen -- --entwuerfe` dort) und werden
-  hier nicht bearbeitet, nur ersetzt. Positionen der Parteien nie von Hand ändern.
+- Eigenständiges Projekt: keine Abhängigkeit zu anderen Repositories. Fragen und Positionen werden hier in
+  `public/fragen.json` gepflegt (Format in README.md, Ableitung in `src/katalog.ts`), geprüft mit `npm run fragen`.
+  Eine Position nur mit wörtlichem Zitat und Beleg-Link aus dem Programm setzen oder ändern; `id` nie ändern.
+- Gefragt wird immer, wer Ja sagt – nie nach Nein (Texte, Ansagen, Stempel).
 - Stimmen (`public/audio/`) erzeugt `npm run stimmen` über ElevenLabs – kostet Credits; Schlüssel nur in `.env.local`,
   nie einchecken.
 - Vorschaubild und App-Icons (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` (Chrome, ffmpeg).

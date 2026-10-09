@@ -28,7 +28,7 @@ jobs:
       - run: npm run build
         env:
           BASIS_PFAD: /${{ github.event.repository.name }}/
-          VITE_FIREBASE_DATABASE_URL: https://politik-duell-quiz-default-rtdb.europe-west1.firebasedatabase.app
+          VITE_FIREBASE_DATABASE_URL: ${{ vars.FIREBASE_DATABASE_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

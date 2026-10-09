@@ -1,10 +1,10 @@
-import type { QuizFrage, QuizPartei } from '../typen.ts'
+import type { Antwortart, QuizFrage, QuizPartei } from '../typen.ts'
 
 // Sprechertexte der Quiz-Show. Zwei erfundene Moderatoren im Dialog: Mara stellt
 // Fragen und löst auf, Ben sagt an, erklärt und frotzelt. Frech gegenüber den Spielenden, nie wertend gegenüber
 // Parteien (docs/projekt.md → Branding, Tonalität): keine Kommentare zu Positionen, keine Seitenhiebe.
 // Die Tags in [eckigen Klammern] steuern die Betonung (ElevenLabs eleven_v3) und erscheinen nicht im Untertitel.
-// Aus dieser Datei erzeugt `npm run quiz:stimmen` die Aufnahmen; die App zeigt dieselben Texte als Untertitel.
+// Aus dieser Datei erzeugt `npm run stimmen` die Aufnahmen; die App zeigt dieselben Texte als Untertitel.
 
 export type Sprecher = 'mara' | 'ben'
 
@@ -57,11 +57,9 @@ export const ANSAGE: Clip[] = [
   { id: 'ansage-letzte', sprecher: 'ben', text: '[dramatic] Und jetzt … die letzte Frage!' },
 ]
 
-export const ANLEITUNG: Record<string, Clip> = {
-  'einzeln-ja': { id: 'anl-einzeln-ja', sprecher: 'ben', text: '[playful] Nur eine Partei sagt hier klar Ja. Welche?' },
-  'mehrfach-ja': { id: 'anl-mehrfach-ja', sprecher: 'ben', text: 'Welche Parteien sagen Ja? Mehrere sind richtig – „teils“ zählt nicht.' },
-  'einzeln-nein': { id: 'anl-einzeln-nein', sprecher: 'ben', text: '[playful] Nur eine Partei sagt hier klar Nein. Welche?' },
-  'mehrfach-nein': { id: 'anl-mehrfach-nein', sprecher: 'ben', text: 'Welche Parteien sagen Nein? Mehrere sind richtig – „teils“ zählt nicht.' },
+export const ANLEITUNG: Record<Antwortart, Clip> = {
+  einzeln: { id: 'anl-einzeln-ja', sprecher: 'ben', text: '[playful] Nur eine Partei sagt hier klar Ja. Welche?' },
+  mehrfach: { id: 'anl-mehrfach-ja', sprecher: 'ben', text: 'Welche Parteien sagen Ja? Mehrere sind richtig – „teils“ zählt nicht.' },
 }
 
 export const optionenClip = (parteien: QuizPartei[]): Clip => ({
@@ -127,10 +125,9 @@ export const OUTRO: Clip = { id: 'outro', sprecher: 'mara', text: 'Danke fürs M
 
 export const frageClip = (f: Pick<QuizFrage, 'id' | 'frage'>): Clip => ({ id: `frage-${f.id}`, sprecher: 'mara', text: f.frage })
 
-export function loesungClip(f: Pick<QuizFrage, 'id' | 'art' | 'gesucht' | 'richtig'>, parteien: QuizPartei[]): Clip {
+export function loesungClip(f: Pick<QuizFrage, 'id' | 'art' | 'richtig'>, parteien: QuizPartei[]): Clip {
   const namen = f.richtig.map((id) => parteien.find((p) => p.id === id)).filter((p): p is QuizPartei => !!p).map(gesprochen)
-  const wort = f.gesucht === 'ja' ? 'Ja' : 'Nein'
-  const text = f.art === 'einzeln' ? `Klar ${wort} sagt nur: ${liste(namen)}!` : `${wort} sagen: ${liste(namen)}!`
+  const text = f.art === 'einzeln' ? `Klar Ja sagt nur: ${liste(namen)}!` : `Ja sagen: ${liste(namen)}!`
   return { id: `loesung-${f.id}`, sprecher: 'mara', text: `[excited] ${text}` }
 }
 

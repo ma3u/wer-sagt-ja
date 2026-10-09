@@ -50,7 +50,7 @@ export function vorspann(
       : []),
     { marke: 'ansage', clip: ansage, klang: 'schlag', pause: 150 },
     { marke: 'frage', clip: frageClip(frage), klang: 'wusch', pause: 200 },
-    { marke: 'anleitung', clip: ANLEITUNG[`${frage.art}-${frage.gesucht}`], pause: 150 },
+    { marke: 'anleitung', clip: ANLEITUNG[frage.art], pause: 150 },
     // Beim ersten Mal werden die Antworten vorgelesen, danach poppen sie nur auf.
     index === 0
       ? { marke: 'optionen', clip: optionenClip(parteien), pause: 150 }

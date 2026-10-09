@@ -1,6 +1,6 @@
 import type { Sprecher } from './texte.ts'
 
-/** public/quiz/audio/manifest.json – erzeugt von `npm run quiz:stimmen`. */
+/** public/audio/manifest.json – erzeugt von `npm run stimmen`. */
 export interface ShowManifest {
   /** ElevenLabs-Stimmen-IDs (nicht geheim). */
   stimmen: Record<Sprecher, string>

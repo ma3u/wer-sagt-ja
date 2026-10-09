@@ -1,5 +1,5 @@
-// Wer sagt im Wahlprogramm Ja? Ohne Datenbank – die Fragen kommen als statische Datei (public/fragen.json, erzeugt
-// im Politik-Duell aus dessen Haltungen), das Spiel läuft zwischen den Browsern.
+// Wer sagt im Wahlprogramm Ja? Ohne Datenbank – die Fragen kommen als statische Datei (public/fragen.json, gepflegt
+// in diesem Projekt, gelesen über katalog.ts), das Spiel läuft zwischen den Browsern.
 
 /** Position eines Programms zu einer Wertfrage. */
 export type Positionswert = 'ja' | 'nein' | 'teils' | 'keine_aussage'
@@ -42,31 +42,28 @@ export interface QuizZielkonflikt {
 export type Antwortart = 'einzeln' | 'mehrfach'
 
 export interface QuizFrage {
-  /** `h` + ID der Haltung. */
+  /** Stabile Kennung aus public/fragen.json. */
   id: string
-  haltung_id: number
   frage: string
   beschreibung: string
   art: Antwortart
-  /** Nach welcher Position gefragt wird. */
-  gesucht: 'ja' | 'nein'
   /** Antwort, die der heutigen Lage entspricht – `keine_aussage` zählt wie sie (null: nicht festgelegt). */
   status_quo: 'ja' | 'nein' | null
-  /** Parteien mit der gesuchten Position. */
+  /** Parteien, die Ja sagen (gefragt wird immer nach Ja). */
   richtig: number[]
   /** Parteien mit `teils` bei Mehrfachauswahl – zählen weder als richtig noch als falsch. */
   neutral: number[]
-  /** Alle Bundesprogramme, nach Partei-ID. */
+  /** Alle Programme, nach Partei-ID. */
   positionen: QuizPosition[]
   zielkonflikte: QuizZielkonflikt[]
-  /** Mindestens eine Position ist nur KI-Entwurf (nie in der öffentlichen Datei). */
+  /** Positionen nur mit KI-Hilfe erfasst, noch nicht von Menschen geprüft. */
   ki_entwurf: boolean
 }
 
 export interface QuizDaten {
-  /** Kurzer Hash über Parteien und Fragen: Alle Geräte im Raum müssen dieselbe Fassung haben. */
+  /** Prüfsumme über die Fragendatei: Alle Geräte im Raum müssen dieselbe Fassung haben. */
   version: string
-  /** true = enthält ungeprüfte KI-Entwürfe (nur lokal). */
+  /** true = enthält Fragen mit ungeprüften KI-Entwürfen. */
   entwurf: boolean
   parteien: QuizPartei[]
   fragen: QuizFrage[]
