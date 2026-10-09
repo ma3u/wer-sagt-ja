@@ -11,10 +11,9 @@ import { pruefeText } from './namen'
 import { gemerkterName, nameMerken } from './merken'
 import { beobachteOeffentliche, meldeOeffentlich, OEFFENTLICH_MOEGLICH, type OeffentlicherRaum } from './oeffentlich'
 import { neuerRaumname, raumAusEingabe, raumPfad, type Raum } from './raumname'
-import { bereinigeName, FRAGEN_JE_SPIEL } from './spielleitung'
+import { bereinigeName } from './spielleitung'
 import type { QuizDaten } from './typen'
 import { useGast, useSpielleitung } from './useSpiel'
-import { VERMITTLUNG } from './netz'
 import { TonAufruf, TonKnopf, UntertitelLeiste } from './show/Buehne'
 import { alleClips, GERAEUSCHE } from './show/texte'
 import { entsperren, gemerkteTonWahl, ladeShow, melodieStoppen, startmelodie, vorladen } from './show/ton'
@@ -300,14 +299,9 @@ function QuizStart({
         </div>
         <p className="erklaerung">
           Welche Parteien sagen in ihrem Wahlprogramm Ja? Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr.
-          Danach zeigt das Quiz die Stelle in jedem Programm.
         </p>
         <div className="quiz-start-felder">
-          <p className="meta">
-            {leer
-              ? 'Noch gibt es keine vollständig geprüften Fragen.'
-              : `${daten.fragen.length} ${daten.fragen.length === 1 ? 'Frage' : 'Fragen'} aus den Bundeswahlprogrammen 2025, je Spiel bis zu ${FRAGEN_JE_SPIEL}.`}
-          </p>
+          {leer && <p className="meta">Noch gibt es keine vollständig geprüften Fragen.</p>}
 
           <label className="label" htmlFor={`${id}-name`}>
             Dein Name im Spiel (freiwillig)
@@ -403,12 +397,7 @@ function QuizStart({
         </div>
 
         <p className="datenschutz">
-          <strong>Datenschutz:</strong> Kein Konto, keine Cookies; dein Name im Spiel und deine Ton-Wahl bleiben nur auf
-          deinem Gerät (leeres Namensfeld löscht den Namen). Keine KI wertet deine Antworten aus. Mara und Ben sind
-          KI-Stimmen (ElevenLabs), vorab aufgenommen – beim Spielen geht nichts an ElevenLabs. Das Spiel läuft zwischen
-          euren Geräten; {VERMITTLUNG} vermittelt nur die Verbindung und leitet weiter, wenn es direkt nicht klappt –
-          Nachrichten liegen dort nur, bis sie gelesen sind. Bei einer direkten Verbindung sehen die Geräte im Raum
-          gegenseitig ihre IP-Adresse. <a href="#/datenschutz">Mehr erfahren</a>
+          Kein Konto, keine Cookies, keine KI im Spiel. <a href="#/datenschutz">Datenschutz</a>
         </p>
       </div>
     </main>
