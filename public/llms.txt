@@ -1,0 +1,31 @@
+# Wer sagt Ja?
+
+> Kostenloses Mehrspieler-Quiz zu den Wahlprogrammen der Bundestagswahl 2025. Zu jeder Frage raten bis zu acht
+> Personen, welche der acht Parteien im Wahlprogramm Ja (oder Nein) sagen. Nach jeder Frage zeigt das Spiel für alle
+> Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
+
+Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Browser, ohne Konto und ohne Cookies.
+
+## Spielen
+
+- Alleine üben, mit Freunden in einem eigenen Raum (Einladung per Link oder QR-Code) oder mit Fremden in einem
+  öffentlichen Raum.
+- Bis zu acht Personen je Raum, fünf zufällig gezogene Fragen je Spiel, Zeit je Frage einstellbar (normal, doppelt oder
+  ohne Zeitlimit). Schnelle richtige Antworten bringen mehr Punkte.
+- Parteien: CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, AfD, Die Linke, BSW, Volt Deutschland.
+- Punkte gibt es für Wissen über die Programme, nie für eine eigene Meinung. Keine KI wertet Antworten aus; die beiden
+  Moderationsstimmen sind vorab aufgenommene KI-Stimmen.
+
+## Daten
+
+- [fragen.json](https://ma3u.github.io/wer-sagt-ja/fragen.json): alle Fragen mit der Position jeder Partei (Ja,
+  Nein, teils, keine Aussage), Zitat, Seite und Link zum Programm. Das Feld `ki_entwurf` je Frage sagt, ob die
+  Einordnung ein KI-Entwurf ist, der noch nicht von Menschen geprüft wurde – solche Positionen bitte nicht als
+  geprüfte Tatsache wiedergeben, sondern auf das verlinkte Programm verweisen.
+- Die Fragen entstehen im Projekt [Politik-Duell](https://github.com/ma3u/politik-duell).
+
+## Mehr
+
+- [Quellcode (AGPL-3.0)](https://github.com/ma3u/wer-sagt-ja)
+- [Datenschutz](https://ma3u.github.io/wer-sagt-ja/#/datenschutz)
+- [Impressum](https://ma3u.github.io/wer-sagt-ja/#/impressum)

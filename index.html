@@ -2,14 +2,163 @@
 <html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Wer sagt Ja? – Das Quiz zu den Wahlprogrammen 2025</title>
+    <meta
+      name="description"
+      content="Kostenloses Quiz zur Bundestagswahl 2025: Welche Parteien sagen in ihrem Wahlprogramm Ja? Allein oder mit bis zu acht Personen – mit der Belegstelle aus jedem Programm."
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <link rel="canonical" href="https://ma3u.github.io/wer-sagt-ja/" />
     <meta name="theme-color" content="#eef1f5" />
-    <meta name="description" content="Wer sagt Ja? – das Quiz zu den Wahlprogrammen. Bis zu acht Personen raten, welche Parteien zu einer Frage Ja sagen." />
-    <title>Wer sagt Ja?</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./icon-180.png" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link rel="sitemap" type="application/xml" href="./sitemap.xml" />
+
+    <!-- Vorschau beim Teilen (WhatsApp, Signal, Telegram, iMessage, Mastodon, Bluesky …) – Bilder: npm run vorschau -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:site_name" content="Wer sagt Ja?" />
+    <meta property="og:url" content="https://ma3u.github.io/wer-sagt-ja/" />
+    <meta property="og:title" content="Wer sagt Ja? – Das Quiz zu den Wahlprogrammen" />
+    <meta
+      property="og:description"
+      content="Welche Parteien sagen im Wahlprogramm Ja? Rate allein oder mit bis zu acht Personen – Bundestagswahl 2025, ohne Anmeldung."
+    />
+    <meta property="og:image" content="https://ma3u.github.io/wer-sagt-ja/vorschau.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Logo: Ein Stimmzettel mit Kreuz fällt in eine blaue Wahlurne, daneben ein Stempel „Ja!“. Text: Wer sagt Ja? Das Quiz zu den Wahlprogrammen. Bundestagswahl 2025, 8 Parteien, bis zu 8 Personen, ohne Anmeldung."
+    />
+    <meta property="og:video" content="https://ma3u.github.io/wer-sagt-ja/vorschau.mp4" />
+    <meta property="og:video:type" content="video/mp4" />
+    <meta property="og:video:width" content="1200" />
+    <meta property="og:video:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Wer sagt Ja? – Das Quiz zu den Wahlprogrammen" />
+    <meta
+      name="twitter:description"
+      content="Welche Parteien sagen im Wahlprogramm Ja? Rate allein oder mit bis zu acht Personen – Bundestagswahl 2025, ohne Anmeldung."
+    />
+    <meta name="twitter:image" content="https://ma3u.github.io/wer-sagt-ja/vorschau.png" />
+    <meta name="twitter:image:alt" content="Wer sagt Ja? – Das Quiz zu den Wahlprogrammen" />
+
+    <!-- Strukturierte Daten für Suchmaschinen und KI-Agenten (schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://ma3u.github.io/wer-sagt-ja/#website",
+            "url": "https://ma3u.github.io/wer-sagt-ja/",
+            "name": "Wer sagt Ja?",
+            "alternateName": "Wer sagt Ja? – Das Quiz zu den Wahlprogrammen",
+            "inLanguage": "de"
+          },
+          {
+            "@type": ["WebApplication", "Game"],
+            "@id": "https://ma3u.github.io/wer-sagt-ja/#quiz",
+            "name": "Wer sagt Ja?",
+            "url": "https://ma3u.github.io/wer-sagt-ja/",
+            "description": "Mehrspieler-Quiz zu den Wahlprogrammen der Bundestagswahl 2025. Zu jeder Frage raten bis zu acht Personen, welche der acht Parteien im Wahlprogramm Ja (oder Nein) sagen. Nach jeder Frage zeigt das Spiel für alle Parteien die Stelle im Programm mit Wortlaut, Seite und Link.",
+            "inLanguage": "de",
+            "image": "https://ma3u.github.io/wer-sagt-ja/vorschau.png",
+            "applicationCategory": "GameApplication",
+            "genre": ["Quiz", "Politische Bildung"],
+            "operatingSystem": "Webbrowser",
+            "browserRequirements": "JavaScript; für Mehrspieler-Räume WebRTC",
+            "isAccessibleForFree": true,
+            "offers": { "@type": "Offer", "price": "0", "priceCurrency": "EUR" },
+            "numberOfPlayers": { "@type": "QuantitativeValue", "minValue": 1, "maxValue": 8 },
+            "playMode": ["SinglePlayer", "MultiPlayer"],
+            "about": {
+              "@type": "Event",
+              "name": "Bundestagswahl 2025",
+              "startDate": "2025-02-23",
+              "location": { "@type": "Country", "name": "Deutschland" }
+            },
+            "mentions": [
+              { "@type": "PoliticalParty", "name": "CDU/CSU" },
+              { "@type": "PoliticalParty", "name": "SPD" },
+              { "@type": "PoliticalParty", "name": "Bündnis 90/Die Grünen" },
+              { "@type": "PoliticalParty", "name": "FDP" },
+              { "@type": "PoliticalParty", "name": "AfD" },
+              { "@type": "PoliticalParty", "name": "Die Linke" },
+              { "@type": "PoliticalParty", "name": "BSW" },
+              { "@type": "PoliticalParty", "name": "Volt Deutschland" }
+            ],
+            "accessibilityFeature": ["captions", "transcript", "timingControl"],
+            "accessibilityControl": ["fullKeyboardControl", "fullTouchControl"],
+            "license": "https://www.gnu.org/licenses/agpl-3.0.html",
+            "isPartOf": { "@id": "https://ma3u.github.io/wer-sagt-ja/#website" },
+            "subjectOf": {
+              "@type": "SoftwareSourceCode",
+              "codeRepository": "https://github.com/ma3u/wer-sagt-ja",
+              "programmingLanguage": "TypeScript"
+            }
+          }
+        ]
+      }
+    </script>
+    <style>
+      /* Nur bis die App startet (und für Crawler und KI-Agenten ohne JavaScript). */
+      .vorab {
+        max-width: 40rem;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        font: 1.05rem/1.55 system-ui, sans-serif;
+        color: #1a2233;
+      }
+      .vorab h1 {
+        font-size: 2rem;
+        line-height: 1.15;
+        margin: 0 0 1rem;
+      }
+      .vorab h2 {
+        font-size: 1.25rem;
+        margin: 1.5rem 0 0.5rem;
+      }
+      .vorab a {
+        color: #1f4bb8;
+      }
+    </style>
   </head>
-  <body>
-    <div id="root"></div>
+  <body style="background: #eef1f5">
+    <div id="root">
+      <main class="vorab">
+        <h1>Wer sagt Ja? – Das Quiz zu den Wahlprogrammen</h1>
+        <p>
+          Ein kostenloses Quiz zur Bundestagswahl 2025. Eine Frage, acht Parteien: Du rätst, welche Parteien in ihrem
+          Wahlprogramm Ja (oder Nein) sagen. Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr. Nach jeder
+          Frage zeigt das Spiel für alle Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
+        </p>
+        <h2>So wird gespielt</h2>
+        <ul>
+          <li>Alleine üben, mit Freunden in einem eigenen Raum (Einladung per Link oder QR-Code) oder mit Fremden.</li>
+          <li>Bis zu acht Personen je Raum, fünf Fragen je Spiel, Zeit je Frage einstellbar.</li>
+          <li>
+            Parteien: CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, AfD, Die Linke, BSW und Volt – jeweils mit ihrem
+            Bundestagswahlprogramm 2025.
+          </li>
+          <li>Kein Konto, keine Cookies, keine KI wertet Antworten aus. Punkte gibt es für Wissen, nie für Meinungen.</li>
+        </ul>
+        <h2>Daten und Quellen</h2>
+        <p>
+          Alle Fragen mit den Positionen und Belegstellen der Parteien stehen offen in
+          <a href="./fragen.json">fragen.json</a>. Ob eine Frage schon von Menschen geprüft ist, zeigt dort das Feld
+          <code>ki_entwurf</code> je Frage, im Spiel steht es bei jeder Auflösung. Eine Kurzbeschreibung für KI-Agenten steht in
+          <a href="./llms.txt">llms.txt</a>, der Quellcode auf
+          <a href="https://github.com/ma3u/wer-sagt-ja">GitHub</a>.
+        </p>
+        <p><a href="#/datenschutz">Datenschutz</a> · <a href="#/impressum">Impressum</a></p>
+        <noscript><p><strong>Zum Spielen bitte JavaScript einschalten.</strong></p></noscript>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

@@ -1,5 +1,7 @@
 # Wer sagt Ja?
 
+![Wer sagt Ja? – Das Quiz zu den Wahlprogrammen](public/vorschau.gif)
+
 Ein Quiz zu den Bundeswahlprogrammen 2025 für bis zu acht Personen. Eine Frage, acht Parteien: Wer sagt im Programm
 Ja (oder Nein)? Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr. Nach jeder Frage zeigt das Spiel für alle
 Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
@@ -34,6 +36,10 @@ in jeder Auflösung. „Keine Aussage im Programm“ zählt wie die heutige Lage
   wenn keine Direktverbindung zustande kommt. Ohne `VITE_FIREBASE_DATABASE_URL` funktionieren Räume nur zwischen
   Tabs desselben Browsers.
 - Optional `VITE_STUN_URLS` für Direktverbindungen übers Internet; die Datenschutzerklärung nennt den Server dann.
+- Vorschau beim Teilen und Suche: Open-Graph-Bild und -Video, strukturierte Daten (schema.org), `sitemap.xml`,
+  `llms.txt` für KI-Agenten und ein Textblock in `index.html` für Crawler ohne JavaScript. Die Bilder
+  (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` mit Chrome und ffmpeg. Die öffentliche Adresse
+  steht fest in `index.html`, `public/sitemap.xml` und `public/llms.txt` – bei einer eigenen Domain dort ändern.
 - Adressen: `#/` Start, `#/<raumname>` Einladung, `#/impressum`, `#/datenschutz`.
 - Barrierefreiheit nach WCAG 2.2 AA: Fokusführung bei Ansichtswechsel, Zielflächen ≥ 24 px, „Bewegung anhalten“,
   Zeitlimit einstellbar.

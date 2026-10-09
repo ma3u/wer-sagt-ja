@@ -1,0 +1,16 @@
+{
+  "name": "Wer sagt Ja? – Das Quiz zu den Wahlprogrammen",
+  "short_name": "Wer sagt Ja?",
+  "description": "Quiz zur Bundestagswahl 2025: Welche Parteien sagen in ihrem Wahlprogramm Ja?",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#eef1f5",
+  "theme_color": "#eef1f5",
+  "icons": [
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

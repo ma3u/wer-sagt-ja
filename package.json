@@ -12,7 +12,8 @@
     "typen": "tsc -p tsconfig.app.json --noEmit && tsc -p tsconfig.node.json --noEmit && tsc -p tsconfig.scripts.json --noEmit",
     "test": "vitest run",
     "stimmen": "node --experimental-strip-types scripts/stimmen.ts",
-    "aufraeumen": "node --experimental-strip-types scripts/aufraeumen.ts"
+    "aufraeumen": "node --experimental-strip-types scripts/aufraeumen.ts",
+    "vorschau": "node --experimental-strip-types scripts/vorschau.ts"
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",
