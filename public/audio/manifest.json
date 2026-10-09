@@ -818,19 +818,20 @@
     "loesung-h7": {
       "datei": "loesung-h7.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP und Volt!",
-      "dauer": 4.32,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP, AfD und Volt!",
+      "dauer": 4.8,
       "woerter": [
-        0.213,
-        0.32,
-        0.92,
-        1.74,
-        2.3,
-        3,
-        3.52,
-        3.856
+        0.24,
+        0.493,
+        1.427,
+        1.96,
+        2.54,
+        3.08,
+        3.707,
+        4.14,
+        4.4
       ],
-      "hash": "abbb8cfc6281"
+      "hash": "61207a36c4a9"
     },
     "frage-h8": {
       "datei": "frage-h8.mp3",
@@ -860,17 +861,19 @@
     "loesung-h8": {
       "datei": "loesung-h8.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Grüne, Linke und Volt!",
-      "dauer": 3.12,
+      "text": "Ja sagen: SPD, Grüne, Linke, BSW und Volt!",
+      "dauer": 4.08,
       "woerter": [
-        0.24,
-        0.48,
-        1.12,
+        0.213,
+        0.32,
+        1.34,
         1.9,
-        2.32,
-        2.656
+        2.38,
+        2.96,
+        3.5,
+        3.744
       ],
-      "hash": "c81a7330282c"
+      "hash": "1ea5479c2e0d"
     },
     "frage-h9": {
       "datei": "frage-h9.mp3",
@@ -985,20 +988,21 @@
     "loesung-h12": {
       "datei": "loesung-h12.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, Linke, BSW und Volt!",
-      "dauer": 5.12,
+      "text": "Ja sagen: Union, SPD, Grüne, AfD, Linke, BSW und Volt!",
+      "dauer": 5.44,
       "woerter": [
-        0.28,
-        0.413,
-        1.093,
-        1.98,
-        2.54,
-        3.16,
-        3.72,
-        4.32,
-        4.656
+        0.133,
+        0.32,
+        1.187,
+        1.72,
+        2.22,
+        2.827,
+        3.32,
+        3.92,
+        4.6,
+        5.04
       ],
-      "hash": "f7f5781c461c"
+      "hash": "11b85cc442df"
     },
     "frage-h13": {
       "datei": "frage-h13.mp3",
@@ -1176,17 +1180,21 @@
     "loesung-h19": {
       "datei": "loesung-h19.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD und FDP!",
-      "dauer": 3.04,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP, Linke, BSW und Volt!",
+      "dauer": 5.6,
       "woerter": [
         0.133,
         0.32,
-        0.907,
-        1.64,
-        2.08,
-        2.44
+        0.933,
+        1.8,
+        2.38,
+        3,
+        3.58,
+        4.2,
+        4.78,
+        5.056
       ],
-      "hash": "00bbea81a9d5"
+      "hash": "c798aa80b755"
     },
     "frage-h20": {
       "datei": "frage-h20.mp3",
@@ -1240,16 +1248,17 @@
     "loesung-h21": {
       "datei": "loesung-h21.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Linke und Volt!",
-      "dauer": 2.48,
+      "text": "Ja sagen: Linke, BSW und Volt!",
+      "dauer": 2.96,
       "woerter": [
-        0.16,
-        0.413,
-        1.18,
-        1.6,
-        1.952
+        0.139,
+        0.24,
+        0.86,
+        1.72,
+        2.24,
+        2.56
       ],
-      "hash": "2e9935f1cabb"
+      "hash": "0775b59a2a2b"
     },
     "frage-h24": {
       "datei": "frage-h24.mp3",
@@ -1400,19 +1409,20 @@
     "loesung-h32": {
       "datei": "loesung-h32.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP und Volt!",
-      "dauer": 4.96,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP, AfD und Volt!",
+      "dauer": 5.2,
       "woerter": [
-        0.28,
-        0.413,
-        1.393,
-        2,
-        2.7,
-        3.4,
-        4.02,
-        4.432
+        0.187,
+        0.48,
+        1.067,
+        1.84,
+        2.46,
+        3.12,
+        3.893,
+        4.4,
+        4.72
       ],
-      "hash": "abbb8cfc6281"
+      "hash": "61207a36c4a9"
     },
     "frage-h33": {
       "datei": "frage-h33.mp3",
@@ -1442,19 +1452,21 @@
     "loesung-h33": {
       "datei": "loesung-h33.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, FDP, AfD und BSW!",
-      "dauer": 5.12,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP, AfD, BSW und Volt!",
+      "dauer": 6,
       "woerter": [
-        0.28,
-        0.413,
-        1.44,
+        0.24,
+        0.48,
+        1.107,
         2.06,
-        2.72,
-        3.413,
-        3.94,
-        4.4
+        2.7,
+        3.2,
+        3.92,
+        4.6,
+        5.22,
+        5.6
       ],
-      "hash": "69a617f50761"
+      "hash": "9820ba2fd426"
     }
   },
   "geraeusche": {
@@ -1517,6 +1529,11 @@
       "datei": "klang-niederlage.mp3",
       "dauer": 2.5,
       "hash": "c280dda529fa"
+    },
+    "startmusik": {
+      "datei": "klang-startmusik.mp3",
+      "dauer": 10,
+      "hash": "8dacd961d9fb"
     }
   }
 }

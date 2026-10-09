@@ -59,7 +59,7 @@ mkdirSync(ordner, { recursive: true })
 const manifest: ShowManifest = existsSync(manifestDatei)
   ? (JSON.parse(readFileSync(manifestDatei, 'utf8')) as ShowManifest)
   : { stimmen: { mara: '', ben: '' }, clips: {}, geraeusche: {} }
-const speichern = () => writeFileSync(manifestDatei, `${JSON.stringify(manifest, null, 1)}\n`)
+const speichern = () => writeFileSync(manifestDatei, `${JSON.stringify(manifest, null, 2)}\n`)
 
 // ---- Stimmen entwerfen (einmalig) ----
 async function stimmeEntwerfen(s: Sprecher): Promise<string> {
