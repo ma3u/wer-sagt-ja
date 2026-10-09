@@ -3,14 +3,14 @@
 
 export const BETREIBER = {
   /** Vor- und Nachname (bei Vereinen: Name und Rechtsform) */
-  name: '[Vor- und Nachname]',
-  strasse: '[Straße und Hausnummer]',
-  ort: '[PLZ Ort]',
-  email: '[E-Mail-Adresse]',
+  name: 'Matthias Buchhorn-Roth',
+  strasse: 'Simplonstraße 56',
+  ort: '10245 Berlin',
+  email: 'matthias.buchhorn@web.de',
   /** Datenschutz-Aufsichtsbehörde des eigenen Bundeslands */
   aufsichtsbehoerde: {
-    name: '[Landesdatenschutzbehörde des Bundeslands]',
-    url: 'https://www.bfdi.bund.de/DE/Service/Anschriften/Laender/Laender-node.html',
+    name: 'Berliner Beauftragte für Datenschutz und Informationsfreiheit',
+    url: 'https://www.datenschutz-berlin.de/',
   },
 }
 

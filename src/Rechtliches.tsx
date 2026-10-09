@@ -60,7 +60,7 @@ function Impressum() {
   return (
     <article>
       <h1 ref={titel}>Impressum</h1>
-      <h2>Angaben nach § 5 DDG</h2>
+      <h2>Angaben nach § 18 Abs. 1 MStV</h2>
       <Anschrift />
       <p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: {BETREIBER.name}, Anschrift wie oben.</p>
       <h2>Zum Projekt</h2>
