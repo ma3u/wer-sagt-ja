@@ -174,3 +174,15 @@ export const GERAEUSCHE: Geraeusch[] = [
   { id: 'niederlage', beschreibung: 'Sad comedic trombone, wah wah wah waaah', sekunden: 2.5 },
 ]
 
+/**
+ * Startmusik: kurzer Party-Elektro-Jingle mit gesungenem Chor „Wer sagt Ja?“, erzeugt mit der Music-API von
+ * ElevenLabs (`npm run stimmen`). Ohne Künstlernamen im Prompt: eigener Stil, keine Nachahmung. Spielt beim ersten
+ * Tippen auf der Startseite und beim Einschalten des Tons.
+ */
+export const STARTMUSIK: Geraeusch = {
+  id: 'startmusik',
+  beschreibung:
+    "High-energy German electro-pop party jingle intro for a TV quiz show called 'Wer sagt Ja?'. A rowdy group of male and female voices shouts the German question 'Wer sagt Ja?' in a stomping call-and-response, answered by a cheering crowd shouting 'Ja!', over a pounding four-on-the-floor kick, squelchy analog synth bass, cheeky brass stabs and handclaps. Rave energy, ironic and fun, festival crowd vibe. Ends with one final shouted 'Wer sagt Ja?' and a hard stop.",
+  sekunden: 10,
+}
+

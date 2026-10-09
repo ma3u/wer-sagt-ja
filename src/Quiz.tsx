@@ -17,7 +17,7 @@ import { useGast, useSpielleitung } from './useSpiel'
 import { VERMITTLUNG } from './netz'
 import { TonAufruf, TonKnopf, UntertitelLeiste } from './show/Buehne'
 import { alleClips, GERAEUSCHE } from './show/texte'
-import { entsperren, ladeShow, vorladen } from './show/ton'
+import { entsperren, gemerkteTonWahl, ladeShow, melodieStoppen, startmelodie, vorladen } from './show/ton'
 import { SIGNAL_ART } from './verbindung'
 
 // Das Quiz (Einladung: #/<Raumname>, z. B. #/kluge-eule-27). Ohne Datenbank: Die Fragen kommen aus
@@ -55,8 +55,41 @@ const nameAnstoessig = (name: string) => {
 
 /** In einer Nutzeraktion: Ton freischalten und alle Clips und Geräusche schon laden (ca. 3 MB). */
 function showStarten(daten: QuizDaten) {
+  melodieStoppen()
   entsperren()
   vorladen(alleClips(daten.fragen, daten.parteien), GERAEUSCHE.map((g) => g.id))
+}
+
+/** Startmusik nur einmal je Besuch – beim ersten Tippen oder Tastendruck auf der Startseite (vorher darf kein Ton). */
+let melodieGespielt = false
+function useStartmelodie() {
+  useEffect(() => {
+    if (melodieGespielt) return
+    const arten = ['pointerdown', 'keydown'] as const
+    const entfernen = () => arten.forEach((a) => removeEventListener(a, los, true))
+    function los(e: Event) {
+      // Landet das erste Tippen auf dem Ton-Knopf oder dem Hinweis, entscheiden diese (aus: keine Musik, an: Musik).
+      if (e.target instanceof Element && e.target.closest('.ton-wahl')) {
+        entfernen()
+        melodieGespielt = true
+        return
+      }
+      entfernen()
+      if (melodieGespielt) return
+      melodieGespielt = true
+      void startmelodie()
+    }
+    arten.forEach((a) => addEventListener(a, los, true))
+    // Hat man den Ton früher ausdrücklich eingeschaltet, gleich versuchen – manche Browser erlauben das bei
+    // bekannten Seiten. Sonst bleibt es beim ersten Tippen (und dem Hinweis „Mit Ton spielen?“).
+    if (gemerkteTonWahl() === 'an')
+      void startmelodie().then((ok) => {
+        if (!ok) return
+        melodieGespielt = true
+        entfernen()
+      })
+    return entfernen
+  }, [])
 }
 
 const raumLink = (r: Raum) => `${location.origin}${location.pathname}#/${raumPfad(r)}`
@@ -69,6 +102,9 @@ type Modus =
 
 export function Quiz() {
   const hash = useHash()
+  // Schon beim Öffnen, nicht erst mit der fertigen Startseite: Das erste Tippen startet die Musik auch, wenn die
+  // Fragen noch laden.
+  useStartmelodie()
   const einladung = einladungAus(hash)
   const [daten, setDaten] = useState<QuizDaten | null>(null)
   const [ladeFehler, setLadeFehler] = useState<string | null>(null)
@@ -117,7 +153,7 @@ export function Quiz() {
           <TonKnopf />
         </span>
       </header>
-      <TonAufruf />
+      <TonAufruf mitMelodie={modus.art === 'start'} />
       {!daten ? (
         <main className="seite quiz">
           <p className="hinweis" role={ladeFehler ? 'alert' : undefined}>

@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { SPRECHER } from './texte'
-import { entsperren, setzeTon, tonWahlMerken, useTon, useTonFrei, useUntertitel } from './ton'
+import { entsperren, setzeTon, startmelodie, tonWahlMerken, useTon, useTonFrei, useUntertitel } from './ton'
 
 // Sichtbare Bausteine der Quiz-Show. Animationen stehen in index.css („Quiz-Show“) und ruhen bei „Bewegung
 // anhalten“ bzw. „Bewegung reduzieren“. Kein Blinken (WCAG 2.3.1).
@@ -75,8 +75,9 @@ export function TonKnopf() {
       onClick={() => {
         tonWahlMerken(!spielt)
         setzeTon(!spielt)
-        // Beim Einschalten freischalten – das Tippen weckt auch eine angehaltene Wiedergabe (iOS).
-        if (!spielt) entsperren()
+        // Beim Einschalten die Startmusik – so hört man sofort, ob der Ton geht. Das Tippen weckt auch eine
+        // angehaltene Wiedergabe (iOS).
+        if (!spielt) void startmelodie()
       }}
     >
       <Lautsprecher an={spielt} />
@@ -128,7 +129,8 @@ function useVerzoegertWeg(aus: boolean): boolean {
  * Deutlicher Hinweis, solange der Ton an ist, der Browser ihn aber noch nicht freigegeben hat: Browser spielen Ton
  * erst nach einer Nutzeraktion.
  */
-export function TonAufruf() {
+/** `mitMelodie`: auf der Startseite die Startmusik spielen, im Spiel nur freischalten. */
+export function TonAufruf({ mitMelodie }: { mitMelodie: boolean }) {
   const an = useTon()
   const frei = useTonFrei()
   const weg = useVerzoegertWeg(frei || !an)
@@ -140,7 +142,7 @@ export function TonAufruf() {
         <h2 id="ton-aufruf-titel" className="ton-aufruf-titel">
           Mit Ton spielen?
         </h2>
-        <p>Zwei Moderatoren begleiten das Quiz. Dein Browser spielt Ton erst, wenn du ihn einschaltest.</p>
+        <p>Musik und zwei Moderatoren begleiten das Quiz. Dein Browser spielt Ton erst, wenn du ihn einschaltest.</p>
         <div className="knopf-reihe">
           <button
             type="button"
@@ -148,7 +150,8 @@ export function TonAufruf() {
             onClick={() => {
               tonWahlMerken(true)
               setzeTon(true)
-              entsperren()
+              if (mitMelodie) void startmelodie()
+              else entsperren()
             }}
           >
             Ton einschalten
