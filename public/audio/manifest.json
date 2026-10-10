@@ -1400,6 +1400,305 @@
         5.6
       ],
       "hash": "9820ba2fd426"
+    },
+    "frage-h34": {
+      "datei": "frage-h34.mp3",
+      "sprecher": "mara",
+      "text": "Soll Deutschland weiter Rüstungsgüter an Israel liefern?",
+      "dauer": 2.88,
+      "woerter": [
+        0,
+        0.213,
+        0.846,
+        1.16,
+        1.813,
+        1.977,
+        2.36
+      ],
+      "hash": "1cf8bc85af1d"
+    },
+    "loesung-h34": {
+      "datei": "loesung-h34.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Union und FDP!",
+      "dauer": 2.4,
+      "woerter": [
+        0.213,
+        0.4,
+        0.987,
+        1.58,
+        1.84
+      ],
+      "hash": "c6dad1d970fa"
+    },
+    "frage-h35": {
+      "datei": "frage-h35.mp3",
+      "sprecher": "mara",
+      "text": "Soll staatliches Fördergeld nur an Organisationen gehen, die das Existenzrecht Israels anerkennen?",
+      "dauer": 5.52,
+      "woerter": [
+        0,
+        0.227,
+        0.84,
+        1.6,
+        1.893,
+        2.049,
+        2.773,
+        3.16,
+        3.32,
+        3.493,
+        4.293,
+        4.853
+      ],
+      "hash": "d4a8ebaeb068"
+    },
+    "loesung-h35": {
+      "datei": "loesung-h35.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Union und FDP!",
+      "dauer": 2.48,
+      "woerter": [
+        0.36,
+        0.48,
+        1.08,
+        1.72,
+        1.96
+      ],
+      "hash": "c6dad1d970fa"
+    },
+    "frage-h36": {
+      "datei": "frage-h36.mp3",
+      "sprecher": "mara",
+      "text": "Soll Deutschland Palästina als Staat anerkennen?",
+      "dauer": 2.48,
+      "woerter": [
+        0,
+        0.28,
+        0.76,
+        1.32,
+        1.467,
+        1.813
+      ],
+      "hash": "1e564e0efeae"
+    },
+    "loesung-h36": {
+      "datei": "loesung-h36.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2.48,
+      "woerter": [
+        0.072,
+        0.427,
+        0.72,
+        1.12,
+        1.62
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-h37": {
+      "datei": "frage-h37.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Grundgesetz ausdrücklich vor Benachteiligung wegen der sexuellen Identität schützen?",
+      "dauer": 4.64,
+      "woerter": [
+        0,
+        0.28,
+        0.44,
+        1.04,
+        1.72,
+        1.9,
+        2.68,
+        2.92,
+        3.1,
+        3.56,
+        4.12
+      ],
+      "hash": "3533b1450c57"
+    },
+    "loesung-h37": {
+      "datei": "loesung-h37.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP, Linke und Volt!",
+      "dauer": 5.04,
+      "woerter": [
+        0.139,
+        0.267,
+        1.16,
+        2.14,
+        2.8,
+        3.58,
+        4.1,
+        4.512
+      ],
+      "hash": "8ed21fcdd4ef"
+    },
+    "frage-h38": {
+      "datei": "frage-h38.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Selbstbestimmungsgesetz zum Geschlechtseintrag bestehen bleiben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.2,
+        0.366,
+        1.4,
+        1.56,
+        2.432,
+        2.76
+      ],
+      "hash": "ed76435b18a4"
+    },
+    "loesung-h38": {
+      "datei": "loesung-h38.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP, Linke und Volt!",
+      "dauer": 4.48,
+      "woerter": [
+        0.139,
+        0.24,
+        1.24,
+        1.76,
+        2.44,
+        3.06,
+        3.7,
+        4.08
+      ],
+      "hash": "8ed21fcdd4ef"
+    },
+    "frage-h39": {
+      "datei": "frage-h39.mp3",
+      "sprecher": "mara",
+      "text": "Soll im Sexualstrafrecht der Grundsatz „Nur Ja heißt Ja“ gelten?",
+      "dauer": 4,
+      "woerter": [
+        0,
+        0.213,
+        0.389,
+        1.4,
+        1.547,
+        2.12,
+        2.507,
+        2.784,
+        3.2,
+        3.5
+      ],
+      "hash": "7414a0c4d650"
+    },
+    "loesung-h39": {
+      "datei": "loesung-h39.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.28,
+      "woerter": [
+        0.16,
+        0.427,
+        1.56,
+        2.14,
+        2.54,
+        2.78
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-h40": {
+      "datei": "frage-h40.mp3",
+      "sprecher": "mara",
+      "text": "Soll die doppelte Staatsbürgerschaft generell erlaubt bleiben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.28,
+        0.44,
+        0.78,
+        1.747,
+        2.24,
+        2.69
+      ],
+      "hash": "e3cccd2cc653"
+    },
+    "loesung-h40": {
+      "datei": "loesung-h40.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP, Linke, BSW und Volt!",
+      "dauer": 4.48,
+      "woerter": [
+        0.208,
+        0.307,
+        0.88,
+        1.5,
+        2.04,
+        2.6,
+        3.16,
+        3.68,
+        4.016
+      ],
+      "hash": "c93ecb3bb0d8"
+    },
+    "frage-h41": {
+      "datei": "frage-h41.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Asylsuchende ihre staatlichen Leistungen per Bezahlkarte statt als Bargeld erhalten?",
+      "dauer": 4.64,
+      "woerter": [
+        0,
+        0.293,
+        1.008,
+        1.24,
+        1.653,
+        2.2,
+        2.4,
+        3.253,
+        3.56,
+        3.744,
+        4.133
+      ],
+      "hash": "56d8507e5841"
+    },
+    "loesung-h41": {
+      "datei": "loesung-h41.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Union, FDP und AfD!",
+      "dauer": 3.52,
+      "woerter": [
+        0.28,
+        0.413,
+        1.093,
+        1.96,
+        2.46,
+        2.827
+      ],
+      "hash": "4ff80de3f12e"
+    },
+    "frage-h43": {
+      "datei": "frage-h43.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Straftäter auch nach Syrien und Afghanistan abgeschoben werden?",
+      "dauer": 3.52,
+      "woerter": [
+        0,
+        0.304,
+        0.992,
+        1.152,
+        1.333,
+        1.8,
+        1.973,
+        2.613,
+        3.097
+      ],
+      "hash": "933ed4ac601e"
+    },
+    "loesung-h43": {
+      "datei": "loesung-h43.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Union und AfD!",
+      "dauer": 3.12,
+      "woerter": [
+        0.24,
+        0.493,
+        1.187,
+        2,
+        2.427
+      ],
+      "hash": "d1d07cb5e103"
     }
   },
   "geraeusche": {

@@ -2082,6 +2082,672 @@
           "quelle_url": "https://iab-forum.de/sanktionen-in-der-grundsicherung-ausgewaehlte-forschungsergebnisse-aus-veroeffentlichungen-der-jahre-2021-bis-2024-im-ueberblick/"
         }
       ]
+    },
+    {
+      "id": "h34",
+      "frage": "Soll Deutschland weiter Rüstungsgüter an Israel liefern?",
+      "beschreibung": "Ob Deutschland Israel weiter mit Waffen und Rüstungsgütern beliefert oder ob es diese Exporte einschränkt oder ganz beendet.",
+      "status_quo": null,
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "ja",
+          "kurzfassung": "Will Israel auch militärisch unterstützen und noch bestehende Exportblockaden beenden.",
+          "zitat": "Es liegt in unserem Interesse, dass wir fest an der Seite der einzigen Demokratie im Nahen und Mittleren Osten stehen. Dazu wollen wir Israel auch militärisch unterstützen und noch bestehende Exportblockaden beenden.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Außenpolitik/Naher Osten (S. 62) und Rüstungsexportpolitik (S. 59) gelesen; Suche nach Israel, Waffen, Rüstungsexport, Waffenstillstand: fordert Waffenstillstand und Einhaltung des Völkerrechts, will eine gemeinsame europäische Rüstungsexportpolitik, sagt aber nichts zu Lieferungen an Israel."
+        },
+        {
+          "partei_id": 13,
+          "position": "teils",
+          "kurzfassung": "Will, dass Israel sich verteidigen kann, sieht darin aber keinen Blankoscheck: Rüstungsexporte sollen am humanitären Völkerrecht gemessen und im Einzelfall gestoppt werden.",
+          "zitat": "Israel muss sich und seine Bürger*innen gegen den Terror der Hamas sowie die Raketen des iranischen Regimes und seiner Stellvertreter in der Region verteidigen können. Doch das ist kein Blankoscheck für Rüstungsexporte. Bei jeder Entscheidung über Rüstungsexporte ist das humanitäre Völkerrecht zu beachten. Wenn dem Schutz der Zivilbevölkerung nicht genug Rechnung getragen ist, dürfen im Einzelfall solche Waffen nicht exportiert werden.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=147",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "ja",
+          "kurzfassung": "Will Israel alles zur Selbstverteidigung Nötige zur Verfügung stellen und es bei Rüstungsexporten mit den NATO-Staaten gleichstellen.",
+          "zitat": "Wir müssen Israel alles zur Verfügung stellen, was es für sein völkerrechtlich garantiertes Recht auf Selbstverteidigung braucht. Wir sind überzeugt, dass Rüstungsexporte ein legitimes Mittel der Außen- und Sicherheitspolitik sind. […] Israel muss daher bei Rüstungsexporten mit den NATO-Staaten gleichgestellt werden.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=50",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Äußere Sicherheit (S. 89–93, Abschnitt Naher Osten S. 93) gelesen; Suche nach Israel, Nahost, Waffen, Rüstung, Rüstungsexport: nur allgemeines Ziel eines gerechten Friedens durch vertrauensbildende Maßnahmen, keine Aussage zu Rüstungsexporten an Israel."
+        },
+        {
+          "partei_id": 16,
+          "position": "nein",
+          "kurzfassung": "Fordert ein Ende der deutschen Waffenexporte nach Israel.",
+          "zitat": "Wir fordern eine Beendigung der deutschen Waffenexporte nach Israel, die Anerkennung Palästinas als eigener Staat in den Grenzen von 1967 und politischen Druck der Bundesregierung auf die Staaten der Region, Israel als Staat anzuerkennen.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "nein",
+          "kurzfassung": "Fordert einen sofortigen Stopp der Waffenlieferungen an Israel.",
+          "zitat": "Die USA und Deutschland gehören zu den wenigen Staaten, die den israelischen Premier Netanjahu bis heute unterstützen und ihm die Waffen für seinen entsetzlichen Krieg liefern. ✔ Wir fordern einen sofortigen Stopp der Waffenlieferungen an Israel.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Außen- und Sicherheitskapitel (S. 40–45, u. a. Rüstungspolitik S. 41–42) gelesen; Suche nach Israel, Nahost, Naher Osten, Gaza, Palästina, Rüstungsexport, Waffen: Israel und der Nahostkonflikt kommen im Programm nicht vor."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h35",
+      "frage": "Soll staatliches Fördergeld nur an Organisationen gehen, die das Existenzrecht Israels anerkennen?",
+      "beschreibung": "Ob zivilgesellschaftliche Organisationen und Projekte nur dann staatlich gefördert werden, wenn sie sich zum Existenzrecht Israels bekennen oder es nicht infrage stellen, oder ob Fördergeld ohne eine solche Bekenntnispflicht vergeben wird.",
+      "status_quo": null,
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "ja",
+          "kurzfassung": "Will, dass vom Bund geförderte Organisationen sich zum Existenzrecht Israels und zur freiheitlich-demokratischen Grundordnung bekennen.",
+          "zitat": "Kein staatliches Geld für Antisemitismus. Zivilgesellschaftliche Organisationen, die vom Bund gefördert werden, sollen künftig ein Bekenntnis zur freiheitlich-demokratischen Grundordnung und zum Existenzrecht Israels abgeben sowie gegen Antisemitismus im Sinne der Definition der Internationalen Allianz zum Holocaustgedenken (IHRA).",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=46",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Antisemitismus/jüdisches Leben (S. 45) und Demokratie (S. 40–48) gelesen; Suche nach Existenzrecht, Förder, Fördermittel, Bekenntnis: fordert, dass zivilgesellschaftliche Organisationen antisemitischen Ansichten keinen Platz lassen, knüpft das aber nicht an Fördergeld oder ein Bekenntnis zum Existenzrecht Israels."
+        },
+        {
+          "partei_id": 13,
+          "position": "teils",
+          "kurzfassung": "Will keine Projekte fördern, die Antisemitismus oder andere menschenverachtende Ideologien propagieren; eine Bekenntnispflicht zum Existenzrecht Israels nennt es nicht.",
+          "zitat": "Es sollen keine Projekte gefördert werden, die Antisemitismus, Rassismus oder sonstige menschenverachtende Ideologien propagieren.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=116",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "ja",
+          "kurzfassung": "Will die IHRA-Definition bei der Vergabe staatlicher Gelder zugrunde legen und kein Geld an Organisationen geben, die das Existenzrecht Israels infrage stellen.",
+          "zitat": "Wir treten dafür ein, die Arbeitsdefinition von Antisemitismus nach der IHRA (International Holocaust Remembrance Alliance) umfassend in den staatlichen Behörden zu etablieren und diese insbesondere zur Grundlage von Fortbildungen von Beamtinnen und Beamten und bei der Vergabe staatlicher Gelder zu machen. Es dürfen keine staatlichen Gelder für Organisation und Projekte ausgegeben werden, die das Existenzrecht Israels in Frage stellen.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Innere Sicherheit/Extremismus (S. 119–124) und NGO-Zuwendungen (S. 56) gelesen; Suche nach Existenzrecht, Israel, Zuwendung, Fördermittel, Bekenntnis: will Vereine, die Extremisten unterstützen, von Zuwendungen ausschließen und NGO-Zuwendungen kürzen, nennt aber kein Bekenntnis zum Existenzrecht Israels."
+        },
+        {
+          "partei_id": 16,
+          "position": "nein",
+          "kurzfassung": "Lehnt Bekenntnisklauseln bei der Vergabe öffentlicher Fördermittel ab.",
+          "zitat": "Repressive Maßnahmen dürfen kein Mittel sein, um staatlicherseits den Rahmen zulässiger demokratischer Meinungsäußerung zu verengen. Berufsverbote, Präventivhaft oder Bekenntnisklauseln bei der Vergabe öffentlicher Fördermittel lehnen wir ab.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "nein",
+          "kurzfassung": "Will staatliche Projektförderung im Kulturbereich ohne Verpflichtung auf politische Bekenntnisse vergeben.",
+          "zitat": "Die Projektförderung durch staatliche und kommunale Fördermittelgeber hat diskriminierungsfrei und ohne Verpflichtung auf politische Bekenntnisse zu geschehen.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Entschlossen gegen Antisemitismus“ (S. 145) gelesen; Suche nach Existenzrecht, Israel, IHRA, Förder, Bekenntnis: will die IHRA-Definition anerkennen und jüdische Gemeinden schützen, knüpft aber kein Fördergeld an ein Bekenntnis zum Existenzrecht Israels."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h36",
+      "frage": "Soll Deutschland Palästina als Staat anerkennen?",
+      "beschreibung": "Ob Deutschland einen palästinensischen Staat schon jetzt anerkennt oder ob ein solcher Staat erst am Ende einer Verhandlungslösung zwischen Israel und den Palästinensern stehen soll.",
+      "status_quo": "nein",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Außenpolitik/Naher Osten (S. 49) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: unterstützt eine Zweistaatenlösung und die Erweiterung des Abraham-Abkommens, sagt aber nichts zu einer Anerkennung Palästinas durch Deutschland."
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Außenpolitik/Naher Osten (S. 62) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: will einen neuen Anlauf für die Zweistaatenlösung und zwei souveräne Staaten im Rahmen einer Verhandlungslösung, keine Aussage zu einer Anerkennung durch Deutschland."
+        },
+        {
+          "partei_id": 13,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Außenpolitik/Naher Osten (S. 146–147) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: hält Sicherheit nur durch eine verhandelte Zwei-Staaten-Lösung auf Basis der Grenzen von 1967 für möglich, keine Aussage zu einer Anerkennung durch Deutschland."
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Deutschland und Israel“ (S. 50–51) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: tritt für ein verhandeltes Zwei-Staaten-Modell ein, das einen Staat Palästina ermöglichen soll, keine Aussage zu einer Anerkennung durch Deutschland."
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Äußere Sicherheit, Abschnitt Naher Osten (S. 93) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: nur Ziel eines gerechten Friedens auf Basis gegenseitiger Anerkennung, ohne Bezug auf einen palästinensischen Staat."
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Fordert die Anerkennung Palästinas als eigener Staat in den Grenzen von 1967.",
+          "zitat": "Wir fordern eine Beendigung der deutschen Waffenexporte nach Israel, die Anerkennung Palästinas als eigener Staat in den Grenzen von 1967 und politischen Druck der Bundesregierung auf die Staaten der Region, Israel als Staat anzuerkennen.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Außenpolitik/Naher Osten (S. 7–8) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: fordert Waffenstillstand und ernsthafte Verhandlungen über eine Zwei-Staaten-Lösung, keine Aussage zu einer Anerkennung durch Deutschland."
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Außen- und Sicherheitspolitik (S. 40–45) gelesen; Suche nach Palästina, Anerkennung, Zwei-Staaten-Lösung, Staat: Israel, Palästina und der Nahostkonflikt kommen im Programm nicht vor."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h37",
+      "frage": "Soll das Grundgesetz ausdrücklich vor Benachteiligung wegen der sexuellen Identität schützen?",
+      "beschreibung": "Ob Artikel 3 Absatz 3 des Grundgesetzes um das Merkmal sexuelle Identität ergänzt werden soll oder ob der Schutz wie bisher über den allgemeinen Gleichheitssatz und einfache Gesetze wie das Allgemeine Gleichbehandlungsgesetz läuft.",
+      "status_quo": "nein",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Leitkultur und Zusammenhalt (S. 56–58) und Familie (S. 62–64) gelesen; Suche nach Artikel 3, Grundgesetz, sexuelle Identität, sexuelle Orientierung, queer, LSBT, homosexuell, Diskriminierung: nur Aussagen zu Altersdiskriminierung und zum Selbstbestimmungsgesetz, keine zur Ergänzung von Artikel 3."
+        },
+        {
+          "partei_id": 12,
+          "position": "ja",
+          "kurzfassung": "Will den Diskriminierungsschutz in Artikel 3 Abs. 3 GG ausdrücklich auf sexuelle Orientierung und geschlechtliche Identität erweitern.",
+          "zitat": "Wir wollen den Schutz vor Diskriminierung im Grundgesetz (GG) explizit auf sexuelle Orientierung und geschlechtliche Identität erweitern. Artikel 3 Abs. 3 GG werden wir daher entsprechend erweitern.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Will den Schutz vor Diskriminierung wegen sexueller und geschlechtlicher Identität in Artikel 3 GG verankern.",
+          "zitat": "Wir wollen den Schutz vor Diskriminierung aufgrund der sexuellen und geschlechtlichen Identität in Artikel 3 des Grundgesetzes verankern und Hasskriminalität gegen LSBTIQ* entschlossen bekämpfen.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=121",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "ja",
+          "kurzfassung": "Will Artikel 3 GG um die sexuelle Identität ergänzen.",
+          "zitat": "Artikel 3 GG wollen wir um die sexuelle Identität ergänzen.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Demokratie und Rechtsstaat (S. 134–137) und Familie (S. 150–153) gelesen; Suche nach Artikel 3, sexuelle Identität, sexuelle Orientierung, queer, LSBT, homosexuell: Artikel 3 nur zur Gleichberechtigung von Mann und Frau und gegen Quoten, allgemeine Ablehnung von Antidiskriminierungsgesetzen, keine Aussage zur Ergänzung von Artikel 3."
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Will Artikel 3 GG um den Schutz der sexuellen Orientierung und der geschlechtlichen Identität erweitern.",
+          "zitat": "Artikel 3 des Grundgesetzes muss um den Schutz der sexuellen Orientierung und der geschlechtlichen Identität erweitert werden.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Gesellschaftliche Akteure und Frauenrechte (S. 32–34) gelesen; Suche nach Artikel 3, Grundgesetz, sexuelle Identität, sexuelle Orientierung, queer, LSBT, homosexuell: Artikel 3 nur zur Gleichberechtigung von Frauen und Männern, allgemeine Ablehnung jeder Diskriminierung, keine Aussage zur Ergänzung von Artikel 3."
+        },
+        {
+          "partei_id": 18,
+          "position": "ja",
+          "kurzfassung": "Will Geschlechtsidentität und sexuelle Vielfalt als Diskriminierungsmerkmale in Artikel 3 GG aufnehmen.",
+          "zitat": "Verankerung im Grundgesetz: Die Geschlechtsidentität und sexuelle Vielfalt werden als Diskriminierungsmerkmale in Artikel 3 des Grundgesetzes aufgenommen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=148",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h38",
+      "frage": "Soll das Selbstbestimmungsgesetz zum Geschlechtseintrag bestehen bleiben?",
+      "beschreibung": "Ob Geschlechtseintrag und Vornamen wie seit November 2024 per Erklärung beim Standesamt geändert werden können oder ob das Gesetz abgeschafft wird und dafür wieder Gutachten nötig sind.",
+      "status_quo": "ja",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Will das Selbstbestimmungsgesetz abschaffen und verlangt bei Minderjährigen unabhängige psychologische Gutachten.",
+          "zitat": "Wir schaffen das Selbstbestimmungsgesetz der Ampel wieder ab.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "ja",
+          "kurzfassung": "Steht hinter dem Selbstbestimmungsgesetz und schließt ein Zurück aus.",
+          "zitat": "Die SPD steht hinter dem Selbstbestimmungsgesetz und den bisherigen queerpolitischen Errungenschaften. Ein Zurück wird es mit uns nicht geben.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Will das Selbstbestimmungsgesetz als erkämpftes Recht vor Angriffen schützen.",
+          "zitat": "Bereits erkämpfte Rechte wie das Selbstbestimmungsgesetz schützen wir vor Angriffen und setzen uns weiterhin für die Stärkung von Rechten queerer Menschen und ihrer Selbstbestimmung ein.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=121",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Offene Gesellschaft (S. 25) und Familie (S. 30–31) gelesen; Suche nach Selbstbestimmungsgesetz, Geschlechtseintrag, Transsexuellengesetz, trans, Geschlechtsidentität, LSBTI, queer: nur Aktionsplan „Queer leben“ und Ergänzung von Artikel 3, keine Aussage zum Selbstbestimmungsgesetz."
+        },
+        {
+          "partei_id": 15,
+          "position": "nein",
+          "kurzfassung": "Will das Selbstbestimmungsgesetz vollständig zurücknehmen.",
+          "zitat": "Das Selbstbestimmungsgesetz, welches am 01. November 2024 das Transsexuellengesetz von 1980 abgelöst hat, ist vollumfänglich zurückzunehmen.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=152",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Will das Selbstbestimmungsgesetz verbessern und Ausschlüsse etwa von Geflüchteten streichen.",
+          "zitat": "Das Selbstbestimmungsgesetz (SBGG) ist in seiner jetzigen Form mangelhaft und muss verbessert werden. Absurde Regelungen etwa mit Blick auf den Kriegsfall oder rassistische Ausschlüsse (etwa von Geflüchteten) müssen gestrichen werden.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "nein",
+          "kurzfassung": "Lehnt das Selbstbestimmungsgesetz ab; ein Wechsel soll nur mit ärztlichem Gutachten möglich sein.",
+          "zitat": "Das neue Selbstbestimmungsgesetz, das einmal jährlich den Wechsel des Geschlechts ermöglicht, höhlt die Schutzrechte für Frauen aus. Wir lehnen dieses Gesetz ausdrücklich ab. Der Wechsel der Geschlechtsidentität sollte für die Wenigen, die ihn für ein zufriedenes Leben wirklich benötigen, diskriminierungsfrei mit einem ärztlichen Gutachten möglich sein.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Queer-Rechte (S. 148–149) und Sicherheit für LSBTQIA+ (S. 36) gelesen; Suche nach Selbstbestimmungsgesetz, Geschlechtseintrag, Geschlechtsidentität, Trans*, TIN*: nur Co-Mutterschaft, Korrektur von Elternschaftseinträgen nach Ausweisdokumenten und Versorgung von TIN*-Personen, keine Aussage zum Selbstbestimmungsgesetz."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h39",
+      "frage": "Soll im Sexualstrafrecht der Grundsatz „Nur Ja heißt Ja“ gelten?",
+      "beschreibung": "Ob jede sexuelle Handlung ohne Zustimmung strafbar sein soll (Zustimmungslösung) oder ob es wie bisher darauf ankommt, dass sie gegen den erkennbaren Willen einer Person geschieht (§ 177 StGB).",
+      "status_quo": "nein",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Innere Sicherheit (S. 38–40) und Familie (S. 62–64) gelesen; Suche nach Sexualstrafrecht, Vergewaltigung, Einverständnis, Zustimmung, sexuelle Selbstbestimmung: nur härtere Strafen für Gruppenvergewaltigungen und Stalking sowie Fußfessel für Gewalttäter, keine Aussage zur Zustimmungslösung."
+        },
+        {
+          "partei_id": 12,
+          "position": "ja",
+          "kurzfassung": "Will jede sexuelle Handlung ohne eindeutiges Einverständnis unter Strafe stellen.",
+          "zitat": "Wir wollen die strafrechtliche Position von Opfern von sexualisierter Gewalt weiter stärken. Jede ohne eindeutiges Einverständnis vorgenommene sexuelle Handlung muss unter Strafe gestellt werden.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Will das Sexualstrafrecht mit der Zustimmungslösung reformieren.",
+          "zitat": "Wir wollen das geltende Sexualstrafrecht mit der Zustimmungslösung reformieren, um Straftaten besser verfolgen zu können.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=119",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Liberale Politik für selbstbestimmte Frauen (S. 29–30) und Grundrechte und Rechtsstaat (S. 22–24) gelesen; Suche nach Sexualstrafrecht, Vergewaltigung, Einverständnis, Zustimmung, sexuelle Selbstbestimmung: nur Frauenhausplätze und weltweiter Einsatz gegen Zwangsheirat, keine Aussage zur Zustimmungslösung."
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Innere Sicherheit (S. 106–126) und Familie (S. 147–153) gelesen; Suche nach Sexualstrafrecht, Vergewaltigung, Einverständnis, Zustimmung, Sexualdelikt: nur Ausweisung bei Sexualdelikten und Gruppenvergewaltigungen als Lagebeschreibung, keine Aussage zur Zustimmungslösung."
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Will das Prinzip „Nur Ja heißt Ja“ gesellschaftlich und gesetzlich verankern.",
+          "zitat": "Wir fordern, dass das Prinzip „Nur Ja heißt Ja“ gesellschaftlich und gesetzlich verankert wird und dass gezielt gegen Netzwerke sexualisierter Gewalt vorgegangen wird.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Frauenrechte und Gewaltschutz (S. 33–34) und Sicherheit (S. 34–36) gelesen; Suche nach Sexualstrafrecht, Vergewaltigung, Einverständnis, Zustimmung, sexuelle: nur Ausbau von Frauenhäusern und Gewaltprävention, keine Aussage zur Zustimmungslösung."
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel Geschlechtsspezifische Gewalt (S. 151–152) gelesen; Suche nach Sexualstrafrecht, Vergewaltigung, Einverständnis, Zustimmung, Consent: Consent nur als Thema von Schulbildung und Aufklärungskampagnen, allgemein Ausweitung der Strafbarkeit auf neue Formen der Belästigung, keine Aussage zur Zustimmungslösung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h40",
+      "frage": "Soll die doppelte Staatsbürgerschaft generell erlaubt bleiben?",
+      "beschreibung": "Ob Menschen bei der Einbürgerung ihre bisherige Staatsangehörigkeit grundsätzlich behalten dürfen oder ob Mehrstaatigkeit wieder nur in Ausnahmefällen zugelassen wird.",
+      "status_quo": "ja",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Will die generelle Möglichkeit der doppelten Staatsbürgerschaft ebenso wie die Einbürgerung nach drei Jahren rückgängig machen.",
+          "zitat": "Deshalb lehnen wir die Express-Einbürgerung der Ampel nach nur drei Jahren Aufenthalt genauso entschieden ab wie die generelle Möglichkeit der doppelten Staatsbürgerschaft. Wir machen sie rückgängig.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Migrationskapitel (S. 54–56) gelesen; Suche nach Staatsangehörigkeit, Mehrstaatigkeit, doppelte, Einbürgerung: verteidigt das 2024 modernisierte Staatsangehörigkeitsrecht allgemein, nennt die Mehrstaatigkeit aber nicht ausdrücklich."
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Verteidigt das moderne Staatsangehörigkeitsrecht und will, dass mehrfache Staatsangehörigkeit nicht zu Ungleichbehandlung führt.",
+          "zitat": "Mit der Einführung eines modernen Staatsangehörigkeitsrechts haben wir der Realität unserer vielfältigen Gesellschaft endlich Rechnung getragen. […] Wie im Grundgesetz verankert, darf die deutsche Staatsangehörigkeit nicht entzogen werden und eine mehrfache Staatsangehörigkeit nicht zu einer ungerechtfertigten Ungleichbehandlung von deutschen Staatsbürger*innen führen.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=127",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Integration ermöglichen und gestalten“ (Einbürgerung nur bei eigenem Lebensunterhalt, Ausschlussgründe) sowie Suchbegriffe Staatsangehörigkeit, Staatsbürgerschaft, Mehrstaatigkeit, mehrfach, doppelte, Doppelpass, Einbürgerung durchsucht: keine Aussage zur Mehrstaatigkeit."
+        },
+        {
+          "partei_id": 15,
+          "position": "nein",
+          "kurzfassung": "Will mehrfache Staatsangehörigkeiten außer in begründeten Ausnahmen, etwa im EU-Recht, wieder ausschließen.",
+          "zitat": "Mehrfache Staatsangehörigkeiten, abgesehen von begründeten Ausnahmen, insbesondere des gemeinsamen Unionsrechts, bergen die Gefahr von Loyalitätskonflikten und sind daher zukünftig wieder auszuschließen.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=111",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Begrüßt, dass Mehrstaatlichkeit generell zulässig ist, und will einen Rechtsanspruch auf Einbürgerung nach fünf Jahren.",
+          "zitat": "Es ist gut, dass die Einbürgerungsreform Mehrstaatlichkeit generell zulässt, aber die hohen Einkommenshürden wurden verschärft.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Sichere Grenzen: Unkontrollierte Migration stoppen“ sowie Suchbegriffe Staatsangehörigkeit, Staatsbürgerschaft, Mehrstaatigkeit, mehrfach, doppelte, Einbürgerung, Pass durchsucht: keine Aussage zur Einbürgerung oder Mehrstaatigkeit."
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel zu Migration, Integration und Teilhabe sowie Suchbegriffe Staatsangehörigkeit, Staatsbürgerschaft, Mehrstaatigkeit, mehrfach, doppelte, Einbürgerung, Pass durchsucht: nur Wahlrecht für EU-Staatsangehörige, keine Aussage zur Mehrstaatigkeit."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h41",
+      "frage": "Sollen Asylsuchende ihre staatlichen Leistungen per Bezahlkarte statt als Bargeld erhalten?",
+      "beschreibung": "Ob Asylsuchende ihre Leistungen über eine Bezahlkarte mit begrenzter Bargeldabhebung erhalten oder ob sie diese als reguläre Geldleistung ausgezahlt bekommen.",
+      "status_quo": null,
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "ja",
+          "kurzfassung": "Will Sachleistungen Vorrang geben und die Bezahlkarte flächendeckend und restriktiv in allen Bundesländern einführen.",
+          "zitat": "Ganz generell sollen Sachleistungen, wo immer möglich, Vorrang vor Geldleistungen haben. Die Bezahlkarte soll flächendeckend und restriktiv in allen Bundesländern eingeführt werden.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Wir kämpfen für eine moderne Einwanderungsgesellschaft“ sowie Suchbegriffe Bezahlkarte, Karte, Bargeld, Sachleistung, Geldleistung, Asylbewerber, Sozialleistung durchsucht: keine Aussage zur Bezahlkarte."
+        },
+        {
+          "partei_id": 13,
+          "position": "teils",
+          "kurzfassung": "Akzeptiert die Bezahlkarte nur, wenn sie Bürokratie verringert, Integration ermöglicht und ohne unangemessene Bargeldobergrenze auskommt.",
+          "zitat": "Politische Maßnahmen wie zum Beispiel die Bezahlkarte müssen so ausgestaltet sein, dass sie Bürokratie verringern und Integration ermöglichen. Das haben wir in Hannover erfolgreich vorgemacht – ganz ohne unangemessene Bargeldobergrenze.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=128",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "ja",
+          "kurzfassung": "Will mehr Sach- statt Geldleistungen und die Bezahlkarte flächendeckend und ohne unnötige Ausnahmen einsetzen.",
+          "zitat": "Wir setzen zudem auf mehr Sach- statt Geldleistungen und fordern, dass die längst beschlossene Bezahlkarte flächendeckend und ohne unnötige Ausnahmen überall zum Einsatz kommt.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "ja",
+          "kurzfassung": "Will Leistungen für Asylbewerber möglichst als Sachleistungen, sonst per Bezahlkarte erbringen.",
+          "zitat": "Sozialleistungen für Asylbewerber sind nach Möglichkeit als Sachleistungen zu erbringen, ansonsten durch eine Bezahlkarte, sofern die Erbringung von Sachleistungen mit vertretbarem Aufwand nicht möglich ist.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=106",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "nein",
+          "kurzfassung": "Will statt Sachleistungen und Bezahlkarten reguläre Geldleistungen in Höhe der solidarischen Mindestsicherung.",
+          "zitat": "Statt diskriminierender Sachleistungen und Bezahlkarten wollen wir reguläre Geldleistungen auf Höhe der solidarischen Mindestsicherung für alle Menschen.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Sichere Grenzen: Unkontrollierte Migration stoppen“ (nur allgemein zu hohen Leistungen für Asylbewerber) sowie Suchbegriffe Bezahlkarte, Sachleistung, Geldleistung, Asylbewerberleistung durchsucht: keine Aussage zur Bezahlkarte."
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel zu Migration und Integration (Arbeitsmarktzugang, Chancenjahr) sowie Suchbegriffe Bezahlkarte, Sachleistung, Geldleistung, Asylbewerber, Sozialleistung durchsucht: keine Aussage zur Bezahlkarte."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h43",
+      "frage": "Sollen Straftäter auch nach Syrien und Afghanistan abgeschoben werden?",
+      "beschreibung": "Ob ausreisepflichtige Straftäter auch in Länder wie Syrien und Afghanistan abgeschoben werden sollen oder ob Abschiebungen dorthin wegen Krieg, Krisen und Menschenrechtslage unterbleiben sollen.",
+      "status_quo": null,
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "ja",
+          "kurzfassung": "Will regelmäßig nach Afghanistan und Syrien abschieben, vor allem Straftäter und Gefährder.",
+          "zitat": "Nach Afghanistan und Syrien wollen wir regelmäßig abschieben – vor allem Straftäter und Gefährder.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Migrationskapitel (S. 54–56) gelesen; Suche nach Syrien, Afghanistan, Abschiebung, Rückführung, Straftäter: nur allgemein „rasche wie konsequente Abschiebungen, insbesondere bei Straftätern“ und Fortführung des Bundesaufnahmeprogramms Afghanistan; keine Aussage zu Abschiebungen nach Syrien oder Afghanistan."
+        },
+        {
+          "partei_id": 13,
+          "position": "nein",
+          "kurzfassung": "Lehnt Abschiebungen in Kriegs- und Krisengebiete ab und will die Taliban nicht durch Rückführungsvereinbarungen legitimieren.",
+          "zitat": "Abschiebungen in Kriegs- und Krisengebiete verbieten sich. Wir wollen Schutz vor Unrechtsregimen wie den Taliban bieten und sie nicht durch Rückführungsvereinbarungen politisch legitimieren.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=130",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Abschnitt „Migration nach klaren Regeln“ (S. 27–28) gelesen; Suche nach Syrien, Afghanistan, Abschiebung, Rückführung, Straftäter: nur allgemein unverzügliche Rückkehr ohne Bleiberecht und Bündelung der Abschiebungen beim Bund; keine Aussage zu Syrien oder Afghanistan."
+        },
+        {
+          "partei_id": 15,
+          "position": "ja",
+          "kurzfassung": "Will die Rückführung von Straftätern, Gefährdern und allen nicht mehr schutzberechtigten Syrern einleiten.",
+          "zitat": "Einleitung der Rückführung von Straftätern, Gefährdern sowie aller nicht mehr schutzberechtigten syrischen Staatsbürger",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=109",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "nein",
+          "kurzfassung": "Lehnt Abschiebungen in Krieg, Verfolgung und Elend ab; Straftäter sollen ihre Strafe im Inland verbüßen.",
+          "zitat": "Abschiebungen, insbesondere in Krieg, Verfolgung und Elend oder als Form der Doppelbestrafung, lehnen wir ab. Straftäter*innen müssen unabhängig vom Aufenthaltsstatus ein reguläres Strafverfahren im Inland erhalten und gegebenenfalls Haftstrafen im Inland verbüßen.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "teils",
+          "kurzfassung": "Will den Schutz vor Abschiebung nach schweren Straftaten auf Fälle begrenzen, in denen im Herkunftsstaat die Todesstrafe droht; Syrien und Afghanistan nennt es nicht.",
+          "zitat": "Wir fordern, Gesetze und nötigenfalls das Grundgesetz so zu ändern, dass Flüchtlinge nach schweren Straftaten ihren Anspruch auf ein Asylverfahren in Deutschland verlieren und der Schutz vor Abschiebung auf Fälle begrenzt wird, in denen klare Indizien vorliegen, dass dem Betroffenen im Herkunftsstaat die Todesstrafe droht.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=37",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Abschnitt „Menschenwürdige Abschiebungen als Ultima Ratio“ (S. 139) und Asylkapitel (S. 136–139) gelesen; Suche nach Syrien, Afghanistan, Straftäter, straffällig: nur, dass Alleinstehende und Minderjährige nicht in Staaten außerhalb der EU abgeschoben werden sollen; keine Aussage zu Straftätern und Syrien oder Afghanistan."
+        }
+      ],
+      "zielkonflikte": []
     }
   ]
 }
