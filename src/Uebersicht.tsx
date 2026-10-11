@@ -1,15 +1,16 @@
 import { useEffect, useState } from 'react'
-import { KiHinweis, Positionen, ProgrammLink, Zielkonflikte } from './Ansicht'
+import { Geprueft, KiHinweis, Positionen, ProgrammLink, PruefZeile, Zielkonflikte } from './Ansicht'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { ladeQuiz } from './laden'
 import { UnterseitenKopf } from './Rechtliches'
 import { parteiStil } from './stil'
 import { POSITION_TEXT, positionImQuiz, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
-import { frageMelden, jaSager, parteiPfad, positionMelden, STATUS_QUO_TEXT, uebersichtHash } from './uebersicht'
+import { jaSager, parteiPfad, pruefLinks, STATUS_QUO_TEXT, uebersichtHash } from './uebersicht'
 
 // Fragenübersicht (#/fragen): jede Frage mit Position, Zitat und Beleg aller Parteien – zum Prüfen. Mit Partei im
-// Pfad (#/fragen/volt) steht nur deren Position da, mit Wortlaut aufgeklappt; je Position und je Frage führt
-// „Fehler melden“ zu einem vorausgefüllten GitHub-Issue.
+// Pfad (#/fragen/volt) steht nur deren Position da, mit Wortlaut aufgeklappt. Je Position führen „Position
+// bestätigen“ und „Fehler melden“ zu einem vorausgefüllten GitHub-Issue; ein bestätigendes Issue trägt die Pflege als
+// `geprueft` in fragen.json ein, dann steht die Position hier und in der Auflösung als geprüft.
 
 const ALLE: Positionswert[] = ['ja', 'nein', 'teils', 'keine_aussage']
 
@@ -45,9 +46,10 @@ export function Uebersicht({ partei, frageId, onZurueck }: { partei: string | nu
         <h1 ref={titel}>Alle Fragen mit Belegen</h1>
         <p>
           Zu jeder Frage steht hier, was die acht Bundestagswahlprogramme 2025 sagen: Position, Wortlaut, Seite und
-          Link ins Programm. Gefragt wird im Spiel immer, wer Ja sagt. Stimmt etwas nicht? Jede Position und jede
-          Frage hat einen Link „Fehler melden“, der ein vorausgefülltes Issue bei GitHub öffnet – dort bitte das
-          richtige Zitat mit Seite eintragen.
+          Link ins Programm. Gefragt wird im Spiel immer, wer Ja sagt. Jede Position lässt sich prüfen: „Position
+          bestätigen“ oder „Fehler melden“ öffnet ein vorausgefülltes Issue bei GitHub – beim Fehler bitte das
+          richtige Zitat mit Seite eintragen. Bestätigte Positionen stehen danach mit Nachweis als geprüft hier und
+          im Spiel.
         </p>
         {fehler && (
           <p className="hinweis" role="alert">
@@ -99,12 +101,14 @@ function ParteiStand({ daten, partei }: { daten: QuizDaten; partei: QuizPartei |
       </p>
     )
   }
-  const zahl = (wert: Positionswert) =>
-    daten.fragen.filter((f) => f.positionen.some((p) => p.partei_id === partei.id && p.position === wert)).length
+  const eigene = daten.fragen.map((f) => f.positionen.find((p) => p.partei_id === partei.id))
+  const zahl = (wert: Positionswert) => eigene.filter((p) => p?.position === wert).length
+  const geprueft = eigene.filter((p) => p?.geprueft).length
   return (
     <p className="meta uebersicht-stand" aria-live="polite">
       <strong>{partei.name}</strong> in {daten.fragen.length} Fragen:{' '}
-      {ALLE.map((w) => `${zahl(w)}× ${POSITION_TEXT[w]}`).join(', ')}.{' '}
+      {ALLE.map((w) => `${zahl(w)}× ${POSITION_TEXT[w]}`).join(', ')}
+      {geprueft ? `, ${geprueft} davon geprüft` : ''}.{' '}
       <a href={partei.programm_url} target="_blank" rel="noopener noreferrer">
         Wahlprogramm
       </a>
@@ -141,21 +145,9 @@ function Frage({
       {partei ? (
         <EinePosition frage={frage} partei={partei} link={link} />
       ) : (
-        <Positionen
-          frage={frage}
-          parteien={daten.parteien}
-          auswahl={null}
-          melden={(p) => positionMelden(frage, p, frage.positionen.find((x) => x.partei_id === p.id)!, link)}
-        />
+        <Positionen frage={frage} parteien={daten.parteien} auswahl={null} pruefen={(p, pos) => pruefLinks(frage, p, pos, link)} />
       )}
       <Zielkonflikte frage={frage} />
-      <p className="uebersicht-melden">
-        <a href={frageMelden(frage, daten.parteien, link)} target="_blank" rel="noopener noreferrer">
-          Fehler in der Frage melden
-        </a>
-        {' · '}
-        <a href={uebersichtHash(pfad, frage.id)}>Link zu dieser Frage</a>
-      </p>
     </section>
   )
 }
@@ -178,9 +170,8 @@ function EinePosition({ frage, partei, link }: { frage: QuizFrage; partei: QuizP
           {p.zitat && <blockquote className="uebersicht-zitat">„{p.zitat}“</blockquote>}
         </>
       )}
-      <a className="melden" href={positionMelden(frage, partei, p, link)} target="_blank" rel="noopener noreferrer">
-        Fehler melden<span className="sr-only"> – Position von {partei.name}</span>
-      </a>
+      <Geprueft p={p} />
+      <PruefZeile links={pruefLinks(frage, partei, p, link)} partei={partei} />
     </div>
   )
 }

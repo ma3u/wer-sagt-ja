@@ -55,6 +55,8 @@ export function fehlerIn(e: FragenEintrag, parteien: QuizPartei[]): string[] {
     else if (p.position === 'keine_aussage') {
       if (!p.begruendung) fehler.push(`${name}: „keine Aussage“ ohne Begründung, was im Programm durchsucht wurde`)
     } else if (!p.zitat || !p.beleg_url) fehler.push(`${name}: „${p.position}“ ohne Zitat und Beleg-Link`)
+    if (p.geprueft && !(p.geprueft.von && /^https:\/\//.test(p.geprueft.issue_url)))
+      fehler.push(`${name}: „geprueft“ braucht „von“ und „issue_url“ (https-Link zum Issue)`)
   }
   const { richtig } = auswerten(e.positionen, e.status_quo)
   if (!richtig.length) fehler.push('keine Partei sagt Ja – das Quiz fragt nur, wer Ja sagt')

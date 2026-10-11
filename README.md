@@ -29,6 +29,7 @@ Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Je Frage:
 | `positionen` | Genau eine je Partei: `ja`, `nein`, `teils` oder `keine_aussage`. Ja, Nein und teils immer mit wörtlichem `zitat` und `beleg_url` (Seite im Programm), keine Aussage mit `begruendung`, was durchsucht wurde |
 | `zielkonflikte` | Argumente beider Seiten mit Quelle (optional, leere Liste) |
 | `ki_entwurf` | `true`, solange die Positionen nicht von Menschen geprüft sind – das Spiel sagt das dann an |
+| `geprueft` | Je Position optional: `{ "von": "Volt Deutschland", "issue_url": "https://github.com/…/issues/12" }`, wenn jemand die Position bestätigt hat – das Issue ist der Nachweis |
 
 Was richtig ist, leitet das Spiel ab (`src/katalog.ts`): Gefragt wird **immer, wer Ja sagt**. Eine Frage, zu der
 keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Frage, wer Ja sagt, und meldet
@@ -39,8 +40,9 @@ Zurzeit sind alle Fragen **KI-Entwürfe, noch nicht von Menschen geprüft** – 
 in jeder Auflösung.
 
 Zum Prüfen zeigt `#/fragen` alle Fragen mit Position, Wortlaut und Beleg jeder Partei, nach Partei filterbar
-(`#/fragen/volt`). „Fehler melden“ je Position und je Frage öffnet ein vorausgefülltes GitHub-Issue mit Frage,
-Partei, eingetragener Position, Zitat und Beleg (`src/uebersicht.ts`).
+(`#/fragen/volt`). Je Position öffnen „Position bestätigen“ und „Fehler melden“ ein vorausgefülltes GitHub-Issue mit
+Frage, Partei, eingetragener Position, Zitat und Beleg (`src/uebersicht.ts`). Bestätigt jemand eine Position, kommt
+das Issue als `geprueft` an die Position; Übersicht und Auflösung zeigen sie dann als geprüft.
 
 ## Technik
 

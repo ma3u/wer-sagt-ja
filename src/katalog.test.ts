@@ -50,6 +50,14 @@ describe('Fragendatei (katalog.ts)', () => {
     expect(fehlerIn(e, parteien)).toEqual(['P4: keine Position', 'P2: „nein“ ohne Zitat und Beleg-Link'])
   })
 
+  it('„geprueft“ braucht Prüfende und den Issue-Link als Nachweis', () => {
+    const e = eintrag(['ja', 'nein', 'nein', 'nein'])
+    e.positionen[0] = { ...e.positionen[0], geprueft: { von: 'P1', issue_url: 'https://github.com/x/y/issues/1' } }
+    expect(fehlerIn(e, parteien)).toEqual([])
+    e.positionen[0] = { ...e.positionen[0], geprueft: { von: '', issue_url: 'issues/1' } }
+    expect(fehlerIn(e, parteien)).toEqual(['P1: „geprueft“ braucht „von“ und „issue_url“ (https-Link zum Issue)'])
+  })
+
   it('lässt fehlerhafte Fragen aus dem Spiel und meldet doppelte IDs', () => {
     const datei: FragenDatei = { parteien, fragen: [eintrag(['ja', 'nein', 'nein', 'nein']), eintrag(['nein', 'nein', 'nein', 'nein'])] }
     expect(quizDaten(datei).fragen).toHaveLength(1)

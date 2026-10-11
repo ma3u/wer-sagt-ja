@@ -37,6 +37,13 @@ export interface QuizPosition {
   beleg_url: string | null
   /** Nur bei `keine_aussage`: was im Programm durchsucht wurde. */
   begruendung: string | null
+  /** Von Menschen bestätigt – wer, und das GitHub-Issue als Nachweis (fehlt oder null: ungeprüft). */
+  geprueft?: Pruefung | null
+}
+
+export interface Pruefung {
+  von: string
+  issue_url: string
 }
 
 export interface QuizZielkonflikt {

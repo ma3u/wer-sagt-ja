@@ -7,8 +7,9 @@ import { QrCode } from './QrCode'
 import { anleitung, anleitungRegeln } from './fragen'
 import { MAX_PUNKTE, ZEITFAKTOR_TEXT, type Zeitfaktor } from './punkte'
 import { limitFuer, rangliste, type Ergebnis, type QuizSpieler, type QuizZustand, type Weg } from './spielleitung'
-import { KI_HINWEIS, POSITION_TEXT, positionImQuiz, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
+import { KI_HINWEIS, POSITION_TEXT, positionImQuiz, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei, type QuizPosition } from './typen'
 import { frageVon } from './useSpiel'
+import type { PruefLinks } from './uebersicht'
 import { aufloesung, dauerMs, parteiWoerter, reaktionFuer, vorspann, type Marke } from './show/ablauf'
 import { Knall, Konfetti } from './show/Buehne'
 import { COUNTDOWN, OUTRO, SCHLUSS, type Schluss } from './show/texte'
@@ -397,20 +398,49 @@ function kreuzText(frage: QuizFrage, parteiId: number, gewaehlt: boolean): { tex
   return null
 }
 
+/** Von Menschen bestätigt – mit dem Issue als Nachweis. */
+export function Geprueft({ p }: { p: QuizPosition }) {
+  if (!p.geprueft) return null
+  return (
+    <p className="geprueft">
+      ✓ Geprüft von {p.geprueft.von}{' '}
+      <span className="belege">
+        <a href={p.geprueft.issue_url} target="_blank" rel="noopener noreferrer">
+          Nachweis
+        </a>
+      </span>
+    </p>
+  )
+}
+
+/** Bestätigen oder Fehler melden – je ein vorausgefülltes GitHub-Issue (nur in der Übersicht). */
+export function PruefZeile({ links, partei }: { links: PruefLinks; partei: QuizPartei }) {
+  return (
+    <p className="pruef-zeile">
+      <a href={links.bestaetigen} target="_blank" rel="noopener noreferrer">
+        Position bestätigen<span className="sr-only"> – {partei.name}</span>
+      </a>
+      <a href={links.melden} target="_blank" rel="noopener noreferrer">
+        Fehler melden<span className="sr-only"> – Position von {partei.name}</span>
+      </a>
+    </p>
+  )
+}
+
 /**
- * Alle Positionen mit Beleg – feste Reihenfolge, keine Farben für Positionen. `melden` (nur in der Übersicht) liefert
- * je Partei den Link, um die Position als GitHub-Issue zu melden.
+ * Alle Positionen mit Beleg – feste Reihenfolge, keine Farben für Positionen. `pruefen` (nur in der Übersicht)
+ * liefert je Partei die Links, um die Position zu bestätigen oder als Fehler zu melden.
  */
 export function Positionen({
   frage,
   parteien,
   auswahl,
-  melden,
+  pruefen,
 }: {
   frage: QuizFrage
   parteien: QuizPartei[]
   auswahl: number[] | null
-  melden?: (partei: QuizPartei) => string
+  pruefen?: (partei: QuizPartei, p: QuizPosition) => PruefLinks
 }) {
   return (
     <ul className="position-liste quiz-positionen">
@@ -440,11 +470,8 @@ export function Positionen({
                 )}
               </>
             )}
-            {melden && (
-              <a className="melden" href={melden(partei)} target="_blank" rel="noopener noreferrer">
-                Fehler melden<span className="sr-only"> – Position von {partei.name}</span>
-              </a>
-            )}
+            <Geprueft p={p} />
+            {pruefen && <PruefZeile links={pruefen(partei, p)} partei={partei} />}
           </li>
         )
       })}

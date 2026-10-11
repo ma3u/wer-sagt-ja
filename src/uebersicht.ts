@@ -4,7 +4,8 @@ import { POSITION_TEXT, positionImQuiz, type QuizFrage, type QuizPartei, type Qu
 // Fragenübersicht (#/fragen): alle Fragen mit der Position jeder Partei, zum Prüfen durch Parteien und Leser.
 // Adressen: #/fragen (alle), #/fragen/<partei> (nur eine Partei), #/fragen/<partei>/<frage-id> (springt zur Frage);
 // für alle Parteien steht „alle“ an der Stelle der Partei.
-// Fehler landen als vorausgefülltes GitHub-Issue im Repository.
+// Fehler und Bestätigungen landen als vorausgefülltes GitHub-Issue im Repository; ein bestätigtes Issue wird als
+// `geprueft` in public/fragen.json eingetragen.
 
 export interface UebersichtAdresse {
   /** Kurzname der Partei als Pfadstück (`parteiPfad`) oder null für alle. */
@@ -51,6 +52,17 @@ export const STATUS_QUO_TEXT: Record<'ja' | 'nein' | 'null', string> = {
 export const jaSager = (frage: QuizFrage, parteien: QuizPartei[]) =>
   frage.richtig.map((id) => parteien.find((p) => p.id === id)?.kurzname ?? String(id))
 
+/** Beide Links zu einer Position: bestätigen oder Fehler melden. */
+export interface PruefLinks {
+  bestaetigen: string
+  melden: string
+}
+
+export const pruefLinks = (frage: QuizFrage, partei: QuizPartei, p: QuizPosition, seite: string): PruefLinks => ({
+  bestaetigen: positionBestaetigen(frage, partei, p, seite),
+  melden: positionMelden(frage, partei, p, seite),
+})
+
 /** Link zu einem neuen, vorausgefüllten Issue. */
 export function issueLink(titel: string, text: string): string {
   const q = new URLSearchParams({ title: titel, body: text })
@@ -71,13 +83,15 @@ function positionAlsText(p: QuizPosition, frage: QuizFrage): string {
 export function positionMelden(frage: QuizFrage, partei: QuizPartei, p: QuizPosition, seite: string): string {
   const titel = `${partei.kurzname} zu ${frage.id}: ${frage.frage}`
   const text = [
-    `**Frage ${frage.id}:** ${frage.frage}`,
+    frageAlsText(frage),
     `**Partei:** ${partei.name}`,
     positionAlsText(p, frage),
     '',
     `**Richtig wäre:** (${Object.values(POSITION_TEXT).join(' / ')})`,
     '',
     '**Wörtliches Zitat aus dem Wahlprogramm 2025 mit Seite:**',
+    '',
+    '**Betrifft die Frage selbst?** (Formulierung, Beschreibung, heutige Lage)',
     '',
     '**Anmerkung:**',
     '',
@@ -87,19 +101,34 @@ export function positionMelden(frage: QuizFrage, partei: QuizPartei, p: QuizPosi
   return issueLink(titel, text)
 }
 
-/** Issue zur Frage selbst (Formulierung, Beschreibung, heutige Lage). */
-export function frageMelden(frage: QuizFrage, parteien: QuizPartei[], seite: string): string {
-  const titel = `Frage ${frage.id}: ${frage.frage}`
+/**
+ * Issue, das eine Position bestätigt: Wer geprüft hat, trägt sich ein; der Issue-Link kommt dann als `geprueft` in
+ * public/fragen.json und die Übersicht zeigt die Position als bestätigt.
+ */
+export function positionBestaetigen(frage: QuizFrage, partei: QuizPartei, p: QuizPosition, seite: string): string {
+  const titel = `Geprüft: ${partei.kurzname} zu ${frage.id} stimmt`
   const text = [
-    `**Frage ${frage.id}:** ${frage.frage}`,
-    `**Beschreibung:** ${frage.beschreibung}`,
-    `**${STATUS_QUO_TEXT[frage.status_quo ?? 'null']}**`,
-    `**Ja sagen laut Spiel:** ${jaSager(frage, parteien).join(', ')}`,
+    frageAlsText(frage),
+    `**Partei:** ${partei.name}`,
+    positionAlsText(p, frage),
     '',
-    '**Was stimmt nicht?** (Formulierung, Beschreibung, heutige Lage, fehlende Partei …)',
+    '**Geprüft von:** (Name und Rolle, etwa „Volt Deutschland, Bundesvorstand“)',
+    '',
+    '**Geprüft gegen:** Bundestagswahlprogramm 2025, Seite …',
+    '',
+    '**Anmerkung:**',
     '',
     '---',
     `Gesehen unter ${seite}`,
   ].join('\n')
   return issueLink(titel, text)
+}
+
+/** Frage, heutige Lage und Ja-Sager als Markdown-Zeilen. */
+function frageAlsText(frage: QuizFrage): string {
+  return [
+    `**Frage ${frage.id}:** ${frage.frage}`,
+    `**Beschreibung:** ${frage.beschreibung}`,
+    `**${STATUS_QUO_TEXT[frage.status_quo ?? 'null']}**`,
+  ].join('\n')
 }

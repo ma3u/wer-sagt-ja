@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { QuizFrage, QuizPartei } from './typen'
-import { frageMelden, parteiPfad, positionMelden, uebersichtAus, uebersichtHash } from './uebersicht'
+import { parteiPfad, positionBestaetigen, positionMelden, uebersichtAus, uebersichtHash } from './uebersicht'
 
 const partei: QuizPartei = { id: 18, name: 'Volt Deutschland', kurzname: 'Volt', farbe: '#502379', programm_url: 'https://volt.example/p.pdf' }
 const frage: QuizFrage = {
@@ -64,9 +64,19 @@ describe('Fragenübersicht (uebersicht.ts)', () => {
     expect(text).toContain('Gesehen unter https://example.org/#/fragen/volt/h1')
   })
 
-  it('füllt das Issue zur Frage mit heutiger Lage und Ja-Sagern', () => {
-    const text = new URL(frageMelden(frage, [partei], 'https://example.org/#/fragen')).searchParams.get('body') ?? ''
+  it('nimmt die Frage selbst mit ins Meldeissue', () => {
+    const text = new URL(positionMelden(frage, partei, frage.positionen[0], 'https://example.org/#/fragen')).searchParams.get('body') ?? ''
+    expect(text).toContain('**Beschreibung:** Ob überall 130 gilt.')
     expect(text).toContain('Heute gilt: Nein')
-    expect(text).toContain('**Ja sagen laut Spiel:** Volt')
+    expect(text).toContain('**Betrifft die Frage selbst?**')
+  })
+
+  it('füllt das Bestätigungs-Issue mit Position und Feld für die prüfende Person', () => {
+    const url = new URL(positionBestaetigen(frage, partei, frage.positionen[0], 'https://example.org/#/fragen/volt/h1'))
+    expect(url.searchParams.get('title')).toBe('Geprüft: Volt zu h1 stimmt')
+    const text = url.searchParams.get('body') ?? ''
+    expect(text).toContain('**Eingetragen:** Ja')
+    expect(text).toContain('**Geprüft von:**')
+    expect(text).toContain('Gesehen unter https://example.org/#/fragen/volt/h1')
   })
 })

@@ -1549,17 +1549,22 @@ html:has(.quiz-aktion) {
   border-left: 2px solid var(--linie);
   font-style: italic;
 }
-/* „Fehler melden“ je Position: eigene Zeile, Zielfläche mindestens 24 px hoch (2.5.8). */
-.melden {
-  display: block;
-  width: fit-content;
-  margin-top: 4px;
-  padding-block: 2px;
+/* „Position bestätigen“ und „Fehler melden“: Zielflächen mindestens 24 px hoch (2.5.8). */
+.pruef-zeile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 16px;
+  margin: 4px 0 0;
   font-size: 0.85rem;
 }
-.uebersicht-melden {
-  margin: 0.8rem 0 0;
-  font-size: 0.9rem;
+.pruef-zeile a {
+  padding-block: 2px;
+}
+.geprueft {
+  margin: 4px 0 0;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--gut);
 }
 .uebersicht .quiz-ziele {
   margin-top: 0.8rem;
