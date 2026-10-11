@@ -153,55 +153,55 @@
       ]
     },
     {
-      "id": "h2",
-      "frage": "Soll Zuwanderung nach Deutschland stärker begrenzt werden?",
-      "beschreibung": "Ob insgesamt weniger Menschen nach Deutschland kommen sollen als bisher – über Asyl, Familiennachzug oder Arbeit –, unabhängig davon, mit welchen Mitteln das geschähe.",
+      "id": "h44",
+      "frage": "Soll Deutschland die Zuwanderung von Fachkräften erleichtern?",
+      "beschreibung": "Ob Fachkräfte aus dem Ausland leichter nach Deutschland kommen und hier arbeiten können sollen – etwa durch einfachere Visa, schnellere Anerkennung von Abschlüssen und weniger Bürokratie – oder ob der Bedarf vor allem im Inland gedeckt werden soll.",
       "ki_entwurf": true,
       "positionen": [
         {
           "partei_id": 11,
-          "position": "teils",
-          "kurzfassung": "Gewährt Schutzbedürftigen Aufnahme im Rahmen einer Kontingentlösung und trennt humanitäre Aufnahme von der Einwanderung von Fachkräften.",
-          "zitat": "Unserer humanitären Verantwortung werden wir weiterhin gerecht und gewähren schutzbedürftigen Menschen auch in Zukunft im Rahmen einer Kontingentlösung Schutz und Aufenthalt in Deutschland. Dabei trennen wir wieder klar zwischen humanitärer Aufnahme und der Einwanderung von Fachkräften.",
-          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=44",
+          "position": "ja",
+          "kurzfassung": "Will ausländische Fachkräfte gewinnen: schnellere Anerkennung von Berufsqualifikationen und eine digitale „Work-and-Stay-Agentur“ als Service aus einer Hand.",
+          "zitat": "Schnellere und digitale Prozesse für Erwerbszuwanderer. Dazu richten wir eine digitale Bundesagentur für Einwanderung („Work-and-Stay-Agentur“) ein. Fachkräfte erhalten so Service aus einer Hand: von der Anwerbung und Arbeitsplatzvermittlung über die Prüfung der Einreisevoraussetzungen und Visavergabe bis hin zum Aufenthaltstitel.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=15",
           "begruendung": null
         },
         {
           "partei_id": 12,
-          "position": "teils",
-          "kurzfassung": "Will geordnete Migration auf den Arbeitsmarkt und eine bessere Kontrolle der Fluchtmigration.",
-          "zitat": "Wir haben für neue Klarheit in der Migrationspolitik gesorgt – für einen Paradigmenwechsel hin zu einer geordneten Migration auf den Arbeitsmarkt und eine bessere Kontrolle der Fluchtmigration.",
+          "position": "ja",
+          "kurzfassung": "Will das Fachkräfteeinwanderungsgesetz unbürokratisch umsetzen und weiterentwickeln, damit qualifizierte Arbeitskräfte einfacher und schneller kommen können.",
+          "zitat": "Wir wollen das Fachkräfteeinwanderungsgesetz unbürokratisch umsetzen und beständig weiterentwickeln, damit qualifizierte Arbeitskräfte einfacher und schneller nach Deutschland kommen können.",
           "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=55",
           "begruendung": null
         },
         {
           "partei_id": 13,
-          "position": "nein",
-          "kurzfassung": "Lehnt Verschärfungen des Asylrechts ab, die zulasten Schutzsuchender gehen und Integration behindern.",
-          "zitat": "Wir stellen uns gegen reine Symbolpolitik und einen Kurs der Asylrechtsverschärfungen, die nur zulasten der Schutzsuchenden gehen und Integration behindern.",
-          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=129",
+          "position": "ja",
+          "kurzfassung": "Will Arbeitsvisa online mit nur einer Ansprechstelle und eine digitale Einwanderungsagentur, die den Prozess beschleunigt.",
+          "zitat": "Wir wollen, dass Menschen, die bei uns arbeiten wollen, ihr Arbeitsvisum online beantragen können und dafür nur eine Ansprechstelle brauchen. Eine digitale Einwanderungsagentur soll den Einwanderungsprozess modernisieren und beschleunigen.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=20",
           "begruendung": null
         },
         {
           "partei_id": 14,
-          "position": "teils",
-          "kurzfassung": "Will mehr Einwanderung in den Arbeitsmarkt, aber keine in die sozialen Sicherungssysteme.",
-          "zitat": "Wir wollen Einwanderung in den Arbeitsmarkt, nicht in die sozialen Sicherungssysteme.",
+          "position": "ja",
+          "kurzfassung": "Will hochqualifizierten Fachkräften die Einwanderung weiter erleichtern und die Blue Card für nicht-akademische Fachkräfte öffnen.",
+          "zitat": "Hochqualifizierten Fachkräften wollen wir die Einwanderung in den Arbeitsmarkt weiter erleichtern. Die Europäische Blue Card wollen wir für weitere nicht-akademische Fachkräfte öffnen und die unpraktikablen Verdienstuntergrenzen abschaffen.",
           "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=27",
           "begruendung": null
         },
         {
           "partei_id": 15,
-          "position": "ja",
-          "kurzfassung": "Will eine Kehrtwende in der Migrationspolitik: Grenzen wieder kontrollieren, einreisen darf nur, wem es erlaubt ist.",
-          "zitat": "Die AfD wird eine deutliche Kehrtwende in der bisherigen Migrationspolitik einleiten und die Staatsgrenzen wieder kontrollieren. Die Freizügigkeitsregelungen innerhalb der EU bleiben davon unberührt. Einreisen darf künftig nur noch, wem dies erlaubt ist.",
-          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=101",
+          "position": "teils",
+          "kurzfassung": "Begrüßt qualifizierte Fachkräfte, will aber zuerst heimische Potenziale ausschöpfen und danach nach strikten Kriterien auswählen.",
+          "zitat": "Vor jeglicher weiterer außereuropäischer Fachkräfteeinwanderung werden wir zunächst die heimischen Potenziale ausschöpfen. Geeignete außereuropäische Arbeitskräfte werden wir danach bedarfsgerecht nach strikten Kriterien auswählen.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=114",
           "begruendung": null
         },
         {
           "partei_id": 16,
-          "position": "nein",
-          "kurzfassung": "Will Visa liberalisieren und ein offenes Einwanderungsrecht, das nicht nach Herkunft oder Verwertbarkeit unterscheidet.",
+          "position": "ja",
+          "kurzfassung": "Will Visa umfassend liberalisieren und ein offenes Einwanderungsrecht – für alle, nicht nur nach wirtschaftlicher Verwertbarkeit.",
           "zitat": "Wir setzen uns für eine umfassende Visaliberalisierung sowie für ein offenes und solidarisches Einwanderungsrecht ein, das sich nicht mehr am Maßstab Herkunft oder ökonomische Verwertbarkeit orientiert, sondern Teilhabe und Partizipation für alle ermöglicht.",
           "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=54",
           "begruendung": null
@@ -209,15 +209,15 @@
         {
           "partei_id": 17,
           "position": "teils",
-          "kurzfassung": "Verteidigt das Asylrecht für wirklich Schutzbedürftige und will die unkontrollierte Einwanderung beenden.",
-          "zitat": "Wir verteidigen das Grundrecht auf Asyl für wirklich Schutzbedürftige. Gleichzeitig wollen wir die unkontrollierte Einwanderung beenden.",
-          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=36",
+          "kurzfassung": "Will statt vorrangiger Anwerbung ausländischer Fachkräfte in erster Linie junge Menschen in Deutschland qualifizieren.",
+          "zitat": "Statt primär auf die Anwerbung ausländischer Fachkräfte zu setzen und damit die Abwanderung qualifizierten Personals aus ihren Heimatländern zu fördern, wollen wir in erster Linie junge Menschen in Deutschland qualifizieren und ausbilden und ihnen damit echte Chancen auf dem Arbeitsmarkt bieten.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=22",
           "begruendung": null
         },
         {
           "partei_id": 18,
-          "position": "teils",
-          "kurzfassung": "Will ein effizienteres Zuwanderungssystem gegen den Fachkräftemangel und für den Arbeitsstandort.",
+          "position": "ja",
+          "kurzfassung": "Will Zuwanderung erleichtern: digitaler One-Stop-Shop für alle Anträge, Visaanträge vereinfacht und in höchstens drei Monaten bearbeitet.",
           "zitat": "Ein effizienteres Zuwanderungssystem ist entscheidend, um dem Fachkräftemangel zu begegnen und Deutschland als attraktiven Arbeitsstandort zu stärken.",
           "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=50",
           "begruendung": null
@@ -226,22 +226,96 @@
       "zielkonflikte": [
         {
           "seite": "ja",
-          "text": "Wer Zuwanderung stärker begrenzen will, nennt die Belastung der Kommunen: Die Unterbringung bleibt für die meisten herausfordernd, Ausländerbehörden sind besonders stark belastet.",
-          "quelle_url": "https://mediendienst-integration.de/fileadmin/Dateien/EXPERTISE_FLUECHTLINGSAUFNAHME_IN_DEN_KOMMUNEN_MEDIENDIENST_INTEGRATION_NOV_2025_FINAL.pdf"
-        },
-        {
-          "seite": "ja",
-          "text": "Wer Zuwanderung stärker begrenzen will, nennt außerdem den Wohnungsmarkt: In Großstädten wächst die Nachfrage vor allem durch Zuwanderung.",
-          "quelle_url": "https://www.iwkoeln.de/fileadmin/user_upload/Studien/Report/PDF/2026/IW-Report_2026-Migration-und-Wohnungsmarkt.pdf"
-        },
-        {
-          "seite": "nein",
-          "text": "Wer das ablehnt, nennt den Bedarf an Arbeitskräften: Ohne Zuwanderung sänke das Arbeitskräfteangebot bis 2060 um 16 Millionen, gleich bliebe es nur mit netto rund 400.000 Zuwandernden im Jahr.",
+          "text": "Wer Fachkräfte-Zuwanderung erleichtern will, nennt den Bedarf an Arbeitskräften: Ohne Zuwanderung sänke das Arbeitskräfteangebot bis 2060 um 16 Millionen, gleich bliebe es nur mit netto rund 400.000 Zuwandernden im Jahr.",
           "quelle_url": "https://doku.iab.de/kurzber/2021/kb2021-25.pdf"
         },
         {
           "seite": "nein",
-          "text": "Wer das ablehnt, nennt außerdem den Schutz politisch Verfolgter, den das Grundgesetz als Recht auf Asyl garantiert.",
+          "text": "Wer das ablehnt, nennt den Wohnungsmarkt: In Großstädten wächst die Nachfrage vor allem durch Zuwanderung.",
+          "quelle_url": "https://www.iwkoeln.de/fileadmin/user_upload/Studien/Report/PDF/2026/IW-Report_2026-Migration-und-Wohnungsmarkt.pdf"
+        }
+      ]
+    },
+    {
+      "id": "h45",
+      "frage": "Soll Deutschland Asylsuchende an seinen Grenzen zurückweisen?",
+      "beschreibung": "Ob Menschen, die über ein Nachbarland einreisen und in Deutschland Asyl beantragen wollen, schon an der deutschen Grenze abgewiesen werden sollen, um irreguläre Zuwanderung zu verhindern – oder ob ihr Antrag in Deutschland geprüft werden muss.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "ja",
+          "kurzfassung": "Will einen faktischen Aufnahmestopp: Wer aus einem EU- oder Schengen-Staat einreist und Asyl beantragen will, wird an der Grenze zurückgewiesen.",
+          "zitat": "Wir setzen einen faktischen Aufnahmestopp sofort durch. Dazu weisen wir diejenigen an den deutschen Grenzen zurück, die aus einem anderen Mitgliedstaat der EU oder dem Schengen-Raum nach Deutschland einreisen und bei uns einen Asylantrag stellen wollen.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "nein",
+          "kurzfassung": "Lehnt Grenzschließungen und pauschale Zurückweisungen an den Binnengrenzen ab; Binnengrenzkontrollen nur als absolute Ausnahme.",
+          "zitat": "Grenzschließungen und Pauschalzurückweisungen an den Binnengrenzen widersprechen dem Geist eines gemeinsamen Raums der Freiheit, der Sicherheit und des Rechts. Die befristete Wiedereinführung von Binnengrenzkontrollen muss deshalb die absolute Ausnahme bleiben.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=55",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "nein",
+          "kurzfassung": "Einzelfallprüfung und Nichtzurückweisungsgebot sollen immer und überall gelten; Asylanträge in der EU müssen inhaltlich geprüft werden.",
+          "zitat": "Unsere Haltung ist klar: Das Recht auf Einzelfallprüfung und das Nichtzurückweisungsgebot gelten immer und überall. Der Asylantrag von Menschen, die in der EU ankommen oder bereits hier sind, muss in der EU inhaltlich geprüft werden.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=131",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "teils",
+          "kurzfassung": "Unterstützt Zurückweisungen an den deutschen Grenzen als modellhafte Erprobung, um alle rechtlichen Möglichkeiten auszuschöpfen.",
+          "zitat": "Als Freie Demokraten unterstützen wir die modellhafte Erprobung von Zurückweisungen an den deutschen Außengrenzen, um alle rechtlichen Möglichkeiten zur Begrenzung der irregulären Migration auszuschöpfen.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "ja",
+          "kurzfassung": "Will die Grenzen selbst kontrollieren und illegal einreisende Personen konsequent an der Grenze zurückweisen.",
+          "zitat": "Wir werden stattdessen unsere Grenzen wieder selbst kontrollieren und die Bundespolizei als Grenzbehörde einsetzen, um illegale Einreisen wirksam zu unterbinden und illegal einreisende Personen konsequent an der Grenze zurückweisen zu können.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=104",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "nein",
+          "kurzfassung": "Hält systematische Binnengrenzkontrollen und Zurückweisungen von Schutzsuchenden an den Grenzen für unzulässig.",
+          "zitat": "Systematische Binnengrenzkontrollen und Zurückweisungen von Schutzsuchenden an den Grenzen sind unzulässig.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "ja",
+          "kurzfassung": "Will die unkontrollierte Einwanderung beenden: Wer aus einem sicheren Drittstaat einreist, soll kein Recht auf Aufenthalt haben.",
+          "zitat": "Gleichzeitig wollen wir die unkontrollierte Einwanderung beenden. Deutschland braucht für die kommenden Jahre eine Atempause. Ab sofort sollte der Grundsatz gelten: Wer aus einem sicheren Drittstaat einreist, hat kein Recht auf Aufenthalt.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel „Außen- und Binnengrenzen“ (S. 32) und „Asylsystem“ (S. 134–137) durchsucht: Volt will stationäre Kontrollen an den Binnengrenzen dauerhaft vermeiden und Asylsuchende europäisch verteilen, äußert sich aber nicht zu Zurückweisungen an der deutschen Grenze."
+        }
+      ],
+      "zielkonflikte": [
+        {
+          "seite": "ja",
+          "text": "Wer Zurückweisungen will, nennt die Belastung der Kommunen: Die Unterbringung bleibt für die meisten herausfordernd, Ausländerbehörden sind besonders stark belastet.",
+          "quelle_url": "https://mediendienst-integration.de/fileadmin/Dateien/EXPERTISE_FLUECHTLINGSAUFNAHME_IN_DEN_KOMMUNEN_MEDIENDIENST_INTEGRATION_NOV_2025_FINAL.pdf"
+        },
+        {
+          "seite": "nein",
+          "text": "Wer das ablehnt, nennt den Schutz politisch Verfolgter, den das Grundgesetz als Recht auf Asyl garantiert.",
           "quelle_url": "https://www.gesetze-im-internet.de/gg/art_16a.html"
         }
       ]
