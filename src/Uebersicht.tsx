@@ -4,8 +4,8 @@ import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { ladeQuiz } from './laden'
 import { UnterseitenKopf } from './Rechtliches'
 import { parteiStil } from './stil'
-import { POSITION_TEXT, positionImQuiz, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
-import { jaSager, parteiPfad, pruefLinks, STATUS_QUO_TEXT, uebersichtHash } from './uebersicht'
+import { POSITION_TEXT, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
+import { jaSager, parteiPfad, pruefLinks, uebersichtHash } from './uebersicht'
 
 // Fragenübersicht (#/fragen): jede Frage mit Position, Zitat und Beleg aller Parteien – zum Prüfen. Mit Partei im
 // Pfad (#/fragen/volt) steht nur deren Position da, mit Wortlaut aufgeklappt. Je Position führen „Position
@@ -139,7 +139,6 @@ function Frage({
       <p className="meta">{frage.beschreibung}</p>
       <p className="uebersicht-loesung">
         Ja {ja.length === 1 ? 'sagt' : 'sagen'}: {ja.join(', ')}
-        <span className="meta"> · {STATUS_QUO_TEXT[frage.status_quo ?? 'null']}</span>
       </p>
       <KiHinweis frage={frage} />
       {partei ? (
@@ -159,7 +158,7 @@ function EinePosition({ frage, partei, link }: { frage: QuizFrage; partei: QuizP
   return (
     <div className="position uebersicht-position" style={parteiStil(partei.farbe)}>
       <span className="fund-partei">{partei.kurzname}</span>
-      <span className="position-wert">{positionImQuiz(p.position, frage.status_quo)}</span>
+      <span className="position-wert">{POSITION_TEXT[p.position]}</span>
       {p.position === 'keine_aussage' ? (
         p.begruendung && <p className="position-text meta">{p.begruendung}</p>
       ) : (

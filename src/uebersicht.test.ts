@@ -8,7 +8,6 @@ const frage: QuizFrage = {
   frage: 'Soll es ein Tempolimit geben?',
   beschreibung: 'Ob überall 130 gilt.',
   art: 'einzeln',
-  status_quo: 'nein',
   richtig: [18],
   neutral: [],
   positionen: [
@@ -67,7 +66,7 @@ describe('Fragenübersicht (uebersicht.ts)', () => {
   it('nimmt die Frage selbst mit ins Meldeissue', () => {
     const text = new URL(positionMelden(frage, partei, frage.positionen[0], 'https://example.org/#/fragen')).searchParams.get('body') ?? ''
     expect(text).toContain('**Beschreibung:** Ob überall 130 gilt.')
-    expect(text).toContain('Heute gilt: Nein')
+    expect(text).toContain('**Beschreibung:** Ob überall 130 gilt.')
     expect(text).toContain('**Betrifft die Frage selbst?**')
   })
 

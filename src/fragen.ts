@@ -8,11 +8,7 @@ export function anleitung(f: Pick<QuizFrage, 'art'>): string {
   return 'Wer sagt Ja? Mehrere sind richtig.'
 }
 
-/** Regeln in Stichworten darunter: wie „teils“ und „keine Aussage“ zählen, wie man abgibt. */
-export function anleitungRegeln(f: Pick<QuizFrage, 'art' | 'status_quo'>): string[] {
-  return [
-    ...(f.art === 'mehrfach' ? ['„teils“ zählt nicht'] : ['ein Tipp gibt ab']),
-    // Nur wenn es etwas ändert: Ohne Ja zählt „keine Aussage“ ohnehin nicht als richtig.
-    ...(f.status_quo === 'ja' ? ['keine Aussage zählt als Ja'] : []),
-  ]
+/** Regeln in Stichworten darunter: wie „teils“ zählt, wie man abgibt. */
+export function anleitungRegeln(f: Pick<QuizFrage, 'art'>): string[] {
+  return f.art === 'mehrfach' ? ['„teils“ zählt nicht'] : ['ein Tipp gibt ab']
 }

@@ -11,8 +11,6 @@ export interface FragenEintrag {
   /** Ja/Nein-Frage, neutral formuliert. Gefragt wird im Spiel immer, wer Ja sagt. */
   frage: string
   beschreibung: string
-  /** Was heute gilt: „keine Aussage“ im Programm zählt wie diese Antwort (null: zählt weder als Ja noch als Nein). */
-  status_quo: 'ja' | 'nein' | null
   /** true, solange die Positionen nur mit KI-Hilfe erfasst und noch nicht von Menschen geprüft sind. */
   ki_entwurf: boolean
   /** Genau eine Position je Partei. */
@@ -27,10 +25,9 @@ export interface FragenDatei {
 
 const POSITIONEN = new Set(['ja', 'nein', 'teils', 'keine_aussage'])
 
-/** Wer Ja sagt (richtig) und wer „teils“ – „keine Aussage“ zählt wie die heutige Lage. */
-function auswerten(positionen: QuizPosition[], status_quo: FragenEintrag['status_quo']) {
-  const gilt = (p: QuizPosition) => (p.position === 'keine_aussage' && status_quo ? status_quo : p.position)
-  const mit = (wert: string) => positionen.filter((p) => gilt(p) === wert).map((p) => p.partei_id)
+/** Wer Ja sagt (richtig) und wer „teils“ – „keine Aussage“ bleibt keine Aussage, also kein Ja. */
+function auswerten(positionen: QuizPosition[]) {
+  const mit = (wert: string) => positionen.filter((p) => p.position === wert).map((p) => p.partei_id)
   return { richtig: mit('ja'), teils: mit('teils') }
 }
 
@@ -41,8 +38,6 @@ export function fehlerIn(e: FragenEintrag, parteien: QuizPartei[]): string[] {
   const fehler: string[] = []
   if (!/^[a-z0-9-]+$/.test(e.id)) fehler.push('id: nur Kleinbuchstaben, Ziffern und Bindestrich')
   if (!e.frage?.trim().endsWith('?')) fehler.push('frage: muss mit „?“ enden')
-  if (!(e.status_quo === 'ja' || e.status_quo === 'nein' || e.status_quo === null))
-    fehler.push('status_quo: "ja", "nein" oder null')
   for (const partei of parteien) {
     const anzahl = e.positionen.filter((p) => p.partei_id === partei.id).length
     if (anzahl !== 1) fehler.push(`${partei.kurzname}: ${anzahl ? 'mehrere Positionen' : 'keine Position'}`)
@@ -58,7 +53,7 @@ export function fehlerIn(e: FragenEintrag, parteien: QuizPartei[]): string[] {
     if (p.geprueft && !(p.geprueft.von && /^https:\/\//.test(p.geprueft.issue_url)))
       fehler.push(`${name}: „geprueft“ braucht „von“ und „issue_url“ (https-Link zum Issue)`)
   }
-  const { richtig } = auswerten(e.positionen, e.status_quo)
+  const { richtig } = auswerten(e.positionen)
   if (!richtig.length) fehler.push('keine Partei sagt Ja – das Quiz fragt nur, wer Ja sagt')
   else if (richtig.length >= parteien.length) fehler.push('alle Parteien sagen Ja – es gibt nichts zu raten')
   return fehler
@@ -79,14 +74,13 @@ export function fehlerInDatei(datei: FragenDatei): string[] {
 /** Spielbare Frage aus einem fehlerfreien Eintrag. */
 export function alsFrage(e: FragenEintrag): QuizFrage {
   const positionen = nachPartei(e.positionen)
-  const { richtig, teils } = auswerten(positionen, e.status_quo)
+  const { richtig, teils } = auswerten(positionen)
   const art = richtig.length === 1 ? 'einzeln' : 'mehrfach'
   return {
     id: e.id,
     frage: e.frage,
     beschreibung: e.beschreibung,
     art,
-    status_quo: e.status_quo,
     richtig,
     neutral: art === 'mehrfach' ? teils : [],
     positionen,

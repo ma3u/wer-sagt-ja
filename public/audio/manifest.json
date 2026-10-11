@@ -669,15 +669,15 @@
       "datei": "frage-h2.mp3",
       "sprecher": "mara",
       "text": "Soll Zuwanderung nach Deutschland stärker begrenzt werden?",
-      "dauer": 2.72,
+      "dauer": 2.96,
       "woerter": [
         0,
-        0.32,
-        0.912,
-        1.08,
-        1.573,
-        1.88,
-        2.366
+        0.4,
+        1.008,
+        1.233,
+        1.68,
+        2.12,
+        2.537
       ],
       "hash": "2d6006759420"
     },
@@ -685,13 +685,13 @@
       "datei": "loesung-h2.mp3",
       "sprecher": "mara",
       "text": "Klar Ja sagt nur: AfD!",
-      "dauer": 2.24,
+      "dauer": 2.16,
       "woerter": [
-        0.072,
-        0.32,
-        0.56,
-        0.94,
-        1.44
+        0.248,
+        0.4,
+        0.64,
+        1.04,
+        1.547
       ],
       "hash": "6a7d18cc7838"
     },
@@ -781,20 +781,19 @@
     "loesung-h7": {
       "datei": "loesung-h7.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP, AfD und Volt!",
-      "dauer": 4.8,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP und Volt!",
+      "dauer": 4.24,
       "woerter": [
-        0.24,
-        0.493,
-        1.427,
-        1.96,
-        2.54,
-        3.08,
-        3.707,
-        4.14,
-        4.4
+        0.208,
+        0.307,
+        0.827,
+        1.58,
+        2.14,
+        2.68,
+        3.28,
+        3.632
       ],
-      "hash": "61207a36c4a9"
+      "hash": "abbb8cfc6281"
     },
     "frage-h8": {
       "datei": "frage-h8.mp3",
@@ -824,19 +823,17 @@
     "loesung-h8": {
       "datei": "loesung-h8.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: SPD, Grüne, Linke, BSW und Volt!",
-      "dauer": 4.08,
+      "text": "Ja sagen: Grüne, Linke und Volt!",
+      "dauer": 2.88,
       "woerter": [
-        0.213,
-        0.32,
-        1.34,
-        1.9,
-        2.38,
-        2.96,
-        3.5,
-        3.744
+        0.347,
+        0.48,
+        1.1,
+        1.82,
+        2.2,
+        2.416
       ],
-      "hash": "1ea5479c2e0d"
+      "hash": "c81a7330282c"
     },
     "frage-h9": {
       "datei": "frage-h9.mp3",
@@ -951,21 +948,20 @@
     "loesung-h12": {
       "datei": "loesung-h12.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, AfD, Linke, BSW und Volt!",
-      "dauer": 5.44,
+      "text": "Ja sagen: Union, SPD, Grüne, Linke, BSW und Volt!",
+      "dauer": 5.84,
       "woerter": [
-        0.133,
-        0.32,
-        1.187,
-        1.72,
-        2.22,
-        2.827,
-        3.32,
-        3.92,
-        4.6,
-        5.04
+        0.28,
+        0.427,
+        1.613,
+        2.32,
+        3.02,
+        3.66,
+        4.4,
+        5.04,
+        5.376
       ],
-      "hash": "11b85cc442df"
+      "hash": "f7f5781c461c"
     },
     "frage-h13": {
       "datei": "frage-h13.mp3",
@@ -1143,21 +1139,17 @@
     "loesung-h19": {
       "datei": "loesung-h19.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP, Linke, BSW und Volt!",
-      "dauer": 5.6,
+      "text": "Ja sagen: Union, SPD und FDP!",
+      "dauer": 3.04,
       "woerter": [
-        0.133,
-        0.32,
-        0.933,
-        1.8,
-        2.38,
-        3,
-        3.58,
-        4.2,
-        4.78,
-        5.056
+        0.139,
+        0.253,
+        0.907,
+        1.64,
+        2.06,
+        2.4
       ],
-      "hash": "c798aa80b755"
+      "hash": "00bbea81a9d5"
     },
     "frage-h21": {
       "datei": "frage-h21.mp3",
@@ -1181,17 +1173,16 @@
     "loesung-h21": {
       "datei": "loesung-h21.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Linke, BSW und Volt!",
-      "dauer": 2.96,
+      "text": "Ja sagen: Linke und Volt!",
+      "dauer": 2.88,
       "woerter": [
-        0.139,
-        0.24,
-        0.86,
-        1.72,
-        2.24,
-        2.56
+        0.208,
+        0.333,
+        1.02,
+        1.8,
+        2.288
       ],
-      "hash": "0775b59a2a2b"
+      "hash": "2e9935f1cabb"
     },
     "frage-h24": {
       "datei": "frage-h24.mp3",
@@ -1342,20 +1333,19 @@
     "loesung-h32": {
       "datei": "loesung-h32.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP, AfD und Volt!",
-      "dauer": 5.2,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP und Volt!",
+      "dauer": 4.64,
       "woerter": [
-        0.187,
-        0.48,
-        1.067,
-        1.84,
-        2.46,
-        3.12,
-        3.893,
-        4.4,
-        4.72
+        0.28,
+        0.4,
+        1.013,
+        1.92,
+        2.62,
+        3.28,
+        3.84,
+        4.176
       ],
-      "hash": "61207a36c4a9"
+      "hash": "abbb8cfc6281"
     },
     "frage-h33": {
       "datei": "frage-h33.mp3",
@@ -1385,21 +1375,19 @@
     "loesung-h33": {
       "datei": "loesung-h33.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP, AfD, BSW und Volt!",
-      "dauer": 6,
+      "text": "Ja sagen: Union, SPD, FDP, AfD und BSW!",
+      "dauer": 5.12,
       "woerter": [
-        0.24,
-        0.48,
-        1.107,
-        2.06,
-        2.7,
-        3.2,
-        3.92,
-        4.6,
-        5.22,
-        5.6
+        0.213,
+        0.413,
+        1.44,
+        2.08,
+        2.76,
+        3.44,
+        4,
+        4.4
       ],
-      "hash": "9820ba2fd426"
+      "hash": "69a617f50761"
     },
     "frage-h34": {
       "datei": "frage-h34.mp3",
@@ -1551,19 +1539,17 @@
     "loesung-h38": {
       "datei": "loesung-h38.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: SPD, Grüne, FDP, Linke und Volt!",
-      "dauer": 4.48,
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.76,
       "woerter": [
-        0.139,
         0.24,
-        1.24,
-        1.76,
-        2.44,
-        3.06,
-        3.7,
-        4.08
+        0.493,
+        1.26,
+        2.14,
+        2.74,
+        3.12
       ],
-      "hash": "8ed21fcdd4ef"
+      "hash": "1da1d12d0533"
     },
     "frage-h39": {
       "datei": "frage-h39.mp3",
@@ -1618,20 +1604,16 @@
     "loesung-h40": {
       "datei": "loesung-h40.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: SPD, Grüne, FDP, Linke, BSW und Volt!",
-      "dauer": 4.48,
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.64,
       "woerter": [
-        0.208,
-        0.307,
-        0.88,
-        1.5,
-        2.04,
-        2.6,
-        3.16,
-        3.68,
-        4.016
+        0.16,
+        0.4,
+        1,
+        1.72,
+        2.14
       ],
-      "hash": "c93ecb3bb0d8"
+      "hash": "c2de2fd93af7"
     },
     "frage-h41": {
       "datei": "frage-h41.mp3",

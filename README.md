@@ -25,14 +25,14 @@ Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Je Frage:
 | --- | --- |
 | `id` | Stabile Kennung, nie ändern – die Aufnahmen heißen danach (`frage-<id>.mp3`, `loesung-<id>.mp3`) |
 | `frage`, `beschreibung` | Neutral formulierte Ja/Nein-Frage mit Fragezeichen und eine Erläuterung |
-| `status_quo` | Was heute gilt (`"ja"`, `"nein"` oder `null`); „keine Aussage“ im Programm zählt wie diese Antwort |
 | `positionen` | Genau eine je Partei: `ja`, `nein`, `teils` oder `keine_aussage`. Ja, Nein und teils immer mit wörtlichem `zitat` und `beleg_url` (Seite im Programm), keine Aussage mit `begruendung`, was durchsucht wurde |
 | `zielkonflikte` | Argumente beider Seiten mit Quelle (optional, leere Liste) |
 | `ki_entwurf` | `true`, solange die Positionen nicht von Menschen geprüft sind – das Spiel sagt das dann an |
 | `geprueft` | Je Position optional: `{ "von": "Volt Deutschland", "issue_url": "https://github.com/…/issues/12" }`, wenn jemand die Position bestätigt hat – das Issue ist der Nachweis |
 
-Was richtig ist, leitet das Spiel ab (`src/katalog.ts`): Gefragt wird **immer, wer Ja sagt**. Eine Frage, zu der
-keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Frage, wer Ja sagt, und meldet
+Was richtig ist, leitet das Spiel ab (`src/katalog.ts`): Gefragt wird **immer, wer Ja sagt**. Richtig sind nur
+Parteien mit `ja`; „keine Aussage“ wird nie als Ja oder Nein gewertet und so angezeigt – ein Kreuz dort ist kein
+Treffer, weil die Partei nicht Ja sagt. Eine Frage, zu der keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Frage, wer Ja sagt, und meldet
 Fehler; `npm test` prüft die Datei ebenso. Neue oder geänderte Fragen brauchen danach neue Aufnahmen
 (`npm run stimmen`, kostet ElevenLabs-Credits).
 

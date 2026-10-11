@@ -6,12 +6,11 @@ import type { Positionswert, QuizPartei } from './typen'
 
 const parteien: QuizPartei[] = [1, 2, 3, 4].map((id) => ({ id, name: `P${id}`, kurzname: `P${id}`, farbe: '#000', programm_url: '' }))
 
-function eintrag(werte: Positionswert[], status_quo: FragenEintrag['status_quo'] = null): FragenEintrag {
+function eintrag(werte: Positionswert[]): FragenEintrag {
   return {
     id: 'x1',
     frage: 'Soll es das geben?',
     beschreibung: '',
-    status_quo,
     ki_entwurf: false,
     zielkonflikte: [],
     positionen: werte.map((position, i) => ({
@@ -32,9 +31,8 @@ describe('Fragendatei (katalog.ts)', () => {
     expect(alsFrage(eintrag(['nein', 'ja', 'teils', 'nein']))).toMatchObject({ art: 'einzeln', richtig: [2], neutral: [] })
   })
 
-  it('„keine Aussage“ zählt wie die heutige Lage', () => {
-    expect(alsFrage(eintrag(['keine_aussage', 'ja', 'nein', 'nein'], 'ja')).richtig).toEqual([1, 2])
-    expect(alsFrage(eintrag(['keine_aussage', 'ja', 'nein', 'nein'], null)).richtig).toEqual([2])
+  it('„keine Aussage“ bleibt keine Aussage: weder Ja noch „teils“', () => {
+    expect(alsFrage(eintrag(['keine_aussage', 'ja', 'nein', 'ja']))).toMatchObject({ richtig: [2, 4], neutral: [] })
   })
 
   it('fragt nie nach Nein: ohne Ja-Partei ist eine Frage nicht spielbar', () => {

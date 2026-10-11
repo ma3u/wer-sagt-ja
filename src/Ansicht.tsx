@@ -7,7 +7,7 @@ import { QrCode } from './QrCode'
 import { anleitung, anleitungRegeln } from './fragen'
 import { MAX_PUNKTE, ZEITFAKTOR_TEXT, type Zeitfaktor } from './punkte'
 import { limitFuer, rangliste, type Ergebnis, type QuizSpieler, type QuizZustand, type Weg } from './spielleitung'
-import { KI_HINWEIS, POSITION_TEXT, positionImQuiz, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei, type QuizPosition } from './typen'
+import { KI_HINWEIS, POSITION_TEXT, type QuizDaten, type QuizFrage, type QuizPartei, type QuizPosition } from './typen'
 import { frageVon } from './useSpiel'
 import type { PruefLinks } from './uebersicht'
 import { aufloesung, dauerMs, parteiWoerter, reaktionFuer, vorspann, type Marke } from './show/ablauf'
@@ -393,6 +393,8 @@ function kreuzText(frage: QuizFrage, parteiId: number, gewaehlt: boolean): { tex
   const richtig = frage.richtig.includes(parteiId)
   if (gewaehlt && richtig) return { text: '✓ dein Kreuz – Treffer', art: 'treffer' }
   if (gewaehlt && frage.neutral.includes(parteiId)) return { text: 'dein Kreuz – „teils“ zählt nicht', art: 'neutral' }
+  const ohneAussage = frage.positionen.find((p) => p.partei_id === parteiId)?.position === 'keine_aussage'
+  if (gewaehlt && ohneAussage) return { text: '✗ dein Kreuz – keine Aussage, also kein Ja', art: 'daneben' }
   if (gewaehlt) return { text: '✗ dein Kreuz – daneben', art: 'daneben' }
   if (richtig) return { text: 'nicht angekreuzt', art: 'verpasst' }
   return null
@@ -453,7 +455,7 @@ export function Positionen({
             <span className="fund-partei" title={partei.name}>
               {partei.kurzname}
             </span>
-            <span className="position-wert">{positionImQuiz(p.position, frage.status_quo)}</span>
+            <span className="position-wert">{POSITION_TEXT[p.position]}</span>
             {kreuz && <span className={`quiz-kreuz quiz-kreuz-${kreuz.art}`}>{kreuz.text}</span>}
             {p.position === 'keine_aussage' ? (
               p.begruendung && <p className="position-text meta">{p.begruendung}</p>
@@ -541,12 +543,6 @@ function Stand({ z, ich, letzte }: { z: QuizZustand; ich: string; letzte?: Recor
   )
 }
 
-/** Kurzer Zusatz in der Lösungstafel. */
-function zeilenText(position: Positionswert, frage: QuizFrage): string {
-  if (position !== 'keine_aussage' || frage.status_quo !== 'ja') return POSITION_TEXT[position]
-  return 'keine Aussage, zählt als Ja'
-}
-
 function loesungText(frage: QuizFrage, parteien: QuizPartei[]) {
   const namen = frage.richtig.map((id) => parteien.find((p) => p.id === id)?.kurzname ?? id).join(', ')
   return `Für Ja ${frage.richtig.length === 1 ? 'steht' : 'stehen'}: ${namen}`
@@ -622,7 +618,7 @@ function Aufloesung({ daten, z, ich, frage, istLeitung, allein, onWeiter }: Ansi
               <span className="partei-zeile-name">
                 {partei.name}
                 {/* Der Stempel sagt es schon – der Zusatz nur, wo er etwas Neues sagt (Nein, teils, keine Aussage). */}
-                {show.fertig && p && p.position !== 'ja' && <small> · {zeilenText(p.position, frage)}</small>}
+                {show.fertig && p && p.position !== 'ja' && <small> · {POSITION_TEXT[p.position]}</small>}
               </span>
               {stempel && <span className="show-stempel">Ja</span>}
               {gewaehlt && <span className="sr-only">(dein Kreuz)</span>}

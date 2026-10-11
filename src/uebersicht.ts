@@ -1,5 +1,5 @@
 import { QUELLCODE } from './app'
-import { POSITION_TEXT, positionImQuiz, type QuizFrage, type QuizPartei, type QuizPosition } from './typen'
+import { POSITION_TEXT, type QuizFrage, type QuizPartei, type QuizPosition } from './typen'
 
 // Fragenübersicht (#/fragen): alle Fragen mit der Position jeder Partei, zum Prüfen durch Parteien und Leser.
 // Adressen: #/fragen (alle), #/fragen/<partei> (nur eine Partei), #/fragen/<partei>/<frage-id> (springt zur Frage);
@@ -42,12 +42,6 @@ export function uebersichtAus(hash: string): UebersichtAdresse | null {
   }
 }
 
-export const STATUS_QUO_TEXT: Record<'ja' | 'nein' | 'null', string> = {
-  ja: 'Heute gilt: Ja – „keine Aussage“ zählt als Ja',
-  nein: 'Heute gilt: Nein – „keine Aussage“ zählt als Nein',
-  null: 'Heute nicht festgelegt – „keine Aussage“ zählt weder als Ja noch als Nein',
-}
-
 /** Wer laut Spiel Ja sagt, in Kurznamen. */
 export const jaSager = (frage: QuizFrage, parteien: QuizPartei[]) =>
   frage.richtig.map((id) => parteien.find((p) => p.id === id)?.kurzname ?? String(id))
@@ -70,8 +64,8 @@ export function issueLink(titel: string, text: string): string {
 }
 
 /** Was zu einer Position eingetragen ist, als Markdown-Zeilen. */
-function positionAlsText(p: QuizPosition, frage: QuizFrage): string {
-  const zeilen = [`**Eingetragen:** ${positionImQuiz(p.position, frage.status_quo)}`]
+function positionAlsText(p: QuizPosition): string {
+  const zeilen = [`**Eingetragen:** ${POSITION_TEXT[p.position]}`]
   if (p.kurzfassung) zeilen.push(`**Kurzfassung:** ${p.kurzfassung}`)
   if (p.zitat) zeilen.push(`**Zitat:** „${p.zitat}“`)
   if (p.beleg_url) zeilen.push(`**Beleg:** ${p.beleg_url}`)
@@ -85,13 +79,13 @@ export function positionMelden(frage: QuizFrage, partei: QuizPartei, p: QuizPosi
   const text = [
     frageAlsText(frage),
     `**Partei:** ${partei.name}`,
-    positionAlsText(p, frage),
+    positionAlsText(p),
     '',
     `**Richtig wäre:** (${Object.values(POSITION_TEXT).join(' / ')})`,
     '',
     '**Wörtliches Zitat aus dem Wahlprogramm 2025 mit Seite:**',
     '',
-    '**Betrifft die Frage selbst?** (Formulierung, Beschreibung, heutige Lage)',
+    '**Betrifft die Frage selbst?** (Formulierung, Beschreibung)',
     '',
     '**Anmerkung:**',
     '',
@@ -110,7 +104,7 @@ export function positionBestaetigen(frage: QuizFrage, partei: QuizPartei, p: Qui
   const text = [
     frageAlsText(frage),
     `**Partei:** ${partei.name}`,
-    positionAlsText(p, frage),
+    positionAlsText(p),
     '',
     '**Geprüft von:** (Name und Rolle, etwa „Volt Deutschland, Bundesvorstand“)',
     '',
@@ -124,11 +118,10 @@ export function positionBestaetigen(frage: QuizFrage, partei: QuizPartei, p: Qui
   return issueLink(titel, text)
 }
 
-/** Frage, heutige Lage und Ja-Sager als Markdown-Zeilen. */
+/** Frage und Beschreibung als Markdown-Zeilen. */
 function frageAlsText(frage: QuizFrage): string {
   return [
     `**Frage ${frage.id}:** ${frage.frage}`,
     `**Beschreibung:** ${frage.beschreibung}`,
-    `**${STATUS_QUO_TEXT[frage.status_quo ?? 'null']}**`,
   ].join('\n')
 }

@@ -25,9 +25,8 @@ describe('anleitung', () => {
   it('fragt immer nach Ja und nennt die Regeln', () => {
     expect(anleitung({ art: 'mehrfach' })).toBe('Wer sagt Ja? Mehrere sind richtig.')
     expect(anleitung({ art: 'einzeln' })).toBe('Nur eine Partei sagt Ja. Welche?')
-    expect(anleitungRegeln({ art: 'mehrfach', status_quo: null })).toEqual(['„teils“ zählt nicht'])
-    expect(anleitungRegeln({ art: 'mehrfach', status_quo: 'nein' })).toEqual(['„teils“ zählt nicht'])
-    expect(anleitungRegeln({ art: 'einzeln', status_quo: 'ja' })).toEqual(['ein Tipp gibt ab', 'keine Aussage zählt als Ja'])
+    expect(anleitungRegeln({ art: 'mehrfach' })).toEqual(['„teils“ zählt nicht'])
+    expect(anleitungRegeln({ art: 'einzeln' })).toEqual(['ein Tipp gibt ab'])
   })
 })
 
@@ -73,7 +72,7 @@ describe('bewerte', () => {
 
 describe('Spielleitung', () => {
   const frage: QuizFrage = {
-    id: 'h1', frage: 'F?', beschreibung: '', art: 'einzeln', status_quo: null, richtig: [15], neutral: [],
+    id: 'h1', frage: 'F?', beschreibung: '', art: 'einzeln', richtig: [15], neutral: [],
     positionen: [], zielkonflikte: [], ki_entwurf: false,
   }
   const raum = () => {
