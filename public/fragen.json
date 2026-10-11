@@ -1466,11 +1466,11 @@
         },
         {
           "partei_id": 13,
-          "position": "keine_aussage",
-          "kurzfassung": null,
-          "zitat": null,
-          "beleg_url": null,
-          "begruendung": "Treffer S. 21, 36, 136 gelesen sowie Suche nach Euro, Währung, Währungsunion, Eurozone, Fiskalregeln: nur beiläufig 'gemeinsame Währung' und europäische Fiskalregeln, keine Aussage zu Euro behalten oder austreten."
+          "position": "ja",
+          "kurzfassung": "Bekennt sich klar zur EU als Friedensprojekt und „Lebensversicherung“ und will sie stärken; den Euro erwähnt das Programm nur beiläufig als „gemeinsame Währung“ (S. 21).",
+          "zitat": "Die EU ist das erfolgreichste Friedensprojekt und Basis für unseren wirtschaftlichen Erfolg. Sie ist die Antwort auf zwei Weltkriege und den Holocaust. Sie ist unsere Lebensversicherung für Frieden, Sicherheit und Wohlstand.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=142",
+          "begruendung": null
         },
         {
           "partei_id": 14,
@@ -1490,11 +1490,11 @@
         },
         {
           "partei_id": 16,
-          "position": "keine_aussage",
-          "kurzfassung": null,
-          "zitat": null,
-          "beleg_url": null,
-          "begruendung": "Kapitel Finanzen/EZB (S. 13–14) gelesen; Suche nach Euro, Währung, Währungsunion, Eurozone, EZB: nur Demokratisierung der EZB, digitaler Euro, Währung als staatliche Souveränität; nichts zu Beibehaltung oder Austritt."
+          "position": "ja",
+          "kurzfassung": "Bekennt sich zur EU und will sie sozial umbauen und solidarisch erweitern; zum Euro als Währung sagt das Programm nichts.",
+          "zitat": "Wir wollen eine soziale EU, die internationalem Ausgleich und dem Frieden verpflichtet ist, anstatt Löhne zu drücken sowie Blockkonfrontation und Standortkonkurrenz zu verschärfen.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=23",
+          "begruendung": null
         },
         {
           "partei_id": 17,
@@ -1502,15 +1502,15 @@
           "kurzfassung": null,
           "zitat": null,
           "beleg_url": null,
-          "begruendung": "Suche nach Euro, Währung, EZB, Zentralbank, Währungsunion: nur Geldbeträge und Europa/EU-Kritik (S. 12-13), keine Aussage zum Euro als Währung."
+          "begruendung": "Suche nach Euro, Währung, EZB, Zentralbank, Währungsunion: nur Geldbeträge. Zur EU heißt es auf S. 8 „enge Zusammenarbeit der europäischen Staaten, aber nicht … Integration in Richtung eines europäischen Bundesstaats“ – kein klares Bekenntnis zur EU und keine Aussage zum Euro."
         },
         {
           "partei_id": 18,
-          "position": "keine_aussage",
-          "kurzfassung": null,
-          "zitat": null,
-          "beleg_url": null,
-          "begruendung": "Kapitel Finanzen, EU-Binnenmarkt (S. 58) durchsucht nach Euro, Währung, Eurozone, Zentralbank, Währungsunion: keine Aussage zum Euro als Währung."
+          "position": "ja",
+          "kurzfassung": "Bekennt sich klar zu Europa und will eine föderale europäische Republik; zum Euro als Währung sagt das Programm nichts.",
+          "zitat": "Wir sind bereit für eine föderale europäische Republik, die nationale Interessen überwindet, die Bürgerschaft stärkt und Demokratie, Rechtsstaatlichkeit sowie Vielfalt schützt.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=9",
+          "begruendung": null
         }
       ],
       "zielkonflikte": [
