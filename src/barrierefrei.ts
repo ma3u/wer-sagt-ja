@@ -18,6 +18,8 @@ if (typeof addEventListener === 'function')
 export function useAnsicht<T extends HTMLElement = HTMLHeadingElement>(titel: string, schluessel: unknown = titel) {
   const ref = useRef<T>(null)
   useEffect(() => {
+    // Das Quiz bleibt unter einer Unterseite versteckt geladen – dann bestimmt die Unterseite den Titel.
+    if (ref.current?.closest('[hidden]')) return
     const vorher = document.title
     document.title = titel ? `${titel} – ${APP_NAME}` : `${APP_NAME} – ${UNTERTITEL}`
     // Unterseiten liegen über dem Spiel: Beim Schließen gilt wieder der Titel darunter.

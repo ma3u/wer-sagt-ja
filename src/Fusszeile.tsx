@@ -5,6 +5,7 @@ export function Fusszeile() {
   const [bewegungAus, umschalten] = useBewegung()
   return (
     <footer className="fusszeile">
+      <a href="#/fragen">Alle Fragen</a>
       <a href="#/impressum">Impressum</a>
       <a href="#/datenschutz">Datenschutz</a>
       <a href={QUELLCODE}>Quellcode</a>

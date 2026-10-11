@@ -38,6 +38,10 @@ Fehler; `npm test` prüft die Datei ebenso. Neue oder geänderte Fragen brauchen
 Zurzeit sind alle Fragen **KI-Entwürfe, noch nicht von Menschen geprüft** – das Spiel sagt das auf der Startseite und
 in jeder Auflösung.
 
+Zum Prüfen zeigt `#/fragen` alle Fragen mit Position, Wortlaut und Beleg jeder Partei, nach Partei filterbar
+(`#/fragen/volt`). „Fehler melden“ je Position und je Frage öffnet ein vorausgefülltes GitHub-Issue mit Frage,
+Partei, eingetragener Position, Zitat und Beleg (`src/uebersicht.ts`).
+
 ## Technik
 
 - React + Vite + TypeScript, Tests mit Vitest, Lint mit oxlint.
@@ -50,7 +54,8 @@ in jeder Auflösung.
   `llms.txt` für KI-Agenten und ein Textblock in `index.html` für Crawler ohne JavaScript. Die Bilder
   (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` mit Chrome und ffmpeg. Die öffentliche Adresse
   steht fest in `index.html`, `public/sitemap.xml` und `public/llms.txt` – bei einer eigenen Domain dort ändern.
-- Adressen: `#/` Start, `#/<raumname>` Einladung, `#/impressum`, `#/datenschutz`.
+- Adressen: `#/` Start, `#/<raumname>` Einladung, `#/fragen` alle Fragen mit Belegen (`#/fragen/<partei>` nur eine
+  Partei, `#/fragen/<partei>/<frage-id>` springt zur Frage), `#/impressum`, `#/datenschutz`.
 - Barrierefreiheit nach WCAG 2.2 AA: Fokusführung bei Ansichtswechsel, Zielflächen ≥ 24 px, „Bewegung anhalten“,
   Zeitlimit einstellbar.
 
@@ -71,7 +76,7 @@ veröffentlicht auf GitHub Pages unter `/<repository>/`. Vor dem öffentlichen S
 
 ```
 src/            App: Quiz.tsx (Start, Räume), Ansicht.tsx (Frage, Auflösung, Ergebnis), spielleitung.ts (Regeln),
-                verbindung.ts (WebRTC + Firebase), show/ (Moderation, Ton), Rechtliches.tsx
+                verbindung.ts (WebRTC + Firebase), show/ (Moderation, Ton), Uebersicht.tsx (alle Fragen), Rechtliches.tsx
 public/         fragen.json (Fragen und Positionen), audio/ (Stimmen und Geräusche), Vorschaubilder, llms.txt
 scripts/        fragen.ts (Übersicht und Prüfung), stimmen.ts (ElevenLabs), vorschau.ts, aufraeumen.ts (Firebase)
 firebase/       Regeln der Realtime Database

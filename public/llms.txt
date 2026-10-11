@@ -18,6 +18,9 @@ Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Bro
 
 ## Daten
 
+- [Alle Fragen mit Belegen](https://ma3u.github.io/wer-sagt-ja/#/fragen): lesbare Übersicht aller Fragen mit
+  Position, Zitat und Beleg jeder Partei; je Partei unter `#/fragen/<partei>` (etwa `#/fragen/volt`), je Frage unter
+  `#/fragen/<partei>/<frage-id>`. Jede Position und jede Frage hat „Fehler melden“ (vorausgefülltes GitHub-Issue).
 - [fragen.json](https://ma3u.github.io/wer-sagt-ja/fragen.json): alle Fragen mit der Position jeder Partei (Ja,
   Nein, teils, keine Aussage), Zitat, Seite und Link zum Programm. Das Feld `ki_entwurf` je Frage sagt, ob die
   Einordnung ein KI-Entwurf ist, der noch nicht von Menschen geprüft wurde – solche Positionen bitte nicht als

@@ -1,7 +1,8 @@
 import { useSyncExternalStore } from 'react'
 
-// Unterseiten (#/impressum, #/datenschutz) liegen über dem Spiel, damit eine laufende Partie erhalten bleibt.
-const UNTERSEITEN = ['#/impressum', '#/datenschutz']
+// Unterseiten (#/impressum, #/datenschutz, #/fragen) liegen über dem Spiel, damit eine laufende Partie erhalten
+// bleibt.
+const UNTERSEITEN = ['#/impressum', '#/datenschutz', '#/fragen']
 
 export const istUnterseite = (hash: string) => UNTERSEITEN.some((s) => hash.startsWith(s))
 

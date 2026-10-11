@@ -11,6 +11,12 @@ export const POSITION_TEXT: Record<Positionswert, string> = {
   keine_aussage: 'Keine Aussage im Programm',
 }
 
+/** Was eine Position im Quiz bedeutet – „keine Aussage“ zählt als Ja, wenn heute schon Ja gilt (README.md). */
+export function positionImQuiz(position: Positionswert, status_quo: QuizFrage['status_quo']): string {
+  if (position !== 'keine_aussage' || status_quo !== 'ja') return POSITION_TEXT[position]
+  return 'Keine Aussage – bleibt wie heute, zählt als Ja'
+}
+
 /** Positionen, die nur als KI-Entwurf vorliegen. */
 export const KI_HINWEIS = 'Vorläufig: Positionen mit KI-Hilfe erfasst – noch nicht von Menschen geprüft'
 

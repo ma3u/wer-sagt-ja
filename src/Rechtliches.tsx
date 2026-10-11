@@ -33,6 +33,20 @@ function Anschrift() {
   )
 }
 
+/** Kopf jeder Unterseite: zurück ins Spiel und das Logo zur Startseite. */
+export function UnterseitenKopf({ onZurueck }: { onZurueck: () => void }) {
+  return (
+    <header className="recht-kopf">
+      <button className="knopf knopf-leise" onClick={onZurueck}>
+        ← Zurück
+      </button>
+      <a href="#/" className="recht-marke" aria-label={`${APP_NAME} – Startseite`}>
+        <Logo groesse={32} />
+      </a>
+    </header>
+  )
+}
+
 export function Rechtliches({ seite, onZurueck }: { seite: RechtsSeite; onZurueck: () => void }) {
   useFokusZurueck()
   useEffect(() => {
@@ -41,14 +55,7 @@ export function Rechtliches({ seite, onZurueck }: { seite: RechtsSeite; onZuruec
 
   return (
     <main className="seite recht">
-      <header className="recht-kopf">
-        <button className="knopf knopf-leise" onClick={onZurueck}>
-          ← Zurück
-        </button>
-        <a href="#/" className="recht-marke" aria-label={`${APP_NAME} – Startseite`}>
-          <Logo groesse={32} />
-        </a>
-      </header>
+      <UnterseitenKopf onZurueck={onZurueck} />
       <Unvollstaendig />
       {seite === 'impressum' ? <Impressum /> : <Datenschutz />}
     </main>

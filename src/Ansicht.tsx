@@ -7,7 +7,7 @@ import { QrCode } from './QrCode'
 import { anleitung, anleitungRegeln } from './fragen'
 import { MAX_PUNKTE, ZEITFAKTOR_TEXT, type Zeitfaktor } from './punkte'
 import { limitFuer, rangliste, type Ergebnis, type QuizSpieler, type QuizZustand, type Weg } from './spielleitung'
-import { KI_HINWEIS, POSITION_TEXT, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
+import { KI_HINWEIS, POSITION_TEXT, positionImQuiz, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
 import { frageVon } from './useSpiel'
 import { aufloesung, dauerMs, parteiWoerter, reaktionFuer, vorspann, type Marke } from './show/ablauf'
 import { Knall, Konfetti } from './show/Buehne'
@@ -25,7 +25,7 @@ const WEG_TEXT: Record<Weg, string> = {
 }
 
 /** Link ins Programm mit Seitenangabe („Programm, S. 12“). */
-function ProgrammLink({ url }: { url: string }) {
+export function ProgrammLink({ url }: { url: string }) {
   const seite = /#page=(\d+)/.exec(url)?.[1]
   return (
     <span className="belege">
@@ -37,12 +37,6 @@ function ProgrammLink({ url }: { url: string }) {
 }
 
 const sekunden = (ms: number) => (ms / 1000).toLocaleString('de-DE', { maximumFractionDigits: 1 })
-
-/** Was eine Position im Quiz bedeutet – „keine Aussage“ zählt als Ja, wenn heute schon Ja gilt (README.md). */
-function positionImQuiz(position: Positionswert, status_quo: QuizFrage['status_quo']): string {
-  if (position !== 'keine_aussage' || status_quo !== 'ja') return POSITION_TEXT[position]
-  return 'Keine Aussage – bleibt wie heute, zählt als Ja'
-}
 
 /** Springt zu einem Element, sobald es gebraucht wird – ohne Animation, wenn Bewegung aus ist (2.3.3). */
 function useSprungZu<T extends HTMLElement>(wann: boolean) {
@@ -403,8 +397,21 @@ function kreuzText(frage: QuizFrage, parteiId: number, gewaehlt: boolean): { tex
   return null
 }
 
-/** Alle Positionen mit Beleg – feste Reihenfolge, keine Farben für Positionen. */
-export function Positionen({ frage, parteien, auswahl }: { frage: QuizFrage; parteien: QuizPartei[]; auswahl: number[] | null }) {
+/**
+ * Alle Positionen mit Beleg – feste Reihenfolge, keine Farben für Positionen. `melden` (nur in der Übersicht) liefert
+ * je Partei den Link, um die Position als GitHub-Issue zu melden.
+ */
+export function Positionen({
+  frage,
+  parteien,
+  auswahl,
+  melden,
+}: {
+  frage: QuizFrage
+  parteien: QuizPartei[]
+  auswahl: number[] | null
+  melden?: (partei: QuizPartei) => string
+}) {
   return (
     <ul className="position-liste quiz-positionen">
       {parteien.map((partei) => {
@@ -433,6 +440,11 @@ export function Positionen({ frage, parteien, auswahl }: { frage: QuizFrage; par
                 )}
               </>
             )}
+            {melden && (
+              <a className="melden" href={melden(partei)} target="_blank" rel="noopener noreferrer">
+                Fehler melden<span className="sr-only"> – Position von {partei.name}</span>
+              </a>
+            )}
           </li>
         )
       })}
@@ -440,7 +452,7 @@ export function Positionen({ frage, parteien, auswahl }: { frage: QuizFrage; par
   )
 }
 
-function Zielkonflikte({ frage }: { frage: QuizFrage }) {
+export function Zielkonflikte({ frage }: { frage: QuizFrage }) {
   if (!frage.zielkonflikte.length) return null
   return (
     <details className="quiz-ziele aufklapp-liste">
@@ -462,7 +474,7 @@ function Zielkonflikte({ frage }: { frage: QuizFrage }) {
 }
 
 /** Testversion: Positionen nur als KI-Entwurf erfasst, noch nicht von Menschen geprüft. */
-function KiHinweis({ frage }: { frage: QuizFrage }) {
+export function KiHinweis({ frage }: { frage: QuizFrage }) {
   if (!frage.ki_entwurf) return null
   return (
     <p className="ki-hinweis" role="note">
@@ -713,6 +725,9 @@ function Ende({ daten, z, ich, istLeitung, allein, onNochmal, onVerlassen }: Ans
           </details>
         )
       })}
+      <p className="meta">
+        <a href="#/fragen">Alle {daten.fragen.length} Fragen mit Belegen ansehen</a>
+      </p>
       {!istLeitung && !allein && <p className="meta">Ob es noch eine Runde gibt, entscheidet die Spielleitung.</p>}
       <p className="meta">
         Wie war’s? Fehler entdeckt, Idee?{' '}
