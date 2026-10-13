@@ -209,6 +209,8 @@ textarea:focus-visible {
   display: flex;
   flex-direction: column;
   min-height: 100dvh;
+  /* Fußzeile bleibt auch in kleinen Fenstern im Bild: unten nur so viel Abstand wie oben. */
+  padding-bottom: 16px;
 }
 .start {
   position: relative;
