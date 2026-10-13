@@ -203,9 +203,16 @@ textarea:focus-visible {
   font-size: 0.95rem;
 }
 /* ---------- Start ---------- */
+/* Die Startseite füllt den Platz, der unter Hinweis und Kopfzeile übrig ist – kein fester Abzug, der die Karte
+   nach unten schiebt, sobald mehr als die Kopfzeile darüber steht. */
+.app:has(> .start) {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
 .start {
   position: relative;
-  min-height: calc(100dvh - 60px);
+  flex: 1;
   display: grid;
   place-items: center;
   padding: 24px 0;
@@ -1220,7 +1227,7 @@ summary {
 /* „Mit Ton spielen?“ – solange der Browser den Ton noch nicht freigegeben hat. */
 /* Mit Hinweis steht die Startkarte direkt darunter statt mittig im Fenster (sonst klafft eine Lücke). */
 .ton-aufruf + .start {
-  min-height: auto;
+  flex: none;
 }
 .ton-aufruf {
   display: flex;
