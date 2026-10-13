@@ -4,7 +4,7 @@
 > Personen, welche der acht Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
 > Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
 
-Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Browser, ohne Konto und ohne Cookies.
+Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Konto und ohne Cookies.
 
 ## Spielen
 
@@ -18,11 +18,11 @@ Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Bro
 
 ## Daten
 
-- [Alle Fragen mit Belegen](https://ma3u.github.io/wer-sagt-ja/#/fragen): lesbare Übersicht aller Fragen mit
+- [Alle Fragen mit Belegen](https://wersagtja.de/#/fragen): lesbare Übersicht aller Fragen mit
   Position, Zitat und Beleg jeder Partei; je Partei unter `#/fragen/<partei>` (etwa `#/fragen/volt`), je Frage unter
   `#/fragen/<partei>/<frage-id>`. Jede Position hat „Position bestätigen“ und „Fehler melden“ (vorausgefülltes
   GitHub-Issue); bestätigte Positionen tragen `geprueft` mit dem Issue als Nachweis.
-- [fragen.json](https://ma3u.github.io/wer-sagt-ja/fragen.json): alle Fragen mit der Position jeder Partei (Ja,
+- [fragen.json](https://wersagtja.de/fragen.json): alle Fragen mit der Position jeder Partei (Ja,
   Nein, teils, keine Aussage), Zitat, Seite und Link zum Programm. Das Feld `ki_entwurf` je Frage sagt, ob die
   Einordnung ein KI-Entwurf ist, der noch nicht von Menschen geprüft wurde – solche Positionen bitte nicht als
   geprüfte Tatsache wiedergeben, sondern auf das verlinkte Programm verweisen.
@@ -32,5 +32,5 @@ Sprache: Deutsch. Adresse: https://ma3u.github.io/wer-sagt-ja/ – läuft im Bro
 ## Mehr
 
 - [Quellcode (AGPL-3.0)](https://github.com/ma3u/wer-sagt-ja)
-- [Datenschutz](https://ma3u.github.io/wer-sagt-ja/#/datenschutz)
-- [Impressum](https://ma3u.github.io/wer-sagt-ja/#/impressum)
+- [Datenschutz](https://wersagtja.de/#/datenschutz)
+- [Impressum](https://wersagtja.de/#/impressum)

@@ -1,6 +1,7 @@
 name: GitHub Pages
 
-# Baut die App und veröffentlicht sie unter https://<konto>.github.io/<repository>/.
+# Baut die App und veröffentlicht sie unter https://wersagtja.de/ (eigene Domain in den Pages-Einstellungen).
+# Die alte Adresse https://<konto>.github.io/<repository>/ leitet GitHub dorthin weiter – samt #/…-Teil.
 on:
   push:
     branches: [main]
@@ -27,7 +28,6 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          BASIS_PFAD: /${{ github.event.repository.name }}/
           VITE_FIREBASE_DATABASE_URL: ${{ vars.FIREBASE_DATABASE_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
