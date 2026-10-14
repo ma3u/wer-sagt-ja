@@ -45,27 +45,30 @@
     "intro-3": {
       "datei": "intro-3.mp3",
       "sprecher": "mara",
-      "text": "Und ich bin Mara. Acht Parteien – und ihr ratet, wer was im Programm stehen hat.",
-      "dauer": 5.12,
+      "text": "Und ich bin Mara. Die Parteien haben es aufgeschrieben – und ihr ratet, wer was im Programm stehen hat.",
+      "dauer": 5.84,
       "woerter": [
         0,
-        0.1,
-        0.2,
-        0.4,
-        1.08,
-        1.568,
-        2.16,
+        0.12,
+        0.26,
+        0.416,
+        1.04,
+        1.552,
+        1.947,
+        2.133,
         2.28,
-        2.46,
-        2.74,
-        3.32,
-        3.52,
-        3.813,
-        3.964,
-        4.377,
-        4.78
+        2.92,
+        3.08,
+        3.28,
+        3.62,
+        4.14,
+        4.42,
+        4.747,
+        4.844,
+        5.246,
+        5.58
       ],
-      "hash": "333c0930ac67"
+      "hash": "9af00d3b5b56"
     },
     "intro-4": {
       "datei": "intro-4.mp3",
@@ -1077,18 +1080,19 @@
     "loesung-h16": {
       "datei": "loesung-h16.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne und FDP!",
-      "dauer": 4,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP und Volt!",
+      "dauer": 5.36,
       "woerter": [
-        0.208,
-        0.333,
-        1.313,
-        1.9,
-        2.54,
-        2.98,
-        3.4
+        0.24,
+        0.507,
+        1.6,
+        2.22,
+        2.86,
+        3.56,
+        4.2,
+        4.688
       ],
-      "hash": "be4979819391"
+      "hash": "abbb8cfc6281"
     },
     "frage-h18": {
       "datei": "frage-h18.mp3",
@@ -1139,17 +1143,20 @@
     "loesung-h19": {
       "datei": "loesung-h19.mp3",
       "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD und FDP!",
-      "dauer": 3.04,
+      "text": "Ja sagen: Union, SPD, Grüne, FDP, Linke und Volt!",
+      "dauer": 4.8,
       "woerter": [
         0.139,
-        0.253,
-        0.907,
-        1.64,
-        2.06,
-        2.4
+        0.227,
+        0.773,
+        1.66,
+        2.3,
+        2.92,
+        3.5,
+        3.92,
+        4.272
       ],
-      "hash": "00bbea81a9d5"
+      "hash": "bd82d28d1a33"
     },
     "frage-h21": {
       "datei": "frage-h21.mp3",
@@ -1681,6 +1688,5428 @@
         2.427
       ],
       "hash": "d1d07cb5e103"
+    },
+    "frage-h44": {
+      "datei": "frage-h44.mp3",
+      "sprecher": "mara",
+      "text": "Soll Deutschland die Zuwanderung von Fachkräften erleichtern?",
+      "dauer": 2.96,
+      "woerter": [
+        0,
+        0.2,
+        0.68,
+        0.88,
+        1.42,
+        1.648,
+        2.288
+      ],
+      "hash": "ef14815b68fc"
+    },
+    "loesung-h44": {
+      "datei": "loesung-h44.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Union, SPD, Grüne, FDP, Linke und Volt!",
+      "dauer": 5.04,
+      "woerter": [
+        0.16,
+        0.4,
+        1.013,
+        1.88,
+        2.46,
+        3.08,
+        3.66,
+        4.1,
+        4.512
+      ],
+      "hash": "bd82d28d1a33"
+    },
+    "frage-h45": {
+      "datei": "frage-h45.mp3",
+      "sprecher": "mara",
+      "text": "Soll Deutschland Asylsuchende an seinen Grenzen zurückweisen?",
+      "dauer": 2.88,
+      "woerter": [
+        0,
+        0.273,
+        0.693,
+        1.333,
+        1.474,
+        1.712,
+        2.126
+      ],
+      "hash": "e2b0c43e12d8"
+    },
+    "loesung-h45": {
+      "datei": "loesung-h45.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Union, AfD und BSW!",
+      "dauer": 2.96,
+      "woerter": [
+        0.213,
+        0.307,
+        0.827,
+        1.547,
+        2,
+        2.4
+      ],
+      "hash": "853a382c8d26"
+    },
+    "optionen-th24": {
+      "datei": "optionen-th24.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke und BSW.",
+      "dauer": 5.04,
+      "woerter": [
+        0,
+        0.13,
+        0.72,
+        1.34,
+        1.96,
+        2.52,
+        3.173,
+        3.8,
+        4.14,
+        4.48
+      ],
+      "hash": "ec84d9ece526"
+    },
+    "frage-th24-2": {
+      "datei": "frage-th24-2.mp3",
+      "sprecher": "mara",
+      "text": "Soll Tempo 30 innerorts zur Regel werden?",
+      "dauer": 2.64,
+      "woerter": [
+        0,
+        0.293,
+        0.64,
+        1.093,
+        1.72,
+        1.893,
+        2.206
+      ],
+      "hash": "4a4fc74cdaf9"
+    },
+    "loesung-th24-2": {
+      "datei": "loesung-th24-2.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: SPD!",
+      "dauer": 2.32,
+      "woerter": [
+        0.12,
+        0.4,
+        0.624,
+        0.96,
+        1.85
+      ],
+      "hash": "e863379821da"
+    },
+    "frage-th24-3": {
+      "datei": "frage-th24-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.2,
+        0.352,
+        1.093,
+        1.8,
+        1.98,
+        2.38,
+        3.006
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-th24-3": {
+      "datei": "loesung-th24-3.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.08,
+      "woerter": [
+        0.072,
+        0.347,
+        0.64,
+        1.02,
+        1.467
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-th24-4": {
+      "datei": "frage-th24-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.16,
+      "woerter": [
+        0,
+        0.2,
+        0.387,
+        1.28,
+        1.48,
+        2.747,
+        3.1,
+        3.726
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-th24-4": {
+      "datei": "loesung-th24-4.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.8,
+      "woerter": [
+        0.24,
+        0.48,
+        1.2,
+        1.9,
+        2.24
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-th24-5": {
+      "datei": "frage-th24-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.533,
+        1.248,
+        1.493,
+        2.28,
+        2.528,
+        3
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-th24-5": {
+      "datei": "loesung-th24-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und FDP!",
+      "dauer": 2.64,
+      "woerter": [
+        0.213,
+        0.4,
+        1.04,
+        1.6,
+        1.96
+      ],
+      "hash": "78f9ea69f643"
+    },
+    "frage-th24-6": {
+      "datei": "frage-th24-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 1.92,
+      "woerter": [
+        0,
+        0.1,
+        0.22,
+        0.58,
+        0.72,
+        1.088,
+        1.566
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-th24-6": {
+      "datei": "loesung-th24-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP und AfD!",
+      "dauer": 4,
+      "woerter": [
+        0.28,
+        0.427,
+        1.28,
+        2.2,
+        2.82,
+        3.307
+      ],
+      "hash": "d387d4fc4caa"
+    },
+    "frage-th24-7": {
+      "datei": "frage-th24-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.2,
+        0.38,
+        0.74,
+        0.848,
+        1.333,
+        1.488,
+        1.72,
+        2.297
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-th24-7": {
+      "datei": "loesung-th24-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 2.72,
+      "woerter": [
+        0.139,
+        0.24,
+        0.88,
+        1.5,
+        1.92,
+        2.22
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-th24-8": {
+      "datei": "frage-th24-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.6,
+        0.766,
+        1.6,
+        2.2,
+        2.6
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-th24-8": {
+      "datei": "loesung-th24-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.12,
+      "woerter": [
+        0.28,
+        0.4,
+        1.08,
+        1.88,
+        2.32,
+        2.6
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-th24-9": {
+      "datei": "frage-th24-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.544,
+        1.24,
+        1.96,
+        2.14,
+        2.36,
+        2.52,
+        2.853
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-th24-9": {
+      "datei": "loesung-th24-9.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: FDP!",
+      "dauer": 2.08,
+      "woerter": [
+        0.072,
+        0.32,
+        0.544,
+        0.86,
+        1.36
+      ],
+      "hash": "6a3db394ff11"
+    },
+    "frage-th24-10": {
+      "datei": "frage-th24-10.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.56,
+        1.72,
+        1.88,
+        2.3,
+        2.84
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-th24-10": {
+      "datei": "loesung-th24-10.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: SPD!",
+      "dauer": 2.24,
+      "woerter": [
+        0.15,
+        0.427,
+        0.704,
+        1.02,
+        1.5
+      ],
+      "hash": "e863379821da"
+    },
+    "frage-th24-11": {
+      "datei": "frage-th24-11.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 4,
+      "woerter": [
+        0,
+        0.213,
+        0.38,
+        1.1,
+        1.96,
+        2.12,
+        2.304,
+        2.84,
+        3,
+        3.573
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-th24-11": {
+      "datei": "loesung-th24-11.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.64,
+      "woerter": [
+        0.133,
+        0.307,
+        0.933,
+        1.6,
+        2
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-th24-12": {
+      "datei": "frage-th24-12.mp3",
+      "sprecher": "mara",
+      "text": "Soll ein Paritätsgesetz Frauen und Männer gleich auf Wahllisten verankern?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        1.257,
+        1.62,
+        1.737,
+        2.114,
+        2.38,
+        2.6,
+        3.08
+      ],
+      "hash": "8ace1133dacb"
+    },
+    "loesung-th24-12": {
+      "datei": "loesung-th24-12.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.2,
+      "woerter": [
+        0.208,
+        0.32,
+        1,
+        1.85,
+        2.34,
+        2.7
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-th24-13": {
+      "datei": "frage-th24-13.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Landesamt für Verfassungsschutz abgeschafft werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.9,
+        1,
+        1.893,
+        2.503
+      ],
+      "hash": "8f4ee7a31508"
+    },
+    "loesung-th24-13": {
+      "datei": "loesung-th24-13.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: AfD und Linke!",
+      "dauer": 2.4,
+      "woerter": [
+        0.133,
+        0.32,
+        1.04,
+        1.74,
+        1.98
+      ],
+      "hash": "4939f511ae33"
+    },
+    "frage-th24-14": {
+      "datei": "frage-th24-14.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.92,
+      "woerter": [
+        0,
+        0.297,
+        0.68,
+        1.01,
+        1.48,
+        1.947,
+        2.112,
+        2.293,
+        2.64,
+        2.84,
+        3.307,
+        3.417
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-th24-14": {
+      "datei": "loesung-th24-14.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 2.88,
+      "woerter": [
+        0.208,
+        0.307,
+        0.92,
+        1.64,
+        2.08,
+        2.38
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-th24-15": {
+      "datei": "frage-th24-15.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Schulen und Verwaltung untersagt werden?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.24,
+        0.6,
+        0.78,
+        1.573,
+        1.72,
+        2.02,
+        2.14,
+        2.686,
+        3.246
+      ],
+      "hash": "6396602a82d7"
+    },
+    "loesung-th24-15": {
+      "datei": "loesung-th24-15.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.88,
+      "woerter": [
+        0.24,
+        0.493,
+        1.387,
+        1.84,
+        2.24
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-th24-16": {
+      "datei": "frage-th24-16.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Wahlalter bei Landtagswahlen auf 16 Jahre gesenkt werden?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.22,
+        0.448,
+        1,
+        1.168,
+        1.98,
+        2.24,
+        2.693,
+        3,
+        3.326
+      ],
+      "hash": "f50552ece3ea"
+    },
+    "loesung-th24-16": {
+      "datei": "loesung-th24-16.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.04,
+      "woerter": [
+        0.28,
+        0.4,
+        1.08,
+        1.82,
+        2.24,
+        2.54
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-th24-18": {
+      "datei": "frage-th24-18.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        0.68,
+        0.848,
+        2.624
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-th24-18": {
+      "datei": "loesung-th24-18.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD und Grüne!",
+      "dauer": 2.4,
+      "woerter": [
+        0.213,
+        0.333,
+        1.06,
+        1.64,
+        1.84
+      ],
+      "hash": "cb72da1b8230"
+    },
+    "frage-th24-19": {
+      "datei": "frage-th24-19.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kita-Gebühren vollständig abgeschafft werden?",
+      "dauer": 2.64,
+      "woerter": [
+        0,
+        0.36,
+        1.024,
+        1.653,
+        2.137
+      ],
+      "hash": "63272d6cd61c"
+    },
+    "loesung-th24-19": {
+      "datei": "loesung-th24-19.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD und Linke!",
+      "dauer": 2.8,
+      "woerter": [
+        0.267,
+        0.573,
+        1.32,
+        2.02,
+        2.36
+      ],
+      "hash": "02831fcd4101"
+    },
+    "frage-th24-21": {
+      "datei": "frage-th24-21.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Flächenverbrauch durch einen Vorrang für Innenentwicklung begrenzt werden?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.2,
+        0.373,
+        1.067,
+        1.227,
+        1.44,
+        1.88,
+        2.08,
+        2.84,
+        3.257
+      ],
+      "hash": "307603f42050"
+    },
+    "loesung-th24-21": {
+      "datei": "loesung-th24-21.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und SPD!",
+      "dauer": 2.88,
+      "woerter": [
+        0.293,
+        0.413,
+        1.147,
+        1.76,
+        2.2
+      ],
+      "hash": "b023b0b55a87"
+    },
+    "optionen-sn24": {
+      "datei": "optionen-sn24.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke und BSW.",
+      "dauer": 5.44,
+      "woerter": [
+        0,
+        0.21,
+        0.827,
+        1.58,
+        2.14,
+        2.76,
+        3.493,
+        4.14,
+        4.56,
+        4.92
+      ],
+      "hash": "ec84d9ece526"
+    },
+    "frage-sn24-5": {
+      "datei": "frage-sn24-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.04,
+      "woerter": [
+        0,
+        0.187,
+        0.28,
+        0.453,
+        1.088,
+        1.333,
+        2.04,
+        2.288,
+        2.68
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-sn24-5": {
+      "datei": "loesung-sn24-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.72,
+      "woerter": [
+        0.139,
+        0.253,
+        1.147,
+        1.6,
+        2
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-sn24-6": {
+      "datei": "frage-sn24-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 2,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        0.68,
+        0.84,
+        1.168,
+        1.646
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-sn24-6": {
+      "datei": "loesung-sn24-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP und AfD!",
+      "dauer": 3.36,
+      "woerter": [
+        0.36,
+        0.48,
+        1.147,
+        1.88,
+        2.4,
+        2.773
+      ],
+      "hash": "d387d4fc4caa"
+    },
+    "frage-sn24-7": {
+      "datei": "frage-sn24-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.64,
+      "woerter": [
+        0,
+        0.2,
+        0.38,
+        0.68,
+        0.832,
+        1.253,
+        1.408,
+        1.64,
+        2.217
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-sn24-7": {
+      "datei": "loesung-sn24-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP und Linke!",
+      "dauer": 3.6,
+      "woerter": [
+        0.16,
+        0.4,
+        1.06,
+        1.74,
+        2.36,
+        2.86,
+        3.08
+      ],
+      "hash": "dbb0536e7539"
+    },
+    "frage-sn24-8": {
+      "datei": "frage-sn24-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.04,
+      "woerter": [
+        0,
+        0.28,
+        0.448,
+        0.66,
+        0.754,
+        1.56,
+        2.04,
+        2.52
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-sn24-8": {
+      "datei": "loesung-sn24-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und BSW!",
+      "dauer": 3.92,
+      "woerter": [
+        0.213,
+        0.4,
+        1.08,
+        1.9,
+        2.4,
+        2.96,
+        3.36
+      ],
+      "hash": "209e100c4318"
+    },
+    "frage-sn24-9": {
+      "datei": "frage-sn24-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 2.72,
+      "woerter": [
+        0,
+        0.187,
+        0.28,
+        0.448,
+        0.98,
+        1.56,
+        1.72,
+        1.86,
+        1.96,
+        2.293
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-sn24-9": {
+      "datei": "loesung-sn24-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke und BSW!",
+      "dauer": 2.96,
+      "woerter": [
+        0.213,
+        0.333,
+        1,
+        1.7,
+        2.2
+      ],
+      "hash": "f6fd2d76eac0"
+    },
+    "frage-sn24-10": {
+      "datei": "frage-sn24-10.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.187,
+        0.28,
+        0.48,
+        1.56,
+        1.72,
+        2.16,
+        2.773
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-sn24-10": {
+      "datei": "loesung-sn24-10.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.04,
+      "woerter": [
+        0.293,
+        0.4,
+        1.06,
+        1.72,
+        2.16,
+        2.46
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-sn24-11": {
+      "datei": "frage-sn24-11.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.92,
+        1.56,
+        1.7,
+        1.808,
+        2.28,
+        2.44,
+        3.013
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-sn24-11": {
+      "datei": "loesung-sn24-11.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: BSW!",
+      "dauer": 2.24,
+      "woerter": [
+        0.12,
+        0.4,
+        0.64,
+        1.02,
+        1.48
+      ],
+      "hash": "dac2d204aac6"
+    },
+    "frage-sn24-12": {
+      "datei": "frage-sn24-12.mp3",
+      "sprecher": "mara",
+      "text": "Soll ein Paritätsgesetz Frauen und Männer gleich auf Wahllisten verankern?",
+      "dauer": 4.08,
+      "woerter": [
+        0,
+        0.28,
+        0.44,
+        1.429,
+        1.86,
+        1.966,
+        2.309,
+        2.78,
+        3,
+        3.48
+      ],
+      "hash": "8ace1133dacb"
+    },
+    "loesung-sn24-12": {
+      "datei": "loesung-sn24-12.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.64,
+      "woerter": [
+        0.293,
+        0.413,
+        1.28,
+        1.76,
+        2.06
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-sn24-13": {
+      "datei": "frage-sn24-13.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Landesamt für Verfassungsschutz abgeschafft werden?",
+      "dauer": 2.64,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.84,
+        1,
+        1.733,
+        2.286
+      ],
+      "hash": "8f4ee7a31508"
+    },
+    "loesung-sn24-13": {
+      "datei": "loesung-sn24-13.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.32,
+      "woerter": [
+        0.16,
+        0.4,
+        0.98,
+        1.5,
+        1.72
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-sn24-14": {
+      "datei": "frage-sn24-14.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 4,
+      "woerter": [
+        0,
+        0.206,
+        0.56,
+        0.94,
+        1.56,
+        2.04,
+        2.272,
+        2.427,
+        2.72,
+        2.94,
+        3.467,
+        3.566
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-sn24-14": {
+      "datei": "loesung-sn24-14.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und BSW!",
+      "dauer": 4.24,
+      "woerter": [
+        0.24,
+        0.493,
+        1.56,
+        2.12,
+        2.68,
+        3.2,
+        3.6
+      ],
+      "hash": "209e100c4318"
+    },
+    "frage-sn24-15": {
+      "datei": "frage-sn24-15.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Schulen und Verwaltung untersagt werden?",
+      "dauer": 4,
+      "woerter": [
+        0,
+        0.32,
+        0.76,
+        0.94,
+        1.76,
+        1.96,
+        2.28,
+        2.44,
+        2.926,
+        3.497
+      ],
+      "hash": "6396602a82d7"
+    },
+    "loesung-sn24-15": {
+      "datei": "loesung-sn24-15.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: FDP!",
+      "dauer": 2.32,
+      "woerter": [
+        0.072,
+        0.427,
+        0.72,
+        1.1,
+        1.7
+      ],
+      "hash": "6a3db394ff11"
+    },
+    "frage-sn24-16": {
+      "datei": "frage-sn24-16.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Wahlalter bei Landtagswahlen auf 16 Jahre gesenkt werden?",
+      "dauer": 3.84,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        1,
+        1.168,
+        1.98,
+        2.24,
+        2.693,
+        3,
+        3.406
+      ],
+      "hash": "f50552ece3ea"
+    },
+    "loesung-sn24-16": {
+      "datei": "loesung-sn24-16.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP und Linke!",
+      "dauer": 3.6,
+      "woerter": [
+        0.208,
+        0.307,
+        0.92,
+        1.66,
+        2.28,
+        2.8,
+        3.08
+      ],
+      "hash": "dbb0536e7539"
+    },
+    "frage-sn24-17": {
+      "datei": "frage-sn24-17.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.64,
+        0.928,
+        2.848
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-sn24-17": {
+      "datei": "loesung-sn24-17.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2.16,
+      "woerter": [
+        0.072,
+        0.427,
+        0.72,
+        1.1,
+        1.48
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-sn24-18": {
+      "datei": "frage-sn24-18.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kita-Gebühren vollständig abgeschafft werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.28,
+        1.056,
+        1.84,
+        2.377
+      ],
+      "hash": "63272d6cd61c"
+    },
+    "loesung-sn24-18": {
+      "datei": "loesung-sn24-18.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Linke und BSW!",
+      "dauer": 3.44,
+      "woerter": [
+        0.28,
+        0.4,
+        1.1,
+        1.98,
+        2.42,
+        2.84
+      ],
+      "hash": "09a990a7a1fe"
+    },
+    "frage-sn24-20": {
+      "datei": "frage-sn24-20.mp3",
+      "sprecher": "mara",
+      "text": "Soll die sächsische Polizei die Grenzen zu Polen und Tschechien dauerhaft kontrollieren?",
+      "dauer": 4.48,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        0.84,
+        1.4,
+        1.568,
+        1.973,
+        2.16,
+        2.5,
+        2.613,
+        3.12,
+        3.648
+      ],
+      "hash": "23d6c4770cb3"
+    },
+    "loesung-sn24-20": {
+      "datei": "loesung-sn24-20.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.32,
+      "woerter": [
+        0.072,
+        0.32,
+        0.56,
+        0.96,
+        1.52
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "optionen-bb24": {
+      "datei": "optionen-bb24.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW und Freie Wähler.",
+      "dauer": 5.76,
+      "woerter": [
+        0,
+        0.21,
+        0.88,
+        1.55,
+        1.96,
+        2.44,
+        3.093,
+        3.66,
+        4.2,
+        4.7,
+        4.94,
+        5.32
+      ],
+      "hash": "2429c0e6d0fa"
+    },
+    "frage-bb24-1": {
+      "datei": "frage-bb24-1.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.2,
+        0.373,
+        0.773,
+        0.92,
+        1.488,
+        1.76,
+        2.046,
+        2.366,
+        2.8
+      ],
+      "hash": "ad3b6ce01860"
+    },
+    "loesung-bb24-1": {
+      "datei": "loesung-bb24-1.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.08,
+      "woerter": [
+        0.072,
+        0.347,
+        0.624,
+        0.94,
+        1.387
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-bb24-3": {
+      "datei": "frage-bb24-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.2,
+        0.352,
+        1.04,
+        1.72,
+        1.92,
+        2.36,
+        2.926
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-bb24-3": {
+      "datei": "loesung-bb24-3.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und Freie Wähler!",
+      "dauer": 2.88,
+      "woerter": [
+        0.28,
+        0.413,
+        1.147,
+        1.74,
+        2,
+        2.4
+      ],
+      "hash": "ba648f8ac62e"
+    },
+    "frage-bb24-4": {
+      "datei": "frage-bb24-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.32,
+      "woerter": [
+        0,
+        0.28,
+        0.453,
+        1.28,
+        1.48,
+        2.8,
+        3.26,
+        3.886
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-bb24-4": {
+      "datei": "loesung-bb24-4.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.08,
+      "woerter": [
+        0.072,
+        0.32,
+        0.544,
+        0.86,
+        1.333
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-bb24-5": {
+      "datei": "frage-bb24-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.533,
+        1.392,
+        1.573,
+        2.36,
+        2.608,
+        3.013
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-bb24-5": {
+      "datei": "loesung-bb24-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP, AfD, BSW und Freie Wähler!",
+      "dauer": 6,
+      "woerter": [
+        0.24,
+        0.493,
+        1.253,
+        2.14,
+        2.8,
+        3.493,
+        4.16,
+        4.74,
+        5.1,
+        5.48
+      ],
+      "hash": "4c10c03762f1"
+    },
+    "frage-bb24-6": {
+      "datei": "frage-bb24-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 2.24,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        0.68,
+        0.84,
+        1.248,
+        1.737
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-bb24-6": {
+      "datei": "loesung-bb24-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP, AfD, BSW und Freie Wähler!",
+      "dauer": 5.92,
+      "woerter": [
+        0.16,
+        0.4,
+        1.12,
+        2,
+        2.76,
+        3.493,
+        4.08,
+        4.72,
+        5.02,
+        5.4
+      ],
+      "hash": "4c10c03762f1"
+    },
+    "frage-bb24-7": {
+      "datei": "frage-bb24-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.48,
+      "woerter": [
+        0,
+        0.12,
+        0.3,
+        0.6,
+        0.752,
+        1.173,
+        1.312,
+        1.48,
+        2.046
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-bb24-7": {
+      "datei": "loesung-bb24-7.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2.32,
+      "woerter": [
+        0.15,
+        0.507,
+        0.784,
+        1.12,
+        1.58
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-bb24-8": {
+      "datei": "frage-bb24-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.28,
+        0.448,
+        0.68,
+        0.846,
+        1.66,
+        2.28,
+        2.7
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-bb24-8": {
+      "datei": "loesung-bb24-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und BSW!",
+      "dauer": 2.72,
+      "woerter": [
+        0.147,
+        0.253,
+        0.92,
+        1.6,
+        2
+      ],
+      "hash": "60c845fb58fe"
+    },
+    "frage-bb24-9": {
+      "datei": "frage-bb24-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.544,
+        1.24,
+        1.96,
+        2.16,
+        2.44,
+        2.64,
+        2.947
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-bb24-9": {
+      "datei": "loesung-bb24-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke, BSW und Freie Wähler!",
+      "dauer": 3.28,
+      "woerter": [
+        0.139,
+        0.24,
+        0.84,
+        1.64,
+        2.16,
+        2.46,
+        2.8
+      ],
+      "hash": "8c6045fb225f"
+    },
+    "frage-bb24-10": {
+      "datei": "frage-bb24-10.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 2.96,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.52,
+        1.48,
+        1.62,
+        2.06,
+        2.547
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-bb24-10": {
+      "datei": "loesung-bb24-10.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und BSW!",
+      "dauer": 3.36,
+      "woerter": [
+        0.213,
+        0.32,
+        1.22,
+        1.64,
+        2.04,
+        2.46,
+        2.8
+      ],
+      "hash": "209e100c4318"
+    },
+    "frage-bb24-11": {
+      "datei": "frage-bb24-11.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.92,
+        1.62,
+        1.72,
+        1.888,
+        2.34,
+        2.46,
+        3.093
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-bb24-11": {
+      "datei": "loesung-bb24-11.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.8,
+      "woerter": [
+        0.24,
+        0.48,
+        1.147,
+        1.74,
+        2.08
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-bb24-12": {
+      "datei": "frage-bb24-12.mp3",
+      "sprecher": "mara",
+      "text": "Soll ein Paritätsgesetz Frauen und Männer gleich auf Wahllisten verankern?",
+      "dauer": 3.92,
+      "woerter": [
+        0,
+        0.28,
+        0.46,
+        1.417,
+        1.78,
+        1.886,
+        2.217,
+        2.62,
+        2.84,
+        3.32
+      ],
+      "hash": "8ace1133dacb"
+    },
+    "loesung-bb24-12": {
+      "datei": "loesung-bb24-12.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2.24,
+      "woerter": [
+        0.072,
+        0.4,
+        0.624,
+        0.94,
+        1.3
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-bb24-14": {
+      "datei": "frage-bb24-14.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.286,
+        0.6,
+        0.85,
+        1.32,
+        1.787,
+        1.952,
+        2.107,
+        2.4,
+        2.68,
+        3.147,
+        3.257
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-bb24-14": {
+      "datei": "loesung-bb24-14.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke und BSW!",
+      "dauer": 3.6,
+      "woerter": [
+        0.133,
+        0.333,
+        1.3,
+        1.94,
+        2.58,
+        3
+      ],
+      "hash": "acdcabf0cb33"
+    },
+    "frage-bb24-15": {
+      "datei": "frage-bb24-15.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Schulen und Verwaltung untersagt werden?",
+      "dauer": 3.84,
+      "woerter": [
+        0,
+        0.28,
+        0.68,
+        0.84,
+        1.653,
+        1.813,
+        2.18,
+        2.28,
+        2.857,
+        3.486
+      ],
+      "hash": "6396602a82d7"
+    },
+    "loesung-bb24-15": {
+      "datei": "loesung-bb24-15.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, AfD und BSW!",
+      "dauer": 3.68,
+      "woerter": [
+        0.16,
+        0.4,
+        1.12,
+        2.133,
+        2.64,
+        3.04
+      ],
+      "hash": "55ed12f77670"
+    },
+    "frage-bb24-17": {
+      "datei": "frage-bb24-17.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.22,
+        0.448,
+        0.7,
+        0.944,
+        2.848
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-bb24-17": {
+      "datei": "loesung-bb24-17.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2.16,
+      "woerter": [
+        0.248,
+        0.4,
+        0.64,
+        1.02,
+        1.42
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-bb24-18": {
+      "datei": "frage-bb24-18.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kita-Gebühren vollständig abgeschafft werden?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.28,
+        1.024,
+        1.653,
+        2.126
+      ],
+      "hash": "63272d6cd61c"
+    },
+    "loesung-bb24-18": {
+      "datei": "loesung-bb24-18.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, BSW und Freie Wähler!",
+      "dauer": 4,
+      "woerter": [
+        0.133,
+        0.333,
+        1.1,
+        1.9,
+        2.48,
+        3.02,
+        3.24,
+        3.52
+      ],
+      "hash": "c18e246c30bc"
+    },
+    "frage-bb24-19": {
+      "datei": "frage-bb24-19.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Kohleausstieg im Land schon 2030 kommen?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        0.987,
+        1.088,
+        1.307,
+        1.52,
+        2.446
+      ],
+      "hash": "3a1af52c9eec"
+    },
+    "loesung-bb24-19": {
+      "datei": "loesung-bb24-19.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2,
+      "woerter": [
+        0.15,
+        0.427,
+        0.704,
+        1.02,
+        1.38
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-bb24-20": {
+      "datei": "frage-bb24-20.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Erweiterung der Tesla-Fabrik in Grünheide unterstützt werden?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.18,
+        0.293,
+        0.84,
+        1.013,
+        1.707,
+        1.813,
+        2.36,
+        2.857
+      ],
+      "hash": "e60fa08e5375"
+    },
+    "loesung-bb24-20": {
+      "datei": "loesung-bb24-20.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Freie Wähler!",
+      "dauer": 2.32,
+      "woerter": [
+        0.072,
+        0.32,
+        0.544,
+        0.86,
+        1.22,
+        1.72
+      ],
+      "hash": "05c724cb50eb"
+    },
+    "frage-bb24-21": {
+      "datei": "frage-bb24-21.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Nachtflugverbot am BER ausgeweitet werden?",
+      "dauer": 2.72,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        1.147,
+        1.32,
+        1.74,
+        2.366
+      ],
+      "hash": "f03f2b6313ee"
+    },
+    "loesung-bb24-21": {
+      "datei": "loesung-bb24-21.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD und Freie Wähler!",
+      "dauer": 3.04,
+      "woerter": [
+        0.16,
+        0.427,
+        1.46,
+        1.82,
+        2.08,
+        2.52
+      ],
+      "hash": "4b10378578d5"
+    },
+    "optionen-hh25": {
+      "datei": "optionen-hh25.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW und Volt.",
+      "dauer": 5.12,
+      "woerter": [
+        0,
+        0.21,
+        0.747,
+        1.24,
+        1.74,
+        2.28,
+        2.907,
+        3.42,
+        3.96,
+        4.46,
+        4.72
+      ],
+      "hash": "1252c29d195b"
+    },
+    "frage-hh25-2": {
+      "datei": "frage-hh25-2.mp3",
+      "sprecher": "mara",
+      "text": "Soll Tempo 30 innerorts zur Regel werden?",
+      "dauer": 2.4,
+      "woerter": [
+        0,
+        0.213,
+        0.56,
+        1.013,
+        1.56,
+        1.733,
+        2.046
+      ],
+      "hash": "4a4fc74cdaf9"
+    },
+    "loesung-hh25-2": {
+      "datei": "loesung-hh25-2.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke und Volt!",
+      "dauer": 2.48,
+      "woerter": [
+        0.293,
+        0.413,
+        1.06,
+        1.68,
+        2.016
+      ],
+      "hash": "2e9935f1cabb"
+    },
+    "frage-hh25-3": {
+      "datei": "frage-hh25-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.18,
+        0.288,
+        1.173,
+        1.96,
+        2.16,
+        2.6,
+        3.166
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-hh25-3": {
+      "datei": "loesung-hh25-3.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.16,
+      "woerter": [
+        0.15,
+        0.48,
+        0.72,
+        1.1,
+        1.707
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-hh25-4": {
+      "datei": "frage-hh25-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.24,
+      "woerter": [
+        0,
+        0.26,
+        0.387,
+        1.36,
+        1.56,
+        2.773,
+        3.18,
+        3.806
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-hh25-4": {
+      "datei": "loesung-hh25-4.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und SPD!",
+      "dauer": 2.64,
+      "woerter": [
+        0.208,
+        0.32,
+        1.093,
+        1.52,
+        1.94
+      ],
+      "hash": "b023b0b55a87"
+    },
+    "frage-hh25-5": {
+      "datei": "frage-hh25-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.267,
+        0.36,
+        0.533,
+        1.312,
+        1.493,
+        2.2,
+        2.448,
+        2.853
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-hh25-5": {
+      "datei": "loesung-hh25-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.8,
+      "woerter": [
+        0.28,
+        0.4,
+        1.093,
+        1.76,
+        2.16
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-hh25-6": {
+      "datei": "frage-hh25-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 2.96,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.6,
+        0.766,
+        1.56,
+        2.04,
+        2.44
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-hh25-6": {
+      "datei": "loesung-hh25-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke, BSW und Volt!",
+      "dauer": 2.56,
+      "woerter": [
+        0.213,
+        0.307,
+        0.82,
+        1.44,
+        1.9,
+        2.16
+      ],
+      "hash": "0775b59a2a2b"
+    },
+    "frage-hh25-7": {
+      "datei": "frage-hh25-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 3.04,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.536,
+        1.14,
+        1.78,
+        1.9,
+        2.12,
+        2.32,
+        2.613
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-hh25-7": {
+      "datei": "loesung-hh25-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.04,
+      "woerter": [
+        0.28,
+        0.413,
+        1.38,
+        1.82,
+        2.26,
+        2.6
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-hh25-8": {
+      "datei": "frage-hh25-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.56,
+        1.62,
+        1.74,
+        2.24,
+        2.853
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-hh25-8": {
+      "datei": "loesung-hh25-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und BSW!",
+      "dauer": 4,
+      "woerter": [
+        0.16,
+        0.4,
+        1.1,
+        1.92,
+        2.54,
+        3.04,
+        3.44
+      ],
+      "hash": "209e100c4318"
+    },
+    "frage-hh25-9": {
+      "datei": "frage-hh25-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.293,
+        0.46,
+        1.1,
+        1.8,
+        1.94,
+        2.064,
+        2.54,
+        2.74,
+        3.32
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-hh25-9": {
+      "datei": "loesung-hh25-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, Grüne, FDP und BSW!",
+      "dauer": 4,
+      "woerter": [
+        0.208,
+        0.32,
+        1.013,
+        1.82,
+        2.44,
+        2.96,
+        3.36
+      ],
+      "hash": "a2f6b94336f1"
+    },
+    "frage-hh25-10": {
+      "datei": "frage-hh25-10.mp3",
+      "sprecher": "mara",
+      "text": "Soll ein Paritätsgesetz Frauen und Männer gleich auf Wahllisten verankern?",
+      "dauer": 4.08,
+      "woerter": [
+        0,
+        0.28,
+        0.44,
+        1.497,
+        1.88,
+        2.046,
+        2.377,
+        2.78,
+        3,
+        3.54
+      ],
+      "hash": "8ace1133dacb"
+    },
+    "loesung-hh25-10": {
+      "datei": "loesung-hh25-10.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 1.92,
+      "woerter": [
+        0.18,
+        0.32,
+        0.544,
+        0.86,
+        1.24
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-hh25-11": {
+      "datei": "frage-hh25-11.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Landesamt für Verfassungsschutz abgeschafft werden?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.84,
+        1,
+        1.733,
+        2.343
+      ],
+      "hash": "8f4ee7a31508"
+    },
+    "loesung-hh25-11": {
+      "datei": "loesung-hh25-11.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2.08,
+      "woerter": [
+        0.072,
+        0.427,
+        0.704,
+        1.02,
+        1.38
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-hh25-12": {
+      "datei": "frage-hh25-12.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.84,
+      "woerter": [
+        0,
+        0.366,
+        0.68,
+        0.94,
+        1.56,
+        1.96,
+        2.192,
+        2.347,
+        2.64,
+        2.84,
+        3.333,
+        3.486
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-hh25-12": {
+      "datei": "loesung-hh25-12.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke, BSW und Volt!",
+      "dauer": 3.04,
+      "woerter": [
+        0.16,
+        0.413,
+        1.18,
+        1.84,
+        2.3,
+        2.576
+      ],
+      "hash": "0775b59a2a2b"
+    },
+    "frage-hh25-13": {
+      "datei": "frage-hh25-13.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Schulen und Verwaltung untersagt werden?",
+      "dauer": 4,
+      "woerter": [
+        0,
+        0.32,
+        0.76,
+        0.92,
+        1.733,
+        1.893,
+        2.26,
+        2.38,
+        2.926,
+        3.566
+      ],
+      "hash": "6396602a82d7"
+    },
+    "loesung-hh25-13": {
+      "datei": "loesung-hh25-13.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.4,
+      "woerter": [
+        0.15,
+        0.427,
+        0.704,
+        1.02,
+        1.547
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-hh25-14": {
+      "datei": "frage-hh25-14.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.28,
+        0.448,
+        0.7,
+        0.928,
+        2.784
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-hh25-14": {
+      "datei": "loesung-hh25-14.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke und Volt!",
+      "dauer": 3.52,
+      "woerter": [
+        0.213,
+        0.427,
+        1.31,
+        1.94,
+        2.58,
+        2.992
+      ],
+      "hash": "c81a7330282c"
+    },
+    "frage-hh25-17": {
+      "datei": "frage-hh25-17.mp3",
+      "sprecher": "mara",
+      "text": "Soll sich Hamburg um Olympische Spiele bewerben?",
+      "dauer": 2.4,
+      "woerter": [
+        0,
+        0.208,
+        0.45,
+        0.88,
+        1.08,
+        1.486,
+        1.8
+      ],
+      "hash": "1375e66d5ed4"
+    },
+    "loesung-hh25-17": {
+      "datei": "loesung-hh25-17.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP und Volt!",
+      "dauer": 4.64,
+      "woerter": [
+        0.213,
+        0.347,
+        1.413,
+        2.14,
+        3.16,
+        3.78,
+        4.176
+      ],
+      "hash": "4972d0763938"
+    },
+    "frage-hh25-18": {
+      "datei": "frage-hh25-18.mp3",
+      "sprecher": "mara",
+      "text": "Sollen große Wohnungskonzerne in Hamburg vergesellschaftet werden?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.307,
+        0.68,
+        1.573,
+        1.73,
+        2.128,
+        2.926
+      ],
+      "hash": "9131d3ee2ecd"
+    },
+    "loesung-hh25-18": {
+      "datei": "loesung-hh25-18.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2.08,
+      "woerter": [
+        0.12,
+        0.347,
+        0.624,
+        0.94,
+        1.32
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-hh25-19": {
+      "datei": "frage-hh25-19.mp3",
+      "sprecher": "mara",
+      "text": "Soll Hamburg wieder eine Straßenbahn bekommen?",
+      "dauer": 2.24,
+      "woerter": [
+        0,
+        0.29,
+        0.674,
+        0.912,
+        1.088,
+        1.724
+      ],
+      "hash": "e064ba40087a"
+    },
+    "loesung-hh25-19": {
+      "datei": "loesung-hh25-19.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.24,
+      "woerter": [
+        0.213,
+        0.307,
+        0.82,
+        1.44,
+        1.74
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-hh25-20": {
+      "datei": "frage-hh25-20.mp3",
+      "sprecher": "mara",
+      "text": "Soll die A26-Ost (Hafenpassage) gebaut werden?",
+      "dauer": 3.84,
+      "woerter": [
+        0,
+        0.2,
+        0.48,
+        1.84,
+        3.03,
+        3.406
+      ],
+      "hash": "ccb7a905841a"
+    },
+    "loesung-hh25-20": {
+      "datei": "loesung-hh25-20.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD und AfD!",
+      "dauer": 3.12,
+      "woerter": [
+        0.133,
+        0.333,
+        1.173,
+        1.74,
+        2.22,
+        2.56
+      ],
+      "hash": "6553b79b204e"
+    },
+    "frage-hh25-21": {
+      "datei": "frage-hh25-21.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Einstieg der Reederei MSC bei der HHLA rückgängig gemacht werden?",
+      "dauer": 4.16,
+      "woerter": [
+        0,
+        0.12,
+        0.28,
+        0.66,
+        0.752,
+        1.3,
+        1.88,
+        2.04,
+        2.28,
+        3,
+        3.41,
+        3.794
+      ],
+      "hash": "60944e3f2914"
+    },
+    "loesung-hh25-21": {
+      "datei": "loesung-hh25-21.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2.32,
+      "woerter": [
+        0.15,
+        0.48,
+        0.72,
+        1.1,
+        1.5
+      ],
+      "hash": "01f7be20f099"
+    },
+    "optionen-bw26": {
+      "datei": "optionen-bw26.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW, Freie Wähler und Volt.",
+      "dauer": 6.4,
+      "woerter": [
+        0,
+        0.21,
+        0.827,
+        1.56,
+        2.12,
+        2.6,
+        3.253,
+        3.74,
+        4.28,
+        4.87,
+        5.16,
+        5.52,
+        5.856
+      ],
+      "hash": "93decdbeb44c"
+    },
+    "frage-bw26-2": {
+      "datei": "frage-bw26-2.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.52,
+      "woerter": [
+        0,
+        0.18,
+        0.288,
+        1.093,
+        1.8,
+        2,
+        2.44,
+        3.017
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-bw26-2": {
+      "datei": "loesung-bw26-2.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, AfD und Freie Wähler!",
+      "dauer": 4,
+      "woerter": [
+        0.28,
+        0.387,
+        0.987,
+        1.8,
+        2.533,
+        2.96,
+        3.26,
+        3.56
+      ],
+      "hash": "141a7dc10cbf"
+    },
+    "frage-bw26-3": {
+      "datei": "frage-bw26-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.16,
+      "woerter": [
+        0,
+        0.2,
+        0.387,
+        1.333,
+        1.48,
+        2.72,
+        3.1,
+        3.806
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-bw26-3": {
+      "datei": "loesung-bw26-3.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.88,
+      "woerter": [
+        0.28,
+        0.413,
+        1.253,
+        1.68,
+        2.12
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-bw26-4": {
+      "datei": "frage-bw26-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.213,
+        0.34,
+        0.48,
+        1.232,
+        1.413,
+        2.12,
+        2.368,
+        2.773
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-bw26-4": {
+      "datei": "loesung-bw26-4.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2,
+      "woerter": [
+        0.072,
+        0.347,
+        0.624,
+        0.94,
+        1.387
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-bw26-5": {
+      "datei": "frage-bw26-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 2.24,
+      "woerter": [
+        0,
+        0.18,
+        0.3,
+        0.68,
+        0.88,
+        1.248,
+        1.806
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-bw26-5": {
+      "datei": "loesung-bw26-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: FDP und BSW!",
+      "dauer": 2.8,
+      "woerter": [
+        0.28,
+        0.4,
+        1.12,
+        1.84,
+        2.2
+      ],
+      "hash": "113e8a89a91a"
+    },
+    "frage-bw26-6": {
+      "datei": "frage-bw26-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.64,
+      "woerter": [
+        0,
+        0.2,
+        0.38,
+        0.74,
+        0.848,
+        1.333,
+        1.488,
+        1.707,
+        2.217
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-bw26-6": {
+      "datei": "loesung-bw26-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Volt!",
+      "dauer": 3.2,
+      "woerter": [
+        0.213,
+        0.32,
+        1,
+        1.76,
+        2.34,
+        2.736
+      ],
+      "hash": "efc180a68dfd"
+    },
+    "frage-bw26-7": {
+      "datei": "frage-bw26-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.04,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        0.66,
+        0.766,
+        1.52,
+        2.12,
+        2.54
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-bw26-7": {
+      "datei": "loesung-bw26-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Linke und BSW!",
+      "dauer": 3.52,
+      "woerter": [
+        0.133,
+        0.347,
+        1.43,
+        1.9,
+        2.42,
+        2.84
+      ],
+      "hash": "09a990a7a1fe"
+    },
+    "frage-bw26-8": {
+      "datei": "frage-bw26-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.187,
+        0.28,
+        0.448,
+        1.06,
+        1.64,
+        1.8,
+        1.96,
+        2.12,
+        2.44
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-bw26-8": {
+      "datei": "loesung-bw26-8.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 1.92,
+      "woerter": [
+        0.072,
+        0.32,
+        0.56,
+        0.94,
+        1.3
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-bw26-9": {
+      "datei": "frage-bw26-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.54,
+        1.64,
+        1.8,
+        2.28,
+        2.773
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-bw26-9": {
+      "datei": "loesung-bw26-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke, BSW und Volt!",
+      "dauer": 4.64,
+      "woerter": [
+        0.28,
+        0.4,
+        1.08,
+        1.9,
+        2.54,
+        3.32,
+        3.86,
+        4.24
+      ],
+      "hash": "1ea5479c2e0d"
+    },
+    "frage-bw26-10": {
+      "datei": "frage-bw26-10.mp3",
+      "sprecher": "mara",
+      "text": "Sollen private Handys an Schulen verboten werden?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.29,
+        0.704,
+        1.173,
+        1.333,
+        1.72,
+        2.206
+      ],
+      "hash": "d7896ec38272"
+    },
+    "loesung-bw26-10": {
+      "datei": "loesung-bw26-10.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.08,
+      "woerter": [
+        0.12,
+        0.427,
+        0.704,
+        1.02,
+        1.413
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-bw26-11": {
+      "datei": "frage-bw26-11.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.213,
+        0.38,
+        1,
+        1.8,
+        1.94,
+        2.048,
+        2.52,
+        2.68,
+        3.267
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-bw26-11": {
+      "datei": "loesung-bw26-11.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD und BSW!",
+      "dauer": 3.04,
+      "woerter": [
+        0.213,
+        0.32,
+        0.96,
+        1.66,
+        2.14,
+        2.48
+      ],
+      "hash": "ee9fb5d5a4f3"
+    },
+    "frage-bw26-12": {
+      "datei": "frage-bw26-12.mp3",
+      "sprecher": "mara",
+      "text": "Soll ein Paritätsgesetz Frauen und Männer gleich auf Wahllisten verankern?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.2,
+        0.38,
+        1.257,
+        1.62,
+        1.726,
+        2.057,
+        2.46,
+        2.68,
+        3.16
+      ],
+      "hash": "8ace1133dacb"
+    },
+    "loesung-bw26-12": {
+      "datei": "loesung-bw26-12.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2,
+      "woerter": [
+        0.18,
+        0.32,
+        0.56,
+        0.92,
+        1.26
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-bw26-13": {
+      "datei": "frage-bw26-13.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Landesamt für Verfassungsschutz abgeschafft werden?",
+      "dauer": 2.641,
+      "woerter": [
+        0,
+        0.22,
+        0.432,
+        0.92,
+        1.08,
+        1.814,
+        2.287
+      ],
+      "hash": "8f4ee7a31508"
+    },
+    "loesung-bw26-13": {
+      "datei": "loesung-bw26-13.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 1.84,
+      "woerter": [
+        0.18,
+        0.32,
+        0.544,
+        0.86,
+        1.34
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-bw26-14": {
+      "datei": "frage-bw26-14.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.286,
+        0.6,
+        0.84,
+        1.32,
+        1.74,
+        1.872,
+        2.027,
+        2.32,
+        2.6,
+        3.067,
+        3.166
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-bw26-14": {
+      "datei": "loesung-bw26-14.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke, BSW, Freie Wähler und Volt!",
+      "dauer": 3.92,
+      "woerter": [
+        0.28,
+        0.4,
+        1,
+        1.78,
+        2.38,
+        2.72,
+        3.12,
+        3.456
+      ],
+      "hash": "46258c6b307d"
+    },
+    "frage-bw26-16": {
+      "datei": "frage-bw26-16.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.52,
+      "woerter": [
+        0,
+        0.22,
+        0.448,
+        0.7,
+        0.944,
+        2.864
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-bw26-16": {
+      "datei": "loesung-bw26-16.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und Volt!",
+      "dauer": 3.76,
+      "woerter": [
+        0.208,
+        0.333,
+        1.06,
+        1.82,
+        2.46,
+        2.96,
+        3.296
+      ],
+      "hash": "26266f2fe457"
+    },
+    "frage-bw26-17": {
+      "datei": "frage-bw26-17.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kita-Gebühren vollständig abgeschafft werden?",
+      "dauer": 2.48,
+      "woerter": [
+        0,
+        0.28,
+        0.96,
+        1.573,
+        2.229
+      ],
+      "hash": "63272d6cd61c"
+    },
+    "loesung-bw26-17": {
+      "datei": "loesung-bw26-17.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Linke, BSW und Freie Wähler!",
+      "dauer": 4.56,
+      "woerter": [
+        0.187,
+        0.48,
+        1.18,
+        1.98,
+        2.56,
+        3.08,
+        3.26,
+        3.64
+      ],
+      "hash": "45d52a9c6f33"
+    },
+    "frage-bw26-19": {
+      "datei": "frage-bw26-19.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Grundschulempfehlung für das Gymnasium verbindlich sein?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.26,
+        0.373,
+        1.3,
+        1.4,
+        1.56,
+        2.14,
+        2.784
+      ],
+      "hash": "12f114ebfdb6"
+    },
+    "loesung-bw26-19": {
+      "datei": "loesung-bw26-19.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP und AfD!",
+      "dauer": 3.76,
+      "woerter": [
+        0.16,
+        0.4,
+        1.12,
+        2.08,
+        2.68,
+        3.013
+      ],
+      "hash": "d387d4fc4caa"
+    },
+    "frage-bw26-20": {
+      "datei": "frage-bw26-20.mp3",
+      "sprecher": "mara",
+      "text": "Sollen die Studiengebühren für Studierende aus Nicht-EU-Staaten abgeschafft werden?",
+      "dauer": 3.92,
+      "woerter": [
+        0,
+        0.26,
+        0.368,
+        1.16,
+        1.328,
+        1.88,
+        2.053,
+        3.013,
+        3.623
+      ],
+      "hash": "b92ec344d7e3"
+    },
+    "loesung-bw26-20": {
+      "datei": "loesung-bw26-20.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.12,
+      "woerter": [
+        0.133,
+        0.333,
+        1.06,
+        1.74,
+        2.18,
+        2.54
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-bw26-21": {
+      "datei": "frage-bw26-21.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Windräder auch im Wald gebaut werden dürfen?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.304,
+        0.848,
+        1.093,
+        1.28,
+        1.64,
+        1.954,
+        2.18
+      ],
+      "hash": "c6a8c498cb3a"
+    },
+    "loesung-bw26-21": {
+      "datei": "loesung-bw26-21.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: SPD!",
+      "dauer": 2.24,
+      "woerter": [
+        0.072,
+        0.427,
+        0.704,
+        1.02,
+        1.48
+      ],
+      "hash": "e863379821da"
+    },
+    "frage-bw26-22": {
+      "datei": "frage-bw26-22.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Gäubahn-Anschluss nach Stuttgart Hauptbahnhof ohne jahrelange Unterbrechung gesichert werden?",
+      "dauer": 4.8,
+      "woerter": [
+        0,
+        0.26,
+        0.373,
+        1.232,
+        1.408,
+        1.88,
+        2.576,
+        3.04,
+        3.48,
+        4.04,
+        4.434
+      ],
+      "hash": "f9b88653d814"
+    },
+    "loesung-bw26-22": {
+      "datei": "loesung-bw26-22.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, Grüne, Linke und Volt!",
+      "dauer": 3.52,
+      "woerter": [
+        0.28,
+        0.4,
+        1.227,
+        1.8,
+        2.3,
+        2.74,
+        3.12
+      ],
+      "hash": "0af0da048227"
+    },
+    "optionen-rp26": {
+      "datei": "optionen-rp26.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW, Freie Wähler und Volt.",
+      "dauer": 6.8,
+      "woerter": [
+        0,
+        0.22,
+        1.067,
+        1.66,
+        2.28,
+        2.84,
+        3.52,
+        4.14,
+        4.72,
+        5.35,
+        5.64,
+        6,
+        6.336
+      ],
+      "hash": "93decdbeb44c"
+    },
+    "frage-rp26-1": {
+      "datei": "frage-rp26-1.mp3",
+      "sprecher": "mara",
+      "text": "Soll Tempo 30 innerorts zur Regel werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.293,
+        0.64,
+        1.253,
+        1.8,
+        1.973,
+        2.297
+      ],
+      "hash": "4a4fc74cdaf9"
+    },
+    "loesung-rp26-1": {
+      "datei": "loesung-rp26-1.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2,
+      "woerter": [
+        0.072,
+        0.32,
+        0.544,
+        0.86,
+        1.26
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-rp26-2": {
+      "datei": "frage-rp26-2.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.52,
+      "woerter": [
+        0,
+        0.18,
+        0.288,
+        1.093,
+        1.82,
+        2.08,
+        2.52,
+        3.097
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-rp26-2": {
+      "datei": "loesung-rp26-2.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD und FDP!",
+      "dauer": 2.88,
+      "woerter": [
+        0.213,
+        0.333,
+        1.08,
+        1.78,
+        2.24
+      ],
+      "hash": "752a9e0698fb"
+    },
+    "frage-rp26-3": {
+      "datei": "frage-rp26-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.32,
+      "woerter": [
+        0,
+        0.26,
+        0.373,
+        1.28,
+        1.48,
+        2.773,
+        3.14,
+        3.897
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-rp26-3": {
+      "datei": "loesung-rp26-3.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.32,
+      "woerter": [
+        0.15,
+        0.427,
+        0.704,
+        1.02,
+        1.493
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-rp26-4": {
+      "datei": "frage-rp26-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.56,
+        1.328,
+        1.6,
+        2.453,
+        2.784,
+        3.253
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-rp26-4": {
+      "datei": "loesung-rp26-4.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: FDP und Freie Wähler!",
+      "dauer": 3.12,
+      "woerter": [
+        0.16,
+        0.4,
+        1.12,
+        1.82,
+        2.08,
+        2.52
+      ],
+      "hash": "5302bd6feeb5"
+    },
+    "frage-rp26-5": {
+      "datei": "frage-rp26-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 2.08,
+      "woerter": [
+        0,
+        0.18,
+        0.3,
+        0.66,
+        0.8,
+        1.168,
+        1.646
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-rp26-5": {
+      "datei": "loesung-rp26-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP, AfD und Freie Wähler!",
+      "dauer": 4.8,
+      "woerter": [
+        0.28,
+        0.4,
+        1.12,
+        1.98,
+        2.6,
+        3.28,
+        3.82,
+        4.06,
+        4.44
+      ],
+      "hash": "bf8a82adc4d8"
+    },
+    "frage-rp26-6": {
+      "datei": "frage-rp26-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.2,
+        0.38,
+        0.76,
+        0.912,
+        1.333,
+        1.488,
+        1.72,
+        2.366
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-rp26-6": {
+      "datei": "loesung-rp26-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP, Linke und Volt!",
+      "dauer": 4.56,
+      "woerter": [
+        0.24,
+        0.48,
+        1.18,
+        1.98,
+        2.68,
+        3.34,
+        3.84,
+        4.16
+      ],
+      "hash": "8ed21fcdd4ef"
+    },
+    "frage-rp26-7": {
+      "datei": "frage-rp26-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.28,
+        0.448,
+        0.68,
+        0.834,
+        1.6,
+        2.2,
+        2.6
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-rp26-7": {
+      "datei": "loesung-rp26-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.48,
+      "woerter": [
+        0.208,
+        0.333,
+        1,
+        1.62,
+        1.98
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-rp26-8": {
+      "datei": "frage-rp26-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 3.04,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.536,
+        1.16,
+        1.78,
+        1.9,
+        2.12,
+        2.28,
+        2.547
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-rp26-8": {
+      "datei": "loesung-rp26-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, Grüne und BSW!",
+      "dauer": 3.44,
+      "woerter": [
+        0.16,
+        0.4,
+        1.333,
+        1.9,
+        2.42,
+        2.84
+      ],
+      "hash": "b95bc9ff27b5"
+    },
+    "frage-rp26-9": {
+      "datei": "frage-rp26-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.54,
+        1.74,
+        1.96,
+        2.46,
+        3.013
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-rp26-9": {
+      "datei": "loesung-rp26-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.12,
+      "woerter": [
+        0.28,
+        0.4,
+        1.1,
+        1.9,
+        2.32,
+        2.62
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-rp26-10": {
+      "datei": "frage-rp26-10.mp3",
+      "sprecher": "mara",
+      "text": "Sollen private Handys an Schulen verboten werden?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.29,
+        0.688,
+        1.173,
+        1.32,
+        1.64,
+        2.057
+      ],
+      "hash": "d7896ec38272"
+    },
+    "loesung-rp26-10": {
+      "datei": "loesung-rp26-10.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.8,
+      "woerter": [
+        0.213,
+        0.333,
+        1.093,
+        1.76,
+        2.16
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-rp26-11": {
+      "datei": "frage-rp26-11.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.293,
+        0.44,
+        1.02,
+        1.8,
+        1.94,
+        2.048,
+        2.52,
+        2.68,
+        3.253
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-rp26-11": {
+      "datei": "loesung-rp26-11.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.56,
+      "woerter": [
+        0.2,
+        0.613,
+        0.96,
+        1.34,
+        2
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-rp26-13": {
+      "datei": "frage-rp26-13.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Landesamt für Verfassungsschutz abgeschafft werden?",
+      "dauer": 2.721,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.9,
+        1,
+        1.814,
+        2.287
+      ],
+      "hash": "8f4ee7a31508"
+    },
+    "loesung-rp26-13": {
+      "datei": "loesung-rp26-13.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2.32,
+      "woerter": [
+        0.15,
+        0.48,
+        0.72,
+        1.1,
+        1.52
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-rp26-14": {
+      "datei": "frage-rp26-14.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.206,
+        0.52,
+        0.84,
+        1.36,
+        1.74,
+        1.872,
+        2.027,
+        2.4,
+        2.6,
+        3.067,
+        3.177
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-rp26-14": {
+      "datei": "loesung-rp26-14.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke, BSW und Volt!",
+      "dauer": 3.76,
+      "woerter": [
+        0.213,
+        0.307,
+        0.84,
+        1.6,
+        2.24,
+        2.9,
+        3.296
+      ],
+      "hash": "5d3408bddb44"
+    },
+    "frage-rp26-16": {
+      "datei": "frage-rp26-16.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Wahlalter bei Landtagswahlen auf 16 Jahre gesenkt werden?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.28,
+        0.48,
+        1.08,
+        1.248,
+        1.96,
+        2.16,
+        2.613,
+        2.94,
+        3.337
+      ],
+      "hash": "f50552ece3ea"
+    },
+    "loesung-rp26-16": {
+      "datei": "loesung-rp26-16.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP, Linke und Volt!",
+      "dauer": 4.48,
+      "woerter": [
+        0.28,
+        0.413,
+        1.16,
+        1.9,
+        2.52,
+        3.1,
+        3.6,
+        3.952
+      ],
+      "hash": "8ed21fcdd4ef"
+    },
+    "frage-rp26-17": {
+      "datei": "frage-rp26-17.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        0.68,
+        0.848,
+        2.608
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-rp26-17": {
+      "datei": "loesung-rp26-17.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.32,
+      "woerter": [
+        0.28,
+        0.4,
+        1.02,
+        1.66,
+        1.88
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-rp26-18": {
+      "datei": "frage-rp26-18.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.22,
+        0.453,
+        0.933,
+        1.08,
+        1.664,
+        1.973,
+        2.217,
+        2.606,
+        3.04
+      ],
+      "hash": "ad3b6ce01860"
+    },
+    "loesung-rp26-18": {
+      "datei": "loesung-rp26-18.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.4,
+      "woerter": [
+        0.248,
+        0.427,
+        0.72,
+        1.1,
+        1.6
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-rp26-19": {
+      "datei": "frage-rp26-19.mp3",
+      "sprecher": "mara",
+      "text": "Soll eine Brücke über den Mittelrhein gebaut werden?",
+      "dauer": 2.48,
+      "woerter": [
+        0,
+        0.288,
+        0.533,
+        0.848,
+        1.08,
+        1.232,
+        1.72,
+        2.057
+      ],
+      "hash": "03b03d590796"
+    },
+    "loesung-rp26-19": {
+      "datei": "loesung-rp26-19.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP und AfD!",
+      "dauer": 4.08,
+      "woerter": [
+        0.208,
+        0.333,
+        1.28,
+        1.9,
+        2.52,
+        3.06,
+        3.52
+      ],
+      "hash": "86f346fc6014"
+    },
+    "frage-rp26-20": {
+      "datei": "frage-rp26-20.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Verbandsgemeinden und Landkreise zu größeren Einheiten fusioniert werden?",
+      "dauer": 4.24,
+      "woerter": [
+        0,
+        0.28,
+        1.08,
+        1.248,
+        1.92,
+        2.16,
+        2.76,
+        3.326,
+        3.806
+      ],
+      "hash": "7f078a6efc35"
+    },
+    "loesung-rp26-20": {
+      "datei": "loesung-rp26-20.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 2.16,
+      "woerter": [
+        0.12,
+        0.427,
+        0.704,
+        1.02,
+        1.42
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-rp26-21": {
+      "datei": "frage-rp26-21.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Wiederaufbau im Ahrtal weiter mit Landesmitteln beschleunigt werden?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        1.013,
+        1.173,
+        1.657,
+        2.04,
+        2.192,
+        2.747,
+        3.246
+      ],
+      "hash": "718d7f8b2016"
+    },
+    "loesung-rp26-21": {
+      "datei": "loesung-rp26-21.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD und FDP!",
+      "dauer": 3.6,
+      "woerter": [
+        0.16,
+        0.413,
+        1.147,
+        1.96,
+        2.42,
+        2.88
+      ],
+      "hash": "f2087aa69f6a"
+    },
+    "optionen-st26": {
+      "datei": "optionen-st26.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW, Freie Wähler und Volt.",
+      "dauer": 6.72,
+      "woerter": [
+        0,
+        0.21,
+        0.907,
+        1.42,
+        1.98,
+        2.52,
+        3.28,
+        3.9,
+        4.52,
+        5.24,
+        5.48,
+        5.92,
+        6.256
+      ],
+      "hash": "93decdbeb44c"
+    },
+    "frage-st26-1": {
+      "datei": "frage-st26-1.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
+      "dauer": 4.16,
+      "woerter": [
+        0,
+        0.28,
+        0.453,
+        0.933,
+        1.08,
+        1.664,
+        2,
+        2.469,
+        2.926,
+        3.4
+      ],
+      "hash": "ad3b6ce01860"
+    },
+    "loesung-st26-1": {
+      "datei": "loesung-st26-1.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Grüne!",
+      "dauer": 1.92,
+      "woerter": [
+        0.248,
+        0.427,
+        0.704,
+        1.02,
+        1.38
+      ],
+      "hash": "98a29e47fa3e"
+    },
+    "frage-st26-2": {
+      "datei": "frage-st26-2.mp3",
+      "sprecher": "mara",
+      "text": "Soll Tempo 30 innerorts zur Regel werden?",
+      "dauer": 2.4,
+      "woerter": [
+        0,
+        0.213,
+        0.56,
+        1.013,
+        1.56,
+        1.733,
+        2.046
+      ],
+      "hash": "4a4fc74cdaf9"
+    },
+    "loesung-st26-2": {
+      "datei": "loesung-st26-2.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Volt!",
+      "dauer": 2.64,
+      "woerter": [
+        0.32,
+        0.56,
+        1.16,
+        1.84,
+        2.176
+      ],
+      "hash": "6771b328a1a6"
+    },
+    "frage-st26-3": {
+      "datei": "frage-st26-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.18,
+        0.272,
+        1.093,
+        1.8,
+        1.98,
+        2.44,
+        3.006
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-st26-3": {
+      "datei": "loesung-st26-3.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.64,
+      "woerter": [
+        0.139,
+        0.24,
+        0.907,
+        1.54,
+        2
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-st26-4": {
+      "datei": "frage-st26-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.24,
+      "woerter": [
+        0,
+        0.26,
+        0.387,
+        1.253,
+        1.44,
+        2.773,
+        3.18,
+        3.806
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-st26-4": {
+      "datei": "loesung-st26-4.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und Freie Wähler!",
+      "dauer": 2.96,
+      "woerter": [
+        0.293,
+        0.387,
+        1.013,
+        1.66,
+        1.92,
+        2.4
+      ],
+      "hash": "ba648f8ac62e"
+    },
+    "frage-st26-5": {
+      "datei": "frage-st26-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.293,
+        0.44,
+        0.613,
+        1.328,
+        1.6,
+        2.36,
+        2.608,
+        3.013
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-st26-5": {
+      "datei": "loesung-st26-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.48,
+      "woerter": [
+        0.213,
+        0.4,
+        1.067,
+        1.58,
+        1.893
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-st26-6": {
+      "datei": "frage-st26-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 2.4,
+      "woerter": [
+        0,
+        0.26,
+        0.4,
+        0.84,
+        1.04,
+        1.472,
+        1.897
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-st26-6": {
+      "datei": "loesung-st26-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, AfD, BSW und Freie Wähler!",
+      "dauer": 4.88,
+      "woerter": [
+        0.28,
+        0.4,
+        1.12,
+        1.96,
+        2.613,
+        3.28,
+        3.78,
+        4.12,
+        4.44
+      ],
+      "hash": "8a36e705e854"
+    },
+    "frage-st26-7": {
+      "datei": "frage-st26-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.48,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        0.66,
+        0.768,
+        1.227,
+        1.328,
+        1.547,
+        2.046
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-st26-7": {
+      "datei": "loesung-st26-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.4,
+      "woerter": [
+        0.28,
+        0.4,
+        0.98,
+        1.6,
+        1.88
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-st26-8": {
+      "datei": "frage-st26-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        0.68,
+        0.846,
+        1.7,
+        2.36,
+        2.76
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-st26-8": {
+      "datei": "loesung-st26-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Linke und BSW!",
+      "dauer": 2.88,
+      "woerter": [
+        0.16,
+        0.413,
+        1.1,
+        1.76,
+        2.2
+      ],
+      "hash": "f6fd2d76eac0"
+    },
+    "frage-st26-9": {
+      "datei": "frage-st26-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        0.536,
+        1.14,
+        1.8,
+        2.02,
+        2.38,
+        2.6,
+        2.933
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-st26-9": {
+      "datei": "loesung-st26-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: AfD, Linke, BSW, Freie Wähler und Volt!",
+      "dauer": 4.56,
+      "woerter": [
+        0.208,
+        0.32,
+        1.147,
+        1.76,
+        2.48,
+        3.12,
+        3.48,
+        3.9,
+        4.16
+      ],
+      "hash": "d8349ccdd2fd"
+    },
+    "frage-st26-10": {
+      "datei": "frage-st26-10.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.44,
+      "woerter": [
+        0,
+        0.213,
+        0.38,
+        0.62,
+        1.82,
+        2.04,
+        2.48,
+        3.093
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-st26-10": {
+      "datei": "loesung-st26-10.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke, BSW und Volt!",
+      "dauer": 4.88,
+      "woerter": [
+        0.28,
+        0.4,
+        1.12,
+        2.09,
+        2.7,
+        3.44,
+        4.08,
+        4.416
+      ],
+      "hash": "1ea5479c2e0d"
+    },
+    "frage-st26-11": {
+      "datei": "frage-st26-11.mp3",
+      "sprecher": "mara",
+      "text": "Sollen private Handys an Schulen verboten werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.38,
+        0.848,
+        1.333,
+        1.48,
+        1.88,
+        2.366
+      ],
+      "hash": "d7896ec38272"
+    },
+    "loesung-st26-11": {
+      "datei": "loesung-st26-11.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: AfD und BSW!",
+      "dauer": 2.56,
+      "woerter": [
+        0.208,
+        0.333,
+        1.04,
+        1.56,
+        1.8
+      ],
+      "hash": "9a342808f295"
+    },
+    "frage-st26-12": {
+      "datei": "frage-st26-12.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        1.02,
+        1.72,
+        1.86,
+        1.968,
+        2.42,
+        2.54,
+        3.187
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-st26-12": {
+      "datei": "loesung-st26-12.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, BSW und Volt!",
+      "dauer": 3.76,
+      "woerter": [
+        0.213,
+        0.32,
+        1.013,
+        1.8,
+        2.48,
+        3.02,
+        3.28
+      ],
+      "hash": "12fa05038d31"
+    },
+    "frage-st26-13": {
+      "datei": "frage-st26-13.mp3",
+      "sprecher": "mara",
+      "text": "Soll ein Paritätsgesetz Frauen und Männer gleich auf Wahllisten verankern?",
+      "dauer": 3.92,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        1.337,
+        1.72,
+        1.886,
+        2.217,
+        2.6,
+        2.78,
+        3.32
+      ],
+      "hash": "8ace1133dacb"
+    },
+    "loesung-st26-13": {
+      "datei": "loesung-st26-13.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 2.8,
+      "woerter": [
+        0.133,
+        0.32,
+        0.98,
+        1.64,
+        2.08,
+        2.36
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-st26-15": {
+      "datei": "frage-st26-15.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.84,
+      "woerter": [
+        0,
+        0.286,
+        0.6,
+        0.92,
+        1.4,
+        1.82,
+        1.952,
+        2.107,
+        2.48,
+        2.7,
+        3.227,
+        3.337
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-st26-15": {
+      "datei": "loesung-st26-15.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke, BSW und Volt!",
+      "dauer": 4.08,
+      "woerter": [
+        0.213,
+        0.347,
+        1.33,
+        1.94,
+        2.72,
+        3.36,
+        3.68
+      ],
+      "hash": "5d3408bddb44"
+    },
+    "frage-st26-16": {
+      "datei": "frage-st26-16.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Schulen und Verwaltung untersagt werden?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.28,
+        0.68,
+        0.86,
+        1.627,
+        1.733,
+        2.12,
+        2.28,
+        2.766,
+        3.246
+      ],
+      "hash": "6396602a82d7"
+    },
+    "loesung-st26-16": {
+      "datei": "loesung-st26-16.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.16,
+      "woerter": [
+        0.15,
+        0.4,
+        0.624,
+        0.94,
+        1.387
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-st26-17": {
+      "datei": "frage-st26-17.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Wahlalter bei Landtagswahlen auf 16 Jahre gesenkt werden?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.28,
+        0.464,
+        1,
+        1.152,
+        1.88,
+        2.2,
+        2.453,
+        2.76,
+        3.177
+      ],
+      "hash": "f50552ece3ea"
+    },
+    "loesung-st26-17": {
+      "datei": "loesung-st26-17.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, FDP, Linke, Freie Wähler und Volt!",
+      "dauer": 5.76,
+      "woerter": [
+        0.208,
+        0.333,
+        1.1,
+        1.92,
+        2.6,
+        3.34,
+        3.96,
+        4.2,
+        4.76,
+        5.232
+      ],
+      "hash": "ddbe1c0a7f49"
+    },
+    "frage-st26-19": {
+      "datei": "frage-st26-19.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.28,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        0.7,
+        0.928,
+        2.704
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-st26-19": {
+      "datei": "loesung-st26-19.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Volt!",
+      "dauer": 2.96,
+      "woerter": [
+        0.208,
+        0.307,
+        0.92,
+        1.72,
+        2.16,
+        2.496
+      ],
+      "hash": "efc180a68dfd"
+    },
+    "frage-st26-20": {
+      "datei": "frage-st26-20.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kita-Gebühren vollständig abgeschafft werden?",
+      "dauer": 2.72,
+      "woerter": [
+        0,
+        0.36,
+        1.12,
+        1.813,
+        2.286
+      ],
+      "hash": "63272d6cd61c"
+    },
+    "loesung-st26-20": {
+      "datei": "loesung-st26-20.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, AfD, Linke, BSW und Freie Wähler!",
+      "dauer": 5.36,
+      "woerter": [
+        0.213,
+        0.333,
+        1.5,
+        2.213,
+        2.86,
+        3.56,
+        4.1,
+        4.48,
+        4.92
+      ],
+      "hash": "379fa74cf60d"
+    },
+    "frage-st26-22": {
+      "datei": "frage-st26-22.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen-Anhalt dauerhafte Kontrollen an den Binnengrenzen unterstützen?",
+      "dauer": 3.52,
+      "woerter": [
+        0,
+        0.208,
+        0.94,
+        1.408,
+        1.947,
+        2.04,
+        2.2,
+        2.84
+      ],
+      "hash": "042ee9b03ead"
+    },
+    "loesung-st26-22": {
+      "datei": "loesung-st26-22.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.24,
+      "woerter": [
+        0.072,
+        0.347,
+        0.64,
+        1.02,
+        1.627
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-st26-23": {
+      "datei": "frage-st26-23.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land weiter Ansiedlungen wie die Chipfabrik in Magdeburg mit Subventionen fördern?",
+      "dauer": 4.56,
+      "woerter": [
+        0,
+        0.2,
+        0.384,
+        0.697,
+        1.1,
+        1.64,
+        1.78,
+        1.904,
+        2.507,
+        2.6,
+        3.16,
+        3.34,
+        3.973
+      ],
+      "hash": "39519403007c"
+    },
+    "loesung-st26-23": {
+      "datei": "loesung-st26-23.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.24,
+      "woerter": [
+        0.072,
+        0.32,
+        0.56,
+        0.94,
+        1.467
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "optionen-be26": {
+      "datei": "optionen-be26.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW und Volt.",
+      "dauer": 5.6,
+      "woerter": [
+        0,
+        0.22,
+        0.907,
+        1.48,
+        1.98,
+        2.52,
+        3.173,
+        3.74,
+        4.28,
+        4.78,
+        5.056
+      ],
+      "hash": "1252c29d195b"
+    },
+    "frage-be-1": {
+      "datei": "frage-be-1.mp3",
+      "sprecher": "mara",
+      "text": "Sollen große private Wohnungsunternehmen in Berlin vergesellschaftet werden?",
+      "dauer": 3.6,
+      "woerter": [
+        0,
+        0.293,
+        0.62,
+        1.088,
+        1.947,
+        2.046,
+        2.368,
+        3.097
+      ],
+      "hash": "4f24b6449038"
+    },
+    "loesung-be-1": {
+      "datei": "loesung-be-1.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke und BSW!",
+      "dauer": 3.36,
+      "woerter": [
+        0.213,
+        0.32,
+        1.26,
+        1.9,
+        2.4,
+        2.8
+      ],
+      "hash": "acdcabf0cb33"
+    },
+    "frage-be-2": {
+      "datei": "frage-be-2.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Stadtautobahn A100 weitergebaut werden?",
+      "dauer": 2.96,
+      "woerter": [
+        0,
+        0.2,
+        0.352,
+        1.2,
+        1.817,
+        2.526
+      ],
+      "hash": "af57b32045e5"
+    },
+    "loesung-be-2": {
+      "datei": "loesung-be-2.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, AfD und BSW!",
+      "dauer": 3.68,
+      "woerter": [
+        0.139,
+        0.24,
+        0.933,
+        1.68,
+        2.347,
+        2.8,
+        3.16
+      ],
+      "hash": "b3c094b288b8"
+    },
+    "frage-be-3": {
+      "datei": "frage-be-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll sich Berlin um Olympische Spiele bewerben?",
+      "dauer": 2.4,
+      "woerter": [
+        0,
+        0.208,
+        0.457,
+        0.88,
+        1.08,
+        1.497,
+        1.88
+      ],
+      "hash": "0d9e1ede35fd"
+    },
+    "loesung-be-3": {
+      "datei": "loesung-be-3.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD und FDP!",
+      "dauer": 3.6,
+      "woerter": [
+        0.24,
+        0.493,
+        1.387,
+        2.06,
+        2.56,
+        2.96
+      ],
+      "hash": "f2087aa69f6a"
+    },
+    "frage-be-4": {
+      "datei": "frage-be-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Tempelhofer Feld am Rand bebaut werden?",
+      "dauer": 2.48,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.944,
+        1.227,
+        1.344,
+        1.64,
+        2.057
+      ],
+      "hash": "1b8e7222d947"
+    },
+    "loesung-be-4": {
+      "datei": "loesung-be-4.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und FDP!",
+      "dauer": 2.88,
+      "woerter": [
+        0.36,
+        0.493,
+        1.493,
+        1.92,
+        2.32
+      ],
+      "hash": "78f9ea69f643"
+    },
+    "frage-be-5": {
+      "datei": "frage-be-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll in Berlin Tempo 30 zur Regel werden?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.267,
+        0.377,
+        0.773,
+        1.12,
+        1.64,
+        1.813,
+        2.126
+      ],
+      "hash": "8559e1bde66b"
+    },
+    "loesung-be-5": {
+      "datei": "loesung-be-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.64,
+      "woerter": [
+        0.293,
+        0.4,
+        1.02,
+        1.78,
+        2.14
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-be-6": {
+      "datei": "frage-be-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll in Berlin eine Magnetschwebebahn gebaut werden?",
+      "dauer": 2.8,
+      "woerter": [
+        0,
+        0.267,
+        0.377,
+        0.768,
+        1.008,
+        2.04,
+        2.377
+      ],
+      "hash": "90fd69153f9b"
+    },
+    "loesung-be-6": {
+      "datei": "loesung-be-6.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: FDP!",
+      "dauer": 2.24,
+      "woerter": [
+        0.12,
+        0.4,
+        0.64,
+        1.02,
+        1.48
+      ],
+      "hash": "6a3db394ff11"
+    },
+    "frage-be-7": {
+      "datei": "frage-be-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Berliner Neutralitätsgesetz beibehalten werden?",
+      "dauer": 2.72,
+      "woerter": [
+        0,
+        0.2,
+        0.366,
+        0.76,
+        1.707,
+        2.286
+      ],
+      "hash": "6a7fb564f773"
+    },
+    "loesung-be-7": {
+      "datei": "loesung-be-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.72,
+      "woerter": [
+        0.16,
+        0.387,
+        1.013,
+        1.68,
+        2.107
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-be-8": {
+      "datei": "frage-be-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Bezahlkarte für Asylsuchende beibehalten werden?",
+      "dauer": 2.88,
+      "woerter": [
+        0,
+        0.2,
+        0.347,
+        1,
+        1.173,
+        1.813,
+        2.446
+      ],
+      "hash": "a6cc05d95b00"
+    },
+    "loesung-be-8": {
+      "datei": "loesung-be-8.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und FDP!",
+      "dauer": 2.56,
+      "woerter": [
+        0.24,
+        0.467,
+        1.093,
+        1.66,
+        2
+      ],
+      "hash": "78f9ea69f643"
+    },
+    "frage-be-9": {
+      "datei": "frage-be-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.16,
+      "woerter": [
+        0,
+        0.2,
+        0.373,
+        1.2,
+        1.46,
+        2.64,
+        3.1,
+        3.737
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-be-9": {
+      "datei": "loesung-be-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, AfD und BSW!",
+      "dauer": 3.92,
+      "woerter": [
+        0.24,
+        0.48,
+        1.413,
+        2.213,
+        2.82,
+        3.28
+      ],
+      "hash": "55ed12f77670"
+    },
+    "frage-be-11": {
+      "datei": "frage-be-11.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Menschen ohne EU-Pass bei den Bezirkswahlen wählen dürfen?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.284,
+        0.688,
+        0.987,
+        1.48,
+        1.62,
+        1.74,
+        2.44,
+        2.68
+      ],
+      "hash": "ef2fd65c5533"
+    },
+    "loesung-be-11": {
+      "datei": "loesung-be-11.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.24,
+      "woerter": [
+        0.16,
+        0.4,
+        1.05,
+        1.5,
+        1.72
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-be-14": {
+      "datei": "frage-be-14.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Berliner Polizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.2,
+        0.354,
+        0.68,
+        1.28,
+        2.04,
+        2.24,
+        2.68,
+        3.326
+      ],
+      "hash": "baa11d6ac5a4"
+    },
+    "loesung-be-14": {
+      "datei": "loesung-be-14.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.32,
+      "woerter": [
+        0.248,
+        0.4,
+        0.64,
+        1.04,
+        1.76
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-be-15": {
+      "datei": "frage-be-15.mp3",
+      "sprecher": "mara",
+      "text": "Soll privates Silvesterfeuerwerk in Berlin verboten werden?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.288,
+        0.76,
+        1.787,
+        1.886,
+        2.2,
+        2.697
+      ],
+      "hash": "25af0f2171b4"
+    },
+    "loesung-be-15": {
+      "datei": "loesung-be-15.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke und Volt!",
+      "dauer": 2.64,
+      "woerter": [
+        0.16,
+        0.413,
+        1.08,
+        1.72,
+        1.98,
+        2.24
+      ],
+      "hash": "c81a7330282c"
+    },
+    "frage-be-17": {
+      "datei": "frage-be-17.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Landesantidiskriminierungsgesetz abgeschafft werden?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        2.133,
+        2.686
+      ],
+      "hash": "82b5e299b097"
+    },
+    "loesung-be-17": {
+      "datei": "loesung-be-17.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.4,
+      "woerter": [
+        0.072,
+        0.32,
+        0.56,
+        0.96,
+        1.52
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-be-18": {
+      "datei": "frage-be-18.mp3",
+      "sprecher": "mara",
+      "text": "Soll Berlin wieder einen Mietendeckel einführen?",
+      "dauer": 2.24,
+      "woerter": [
+        0,
+        0.297,
+        0.674,
+        0.907,
+        1.08,
+        1.664
+      ],
+      "hash": "91e8a37a23f7"
+    },
+    "loesung-be-18": {
+      "datei": "loesung-be-18.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und BSW!",
+      "dauer": 3.84,
+      "woerter": [
+        0.139,
+        0.253,
+        1,
+        1.74,
+        2.36,
+        2.82,
+        3.24
+      ],
+      "hash": "209e100c4318"
+    },
+    "frage-be-19": {
+      "datei": "frage-be-19.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Radwegeausbau nach dem Mobilitätsgesetz beschleunigt werden?",
+      "dauer": 3.52,
+      "woerter": [
+        0,
+        0.2,
+        0.38,
+        1.248,
+        1.46,
+        1.58,
+        2.52,
+        3.086
+      ],
+      "hash": "15b28a1394ba"
+    },
+    "loesung-be-19": {
+      "datei": "loesung-be-19.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und Volt!",
+      "dauer": 3.76,
+      "woerter": [
+        0.208,
+        0.32,
+        1.22,
+        1.74,
+        2.38,
+        2.88,
+        3.232
+      ],
+      "hash": "26266f2fe457"
+    },
+    "frage-be-20": {
+      "datei": "frage-be-20.mp3",
+      "sprecher": "mara",
+      "text": "Sollen die Berliner Hochschulen wieder mehr Geld bekommen?",
+      "dauer": 2.4,
+      "woerter": [
+        0,
+        0.26,
+        0.354,
+        0.688,
+        1.154,
+        1.392,
+        1.584,
+        1.893
+      ],
+      "hash": "15f1bddfa6fb"
+    },
+    "loesung-be-20": {
+      "datei": "loesung-be-20.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, AfD, Linke und BSW!",
+      "dauer": 3.84,
+      "woerter": [
+        0.139,
+        0.253,
+        0.94,
+        1.707,
+        2.22,
+        2.72,
+        3.12
+      ],
+      "hash": "92c900f00912"
+    },
+    "frage-be-21": {
+      "datei": "frage-be-21.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Verwaltung und Schulen untersagt werden?",
+      "dauer": 4,
+      "woerter": [
+        0,
+        0.32,
+        0.84,
+        1,
+        1.813,
+        1.96,
+        2.5,
+        2.613,
+        3.006,
+        3.577
+      ],
+      "hash": "223c42c1b9f6"
+    },
+    "loesung-be-21": {
+      "datei": "loesung-be-21.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.08,
+      "woerter": [
+        0.15,
+        0.4,
+        0.624,
+        0.96,
+        1.627
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-be-22": {
+      "datei": "frage-be-22.mp3",
+      "sprecher": "mara",
+      "text": "Soll Berlin neue U-Bahn-Strecken bauen?",
+      "dauer": 2.08,
+      "woerter": [
+        0,
+        0.286,
+        0.624,
+        0.96,
+        1.66
+      ],
+      "hash": "67a9875941e2"
+    },
+    "loesung-be-22": {
+      "datei": "loesung-be-22.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und FDP!",
+      "dauer": 2.72,
+      "woerter": [
+        0.139,
+        0.24,
+        0.907,
+        1.54,
+        2
+      ],
+      "hash": "78f9ea69f643"
+    },
+    "optionen-mv26": {
+      "datei": "optionen-mv26.mp3",
+      "sprecher": "ben",
+      "text": "Zur Auswahl: CDU, SPD, Grüne, FDP, AfD, Linke, BSW, Freie Wähler und Volt.",
+      "dauer": 6,
+      "woerter": [
+        0,
+        0.21,
+        0.773,
+        1.38,
+        1.82,
+        2.36,
+        2.987,
+        3.48,
+        3.96,
+        4.55,
+        4.76,
+        5.14,
+        5.52
+      ],
+      "hash": "93decdbeb44c"
+    },
+    "frage-mv26-3": {
+      "datei": "frage-mv26-3.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
+      "dauer": 3.36,
+      "woerter": [
+        0,
+        0.18,
+        0.288,
+        1.093,
+        1.8,
+        1.98,
+        2.36,
+        2.926
+      ],
+      "hash": "fd50930d81fd"
+    },
+    "loesung-mv26-3": {
+      "datei": "loesung-mv26-3.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.72,
+      "woerter": [
+        0.139,
+        0.24,
+        1.013,
+        1.68,
+        2.08
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-mv26-4": {
+      "datei": "frage-mv26-4.mp3",
+      "sprecher": "mara",
+      "text": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "dauer": 4.32,
+      "woerter": [
+        0,
+        0.28,
+        0.467,
+        1.413,
+        1.6,
+        2.933,
+        3.34,
+        3.966
+      ],
+      "hash": "7fe5d43184a6"
+    },
+    "loesung-mv26-4": {
+      "datei": "loesung-mv26-4.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und Freie Wähler!",
+      "dauer": 3.04,
+      "woerter": [
+        0.28,
+        0.427,
+        1.387,
+        1.82,
+        2.08,
+        2.52
+      ],
+      "hash": "ba648f8ac62e"
+    },
+    "frage-mv26-5": {
+      "datei": "frage-mv26-5.mp3",
+      "sprecher": "mara",
+      "text": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.213,
+        0.34,
+        0.48,
+        1.232,
+        1.413,
+        2.12,
+        2.384,
+        2.853
+      ],
+      "hash": "c5caa5b34fd3"
+    },
+    "loesung-mv26-5": {
+      "datei": "loesung-mv26-5.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und FDP!",
+      "dauer": 2.8,
+      "woerter": [
+        0.139,
+        0.253,
+        1.013,
+        1.68,
+        2.12
+      ],
+      "hash": "78f9ea69f643"
+    },
+    "frage-mv26-6": {
+      "datei": "frage-mv26-6.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Abschuss von Wölfen erleichtert werden?",
+      "dauer": 2.32,
+      "woerter": [
+        0,
+        0.28,
+        0.44,
+        0.78,
+        1,
+        1.408,
+        1.886
+      ],
+      "hash": "0e0c1a003351"
+    },
+    "loesung-mv26-6": {
+      "datei": "loesung-mv26-6.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP, AfD und BSW!",
+      "dauer": 4.64,
+      "woerter": [
+        0.28,
+        0.4,
+        1.387,
+        1.98,
+        2.56,
+        3.253,
+        3.76,
+        4.12
+      ],
+      "hash": "34c55c478e0c"
+    },
+    "frage-mv26-7": {
+      "datei": "frage-mv26-7.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Windkraft an Land beschleunigt werden?",
+      "dauer": 2.64,
+      "woerter": [
+        0,
+        0.18,
+        0.3,
+        0.68,
+        0.832,
+        1.307,
+        1.424,
+        1.72,
+        2.286
+      ],
+      "hash": "202e651f0451"
+    },
+    "loesung-mv26-7": {
+      "datei": "loesung-mv26-7.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Volt!",
+      "dauer": 3.28,
+      "woerter": [
+        0.24,
+        0.493,
+        1.61,
+        2.14,
+        2.56,
+        2.88
+      ],
+      "hash": "efc180a68dfd"
+    },
+    "frage-mv26-8": {
+      "datei": "frage-mv26-8.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land für Investitionen zusätzliche Schulden aufnehmen?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.22,
+        0.448,
+        0.66,
+        0.766,
+        1.72,
+        2.28,
+        2.7
+      ],
+      "hash": "0d27a05eda52"
+    },
+    "loesung-mv26-8": {
+      "datei": "loesung-mv26-8.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: Linke!",
+      "dauer": 2,
+      "woerter": [
+        0.18,
+        0.347,
+        0.624,
+        0.94,
+        1.32
+      ],
+      "hash": "01f7be20f099"
+    },
+    "frage-mv26-9": {
+      "datei": "frage-mv26-9.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein kostenloses Schülerticket für Bus und Bahn geben?",
+      "dauer": 2.88,
+      "woerter": [
+        0,
+        0.187,
+        0.28,
+        0.456,
+        1.08,
+        1.72,
+        1.9,
+        2.1,
+        2.2,
+        2.533
+      ],
+      "hash": "2f2712e1d75a"
+    },
+    "loesung-mv26-9": {
+      "datei": "loesung-mv26-9.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne, Linke, BSW, Freie Wähler und Volt!",
+      "dauer": 4.88,
+      "woerter": [
+        0.28,
+        0.4,
+        1.15,
+        1.9,
+        2.6,
+        3.34,
+        3.64,
+        4.08,
+        4.416
+      ],
+      "hash": "801b5ba3c322"
+    },
+    "frage-mv26-10": {
+      "datei": "frage-mv26-10.mp3",
+      "sprecher": "mara",
+      "text": "Soll es ein Tariftreuegesetz für öffentliche Aufträge geben?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.213,
+        0.38,
+        0.64,
+        1.7,
+        1.8,
+        2.22,
+        2.773
+      ],
+      "hash": "8f2c56c4201a"
+    },
+    "loesung-mv26-10": {
+      "datei": "loesung-mv26-10.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 3.12,
+      "woerter": [
+        0.16,
+        0.4,
+        1.08,
+        1.88,
+        2.32,
+        2.64
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-mv26-11": {
+      "datei": "frage-mv26-11.mp3",
+      "sprecher": "mara",
+      "text": "Sollen private Handys an Schulen verboten werden?",
+      "dauer": 2.56,
+      "woerter": [
+        0,
+        0.31,
+        0.832,
+        1.227,
+        1.333,
+        1.72,
+        2.137
+      ],
+      "hash": "d7896ec38272"
+    },
+    "loesung-mv26-11": {
+      "datei": "loesung-mv26-11.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.08,
+      "woerter": [
+        0.072,
+        0.32,
+        0.544,
+        0.86,
+        1.333
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-mv26-12": {
+      "datei": "frage-mv26-12.mp3",
+      "sprecher": "mara",
+      "text": "Soll es verpflichtende Sprachtests vor der Einschulung mit Förderpflicht geben?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.213,
+        0.36,
+        1,
+        1.72,
+        1.86,
+        1.984,
+        2.52,
+        2.7,
+        3.333
+      ],
+      "hash": "ab7aad6d5f02"
+    },
+    "loesung-mv26-12": {
+      "datei": "loesung-mv26-12.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und BSW!",
+      "dauer": 2.88,
+      "woerter": [
+        0.133,
+        0.333,
+        1.28,
+        1.78,
+        2.24
+      ],
+      "hash": "22b3fa7c3222"
+    },
+    "frage-mv26-15": {
+      "datei": "frage-mv26-15.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Kinder länger gemeinsam lernen, statt nach Klasse 4 aufgeteilt zu werden?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.286,
+        0.6,
+        0.93,
+        1.4,
+        1.787,
+        1.952,
+        2.107,
+        2.4,
+        2.62,
+        3.147,
+        3.246
+      ],
+      "hash": "f9532c37179f"
+    },
+    "loesung-mv26-15": {
+      "datei": "loesung-mv26-15.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Volt!",
+      "dauer": 2.56,
+      "woerter": [
+        0.208,
+        0.32,
+        0.94,
+        1.7,
+        2.096
+      ],
+      "hash": "6771b328a1a6"
+    },
+    "frage-mv26-16": {
+      "datei": "frage-mv26-16.mp3",
+      "sprecher": "mara",
+      "text": "Soll Gendern mit Sonderzeichen in Schulen und Verwaltung untersagt werden?",
+      "dauer": 4.08,
+      "woerter": [
+        0,
+        0.32,
+        0.84,
+        1.02,
+        1.893,
+        2.04,
+        2.36,
+        2.52,
+        3.017,
+        3.646
+      ],
+      "hash": "6396602a82d7"
+    },
+    "loesung-mv26-16": {
+      "datei": "loesung-mv26-16.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU und AfD!",
+      "dauer": 2.88,
+      "woerter": [
+        0.16,
+        0.4,
+        1.093,
+        1.76,
+        2.187
+      ],
+      "hash": "ecb022942247"
+    },
+    "frage-mv26-18": {
+      "datei": "frage-mv26-18.mp3",
+      "sprecher": "mara",
+      "text": "Soll das Land ein Landesantidiskriminierungsgesetz einführen?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.2,
+        0.368,
+        0.62,
+        0.848,
+        2.624
+      ],
+      "hash": "acba88a100f7"
+    },
+    "loesung-mv26-18": {
+      "datei": "loesung-mv26-18.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.24,
+      "woerter": [
+        0.133,
+        0.333,
+        0.98,
+        1.48,
+        1.66
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-mv26-20": {
+      "datei": "frage-mv26-20.mp3",
+      "sprecher": "mara",
+      "text": "Soll Nord Stream 2 in Betrieb genommen werden?",
+      "dauer": 2.24,
+      "woerter": [
+        0,
+        0.272,
+        0.446,
+        0.8,
+        1.067,
+        1.16,
+        1.48,
+        1.806
+      ],
+      "hash": "d2d4f75f9f4f"
+    },
+    "loesung-mv26-20": {
+      "datei": "loesung-mv26-20.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2.4,
+      "woerter": [
+        0.12,
+        0.48,
+        0.72,
+        1.1,
+        1.6
+      ],
+      "hash": "6a7d18cc7838"
+    },
+    "frage-mv26-23": {
+      "datei": "frage-mv26-23.mp3",
+      "sprecher": "mara",
+      "text": "Soll der Ausbau der Offshore-Windkraft vor der Küste beschleunigt werden?",
+      "dauer": 2.96,
+      "woerter": [
+        0,
+        0.2,
+        0.36,
+        0.68,
+        0.84,
+        1.62,
+        1.72,
+        1.867,
+        2.107,
+        2.606
+      ],
+      "hash": "e89d25547a5d"
+    },
+    "loesung-mv26-23": {
+      "datei": "loesung-mv26-23.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.64,
+      "woerter": [
+        0.213,
+        0.4,
+        1.1,
+        1.64,
+        2.08
+      ],
+      "hash": "c2de2fd93af7"
     }
   },
   "geraeusche": {
