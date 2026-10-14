@@ -127,6 +127,41 @@
           "programm_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf"
         }
       ]
+    },
+    {
+      "id": "sh27",
+      "name": "Landtagswahl Schleswig-Holstein 2027",
+      "kurz": "Schleswig-Holstein 2027",
+      "datum": "2027-04-18",
+      "parteien": []
+    },
+    {
+      "id": "sl27",
+      "name": "Landtagswahl Saarland 2027",
+      "kurz": "Saarland 2027",
+      "datum": "2027-04-18",
+      "parteien": []
+    },
+    {
+      "id": "nw27",
+      "name": "Landtagswahl Nordrhein-Westfalen 2027",
+      "kurz": "NRW 2027",
+      "datum": "2027-04-25",
+      "parteien": []
+    },
+    {
+      "id": "hb27",
+      "name": "Bürgerschaftswahl Bremen 2027",
+      "kurz": "Bremen 2027",
+      "datum": "2027-05-30",
+      "parteien": []
+    },
+    {
+      "id": "ni27",
+      "name": "Landtagswahl Niedersachsen 2027",
+      "kurz": "Niedersachsen 2027",
+      "datum": "2027-09-26",
+      "parteien": []
     }
   ],
   "fragen": [

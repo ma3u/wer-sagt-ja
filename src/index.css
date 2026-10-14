@@ -631,20 +631,9 @@ textarea {
 .quiz-start-felder > .meta {
   margin: 0;
 }
-/* Wahl wählen (nur bei mehreren Wahlen): Knöpfe wie die Spielarten, die gewählte hervorgehoben. */
-.quiz-wahlen {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
-  gap: 8px;
-}
-.quiz-wahlen .knopf {
-  padding-inline: 0.5rem;
-  line-height: 1.2;
-  white-space: normal;
-}
-.quiz-wahlen .knopf[aria-pressed='true'] {
-  background: var(--stimmblau-hell);
-  box-shadow: inset 0 0 0 2px var(--stimmblau);
+/* Wahl wählen (nur bei mehreren Wahlen): Auswahlliste über die ganze Breite, kommende Wahlen stehen mit drin. */
+.quiz-wahl-auswahl {
+  width: 100%;
 }
 .quiz-wahl-stand {
   margin: 0.6rem 0 0;

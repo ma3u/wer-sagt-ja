@@ -10,7 +10,7 @@ const ids = new Set<string>()
 
 for (const w of datei.wahlen) {
   const wahlFehler = fehlerInWahl(w)
-  console.log(`\n${w.name} (${w.id}) – ${w.parteien.length} Parteien`)
+  console.log(`\n${w.name} (${w.id}) – ${w.parteien.length ? `${w.parteien.length} Parteien` : 'angekündigt, noch keine Programme'}`)
   for (const f of wahlFehler) console.log(`    – ${f}`)
   if (wahlFehler.length) fehlerhaft++
   const name = (id: number) => w.parteien.find((p) => p.id === id)?.kurzname ?? String(id)
@@ -36,6 +36,6 @@ for (const e of datei.fragen.filter((e) => !bekannt.has(e.wahl))) {
 }
 
 const katalog = quizKatalog(datei)
-const summe = katalog.wahlen.map((d) => `${d.wahl.kurz}: ${d.fragen.length}`).join(', ')
+const summe = katalog.wahlen.map((d) => `${d.wahl.kurz}: ${d.parteien.length ? d.fragen.length : '–'}`).join(', ')
 console.log(`\nSpielbare Fragen – ${summe}; ${fehlerhaft} Einträge mit Fehlern · Fassung ${katalog.version}`)
 if (fehlerhaft) process.exit(1)

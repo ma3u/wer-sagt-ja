@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Geprueft, KiHinweis, Positionen, ProgrammLink, PruefZeile, Zielkonflikte } from './Ansicht'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
-import { standardWahl, wahlFuer } from './katalog'
+import { spielbar, standardWahl, wahlFuer } from './katalog'
 import { ladeKatalog } from './laden'
 import { UnterseitenKopf } from './Rechtliches'
 import { parteiStil } from './stil'
@@ -81,9 +81,9 @@ export function Uebersicht({
         {!daten && !fehler && <p className="hinweis">Lade Fragen …</p>}
         {katalog && daten && (
           <>
-            {katalog.wahlen.length > 1 && (
+            {katalog.wahlen.filter(spielbar).length > 1 && (
               <nav className="wahl-filter" aria-label="Wahl">
-                {katalog.wahlen.map((w) => (
+                {katalog.wahlen.filter(spielbar).map((w) => (
                   <a
                     key={w.wahl.id}
                     href={uebersichtHash(null, null, w === standardWahl(katalog) ? null : w.wahl.id)}
@@ -111,6 +111,9 @@ export function Uebersicht({
                 </a>
               ))}
             </nav>
+            {!daten.parteien.length && (
+              <p className="hinweis">Die Programme zur {daten.wahl.name} liegen noch nicht vor.</p>
+            )}
             <ParteiStand daten={daten} partei={gewaehlt} />
             {daten.fragen.map((f) => (
               <Frage key={f.id} frage={f} daten={daten} partei={gewaehlt} pfad={pfad} wahlPfad={wahlPfad} ziel={f.id === frageId} />

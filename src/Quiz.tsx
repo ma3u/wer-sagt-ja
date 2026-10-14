@@ -3,7 +3,7 @@ import { APP_NAME, UNTERTITEL } from './app'
 import { Fusszeile } from './Fusszeile'
 import { Logo } from './Logo'
 import { useErstesMal } from './erstesMal'
-import { standardWahl, wahlFuer } from './katalog'
+import { spielbar, standardWahl, wahlFuer } from './katalog'
 import { ladeKatalog } from './laden'
 import { istUnterseite, useHash } from './navigation'
 import { QuizAnsicht } from './Ansicht'
@@ -283,7 +283,7 @@ function QuizStart({
   const [eingabe, setEingabe] = useState('')
   const [freunde, setFreunde] = useState(false)
   const ziel = raumAusEingabe(eingabe)
-  const leer = daten.fragen.length === 0
+  const leer = !spielbar(daten)
   const titel = useAnsicht('')
   const auftritt = useErstesMal('quiz')
 
@@ -303,27 +303,35 @@ function QuizStart({
           Welche Parteien sagen in ihrem Wahlprogramm Ja? Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr.
         </p>
         <div className="quiz-start-felder">
-          {leer && <p className="meta">Noch gibt es keine vollständig geprüften Fragen.</p>}
-
           {katalog.wahlen.length > 1 && !einladung && (
             <>
-              <p className="label" id={`${id}-wahl`}>
+              <label className="label" htmlFor={`${id}-wahl`}>
                 Welche Wahl?
-              </p>
-              <div className="quiz-wahlen" role="group" aria-labelledby={`${id}-wahl`}>
-                {katalog.wahlen.map((w) => (
-                  <button
-                    key={w.wahl.id}
-                    type="button"
-                    className="knopf knopf-zweit"
-                    aria-pressed={w.wahl.id === daten.wahl.id}
-                    onClick={() => onWahl(w.wahl.id)}
-                  >
-                    {w.wahl.kurz}
-                  </button>
-                ))}
-              </div>
+              </label>
+              <select
+                id={`${id}-wahl`}
+                className="quiz-wahl-auswahl"
+                value={daten.wahl.id}
+                aria-describedby={leer ? `${id}-wahl-hinweis` : undefined}
+                onChange={(e) => onWahl(e.target.value)}
+              >
+                {[...katalog.wahlen]
+                  .sort((a, b) => a.wahl.datum.localeCompare(b.wahl.datum))
+                  .map((w) => (
+                    <option key={w.wahl.id} value={w.wahl.id}>
+                      {w.wahl.name}
+                      {spielbar(w) ? '' : ' – Programme folgen'}
+                    </option>
+                  ))}
+              </select>
             </>
+          )}
+          {leer && (
+            <p className="meta" id={`${id}-wahl-hinweis`}>
+              {daten.parteien.length
+                ? 'Noch gibt es keine spielbaren Fragen zu dieser Wahl.'
+                : `Die Programme zur ${daten.wahl.name} erscheinen erst vor der Wahl – bis dahin eine andere Wahl wählen.`}
+            </p>
           )}
 
           <label className="label" htmlFor={`${id}-name`}>

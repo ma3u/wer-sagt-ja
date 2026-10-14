@@ -4,7 +4,7 @@ import type { Katalog, QuizDaten, QuizFrage, QuizPartei, QuizPosition, QuizZielk
 // die Position jedes Programms mit Beleg. Was richtig ist, leitet das Spiel daraus ab – gefragt wird immer, wer Ja
 // sagt („Wer sagt Ja?“). Prüfen: `npm run fragen` (und `npm test`).
 
-/** Eine Wahl, wie sie in public/fragen.json steht: mit ihren Parteien. */
+/** Eine Wahl, wie sie in public/fragen.json steht: mit ihren Parteien – leer, solange die Programme noch fehlen. */
 export interface WahlEintrag extends Wahl {
   parteien: QuizPartei[]
 }
@@ -75,7 +75,9 @@ export function fehlerInWahl(w: WahlEintrag): string[] {
   if (!w.name?.trim()) fehler.push('name fehlt')
   if (!w.kurz?.trim()) fehler.push('kurz fehlt')
   if (!/^\d{4}-\d{2}-\d{2}$/.test(w.datum ?? '')) fehler.push('datum: ISO-Datum (JJJJ-MM-TT)')
-  if (!Array.isArray(w.parteien) || w.parteien.length < 2) fehler.push('mindestens zwei Parteien')
+  // Ohne Parteien ist die Wahl nur angekündigt (steht in der Auswahl, ist aber nicht spielbar).
+  if (!Array.isArray(w.parteien)) fehler.push('parteien fehlt (leere Liste für eine angekündigte Wahl)')
+  else if (w.parteien.length === 1) fehler.push('mindestens zwei Parteien – oder keine für eine angekündigte Wahl')
   else {
     const ids = new Set<number>()
     const kurz = new Set<string>()
@@ -168,3 +170,6 @@ export const wahlFuer = (k: Katalog, wahlId: string | null | undefined): QuizDat
 
 /** Die Standardwahl: die erste der Datei. */
 export const standardWahl = (k: Katalog): QuizDaten => k.wahlen[0]
+
+/** Spielbar sind Wahlen mit Programmen und Fragen; angekündigte Wahlen stehen nur in der Auswahl. */
+export const spielbar = (d: QuizDaten): boolean => d.parteien.length > 0 && d.fragen.length > 0
