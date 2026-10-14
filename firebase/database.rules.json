@@ -43,6 +43,9 @@
         "t": {
           ".validate": "newData.val() === now"
         },
+        "w": {
+          ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 40"
+        },
         "$sonst": {
           ".validate": false
         }

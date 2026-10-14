@@ -41,6 +41,8 @@ export interface Ergebnis {
 
 export interface QuizZustand {
   version: string
+  /** Wahl, deren Programme gespielt werden (`Wahl.id`) – Gäste laden danach ihre Spieldaten. */
+  wahl: string
   phase: Phase
   spieler: QuizSpieler[]
   /** Fragen dieses Spiels (IDs aus fragen.json). */
@@ -77,8 +79,10 @@ export const neuerZustand = (
   version: string,
   leitung: { id: string; name: string },
   zeitfaktor: Zeitfaktor = 1,
+  wahl = '',
 ): QuizZustand => ({
   version,
+  wahl,
   phase: 'lobby',
   spieler: [{ ...leitung, punkte: 0, verbunden: true, weg: 'selbst' }],
   fragen: [],
@@ -233,6 +237,7 @@ export function alsLeitungNachricht(n: unknown): LeitungNachricht | null {
   const z = m.z as Record<string, unknown>
   const ok =
     typeof z.version === 'string' &&
+    (z.wahl === undefined || (typeof z.wahl === 'string' && /^[a-z0-9]*$/.test(z.wahl))) &&
     ['lobby', 'frage', 'aufloesung', 'ende'].includes(z.phase as string) &&
     Array.isArray(z.spieler) &&
     z.spieler.length <= MAX_SPIELER &&
@@ -246,5 +251,6 @@ export function alsLeitungNachricht(n: unknown): LeitungNachricht | null {
     ...(s as unknown as QuizSpieler),
     name: bereinigeName(s.name, 'Gast'),
   }))
-  return { t: 'zustand', du: m.du, z: { ...(z as unknown as QuizZustand), spieler } }
+  // Ältere Spielleitungen schicken keine Wahl – dann gilt die Standardwahl (leere Kennung).
+  return { t: 'zustand', du: m.du, z: { ...(z as unknown as QuizZustand), wahl: typeof z.wahl === 'string' ? z.wahl : '', spieler } }
 }

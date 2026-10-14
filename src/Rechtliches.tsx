@@ -72,7 +72,8 @@ function Impressum() {
       <p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: {BETREIBER.name}, Anschrift wie oben.</p>
       <h2>Zum Projekt</h2>
       <p>
-        „{APP_NAME}“ ist ein privates, nicht-kommerzielles Quiz zu den Bundeswahlprogrammen 2025. Es wird von keiner
+        „{APP_NAME}“ ist ein privates, nicht-kommerzielles Quiz zu Wahlprogrammen (Bundestagswahl 2025 und weitere
+        Wahlen). Es wird von keiner
         Partei beauftragt oder finanziert. Der <a href={QUELLCODE}>Quellcode ist offen</a>, ebenso die
         Fragen mit den Positionen der Parteien. Die Positionen sind zum großen Teil mit KI-Hilfe aus den Programmen
         erfasst und noch nicht von Menschen geprüft – das Spiel weist darauf hin und verlinkt jede Stelle im Programm.

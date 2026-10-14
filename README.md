@@ -2,9 +2,10 @@
 
 ![Wer sagt Ja? – Das Quiz zu den Wahlprogrammen](public/vorschau.gif)
 
-Ein Quiz zu den Bundeswahlprogrammen 2025 für bis zu acht Personen. Eine Frage, acht Parteien: Wer sagt im Programm
-Ja? Wer richtig liegt, bekommt Punkte – wer schneller ist, mehr. Nach jeder Frage zeigt das Spiel für alle
-Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
+Ein Quiz zu Wahlprogrammen für bis zu acht Personen – zur Bundestagswahl 2025, weitere Wahlen (Landtagswahlen)
+kommen als eigene Kataloge dazu. Eine Frage, alle Parteien: Wer sagt im Programm Ja? Wer richtig liegt, bekommt
+Punkte – wer schneller ist, mehr. Nach jeder Frage zeigt das Spiel für alle Parteien die Stelle im Programm mit
+Wortlaut, Seite und Link.
 
 Punkte gibt es fürs Wissen über Programme, nie für eine eigene Meinung. Keine Konten, keine Datenbank, keine KI im
 Spiel: Das Spiel läuft zwischen den Browsern der Mitspielenden.
@@ -19,28 +20,40 @@ Spiel: Das Spiel läuft zwischen den Browsern der Mitspielenden.
 
 ## Fragen pflegen
 
-Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Je Frage:
+Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Die Datei hat zwei Listen: `wahlen` und
+`fragen`. Je Wahl:
 
 | Feld | Inhalt |
 | --- | --- |
-| `id` | Stabile Kennung, nie ändern – die Aufnahmen heißen danach (`frage-<id>.mp3`, `loesung-<id>.mp3`) |
+| `id` | Stabile Kennung aus Kleinbuchstaben und Ziffern, etwa `btw25` oder `be26` – steht in Adressen (`#/be26/fragen`) |
+| `name`, `kurz`, `datum` | Voller Name („Bundestagswahl 2025“), Kurzform für Knöpfe („Bund 2025“), Wahltag als ISO-Datum |
+| `parteien` | Die Parteien dieser Wahl mit `id`, `name`, `kurzname`, `farbe` und `programm_url` – jede Wahl hat ihre eigene Liste |
+
+Die erste Wahl der Datei ist die Standardwahl: Sie gilt für Adressen ohne Wahl (`#/fragen`), alte Links bleiben so
+gültig. Mit mehr als einer Wahl zeigt die Startseite eine Auswahl; ein Raum spielt immer die Wahl der Spielleitung,
+Gäste folgen automatisch. Je Frage:
+
+| Feld | Inhalt |
+| --- | --- |
+| `id` | Stabile Kennung, über alle Wahlen eindeutig, nie ändern – die Aufnahmen heißen danach (`frage-<id>.mp3`, `loesung-<id>.mp3`); neue Wahlen bekommen ein Präfix (`be-1`) |
+| `wahl` | Kennung der Wahl, zu der die Frage gehört |
 | `frage`, `beschreibung` | Neutral formulierte Ja/Nein-Frage mit Fragezeichen und eine Erläuterung |
-| `positionen` | Genau eine je Partei: `ja`, `nein`, `teils` oder `keine_aussage`. Ja, Nein und teils immer mit wörtlichem `zitat` und `beleg_url` (Seite im Programm), keine Aussage mit `begruendung`, was durchsucht wurde |
+| `positionen` | Genau eine je Partei der Wahl: `ja`, `nein`, `teils` oder `keine_aussage`. Ja, Nein und teils immer mit wörtlichem `zitat` und `beleg_url` (Seite im Programm), keine Aussage mit `begruendung`, was durchsucht wurde |
 | `zielkonflikte` | Argumente beider Seiten mit Quelle (optional, leere Liste) |
 | `ki_entwurf` | `true`, solange die Positionen nicht von Menschen geprüft sind – das Spiel sagt das dann an |
 | `geprueft` | Je Position optional: `{ "von": "Volt Deutschland", "issue_url": "https://github.com/…/issues/12" }`, wenn jemand die Position bestätigt hat – das Issue ist der Nachweis |
 
 Was richtig ist, leitet das Spiel ab (`src/katalog.ts`): Gefragt wird **immer, wer Ja sagt**. Richtig sind nur
 Parteien mit `ja`; „keine Aussage“ wird nie als Ja oder Nein gewertet und so angezeigt – ein Kreuz dort ist kein
-Treffer, weil die Partei nicht Ja sagt. Eine Frage, zu der keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Frage, wer Ja sagt, und meldet
+Treffer, weil die Partei nicht Ja sagt. Eine Frage, zu der keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Wahl und Frage, wer Ja sagt, und meldet
 Fehler; `npm test` prüft die Datei ebenso. Neue oder geänderte Fragen brauchen danach neue Aufnahmen
-(`npm run stimmen`, kostet ElevenLabs-Credits).
+(`npm run stimmen`, kostet ElevenLabs-Credits) – ebenso jede neue Wahl die Ansage ihrer Antwortmöglichkeiten.
 
 Zurzeit sind alle Fragen **KI-Entwürfe, noch nicht von Menschen geprüft** – das Spiel sagt das auf der Startseite und
 in jeder Auflösung.
 
 Zum Prüfen zeigt `#/fragen` alle Fragen mit Position, Wortlaut und Beleg jeder Partei, nach Partei filterbar
-(`#/fragen/volt`). Je Position öffnen „Position bestätigen“ und „Fehler melden“ ein vorausgefülltes GitHub-Issue mit
+(`#/fragen/volt`); andere Wahlen stehen davor (`#/be26/fragen/volt`). Je Position öffnen „Position bestätigen“ und „Fehler melden“ ein vorausgefülltes GitHub-Issue mit
 Frage, Partei, eingetragener Position, Zitat und Beleg (`src/uebersicht.ts`). Bestätigt jemand eine Position, kommt
 das Issue als `geprueft` an die Position; Übersicht und Auflösung zeigen sie dann als geprüft.
 
@@ -57,7 +70,10 @@ das Issue als `geprueft` an die Position; Übersicht und Auflösung zeigen sie d
   (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` mit Chrome und ffmpeg. Die öffentliche Adresse
   steht fest in `index.html`, `public/sitemap.xml` und `public/llms.txt` – bei einer eigenen Domain dort ändern.
 - Adressen: `#/` Start, `#/<raumname>` Einladung, `#/fragen` alle Fragen mit Belegen (`#/fragen/<partei>` nur eine
-  Partei, `#/fragen/<partei>/<frage-id>` springt zur Frage), `#/impressum`, `#/datenschutz`.
+  Partei, `#/fragen/<partei>/<frage-id>` springt zur Frage, `#/<wahl>/fragen/…` für andere Wahlen als die
+  Standardwahl), `#/impressum`, `#/datenschutz`.
+- Öffentliche Räume tragen die gespielte Wahl als Feld `w` in die Realtime Database ein; erlauben die veröffentlichten
+  Regeln das Feld noch nicht, schreibt die App den Eintrag ohne (`firebase/database.rules.json` neu veröffentlichen).
 - Barrierefreiheit nach WCAG 2.2 AA: Fokusführung bei Ansichtswechsel, Zielflächen ≥ 24 px, „Bewegung anhalten“,
   Zeitlimit einstellbar.
 
@@ -71,7 +87,8 @@ npm run stimmen -- --nur-zeigen   # zählt fehlende Aufnahmen (ElevenLabs, Schl�
 ```
 
 Veröffentlichung: Der Workflow [`pages.yml`](.github/workflows/pages.yml) baut bei jedem Push auf `main` und
-veröffentlicht auf GitHub Pages unter `/<repository>/`. Vor dem öffentlichen Start die Angaben in
+veröffentlicht auf GitHub Pages unter https://wersagtja.de/ (eigene Domain in den Pages-Einstellungen; die alte
+Adresse `ma3u.github.io/wer-sagt-ja/` leitet dorthin weiter). Vor dem öffentlichen Start die Angaben in
 `src/betreiber.ts` ausfüllen.
 
 ## Struktur

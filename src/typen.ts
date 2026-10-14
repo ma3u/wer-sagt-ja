@@ -65,11 +65,33 @@ export interface QuizFrage {
   ki_entwurf: boolean
 }
 
+/** Eine Wahl mit ihren Programmen – Bundestagswahl oder Landtagswahl; jede hat eigene Parteien und Fragen. */
+export interface Wahl {
+  /** Stabile Kennung, nur Kleinbuchstaben und Ziffern (steht in Adressen: #/<wahl>/fragen). */
+  id: string
+  /** Voller Name, etwa „Bundestagswahl 2025“. */
+  name: string
+  /** Kurzform für Knöpfe und Listen, etwa „Bund 2025“. */
+  kurz: string
+  /** Wahltag (ISO-Datum). */
+  datum: string
+}
+
+/** Die Spieldaten einer Wahl – ein Spiel läuft immer innerhalb einer Wahl. */
 export interface QuizDaten {
-  /** Prüfsumme über die Fragendatei: Alle Geräte im Raum müssen dieselbe Fassung haben. */
+  /** Prüfsumme über die ganze Fragendatei: Alle Geräte im Raum müssen dieselbe Fassung haben. */
   version: string
+  wahl: Wahl
   /** true = enthält Fragen mit ungeprüften KI-Entwürfen. */
   entwurf: boolean
   parteien: QuizPartei[]
   fragen: QuizFrage[]
+}
+
+/** Alle Wahlen der Fragendatei; die erste ist die Standardwahl (Adressen ohne Wahl, etwa #/fragen). */
+export interface Katalog {
+  version: string
+  wahlen: QuizDaten[]
+  /** true = irgendeine Wahl enthält ungeprüfte KI-Entwürfe. */
+  entwurf: boolean
 }

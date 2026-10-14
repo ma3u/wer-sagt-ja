@@ -3,17 +3,18 @@ import { APP_NAME, UNTERTITEL } from './app'
 import { Fusszeile } from './Fusszeile'
 import { Logo } from './Logo'
 import { useErstesMal } from './erstesMal'
-import { ladeQuiz } from './laden'
+import { standardWahl, wahlFuer } from './katalog'
+import { ladeKatalog } from './laden'
 import { istUnterseite, useHash } from './navigation'
 import { QuizAnsicht } from './Ansicht'
 import { useAnsicht } from './barrierefrei'
 import { ZEITFAKTOR_TEXT, type Zeitfaktor } from './punkte'
 import { pruefeText } from './namen'
-import { gemerkterName, nameMerken } from './merken'
+import { gemerkterName, gemerkteWahl, nameMerken, wahlMerken } from './merken'
 import { beobachteOeffentliche, meldeOeffentlich, OEFFENTLICH_MOEGLICH, type OeffentlicherRaum } from './oeffentlich'
 import { neuerRaumname, raumAusEingabe, raumPfad, type Raum } from './raumname'
 import { bereinigeName } from './spielleitung'
-import type { QuizDaten } from './typen'
+import type { Katalog, QuizDaten } from './typen'
 import { useGast, useSpielleitung } from './useSpiel'
 import { TonAufruf, TonKnopf, UntertitelLeiste } from './show/Buehne'
 import { alleClips, GERAEUSCHE } from './show/texte'
@@ -43,7 +44,7 @@ const nameAnstoessig = (name: string) => {
 function showStarten(daten: QuizDaten) {
   melodieStoppen()
   entsperren()
-  vorladen(alleClips(daten.fragen, daten.parteien), GERAEUSCHE.map((g) => g.id))
+  vorladen(alleClips(daten.fragen, daten.parteien, daten.wahl.id), GERAEUSCHE.map((g) => g.id))
 }
 
 /** Startmusik nur einmal je Besuch – beim ersten Tippen oder Tastendruck auf der Startseite (vorher darf kein Ton). */
@@ -92,21 +93,29 @@ export function Quiz() {
   // Fragen noch laden.
   useStartmelodie()
   const einladung = einladungAus(hash)
-  const [daten, setDaten] = useState<QuizDaten | null>(null)
+  const [katalog, setKatalog] = useState<Katalog | null>(null)
   const [ladeFehler, setLadeFehler] = useState<string | null>(null)
-  // Der Name bleibt auf dem Gerät (merken.ts), der Raumname nicht.
+  // Name und gewählte Wahl bleiben auf dem Gerät (merken.ts), der Raumname nicht.
   const [name, setName] = useState(gemerkterName)
+  const [wahlId, setWahlId] = useState<string | null>(gemerkteWahl)
   const [eigenerRaum, setEigenerRaum] = useState(neuerRaumname)
   const [zeit, setZeit] = useState<Zeitfaktor>(1)
   const [modus, setModus] = useState<Modus>({ art: 'start' })
+  // Die Spieldaten der gewählten Wahl; unbekannte oder fehlende Wahl: die Standardwahl.
+  const daten = katalog ? (wahlFuer(katalog, wahlId) ?? standardWahl(katalog)) : null
 
   useEffect(() => nameMerken(name), [name])
 
   useEffect(() => {
-    Promise.all([ladeQuiz(), ladeShow()])
-      .then(([d]) => setDaten(d))
+    Promise.all([ladeKatalog(), ladeShow()])
+      .then(([k]) => setKatalog(k))
       .catch((e: unknown) => setLadeFehler(e instanceof Error ? e.message : String(e)))
   }, [])
+
+  const waehleWahl = (id: string) => {
+    setWahlId(id)
+    wahlMerken(id)
+  }
 
   const verlassen = () => {
     setModus({ art: 'start' })
@@ -140,7 +149,7 @@ export function Quiz() {
         </span>
       </header>
       <TonAufruf mitMelodie={modus.art === 'start'} />
-      {!daten ? (
+      {!daten || !katalog ? (
         <main className="seite quiz">
           <p className="hinweis" role={ladeFehler ? 'alert' : undefined}>
             {ladeFehler ?? 'Lade Fragen …'}
@@ -156,7 +165,7 @@ export function Quiz() {
           onVerlassen={verlassen}
         />
       ) : modus.art === 'gast' ? (
-        <GastSpiel daten={daten} name={bereinigeName(name, '')} raum={modus.raum} onVerlassen={verlassen} />
+        <GastSpiel katalog={katalog} name={bereinigeName(name, '')} raum={modus.raum} onVerlassen={verlassen} />
       ) : modus.art === 'suche' ? (
         <ZufallSuche
           name={name}
@@ -174,7 +183,9 @@ export function Quiz() {
       ) : (
         <QuizStart
           key={einladung?.code}
+          katalog={katalog}
           daten={daten}
+          onWahl={waehleWahl}
           name={name}
           onName={setName}
           eigenerRaum={eigenerRaum}
@@ -238,7 +249,9 @@ function ZeitKnopf({ zeit, onZeit }: { zeit: Zeitfaktor; onZeit: (f: Zeitfaktor)
 }
 
 function QuizStart({
+  katalog,
   daten,
+  onWahl,
   name,
   onName,
   eigenerRaum,
@@ -251,7 +264,9 @@ function QuizStart({
   onZufall,
   onBeitreten,
 }: {
+  katalog: Katalog
   daten: QuizDaten
+  onWahl: (id: string) => void
   name: string
   onName: (n: string) => void
   eigenerRaum: string
@@ -289,6 +304,27 @@ function QuizStart({
         </p>
         <div className="quiz-start-felder">
           {leer && <p className="meta">Noch gibt es keine vollständig geprüften Fragen.</p>}
+
+          {katalog.wahlen.length > 1 && !einladung && (
+            <>
+              <p className="label" id={`${id}-wahl`}>
+                Welche Wahl?
+              </p>
+              <div className="quiz-wahlen" role="group" aria-labelledby={`${id}-wahl`}>
+                {katalog.wahlen.map((w) => (
+                  <button
+                    key={w.wahl.id}
+                    type="button"
+                    className="knopf knopf-zweit"
+                    aria-pressed={w.wahl.id === daten.wahl.id}
+                    onClick={() => onWahl(w.wahl.id)}
+                  >
+                    {w.wahl.kurz}
+                  </button>
+                ))}
+              </div>
+            </>
+          )}
 
           <label className="label" htmlFor={`${id}-name`}>
             Dein Name im Spiel (freiwillig)
@@ -415,7 +451,7 @@ function LeitungSpiel({
   const offen = oeffentlich && s.raumBereit && s.z.phase === 'lobby' && raum !== null
   useEffect(() => {
     if (!offen || !raum) return
-    const a = meldeOeffentlich(raum.code, raum.name ?? raum.code, s.z.spieler.length)
+    const a = meldeOeffentlich(raum.code, raum.name ?? raum.code, s.z.spieler.length, daten.wahl.kurz)
     anmeldung.current = a
     return () => {
       a.abmelden()
@@ -479,8 +515,10 @@ function LeitungSpiel({
   )
 }
 
-function GastSpiel({ daten, name, raum, onVerlassen }: { daten: QuizDaten; name: string; raum: Raum; onVerlassen: () => void }) {
-  const s = useGast(daten, name, raum.code)
+function GastSpiel({ katalog, name, raum, onVerlassen }: { katalog: Katalog; name: string; raum: Raum; onVerlassen: () => void }) {
+  const s = useGast(katalog.version, name, raum.code)
+  // Gespielt wird die Wahl der Spielleitung; ältere Spielleitungen nennen keine (leer): dann die Standardwahl.
+  const daten = wahlFuer(katalog, s.z?.wahl) ?? standardWahl(katalog)
   const zurueck = (
     <button type="button" className="knopf knopf-zweit" onClick={onVerlassen}>
       Zurück
@@ -562,7 +600,9 @@ function ZufallSuche({
           {raeume.map((r) => (
             <li key={r.code}>
               <span className="quiz-spieler-name">{r.name}</span>
-              <span className="quiz-weg">{r.spieler} von 8</span>
+              <span className="quiz-weg">
+                {r.spieler} von 8{r.wahl ? ` · ${r.wahl}` : ''}
+              </span>
               <button
                 type="button"
                 className="knopf knopf-klein"

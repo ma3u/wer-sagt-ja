@@ -25,3 +25,23 @@ export function nameMerken(name: string) {
     // privater Modus o. Ä.: dann eben nicht
   }
 }
+
+// Die zuletzt gewählte Wahl (Bundestagswahl, Landtagswahl …) bleibt ebenfalls auf dem Gerät – nur eine Kennung.
+const WAHL_SCHLUESSEL = 'wer-sagt-ja-wahl'
+
+export function gemerkteWahl(): string | null {
+  try {
+    const w = localStorage.getItem(WAHL_SCHLUESSEL)
+    return w && /^[a-z0-9]+$/.test(w) ? w : null
+  } catch {
+    return null
+  }
+}
+
+export function wahlMerken(wahlId: string) {
+  try {
+    localStorage.setItem(WAHL_SCHLUESSEL, wahlId)
+  } catch {
+    // privater Modus o. Ä.: dann eben nicht
+  }
+}

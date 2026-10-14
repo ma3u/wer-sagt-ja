@@ -6,7 +6,7 @@
 // public/audio/manifest.json. Ergebnis: public/audio/*.mp3 und manifest.json mit Dauer und Wortzeiten.
 import { createHash } from 'node:crypto'
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
-import { quizDaten, type FragenDatei } from '../src/katalog.ts'
+import { quizKatalog, type FragenDatei } from '../src/katalog.ts'
 import { alleClips, GERAEUSCHE, ohneTags, SPRECHER, STARTMUSIK, type Clip, type Sprecher } from '../src/show/texte.ts'
 import type { ShowManifest } from '../src/show/manifest.ts'
 
@@ -52,8 +52,9 @@ async function api(pfad: string, body: unknown): Promise<Response> {
 
 const hash = (...teile: unknown[]) => createHash('sha256').update(JSON.stringify(teile)).digest('hex').slice(0, 12)
 
-const daten = quizDaten(JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as FragenDatei)
-const clips = alleClips(daten.fragen, daten.parteien)
+const katalog = quizKatalog(JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as FragenDatei)
+// Feste Clips einmal, Fragen und Antwortmöglichkeiten je Wahl (gleiche Clip-IDs nur einmal).
+const clips = [...new Map(katalog.wahlen.flatMap((d) => alleClips(d.fragen, d.parteien, d.wahl.id)).map((c) => [c.id, c])).values()]
 
 mkdirSync(ordner, { recursive: true })
 const manifest: ShowManifest = existsSync(manifestDatei)

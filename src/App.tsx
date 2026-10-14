@@ -18,7 +18,7 @@ export function App() {
   return (
     <>
       {seite && <Rechtliches seite={seite} onZurueck={zurueck} />}
-      {uebersicht && <Uebersicht partei={uebersicht.partei} frageId={uebersicht.frage} onZurueck={zurueck} />}
+      {uebersicht && <Uebersicht wahlId={uebersicht.wahl} partei={uebersicht.partei} frageId={uebersicht.frage} onZurueck={zurueck} />}
       <div hidden={seite !== null || uebersicht !== null}>
         <Quiz />
       </div>

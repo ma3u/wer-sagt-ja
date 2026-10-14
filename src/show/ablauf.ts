@@ -41,6 +41,7 @@ export function vorspann(
   anzahl: number,
   parteien: QuizPartei[],
   mitIntro: boolean,
+  wahlId: string,
 ): Schritt[] {
   const letzte = index === anzahl - 1
   const ansage = letzte ? ANSAGE.find((c) => c.id === 'ansage-letzte')! : ANSAGE[Math.min(index, 3)]
@@ -53,7 +54,7 @@ export function vorspann(
     { marke: 'anleitung', clip: ANLEITUNG[frage.art], pause: 150 },
     // Beim ersten Mal werden die Antworten vorgelesen, danach poppen sie nur auf.
     index === 0
-      ? { marke: 'optionen', clip: optionenClip(parteien), pause: 150 }
+      ? { marke: 'optionen', clip: optionenClip(parteien, wahlId), pause: 150 }
       : { marke: 'optionen', takte: parteien.length, pause: 250 },
     { marke: 'los', clip: LOS[index % LOS.length], klang: 'start' },
   ]

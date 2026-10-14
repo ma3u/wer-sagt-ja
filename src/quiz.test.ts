@@ -174,4 +174,13 @@ describe('Nachrichten', () => {
     expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z: { ...z, phase: 'hack' } })).toBeNull()
     expect(alsLeitungNachricht({ t: 'abgelehnt', grund: 'voll' })).toEqual({ t: 'abgelehnt', grund: 'voll' })
   })
+
+  it('trägt die Wahl der Spielleitung im Schnappschuss – ältere Leitungen ohne Wahl ergeben die Standardwahl', () => {
+    const z = neuerZustand('v1', { id: 'L', name: 'Leitung' }, 1, 'be26')
+    expect(z.wahl).toBe('be26')
+    expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z })).toMatchObject({ z: { wahl: 'be26' } })
+    const { wahl: _weg, ...ohne } = z
+    expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z: ohne })).toMatchObject({ z: { wahl: '' } })
+    expect(alsLeitungNachricht({ t: 'zustand', du: 'a', z: { ...z, wahl: 'Böse/Wahl' } })).toBeNull()
+  })
 })

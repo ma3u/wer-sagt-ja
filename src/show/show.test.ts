@@ -14,24 +14,24 @@ const frage = (art: 'einzeln' | 'mehrfach', richtig: number[]): QuizFrage => ({
 describe('Show-Ablauf', () => {
   it('Vorspann: Intro nur bei Frage 1 des ersten Spiels, Antworten nur beim ersten Mal vorgelesen', () => {
     const f = frage('mehrfach', [12, 13])
-    expect(vorspann(f, 0, 5, PARTEIEN, true).map((s) => s.marke)).toEqual([
+    expect(vorspann(f, 0, 5, PARTEIEN, true, 'w').map((s) => s.marke)).toEqual([
       'intro', 'intro', 'intro', 'intro', 'ansage', 'frage', 'anleitung', 'optionen', 'los',
     ])
-    expect(vorspann(f, 0, 5, PARTEIEN, false)[0].marke).toBe('ansage')
-    const zweite = vorspann(f, 1, 5, PARTEIEN, true)
+    expect(vorspann(f, 0, 5, PARTEIEN, false, 'w')[0].marke).toBe('ansage')
+    const zweite = vorspann(f, 1, 5, PARTEIEN, true, 'w')
     expect(zweite.find((s) => s.marke === 'optionen')).toMatchObject({ takte: 7 })
-    expect(vorspann(f, 4, 5, PARTEIEN, false)[0].clip?.id).toBe('ansage-letzte')
+    expect(vorspann(f, 4, 5, PARTEIEN, false, 'w')[0].clip?.id).toBe('ansage-letzte')
   })
 
   it('Dauer ist für alle Geräte gleich berechnet und enthält Pausen und Takte', () => {
-    const s = vorspann(frage('einzeln', [15]), 1, 2, PARTEIEN, false)
+    const s = vorspann(frage('einzeln', [15]), 1, 2, PARTEIEN, false, 'w')
     const ohneClips = s.reduce((a, x) => a + (x.pause ?? 0) + (x.takte ?? 0) * POP_MS, 0)
     expect(dauerMs(s)).toBeGreaterThan(ohneClips)
-    expect(dauerMs(s)).toBe(dauerMs(vorspann(frage('einzeln', [15]), 1, 2, PARTEIEN, false)))
+    expect(dauerMs(s)).toBe(dauerMs(vorspann(frage('einzeln', [15]), 1, 2, PARTEIEN, false, 'w')))
   })
 
   it('findet die Parteinamen in den Ansagen – für Pop-in und Stempel im Takt', () => {
-    expect([...parteiWoerter(optionenClip(PARTEIEN), PARTEIEN).values()]).toEqual([11, 12, 13, 14, 15, 16, 17])
+    expect([...parteiWoerter(optionenClip(PARTEIEN, 'w'), PARTEIEN).values()]).toEqual([11, 12, 13, 14, 15, 16, 17])
     const l = loesungClip(frage('mehrfach', [12, 13, 16]), PARTEIEN)
     expect(ohneTags(l.text)).toBe('Ja sagen: SPD, Grüne und Linke!')
     expect([...parteiWoerter(l, PARTEIEN).values()]).toEqual([12, 13, 16])
@@ -48,7 +48,7 @@ describe('Show-Ablauf', () => {
   })
 
   it('Sprechertexte: eindeutige IDs, keine Parteinamen in Moderation außerhalb der Aufzählungen', () => {
-    const clips = alleClips([frage('mehrfach', [12])], PARTEIEN)
+    const clips = alleClips([frage('mehrfach', [12])], PARTEIEN, 'w')
     expect(new Set(clips.map((c) => c.id)).size).toBe(clips.length)
     const moderation = clips.filter((c) => !/^(optionen|loesung-|frage-)/.test(c.id))
     for (const c of moderation) for (const p of PARTEIEN) expect(ohneTags(c.text)).not.toMatch(new RegExp(`\\b${p.kurzname}\\b`))

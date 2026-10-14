@@ -36,11 +36,11 @@ describe('Fragenübersicht (uebersicht.ts)', () => {
     expect(uebersichtHash('volt')).toBe('#/fragen/volt')
     expect(uebersichtHash('volt', 'h1')).toBe('#/fragen/volt/h1')
     expect(uebersichtHash(null, 'h1')).toBe('#/fragen/alle/h1')
-    expect(uebersichtAus('#/fragen')).toEqual({ partei: null, frage: null })
-    expect(uebersichtAus('#/fragen/')).toEqual({ partei: null, frage: null })
-    expect(uebersichtAus('#/fragen/volt')).toEqual({ partei: 'volt', frage: null })
-    expect(uebersichtAus('#/fragen/volt/h1')).toEqual({ partei: 'volt', frage: 'h1' })
-    expect(uebersichtAus('#/fragen/alle/h1')).toEqual({ partei: null, frage: 'h1' })
+    expect(uebersichtAus('#/fragen')).toEqual({ wahl: null, partei: null, frage: null })
+    expect(uebersichtAus('#/fragen/')).toEqual({ wahl: null, partei: null, frage: null })
+    expect(uebersichtAus('#/fragen/volt')).toEqual({ wahl: null, partei: 'volt', frage: null })
+    expect(uebersichtAus('#/fragen/volt/h1')).toEqual({ wahl: null, partei: 'volt', frage: 'h1' })
+    expect(uebersichtAus('#/fragen/alle/h1')).toEqual({ wahl: null, partei: null, frage: 'h1' })
   })
 
   it('verwechselt Raumnamen und andere Seiten nicht mit der Übersicht', () => {
@@ -48,6 +48,18 @@ describe('Fragenübersicht (uebersicht.ts)', () => {
     expect(uebersichtAus('#/fragenkatalog')).toBeNull()
     expect(uebersichtAus('#/kluge-eule-27')).toBeNull()
     expect(uebersichtAus('#/impressum')).toBeNull()
+  })
+
+  it('andere Wahlen stehen vor „fragen“ – die Standardwahl bleibt ohne Wahl in der Adresse', () => {
+    expect(uebersichtHash(null, null, 'be26')).toBe('#/be26/fragen')
+    expect(uebersichtHash('volt', null, 'be26')).toBe('#/be26/fragen/volt')
+    expect(uebersichtHash(null, 'be-1', 'be26')).toBe('#/be26/fragen/alle/be-1')
+    expect(uebersichtHash('volt', 'h1', null)).toBe('#/fragen/volt/h1')
+    expect(uebersichtAus('#/be26/fragen')).toEqual({ wahl: 'be26', partei: null, frage: null })
+    expect(uebersichtAus('#/be26/fragen/volt/be-1')).toEqual({ wahl: 'be26', partei: 'volt', frage: 'be-1' })
+    // Raumnamen haben einen Bindestrich, Raumcodes Großbuchstaben – nie eine Wahl.
+    expect(uebersichtAus('#/kluge-eule-27/fragen')).toBeNull()
+    expect(uebersichtAus('#/ABC123/fragen')).toBeNull()
   })
 
   it('füllt das Issue zu einer Position mit Frage, Partei, Zitat und Beleg', () => {
@@ -60,7 +72,17 @@ describe('Fragenübersicht (uebersicht.ts)', () => {
     expect(text).toContain('„Wir wollen ein Tempolimit von 130 km/h.“')
     expect(text).toContain('https://volt.example/p.pdf#page=12')
     expect(text).toContain('**Richtig wäre:**')
+    expect(text).toContain('**Wörtliches Zitat aus dem Wahlprogramm mit Seite:**')
     expect(text).toContain('Gesehen unter https://example.org/#/fragen/volt/h1')
+  })
+
+  it('nennt die Wahl im Issue, wenn sie bekannt ist', () => {
+    const wahl = { id: 'be26', name: 'Abgeordnetenhauswahl Berlin 2026', kurz: 'Berlin 2026', datum: '2026-09-20' }
+    const melden = new URL(positionMelden(frage, partei, frage.positionen[0], 'https://example.org/#/be26/fragen', wahl)).searchParams.get('body') ?? ''
+    expect(melden).toContain('**Wahl:** Abgeordnetenhauswahl Berlin 2026')
+    expect(melden).toContain('**Wörtliches Zitat aus dem Wahlprogramm zur Abgeordnetenhauswahl Berlin 2026 mit Seite:**')
+    const bestaetigen = new URL(positionBestaetigen(frage, partei, frage.positionen[0], 'https://example.org/#/be26/fragen', wahl)).searchParams.get('body') ?? ''
+    expect(bestaetigen).toContain('**Geprüft gegen:** Wahlprogramm zur Abgeordnetenhauswahl Berlin 2026, Seite …')
   })
 
   it('nimmt die Frage selbst mit ins Meldeissue', () => {

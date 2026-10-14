@@ -44,7 +44,7 @@ const liste = (namen: string[]) => (namen.length < 2 ? namen.join('') : `${namen
 export const INTRO: Clip[] = [
   { id: 'intro-1', sprecher: 'mara', text: '[excited] Willkommen bei „Wer sagt Ja?“ – dem Quiz, das Wahlprogramme endlich unterhaltsam macht!' },
   { id: 'intro-2', sprecher: 'ben', text: '[laughs] Oder zumindest weniger einschläfernd. Ich bin Ben.' },
-  { id: 'intro-3', sprecher: 'mara', text: 'Und ich bin Mara. Acht Parteien – und ihr ratet, wer was im Programm stehen hat.' },
+  { id: 'intro-3', sprecher: 'mara', text: 'Und ich bin Mara. Die Parteien haben es aufgeschrieben – und ihr ratet, wer was im Programm stehen hat.' },
   { id: 'intro-4', sprecher: 'ben', text: '[playful] Schnell sein bringt Punkte. Wissen bringt mehr. Los geht’s!' },
 ]
 
@@ -62,8 +62,9 @@ export const ANLEITUNG: Record<Antwortart, Clip> = {
   mehrfach: { id: 'anl-mehrfach-ja', sprecher: 'ben', text: 'Welche Parteien sagen Ja? Mehrere sind richtig – „teils“ zählt nicht.' },
 }
 
-export const optionenClip = (parteien: QuizPartei[]): Clip => ({
-  id: 'optionen',
+/** Die Antwortmöglichkeiten einer Wahl – je Wahl ein Clip, weil die Parteien sich unterscheiden. */
+export const optionenClip = (parteien: QuizPartei[], wahlId: string): Clip => ({
+  id: `optionen-${wahlId}`,
   sprecher: 'ben',
   text: `Zur Auswahl: ${liste(parteien.map(gesprochen))}.`,
 })
@@ -131,21 +132,22 @@ export function loesungClip(f: Pick<QuizFrage, 'id' | 'art' | 'richtig'>, partei
   return { id: `loesung-${f.id}`, sprecher: 'mara', text: `[excited] ${text}` }
 }
 
-/** Alle Clips für die Fragen eines Katalogs (Generator und Prüfung). */
-export function alleClips(fragen: QuizFrage[], parteien: QuizPartei[]): Clip[] {
-  return [
-    ...INTRO,
-    ...ANSAGE,
-    ...Object.values(ANLEITUNG),
-    optionenClip(parteien),
-    ...LOS,
-    COUNTDOWN,
-    ...SPANNUNG,
-    ...Object.values(REAKTION).flat(),
-    ...Object.values(SCHLUSS),
-    OUTRO,
-    ...fragen.flatMap((f) => [frageClip(f), loesungClip(f, parteien)]),
-  ]
+/** Die festen Clips der Show, unabhängig von der Wahl. */
+export const FESTE_CLIPS: Clip[] = [
+  ...INTRO,
+  ...ANSAGE,
+  ...Object.values(ANLEITUNG),
+  ...LOS,
+  COUNTDOWN,
+  ...SPANNUNG,
+  ...Object.values(REAKTION).flat(),
+  ...Object.values(SCHLUSS),
+  OUTRO,
+]
+
+/** Alle Clips für die Fragen einer Wahl (Vorladen im Spiel, Generator und Prüfung). */
+export function alleClips(fragen: QuizFrage[], parteien: QuizPartei[], wahlId: string): Clip[] {
+  return [...FESTE_CLIPS, optionenClip(parteien, wahlId), ...fragen.flatMap((f) => [frageClip(f), loesungClip(f, parteien)])]
 }
 
 // ---- Geräusche ----

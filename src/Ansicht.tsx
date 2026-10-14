@@ -154,6 +154,9 @@ function Lobby({ daten, z, ich, istLeitung, raum, onStart, onZeit, onVerlassen }
           )}
         </div>
       )}
+      <p className="meta quiz-wahl-stand">
+        Wahlprogramme zur <strong>{daten.wahl.name}</strong> – {daten.parteien.length} Parteien
+      </p>
       <p className="label">Dabei ({z.spieler.length} von 8)</p>
       <SpielerListe spieler={z.spieler} ich={ich} mitWeg />
       {istLeitung && onZeit ? (
@@ -212,7 +215,7 @@ function Frage({ daten, z, ich, restMs, frage, istLeitung, allein, onAntwort, on
   // null = ohne Zeitlimit (WCAG 2.2.1).
   const dauer = limitFuer(z, frage)
   // Show-Vorspann: Ansage, Frage, Anleitung, Antworten, „Los!“ – erst danach läuft die Zeit (auf allen Geräten gleich lang).
-  const [schritte] = useState(() => vorspann(frage, z.index, z.fragen.length, daten.parteien, z.spielNr <= 1))
+  const [schritte] = useState(() => vorspann(frage, z.index, z.fragen.length, daten.parteien, z.spielNr <= 1, daten.wahl.id))
   const [vorspannDauer] = useState(() => dauerMs(schritte))
   // Ende des Antwortfensters als fester Zeitpunkt: Ankunft der Frage + Restzeit der Spielleitung. Dauert der
   // Vorspann auf diesem Gerät länger, wird das Fenster kürzer – nie länger als die Frist der Spielleitung.
@@ -645,8 +648,8 @@ function Aufloesung({ daten, z, ich, frage, istLeitung, allein, onWeiter }: Ansi
             <summary>Was in den Programmen steht (Wortlaut und Seite)</summary>
             <Positionen frage={frage} parteien={daten.parteien} auswahl={mein?.auswahl ?? []} />
             <p className="meta">
-              Bundeswahlprogramme 2025. „Keine Aussage“ heißt: durchsucht, nichts gefunden – das Programm will daran
-              nichts ändern. Punkte gibt es fürs Wissen, was im Programm steht, nicht für eine Meinung.
+              Wahlprogramme zur {daten.wahl.name}. „Keine Aussage“ heißt: durchsucht, nichts gefunden – das Programm
+              will daran nichts ändern. Punkte gibt es fürs Wissen, was im Programm steht, nicht für eine Meinung.
             </p>
           </details>
           <Zielkonflikte frage={frage} />

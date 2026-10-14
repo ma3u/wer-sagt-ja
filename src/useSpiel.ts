@@ -44,7 +44,7 @@ const zeitFuer = (daten: QuizDaten, z: QuizZustand) => limitFuer(z, frageVon(dat
 /** Dauer des Vorspanns der laufenden Frage (Show) – auf allen Geräten gleich berechnet. */
 export function vorspannMs(daten: QuizDaten, z: QuizZustand): number {
   const f = frageVon(daten, z)
-  return f ? dauerMs(vorspann(f, z.index, z.fragen.length, daten.parteien, z.spielNr <= 1)) : 0
+  return f ? dauerMs(vorspann(f, z.index, z.fragen.length, daten.parteien, z.spielNr <= 1, daten.wahl.id)) : 0
 }
 
 export interface Spielsicht {
@@ -83,7 +83,7 @@ export function raumFehlerText(e: unknown): string {
  * Schnappschuss. `code` = null: allein üben, ohne Raum.
  */
 export function useSpielleitung(daten: QuizDaten, name: string, code: string | null, zeitfaktor: Zeitfaktor = 1): Leitstand {
-  const [z, setZ] = useState(() => neuerZustand(daten.version, { id: LEITUNG_ID, name }, zeitfaktor))
+  const [z, setZ] = useState(() => neuerZustand(daten.version, { id: LEITUNG_ID, name }, zeitfaktor, daten.wahl.id))
   const [raumFehler, setRaumFehler] = useState<string | null>(null)
   const [raumBereit, setRaumBereit] = useState(code === null)
   const zRef = useRef(z)
@@ -232,8 +232,11 @@ export interface Gastsicht extends Spielsicht {
   fehler: string | null
 }
 
-/** Gast: verbindet sich mit der Spielleitung, zeigt deren Schnappschüsse und schickt eigene Antworten. */
-export function useGast(daten: QuizDaten, name: string, code: string): Gastsicht {
+/**
+ * Gast: verbindet sich mit der Spielleitung, zeigt deren Schnappschüsse und schickt eigene Antworten. `version` ist
+ * die Prüfsumme der Fragendatei; welche Wahl gespielt wird, steht im Schnappschuss (`z.wahl`).
+ */
+export function useGast(version: string, name: string, code: string): Gastsicht {
   const [z, setZ] = useState<QuizZustand | null>(null)
   const [ich, setIch] = useState<string | null>(null)
   const [restMs, setRestMs] = useState<number | null>(null)
@@ -272,7 +275,7 @@ export function useGast(daten: QuizDaten, name: string, code: string): Gastsicht
           setZ(m.z)
           setIch(m.du)
         }
-        neu.senden({ t: 'hallo', name, version: daten.version })
+        neu.senden({ t: 'hallo', name, version })
       })
       .catch((e: unknown) => {
         if (!abbruch.signal.aborted) setFehler(raumFehlerText(e))
@@ -282,7 +285,7 @@ export function useGast(daten: QuizDaten, name: string, code: string): Gastsicht
       l?.schliessen()
       leitung.current = null
     }
-  }, [code, name, daten.version])
+  }, [code, name, version])
 
   return {
     z,

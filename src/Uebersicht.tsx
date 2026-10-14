@@ -1,35 +1,52 @@
 import { useEffect, useState } from 'react'
 import { Geprueft, KiHinweis, Positionen, ProgrammLink, PruefZeile, Zielkonflikte } from './Ansicht'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
-import { ladeQuiz } from './laden'
+import { standardWahl, wahlFuer } from './katalog'
+import { ladeKatalog } from './laden'
 import { UnterseitenKopf } from './Rechtliches'
 import { parteiStil } from './stil'
-import { POSITION_TEXT, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
+import { POSITION_TEXT, type Katalog, type Positionswert, type QuizDaten, type QuizFrage, type QuizPartei } from './typen'
 import { jaSager, parteiPfad, pruefLinks, uebersichtHash } from './uebersicht'
 
 // Fragenübersicht (#/fragen): jede Frage mit Position, Zitat und Beleg aller Parteien – zum Prüfen. Mit Partei im
 // Pfad (#/fragen/volt) steht nur deren Position da, mit Wortlaut aufgeklappt. Je Position führen „Position
 // bestätigen“ und „Fehler melden“ zu einem vorausgefüllten GitHub-Issue; ein bestätigendes Issue trägt die Pflege als
 // `geprueft` in fragen.json ein, dann steht die Position hier und in der Auflösung als geprüft.
+// Je Wahl eine Übersicht: #/fragen ist die Standardwahl, andere Wahlen stehen davor (#/be26/fragen).
 
 const ALLE: Positionswert[] = ['ja', 'nein', 'teils', 'keine_aussage']
 
 /** Adresse dieser Seite, wie sie im Issue steht. */
-const seitenLink = (partei: string | null, frage: string | null) =>
-  `${location.origin}${location.pathname}${uebersichtHash(partei, frage)}`
+const seitenLink = (wahl: string | null, partei: string | null, frage: string | null) =>
+  `${location.origin}${location.pathname}${uebersichtHash(partei, frage, wahl)}`
 
-export function Uebersicht({ partei, frageId, onZurueck }: { partei: string | null; frageId: string | null; onZurueck: () => void }) {
+export function Uebersicht({
+  wahlId,
+  partei,
+  frageId,
+  onZurueck,
+}: {
+  wahlId: string | null
+  partei: string | null
+  frageId: string | null
+  onZurueck: () => void
+}) {
   const titel = useAnsicht('Alle Fragen mit Belegen')
   useFokusZurueck()
-  const [daten, setDaten] = useState<QuizDaten | null>(null)
+  const [katalog, setKatalog] = useState<Katalog | null>(null)
   const [fehler, setFehler] = useState<string | null>(null)
 
   useEffect(() => {
-    ladeQuiz()
-      .then(setDaten)
+    ladeKatalog()
+      .then(setKatalog)
       .catch((e: unknown) => setFehler(e instanceof Error ? e.message : String(e)))
   }, [])
 
+  // Unbekannte Wahl in der Adresse: die Standardwahl zeigen und es sagen.
+  const daten = katalog ? (wahlFuer(katalog, wahlId) ?? standardWahl(katalog)) : null
+  const wahlUnbekannt = !!katalog && !!wahlId && !wahlFuer(katalog, wahlId)
+  // In Adressen steht die Standardwahl nicht (alte Links bleiben gültig).
+  const wahlPfad = katalog && daten && daten !== standardWahl(katalog) ? daten.wahl.id : null
   const gewaehlt = daten?.parteien.find((p) => parteiPfad(p) === partei) ?? null
   const pfad = gewaehlt ? parteiPfad(gewaehlt) : null
 
@@ -45,28 +62,46 @@ export function Uebersicht({ partei, frageId, onZurueck }: { partei: string | nu
       <article>
         <h1 ref={titel}>Alle Fragen mit Belegen</h1>
         <p>
-          Zu jeder Frage steht hier, was die acht Bundestagswahlprogramme 2025 sagen: Position, Wortlaut, Seite und
-          Link ins Programm. Gefragt wird im Spiel immer, wer Ja sagt. Jede Position lässt sich prüfen: „Position
-          bestätigen“ oder „Fehler melden“ öffnet ein vorausgefülltes Issue bei GitHub – beim Fehler bitte das
-          richtige Zitat mit Seite eintragen. Bestätigte Positionen stehen danach mit Nachweis als geprüft hier und
-          im Spiel.
+          Zu jeder Frage steht hier, was die {daten ? `${daten.parteien.length} Wahlprogramme zur ${daten.wahl.name}` : 'Wahlprogramme'}{' '}
+          sagen: Position, Wortlaut, Seite und Link ins Programm. Gefragt wird im Spiel immer, wer Ja sagt. Jede
+          Position lässt sich prüfen: „Position bestätigen“ oder „Fehler melden“ öffnet ein vorausgefülltes Issue bei
+          GitHub – beim Fehler bitte das richtige Zitat mit Seite eintragen. Bestätigte Positionen stehen danach mit
+          Nachweis als geprüft hier und im Spiel.
         </p>
         {fehler && (
           <p className="hinweis" role="alert">
             {fehler}
           </p>
         )}
+        {wahlUnbekannt && (
+          <p className="hinweis" role="alert">
+            Die Wahl „{wahlId}“ gibt es hier nicht – gezeigt wird die {daten?.wahl.name}.
+          </p>
+        )}
         {!daten && !fehler && <p className="hinweis">Lade Fragen …</p>}
-        {daten && (
+        {katalog && daten && (
           <>
+            {katalog.wahlen.length > 1 && (
+              <nav className="wahl-filter" aria-label="Wahl">
+                {katalog.wahlen.map((w) => (
+                  <a
+                    key={w.wahl.id}
+                    href={uebersichtHash(null, null, w === standardWahl(katalog) ? null : w.wahl.id)}
+                    aria-current={w.wahl.id === daten.wahl.id ? 'page' : undefined}
+                  >
+                    {w.wahl.name}
+                  </a>
+                ))}
+              </nav>
+            )}
             <nav className="partei-filter" aria-label="Nach Partei filtern">
-              <a href={uebersichtHash()} aria-current={gewaehlt ? undefined : 'page'}>
+              <a href={uebersichtHash(null, null, wahlPfad)} aria-current={gewaehlt ? undefined : 'page'}>
                 Alle Parteien
               </a>
               {daten.parteien.map((p) => (
                 <a
                   key={p.id}
-                  href={uebersichtHash(parteiPfad(p))}
+                  href={uebersichtHash(parteiPfad(p), null, wahlPfad)}
                   aria-current={gewaehlt?.id === p.id ? 'page' : undefined}
                   style={parteiStil(p.farbe)}
                   title={p.name}
@@ -78,7 +113,7 @@ export function Uebersicht({ partei, frageId, onZurueck }: { partei: string | nu
             </nav>
             <ParteiStand daten={daten} partei={gewaehlt} />
             {daten.fragen.map((f) => (
-              <Frage key={f.id} frage={f} daten={daten} partei={gewaehlt} pfad={pfad} ziel={f.id === frageId} />
+              <Frage key={f.id} frage={f} daten={daten} partei={gewaehlt} pfad={pfad} wahlPfad={wahlPfad} ziel={f.id === frageId} />
             ))}
             <p className="meta">
               Rohdaten: <a href={`${import.meta.env.BASE_URL}fragen.json`}>fragen.json</a> – Fragen, Positionen und
@@ -121,15 +156,17 @@ function Frage({
   daten,
   partei,
   pfad,
+  wahlPfad,
   ziel,
 }: {
   frage: QuizFrage
   daten: QuizDaten
   partei: QuizPartei | null
   pfad: string | null
+  wahlPfad: string | null
   ziel: boolean
 }) {
-  const link = seitenLink(pfad, frage.id)
+  const link = seitenLink(wahlPfad, pfad, frage.id)
   const ja = jaSager(frage, daten.parteien)
   return (
     <section className={`uebersicht-frage${ziel ? ' uebersicht-ziel' : ''}`} id={`frage-${frage.id}`} aria-labelledby={`frage-${frage.id}-titel`}>
@@ -142,9 +179,9 @@ function Frage({
       </p>
       <KiHinweis frage={frage} />
       {partei ? (
-        <EinePosition frage={frage} partei={partei} link={link} />
+        <EinePosition frage={frage} partei={partei} link={link} daten={daten} />
       ) : (
-        <Positionen frage={frage} parteien={daten.parteien} auswahl={null} pruefen={(p, pos) => pruefLinks(frage, p, pos, link)} />
+        <Positionen frage={frage} parteien={daten.parteien} auswahl={null} pruefen={(p, pos) => pruefLinks(frage, p, pos, link, daten.wahl)} />
       )}
       <Zielkonflikte frage={frage} />
     </section>
@@ -152,7 +189,7 @@ function Frage({
 }
 
 /** Die Position einer Partei – Wortlaut offen, damit sich der Beleg ohne Klick prüfen lässt. */
-function EinePosition({ frage, partei, link }: { frage: QuizFrage; partei: QuizPartei; link: string }) {
+function EinePosition({ frage, partei, link, daten }: { frage: QuizFrage; partei: QuizPartei; link: string; daten: QuizDaten }) {
   const p = frage.positionen.find((x) => x.partei_id === partei.id)
   if (!p) return null
   return (
@@ -170,7 +207,7 @@ function EinePosition({ frage, partei, link }: { frage: QuizFrage; partei: QuizP
         </>
       )}
       <Geprueft p={p} />
-      <PruefZeile links={pruefLinks(frage, partei, p, link)} partei={partei} />
+      <PruefZeile links={pruefLinks(frage, partei, p, link, daten.wahl)} partei={partei} />
     </div>
   )
 }

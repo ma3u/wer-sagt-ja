@@ -1,14 +1,28 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { alsFrage, fehlerIn, fehlerInDatei, pruefsumme, quizDaten, type FragenDatei, type FragenEintrag } from './katalog'
+import {
+  alsFrage,
+  fehlerIn,
+  fehlerInDatei,
+  fehlerInWahl,
+  pruefsumme,
+  quizDaten,
+  quizKatalog,
+  wahlFuer,
+  type FragenDatei,
+  type FragenEintrag,
+  type WahlEintrag,
+} from './katalog'
 import { FRAGEN_JE_SPIEL } from './spielleitung'
 import type { Positionswert, QuizPartei } from './typen'
 
-const parteien: QuizPartei[] = [1, 2, 3, 4].map((id) => ({ id, name: `P${id}`, kurzname: `P${id}`, farbe: '#000', programm_url: '' }))
+const parteien: QuizPartei[] = [1, 2, 3, 4].map((id) => ({ id, name: `P${id}`, kurzname: `P${id}`, farbe: '#000', programm_url: 'https://example.org' }))
+const wahl: WahlEintrag = { id: 'w1', name: 'Testwahl 2026', kurz: 'Test 2026', datum: '2026-09-20', parteien }
 
-function eintrag(werte: Positionswert[]): FragenEintrag {
+function eintrag(werte: Positionswert[], id = 'x1', wahlId = 'w1'): FragenEintrag {
   return {
-    id: 'x1',
+    id,
+    wahl: wahlId,
     frage: 'Soll es das geben?',
     beschreibung: '',
     ki_entwurf: false,
@@ -57,9 +71,40 @@ describe('Fragendatei (katalog.ts)', () => {
   })
 
   it('lässt fehlerhafte Fragen aus dem Spiel und meldet doppelte IDs', () => {
-    const datei: FragenDatei = { parteien, fragen: [eintrag(['ja', 'nein', 'nein', 'nein']), eintrag(['nein', 'nein', 'nein', 'nein'])] }
+    const datei: FragenDatei = { wahlen: [wahl], fragen: [eintrag(['ja', 'nein', 'nein', 'nein']), eintrag(['nein', 'nein', 'nein', 'nein'])] }
     expect(quizDaten(datei).fragen).toHaveLength(1)
     expect(fehlerInDatei(datei)[0]).toBe('x1: id doppelt')
+  })
+
+  it('prüft Wahlen: Kennung, Datum und Parteien', () => {
+    expect(fehlerInWahl(wahl)).toEqual([])
+    expect(fehlerInWahl({ ...wahl, id: 'be-26', datum: '2026' })).toEqual(['id: nur Kleinbuchstaben und Ziffern', 'datum: ISO-Datum (JJJJ-MM-TT)'])
+    expect(fehlerInWahl({ ...wahl, parteien: [parteien[0], { ...parteien[1], kurzname: 'P1' }] })).toEqual(['Kurzname „P1“ doppelt'])
+    expect(fehlerInDatei({ wahlen: [wahl], fragen: [eintrag(['ja', 'nein', 'nein', 'nein'], 'x1', 'fremd')] })).toEqual(['x1: Wahl „fremd“ unbekannt'])
+  })
+
+  it('trennt die Wahlen im Katalog: eigene Parteien, eigene Fragen, die erste ist die Standardwahl', () => {
+    const zweite: WahlEintrag = {
+      id: 'w2',
+      name: 'Andere Wahl 2027',
+      kurz: 'Andere 2027',
+      datum: '2027-05-09',
+      parteien: parteien.slice(0, 2).map((p) => ({ ...p, id: p.id + 10, kurzname: `Q${p.id}` })),
+    }
+    const f2 = eintrag(['ja', 'nein'], 'y1', 'w2')
+    f2.positionen = f2.positionen.map((p) => ({ ...p, partei_id: p.partei_id + 10 }))
+    const datei: FragenDatei = { wahlen: [wahl, zweite], fragen: [eintrag(['ja', 'nein', 'nein', 'nein']), f2] }
+    expect(fehlerInDatei(datei)).toEqual([])
+    const k = quizKatalog(datei)
+    expect(k.wahlen.map((d) => d.wahl.id)).toEqual(['w1', 'w2'])
+    expect(k.wahlen[0].fragen.map((f) => f.id)).toEqual(['x1'])
+    expect(wahlFuer(k, 'w2')?.fragen.map((f) => f.id)).toEqual(['y1'])
+    expect(wahlFuer(k, 'w2')?.parteien.map((p) => p.kurzname)).toEqual(['Q1', 'Q2'])
+    expect(wahlFuer(k, 'w9')).toBeNull()
+    expect(wahlFuer(k, null)).toBeNull()
+    // Dieselbe Fassung für alle Wahlen: Gäste prüfen die Prüfsumme der ganzen Datei.
+    expect(k.wahlen[1].version).toBe(k.version)
+    expect(quizDaten(datei).wahl.id).toBe('w1')
   })
 
   it('Prüfsumme ist stabil und unterscheidet Fassungen', () => {
@@ -68,9 +113,11 @@ describe('Fragendatei (katalog.ts)', () => {
     expect(pruefsumme('')).toMatch(/^[0-9a-f]{8}$/)
   })
 
-  it('public/fragen.json ist fehlerfrei und reicht für ein Spiel', () => {
+  it('public/fragen.json ist fehlerfrei und jede Wahl reicht für ein Spiel', () => {
     const datei = JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as FragenDatei
     expect(fehlerInDatei(datei)).toEqual([])
-    expect(quizDaten(datei).fragen.length).toBeGreaterThanOrEqual(FRAGEN_JE_SPIEL)
+    const k = quizKatalog(datei)
+    expect(k.wahlen[0].wahl.id).toBe('btw25')
+    for (const d of k.wahlen) expect(d.fragen.length).toBeGreaterThanOrEqual(FRAGEN_JE_SPIEL)
   })
 })

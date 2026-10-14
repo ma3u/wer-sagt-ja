@@ -1,10 +1,11 @@
 import { useSyncExternalStore } from 'react'
 
-// Unterseiten (#/impressum, #/datenschutz, #/fragen) liegen über dem Spiel, damit eine laufende Partie erhalten
-// bleibt.
+// Unterseiten (#/impressum, #/datenschutz, #/fragen, #/<wahl>/fragen) liegen über dem Spiel, damit eine laufende
+// Partie erhalten bleibt. Eine Wahl-Kennung besteht nur aus Kleinbuchstaben und Ziffern – ein Raumname enthält immer
+// einen Bindestrich, ein Raumcode Großbuchstaben, darum sind beide nie zu verwechseln.
 const UNTERSEITEN = ['#/impressum', '#/datenschutz', '#/fragen']
 
-export const istUnterseite = (hash: string) => UNTERSEITEN.some((s) => hash.startsWith(s))
+export const istUnterseite = (hash: string) => UNTERSEITEN.some((s) => hash.startsWith(s)) || /^#\/[a-z0-9]+\/fragen/.test(hash)
 
 // Wurde die Unterseite aus der App heraus geöffnet? Dann führt „Zurück“ per history.back() ins laufende Spiel,
 // sonst zur Startseite.

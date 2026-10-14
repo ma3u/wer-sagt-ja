@@ -9,6 +9,8 @@ export interface OeffentlicherRaum {
   code: string
   name: string
   spieler: number
+  /** Kurzname der Wahl, deren Programme im Raum gespielt werden (fehlt bei älteren Einträgen). */
+  wahl: string | null
   /** Serverzeit des letzten Lebenszeichens (ms). */
   t: number
 }
@@ -23,12 +25,18 @@ const adresse = (pfad: string) => `${FIREBASE_URL}/${pfad}.json`
 /** Beobachtet die Liste offener Räume (Server-Sent Events). Gibt eine Funktion zum Beenden zurück. */
 export function beobachteOeffentliche(cb: (raeume: OeffentlicherRaum[]) => void): () => void {
   if (!FIREBASE_URL) return () => {}
-  const stand = new Map<string, { n?: unknown; s?: unknown; t?: unknown }>()
+  const stand = new Map<string, { n?: unknown; s?: unknown; t?: unknown; w?: unknown }>()
   const melden = () => {
     const jetzt = Date.now()
     cb(
       [...stand.entries()]
-        .map(([code, w]) => ({ code, name: String(w.n ?? ''), spieler: Number(w.s ?? 0), t: Number(w.t ?? 0) }))
+        .map(([code, w]) => ({
+          code,
+          name: String(w.n ?? ''),
+          spieler: Number(w.s ?? 0),
+          t: Number(w.t ?? 0),
+          wahl: typeof w.w === 'string' && w.w ? w.w.slice(0, 40) : null,
+        }))
         .filter((r) => r.name && r.spieler >= 1 && r.spieler < 8 && jetzt - r.t < VERFALL_MS)
         .sort((a, b) => b.t - a.t),
     )
@@ -68,16 +76,28 @@ export function beobachteOeffentliche(cb: (raeume: OeffentlicherRaum[]) => void)
 /**
  * Meldet einen öffentlichen Raum an (mit Lebenszeichen) und gibt `aktualisieren(spieler)` und `abmelden()` zurück.
  */
-export function meldeOeffentlich(code: string, name: string, spieler: number) {
+export function meldeOeffentlich(code: string, name: string, spieler: number, wahl: string) {
   if (!FIREBASE_URL) return { aktualisieren: () => {}, abmelden: () => {} }
   let anzahl = spieler
   let aktiv = true
-  const schreiben = () =>
-    aktiv &&
-    void fetch(adresse(`${PFAD}/${code}`), {
-      method: 'PUT',
-      body: JSON.stringify({ n: name.slice(0, 40), s: Math.min(8, Math.max(1, anzahl)), t: { '.sv': 'timestamp' } }),
-    }).catch(() => {})
+  // Mit Wahl („w“); erlauben die Regeln das Feld noch nicht (ältere Fassung in der Firebase-Konsole), dann ohne.
+  let mitWahl = true
+  const eintrag = () => ({
+    n: name.slice(0, 40),
+    s: Math.min(8, Math.max(1, anzahl)),
+    t: { '.sv': 'timestamp' },
+    ...(mitWahl ? { w: wahl.slice(0, 40) } : {}),
+  })
+  const schreiben = () => {
+    if (!aktiv) return
+    void fetch(adresse(`${PFAD}/${code}`), { method: 'PUT', body: JSON.stringify(eintrag()) })
+      .then((r) => {
+        if (r.ok || !mitWahl) return
+        mitWahl = false
+        return fetch(adresse(`${PFAD}/${code}`), { method: 'PUT', body: JSON.stringify(eintrag()) })
+      })
+      .catch(() => {})
+  }
   const loeschen = (keepalive = false) => fetch(adresse(`${PFAD}/${code}`), { method: 'DELETE', keepalive }).catch(() => {})
   const beimVerlassen = () => void loeschen(true)
   addEventListener('pagehide', beimVerlassen)

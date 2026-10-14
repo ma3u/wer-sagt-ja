@@ -1,65 +1,74 @@
 {
-  "parteien": [
+  "wahlen": [
     {
-      "id": 11,
-      "name": "CDU/CSU",
-      "kurzname": "Union",
-      "farbe": "#8a96a3",
-      "programm_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf"
-    },
-    {
-      "id": 12,
-      "name": "SPD",
-      "kurzname": "SPD",
-      "farbe": "#f0605d",
-      "programm_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf"
-    },
-    {
-      "id": 13,
-      "name": "Bündnis 90/Die Grünen",
-      "kurzname": "Grüne",
-      "farbe": "#6fbf4a",
-      "programm_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf"
-    },
-    {
-      "id": 14,
-      "name": "FDP",
-      "kurzname": "FDP",
-      "farbe": "#ffe74d",
-      "programm_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf"
-    },
-    {
-      "id": 15,
-      "name": "AfD",
-      "kurzname": "AfD",
-      "farbe": "#4fb8e8",
-      "programm_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf"
-    },
-    {
-      "id": 16,
-      "name": "Die Linke",
-      "kurzname": "Linke",
-      "farbe": "#e0659b",
-      "programm_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf"
-    },
-    {
-      "id": 17,
-      "name": "BSW",
-      "kurzname": "BSW",
-      "farbe": "#b784c9",
-      "programm_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf"
-    },
-    {
-      "id": 18,
-      "name": "Volt Deutschland",
-      "kurzname": "Volt",
-      "farbe": "#502379",
-      "programm_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf"
+      "id": "btw25",
+      "name": "Bundestagswahl 2025",
+      "kurz": "Bund 2025",
+      "datum": "2025-02-23",
+      "parteien": [
+        {
+          "id": 11,
+          "name": "CDU/CSU",
+          "kurzname": "Union",
+          "farbe": "#8a96a3",
+          "programm_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf"
+        },
+        {
+          "id": 12,
+          "name": "SPD",
+          "kurzname": "SPD",
+          "farbe": "#f0605d",
+          "programm_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf"
+        },
+        {
+          "id": 13,
+          "name": "Bündnis 90/Die Grünen",
+          "kurzname": "Grüne",
+          "farbe": "#6fbf4a",
+          "programm_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf"
+        },
+        {
+          "id": 14,
+          "name": "FDP",
+          "kurzname": "FDP",
+          "farbe": "#ffe74d",
+          "programm_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf"
+        },
+        {
+          "id": 15,
+          "name": "AfD",
+          "kurzname": "AfD",
+          "farbe": "#4fb8e8",
+          "programm_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf"
+        },
+        {
+          "id": 16,
+          "name": "Die Linke",
+          "kurzname": "Linke",
+          "farbe": "#e0659b",
+          "programm_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf"
+        },
+        {
+          "id": 17,
+          "name": "BSW",
+          "kurzname": "BSW",
+          "farbe": "#b784c9",
+          "programm_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf"
+        },
+        {
+          "id": 18,
+          "name": "Volt Deutschland",
+          "kurzname": "Volt",
+          "farbe": "#502379",
+          "programm_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf"
+        }
+      ]
     }
   ],
   "fragen": [
     {
       "id": "h1",
+      "wahl": "btw25",
       "frage": "Soll es ein generelles Tempolimit auf Autobahnen geben?",
       "beschreibung": "Ob auf allen Autobahnen eine feste Höchstgeschwindigkeit gelten soll oder ob Tempolimits wie bisher nur dort gelten, wo Verkehr, Unfälle oder Lärm es verlangen.",
       "ki_entwurf": true,
@@ -154,6 +163,7 @@
     },
     {
       "id": "h44",
+      "wahl": "btw25",
       "frage": "Soll Deutschland die Zuwanderung von Fachkräften erleichtern?",
       "beschreibung": "Ob Fachkräfte aus dem Ausland leichter nach Deutschland kommen und hier arbeiten können sollen – etwa durch einfachere Visa, schnellere Anerkennung von Abschlüssen und weniger Bürokratie – oder ob der Bedarf vor allem im Inland gedeckt werden soll.",
       "ki_entwurf": true,
@@ -238,6 +248,7 @@
     },
     {
       "id": "h45",
+      "wahl": "btw25",
       "frage": "Soll Deutschland Asylsuchende an seinen Grenzen zurückweisen?",
       "beschreibung": "Ob Menschen, die über ein Nachbarland einreisen und in Deutschland Asyl beantragen wollen, schon an der deutschen Grenze abgewiesen werden sollen, um irreguläre Zuwanderung zu verhindern – oder ob ihr Antrag in Deutschland geprüft werden muss.",
       "ki_entwurf": true,
@@ -322,6 +333,7 @@
     },
     {
       "id": "h4",
+      "wahl": "btw25",
       "frage": "Soll Deutschland den Ausbau der Windkraft an Land weiter vorantreiben?",
       "beschreibung": "Ob Bund und Länder den Ausbau der Windkraft an Land weiter mit dem Ziel eines wachsenden Anteils im Strommix fördern sollen oder ob dieser Ausbau begrenzt oder beendet werden soll.",
       "ki_entwurf": true,
@@ -406,6 +418,7 @@
     },
     {
       "id": "h5",
+      "wahl": "btw25",
       "frage": "Soll Deutschland wieder Atomkraftwerke zur Stromerzeugung betreiben?",
       "beschreibung": "Ob Deutschland die Kernenergie zur Stromerzeugung wieder nutzen soll, also neue Anlagen bauen oder stillgelegte reaktivieren, oder ob es beim Atomausstieg bleibt.",
       "ki_entwurf": true,
@@ -495,6 +508,7 @@
     },
     {
       "id": "h7",
+      "wahl": "btw25",
       "frage": "Soll Deutschland die Ukraine weiter mit Waffen beliefern?",
       "beschreibung": "Ob Deutschland der Ukraine im Krieg gegen Russland weiter Waffen und Rüstungsgüter liefern oder finanzieren soll oder ob es diese Lieferungen beendet oder nicht mehr ausbaut.",
       "ki_entwurf": true,
@@ -584,6 +598,7 @@
     },
     {
       "id": "h8",
+      "wahl": "btw25",
       "frage": "Soll der gemeinsame Unterricht von Kindern mit und ohne Behinderung an Regelschulen Vorrang vor Förderschulen haben?",
       "beschreibung": "Ob Kinder mit sonderpädagogischem Förderbedarf in der Regel gemeinsam mit anderen Kindern an allgemeinen Schulen lernen sollen oder ob Förderschulen als gleichwertiger Weg bestehen bleiben.",
       "ki_entwurf": true,
@@ -673,6 +688,7 @@
     },
     {
       "id": "h9",
+      "wahl": "btw25",
       "frage": "Sollen die Düngeregeln für Landwirtschaftsbetriebe gelockert werden?",
       "beschreibung": "Ob die Vorgaben der Düngeverordnung für Landwirtschaftsbetriebe (etwa Mengengrenzen, Auflagen in nitratbelasteten Gebieten, Dokumentationspflichten) abgeschwächt werden sollen oder ob sie in ihrer jetzigen Form oder strenger bleiben.",
       "ki_entwurf": true,
@@ -762,6 +778,7 @@
     },
     {
       "id": "h10",
+      "wahl": "btw25",
       "frage": "Soll eine Vermögensteuer eingeführt werden?",
       "beschreibung": "Ob große private Vermögen jährlich besteuert werden sollen, oder ob es bei der heutigen Besteuerung ohne laufende Vermögensteuer bleibt.",
       "ki_entwurf": true,
@@ -846,6 +863,7 @@
     },
     {
       "id": "h11",
+      "wahl": "btw25",
       "frage": "Soll es in Deutschland einen verpflichtenden Wehrdienst für junge Menschen geben?",
       "beschreibung": "Ob junge Menschen in Deutschland zum Wehrdienst verpflichtet werden sollen oder ob die Bundeswehr ihr Personal allein über freiwillige Meldungen gewinnt.",
       "ki_entwurf": true,
@@ -930,6 +948,7 @@
     },
     {
       "id": "h12",
+      "wahl": "btw25",
       "frage": "Soll es einen gesetzlichen Mindestlohn geben?",
       "beschreibung": "Ob der Staat eine Untergrenze für den Stundenlohn per Gesetz festlegt oder ob Löhne allein zwischen Arbeitgebern, Beschäftigten und Tarifparteien ausgehandelt werden.",
       "ki_entwurf": true,
@@ -1019,6 +1038,7 @@
     },
     {
       "id": "h13",
+      "wahl": "btw25",
       "frage": "Soll die Schuldenbremse im Grundgesetz bestehen bleiben?",
       "beschreibung": "Ob die Kreditaufnahme des Staates weiter durch eine Schuldenregel im Grundgesetz begrenzt sein soll (auch in der 2025 gelockerten Form) oder ob die Regel abgeschafft oder durch eine großzügigere ersetzt werden soll.",
       "ki_entwurf": true,
@@ -1103,6 +1123,7 @@
     },
     {
       "id": "h14",
+      "wahl": "btw25",
       "frage": "Soll das gesetzliche Renteneintrittsalter über 67 Jahre hinaus angehoben werden?",
       "beschreibung": "Ob die Regelaltersgrenze in der gesetzlichen Rente, die bis 2031 auf 67 Jahre steigt, weiter angehoben werden soll (etwa gekoppelt an die Lebenserwartung) oder ob sie bei 67 Jahren oder darunter bleiben soll.",
       "ki_entwurf": true,
@@ -1187,6 +1208,7 @@
     },
     {
       "id": "h15",
+      "wahl": "btw25",
       "frage": "Soll es eine Steuer auf stark gezuckerte Getränke geben?",
       "beschreibung": "Ob der Staat Getränke mit hohem Zuckergehalt zusätzlich besteuern soll, um Konsum und Zuckeraufnahme zu senken, oder ob es bei den bisherigen Steuern und freiwilligen Maßnahmen bleibt.",
       "ki_entwurf": true,
@@ -1276,6 +1298,7 @@
     },
     {
       "id": "h16",
+      "wahl": "btw25",
       "frage": "Soll Deutschland Mitglied der NATO bleiben?",
       "beschreibung": "Ob Deutschland im Nordatlantikbündnis bleibt oder aus dem Bündnis austritt und seine Sicherheit anders organisiert.",
       "ki_entwurf": true,
@@ -1360,6 +1383,7 @@
     },
     {
       "id": "h18",
+      "wahl": "btw25",
       "frage": "Soll Deutschland wieder Erdgas aus Russland beziehen?",
       "beschreibung": "Ob Deutschland Erdgas aus Russland wieder importieren soll, etwa per Pipeline oder als Flüssigerdgas, oder ob es weiter darauf verzichtet und andere Lieferländer nutzt.",
       "ki_entwurf": true,
@@ -1444,6 +1468,7 @@
     },
     {
       "id": "h19",
+      "wahl": "btw25",
       "frage": "Soll Deutschland den Euro als Währung behalten?",
       "beschreibung": "Ob Deutschland Mitglied der Währungsunion bleibt und weiter mit dem Euro zahlt oder ob es austritt und wieder eine eigene Währung einführt.",
       "ki_entwurf": true,
@@ -1528,6 +1553,7 @@
     },
     {
       "id": "h21",
+      "wahl": "btw25",
       "frage": "Soll es für gut integrierte Geduldete ein dauerhaftes Bleiberecht geben?",
       "beschreibung": "Ob Menschen mit Duldung, die gut integriert sind, nach festen Kriterien dauerhaft in Deutschland bleiben dürfen oder ob für sie weiter die Ausreisepflicht und nur befristete Einzelfallregeln gelten.",
       "ki_entwurf": true,
@@ -1612,6 +1638,7 @@
     },
     {
       "id": "h24",
+      "wahl": "btw25",
       "frage": "Soll Deutschland Mitglied der EU bleiben?",
       "beschreibung": "Ob Deutschland weiter Mitglied der EU sein soll oder ob es austreten und seine Beziehungen zu den anderen Staaten neu regeln soll.",
       "ki_entwurf": true,
@@ -1701,6 +1728,7 @@
     },
     {
       "id": "h25",
+      "wahl": "btw25",
       "frage": "Soll die Erbschaftsteuer abgeschafft werden?",
       "beschreibung": "Ob Erbschaften und Schenkungen in Deutschland weiter besteuert werden sollen oder ob die Erbschaft- und Schenkungsteuer ersatzlos entfällt.",
       "ki_entwurf": true,
@@ -1785,6 +1813,7 @@
     },
     {
       "id": "h26",
+      "wahl": "btw25",
       "frage": "Soll ein Schwangerschaftsabbruch in den ersten zwölf Wochen nach Beratung rechtmäßig sein?",
       "beschreibung": "Ob ein Abbruch in den ersten zwölf Wochen nach Beratung rechtmäßig werden soll oder ob er wie bisher grundsätzlich rechtswidrig, aber unter Bedingungen straffrei bleibt (§§ 218, 218a StGB).",
       "ki_entwurf": true,
@@ -1874,6 +1903,7 @@
     },
     {
       "id": "h31",
+      "wahl": "btw25",
       "frage": "Soll der Bund Projekte zur Demokratieförderung weiter finanziell fördern?",
       "beschreibung": "Ob der Bund Projekte, die Demokratie stärken und Extremismus vorbeugen (wie das Bundesprogramm „Demokratie leben!“), weiter aus Steuermitteln fördert oder diese Förderung beendet.",
       "ki_entwurf": true,
@@ -1958,6 +1988,7 @@
     },
     {
       "id": "h32",
+      "wahl": "btw25",
       "frage": "Soll Deutschland seine Verteidigungsausgaben erhöhen?",
       "beschreibung": "Ob Deutschland mehr Geld für seine militärische Verteidigung bereitstellen soll oder nicht, wobei ein bloßer Inflationsausgleich nicht als Erhöhung zählt.",
       "ki_entwurf": true,
@@ -2042,6 +2073,7 @@
     },
     {
       "id": "h33",
+      "wahl": "btw25",
       "frage": "Sollen Leistungen der Grundsicherung für Arbeitsuchende gekürzt werden, wenn zumutbare Arbeit ohne wichtigen Grund abgelehnt wird?",
       "beschreibung": "Ob die Ablehnung eines zumutbaren Arbeitsangebots ohne wichtigen Grund zu einer Leistungskürzung führen soll oder ob die Leistungen deswegen ungekürzt bleiben sollen.",
       "ki_entwurf": true,
@@ -2136,6 +2168,7 @@
     },
     {
       "id": "h34",
+      "wahl": "btw25",
       "frage": "Soll Deutschland weiter Rüstungsgüter an Israel liefern?",
       "beschreibung": "Ob Deutschland Israel weiter mit Waffen und Rüstungsgütern beliefert oder ob es diese Exporte einschränkt oder ganz beendet.",
       "ki_entwurf": true,
@@ -2209,6 +2242,7 @@
     },
     {
       "id": "h35",
+      "wahl": "btw25",
       "frage": "Soll staatliches Fördergeld nur an Organisationen gehen, die das Existenzrecht Israels anerkennen?",
       "beschreibung": "Ob zivilgesellschaftliche Organisationen und Projekte nur dann staatlich gefördert werden, wenn sie sich zum Existenzrecht Israels bekennen oder es nicht infrage stellen, oder ob Fördergeld ohne eine solche Bekenntnispflicht vergeben wird.",
       "ki_entwurf": true,
@@ -2282,6 +2316,7 @@
     },
     {
       "id": "h36",
+      "wahl": "btw25",
       "frage": "Soll Deutschland Palästina als Staat anerkennen?",
       "beschreibung": "Ob Deutschland einen palästinensischen Staat schon jetzt anerkennt oder ob ein solcher Staat erst am Ende einer Verhandlungslösung zwischen Israel und den Palästinensern stehen soll.",
       "ki_entwurf": true,
@@ -2355,6 +2390,7 @@
     },
     {
       "id": "h37",
+      "wahl": "btw25",
       "frage": "Soll das Grundgesetz ausdrücklich vor Benachteiligung wegen der sexuellen Identität schützen?",
       "beschreibung": "Ob Artikel 3 Absatz 3 des Grundgesetzes um das Merkmal sexuelle Identität ergänzt werden soll oder ob der Schutz wie bisher über den allgemeinen Gleichheitssatz und einfache Gesetze wie das Allgemeine Gleichbehandlungsgesetz läuft.",
       "ki_entwurf": true,
@@ -2428,6 +2464,7 @@
     },
     {
       "id": "h38",
+      "wahl": "btw25",
       "frage": "Soll das Selbstbestimmungsgesetz zum Geschlechtseintrag bestehen bleiben?",
       "beschreibung": "Ob Geschlechtseintrag und Vornamen wie seit November 2024 per Erklärung beim Standesamt geändert werden können oder ob das Gesetz abgeschafft wird und dafür wieder Gutachten nötig sind.",
       "ki_entwurf": true,
@@ -2501,6 +2538,7 @@
     },
     {
       "id": "h39",
+      "wahl": "btw25",
       "frage": "Soll im Sexualstrafrecht der Grundsatz „Nur Ja heißt Ja“ gelten?",
       "beschreibung": "Ob jede sexuelle Handlung ohne Zustimmung strafbar sein soll (Zustimmungslösung) oder ob es wie bisher darauf ankommt, dass sie gegen den erkennbaren Willen einer Person geschieht (§ 177 StGB).",
       "ki_entwurf": true,
@@ -2574,6 +2612,7 @@
     },
     {
       "id": "h40",
+      "wahl": "btw25",
       "frage": "Soll die doppelte Staatsbürgerschaft generell erlaubt bleiben?",
       "beschreibung": "Ob Menschen bei der Einbürgerung ihre bisherige Staatsangehörigkeit grundsätzlich behalten dürfen oder ob Mehrstaatigkeit wieder nur in Ausnahmefällen zugelassen wird.",
       "ki_entwurf": true,
@@ -2647,6 +2686,7 @@
     },
     {
       "id": "h41",
+      "wahl": "btw25",
       "frage": "Sollen Asylsuchende ihre staatlichen Leistungen per Bezahlkarte statt als Bargeld erhalten?",
       "beschreibung": "Ob Asylsuchende ihre Leistungen über eine Bezahlkarte mit begrenzter Bargeldabhebung erhalten oder ob sie diese als reguläre Geldleistung ausgezahlt bekommen.",
       "ki_entwurf": true,
@@ -2720,6 +2760,7 @@
     },
     {
       "id": "h43",
+      "wahl": "btw25",
       "frage": "Sollen Straftäter auch nach Syrien und Afghanistan abgeschoben werden?",
       "beschreibung": "Ob ausreisepflichtige Straftäter auch in Länder wie Syrien und Afghanistan abgeschoben werden sollen oder ob Abschiebungen dorthin wegen Krieg, Krisen und Menschenrechtslage unterbleiben sollen.",
       "ki_entwurf": true,
