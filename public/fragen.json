@@ -65,6 +65,55 @@
       ]
     },
     {
+      "id": "th24",
+      "name": "Landtagswahl Thüringen 2024",
+      "kurz": "Thüringen 2024",
+      "datum": "2024-09-01",
+      "parteien": []
+    },
+    {
+      "id": "sn24",
+      "name": "Landtagswahl Sachsen 2024",
+      "kurz": "Sachsen 2024",
+      "datum": "2024-09-01",
+      "parteien": []
+    },
+    {
+      "id": "bb24",
+      "name": "Landtagswahl Brandenburg 2024",
+      "kurz": "Brandenburg 2024",
+      "datum": "2024-09-22",
+      "parteien": []
+    },
+    {
+      "id": "hh25",
+      "name": "Bürgerschaftswahl Hamburg 2025",
+      "kurz": "Hamburg 2025",
+      "datum": "2025-03-02",
+      "parteien": []
+    },
+    {
+      "id": "bw26",
+      "name": "Landtagswahl Baden-Württemberg 2026",
+      "kurz": "Baden-Württemberg 2026",
+      "datum": "2026-03-08",
+      "parteien": []
+    },
+    {
+      "id": "rp26",
+      "name": "Landtagswahl Rheinland-Pfalz 2026",
+      "kurz": "Rheinland-Pfalz 2026",
+      "datum": "2026-03-22",
+      "parteien": []
+    },
+    {
+      "id": "st26",
+      "name": "Landtagswahl Sachsen-Anhalt 2026",
+      "kurz": "Sachsen-Anhalt 2026",
+      "datum": "2026-09-06",
+      "parteien": []
+    },
+    {
       "id": "be26",
       "name": "Abgeordnetenhauswahl Berlin 2026",
       "kurz": "Berlin 2026",
@@ -127,6 +176,13 @@
           "programm_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf"
         }
       ]
+    },
+    {
+      "id": "mv26",
+      "name": "Landtagswahl Mecklenburg-Vorpommern 2026",
+      "kurz": "Mecklenburg-Vorpommern 2026",
+      "datum": "2026-09-20",
+      "parteien": []
     },
     {
       "id": "sh27",

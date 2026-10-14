@@ -248,6 +248,20 @@ function ZeitKnopf({ zeit, onZeit }: { zeit: Zeitfaktor; onZeit: (f: Zeitfaktor)
   )
 }
 
+/** Wahl liegt in der Vergangenheit (nach Wahltag). */
+const vergangen = (d: QuizDaten) => d.wahl.datum < new Date().toISOString().slice(0, 10)
+
+/** Das Dropdown der Wahlen in drei Gruppen: spielbar, vergangen ohne Programme, kommend – je nach Datum sortiert. */
+function wahlGruppen(katalog: Katalog): { titel: string; wahlen: QuizDaten[] }[] {
+  const nachDatum = (a: QuizDaten, b: QuizDaten) => a.wahl.datum.localeCompare(b.wahl.datum)
+  const offen = katalog.wahlen.filter((w) => !spielbar(w))
+  return [
+    { titel: 'Spielbar', wahlen: katalog.wahlen.filter(spielbar).sort(nachDatum) },
+    { titel: 'Vergangene Wahlen – noch nicht erfasst', wahlen: offen.filter(vergangen).sort(nachDatum) },
+    { titel: 'Kommende Wahlen – Programme folgen', wahlen: offen.filter((w) => !vergangen(w)).sort(nachDatum) },
+  ].filter((g) => g.wahlen.length)
+}
+
 function QuizStart({
   katalog,
   daten,
@@ -315,14 +329,15 @@ function QuizStart({
                 aria-describedby={leer ? `${id}-wahl-hinweis` : undefined}
                 onChange={(e) => onWahl(e.target.value)}
               >
-                {[...katalog.wahlen]
-                  .sort((a, b) => a.wahl.datum.localeCompare(b.wahl.datum))
-                  .map((w) => (
-                    <option key={w.wahl.id} value={w.wahl.id}>
-                      {w.wahl.name}
-                      {spielbar(w) ? '' : ' – Programme folgen'}
-                    </option>
-                  ))}
+                {wahlGruppen(katalog).map((g) => (
+                  <optgroup key={g.titel} label={g.titel}>
+                    {g.wahlen.map((w) => (
+                      <option key={w.wahl.id} value={w.wahl.id}>
+                        {w.wahl.name}
+                      </option>
+                    ))}
+                  </optgroup>
+                ))}
               </select>
             </>
           )}
@@ -330,7 +345,9 @@ function QuizStart({
             <p className="meta" id={`${id}-wahl-hinweis`}>
               {daten.parteien.length
                 ? 'Noch gibt es keine spielbaren Fragen zu dieser Wahl.'
-                : `Die Programme zur ${daten.wahl.name} erscheinen erst vor der Wahl – bis dahin eine andere Wahl wählen.`}
+                : vergangen(daten)
+                  ? `Die Programme zur ${daten.wahl.name} sind noch nicht erfasst – bis dahin eine andere Wahl wählen.`
+                  : `Die Programme zur ${daten.wahl.name} erscheinen erst vor der Wahl – bis dahin eine andere Wahl wählen.`}
             </p>
           )}
 

@@ -27,7 +27,7 @@ Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Die Datei h
 | --- | --- |
 | `id` | Stabile Kennung aus Kleinbuchstaben und Ziffern, etwa `btw25` oder `be26` – steht in Adressen (`#/be26/fragen`) |
 | `name`, `kurz`, `datum` | Voller Name („Bundestagswahl 2025“), Kurzform für Knöpfe („Bund 2025“), Wahltag als ISO-Datum |
-| `parteien` | Die Parteien dieser Wahl mit `id`, `name`, `kurzname`, `farbe` und `programm_url` – jede Wahl hat ihre eigene Liste. Leer für eine angekündigte Wahl: Sie steht dann in der Auswahl als „Programme folgen“, ist aber nicht spielbar |
+| `parteien` | Die Parteien dieser Wahl mit `id`, `name`, `kurzname`, `farbe` und `programm_url` – jede Wahl hat ihre eigene Liste. Leer für einen Platzhalter (vergangene Wahl ohne erfasste Programme oder kommende Wahl): steht in der Auswahl, ist aber nicht spielbar |
 
 Die erste Wahl der Datei ist die Standardwahl: Sie gilt für Adressen ohne Wahl (`#/fragen`), alte Links bleiben so
 gültig. Mit mehr als einer Wahl zeigt die Startseite eine Auswahl; ein Raum spielt immer die Wahl der Spielleitung,

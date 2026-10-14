@@ -10,7 +10,7 @@ const ids = new Set<string>()
 
 for (const w of datei.wahlen) {
   const wahlFehler = fehlerInWahl(w)
-  console.log(`\n${w.name} (${w.id}) – ${w.parteien.length ? `${w.parteien.length} Parteien` : 'angekündigt, noch keine Programme'}`)
+  console.log(`\n${w.name} (${w.id}) – ${w.parteien.length ? `${w.parteien.length} Parteien` : 'Platzhalter ohne Programme'}`)
   for (const f of wahlFehler) console.log(`    – ${f}`)
   if (wahlFehler.length) fehlerhaft++
   const name = (id: number) => w.parteien.find((p) => p.id === id)?.kurzname ?? String(id)
