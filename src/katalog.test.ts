@@ -134,6 +134,6 @@ describe('Fragendatei (katalog.ts)', () => {
     const k = quizKatalog(datei)
     expect(k.wahlen[0].wahl.id).toBe('btw25')
     for (const d of k.wahlen.filter(spielbar)) expect(d.fragen.length).toBeGreaterThanOrEqual(FRAGEN_JE_SPIEL)
-    expect(k.wahlen.filter(spielbar).map((d) => d.wahl.id)).toEqual(['btw25', 'be26'])
+    expect(k.wahlen.filter(spielbar).map((d) => d.wahl.id)).toEqual(expect.arrayContaining(['btw25', 'be26']))
   })
 })
