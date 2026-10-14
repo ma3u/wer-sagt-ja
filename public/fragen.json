@@ -63,6 +63,70 @@
           "programm_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf"
         }
       ]
+    },
+    {
+      "id": "be26",
+      "name": "Abgeordnetenhauswahl Berlin 2026",
+      "kurz": "Berlin 2026",
+      "datum": "2026-09-20",
+      "parteien": [
+        {
+          "id": 21,
+          "name": "CDU",
+          "kurzname": "CDU",
+          "farbe": "#8a96a3",
+          "programm_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf"
+        },
+        {
+          "id": 22,
+          "name": "SPD",
+          "kurzname": "SPD",
+          "farbe": "#f0605d",
+          "programm_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf"
+        },
+        {
+          "id": 23,
+          "name": "Bündnis 90/Die Grünen",
+          "kurzname": "Grüne",
+          "farbe": "#6fbf4a",
+          "programm_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf"
+        },
+        {
+          "id": 24,
+          "name": "FDP",
+          "kurzname": "FDP",
+          "farbe": "#ffe74d",
+          "programm_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf"
+        },
+        {
+          "id": 25,
+          "name": "AfD",
+          "kurzname": "AfD",
+          "farbe": "#4fb8e8",
+          "programm_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf"
+        },
+        {
+          "id": 26,
+          "name": "Die Linke",
+          "kurzname": "Linke",
+          "farbe": "#e0659b",
+          "programm_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf"
+        },
+        {
+          "id": 27,
+          "name": "BSW",
+          "kurzname": "BSW",
+          "farbe": "#b784c9",
+          "programm_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf"
+        },
+        {
+          "id": 28,
+          "name": "Volt",
+          "kurzname": "Volt",
+          "farbe": "#502379",
+          "programm_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf"
+        }
+      ]
     }
   ],
   "fragen": [
@@ -2828,6 +2892,1338 @@
           "zitat": null,
           "beleg_url": null,
           "begruendung": "Abschnitt „Menschenwürdige Abschiebungen als Ultima Ratio“ (S. 139) und Asylkapitel (S. 136–139) gelesen; Suche nach Syrien, Afghanistan, Straftäter, straffällig: nur, dass Alleinstehende und Minderjährige nicht in Staaten außerhalb der EU abgeschoben werden sollen; keine Aussage zu Straftätern und Syrien oder Afghanistan."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-1",
+      "wahl": "be26",
+      "frage": "Sollen große private Wohnungsunternehmen in Berlin vergesellschaftet werden?",
+      "beschreibung": "Ob das Land den Volksentscheid „Deutsche Wohnen & Co. enteignen“ umsetzt und Bestände großer Wohnungskonzerne gegen Entschädigung in Gemeineigentum überführt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm erteilt Forderungen nach Enteignungen eine klare Absage und setzt stattdessen auf mehr Wohnungsbau und Mieterschutz.",
+          "zitat": "Populistischen Forderungen nach Enteignungen oder der Einführung eines Mietendeckels erteilen wir eine klare Absage. Solche Eingriffe sind keine Lösung für den angespannten Wohnungsmarkt, sondern verschärfen die Situation: Sie schrecken Investitionen ab, verhindern Neubau und verringern das Wohnungsangebot.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "teils",
+          "kurzfassung": "Die SPD will für eine gemeinwohlorientierte Wohnungsordnung alle rechtlichen Möglichkeiten einschließlich Art. 15 GG nutzen, nennt als Ziel aber einen rechtssicheren Mietendeckel und wertet die Zustimmung zum Volksentscheid als Signal gegen große Wohnungskonzerne – eine Umsetzung der Vergesellschaftung selbst wird nicht zugesagt.",
+          "zitat": "Dafür nutzen wir alle rechtlichen Möglichkeiten - auch solche, die uns die Verfassung bietet. Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Länderöffnungsklausel über die Bundesgesetzgebung oder auf Grundlage des Art. 15 GG.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Der Volksentscheid „Deutsche Wohnen & Co. enteignen“ soll umgesetzt werden; die Vergesellschaftung gilt als rechtlich möglich und finanzierbar.",
+          "zitat": "Wir werden den bereits beschlossenen Volksentscheid deshalb weiter vorantreiben und unterstützen weiterhin die Initiative „Deutsche Wohnen & Co. enteignen“.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt Enteignung und Vergesellschaftung privater Wohnungen ab, weil dadurch keine neue Wohnung entstehe und Investoren abgeschreckt würden.",
+          "zitat": "Enteignung und Vergesellschaftung privater Wohnungen lehnen wir ab. Dadurch entsteht keine einzige neue Wohnung, es verschwendet Milliardenbeträge, die Berlin für die Entwicklung und die Erschließung von Baugrundstücken und neuen Wohnquartieren einsetzen könnte und schreckt private Investorinnen und Investoren ab, die wir dringend für die Behebung der Wohnungsnot brauchen.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt die Enteignung von Wohnungsunternehmen und planwirtschaftliche Instrumente strikt ab und setzt auf private Investitionen in den Neubau.",
+          "zitat": "Wir lehnen planwirtschaftliche Instrumente und die Enteignung von Wohnungsunternehmen strikt ab, da durch sie nicht nur keine einzige neue Wohnung entsteht, sondern darüber hinaus Unternehmen ebenso wie private Vermieter von Investitionen in den Neubau und in den Bestandserhalt abgeschreckt werden.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will den Volksentscheid „Deutsche Wohnen & Co enteignen“ umsetzen und schnellstmöglich ein Vergesellschaftungsgesetz auf Grundlage des Initiativ-Entwurfs beschließen.",
+          "zitat": "Damit Berlin bezahlbar bleibt, muss der Volksentscheid nun zügig umgesetzt werden. Deshalb wollen wir, dass schnellstmöglich ein Vergesellschaftungsgesetz beschlossen wird.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm verlangt, den Volksentscheid „Deutsche Wohnen & Co. enteignen“ umzusetzen.",
+          "zitat": "Die Berliner Politik muss den Willen der Berliner Bevölkerung respektieren und den Volksentscheid „Deutsche Wohnen & Co. enteignen“ umsetzen.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt pauschale Enteignungen ab und setzt stattdessen auf mehr Angebot und gezielte Förderung.",
+          "zitat": "Wir lehnen starre Mietendeckel und pauschale Enteignungen ab, da die Evidenz zeigt, dass sie das eigentliche Problem verschärfen: Sie verknappen das Angebot, bremsen Investitionen in Modernisierung aus und binden im Fall von Enteignungen Milliarden an Entschädigungen, die für den Neubau fehlen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=28",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-2",
+      "wahl": "be26",
+      "frage": "Soll die Stadtautobahn A100 weitergebaut werden?",
+      "beschreibung": "Ob der 17. Bauabschnitt vom Treptower Park über die Spree Richtung Storkower Straße gebaut werden soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm will den Weiterbau der A100 vorantreiben und unterstützt die Planung des Bundes für den 17. Bauabschnitt.",
+          "zitat": "Wir unterstützen die Planung des Bundes für den 17. Bauabschnitt der A100.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=69",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "nein",
+          "kurzfassung": "Die SPD will die A100 nicht weiterbauen, sondern Mittel in den Erhalt von Straßen und Brücken und in nachhaltige Mobilität lenken; die Autobahn soll am Treptower Park dauerhaft enden.",
+          "zitat": "Statt die A100 weiterzubauen, setzen wir auf den Erhalt unserer Straßen und Brücken sowie auf nachhaltige Mobilität. Wir setzen uns beim Bund dafür ein, dass Investitionsmittel stärker als bisher für die Sanierung von Straßen und Brücken sowie den Ausbau des Öffentlichen Nahverkehrs eingesetzt werden.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Der Weiterbau der A 100 (17. Bauabschnitt) wird abgelehnt; stattdessen Ausbau des Nahverkehrs und Schutz der Wohngebiete vor Durchgangsverkehr.",
+          "zitat": "Wir Bündnisgrüne lehnen den Weiterbau der Autobahn A 100 ab, denn der 17. Bauabschnitt würde für Ost-Berliner Kieze in Lichtenberg, Pankow und Friedrichshain noch mehr Stau, Lärm, Luftverschmutzung und Clubsterben bedeuten.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=90",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Der zügige Weiterbau der A100 im 17. Bauabschnitt bis zur Storkower Straße hat für die FDP weiterhin Priorität.",
+          "zitat": "Der zügige Weiterbau der A100 durch den 17. Bauabschnitt bis Storkower Straße und der Fertigbau der Tangentialverbindung Ost (TVO) sowie neuer Straßenverbindungen, vor allem im Nordosten und Süden der Stadt, haben für uns daher weiterhin Priorität.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=56",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "ja",
+          "kurzfassung": "Das Programm fordert die Realisierung des 17. Bauabschnitts der A 100 und den Lückenschluss des inneren Autobahnrings.",
+          "zitat": "Die Realisierung des 17. Bauabschnitts der A 100 zur Entlastung der Elsenbrücke und den Lückenschluss des inneren Autobahnrings.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke will den 17. Bauabschnitt der A100 aus dem Flächennutzungsplan streichen und die A100 am Treptower Park beenden.",
+          "zitat": "Den geplanten 17. Bauabschnitt der A100 werden wir aus dem Flächennutzungsplan streichen und uns gegenüber der Bundesregierung für die Streichung aus dem Fernstraßenausbaugesetz einsetzen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=69",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm befürwortet die Fortführung des 17. Bauabschnitts der A100 bis zur Storkower Straße unter Berücksichtigung der Anwohnerbelange und mit Bürgerbeteiligung.",
+          "zitat": "Die Fortführung des 17. Bauabschnitts der A100 bis zur Storkower Straße befürworten wir. Dabei sind die berechtigten Anliegen der Anwohner und eine verbindliche Bürgerbeteiligung angemessen zu berücksichtigen.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'A ?100', 'Autobahn', 'Stadtautobahn', 'Bauabschnitt', 'Weiterbau', 'Storkower', 'Spree|Ostkreuz|Treptow' sowie Mobilitätskapitel S. 29–34. Autobahnen werden nur als Flächen für Photovoltaik erwähnt (S. 91)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-3",
+      "wahl": "be26",
+      "frage": "Soll sich Berlin um Olympische Spiele bewerben?",
+      "beschreibung": "Ob das Land eine Bewerbung um Olympische und Paralympische Spiele verfolgen soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm setzt sich für eine klare Bewerbung Berlins um Olympische und Paralympische Spiele ein.",
+          "zitat": "Wir setzen uns für eine klare und entschlossene Bewerbung Berlins um die Olympischen und Paralympischen Spiele ein. Olympia verstehen wir als nachhaltiges Zukunftsprojekt, das Impulse für Stadtentwicklung, Infrastruktur, Wohnungsbau und den Sport setzt.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD will eine Bewerbung Berlins um die Olympischen und Paralympischen Spiele 2040/44 gemeinsam mit Brandenburg aktiv voranbringen, als nachhaltige Spiele ohne Gigantismus auf Basis bestehender Sportstätten.",
+          "zitat": "Wir werden eine Bewerbung um die Olympischen und Paralympischen Spiele 2040/44 und um die EXPO 2035 in Zusammenarbeit mit Brandenburg aktiv voranbringen und die IBA vorbereiten, um Mehrwert für nachhaltige Stadtentwicklung, modernisierte Infrastruktur und einen Digitalisierungsschub zu schaffen.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Eine Berliner Olympia-Bewerbung wird abgelehnt, da sie derzeit weder ökologisch noch sozial verantwortbar sei.",
+          "zitat": "Wir Bündnisgrüne setzen uns daher entschieden gegen die laufende Berliner Olympia-Bewerbung ein – für ein nachhaltiges, soziales und lebenswertes Berlin statt kurzfristiger Prestigeprojekte.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Die FDP unterstützt eine Berliner Bewerbung um die Olympischen und Paralympischen Spiele 2036, alternativ 2040, vor allem mit modernisierten bestehenden Sportstätten.",
+          "zitat": "Wir unterstützen eine Bewerbung Berlins für die Austragung der Olympischen und Paralympischen Spiele in Berlin im Jahr 2036, alternativ im Jahr 2040. Für die Austragung sollen in erster Linie bestehende Sportstätten modernisiert und renoviert werden.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=76",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "teils",
+          "kurzfassung": "Das Programm unterstützt eine Berliner Olympiabewerbung, macht sie aber von vollständiger Kostentransparenz und einer gesicherten Nachnutzung der Sportstätten abhängig.",
+          "zitat": "Wir unterstützen eine Berliner Olympiabewerbung als wichtigen Impuls für den Spitzen- und Breitensport in unserer Stadt. Als Voraussetzung für eine Bewerbung müssen eine vollkommene Kostentransparenz und die Nachnutzung der für Olympia geschaffenen Sportstätten sichergestellt sein.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=66",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt eine Olympiabewerbung Berlins entschieden ab und unterstützt einen Volksentscheid dazu.",
+          "zitat": "Wir als Linke lehnen eine Bewerbung Berlins für Olympische Spiele daher entschieden ab. Berlin hat andere Sorgen als teure Prestige-Events.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=319",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "nein",
+          "kurzfassung": "Das Programm zählt die Olympiabewerbung zu unnötigen Prestigeprojekten, auf die Berlin verzichten sollte, und will das Geld stattdessen in die Sanierung von Sportstätten lenken.",
+          "zitat": "Auch der Verzicht auf unnötige Prestigeprojekte, wie beispielsweise Berlins Olympia-Bewerbung, würde den Berliner Haushalt deutlich entlasten.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Olympi', 'Spiele', 'Bewerbung', 'Großveranstaltung', 'Sportgroß' sowie Sport- und Tourismuskapitel (S. 86–88, 107–108). Einziger Treffer: Unterstützung der EXPO-2035-Bewerbung (S. 108), Olympia wird nicht erwähnt."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-4",
+      "wahl": "be26",
+      "frage": "Soll das Tempelhofer Feld am Rand bebaut werden?",
+      "beschreibung": "Ob auf den Randflächen des ehemaligen Flughafens Wohnungen entstehen sollen, wofür das Tempelhofer-Feld-Gesetz geändert werden müsste.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm bekennt sich zur Randbebauung des Tempelhofer Feldes mit mehr als 20.000 Wohnungen; die Mitte soll als Freifläche erhalten bleiben.",
+          "zitat": "Wir bekennen uns klar zur Randbebauung des Tempelhofer Feldes. Auf den Randflächen des Feldes sollen mehr als 20.000 neue Wohnungen für etwa 50.000 Menschen entstehen.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "nein",
+          "kurzfassung": "Die SPD will das Tempelhofer Feld in seiner heutigen Funktion erhalten und behutsam weiterentwickeln; Wohnungen am Feldrand kommen für sie nicht in Frage, solange andere Baupotenziale in Berlin ungenutzt sind.",
+          "zitat": "Wir erhalten es in seiner heutigen Funktion und entwickeln es behutsam weiter. Um die Aufenthaltsqualität des Felds zu verbessern, bringen wir notwendige gesetzliche Anpassungen auf den Weg. Wohnungen am Feldrand kommen nicht in Frage, solang die bisherigen Flächen in Berlin ungenutzt sind – Vorrang haben bestehende Baupotenziale.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Das Tempelhofer Feld soll unbebaut bleiben; der Volksentscheid gilt als bindend.",
+          "zitat": "Das Tempelhofer Feld ist für uns unverzichtbar – der Volksentscheid ist bindend. Wir lehnen jede Bebauung ab.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=65",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Die FDP will sofort und ohne erneute Abstimmung mit der Randbebauung des Tempelhofer Feldes beginnen.",
+          "zitat": "Wir wollen sofort, ohne erneute Abstimmung mit der Randbebauung des Tempelhofer Feldes beginnen. Das ist nicht nur rechtlich möglich, es ist auf Grund der sehr angespannten Situation des Wohnungsmarktes auch gesellschaftlich geboten.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'Tempelhof', 'Tempelhofer Feld', 'THF', 'Flughafen', 'Flugfeld', 'Randbebauung', 'Freifläche', 'Bauland', 'Stadtrand', 'Nachverdichtung', 'Bebauung'; Kapitel Bauen & Wohnen (S. 5–11) gelesen – das Tempelhofer Feld wird nirgends erwähnt."
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke will das Tempelhofer Feld als Ganzes freihalten, das Volksentscheid-Gesetz erhalten und lehnt Bebauung ab.",
+          "zitat": "Das Tempelhofer Feld ist als Ganzes frei zu halten und das per Volksentscheid beschlossene Gesetz muss erhalten bleiben.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Tempelhofer Feld', 'THF', 'Randbebauung'. Einziger Treffer S. 32 (Direkte Demokratie): Gesetze aus Volksentscheiden dürften nicht vom Abgeordnetenhaus allein geändert werden, sondern müssten der Bevölkerung erneut vorgelegt werden – „(Bsp. Randbebauung Tempelhofer Feld)“. Das ist eine Verfahrensaussage, keine Position für oder gegen eine Bebauung. Kapitel Wohnen (S. 6–9) enthält nichts dazu."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Tempelhof', 'Randbebau', 'bebau', 'Feld' sowie Wohnungsbaukapitel S. 24–28. Das Tempelhofer Feld wird nur als Testfläche für Agri-Photovoltaik und mobile Energiespeicher genannt (S. 60); zu einer Bebauung keine Aussage."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-5",
+      "wahl": "be26",
+      "frage": "Soll in Berlin Tempo 30 zur Regel werden?",
+      "beschreibung": "Ob innerorts flächendeckend, auch auf Hauptstraßen, Tempo 30 gelten soll statt wie bisher nur auf Nebenstraßen und vor Schulen oder Kitas.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm will Tempo 50 auf Hauptstraßen als Regelfall; Ausnahmen nur vor Kitas, Schulen, Krankenhäusern und Pflegeeinrichtungen. Flächendeckendes Tempo 30 wird ausdrücklich abgelehnt.",
+          "zitat": "Dazu gehört, dass Tempo 50 auf Hauptstraßen der Regelfall ist, um einen verlässlichen Verkehrsfluss zu gewährleisten. Ausnahmen von Tempo 50 muss es jedoch auch weiterhin dort geben, wo die Verkehrssicherheit es gebietet – etwa vor Kitas, Schulen, Krankenhäusern, Senioren- oder Pflegeeinrichtungen.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=69",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "teils",
+          "kurzfassung": "Die SPD will Tempo 30 vor allem rund um Kitas, Schulen, Spielplätze und Seniorenheime einrichten und lehnt die Rückkehr zu Tempo 50 auf bisherigen Tempo-30-Strecken ab; ein flächendeckendes Tempo 30 fordert sie nicht.",
+          "zitat": "Tempo 50 auf bisherigen Tempo-30-Strecken lehnen wir ab. Tempo 30 richten wir besonders rund um Kitas, Schulen, Spielplätze und Seniorenheime ein und nutzen die neuen Spielräume der Straßenverkehrsordnung konsequent.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Berlin soll ein flächendeckendes Tempo-30-Netz mit so viel Tempo 30 wie möglich bekommen, besonders vor Kitas, Schulen und an Schulwegen.",
+          "zitat": "Wir schaffen sichere Straßen für alle – mit einem flächendeckenden Tempo-30-Netz, sicheren Kreuzungen und konsequenten Maßnahmen für null Verkehrstote.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=87",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP will Tempo 50 auf allen wichtigen Hauptverkehrsstraßen beibehalten und lehnt unverhältnismäßige Einschränkungen ab.",
+          "zitat": "Wir wollen Tempo 50 auf allen wichtigen Hauptverkehrsstraßen beibehalten und lehnen unverhältnismäßige Einschränkungen als nicht zielführend ab.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'Tempo', 'Tempo 30', 'km/h', 'Tempolimit', 'Höchstgeschwindigkeit', 'Geschwindigkeitsbegrenzung', 'Verkehrsberuhigung'; Verkehrskapitel (S. 41–44) vollständig gelesen – Tempo 30 wird nicht genannt."
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke setzt sich für Tempo 30 als innerörtliche Regelgeschwindigkeit ein und will alle Möglichkeiten nutzen, Tempo 30 auf Berliner Straßen umzusetzen.",
+          "zitat": "Wir setzen uns im Bund für Tempo 30 als innerörtliche Regelgeschwindigkeit ein und nutzen unabhängig davon alle Möglichkeiten, um Tempo 30 auch auf Berliner Straßen umzusetzen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=63",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Tempo 30', 'Tempo', 'km/h', 'Geschwindigkeit', 'Höchstgeschwindigkeit', 'Verkehrsberuhig', 'Hauptstraße'. Kapitel Verkehr (S. 48–51) vollständig gelesen: keine Aussage zu Tempolimits."
+        },
+        {
+          "partei_id": 28,
+          "position": "teils",
+          "kurzfassung": "Das Programm will Tempo-30-Zonen an Schutzorten wie Schulen, Kitas und Spielplätzen ausweiten und sich auf Bundesebene für Tempo 30 als Regelgeschwindigkeit in Innenstädten einsetzen.",
+          "zitat": "Wir weiten Tempo-30-Zonen konsequent an Orten aus, an denen Menschen besonderen Schutz brauchen, insbesondere rund um Schulen, Kitas, Spielplätze und an wichtigen Fußwegen. Gleichzeitig arbeiten wir auf Bundesebene daran, Tempo-30 als Regelgeschwindigkeit in Innenstädten festzuschreiben, um Unfälle zu vermeiden und die Aufenthaltsqualität zu erhöhen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=33",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-6",
+      "wahl": "be26",
+      "frage": "Soll in Berlin eine Magnetschwebebahn gebaut werden?",
+      "beschreibung": "Ob das Land eine Magnetschwebebahn als neues Verkehrsmittel planen und bauen soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "teils",
+          "kurzfassung": "Nennt eine Magnetschwebebahn von Tegel nach Jungfernheide als Beispiel für ein Projekt, das über Public-Private-Partnerships schneller realisiert werden könnte.",
+          "zitat": "Auch neue Verkehrsverbindungen– etwa in Form einer Magnetschwebebahn (TSB) von der geplanten Urban Tech Republic auf dem ehemaligem Flughafen Tegel nach Jungfernheide – könnten so schneller realisiert werden.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=73",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Erwähnung. Gesucht: 'Magnetschwebe', 'Magnetbahn', 'Maglev', 'Schwebebahn', 'Seilbahn', 'Hochbahn', 'Magnet' (nur ICC als „Magnet“). Das ÖPNV-Kapitel (S. 24–25) nennt nur Straßenbahn, U-Bahn, S-Bahn, Busse und autonome Kleinbusse."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Treffer für Magnetschwebe, Magnetbahn, Schwebebahn, Transrapid, Hochbahn, M-Bahn, Innovationsstrecke; das Verkehrskapitel (S. 80–91) behandelt nur U-/S-/Regional-/Straßenbahn, Bus, Rad- und Fußverkehr."
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Die FDP will eine aufgeständerte, vollautomatische Magnetbahn vom Alexanderplatz über Lichtenberg nach Falkenberg realisieren und dafür bis 2029 eine Machbarkeitsstudie vorlegen lassen.",
+          "zitat": "Wir wollen eine aufgeständerte, vollautomatische und emissionsfreie Magnetbahn vom Alexanderplatz über Lichtenberg bis perspektivisch Falkenberg als schnelle und leistungsfähige Verbindung realisieren. Dafür setzen wir uns ein, dass das Land Berlin gemeinsam mit BVG, Industrie und Wissenschaft bis 2029 eine Machbarkeitsstudie vorlegt.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'Magnetschwebe', 'Magnetbahn', 'Transrapid', 'Seilbahn'; Verkehrskapitel (S. 41–44) gelesen. Genannt werden nur „Ausbau des Schienennetzes“ und „Verkehrssysteme wie Seilbahnen“ (S. 42), eine Magnetschwebebahn nicht."
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke bezeichnet Magnetschwebebahnen als Luftschlösser und will stattdessen die Straßenbahn nach Spandau planen.",
+          "zitat": "Die Planungen der Straßenbahn in Richtung Spandau treiben wir voran, statt eine ÖPNV-Verbesserung in Spandau durch Luftschlösser wie Magnetschwebebahnen zu vertagen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=58",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Magnetschwebe', 'Magnetbahn', 'Schwebebahn', 'Transrapid', 'Hochbahn'. Kapitel Verkehr (S. 48–51) gelesen: Es werden U-Bahn, S-Bahn, Straßenbahn, Bus, Rufbusse, Oberleitungsbusse und zwei Seilbahnlinien genannt, keine Magnetschwebebahn."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Magnetschwebe', 'Magnetbahn', 'Transrapid', 'Schwebebahn', 'Seilbahn' sowie Mobilitätskapitel S. 29–34. Keine Erwähnung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-7",
+      "wahl": "be26",
+      "frage": "Soll das Berliner Neutralitätsgesetz beibehalten werden?",
+      "beschreibung": "Ob das Gesetz bleiben soll, das Lehrkräften, Polizei und Justiz das Tragen sichtbarer religiöser Symbole wie des Kopftuchs im Dienst untersagt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm will am Neutralitätsgesetz festhalten; staatliche Repräsentanten sollen weltanschaulich neutral auftreten, religiöse Symbole im Gerichtssaal bleiben untersagt. An Schulen soll das Gesetz um eine staatliche Schutzpflicht erweitert werden.",
+          "zitat": "Am Neutralitätsgesetz halten wir fest. Staatliche Repräsentanten müssen weltanschaulich neutral auftreten. Das Tragen religiöser Symbole im Gerichtssaal muss weiterhin untersagt bleiben.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zum Neutralitätsgesetz. Gesucht: 'Neutralitätsgesetz', 'Kopftuch', 'religiös', 'Religion', 'Neutralität', 'weltanschaulich', 'Religionsfreiheit'. Einziger Treffer S. 29 im Kapitel Demokratie/Extremismus: „Wir verteidigen die weltanschauliche Neutralität des Staates.“ – ohne Bezug zu Kopftuch, Lehrkräften oder dem Gesetz."
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Das Neutralitätsgesetz soll vollständig abgeschafft werden, damit religiöse Symbole wie Kopftuch, Kippa oder Turban auch im öffentlichen Dienst sichtbar sein können.",
+          "zitat": "Das diskriminierende „Neutralitätsgesetz“ schaffen wir in Gänze ab, da es insbesondere kopftuchtragende Frauen vom Staatsdienst ausschließt, Grundrechte wie Religions- und Berufsfreiheit verletzt und bestehende Ungleichbehandlungen im öffentlichen Dienst verfestigt, statt Diskriminierung abzubauen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=140",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Neutralitätsgesetz', 'Neutralität', 'Kopftuch', 'religiöse Symbol', 'Religi', 'Weltanschau', 'Schleier|Burka|Nikab'. Treffer nur zu Aufkommensneutralität (Steuern), jüdischem Leben und Integration; keine Aussage zum Neutralitätsgesetz oder zu religiösen Symbolen bei Lehrkräften, Polizei oder Justiz."
+        },
+        {
+          "partei_id": 25,
+          "position": "ja",
+          "kurzfassung": "Das Programm will das Neutralitätsgesetz bei Justiz und Polizei strikt durchsetzen und das uneingeschränkte Neutralitätsgebot an Schulen wiederherstellen.",
+          "zitat": "Die AfD hält uneingeschränkt an der Neutralitätspflicht für Justiz und Polizei fest. Diese ist eine unverzichtbare Grundlage für ein funktionierendes Gemeinwesen und den gesellschaftlichen Zusammenhalt.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Neutralitätsgesetz, Neutralit, Kopftuch, religiöse Symbole/Kleidung/Zeichen, Religionsfreiheit, Religion in Verbindung mit Schule/Lehrkräfte/Polizei/Dienst, Weltanschauung. Nur Treffer zu Ethikunterricht (S. 173) und alevitischem Religionsunterricht (S. 274); keine Aussage zum Neutralitätsgesetz."
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Neutralitätsgesetz', 'Kopftuch', 'religiöse Symbole', 'Religion', 'Kreuz', 'Symbol'. S. 36 fordert allgemein die Trennung von Staat und Religion und staatliche Aufsicht über Religionsunterricht; S. 38 meint mit „Neutralitätspflicht“ der Polizei die politische Neutralität. Keine Aussage zum Neutralitätsgesetz oder zu religiösen Symbolen bei Lehrkräften, Polizei, Justiz."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Neutralitätsgesetz', 'Neutralit', 'Kopftuch', 'religiös', 'Religion', 'Symbol'. Keine Erwähnung des Neutralitätsgesetzes."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-8",
+      "wahl": "be26",
+      "frage": "Soll die Bezahlkarte für Asylsuchende beibehalten werden?",
+      "beschreibung": "Ob Leistungen für Asylsuchende weiter über eine Bezahlkarte statt Bargeld ausgezahlt werden sollen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm steht zur Bezahlkarte und will sie dauerhaft etablieren.",
+          "zitat": "Wir stehen zur Einführung der Bezahlkarte und wollen diese dauerhaft etablieren.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "nein",
+          "kurzfassung": "Die SPD lehnt eine Bezahlkarte für Geflüchtete ab, weil sie die Teilhabe einschränke, und setzt stattdessen auf eine Berliner Stadtkarte (City-ID).",
+          "zitat": "Eine Bezahlkarte für Geflüchtete lehnen wir ab. Sie schränkt Teilhabe am öffentlichen Leben stark ein.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Die Bezahlkarte für Geflüchtete wird abgelehnt; stattdessen diskriminierungsfreie Auszahlung von Leistungen und ein Basiskonto für alle.",
+          "zitat": "Wir lehnen die vom schwarz-roten Senat geplante Bezahlkarte ab, weil sie Geflüchtete diskriminiert und ihre Selbstbestimmung einschränkt.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=144",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Berlin soll unverzüglich die Bezahlkarte für Geflüchtete einführen, und zwar für Neuankommende wie für Bestandsfälle.",
+          "zitat": "Berlin führt -als letztes Bundesland- unverzüglich die Bezahlkarte für Geflüchtete ein. Diese gilt für neu ankommende Geflüchtete als auch Bestandsfälle.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=88",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "teils",
+          "kurzfassung": "Das Programm fordert für Asylbewerber die Umstellung auf reine Sachleistungen statt Geldleistungen; die Bezahlkarte selbst wird nicht genannt.",
+          "zitat": "Die Umstellung auf reine Sachleistungen.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die Bezahlkarte für Geflüchtete nicht einführen bzw. wieder abschaffen.",
+          "zitat": "Außerdem werden wir die diskriminierende Bezahlkarte nicht einführen bzw. wieder abschaffen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=278",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Bezahlkarte', 'Sachleistung', 'Asyl', 'Flüchtling', 'Geflüchtet', 'Leistungen'. Kapitel Zuwanderung und Integration (S. 34–37) gelesen: Forderungen zu Grenzkontrollen, Verteilung von Asylbewerbern, Arbeitserlaubnis; die Bezahlkarte wird nicht erwähnt."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Bezahlkarte', 'Sachleistung', 'Asylsuchend', 'Asylbewerb', 'Geflüchtet' in Verbindung mit Leistung/Karte/Bargeld sowie Integrationskapitel S. 103–106. Keine Erwähnung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-9",
+      "wahl": "be26",
+      "frage": "Soll die Videoüberwachung an kriminalitätsbelasteten Orten ausgeweitet werden?",
+      "beschreibung": "Ob die Polizei an Orten wie Bahnhöfen und Plätzen mit vielen Straftaten mehr Kameras einsetzen soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm will die Videoüberwachung an allen kriminalitätsbelasteten Orten weiter ausbauen, auch mit intelligenten Systemen.",
+          "zitat": "Wir werden die Videoüberwachung an allen kriminalitätsbelasteten Orten weiter ausbauen und setzen dabei auch auf intelligente Systeme, die im Rahmen der bestehenden Rechtsgrundlagen einen wirksamen Beitrag zur Gefahrenabwehr leisten.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zur Videoüberwachung. Gesucht: 'Videoüberwachung', 'Videobeobachtung', 'Video', 'Kamera', 'Überwachung' (nur Tempo-/Lärm-/Rotlichtüberwachung im Verkehr, S. 26), 'kriminalitätsbelastet' (S. 31: Einstufung kriminalitätsbelasteter Orte soll parlamentarisch kontrolliert werden), 'Bodycam'. Sicherheitskapitel S. 29–32 gelesen."
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Keine flächendeckende Videoüberwachung im öffentlichen Raum; Ausbau nur gezielt zum Schutz kritischer Infrastrukturen, kriminalitätsbelastete Orte sollen überprüft und gegebenenfalls abgeschafft werden.",
+          "zitat": "Statt flächendeckender Videoüberwachung im öffentlichen Raum wollen wir diese nur dort zielgerichtet ausbauen, wo sie tatsächlich helfen kann, unsere kritischen Infrastrukturen zu schützen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=228",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "teils",
+          "kurzfassung": "Die FDP akzeptiert temporäre Videoüberwachung an Risikoorten neben baulichen Maßnahmen, will aber Kosten und Nutzen der anlasslosen Videoüberwachung evaluieren und sie gegebenenfalls zurückbauen.",
+          "zitat": "Aufgrund des mangelnden Nutzens sowie der nach wie vor fehlenden Transparenz wollen wir die polizeiliche Datei „Szenekunde Sport“ ersatzlos löschen sowie die Kosten und den Nutzen der anlasslosen Videoüberwachung evaluieren und ggf. entsprechend zurückbauen.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=69",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "ja",
+          "kurzfassung": "Das Programm fordert eine vollständige Videoüberwachung in allen Brennpunktbereichen.",
+          "zitat": "Eine vollständige Videoüberwachung in allen Brennpunktbereichen.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke will kriminalitätsbelastete Orte samt Videoüberwachung abschaffen und Ausgaben für Überwachungskameras senken.",
+          "zitat": "Die sogenannten kriminalitätsbelasteten Orte und Waffenverbotszonen sind mit zusätzlichen polizeilichen Befugnissen wie Videoüberwachung oder anlasslosen Kontrollen verknüpft und somit ein Einfallstor für Racial Profiling und diskriminierendes Polizeihandeln. Sie wollen wir abschaffen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=290",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm will Videoüberwachung an nachweislich besonders kriminalitätsbelasteten Orten einsetzen – mit parlamentarischer Genehmigung und Echtzeit-Auswertung – und die Speicherfrist für BVG- und DB-Kameras auf 96 Stunden verlängern.",
+          "zitat": "Dazu setzen wir Videoüberwachung an nachweislich besonders kriminalitätsbelasteten Orten ein – mit parlamentarischer Genehmigung und Echtzeit-Auswertung durch ausreichend Personal. Für BVG- und DB-Kameras räume wir eine längere Speicherfrist von 96 Stunden ein.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=41",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Videoüberwachung', 'Videobeobachtung', 'Kamera', 'kriminalitätsbelastet', 'Überwachung', 'Ausweitung' sowie Sicherheitskapitel S. 72–79. Das Programm befürwortet Bodycams für die Polizei und lehnt biometrische Echtzeit-Überwachung bei KI ab (S. 77–78); zur Videoüberwachung an kriminalitätsbelasteten Orten keine Aussage."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-11",
+      "wahl": "be26",
+      "frage": "Sollen Menschen ohne EU-Pass bei den Bezirkswahlen wählen dürfen?",
+      "beschreibung": "Ob das Wahlrecht zu den Bezirksverordnetenversammlungen auf Menschen ohne deutsche oder EU-Staatsangehörigkeit ausgeweitet werden soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach „Wahlrecht“, „Wahlalter“, „Bezirksverordnetenversammlung“, „BVV“, „Wahl/Wahlen“, „Wahlberechtig“, „Staatsangehörig“, „Drittstaat“, „Nicht-EU“, „wählen dürfen“; Kapitel Migration (S. 25–27), Verwaltung (S. 87–94) und Zusammenhalt (S. 107–122) geprüft. Keine Aussage zum Wahlrecht für Nicht-EU-Bürger."
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Wahlrecht für Nicht-EU-Bürger*innen bei BVV-Wahlen gefordert. Gesucht: 'Wahlrecht', 'Kommunalwahl', 'Bezirksverordnetenversammlung', 'BVV', 'wahlberechtigt', 'Wahlalter', 'Unionsbürger', 'EU-Bürger', 'mitbestimmen', 'Drittstaat'. Das Programm setzt für politische Teilhabe auf Einbürgerung („Teilhabe durch Einbürgerung“, S. 52)."
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Alle Menschen mit Lebensmittelpunkt in Berlin sollen unabhängig von ihrer Staatsangehörigkeit an Volksabstimmungen sowie an Wahlen zum Abgeordnetenhaus und zu den BVVen teilnehmen können.",
+          "zitat": "Wir Bündnisgrüne setzen uns weiterhin sowohl im Land Berlin als auch im Bundesrat dafür ein, dass Menschen, die ihren Lebensmittelpunkt in Berlin haben, unabhängig von ihrer Staatsangehörigkeit an Volksbegehren und -abstimmungen, den Wahlen zum Abgeordnetenhaus und zu den Bezirksverordnetenversammlungen (BVVen) und perspektivisch auch zum Bundestag und zum Europäischen Parlament teilnehmen können.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=173",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Wahlrecht', 'wählen dürfen', 'Wahlberechtig', 'Wahlalter', 'Kommunalwahl', 'Bezirksverordnetenversammlung|BVV', 'Nicht-EU', 'Drittstaat', 'Staatsangehörigkeit', 'Ausländerwahlrecht', 'Migrant'. Treffer zur BVV betreffen nur digitale Sitzungen, Beteiligung und Verwaltungsstruktur (S. 28, 30); keine Aussage zum Wahlrecht für Nicht-EU-Bürgerinnen und -Bürger."
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'Wahlrecht', 'wahlberechtigt', 'Bezirksverordnetenversammlung', 'Kommunalwahl', 'Ausländerwahlrecht', 'Wahlalter', 'EU-Bürger', 'Staatsangehörige'; Kapitel Demokratie & Rechtsstaatlichkeit (S. 75–77) und Zuwanderung (S. 22–26) gelesen – zum Wahlrecht für Nicht-Staatsangehörige keine Aussage."
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will mit allen landesrechtlichen Mitteln ein aktives und passives Wahlrecht für alle Berliner unabhängig vom Pass nach spätestens fünf Jahren Aufenthalt einführen.",
+          "zitat": "Wir wollen daher für Berlin alle landesrechtlichen Möglichkeiten ausschöpfen, um das passive und aktive Wahlrecht spätestens nach fünf Jahren Aufenthaltszeit in Deutschland für alle Berliner*innen, unabhängig vom Pass, einzuführen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=276",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Wahlrecht', 'Bezirksverordnetenversammlung', 'BVV', 'Wahlalter', 'EU-Bürger', 'Staatsangehörig', 'Ausländer', 'Einbürger'. Kapitel Direkte Demokratie (S. 32) fordert Volksbefragungen und Volksabstimmungen, sagt aber nichts zum Wahlrecht für Menschen ohne deutsche/EU-Staatsangehörigkeit."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Wahlrecht', 'Wahlalter', 'wählen dürfen', 'Bezirksverordnetenversammlung', 'BVV', 'Kommunalwahl', 'Drittstaat', 'Nicht-EU'. Das Programm fordert ein Wahlrecht für EU-Bürger*innen bei allen Wahlen (S. 105); für Menschen ohne EU-Staatsangehörigkeit werden nur Bürger*innenräte und Beteiligungsbudgets vorgesehen, ein BVV-Wahlrecht wird weder gefordert noch abgelehnt."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-14",
+      "wahl": "be26",
+      "frage": "Soll die Berliner Polizei flächendeckend mit Tasern ausgestattet werden?",
+      "beschreibung": "Ob Distanzelektroimpulsgeräte zur Standardausrüstung im Streifendienst werden sollen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm will den Taser-Einsatz bei der Polizei ausbauen; operativ eingesetzte Dienstbereiche sollen vollständig damit ausgestattet werden.",
+          "zitat": "Den Einsatz von Tasern bei der Berliner Polizei wollen wir weiter ausbauen. Operativ eingesetzte Dienstbereiche sollen vollständig mit Tasern ausgestattet und Einsatzkräfte regelmäßig aus- und fortgebildet werden.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Erwähnung von Tasern. Gesucht: 'Taser', 'Distanzelektro', 'Elektroimpuls', 'Bodycam', 'Ausrüstung' (nur allgemein „zeitgemäßer Ausrüstung“ für Polizei und Feuerwehr, S. 31), 'Drohnen' (Modellprojekt). Sicherheitskapitel S. 29–32 gelesen."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Treffer für Taser, Distanzelektro, Elektroimpuls, Elektroschock, Bewaffnung, Einsatzmittel; das Sicherheitskapitel (S. 223–234) nennt nur Bodycams und allgemein die „erforderliche persönliche Schutzausrüstung“ für Polizei und Feuerwehr (S. 226)."
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Taser', 'Distanzelektro', 'Elektroimpuls', 'Elektroschock', 'Distanzwaffe', 'Bodycam', 'Ausrüstung', 'Ausstattung der Polizei', 'Waffe'. Nur allgemeine Forderung nach 'adäquater Ausstattung, Ausrüstung und Ressourcen auf dem Stand der Technik' für Polizei und Justiz (S. 66); Taser werden nicht erwähnt."
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'Taser', 'Distanzelektro', 'Elektroschock', 'Bodycam', 'Ausrüstung', 'Bewaffnung'; Kapitel Innere Sicherheit (S. 12–21) durchsucht. Nur allgemein: „Schutzausstattung, Bewaffnung und technische Ausrüstung unserer Polizei haben dem aktuellen Stand der Technik zu entsprechen“ (S. 12); Taser werden nicht genannt."
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt den Einsatz von Tasern außerhalb von Spezialkräften ab.",
+          "zitat": "Zudem bestehen enorme Risiken für betroffene Bürger*innen, aber auch für die Beamt*innen selbst. Wir lehnen den Einsatz von Tasern außerhalb von Spezialkräften ab.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=291",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Taser', 'Distanzelektro', 'Elektroschock', 'Impuls', 'Bodycam', 'Schusswaffe', 'Ausstattung'. Kapitel Innere Sicherheit (S. 38–41) gelesen: bessere Ausstattung wird mit Schutzkleidung, gepanzerten Fahrzeugen, IT und Tablets konkretisiert; Taser werden nicht erwähnt."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Taser', 'Distanzelektro', 'Elektroschock', 'Polizei' mit Ausstattung/Ausrüstung/Waffe, 'Schusswaffe', 'Pfefferspray' sowie Polizeikapitel S. 76–78. Keine Erwähnung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-15",
+      "wahl": "be26",
+      "frage": "Soll privates Silvesterfeuerwerk in Berlin verboten werden?",
+      "beschreibung": "Ob das Zünden von Feuerwerk durch Privatpersonen an Silvester stadtweit untersagt werden soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach „Feuerwerk“, „Böller“, „Pyrotechnik“, „Silvester“, „Jahreswechsel“, „Verbotszone“. Einziger Treffer (S. 77): höhere Bußgelder für „Verstöße beim Abbrennen von Feuerwerken“ – keine Aussage zu einem Verbot privaten Silvesterfeuerwerks."
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Erwähnung. Gesucht: 'Feuerwerk', 'Böller', 'Pyrotechnik', 'Silvester', 'Jahreswechsel', 'pyro'."
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Ein ganzjähriges, flächendeckendes Verkaufs- und Böllerverbot für privates Feuerwerk; an Silvester stattdessen zentral organisierte Lichtshows.",
+          "zitat": "Wir setzen uns weiter konsequent für ein ganzjähriges und flächendeckendes Feuerwerksverkaufs- und Böllerverbot ein, um Mensch, Tier und Umwelt zu schützen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=27",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Feuerwerk', 'Böller', 'Böllerverbot', 'Silvester', 'Jahreswechsel', 'Knaller', 'Pyrotechnik'. Einziger Treffer: Pyrotechnik in Fußballstadien durch geschultes Personal (S. 77); privates Silvesterfeuerwerk wird nicht erwähnt."
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'Feuerwerk', 'Böller', 'Silvester', 'Pyrotechnik', 'Jahreswechsel', 'Knall', 'Raketen'; Kapitel Innere Sicherheit und Natur & Umwelt durchsucht – keine Erwähnung."
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke setzt sich auf Bundesebene für ein umfassendes Böllerverbot ein.",
+          "zitat": "Wir setzen uns auf Bundesebene für ein umfassendes Böllerverbot ein.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=205",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Feuerwerk', 'Böller', 'Pyrotechnik', 'Silvester', 'Jahreswechsel', 'Knall'. Keine Treffer."
+        },
+        {
+          "partei_id": 28,
+          "position": "ja",
+          "kurzfassung": "Das Programm will ein umfassendes Verbot von Böllern im Privatbereich, ergänzt durch Aufklärungskampagnen.",
+          "zitat": "Wir setzen uns für ein umfassendes Böllerverbot im Privatbereich ein. Es schützt Einsatzkräfte, reduziert Verletzungsrisiken im öffentlichen Raum und entlastet gleichzeitig Tiere.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=78",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-17",
+      "wahl": "be26",
+      "frage": "Soll das Landesantidiskriminierungsgesetz abgeschafft werden?",
+      "beschreibung": "Ob das Gesetz aufgehoben werden soll, das Menschen Ansprüche gegen Diskriminierung durch Berliner Behörden gibt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "teils",
+          "kurzfassung": "Das Programm will das LADG nicht abschaffen, aber umfassend überarbeiten, sodass die Landesregeln nicht über Bundesrecht hinausgehen.",
+          "zitat": "Wir werden das Landesantidiskriminierungsgesetz einer umfassenden Überarbeitung unterziehen mit dem Ziel, dass die Landesregelungen nicht über Bundesregelungen hinausgehen und einem konsequenten Eintreten für die Sicherheit der Berlinerinnen und Berliner entgegenstehen.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "nein",
+          "kurzfassung": "Die SPD will das Landesantidiskriminierungsgesetz nicht abschaffen, sondern seine Ombudsstelle mit mehr Rechten ausstatten und neue Gesetze auf Konformität mit dem LADG prüfen.",
+          "zitat": "Die Ombudsstelle des Landesantidiskriminierungsgesetzes (LADG) statten wir deshalb mit mehr Rechten aus. Dazu zählen Initiativ- und Befragungsrechte sowie eine Berichtspflicht.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "nein",
+          "kurzfassung": "Das LADG soll nicht abgeschafft, sondern evaluiert, novelliert und auf weitere Diskriminierungsmerkmale und landeseigene Unternehmen ausgeweitet werden.",
+          "zitat": "Das Landesantidiskriminierungsgesetz (LADG) ist eine bündnisgrüne Erfolgsgeschichte. Wir wollen es gemeinsam mit der Zivilgesellschaft evaluieren und weiterentwickeln, um seinen Schutz noch breiter wirksam werden zu lassen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=136",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "teils",
+          "kurzfassung": "Die FDP will nur die Vermutungsregelung mit Beweislastumkehr in § 7 LADG abschaffen, nicht das gesamte Gesetz.",
+          "zitat": "Die Vermutungsregelung in § 7 Landesantidiskriminierungsgesetz, deren Beweislastumkehr die Polizeiarbeit bürokratisch erschwert, wollen wir abschaffen.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=61",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "ja",
+          "kurzfassung": "Das Programm fordert die sofortige Aufhebung des Landesantidiskriminierungsgesetzes.",
+          "zitat": "Die sofortige Aufhebung des Landesantidiskriminierungsgesetzes und die Überarbeitung anderer sicherheitsrelevanter Gesetze.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "nein",
+          "kurzfassung": "Die Linke will das LADG evaluieren, weiterentwickeln und um weitere Diskriminierungstatbestände ergänzen.",
+          "zitat": "Das Landesantidiskriminierungsgesetz ist bundesweit Vorreiter und stärkt den Schutz gegen Diskriminierung. Wir wollen es evaluieren, weiterentwickeln und Schutzlücken schließen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=270",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: 'Antidiskriminierungsgesetz', 'LADG', 'Antidiskriminier', 'Diskriminierung'. S. 32 („Echter Diskriminierungsschutz statt Quoten“) behandelt Einstellungen nach Eignung und Schutz sexueller Minderheiten; das LADG wird nicht erwähnt."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Antidiskriminierungsgesetz', 'LADG', 'Antidiskriminierung', 'Diskriminierung'. Das LADG wird nicht erwähnt; nur die Senatsstellen für Antidiskriminierung sollen erhalten bleiben (S. 105)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-18",
+      "wahl": "be26",
+      "frage": "Soll Berlin wieder einen Mietendeckel einführen?",
+      "beschreibung": "Ob das Land erneut Mietobergrenzen per Landesgesetz festlegen soll, etwa über eine Bundesöffnungsklausel oder für landeseigene Bestände.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm erteilt der Einführung eines Mietendeckels eine klare Absage und setzt auf Wohnungsbau, Mietpreisbremse und eine gestärkte Mietpreisprüfstelle.",
+          "zitat": "Populistischen Forderungen nach Enteignungen oder der Einführung eines Mietendeckels erteilen wir eine klare Absage. Solche Eingriffe sind keine Lösung für den angespannten Wohnungsmarkt, sondern verschärfen die Situation: Sie schrecken Investitionen ab, verhindern Neubau und verringern das Wohnungsangebot.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD nennt als Ziel die Einführung eines rechtssicheren Mietendeckels – über eine Länderöffnungsklausel im Bundesrecht oder auf Grundlage von Art. 15 GG.",
+          "zitat": "Dabei ist unser Ziel auch die Einführung eines rechtssicheren Mietendeckels über eine Länderöffnungsklausel über die Bundesgesetzgebung oder auf Grundlage des Art. 15 GG.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Will einen Mietendeckel über eine Länderöffnungsklausel oder eine Bundesregelung ermöglichen.",
+          "zitat": "Dazu gehören für uns vor allem die Ermöglichung eines Mietendeckels entweder durch eine Länderöffnungsklausel oder als Bundesregelung, eine dauerhafte, starke und effektive Mietpreisbremse mit Sanktion bei Verstößen sowie eine wirksame Reform zur Bekämpfung von Mietwucher und Mietüberteuerung.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt einen Mietendeckel in jeglicher Form ab.",
+          "zitat": "Mietendeckel lehnen wir in jeglicher Form ab.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt planwirtschaftliche Instrumente auf dem Wohnungsmarkt strikt ab und setzt auf weniger Regulierung und ein größeres Wohnungsangebot als beste Mietpreisbremse.",
+          "zitat": "Wir lehnen planwirtschaftliche Instrumente und die Enteignung von Wohnungsunternehmen strikt ab, da durch sie nicht nur keine einzige neue Wohnung entsteht, sondern darüber hinaus Unternehmen ebenso wie private Vermieter von Investitionen in den Neubau und in den Bestandserhalt abgeschreckt werden.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Will in den ersten 100 Tagen einen Mietendeckel für die landeseigenen Wohnungsunternehmen mit einjährigem Mietenstopp einführen.",
+          "zitat": "Innerhalb der ersten 100 Tage der neuen Regierung wollen wir auf Grundlage eines Senatsbeschlusses einen Mietendeckel für die Landeseigenen Wohnungsunternehmen (LWU) einführen. Damit setzen wir einen einjährigen Mietenstopp durch.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm fordert einen neuen Anlauf für einen Mietendeckel und will per Bundesratsinitiative erreichen, dass ein Mietendeckel bundesweit eingeführt oder den Ländern ermöglicht wird.",
+          "zitat": "Wir brauchen außerdem einen weiteren Anlauf für einen Mietendeckel. Mit einer Bundesratsinitiative wollen wir erreichen, dass entweder bundesweit ein Mietendeckel für angespannte Wohnungsmärkte wie Berlin eingeführt oder zumindest ermöglicht wird und dass die Bundesländer selbständig über die Einführung eines solchen Mietendeckels entscheiden können.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt starre Mietendeckel ab und will stattdessen die Mietpreisbremse in angespannten Quartieren beibehalten und mehr Angebot schaffen.",
+          "zitat": "Wir lehnen starre Mietendeckel und pauschale Enteignungen ab, da die Evidenz zeigt, dass sie das eigentliche Problem verschärfen: Sie verknappen das Angebot, bremsen Investitionen in Modernisierung aus und binden im Fall von Enteignungen Milliarden an Entschädigungen, die für den Neubau fehlen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=28",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-19",
+      "wahl": "be26",
+      "frage": "Soll der Radwegeausbau nach dem Mobilitätsgesetz beschleunigt werden?",
+      "beschreibung": "Ob das Radverkehrsnetz aus dem Berliner Mobilitätsgesetz schneller und vollständig gebaut werden soll.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm will das Mobilitätsgesetz ändern, neue Radwege nur dort bauen, wo sie tatsächlich benötigt werden, und vorrangig bestehende Wege sanieren.",
+          "zitat": "Das Mobilitätsgesetz werden wir für ein faires Miteinander aller Verkehrsträger weiterentwickeln. Neue Radwege werden wir deshalb nur dort schaffen, wo sie tatsächlich benötigt werden und einen echten Beitrag zu sicheren und alltagstauglichen Verbindungen leisten.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=72",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD bekennt sich ausdrücklich zu den Vorgaben des Mobilitätsgesetzes, will es vervollständigen und sichern, den Radverkehrsplan konsequent umsetzen, das Radvorrangnetz priorisieren und bei den Radschnellverbindungen zur ursprünglichen Planung zurückkehren.",
+          "zitat": "Dabei bekennen wir uns ausdrücklich zu den Vorgaben des Mobilitätsgesetzes, vervollständigen und sichern es. Wir setzen uns für eine gerechtere Verteilung der Verkehrsflächen und das Konzept der kurzen Wege ein.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Der Radwegestopp soll beendet und das Radverkehrsnetz mit geschützten Radwegen an Hauptstraßen und Fahrradstraßen in Nebenstraßen umgesetzt werden.",
+          "zitat": "Wir Grüne beenden den Radwegestopp und setzen das Radverkehrsnetz um – mit sicheren, durchgängigen Radwegen an Hauptstraßen und mit Fahrradstraßen in Nebenstraßen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=87",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "teils",
+          "kurzfassung": "Die FDP will das Mobilitätsgesetz grundlegend überarbeiten, zugleich aber das Radwegenetz grundlegend ausbauen, vor allem über Fahrradstraßen parallel zu Hauptstraßen und Radschnellwege.",
+          "zitat": "Wir wollen das Mobilitätsgesetz grundlegend überarbeiten. Es geht um ein faires Miteinander aller Verkehrsteilnehmerinnen und Verkehrsteilnehmer und um bedarfsgerechte Verkehrsinfrastruktur und Mobilitätsangebote.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Das Programm will das Mobilitätsgesetz in ein Infrastrukturgesetz umwandeln, den Vorrang des Umweltverbundes streichen und die Ausbauvorgaben für das Radverkehrsnetz zurücknehmen.",
+          "zitat": "Eine Rücknahme utopischer Ausbauvorgaben des Radverkehrsnetzes ohne Realitätsbezug.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will die Umsetzung des Mobilitätsgesetzes beschleunigen und ein lückenloses Radwegenetz nach dem Radnetzplan ausbauen.",
+          "zitat": "Das Mobilitätsgesetz werden wir evaluieren und weiterentwickeln. Wir werden ein breites Bündnis mit der Stadtgesellschaft schmieden und die Umsetzung des Mobilitätsgesetzes beschleunigen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=55",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "teils",
+          "kurzfassung": "Das Programm will ein sicheres, zusammenhängendes Radwegenetz und fehlende Verbindungen vor allem in den Randlagen gezielt ausbauen; das Mobilitätsgesetz oder eine Beschleunigung werden nicht genannt, unnötige Parkplatzvernichtung wird kritisch gesehen.",
+          "zitat": "Vor allem in den Randlagen fehlen oft sichere Verbindungen zwischen Ortsteilen, Schulen, Wohngebieten und Bahnhöfen. Diese Verbindungen wollen wir gezielt ausbauen.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "ja",
+          "kurzfassung": "Das Programm will Radwege, Fahrradstraßen und Radschnellverbindungen zügig ausbauen, gestoppte Radschnellwege wieder planen und den Radverkehrsplan umsetzen.",
+          "zitat": "Wir planen und bauen Radwege, Fahrradstraßen und Radschnellverbindungen konsequent und zügig aus. Insbesondere fordern wir, die Planung der gestoppten Radschnellwege unverzüglich wieder aufzunehmen und zügig umzusetzen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=34",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-20",
+      "wahl": "be26",
+      "frage": "Sollen die Berliner Hochschulen wieder mehr Geld bekommen?",
+      "beschreibung": "Ob die Kürzungen bei den Hochschulverträgen zurückgenommen und die Mittel wieder erhöht werden sollen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "teils",
+          "kurzfassung": "Das Programm will den Hochschulen zusätzliche finanzielle Spielräume über begrenzte Studienbeiträge eröffnen und den Sanierungsstau abbauen; eine Aufstockung der Hochschulverträge aus Landesmitteln wird nicht genannt.",
+          "zitat": "Wir wollen den Hochschulen zusätzliche finanzielle Spielräume eröffnen und dazu in klar begrenztem Umfang Studienbeiträge für bestimmte Gruppen ermöglichen – etwa bei deutlicher Überschreitung der Regelstudienzeit oder für Studierende aus Nicht-EU-Staaten.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "teils",
+          "kurzfassung": "Die SPD will die Hochschulfinanzierung stabil und verlässlich gestalten, analog zum Pakt für Forschung und Innovation, und Hochschulbauten über eine landesfinanzierte Hochschulbaugesellschaft sanieren; eine konkrete Aufstockung der Hochschulverträge nennt sie nicht.",
+          "zitat": "Die Hochschulfinanzierung gestalten wir stabil und verlässlich, analog zum Pakt für Forschung und Innovation (PFI). Spitzenforschung und Spitzenberufungen stärken wir über die Einstein-Stiftung auch im internationalen Wettbewerb.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Die Hochschulverträge sollen partizipativ neu gestaltet und die Hochschulfinanzierung verlässlich erhöht werden.",
+          "zitat": "Deshalb wollen wir Hochschulverträge künftig in einem partizipativen Prozess mit den Hochschulen, unter Einbeziehung ihrer Gremien, neugestalten, die Finanzierung verlässlich erhöhen und so nachhaltig wieder auf rechtlich sichere Füße stellen, um auch langfristige Planungssicherheit zu gewährleisten, Kostensteigerungen abzufedern und verlorenes Vertrauen wiederherzustellen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=114",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Hochschulvertr', 'Hochschulen', 'Hochschulfinanz', 'Grundfinanzierung', 'Hochschulbudget', 'Kürzung', 'finanz|Mittel|Haushalt' im Kapitel Hochschule und Qualifizierung (S. 12–14). Das Programm lobt die Hochschulverträge als bewährtes Instrument und will sie in einem Hochschulfreiheitsgesetz verstetigen (S. 12) sowie einen Masterplan gegen bauliche Mängel (S. 14), nennt aber keine Aufstockung oder Höhe der Hochschulfinanzierung."
+        },
+        {
+          "partei_id": 25,
+          "position": "ja",
+          "kurzfassung": "Das Programm will die Grundfinanzierung der Hochschulen erhöhen und eine zusätzliche Forschungsmilliarde investieren.",
+          "zitat": "Wir wollen die entstandene Abhängigkeit der Hochschulen von Drittmitteln zurückfahren und deshalb die Grundfinanzierung der Hochschulen erhöhen.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will nach den Kürzungen des CDU-SPD-Senats verlässliche Hochschulverträge abschließen, die die Hochschulen auskömmlich finanzieren.",
+          "zitat": "Wir wollen nach der Kahlschlagpolitik des CDU-SPD-Senats verlässliche Hochschulverträge abschließen, welche den Aufgaben der Hochschulen gerecht werden und diese auskömmlich finanzieren.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=219",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm fordert, die Landeszuschüsse für die Berliner Hochschulen auf mindestens zwei Prozent des Berliner Bruttoinlandsprodukts zu erhöhen.",
+          "zitat": "Wir fordern, die Landeszuschüsse für die Berliner Hochschulen auf mindestens zwei Prozent des Berliner Bruttoinlandsprodukts (BIP) zu erhöhen. So kann die Abhängigkeit von Drittmitteln reduziert und die wissenschaftliche Freiheit gefördert werden.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=17",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "teils",
+          "kurzfassung": "Das Programm will den Hochschulen eine verlässliche, planbare Grundfinanzierung mit langfristigen Budgetperspektiven sichern und zusätzliche Studienplätze schaffen.",
+          "zitat": "Wir sichern den Berliner Hochschulen eine verlässliche und planbare Grundfinanzierung. Mit langfristigen Budgetperspektiven ermöglichen wir, Personal dauerhaft zu binden, Studienangebote bedarfsgerecht auszubauen und Forschungsprojekte nachhaltig zu planen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=52",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-21",
+      "wahl": "be26",
+      "frage": "Soll Gendern mit Sonderzeichen in Verwaltung und Schulen untersagt werden?",
+      "beschreibung": "Ob Schreibweisen wie Sternchen oder Doppelpunkt in Behörden und Schulen verboten werden sollen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm lehnt die Verwendung von Gendersprache in Behörden und öffentlichen Einrichtungen ab und fordert für Schulen „weniger Gendern“.",
+          "zitat": "Maßstab für die Kommunikation der Verwaltung muss korrektes, verständliches Deutsch sein. Deshalb lehnen wir die Verwendung der künstlichen Gendersprache in Behörden und öffentlichen Einrichtungen ab.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=89",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "nein",
+          "kurzfassung": "Die SPD unterstützt eine geschlechterinklusive Verwaltungssprache und lehnt ein Verbot der Verwendung von Sonderzeichen ab.",
+          "zitat": "Wir unterstützen eine geschlechterinklusive Verwaltungssprache. Ein Verbot der Verwendung von Sonderzeichen lehnen wir ab.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Treffer für Gendern, Sonderzeichen, Genderstern, Sternchen, geschlechtergerechte Sprache, Schreibweise, Sprachverbot, Verwaltungssprache; Treffer zu „Gender“ betreffen nur Gender Pay Gap, Gender Budgeting, agender und geschlechtergerechte Hochschulen/Meisterausbildung. Das Programm verwendet selbst den Genderstern, äußert sich aber nicht zu einem Verbot."
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Gender', 'Gendern', 'Genderstern', 'Sonderzeichen', 'geschlechtergerecht', 'Binnen-I', 'Sprache'. Treffer zu 'Sprache' betreffen nur Deutsch/Englisch in der Verwaltung, Leichte Sprache und Deutschförderung; geschlechtergerechte Sprache wird nicht erwähnt."
+        },
+        {
+          "partei_id": 25,
+          "position": "teils",
+          "kurzfassung": "Das Programm will die Gendersprache an Schulen untersagen und lehnt sie allgemein ab; ein Verbot in der Verwaltung wird nicht genannt.",
+          "zitat": "Die Verwendung der sogenannten Gendersprache werden wir an Schulen untersagen.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Gendern, Genderstern, Sternchen, Sonderzeichen, geschlechtergerechte/gendergerechte/geschlechtersensible Sprache, Genderverbot, Verwaltungssprache, Amtssprache. Keine Aussage zu einem Verbot oder Gebot geschlechtergerechter Sprache; das Programm selbst verwendet durchgehend den Genderstern (z. B. „Berliner*innen“)."
+        },
+        {
+          "partei_id": 27,
+          "position": "teils",
+          "kurzfassung": "Das Programm lehnt eine Pflicht zum Gendern und einen De-facto-Genderzwang an Hochschulen ab, will aber niemandem das Gendern verbieten; Verwaltungen und Behörden sollen eine für alle verständliche Sprache verwenden.",
+          "zitat": "Wer gendern möchte, soll dies tun, eine Pflicht lehnen wir aber ab. Dass an Hochschulen und in studentischen Körperschaften ein De-facto-Gendersprachzwang herrscht, lehnen wir ebenfalls ab.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=32",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'gender', 'Sonderzeichen', 'Sternchen', 'geschlechtergerecht', 'Sprache'. Keine Aussage zu geschlechtergerechter Sprache in Verwaltung oder Schulen (das Programm selbst verwendet den Genderstern)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-22",
+      "wahl": "be26",
+      "frage": "Soll Berlin neue U-Bahn-Strecken bauen?",
+      "beschreibung": "Ob das Land U-Bahn-Linien verlängern oder neu bauen soll, statt den Ausbau vor allem auf Straßenbahnen zu konzentrieren.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "ja",
+          "kurzfassung": "Das Programm will die U-Bahn-Verlängerungen U2, U3, U6, U7, U8 und U9 vorantreiben und die U10 planungsrechtlich sichern; Straßenbahnen nur dort erweitern, wo sie Netze sinnvoll ergänzen.",
+          "zitat": "Wichtige U-Bahn-Projekte wie die Verlängerungen der Linien U2, U3, U6, U7, U8 und U9 werden wir weiter vorantreiben. Auch langfristige Vorhaben wie die U10 werden wir planungsrechtlich sichern.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=73",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "teils",
+          "kurzfassung": "Die SPD gibt dem Straßenbahnausbau Vorrang, will aber begonnene U-Bahn-Projekte (U3 Mexikoplatz, U7 BER und Heerstraße Nord, U8 Märkisches Viertel) zügig weiterführen und mit der Planung einer U-Bahn vom Alexanderplatz nach Hohenschönhausen beginnen.",
+          "zitat": "Begonnene U-Bahn-Projekte führen wir zügig weiter, darunter die Verlängerung der U3 zum Mexikoplatz, der U7 zum BER und zur Heerstraße Nord sowie der U8 ins Märkische Viertel. Wo neue Strecken noch fehlen, ergänzen wir sie vorübergehend mit Express-Buslinien.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "teils",
+          "kurzfassung": "Schwerpunkt ist der Ausbau der Straßenbahn und des S-Bahn-Netzes; U-Bahn-Erweiterungen werden nur geprüft und müssen ein positives Nutzen-Kosten-Verhältnis haben.",
+          "zitat": "Dafür treiben wir auch die Erweiterung des S-Bahn- und Tramnetzes voran und prüfen welche Erweiterungen und Neubaumaßnahmen im Rahmen des U-Bahnnetzes umsetzbar sind. Entscheidende Kriterien sind ein positives Nutzen-Kosten-Verhältnis, hohe Fahrgastgewinne und zusätzliche Netzverknüpfungen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=84",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Die FDP setzt sich insbesondere für den Ausbau des U-Bahn-Netzes ein, das anders als Bus und Straßenbahn nicht im Stau stehe, und will jährlich ein bis zwei Kilometer zusätzlich bauen.",
+          "zitat": "Um den begrenzten Straßenraum zu entlasten, setzen wir uns insbesondere für den Ausbau des U-Bahn-Netzes ein. Die U-Bahn wird wie kein anderes Verkehrsmittel von den Fahrgästen akzeptiert und motiviert stark zum Umstieg auf den ÖPNV – denn anders als Bus und Straßenbahn steht sie nicht im Stau und legt Strecken im Vergleich erheblich zügiger zurück.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach 'U-Bahn', 'Straßenbahn', 'Tram', 'Verlängerung', 'Neubaustrecke', 'Schienennetz'; Verkehrskapitel (S. 41–44) gelesen. Gefordert wird nur „Einen zügigen Ausbau des Schienennetzes und den Einsatz moderner, ressourcenschonender Verkehrssysteme wie Seilbahnen“ (S. 42) sowie CBTC; keine Festlegung U-Bahn gegenüber Straßenbahn."
+        },
+        {
+          "partei_id": 26,
+          "position": "teils",
+          "kurzfassung": "Die Linke sieht U-Bahn-Erweiterungen vor allem zur Schließung von Netzlücken als sinnvoll an, setzt beim Ausbau aber vorrangig auf die Straßenbahn.",
+          "zitat": "Die Erweiterung des U-Bahn-Netzes halten wir vor allem zur Schließung bestehender Netzlücken für sinnvoll.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=59",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "teils",
+          "kurzfassung": "Das Programm will U-Bahn-Verlängerungen und Lückenschlüsse dort vorantreiben, wo sie klaren Nutzen bringen, und zugleich das Straßenbahnnetz erweitern, wo es Versorgungslücken schließt – also beides, ohne Vorrang für die U-Bahn.",
+          "zitat": "U-Bahn-Verlängerungen und Lückenschlüsse sollen dort vorangebracht werden, wo sie einen klaren Nutzen bringen und neue wie bestehende Quartiere besser anbinden. Auch das Straßenbahnnetz soll dort erweitert werden, wo es die Erschließung verbessert und Versorgungslücken schließt.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "teils",
+          "kurzfassung": "Das Programm will über einen Nahverkehrsplan den Ausbau von U-Bahn, Tram, S-Bahn und Regionalverkehr integriert abstimmen und neue Tangentialverbindungen vor allem als Tram- und Expressbuslinien schaffen.",
+          "zitat": "Wir setzen dafür zeitnah einen modernen Nahverkehrsplan um, der Investitionen bündelt, Takte verbessert und neue Tangentialverbindungen wie Tram‑ und Expressbuslinien schafft. Der Ausbau von U‑Bahn, Tram, S‑Bahn und Regionalverkehr wird dabei integriert und frühzeitig abgestimmt, sodass Kosten und Planungsdauer sinken.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=32",
+          "begruendung": null
         }
       ],
       "zielkonflikte": []

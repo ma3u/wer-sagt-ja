@@ -1,7 +1,7 @@
 # Wer sagt Ja?
 
-> Kostenloses Mehrspieler-Quiz zu den Wahlprogrammen der Bundestagswahl 2025. Zu jeder Frage raten bis zu acht
-> Personen, welche der acht Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
+> Kostenloses Mehrspieler-Quiz zu Wahlprogrammen – Bundestagswahl 2025 und Abgeordnetenhauswahl Berlin 2026, je
+> Wahl ein eigener Katalog. Zu jeder Frage raten bis zu acht Personen, welche Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
 > Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
 
 Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Konto und ohne Cookies.
@@ -19,6 +19,7 @@ Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Kon
 ## Daten
 
 - [Alle Fragen mit Belegen](https://wersagtja.de/#/fragen): lesbare Übersicht aller Fragen mit
+  Positionen und Belegen zur Bundestagswahl 2025; [Berlin 2026](https://wersagtja.de/#/be26/fragen) ebenso mit
   Position, Zitat und Beleg jeder Partei; je Partei unter `#/fragen/<partei>` (etwa `#/fragen/volt`), je Frage unter
   `#/fragen/<partei>/<frage-id>`. Jede Position hat „Position bestätigen“ und „Fehler melden“ (vorausgefülltes
   GitHub-Issue); bestätigte Positionen tragen `geprueft` mit dem Issue als Nachweis.
