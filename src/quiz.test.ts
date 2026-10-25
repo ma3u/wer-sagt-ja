@@ -31,8 +31,9 @@ describe('anleitung', () => {
 })
 
 describe('bewerte', () => {
-  const mehr = { art: 'mehrfach' as const, richtig: [12, 13, 16], neutral: [15] }
-  const ein = { art: 'einzeln' as const, richtig: [15], neutral: [] }
+  const parteien = (von: number, bis: number) => Array.from({ length: bis - von + 1 }, (_, i) => ({ partei_id: von + i }))
+  const mehr = { art: 'mehrfach' as const, richtig: [12, 13, 16], neutral: [15], positionen: parteien(11, 17) }
+  const ein = { art: 'einzeln' as const, richtig: [15], neutral: [], positionen: parteien(11, 17) }
 
   it('volle Punkte für sofort und vollständig richtig, halbe bei Zeitablauf', () => {
     expect(bewerte(mehr, [12, 13, 16], 0).punkte).toBe(1000)
@@ -46,6 +47,14 @@ describe('bewerte', () => {
     expect(bewerte(mehr, [12, 13, 11], 0)).toMatchObject({ treffer: 2, fehler: 1, punkte: 333 })
     expect(bewerte(mehr, [], 0).punkte).toBe(0)
     expect(bewerte(mehr, [11, 12, 13, 14, 15, 16, 17], 0).punkte).toBe(0)
+  })
+
+  it('Mehrfachauswahl: alles ankreuzen bringt auch dann 0, wenn die meisten Parteien Ja sagen', () => {
+    const viele = { art: 'mehrfach' as const, richtig: [11, 12, 13, 14, 15], neutral: [16], positionen: parteien(11, 18) }
+    expect(bewerte(viele, [11, 12, 13, 14, 15, 16, 17, 18], 0)).toMatchObject({ treffer: 5, fehler: 2, punkte: 0 })
+    expect(bewerte(viele, [11, 12, 13, 14, 15, 17], 0)).toMatchObject({ fehler: 1, punkte: 500 })
+    expect(bewerte(viele, [11, 12, 13, 14, 15], 0).punkte).toBe(1000)
+    expect(bewerte(viele, [11, 12, 13], 0).punkte).toBe(600)
   })
 
   it('Einzelauswahl: nur genau die richtige Partei zählt', () => {
