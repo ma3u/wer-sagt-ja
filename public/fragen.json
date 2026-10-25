@@ -14828,6 +14828,990 @@
       "zielkonflikte": []
     },
     {
+      "id": "bw26-23",
+      "wahl": "bw26",
+      "frage": "Soll die Pflicht zu Solaranlagen auf Neubauten und bei Dachsanierungen abgeschafft werden?",
+      "beschreibung": "Ob die Photovoltaik-Pflicht in Baden-Württemberg, die beim Neubau und bei der Sanierung des Dachs gilt, wieder entfällt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "teils",
+          "kurzfassung": "Die CDU will den Photovoltaikausbau fortsetzen, aber sicherstellen, dass niemand zum Bau nachweislich unwirtschaftlicher Anlagen gezwungen wird.",
+          "zitat": "Diesen erfolgreichen Weg wollen wir weiter beschreiten. Zugleich wollen wir sicherstellen, dass niemand zum Bau nachweislich unwirtschaftlicher Anlagen gezwungen wird.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Photovoltaik, Solar, PV-Pflicht, Pflicht, Dach, Neubau, Sanierung, Landesbauordnung, Baustandards, Gebäudeenergie; Kapitel 3 Wohnen und 8.1 Umwelt, Klima und Energie. Nur Flächen für Freiflächen-PV, PV auf Landesliegenschaften und allgemeine Vereinfachung von Baustandards, keine Aussage zur PV-Pflicht."
+        },
+        {
+          "partei_id": 73,
+          "position": "nein",
+          "kurzfassung": "Das Programm hebt die Photovoltaik-Pflicht für Neubauten und Dachsanierungen als Beleg für die Vorreiterrolle des Landes im Klimaschutz hervor.",
+          "zitat": "Mit dem CO2-Schattenpreis beim Bau und bei Beschaffungen, der Photovoltaik-Pflicht für Neubauten und Dachsanierungen und der Strategie für eine klimaneutrale Landesverwaltung bis 2030 ist Baden-Württemberg Vorreiter.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "ja",
+          "kurzfassung": "Die FDP will Vorschriften wie die Photovoltaik-Pflicht abschaffen, weil sie private Bauherren übermäßig belasteten.",
+          "zitat": "Vorschriften wie die Photovoltaik-Pflicht abschaffen. Solche Regulierungen sind Eingriffe in die individuelle Freiheit und belasten vor allem die privaten Häuslebauer übermäßig.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Photovoltaik-Pflicht für Gebäude in Baden-Württemberg ersatzlos streichen, um Wohnkosten zu senken.",
+          "zitat": "Wir möchten daher keine PV-Anlagenpflicht in Baden-Württemberg für alle Immobilien. So sollen Kostensteigerungen für das Wohnen vermieden werden.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=61",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Solar, Photovoltaik, PV-Pflicht, Dach, Sonnenenergie, Balkonkraftwerk, Pflicht; Kapitel Wohnungsbau und sozialverträglicher Klimaschutz, Energiewende. Nur Förderung von Solargenossenschaften, Mieterstrom und Solarparks in Bürgerhand, keine Aussage zur Solarpflicht."
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Photovoltaik, Solar, PV-Pflicht, Solarpflicht, Pflicht/Dach/Neubau, Bauvorschriften, Gebäudeenergie, Heizungsgesetz; Kapitel 3.2 Wohnen und 14.1 Energiewende. Das Programm will Photovoltaik vorrangig auf Dächern statt auf Ackerland, äußert sich aber nicht zur PV-Pflicht bei Neubau oder Dachsanierung."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Solar, Photovoltaik, PV, Sonnenkraft, Dach, Pflicht im Kapitel Umwelt/Energie (S. 26-27) und im ganzen Programm; nur allgemein „Sonnenkraft auf Dächern und Parkplätzen“ (S. 26) und „Technik statt Verbote“, nichts zur Solarpflicht bei Neubau oder Dachsanierung."
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Solarpflicht, PV-Pflicht, Photovoltaik(-pflicht), Pflicht/verpflichtend (auch ohne fl-Ligatur), Solaranlage, Solardach, Neubau, Dachsanierung; Kapitel Energiewende (S. 35-39), Wärmewende und Gebäude energetisch sanieren (S. 39-42), Wohnen (S. 45-51). Volt will Photovoltaik auf Hausdächern fördern, äußert sich aber nicht zur PV-Pflicht bei Neubau oder Dachsanierung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-24",
+      "wahl": "bw26",
+      "frage": "Soll die Mietpreisbremse in Baden-Württemberg abgeschafft werden?",
+      "beschreibung": "Ob das Land die Verordnung zur Mietpreisbremse auslaufen lässt und weniger in den Wohnungsmarkt eingreift.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreis(bremse), Miet*, Mieterschutz, Kappungsgrenze, Wohnungsmarkt; Kapitel Bau- und Wohnland (S. 26–27). Das Programm bekennt sich allgemein zu einem „wirksamen und angemessenen Mieterschutz“ und zur Balance zwischen Mieter- und Vermieterrechten, äußert sich aber nicht zur Mietpreisbremse."
+        },
+        {
+          "partei_id": 72,
+          "position": "nein",
+          "kurzfassung": "Die SPD will die Mietpreisbremse auf mehr Kommunen ausweiten und ihre Wirkung stärken.",
+          "zitat": "Um bezahlbaren Wohnraum zu sichern, weiten wir die Mietpreisbremse sowie das Umwandlungsverbot auf mehr Kommunen aus und stärken deren Wirkung.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "nein",
+          "kurzfassung": "Die Mietpreisbremse soll dauerhaft gelten und ihre Gebietskulisse in Baden-Württemberg bedarfsgerecht ausgeweitet werden.",
+          "zitat": "Wir setzen uns dafür ein, dass die Mietpreisbremse als dauerhaftes Instrument im Mietrecht eingesetzt wird. Die Gebietskulisse zur Mietpreisbremse in Baden-Württemberg wollen wir bedarfsgerecht ausweiten, sodass mehr Menschen vor zu hohen Mieten geschützt sind.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "ja",
+          "kurzfassung": "Die FDP will staatliche Eingriffe in den Wohnungsmarkt wie Mietpreisbremsen, Zweckentfremdungsverbote und Leerstandskontrollen abschaffen.",
+          "zitat": "staatliche Eingriffe in den Wohnungsmarkt wie Mietpreisbremsen, Zweckentfremdungsverbote oder Leerstands-Kontrollen abschaffen, um Investitionen in den Wohnungsbau und Sanierungen anzuregen, anstatt abzuschrecken.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreis, Mietpreisbremse, bremse, Miete, Mieter, Mietrecht, Kappungs, Zweckentfremd, Mietendeckel, Wohnungsmarkt; Kapitel XI 3 „Bauen und Wohnen“ (S. 60–62) gelesen. Das Programm will den Wohnungsbau „von seinen politischen Fesseln befreien“ und Eigentum fördern, sagt aber nichts zur Mietpreisbremse."
+        },
+        {
+          "partei_id": 76,
+          "position": "nein",
+          "kurzfassung": "Das Programm hält die Mietpreisbremse für wirkungslos und will Mieten stattdessen mit einem bundesweiten Mietendeckel stärker regulieren.",
+          "zitat": "Deswegen hilft es nicht allein Wohnraum zu schaffen, sondern die Miete im Bestand und Neubau müssen mit einem bundesweiten Mietendeckel effektiv reguliert werden und nicht mit einer wirkungslosen Mietpreisbremse.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "nein",
+          "kurzfassung": "Das BSW will die Mietpreisbremse nicht abschaffen, sondern wirksam machen und den Mieterschutz stärken; zusätzlich fordert es einen Mietendeckel.",
+          "zitat": "Mieterschutz muss gestärkt, die Mietpreisbremse wirksam gemacht werden und die Wohnbauförderung sich stärker auf untere und mittlere Einkommen konzentrieren.",
+          "beleg_url": "https://bw.bsw-vg.de/wp-content/uploads/2025/12/Landtagswahlprogramm_2026_BSW_BW_Final.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 78,
+          "position": "teils",
+          "kurzfassung": "Die Freien Wähler wollen mehr Wohnungsbau und Sozialwohnungen statt einer Deckelung der Mieten.",
+          "zitat": "Wohnungsbau fördern – statt Mieten zu deckeln! Mehr Sozialwohnungen und mehr Ausweisungen von Baugebieten, um ein qualitatives Leben durch sicheren Wohnraum zu garantieren.",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Mietpreis, Mietendeckel, Kappungsgrenze, Vergleichsmiete, Mietspiegel, Mieterschutz; Kapitel Wohnen & Stadtentwicklung (S. 45-51). Das Programm fordert faire Mietpreise und fördert kommunalen/genossenschaftlichen Wohnungsbau, nennt die Mietpreisbremse aber nicht."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-25",
+      "wahl": "bw26",
+      "frage": "Soll Baden-Württemberg neue Gentechnik wie die Genschere CRISPR in der Landwirtschaft unterstützen?",
+      "beschreibung": "Ob das Land neue Züchtungsverfahren zulässt und fördert, statt auf gentechnikfreie Landwirtschaft zu setzen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gentechnik, gentechnikfrei, Genschere, CRISPR, NGT, Genom, Züchtung, Pflanzenzucht, Saatgut, Sorte, resistent, Biotechnologie; Kapitel Landwirtschaftsland und Umweltland (S. 28–30). Biotechnologie wird nur als Wirtschafts- und Forschungsfeld genannt, nicht für die Landwirtschaft."
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gentechnik, gentechnikfrei, CRISPR, Genschere, NGT, Züchtung, Saatgut, Pflanzenschutz; Kapitel 8.1 Umwelt, Klima und Energie (Landwirtschaft) und 10 Wissenschaft & Forschung. Keine Aussage zu neuer Gentechnik."
+        },
+        {
+          "partei_id": 73,
+          "position": "nein",
+          "kurzfassung": "Das Programm setzt auf den Schutz der gentechnikfreien Land- und Lebensmittelwirtschaft und hält am Vorsorgeprinzip fest.",
+          "zitat": "Zur Sicherung der Wertschöpfungsketten, des Ökolandbaus und der Qualitätsstrategie des Landes setzen wir uns für den Schutz der gentechnikfreien Land- und Lebensmittelwirtschaft ein – und damit für die Wahlfreiheit für Verbraucher*innen und Landwirt*innen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=46",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Gentechnik, gentech, Genschere, CRISPR, Züchtung, Genom, Saatgut, gentechnikfrei, Biotechnologie, Bioökonomie, synthetische Biologie. Kapitel 'Für echte Landwirte und mündige Verbraucher' (S. 15) und Forschungskapitel gelesen: nur allgemein Zugang zu 'neuester Technik und Innovationen' und Pflanzenschutz auf wissenschaftlicher Basis; neue Gentechnik/Züchtungsverfahren werden nicht erwähnt."
+        },
+        {
+          "partei_id": 75,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gentechn, CRISPR, Genschere, Genom, NGT, Züchtung, Saatgut, Sorten, Pflanzenschutz, Biotechn, gentechnikfrei; Kapitel V 3 „Landwirtschaft neu denken“ (S. 32–33) und VIII 3.1 „Natur, Technik und Landwirtschaft in Einklang bringen“ (S. 44) gelesen. Keine Aussage zu neuer Gentechnik."
+        },
+        {
+          "partei_id": 76,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gentechnik, gentechnikfrei, CRISPR, Genschere, Züchtung, Saatgut, Biotechnologie; Kapitel Sozial-ökologische Land- und Forstwirtschaft, Landwirtschaft. Keine Aussage zu neuer Gentechnik."
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gentechnik, CRISPR, Genschere, Züchtung, NGT, gentechnikfrei, genmanipuliert, Saatgut; Kapitel 14.4 Landwirtschaft vollständig gelesen. Keine Aussage zu neuen Züchtungsverfahren oder Gentechnik."
+        },
+        {
+          "partei_id": 78,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen einen verantwortungsvollen Einsatz von Gentechnik in der Landwirtschaft, vor allem für klimaangepasste Sorten, mit ethischen Leitlinien.",
+          "zitat": "Verantwortungsvollen Gentechnikeinsatz, insbesondere zur Anpassung an die Klimafolgen! Dazu gehören klare ethische Leitlinien, transparente Forschung und ein Fokus auf Sorten, die Trockenheit, Hitze und Schädlinge besser überstehen – ohne die ökologische Balance zu gefährden.",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=33",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "ja",
+          "kurzfassung": "Volt will das Netzwerk gentechnikfreier Regionen verlassen und neue Züchtungsverfahren wie CRISPR/Cas unter strengen wissenschaftlichen Standards zulassen und fördern.",
+          "zitat": "Forschungseinrichtungen und kleine wie mittlere Züchtungsunternehmen werden gezielt gefördert, damit Innovation nicht nur großen Konzernen vorbehalten bleibt. Klare Regeln sorgen dafür, dass biologische, konventionelle und gentechnische Anbausysteme nebeneinander bestehen können.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=171",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-26",
+      "wahl": "bw26",
+      "frage": "Sollen Supermärkte auch sonntags öffnen dürfen?",
+      "beschreibung": "Ob das Ladenöffnungsgesetz Supermärkten ein Öffnungsfenster an Sonn- und Feiertagen erlaubt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "teils",
+          "kurzfassung": "Die CDU will die Sonntagsöffnung nur für vollautomatisierte, personalfreie Läden erlauben und den Sonntagsschutz im Übrigen erhalten.",
+          "zitat": "Wir ermöglichen die Sonntagsöffnung für vollautomatisierte, personalfreie Läden. So schaffen wir zeitgemäße Nahversorgung insbesondere im ländlichen Raum, ohne den Sonntagsschutz als Ganzes oder die Belange des Verkaufspersonals aufzugeben.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Sonntag, Feiertag, Ladenöffnung, Ladenschluss, Öffnungszeiten, Laden, Einzelhandel, Supermarkt; Kapitel 1 Wirtschaft und Arbeit. Keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 73,
+          "position": "teils",
+          "kurzfassung": "Das Ladenöffnungsgesetz soll so geändert werden, dass nur automatisierte Mini-Supermärkte ohne Personal auch sonntags öffnen dürfen.",
+          "zitat": "Wir streben eine Änderung des Ladenöffnungsgesetzes an, um automatisierten Mini-Supermärkten ohne Personal auch am Sonntag die Öffnung zu ermöglichen und so die Nahversorgung zu stärken.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=69",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Ladenöffnung, Ladenschluss, Öffnungszeit, Sonntag, Sonn-, Feiertag, Supermarkt, Einzelhandel, Verkaufsstelle, Späti, Shop. Treffer nur zu Innenstädten/Einzelhandel allgemein (S. 10) und Landesmaut (S. 50); keine Aussage zu Sonntagsöffnung."
+        },
+        {
+          "partei_id": 75,
+          "position": "nein",
+          "kurzfassung": "Die AfD will Sonn- und Feiertage schützen und erhalten.",
+          "zitat": "Wir werden die Sonn- und Feiertage schützen und erhalten.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Sonntag, Feiertag, Ladenöffnung, Ladenschluss, Öffnungszeiten, Supermarkt, Einzelhandel, Dorfladen, personallos; Kapitel Ländlicher Raum, Arbeit, Frauenpolitik. Nur Forderungen nach neuen gesetzlichen Feiertagen, keine Aussage zu Ladenöffnung an Sonntagen."
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Sonntag, Sonn-, Feiertag, Ladenöffnung, Ladenschluss, Öffnungszeiten, Supermarkt, Einzelhandel, Arbeitszeitgesetz; Kapitel 2 Wirtschaft und 12 Kommunen. Keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Sonntag, Feiertag, Laden, Ladenöffnung, Einkauf, Supermarkt im ganzen Programm (u. a. Wirtschaft S. 7-8, Ländlicher Raum S. 32-33); kein Treffer zu Öffnungszeiten."
+        },
+        {
+          "partei_id": 79,
+          "position": "ja",
+          "kurzfassung": "Volt will das Ladenöffnungsgesetz ändern und Supermärkten ein geregeltes Öffnungsfenster an Sonn- und Feiertagen von 10 bis 18 Uhr erlauben.",
+          "zitat": "die Einführung eines klar geregelten Öffnungsfensters für Supermärkte an Sonn- und Feiertagen von 10 Uhr bis 18 Uhr",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=31",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-27",
+      "wahl": "bw26",
+      "frage": "Soll der Rundfunkbeitrag abgeschafft werden?",
+      "beschreibung": "Ob Baden-Württemberg die Beitragsfinanzierung des öffentlich-rechtlichen Rundfunks beenden will, notfalls durch Kündigung der Staatsverträge.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "nein",
+          "kurzfassung": "Die CDU will den öffentlich-rechtlichen Rundfunk erhalten, reformieren und durch Einsparungen den Beitrag stabil halten.",
+          "zitat": "Durch volle Kostentransparenz auf allen Ebenen und die konsequente Nutzung vorhandener Einsparpotentiale wollen wir Beitragsstabilität gewährleisten und die Kosten für die Beitragszahlerinnen und -zahler begrenzen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "nein",
+          "kurzfassung": "Die SPD hält einen leistungsfähigen und effizienten öffentlich-rechtlichen Rundfunk für unerlässlich.",
+          "zitat": "Für eine starke Demokratie ist auch ein leistungsfähiger und effizienter öffentlich-rechtlicher Rundfunk im Land unerlässlich.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunkbeitrag, Rundfunk, Beitrag, Gebühr, öffentlich-rechtlich, SWR, ARD, ZDF, Staatsvertrag, Medienstaatsvertrag (Kap. Medien/Demokratie, S. 74). Zur Beitragsfinanzierung sagt das Programm nichts."
+        },
+        {
+          "partei_id": 74,
+          "position": "nein",
+          "kurzfassung": "Die FDP will den öffentlich-rechtlichen Rundfunk nicht abschaffen, sondern schlanker auf seine Kernaufgaben ausrichten und die Empfehlungen des Zukunftsrats umsetzen.",
+          "zitat": "Der öffentlich-rechtliche Rundfunk muss sich wieder stärker auf seine Kernaufgabe konzentrieren: Information, Bildung, Kultur und regionale Identität. Wir wollen ein schlankes Programm, bei dem die Macher in hochwertige Inhalte statt in teure Sportrechte investieren, die Menschen von jung bis alt informieren und zusammenbringen.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=89",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "ja",
+          "kurzfassung": "Die AfD will den Rundfunkbeitrag sofort abschaffen, den SWR-Staatsvertrag kündigen und den öffentlich-rechtlichen Rundfunk auf ein freiwilliges Bezahlmodell umstellen.",
+          "zitat": "Zugleich ist die Berichterstattung einseitig, politisch gesteuert und oft tendenziös. Die AfD Baden-Württemberg setzt sich daher für die sofortige Abschaffung des Rundfunkzwangsbeitrags ein.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "nein",
+          "kurzfassung": "Das Programm will den öffentlich-rechtlichen Rundfunk stärken und seine Weiterentwicklung nach dem bisherigen Rundfunkstaatsvertrag sichern.",
+          "zitat": "Online-Angebote in Mediatheken müssen dauerhaft erhalten bleiben, und eine Weiterentwicklung des öffentlich-rechtlichen Rundfunks nach dem bisherigen Rundfunkstaatsvertrag muss gesichert werden.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "nein",
+          "kurzfassung": "Das BSW will den Rundfunkbeitrag nicht abschaffen, sondern nicht erhöhen und für kleine und mittlere Einkommen auf höchstens zehn Euro im Monat begrenzen; der öffentlich-rechtliche Rundfunk soll reformiert und verschlankt werden.",
+          "zitat": "Keine Erhöhung des Rundfunkbeitrags und maximal zehn Euro monatlicher Rundfunkbeitrag für Menschen mit kleinen und mittleren Einkommen.",
+          "beleg_url": "https://bw.bsw-vg.de/wp-content/uploads/2025/12/Landtagswahlprogramm_2026_BSW_BW_Final.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk, Rundfunkbeitrag, GEZ, ARD, ZDF, SWR, öffentlich-rechtlich, Staatsvertrag, Medien im ganzen Programm (u. a. Digitalisierung S. 23-24); nur Medienkompetenz in der Schule."
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk, Rundfunkbeitrag, GEZ, öffentlich-rechtlich, SWR, Medienstaatsvertrag, Staatsvertrag, Medien, Presse, Journalismus; Kapitel Innere Sicherheit/Freie Zivilgesellschaft (S. 98-100), Transparenz und Kultur (S. 140-149). Kein Treffer zum Rundfunkbeitrag oder zum öffentlich-rechtlichen Rundfunk."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-28",
+      "wahl": "bw26",
+      "frage": "Soll der konfessionelle Religionsunterricht an Schulen abgeschafft werden?",
+      "beschreibung": "Ob Schülerinnen und Schüler statt nach Konfession getrennt gemeinsam Ethik lernen; das Grundgesetz sieht Religionsunterricht als Lehrfach vor.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "nein",
+          "kurzfassung": "Die CDU will den Religionsunterricht an Schulen beibehalten und ihn von Einflüssen ausländischer Staaten befreien.",
+          "zitat": "Religionsunterricht an Schulen und das Fach Islamische Theologie an Hochschulen werden wir konsequent von Einflüssen ausländischer Staaten befreien.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Religionsunterricht, Religion, Ethik, konfessionell, Kirche, islamisch; Kapitel 2 Bildung und 7.2 Migration & Integration. Nur allgemeines Bekenntnis zu Kirchen und Religionsgemeinschaften und islamische Seelsorge in Gefängnissen, keine Aussage zum Religionsunterricht."
+        },
+        {
+          "partei_id": 73,
+          "position": "nein",
+          "kurzfassung": "Konfessioneller Religionsunterricht soll bleiben und gefördert werden; Ethik soll ergänzend für alle Jahrgangsstufen eingeführt werden.",
+          "zitat": "Wir wollen das Fach Ethik ergänzend zum konfessionellen Unterricht stufenweise für alle Jahrgangsstufen einführen, um allen Kindern und Jugendlichen ein Angebot zu den großen Fragen Frieden, Gerechtigkeit und Zusammenleben anzubieten – auch jenen, die den Religionsunterricht nicht besuchen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "nein",
+          "kurzfassung": "Die FDP will den Religionsunterricht an Schulen erhalten und stärken und zusätzlich Ethik ab Klasse 1 als Ergänzung einführen.",
+          "zitat": "den Religionsunterricht an unseren Schulen erhalten und inhaltlich stärken. Konfessionsverbindende Modelle – wo gewünscht – unterstützen wir.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=115",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "nein",
+          "kurzfassung": "Die AfD will den Religionsunterricht beibehalten und wieder auf die Vermittlung des christlichen Glaubens ausrichten.",
+          "zitat": "Der Religionsunterricht soll wieder auf seinen Kern, die Vermittlung des christlichen Glaubens, fokussiert werden.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Das Programm will den Religionsunterricht an Schulen beenden und alle Schülerinnen und Schüler gemeinsam im Ethikunterricht unterrichten.",
+          "zitat": "Wir wollen ein Ende des Religionsunterrichts an Schulen, stattdessen sollen sich alle Schüler:innen im Ethikunterricht kritisch mit Religionen auseinandersetzen.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Religion, Religionsunterricht, Ethik, konfessionell, Kirche, Unterrichtsfach, Schulfach, Fächer, Wertevermittlung; Kapitel 4 Bildung. Keine Aussage zum Religions- oder Ethikunterricht."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Religion, Religionsunterricht, Ethik, Konfession, Kirche, Schulfächer im Kapitel Bildung (S. 19-21) und Integration (S. 29-30); nur neue Fächer zu Finanzen, Gesundheit, Medien und Demokratie, nichts zum Religionsunterricht."
+        },
+        {
+          "partei_id": 79,
+          "position": "ja",
+          "kurzfassung": "Volt will den konfessionellen Religionsunterricht abschaffen und durch ein gemeinsames Fach Ethik für alle ersetzen.",
+          "zitat": "Volt setzt sich dafür ein, den konfessionellen Religionsunterricht abzuschaffen, da er dem Prinzip der Trennung von Staat und Kirche widerspricht. An seine Stelle soll das bereits heute an vielen Schulen etablierte Fach Ethik treten.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=58",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-29",
+      "wahl": "bw26",
+      "frage": "Soll Baden-Württemberg mehr Plätze für Abschiebungshaft schaffen?",
+      "beschreibung": "Ob das Land die Kapazität für Abschiebungshaft und Ausreisegewahrsam ausbaut.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "ja",
+          "kurzfassung": "Die CDU will weitere Abschiebehaftplätze schaffen, um das Untertauchen Ausreisepflichtiger zu verhindern.",
+          "zitat": "Das Untertauchen Ausreisepflichtiger werden wir konsequent unterbinden, indem wir Leistungen einstellen und uns umfassend auf gesetzlich vorgesehene Haftgründe stützen. Vor diesem Hintergrund werden wir zudem weitere Abschiebehaftplätze schaffen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung, Abschiebungshaft, Abschiebehaft, Ausreise, ausreisepflichtig, Gewahrsam, Rückführung, Haftplätze; Kapitel 7.2 Migration & Integration. Die SPD will die Ausreisepflicht konsequent durchsetzen und Menschen ohne Bleiberecht bis zur Ausreise in den LEAs lassen, äußert sich aber nicht zu Abschiebungshaft."
+        },
+        {
+          "partei_id": 73,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebungshaft, Abschiebehaft, Ausreisegewahrsam, Haftplätze, Gewahrsam, Rückführung, Abschiebung (Kap. Migration/Integration, S. 77). Das Programm will die Situation von Menschen in Abschiebehaft im Blick behalten und den Runden Tisch Abschiebehaft fortsetzen, sagt aber nichts zu mehr Haftplätzen."
+        },
+        {
+          "partei_id": 74,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die Plätze für Abschiebungshaft zügig ausbauen, um Rückführungen sicherzustellen.",
+          "zitat": "Plätze für Abschiebungshaft zur Sicherstellung der Rückführungen zügig ausbauen.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=85",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Abschiebungshaftplätze massiv ausbauen und ausreisepflichtige Ausländer in Abschiebegewahrsam nehmen.",
+          "zitat": "Das beinhaltet den Aufbau einer landeseigenen Grenzschutzpolizei, den massiven Ausbau von Abschiebehaftplätzen und die Ersetzung der missbrauchsanfälligen Bezahlkarte für Asylbewerber durch reine Sachleistungen.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "nein",
+          "kurzfassung": "Das Programm will die Abschiebehaft abschaffen, das Abschiebegefängnis Pforzheim schließen und keine neuen Haftplätze am Flughafen Stuttgart.",
+          "zitat": "Die Abschiebehaft gehört abgeschafft und das Abschiebegefängnis Pforzheim geschlossen. Am Flughafen Stuttgart dürfen keine Abschiebehaftplätze eingerichtet werden.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebungshaft, Haft, Gewahrsam, Ausreisegewahrsam, Abschiebung, Ausreise, Rückführung, ausreisepflichtig; Kapitel 7 Zuwanderung. Das Programm will Ausreisepflichtige konsequent zurückführen und unterstützt 'behördenübergreifende Ausreisezentren', nennt aber keine Abschiebungshaft oder Haftplätze."
+        },
+        {
+          "partei_id": 78,
+          "position": "teils",
+          "kurzfassung": "Die Freien Wähler wollen die Ausreisepflicht durchsetzen und dort, wo Abschiebungen behindert werden, Ausreisegewahrsam einsetzen.",
+          "zitat": "Ausreisepflicht muss auch durchgesetzt werden! Wo Abschiebung behindert wird, braucht es Ausreisegewahrsam – für unsere Sicherheit und gesellschaftlichen Frieden.",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung, Abschiebungshaft, Abschiebehaft, Ausreisegewahrsam, Ausreisepflicht, Rückführung, Haftplätze; Kapitel Migration & Integration (S. 122-129) und Starke Justiz (S. 104-107). Erwähnt werden nur die Trennung von Beratung und Rückführungsentscheidungen (S. 129) und Haftplätze in Justizvollzugsanstalten, nicht Abschiebungshaft."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-30",
+      "wahl": "bw26",
+      "frage": "Soll Baden-Württemberg eine eigene Grenzpolizei aufbauen?",
+      "beschreibung": "Ob das Land eine eigene Polizeieinheit zur Kontrolle der Grenzen zu Frankreich und zur Schweiz schafft.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Grenzpolizei, Grenzkontrolle, Grenze(n), Schleierfahndung, Bundespolizei; Kapitel Sicherheitsland und Land der Migration (S. 33–40). Keine eigene Grenzpolizei des Landes."
+        },
+        {
+          "partei_id": 72,
+          "position": "nein",
+          "kurzfassung": "Die SPD sieht Grenzkontrollen als Belastung für die Grenzregionen und will nicht, dass sie zur Dauerlösung werden.",
+          "zitat": "Grenzkontrollen bedeuten eine Belastung für unsere Grenzregionen. Sie dürfen nicht zur Dauerlösung werden.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "nein",
+          "kurzfassung": "Statt mehr Grenzkontrollen will das Programm die Grenzkontrollen wieder auf das im Schengen-Raum vorgesehene Maß zurückfahren.",
+          "zitat": "Um grenzüberschreitende Alltagsmobilität zu ermöglichen, wollen wir die Grenzkontrollen wieder auf das im Schengen-Raum vorgesehene Maß zurückfahren.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=84",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Grenzpolizei, Grenzschutz, Grenzkontroll, Grenze, Schleierfahndung, Bundespolizei, Polizei (Kapitel Innere Sicherheit S. 79 und Migration S. 85-86). Einzige Fundstelle: Einsatz für Schutz der EU-Außengrenzen und 'rechtskonforme nationale Grenzkontrollen' (S. 86) – keine eigene Grenzpolizei des Landes."
+        },
+        {
+          "partei_id": 75,
+          "position": "ja",
+          "kurzfassung": "Die AfD will eine baden-württembergische Grenzpolizeieinheit schaffen, die mit französischen und Schweizer Grenzschützern zusammenarbeitet.",
+          "zitat": "Die AfD wird eine baden-württembergische Grenzpolizeieinheit schaffen, die eng mit den französischen und Schweizer Grenzschützern zusammenarbeitet. Keine Sicherheit im Innern ohne gesicherte Grenzen nach außen!",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt Grenzkontrollen etwa zwischen Straßburg und Kehl sowie Zurückweisungen an den Grenzen ab.",
+          "zitat": "Grenzkontrollen wie zwischen Straßburg und Kehl und die Zurückweisung an den Grenzen lehnen wir ab.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Grenzpolizei, Grenzkontrollen, Grenze, Grenzüberwachung, Schleierfahndung, Bundespolizei; Kapitel 7 Zuwanderung und 10 Innere Sicherheit. Das Programm unterstützt Grenzkontrollen durch die Bundespolizei, fordert aber keine eigene Landesgrenzpolizei."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Grenze, Grenzpolizei, Grenzkontrolle, Frankreich, Schweiz im Kapitel Sicherheit (S. 13-14) und Integration (S. 29-30); nur Zurückweisung an den EU-Außengrenzen (S. 30), keine eigene Grenzpolizei des Landes."
+        },
+        {
+          "partei_id": 79,
+          "position": "nein",
+          "kurzfassung": "Volt will anlasslose Grenzkontrollen beenden, auf eine gemeinsame EU-Lösung und gemeinsame Fahndung setzen und keine Kräfte an den Grenzen binden.",
+          "zitat": "Wir beenden anlasslose Grenzkontrollen und setzen auf eine gemeinsame EU-Lösung.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=99",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-31",
+      "wahl": "bw26",
+      "frage": "Soll die Grunderwerbsteuer von 5 auf 3,5 Prozent sinken?",
+      "beschreibung": "Ob das Land den Steuersatz beim Kauf von Immobilien und Grundstücken für alle senkt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "ja",
+          "kurzfassung": "Die CDU will die Grunderwerbsteuer schrittweise auf 3,5 Prozent senken.",
+          "zitat": "Die Grunderwerbsteuer wollen wir schrittweise auf 3,5 Prozent des Kaufpreises absenken.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "teils",
+          "kurzfassung": "Die SPD will die Grunderwerbsteuer nicht allgemein senken, sondern Familien beim ersten Immobilienkauf durch Rückerstattung davon befreien.",
+          "zitat": "Die Grunderwerbsteuer für Familien entfällt beim Erstkauf durch Rückerstattungen. Das entlastet gezielt, unbürokratisch und unabhängig vom Zeitpunkt der Antragstellung.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "teils",
+          "kurzfassung": "Die Grunderwerbsteuer soll gezielt beim Ersterwerb einer selbstgenutzten Immobilie gesenkt werden, sobald der Bund dies ermöglicht – nicht allgemein für alle.",
+          "zitat": "Deshalb senken wir gezielt die Grunderwerbsteuer beim Ersterwerb einer Immobilie, sobald der Bundesgesetzgeber dies ermöglicht. Dabei achten wir auf eine sozial gerechte Ausgestaltung, damit gerade die profitieren, die den Schritt in die eigenen vier Wände wagen wollen, aber bislang an den Kosten gescheitert sind.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=58",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die Grunderwerbsteuer wieder auf 3,5 Prozent senken und zusätzlich einen Freibetrag von 500.000 Euro einführen.",
+          "zitat": "die Grunderwerbsteuer wieder auf 3,5 Prozent senken, um die Nebenkosten des Immobilienerwerbs zu reduzieren. Die Senkung der Grunderwerbsteuer ist ein bürokratiearmes Mittel, das in der Breite wirkt und ebenfalls den Mietwohnungsbau fördert.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Grunderwerbsteuer von 5 auf 3,5 Prozent senken und beim Ersterwerb einer Immobilie ganz erlassen.",
+          "zitat": "Hierzu soll die Grunderwerbsteuer von 5 Prozent auf das früher bundeseinheitlich gültige Niveau von 3,5 Prozent wieder abgesenkt werden.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=61",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "nein",
+          "kurzfassung": "Das Programm will die Grunderwerbsteuer von 5 auf 6,5 Prozent erhöhen und nach Wirtschaftskraft der Käufer staffeln.",
+          "zitat": "Grunderwerbssteuer kurzfristig von 5 Prozent auf 6,5 Prozent nach dem Vorbild anderer Bundesländer erhöhen mit gestaffelte Steuersätze einführen, die die Wirtschaftskraft der Erwerber*innen stärker berücksichtigen.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "teils",
+          "kurzfassung": "Das BSW will Familien beim Kauf des ersten selbstgenutzten Eigenheims von der Grunderwerbsteuer befreien, fordert aber keine allgemeine Senkung des Steuersatzes.",
+          "zitat": "Familien beim Erwerb des ersten selbstgenutzten Eigenheims von der Grunderwerbssteuer befreien.",
+          "beleg_url": "https://bw.bsw-vg.de/wp-content/uploads/2025/12/Landtagswahlprogramm_2026_BSW_BW_Final.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 78,
+          "position": "teils",
+          "kurzfassung": "Die Freien Wähler wollen beim ersten Eigenheim keine Grunderwerbsteuer, eine allgemeine Senkung des Steuersatzes fordern sie nicht.",
+          "zitat": "Wir wollen gleiche Chancen in Stadt und Land, menschenwürdige Bedingungen von der Geburt bis ins hohe Alter, keine Grunderwerbsteuer beim ersten Eigenheim und eine faire Reform der Erbschaftssteuer.",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Grunderwerbsteuer, Erwerbsteuer, Kaufnebenkosten, Immobilienkauf, Eigenheim, Wohneigentum, Steuersatz; Kapitel Wohnen (S. 45-51) und Finanzen/Vermögensteuer (S. 107-112). Kein Treffer zur Grunderwerbsteuer."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-32",
+      "wahl": "bw26",
+      "frage": "Soll der Freiwillige Polizeidienst abgeschafft werden?",
+      "beschreibung": "Ob ehrenamtliche Polizeihelferinnen und -helfer künftig nicht mehr eingesetzt werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Freiwilliger Polizeidienst, Polizeidienst, Polizeihelfer, Hilfspolizei, Sicherheitswacht, Ordnungsdienst, Reserve, freiwillig, Ehrenamt; Kapitel Sicherheitsland/Polizei (S. 33–34). Der Freiwillige Polizeidienst wird nicht erwähnt."
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Freiwilliger Polizeidienst, Polizeidienst, Polizeihelfer, Sicherheitswacht, Hilfspolizei, Wachpolizei, Ehrenamt; Kapitel 7.1 Inneres. Zur Polizei nur Besoldung, Zulagen, Anwerbung, psychosoziale Unterstützung und Palantir-Ablehnung."
+        },
+        {
+          "partei_id": 73,
+          "position": "ja",
+          "kurzfassung": "Der Freiwillige Polizeidienst soll abgeschafft werden, um sich auf mehr voll ausgebildete Polizistinnen und Polizisten zu konzentrieren.",
+          "zitat": "Wir wollen uns darauf konzentrieren, mehr Polizist*innen auf die Straße zu bringen, die für die Anforderungen des Polizeidienstes vollumfänglich gewappnet sind. Daher werden wir den Freiwilligen Polizeidienst abschaffen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=80",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Freiwilliger Polizeidienst, freiwillig, Polizeihelfer, Hilfspolizei, Sicherheitswacht, Ehrenamt, Polizeidienst; Kapitel Innere Sicherheit (S. 79) gelesen: Polizei soll mehr Personal, Ausstattung und Ermittlungsassistenzen erhalten, der Freiwillige Polizeidienst wird nicht erwähnt."
+        },
+        {
+          "partei_id": 75,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Freiwillig, Polizeidienst, Polizeihelfer, Hilfspolizei, Sicherheitswacht, Ehrenamt, Polizei; Kapitel III „Innere Sicherheit, Justiz und Datenschutz“ (S. 21–25) gelesen. Das Programm fordert mehr Personal für die Landespolizei, erwähnt den Freiwilligen Polizeidienst aber nicht."
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Das Programm will den freiwilligen Polizeidienst auflösen und die Stellen in professionelle sozialarbeiterische Kriseninterventionsteams umwandeln.",
+          "zitat": "Wir fordern die Auflösung des vollkommen unzeitgemäßen sogenannten freiwilligen Polizeidienstes.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=81",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Freiwilliger Polizeidienst, freiwillig, Polizeidienst, Polizeihelfer, Hilfspolizei, Sicherheitswacht, Ehrenamt; Kapitel 10 Innere Sicherheit (u. a. 10.4 Personalmangel der Polizei). Keine Aussage zum Freiwilligen Polizeidienst; gefordert werden 4.000 zusätzliche Stellen bei der Polizei."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Freiwilliger Polizeidienst, freiwillig, Polizeihelfer, Hilfspolizei, Sicherheitswacht, Ordnungsdienst im Kapitel Sicherheit (S. 13-14); nur Forderung nach Ordnungsdiensten für Bagatellen, nichts zum Freiwilligen Polizeidienst."
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Freiwilliger Polizeidienst, Polizeidienst, Polizeihelfer, Hilfspolizei, Sicherheitswacht, Polizei mit ehrenamtlich/freiwillig; Kapitel Innere Sicherheit & Rechtsstaatlichkeit (S. 94-107) und Ehrenamt (S. 120). Kein Treffer."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-33",
+      "wahl": "bw26",
+      "frage": "Soll das Land Schwangerschaftsabbrüche in allen Regionen verbindlich in der Krankenhausplanung sichern?",
+      "beschreibung": "Ob die Landeskrankenhausplanung vorschreibt, dass Schwangerschaftsabbrüche überall in zumutbarer Entfernung möglich sind.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Schwangerschaft(sabbruch), Abtreibung, § 218, Abbruch, Lebensschutz, ungeboren, Gynäkologie, Geburt, Krankenhausplanung, Krankenhaus, Klinik, Konfliktberatung; Kapitel Gesundheits- und Pflegeland (S. 42–44) und Gleichstellung (S. 25). Keine Aussage zu Schwangerschaftsabbrüchen."
+        },
+        {
+          "partei_id": 72,
+          "position": "ja",
+          "kurzfassung": "Die SPD will Schwangerschaftsabbrüche überall im Land in zumutbarer Entfernung gewährleisten und die flächendeckende Versorgung in der Landeskrankenhausplanung verbindlich verankern.",
+          "zitat": "Außerdem gewährleisten wir, dass in jedem Teil Baden-Württembergs in zumutbarer Entfernung eine Abtreibung möglich ist. Eine angemessene flächendeckende Versorgung machen wir zum Gegenstand einer verbindlichen Landeskrankenhausplanung.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "ja",
+          "kurzfassung": "Ungewollt Schwangere sollen einen gesicherten, zeitnahen Zugang zum Schwangerschaftsabbruch haben; das Programm setzt sich für eine flächendeckende Versorgung ein.",
+          "zitat": "Sie brauchen einen gesicherten, zeitnahen Zugang zu einem Schwangerschaftsabbruch. Wir setzen uns für eine flächendeckende Versorgung ein, damit jede Person selbstbestimmt entscheiden kann.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=64",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "teils",
+          "kurzfassung": "Die FDP will sich für eine gute Versorgung mit Schwangerschaftsberatungsstellen und Praxen für Schwangerschaftsabbrüche im Land einsetzen, ohne eine verbindliche Regelung in der Krankenhausplanung zu nennen.",
+          "zitat": "uns dafür einsetzen, dass wir eine gute Versorgungssituation mit Schwangerschaftsberatungsstellen und Praxen für einen Schwangerschaftsabbruch im Land haben.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=111",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Programm auf Schwangerschaftsabbruch, Abtreibung, Krankenhausplanung und Versorgung durchsucht; S. 18 bewertet nur die Zahl der Abbrüche kritisch, sagt aber nichts zur Versorgung in der Krankenhausplanung."
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Das Programm will, dass Schwangerschaftsabbrüche zur medizinischen Grundversorgung gehören und wohnortnah zugänglich sind.",
+          "zitat": "Der Zugang zu medikamentösen und operationellen Schwangerschaftsabbrüchen muss wohnortnah gewährleistet sein.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=22",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "teils",
+          "kurzfassung": "Das BSW hält die Versorgung mit Schwangerschaftsabbrüchen in Baden-Württemberg für unzureichend und will Kliniken Anreize geben, sich daran zu beteiligen – eine verbindliche Vorgabe in der Krankenhausplanung nennt es nicht.",
+          "zitat": "Die Versorgungslage beim Schwangerschaftsabbruch ist in Baden-Württemberg unzureichend. Wir wollen Anreize für Kliniken schaffen, sich an der medizinischen Versorgung zu beteiligen.",
+          "beleg_url": "https://bw.bsw-vg.de/wp-content/uploads/2025/12/Landtagswahlprogramm_2026_BSW_BW_Final.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 78,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen Schwangerschaftsabbrüche in ganz Baden-Württemberg medizinisch abgesichert und wohnortnah ermöglichen.",
+          "zitat": "Frauen in Not brauchen echte Hilfe! Schwangerschaftsabbrüche müssen in ganz Baden-Württemberg medizinisch abgesichert und wohnortnah möglich sein.",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=41",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Schwangerschaft, Schwangerschaftsabbruch, Abtreibung, Abbruch/Abbrüche, 218, reproduktiv, Gynäkologie, Krankenhausplanung, Frauengesundheit, Verhütung, Geburtshilfe; Kapitel Gesundheit (S. 75-84), Queeres Leben & Vielfalt (S. 116-117), Femizide (S. 96). Kein Treffer zu Schwangerschaftsabbrüchen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-34",
+      "wahl": "bw26",
+      "frage": "Sollen Kommunen eine Abgabe für Bus und Bahn erheben dürfen?",
+      "beschreibung": "Ob der Mobilitätspass ausgebaut wird, mit dem Kommunen über eine Nahverkehrsabgabe, auch von Arbeitgebern, Geld für den öffentlichen Nahverkehr einnehmen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mobilitätspass, Nahverkehrsabgabe, Abgabe, Arbeitgeber, ÖPNV, Nahverkehr, Bus und Bahn, Ticket; Kapitel Mobilitätsland (S. 12–14). Keine Aussage zu einer kommunalen ÖPNV-Abgabe."
+        },
+        {
+          "partei_id": 72,
+          "position": "ja",
+          "kurzfassung": "Die SPD will das Landesmobilitätsgesetz um zusätzliche Finanzierungsinstrumente für Land und Kommunen wie eine Arbeitgeberabgabe für den Nahverkehr ergänzen.",
+          "zitat": "Das Landesmobilitätsgesetz optimieren wir zu einem Gesetz, das Land und Kommunen bei der Umsetzung nachhaltiger Mobilität stärken und zusätzliche Instrumente zur Finanzierung, wie etwa die Arbeitgeber:innenabgabe, schaffen soll.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "ja",
+          "kurzfassung": "Der Mobilitätspass, mit dem Kommunen eine Abgabe für den Nahverkehr erheben können, soll weiter ausgebaut werden.",
+          "zitat": "Mit dem Mobilitätspass hat die grün-geführte Landesregierung den Kommunen und Städten ein Finanzierungsinstrument für mehr Bus- und Bahnverkehr sowie Tarifverbesserungen wie Sozialtickets an die Hand gegeben. Das werden wir weiter ausbauen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Mobilitätspass, Nahverkehrsabgabe, Abgabe, Drittnutzer, Arbeitgeber, ÖPNV-Finanzierung, Mobilitätsgesetz, Maut, Gebühr; Kapitel 'Der ÖPNV funktioniert und ist digital!' (S. 46) und Kommunalfinanzen gelesen. Keine Aussage zu einer kommunalen Nahverkehrsabgabe."
+        },
+        {
+          "partei_id": 75,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Programm auf Mobilitätspass, Nahverkehrsabgabe, Arbeitgeberabgabe und ÖPNV-Finanzierung durchsucht; S. 60 fordert nur die Streichung des Landesmobilitätsgesetzes, ohne Mobilitätspass oder Abgabe zu nennen – keine Aussage zur Frage."
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Das Programm will Kommunen erlauben, mit dem Mobilitätspass eine Nahverkehrsabgabe zu erheben, an der sich auch Arbeitgeber beteiligen.",
+          "zitat": "Wir fordern die Möglichkeit für die Kommunen, mit dem Mobilitätspass eine Nahverkehrsabgabe nach französischem Vorbild zu erheben und damit die Arbeitgeber*innen mit einer Abgabe an der Finanzierung des Nahverkehrs zu beteiligen.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mobilitätspass, Nahverkehrsabgabe, Abgabe, Arbeitgeber/ÖPNV, Drittnutzerfinanzierung, ÖPNV-Finanzierung; Kapitel 15 Mobilität vollständig gelesen. Das Programm fordert einen ÖPNV-Strukturfonds und mehr Geld von Bund und Land sowie Parkgebühren zur ÖPNV-Finanzierung, nennt aber keine kommunale Nahverkehrsabgabe."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abgabe, Nahverkehrsabgabe, Mobilitätspass, Arbeitgeber, Umlage, Nahverkehr, ÖPNV im Kapitel Mobilität (S. 10-11) und Ländlicher Raum (S. 33); nur Forderungen nach besserem Nahverkehr und Deutschlandticket, nichts zu einer kommunalen Abgabe."
+        },
+        {
+          "partei_id": 79,
+          "position": "teils",
+          "kurzfassung": "Volt will, dass Kommunen selbst über Abgaben wie eine City-Maut oder eine Parkflächen-Abgabe entscheiden können, deren Einnahmen in den ÖPNV fließen.",
+          "zitat": "Unser Ziel ist es, dass Städte und Kommunen vor Ort selbst über wirksame Steuerungsinstrumente wie City-Maut oder Abgaben auf Parkflächen entscheiden können. Die Einnahmen fließen direkt in die Verbesserung des ÖPNV, den Ausbau von Radwegen, die Begrünung von Innenstädten und eine gerechte Nutzung des öffentlichen Raums.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=91",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "rp26-1",
       "wahl": "rp26",
       "frage": "Soll Tempo 30 innerorts zur Regel werden?",
