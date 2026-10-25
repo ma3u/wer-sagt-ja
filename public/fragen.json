@@ -11508,6 +11508,524 @@
       "zielkonflikte": []
     },
     {
+      "id": "hh25-23",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg die Gewerbesteuer senken?",
+      "beschreibung": "Ob die Stadt den Hebesatz der Gewerbesteuer, derzeit 470 Prozent, für Unternehmen absenkt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gewerbesteuer, Hebesatz, Gewerbe, Steuer/Steuersenkung, Steuerlast, Unternehmenssteuer, Standortkosten – Kapitel Wirtschaft (S. 26–34), Haushalt und Finanzen (S. 99–100). Kein Wort zur Gewerbesteuer."
+        },
+        {
+          "partei_id": 62,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gewerbesteuer, Hebesatz, Steuer*, Steuersenkung/-erhöhung, Unternehmenssteuer, Abgaben, Standortkosten, Entlastung; Kapitel Solide Finanzen und hohe Investitionen, Grundsteuer, Wirtschaft/Industrie. Kein Wort zur Gewerbesteuer."
+        },
+        {
+          "partei_id": 63,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Gewerbesteuer, Hebesatz, Unternehmenssteuer, Steuersenkung/Steuerentlastung sowie allen Fundstellen von „steuer“ (u. a. Kapitel 4 „Hamburgs Wohlstand erneuern“ und Abschnitt Haushalt/Finanzen S. 139–140). Behandelt werden nur Grund-, Grunderwerb- und Erbschaftsteuer sowie eine Vermögensteuer auf Bundesebene; zur Gewerbesteuer oder ihrem Hebesatz keine Aussage."
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die Gewerbesteuerhebesätze in Hamburg senken.",
+          "zitat": "Deshalb wollen wir die Gewerbesteuerhebesätze in Hamburg senken und uns für eine Überprüfung der Gebührenordnungen mit dem Ziel einsetzen, dass Gebühren maximal in Höhe der verursachten Kosten erhoben werden.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=88",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "ja",
+          "kurzfassung": "Die AfD will den Gewerbesteuerhebesatz von 470 senken, soweit die Haushaltslage es zulässt.",
+          "zitat": "Die AfD Hamburg spricht sich für eine Absenkung des Gewerbehebesteuersatzes mit Augenmaß aus. Soweit es die fiskalische Lage zulässt, muss es Priorität der Politik sein, das Wirtschaftswachstum in unserer Stadt durch Steuersenkungen anzukurbeln.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gewerbesteuer, Hebesatz, Steuersenkung, Unternehmenssteuer, Steuer*, Abgabe; Kapitel Wirtschaft (Umverteilung des Reichtums, Haushaltspolitik, Steuern und Haushalt, S. 32–34). Kein Wort zur Höhe des Hebesatzes oder zu einer Senkung."
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gewerbesteuer, Hebesatz, Steuer, Unternehmenssteuer, Abgabe, entlast, Gewerbe, Unternehmen; Kapitel Wirtschaft (S. 26–28), Solide Finanz- und Strukturpolitik (S. 30–31). Steuern nur zu Renten, Grundsteuer-Umlage, Grunderwerbsteuer-Schlupflöchern und Steuerprüfungen bei Konzernen; nichts zur Gewerbesteuer."
+        },
+        {
+          "partei_id": 68,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Gewerbesteuer oder Hebesatz. Durchsucht: Gewerbesteuer, Hebesatz, Steuer (nur Bodenwert-, Verpackungs-, Hunde-, Kfz-Steuer), Unternehmenssteuer, Steuersenk, Steuerlast, entlast, Abgabe, Gewerbe, Wirtschaftsstandort, Ansiedlung; Kapitel Wirtschaft, Hafen und Verwaltung sowie Einleitung (S. 4: Unternehmen entlasten nur über Bürokratie/Finanzierung, ohne Steuer)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-24",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg städtische Grundstücke wieder verkaufen dürfen, statt sie nur in Erbpacht zu vergeben?",
+      "beschreibung": "Ob der Grundsatz aufgehoben wird, städtische Flächen ausschließlich im Erbbaurecht zu vergeben.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "ja",
+          "kurzfassung": "Die CDU kritisiert, dass Hamburg städtische Grundstücke flächendeckend nur noch im Erbbaurecht vergibt, und will bei Konzeptvergaben wieder Eigentumsbildung ermöglichen.",
+          "zitat": "Hamburg hat seine Position mit der flächendeckenden Einführung des Erbbaurechts bei der Grundstücksvergabe und mit der Erhöhung der Grunderwerbssteuer noch zusätzlich verschlechtert.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "nein",
+          "kurzfassung": "Die SPD hält am Vorrang des Erbbaurechts für städtische Flächen fest und will den städtischen Flächenanteil weiter erhöhen.",
+          "zitat": "Der Vorrang für das Erbbaurecht, Vorkaufsrechte und die Grundsteuer C helfen, städtische und soziale Interessen in der Stadtentwicklung durchzusetzen.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=17",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "nein",
+          "kurzfassung": "Städtische Flächen sollen grundsätzlich nicht mehr verkauft, sondern im Erbbaurecht vergeben werden; die Stadt soll zusätzlich Grundstücke ankaufen.",
+          "zitat": "Wir haben deshalb in Hamburg auf grüne Initiative hin die notwendige Zeitenwende vollzogen: Künftig wird die Stadt Hamburg Flächen grundsätzlich nicht mehr verkaufen, sondern per Erbbaurecht vergeben.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=33",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP will den Beschluss aufheben, städtische Flächen nur im Erbbaurecht zu vergeben, und städtische Flächen wieder ohne Verfügungseinschränkungen verkaufen.",
+          "zitat": "Wir Freie Demokraten fördern das Wohnen im Eigentum als Lebensentwurf und verlässliche Altersvorsorge und lehnen deshalb die ausschließliche Vergabe von städtischen Grundstücken in Erbpacht ab. Wir treten dafür ein, dass städtische Flächen ohne Verfügungseinschränkungen erworben werden können.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Erbbau, Erbpacht, Grundstück, Bodenpolitik, Liegenschaft, Verkauf/veräußern, Eigentum; Kapitel 3 (Wohnen und Soziales, u. a. 3.1 Einheimischenmodell, 3.4 Mehr Eigentum) und 4 (Stadtentwicklung). Keine Aussage zum Erbbaurecht oder zum Verkauf städtischer Flächen."
+        },
+        {
+          "partei_id": 66,
+          "position": "nein",
+          "kurzfassung": "Die Linke will städtische Flächen, auch Industrie- und Gewerbeflächen, nur noch in Erbpacht vergeben und Grundstücke eher ankaufen als verkaufen.",
+          "zitat": "Neues Verständnis für Flächenverbrauch: Auch Industrie- und Gewerbeflächen sollen nur noch in Erbpacht vergeben werden.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "nein",
+          "kurzfassung": "Grund und Boden sollen in der Hand der Stadt bzw. in öffentlicher Hand bleiben; die Stadt soll ihr Vorkaufsrecht nutzen.",
+          "zitat": "Grund und Boden müssen in der Hand der Hansestadt Hamburg bleiben. Das Vorkaufsrecht der Stadt soll sinnvoll ausgeübt werden.",
+          "beleg_url": "https://hh.bsw-vg.de/wp-content/uploads/2025/02/BSW_HAMBURG_BUeRGERSCHAFTS-WAHLPROGRAMM_2025.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 68,
+          "position": "nein",
+          "kurzfassung": "Volt will deutlich mehr städtische Grundstücke in öffentliche Erbpacht geben und über einen kommunalen Bodenfonds Flächen ankaufen, statt sie zu verkaufen.",
+          "zitat": "deutlich mehr Grundstücke in öffentliche Erbpacht zu überführen nach dem dänischen Modell. Hierdurch wird für die Investierenden das Zinsrisiko auf das Bauwerk beschränkt und der Grund und Boden dauerhaft der Gemeinschaft erhalten.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=34",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-25",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg eine City-Maut einführen?",
+      "beschreibung": "Ob Autofahrten in die Innenstadt eine Gebühr kosten, wie in London oder Stockholm.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut, City-Maut, Gebühr, Einfahrt, Zufahrt, autofrei/autoarm, Bepreisung, Innenstadt erreichbar – Kapitel Dynamischer Verkehr (S. 35–43) und Innenstadt/Einzelhandel (S. 30–31). Keine Aussage zu einer City-Maut."
+        },
+        {
+          "partei_id": 62,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut, City-Maut, Gebühr, Innenstadt, Autoverkehr, Pkw/Kfz, autofrei/autoarm, verkehrsberuhigt, Bepreisung; Kapitel Mobilität (Fahren und Parken, Masterplan Parken) und Die Innenstadt bleibt das Herz der Stadt. Keine Aussage zu einer Innenstadt-Maut."
+        },
+        {
+          "partei_id": 63,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Maut, City-Maut, Innenstadtgebühr, Straßennutzungsgebühr, Bepreisung, Einfahrt/Zufahrt, London/Stockholm, Gebühr, autoarm/autofrei (Kapitel 2, Mobilität S. 22–27). Das Programm will eine autoarme Innenstadt und nach Fahrzeuggröße gestaffelte Parkgebühren, nennt aber keine Gebühr für Fahrten in die Innenstadt."
+        },
+        {
+          "partei_id": 64,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut, City-Maut, Citymaut, Pkw-Maut, Road Pricing, Gebühr, Abgabe, Bepreisung, Einfahrt, Innenstadt + Auto/Verkehr, autofrei, Autofahrer, London, Stockholm, Pendler, erreichbar; Kapitel Mobilität (S. 28–38), Lebendige Innenstadt (S. 24–26), Steuer- und Gebührenpolitik (S. 87–88). Keine Aussage zu einer Gebühr für Autofahrten in die Innenstadt."
+        },
+        {
+          "partei_id": 65,
+          "position": "nein",
+          "kurzfassung": "Die AfD lehnt eine City-Maut und jede allgemeine Maut ab.",
+          "zitat": "Die AfD Hamburg lehnt sowohl die City-Maut als auch die Maut für alle ab.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut, City-Maut, Citymaut, Innenstadt, Gebühr, Straßenbenutzung, Autoverkehr, Pkw, Parkgebühr, autofrei; Kapitel Mobilität/Verkehr (S. 10–12). Genannt werden Rückbau des Parkraums, autofreie Sonntage und kostenloser ÖPNV, aber keine Gebühr für Autofahrten in die Innenstadt."
+        },
+        {
+          "partei_id": 67,
+          "position": "nein",
+          "kurzfassung": "Das BSW lehnt die Einführung einer City-Maut ebenso ab wie Dieselfahrverbote und eine undurchdachte Ausweitung der Parkraumbewirtschaftung.",
+          "zitat": "Deshalb lehnen wir Dieselfahrverbote ebenso ab wie eine undurchdachte Ausweitung der Parkraumbewirtschaftung oder die Einführung einer City-Maut.",
+          "beleg_url": "https://hh.bsw-vg.de/wp-content/uploads/2025/02/BSW_HAMBURG_BUeRGERSCHAFTS-WAHLPROGRAMM_2025.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 68,
+          "position": "ja",
+          "kurzfassung": "Volt will hamburgweit eine nach Schadstoffausstoß und Fahrzeuggröße gestaffelte City-Maut nach dem Vorbild Stockholm und London einführen.",
+          "zitat": "Volt setzt sich hamburgweit für die Einführung einer City-Maut ein mit dem Ziel, das Verkehrsaufkommen in Hamburg nachhaltig um ca. 20 % zu senken, wie z.B. in Stockholm und London geschehen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=83",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-26",
+      "wahl": "hh25",
+      "frage": "Soll die Köhlbrandbrücke saniert statt neu gebaut werden?",
+      "beschreibung": "Ob die bestehende Brücke im Hafen erhalten wird, statt sie durch einen Neubau zu ersetzen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "nein",
+          "kurzfassung": "Die CDU will den geplanten Neubau der Köhlbrandbrücke (Köhlbrandquerung) beschleunigen statt die bestehende Brücke zu erhalten.",
+          "zitat": "Wir finden uns nicht damit ab, dass der Neubau der Köhlbrandbrücke über 20 Jahre dauern soll und für die Hamburger Wirtschaft essenzielle Infrastrukturprojekte wie die A26-Ost („Hafenpassage“) sich immer weiter verzögern, Norder- und Süderelbbrücken marode sind oder die dringend benötigte Neubau-Bahnstrecke Hamburg–Hannover immer weiter verschoben wird.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "nein",
+          "kurzfassung": "Die SPD will die Köhlbrandbrücke durch einen Neubau mit rund 70 Metern Durchfahrtshöhe ersetzen.",
+          "zitat": "Die Köhlbrandbrücke muss erneuert werden. Umfassende Variantenprüfungen sind abgeschlossen und es steht fest: Wir werden eine neue Köhlbrandbrücke bauen.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "nein",
+          "kurzfassung": "Die bestehende Köhlbrandbrücke ist aus Sicht des Programms nicht mehr zu erhalten; unterstützt wird die Entscheidung von 2024 für einen Brückenneubau.",
+          "zitat": "Die nördliche Köhlbrandquerung – die heutige Köhlbrandbrücke – ist mittlerweile nach allen Erkenntnissen nicht mehr zu erhalten, nicht zuletzt, weil im bisherigen Planungsprozess so viel Zeit verschenkt und Vertrauen verspielt worden ist.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=93",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "nein",
+          "kurzfassung": "Die FDP will die Fertigstellung der neuen Köhlbrandbrücke deutlich beschleunigen, setzt also auf den Neubau.",
+          "zitat": "Einige der wichtigsten Brücken sind jedoch baufällig und müssen dringend erneuert werden. Wir wollen die Fertigstellung der neuen Köhlbrandbrücke deutlich beschleunigen.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Köhlbrand, Brücke, Sanierung, Querung/Hafenquerspange, Neubau; Kapitel 4 (Verkehr, Infrastruktur) und 7 (Wirtschaft, Hafen). Köhlbrandbrücke nur als Vergleichsgröße für Schulden erwähnt (S. 36), keine Position zu Sanierung oder Neubau."
+        },
+        {
+          "partei_id": 66,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Köhlbrand, Brücke, Querung, Hafenautobahn, A26, Neubau, Sanierung; Kapitel Mobilität (S. 11–12) und Hafen (S. 33–34). Keine Aussage zur Köhlbrandbrücke; 'Sanierung des Bestands statt Neubau' bezieht sich nur auf Hafenterminals."
+        },
+        {
+          "partei_id": 67,
+          "position": "ja",
+          "kurzfassung": "Das BSW will die Köhlbrandbrücke sanieren statt neu bauen.",
+          "zitat": "Sanierung der Köhlbrandbrücke statt Neubau",
+          "beleg_url": "https://hh.bsw-vg.de/wp-content/uploads/2025/02/BSW_HAMBURG_BUeRGERSCHAFTS-WAHLPROGRAMM_2025.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 68,
+          "position": "nein",
+          "kurzfassung": "Volt unterstützt die neue Köhlbrandquerung und will deren Planung und Genehmigung beschleunigen.",
+          "zitat": "Besonders bei hochgradig elementaren Vorhaben, wie der neuen Köhlbrandquerung, fordern wir zukünftig anstatt einer rein sequentiellen Herangehensweise die Parallelisierung von Planung und Genehmigung: Durch eine bessere Abstimmung der verschiedenen Planungsschritte und eine frühzeitige Einbindung der Behörden können Genehmigungsprozesse deutlich beschleunigt werden.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=138",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-27",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg die Staatsverträge mit den islamischen Verbänden aussetzen oder kündigen?",
+      "beschreibung": "Ob die Verträge der Stadt mit DITIB, Schura und anderen muslimischen Verbänden ruhen oder beendet werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "ja",
+          "kurzfassung": "Die CDU will die Staatsverträge mit den muslimischen Verbänden aussetzen, weil DITIB und Schura sich nicht ausreichend von ausländischen Regimen gelöst hätten.",
+          "zitat": "Zum Schutz unserer Demokratie darf es aus unserer Sicht keine Verträge mit Partnern geben, die nicht aktiv für die Inhalte und gemeinsam formulierten Werte des Vertrags eintreten und diese auch bei ihren Mitgliedern durchsetzen. Daher sind wir dafür, die Staatsverträge mit den muslimischen Verbänden auszusetzen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "nein",
+          "kurzfassung": "Die SPD hält an den Staatsverträgen mit den muslimischen Religionsgemeinschaften fest und will den Dialog mit den Verbänden ausbauen.",
+          "zitat": "Die Staatsverträge mit den muslimischen Religionsgemeinschaften haben sich gerade auch in schwierigen Zeiten als Grundlage für einen offenen Dialog bewährt.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Staatsvertrag/Verträge, DITIB, Schura, VIKZ, islamische/muslimische Verbände, Religionsgemeinschaften, Islamismus (Kapitel 5 „Hamburgs Freiheit stärken“, S. 107–109 und 114–116). Erwähnt werden Islamismusprävention, das IZH-Verbot, interreligiöser Dialog und der Religionsunterricht für alle; die Staatsverträge mit den islamischen Verbänden werden nicht genannt."
+        },
+        {
+          "partei_id": 64,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Staatsvertrag, DITIB, Schura, islamisch, Muslim, Moschee, Islamist, Religionsgemeinschaft, Verbände, Verträge, Kirche, Religionsunterricht; Kapitel Schule (S. 41–42), Sicheres Hamburg/Justiz (S. 55–59), Kultur (S. 74). Keine Aussage zum Aussetzen oder Kündigen der Verträge mit den islamischen Verbänden."
+        },
+        {
+          "partei_id": 65,
+          "position": "ja",
+          "kurzfassung": "Die AfD will den Staatsvertrag mit den islamischen Verbänden kündigen und deren Pflichten stattdessen gesetzlich regeln.",
+          "zitat": "Die AfD Hamburg wird diese Zusammenarbeit beenden. In dem Wissen, dass die islamischen Interessenverbände Staatsverträge nicht als Chance zur Integration in das säkulare Gemeinwesen, sondern als Vehikel zur Durchsetzung ihrer eigenen Maximalforderungen verstehen, wird sie den Staatsvertrag kündigen.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Staatsvertrag, Vertrag, DITIB, Schura, Islam*, Muslim*, Religionsgemeinschaft, Alevit*, Kirche, Religion; Kapitel Demokratie/Justiz/Islamismus (S. 22–24). Nur Präventionsmaßnahmen gegen Islamismus und Prüfung von Vereinsverboten, nichts zu den Verträgen mit den islamischen Verbänden."
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Staatsvertrag, Vertrag, DITIB, Schura, Islam, Muslim, Moschee, Religion, religiös, Verbände, Kirche, Glaube; Kapitel Migration und Integration (S. 9–11), Demokratie und Freiheit (S. 6–7). Nur allgemeine Ablehnung des radikalen Islamismus (S. 10) und religiösen Extremismus (S. 6); nichts zu den Verträgen mit islamischen Verbänden."
+        },
+        {
+          "partei_id": 68,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zu den Staatsverträgen mit islamischen Verbänden. Durchsucht: Staatsvertr, Vertrag/Verträg, DITIB, Schura, Islam, Muslim, Moschee, Religionsgemeinschaft; Abschnitt 'Islamismus darf sich in Deutschland nicht weiter ausbreiten' (S. 77–78) fordert Verfassungstreue-Prüfung von Religionslehrern, Schließung der Blauen Moschee und Verbot von 'Muslim Interaktiv', erwähnt die Verträge aber nicht; Abschnitt 'Sicherheit für religiöse Gemeinden' (S. 68–69)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-28",
+      "wahl": "hh25",
+      "frage": "Soll es in Hamburg mehr Waffenverbotszonen geben?",
+      "beschreibung": "Ob an weiteren Kriminalitätsschwerpunkten das Mitführen von Waffen und Messern verboten und stärker kontrolliert wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "ja",
+          "kurzfassung": "Die CDU will über den Hauptbahnhof hinaus weitere Waffenverbotszonen, etwa am Steindamm und im Phoenix-Viertel.",
+          "zitat": "Diese Maßnahmen reichen aber nicht aus. So wollen wir beispielsweise auch am Steindamm und im Phoenix-Viertel Kriminalitätsbrennpunkte durch ein Waffenverbot und Videoschutz entschärfen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "ja",
+          "kurzfassung": "Die SPD will Waffenverbotszonen ausweiten und die Kontrollen verstärken, vor allem bei Veranstaltungen.",
+          "zitat": "Dafür setzen wir auf moderne Videoüberwachung und eine Ausweitung von Waffenverbotszonen bei gleichzeitiger Verstärkung der Kontrollen, vor allem bei Veranstaltungen.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Waffen, Messer, Waffenverbotszone, Verbotszone, Kriminalitätsschwerpunkt, gefährliche Orte, Gefahrengebiet, Kontrollen, Videoüberwachung (Kapitel 5, Innere Sicherheit S. 120–123). Gefordert wird nur eine Verschärfung des Waffenrechts auf Bundesebene (Waffenschein, Munition, Halbautomatikwaffen); Waffen- oder Messerverbotszonen kommen nicht vor."
+        },
+        {
+          "partei_id": 64,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Waffe, Waffenverbot, Messer, Messerverbot, Stichwaffe, Verbotszone, Zonen, Kontrollen, verdachtsunabhängig, Kriminalitätsschwerpunkt, Gefahrenort, Hansaplatz, Hauptbahnhof; Kapitel Sicheres Hamburg (S. 55–57) und Handlungsfähige Justiz (S. 58–59). Waffen und Messer werden nirgends erwähnt."
+        },
+        {
+          "partei_id": 65,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Waffe, Messer, Verbotszone, Kriminalitätsschwerpunkt, gefährliche Orte, Brennpunkt, Hauptbahnhof, Kontrolle; Kapitel 1 (Innere Sicherheit, 1.1–1.8). Keine Aussage zu Waffen- oder Messerverbotszonen."
+        },
+        {
+          "partei_id": 66,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die bestehende Waffenverbotszone am Hauptbahnhof abschaffen und polizeiliche Befugnisse nicht ausweiten.",
+          "zitat": "Kriminalisierung und Vertreibung von wohnungs- oder obdachlosen Menschen – vor allem rund um den Hauptbahnhof – beenden; Abschaffung der Alkoholkonsum- sowie Waffenverbotszone am Hauptbahnhof.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Waffenverbot, Verbotszone, Zone, Messer, Waffe, Kontrolle, Hauptbahnhof, Video; Kapitel Innere Sicherheit/Justiz (S. 14–16). Es wird nur allgemein „mehr Präsenz und Kontrollen durch Polizei und Zoll“ gefordert (S. 15) und Waffenhandel im Hafen erwähnt; keine Aussage zu Waffenverbotszonen."
+        },
+        {
+          "partei_id": 68,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zu Waffen- oder Messerverbotszonen. Durchsucht: Waffe (nur 'Waffengewalt gegen Einsatzkräfte', S. 71), Messer, Verbotszone, Verbot, Kriminalitätsschwerpunkt, Hotspot, gefährliche Orte, Hauptbahnhof, Kontroll, Videoüberwachung; Kapitel Polizei/Sicherheit (S. 71–74): an Kriminalitäts-Hotspots Präsenzmaßnahmen statt Videoüberwachung, keine Waffenverbote."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-29",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg mit Anreizen mehr Direkt- und Langstreckenflüge an den Flughafen holen?",
+      "beschreibung": "Ob die Stadt Fluggesellschaften etwa über Anreizprogramme oder niedrigere Entgelte für neue Verbindungen ab Hamburg gewinnt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "ja",
+          "kurzfassung": "Die CDU will die Flughafenentgelte senken und unterstützt den Flughafen dabei, mehr Langstreckenflüge ab Hamburg zu etablieren.",
+          "zitat": "Dadurch hat der Flughafen Hamburg massiv Flugverbindungen eingebüßt. Wir setzen uns dafür ein, die Luftverkehrssteuer wieder deutlich abzusenken, und werden die Flughafenentgelte am Hamburger Flughafen wieder reduzieren.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "ja",
+          "kurzfassung": "Die SPD setzt sich für weitere Direktflugverbindungen ein und unterstützt Anreizprogramme des Flughafens für Fluggesellschaften.",
+          "zitat": "Auch setzen wir uns für weitere Direktflugverbindungen ein und unterstützen, dass der Flughafen entsprechende Anreizprogramme für Fluggesellschaften entwickelt.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Flughafen, Langstrecke, Direktflug/Direktverbindung, Flugverbindung, Fluggesellschaft/Airline, Entgelt, Anreiz (Kapitel 1 Lärmschutz S. 16, Kapitel 4 „Luftfahrtindustrie im Wandel“ S. 89–90). Anreize in den Flughafenentgelten sind nur für emissionsärmere Flugzeuge vorgesehen; zur Anwerbung neuer Verbindungen keine Aussage."
+        },
+        {
+          "partei_id": 64,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flug, Langstrecke, Direktverbindung, Flugverbindung, Fluggesellschaft, Airline, Luftverkehr, Luftfahrt, Entgelt, Drehkreuz, interkontinental; Abschnitt 'Moderner Flughafen für eine moderne Metropole' (S. 13). Der Abschnitt behandelt Lage, Lärmschutz, Luftfahrt-Cluster und Klimaneutralität, nicht Anreize für neue Verbindungen."
+        },
+        {
+          "partei_id": 65,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flug, Luftverkehr, Langstrecke, Direktverbindung, Fluggesellschaft, Anbindung, Standort, Tourismus; Kapitel 4 (Verkehr) und 6.6 (Fluglärm). Keine Aussage zu Anreizen für neue Flugverbindungen."
+        },
+        {
+          "partei_id": 66,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flug*, Flugverbindung, Luftverkehr, Langstrecke, Direktverbindung, Airport, Anreiz, Entgelt; Abschnitt Flugverkehr (S. 12). Nur Einschränkungen (Nachtflugverbot, keine Kurzstreckenflüge bis 500 km, keine Privatjets, neues Luftverkehrskonzept nach ökologischen Kriterien); nichts zu Anreizen für neue Direkt- oder Langstreckenverbindungen."
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flug, Luftverkehr, Airport, Luft, Anbindung, Verbindung, Lärm; Kapitel Wirtschaft, Tourismus (S. 29), Verkehr (S. 31–33). Flughafen Hamburg nur als stadteigenes Unternehmen bei der Tarif-/Beschäftigungspolitik (S. 25); nichts zu Flugverbindungen oder Anreizen für Airlines."
+        },
+        {
+          "partei_id": 68,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zu Anreizen für Flugverbindungen. Durchsucht: Flughafen, Flug, Flüge, Langstrecke, Direktverbindung, Fluggesellschaft, Airline, Luftverkehr, Luftfahrt, Fluglärm, Nachtflug, Tourismus; Treffer nur zu Emissionen in Einflugschneisen und besserer Einhaltung der Nachtflugverbotszeiten (S. 112) sowie Luftfahrt als Wirtschaftscluster (S. 123)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "bw26-2",
       "wahl": "bw26",
       "frage": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
@@ -14624,6 +15142,744 @@
       "zielkonflikte": []
     },
     {
+      "id": "rp26-22",
+      "wahl": "rp26",
+      "frage": "Soll Rheinland-Pfalz mehr Plätze für Abschiebungshaft schaffen?",
+      "beschreibung": "Ob ausreisepflichtige Menschen häufiger in Abschiebungshaft oder Ausreisegewahrsam kommen, damit sie vor der Abschiebung nicht untertauchen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "ja",
+          "kurzfassung": "Die CDU will kriminelle ausreisepflichtige Geflüchtete in einen Ausreisearrest bringen statt auf die Kommunen zu verteilen und eigene Rückführungskapazitäten sowie eine zentrale Abschiebeeinrichtung des Landes schaffen.",
+          "zitat": "Insbesondere kriminelle ausreisepflichtige Flüchtlinge dürfen nicht mehr auf die Kommunen verteilt werden, sondern müssen in einen Ausreisearrest.",
+          "beleg_url": "https://www.cdurlp.de/data/documents/2026/01/23/3-697377ae72553.pdf#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 82,
+          "position": "teils",
+          "kurzfassung": "Die SPD will Rückführungen zentralisieren und konsequent abschieben, hält Abschiebehaft aber nur in bestimmten Einzelfällen zum Schutz vor Schwerstkriminellen für notwendig; mehr Haftplätze fordert sie nicht.",
+          "zitat": "Wer einer freiwilligen Ausreise nicht nachkommt, muss mit konsequenter Abschiebung rechnen - insbesondere Straftäter. Zum Schutz vor Schwerstkriminellen können in bestimmten Einzelfällen auch Abschiebe- und Verwaltungshaft notwendig sein.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpspdwahlprogramm.pdf#page=79",
+          "begruendung": null
+        },
+        {
+          "partei_id": 83,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Abschiebung, Abschiebungshaft, Haft, Ausreisegewahrsam, ausreisepflichtig, Rückführung, untertauchen, Asyl, Geflüchtete; Kapitel Migration/Integration (S. 63–67) und Justizvollzug (S. 86). Keine Aussage zu Plätzen in Abschiebungshaft oder Ausreisegewahrsam."
+        },
+        {
+          "partei_id": 84,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (mit [uü]/[aä]-Varianten): Abschiebungshaft, Abschiebung/abschieben, Ausreisegewahrsam, Gewahrsam, ausreisepflichtig, Ausreise, Rückführung, untertauchen, Haftplätze; Kapitel Integration (S. 89–90), Innere Sicherheit/Migration (S. 115), Justizvollzug (S. 110). Das Programm will abgelehnte Asylbewerber nur allgemein „konsequent und rechtssicher abschieben“ (S. 89); mehr Haftplätze (S. 110) betreffen den Justizvollzug, nicht die Abschiebungshaft."
+        },
+        {
+          "partei_id": 85,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Zahl der Abschiebehaftplätze in Rheinland-Pfalz erhöhen, damit Ausreisepflichtige nicht untertauchen.",
+          "zitat": "Zudem wird die Zahl der Abschiebehaftplätze in Rheinland-Pfalz erhöht, damit Personen, die das Land verlassen müssen, nicht untertauchen.",
+          "beleg_url": "https://alternative-rlp.de/wp-content/uploads/2026/01/Wahlprogramm_RLP2025_WEB.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 86,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt Abschiebungshaft grundsätzlich ab und will sie nicht als Mittel zur Durchsetzung der Ausreisepflicht.",
+          "zitat": "Abschiebungshaft darf kein Mittel sein, um Ausreisepflicht durchzusetzen. Wir lehnen Abschiebungshaft grundsätzlich ab und solange sie noch vollzogen wird, kämpfen wir für Rechtstaatlichkeit, humanitäre Standards (insbes. für vulnerable Personen) beim Vollzug!",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlp2026linkewahlprogramm-1.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 87,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Abschiebungshaft, Abschiebehaft, Ausreisegewahrsam, Gewahrsam, Haft, Haftplätze, untertauchen, abschieb, Rückführung, ausreisepflichtig; Kap. 13 (13.2 Steuerung und Begrenzung der Migration), 11. Das Programm fordert schnellere Abschiebungen und konsequente Rückführung Ausreisepflichtiger, nennt aber weder Abschiebungshaft noch Ausreisegewahrsam."
+        },
+        {
+          "partei_id": 88,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen die erweiterten Abschiebehaftgründe des Rückführungsverbesserungsgesetzes voll anwenden und Abschiebehaftplätze nach Bedarf bereitstellen.",
+          "zitat": "Das seit 2024 geltende Rückführungsverbesserungsgesetz werden wir in Rheinland-Pfalz vollumfänglich anwenden: Ausweitung der Abschiebehaftgründe, erweiterte Durchsuchungsbefugnisse, Beschlagnahme von Identitätspapieren und Handys zur Identitätsfeststellung. Wir stärken Ausländerbehörden personell und digital und stellen Abschiebehaftplätze bedarfsorientiert bereit.",
+          "beleg_url": "https://www.fwrlp.de/wp-content/uploads/2025/11/Wahlprogramm_FREIE_WAEHLER_LTW.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung/abschieb, Abschiebungshaft, Ausreise, ausreisepflichtig, Gewahrsam, Haft, Rückführung, Duldung, Asyl, Geflüchtete, Migration; Kapitel Sicherheit mit Augenmaß (S. 119-129) inkl. Freizügigkeit und Schengen-Raum. Keine Aussage zu Abschiebungshaft oder Ausreisegewahrsam."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-23",
+      "wahl": "rp26",
+      "frage": "Soll es ein verpflichtendes Gesellschaftsjahr für junge Menschen geben?",
+      "beschreibung": "Ob sich das Land für einen Pflichtdienst junger Menschen in sozialen oder gemeinnützigen Einrichtungen einsetzt, etwa per Bundesratsinitiative.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "ja",
+          "kurzfassung": "Die CDU will sich mit einer Bundesratsinitiative für ein verpflichtendes Gesellschaftsjahr einsetzen.",
+          "zitat": "Zudem setzen wir uns mit einer Bundesratsinitiative für die Einführung eines verpflichtenden Gesellschaftsjahres ein.",
+          "beleg_url": "https://www.cdurlp.de/data/documents/2026/01/23/3-697377ae72553.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 82,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Pflicht- oder Gesellschaftsdienst im Programm. Gesucht: Gesellschaftsjahr, Pflichtdienst, Pflichtjahr, Dienstpflicht, Gesellschaftsdienst, Freiwilligendienst, FSJ, soziales Jahr, Bundesfreiwilligendienst, Wehrdienst, Wehrpflicht, Zivildienst, verpflichtend; Kapitel 11 (Ehrenamtsland, Jugend) und Bundeswehr-Abschnitt. Einziger Treffer: mehr FSJ-Stellen in der Landesverwaltung (S. 112) – freiwillig, nicht verpflichtend."
+        },
+        {
+          "partei_id": 83,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen, dass Freiwilligendienste freiwillig bleiben, und lehnen eine Wehrpflicht ab; stattdessen sollen Freiwilligendienste besser bezahlt und zugänglicher werden.",
+          "zitat": "Freiwilligendienste sollen freiwillig bleiben.",
+          "beleg_url": "https://gruene-rlp.de/wp-content/uploads/2026/02/Wahlprogramm_B90_DieGruenen_2026.pdf#page=50",
+          "begruendung": null
+        },
+        {
+          "partei_id": 84,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtdienst, Dienstpflicht, Pflichtjahr, verpflichtend, Freiwilligendienst, FSJ, Bundesfreiwilligendienst, freiwillig, Wehrpflicht, Wehrdienst, Bundeswehr, gemeinnützig; Kapitel Jugend (S. 88), Ehrenamt (S. 99), Sichtbarkeit der Bundeswehr (S. 118–119). Kein Pflichtdienst erwähnt; nur ein „Freiwilliges Jahr ‚Grüne Berufe‘“ (S. 63) und Rundfunkbeitragsbefreiung für Freiwilligendienstleistende (S. 145)."
+        },
+        {
+          "partei_id": 85,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Gesellschaftsjahr, Pflichtjahr, Pflichtdienst, Dienstpflicht, Wehrpflicht/Wehrdienst, Freiwilligendienst, FSJ, Bundesfreiwilligendienst, Zivildienst, 'soziales Jahr', 'junge Menschen'; Kapitel Familien, Demokratie, Innere Sicherheit, Soziales und Pflege gesichtet."
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsuchte Begriffe: Gesellschaftsjahr, Pflichtdienst, Dienstpflicht, Pflichtjahr, soziales Jahr, Freiwilligendienst, FSJ, Wehrpflicht, Wehrdienst, Zwangsdienst, Pflicht (Kapitel Bildung/Weiterbildung, Frieden). Das Programm fordert nur besseren Zugang zum (freiwilligen) Freiwilligendienst (S. 22) und kritisiert die geplante Wiedereinführung der Wehrpflicht als Militarisierung (S. 35); zu einem verpflichtenden Gesellschaftsjahr sagt es nichts."
+        },
+        {
+          "partei_id": 87,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Gesellschaftsjahr, Pflichtjahr, Pflichtdienst, Dienstpflicht, verpflichtend, Freiwilligendienst, FSJ, Bundesfreiwilligendienst, Wehrpflicht; Kap. 7.3 Freiwilligendienste stärken, 3. Das Programm will freiwillige Dienste stärken und lehnt die Wehrpflicht ab, äußert sich aber nicht zu einem verpflichtenden Gesellschaftsjahr."
+        },
+        {
+          "partei_id": 88,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler schlagen ein soziales Pflichtjahr für junge Menschen in sozialen oder gemeinnützigen Einrichtungen vor.",
+          "zitat": "Statt nur ausländische Fachkräfte anzuwerben, schlagen wir ein soziales Pflichtjahr vor, bei dem junge Menschen in sozialen oder anderen der Allgemeinheit dienenden Einrichtungen Erfahrungen sammeln und das System unterstützen.",
+          "beleg_url": "https://www.fwrlp.de/wp-content/uploads/2025/11/Wahlprogramm_FREIE_WAEHLER_LTW.pdf#page=16",
+          "begruendung": null
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtdienst, Dienstpflicht, Pflichtjahr, soziales Jahr, Freiwilligendienst/FSJ/FÖJ/Bundesfreiwilligendienst, Wehrpflicht, Wehrdienst, Zivildienst, Bundeswehr, Ehrenamt, Engagement, gemeinnützig. Nur Anerkennung/Bildungsfreistellung für Ehrenamt (S. 19, 23), kein Pflichtdienst."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-24",
+      "wahl": "rp26",
+      "frage": "Sollen die Kontrollen an den Grenzen zu Frankreich, Luxemburg und Belgien weitergehen?",
+      "beschreibung": "Ob sich das Land dafür einsetzt, die Kontrollen an den Binnengrenzen beizubehalten, oder für ihr Ende.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Grenzkontroll, Binnengrenz, Grenzen, Schengen, Grenzpolizei, Schleierfahndung, Frankreich, Luxemburg, Belgien, Grenzregion, grenzüberschreitend, Grenzpendler, Kontrollen, Zurückweisung, Bundespolizei; gelesen Kapitel 4a (Migration, S. 30–31) und 5i (Europa, S. 45–46). Zu Kontrollen an den Binnengrenzen steht nichts."
+        },
+        {
+          "partei_id": 82,
+          "position": "nein",
+          "kurzfassung": "Die SPD bekennt sich klar zu einem Europa der offenen Grenzen zu Frankreich, Luxemburg und Belgien und will die grenzüberschreitende Zusammenarbeit stärken.",
+          "zitat": "Wir bekennen uns klar zu einem Europa der offenen Grenzen und stärken die Zusammenarbeit mit unseren Nachbarn sowohl in der Großregion als auch am Oberrhein.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpspdwahlprogramm.pdf#page=122",
+          "begruendung": null
+        },
+        {
+          "partei_id": 83,
+          "position": "nein",
+          "kurzfassung": "Die Grünen drängen auf Bundesebene auf ein Ende der Kontrollen an den innereuropäischen Grenzen.",
+          "zitat": "Auf Bundesebene drängen wir auf ein Ende der Grenzkontrollen an den innereuropäischen Grenzen.",
+          "beleg_url": "https://gruene-rlp.de/wp-content/uploads/2026/02/Wahlprogramm_B90_DieGruenen_2026.pdf#page=92",
+          "begruendung": null
+        },
+        {
+          "partei_id": 84,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt dauerhafte Grenzkontrollen ab, weil sie Binnenmarkt, Pendler und das offene Europa beeinträchtigen, und bekennt sich zu offenen Grenzen.",
+          "zitat": "Für uns Freie Demokraten ist klar: Dauerhafte Grenzkontrollen gefährden diese Errungenschaften. Sie schwächen den Binnenmarkt, behindern Unternehmen, erschweren Pendlerinnen und Pendlern den Alltag und untergraben das Vertrauen in ein offenes Europa.",
+          "beleg_url": "https://www.fdp-rlp.de/sites/default/files/2025-12/FDPRLP_Programm%20LTW%202026.pdf#page=101",
+          "begruendung": null
+        },
+        {
+          "partei_id": 85,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die eingeführten Grenzkontrollen aufrechterhalten, fortsetzen und auf Flughäfen ausweiten.",
+          "zitat": "Im Interesse unserer nationalen Sicherheit und einer dringend gebotenen Migrationswende müssen die gezielten Grenzkontrollen aufrechterhalten und fortgesetzt werden.",
+          "beleg_url": "https://alternative-rlp.de/wp-content/uploads/2026/01/Wahlprogramm_RLP2025_WEB.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsuchte Begriffe: Binnengrenze, Grenzkontrolle, Grenzen, Kontrolle(n), Zurückweisung, Schengen, Frankreich, Luxemburg, Belgien, grenzüberschreitend, offene (Kapitel Migration/Flucht). Das Programm nennt nur Zurückweisungen an EU-Binnengrenzen als rechtswidrig (S. 51), äußert sich aber nicht zur Fortführung oder Beendigung der Grenzkontrollen."
+        },
+        {
+          "partei_id": 87,
+          "position": "teils",
+          "kurzfassung": "Grenzkontrollen werden nicht abgelehnt, sie dürfen aber den Pendler- und Warenverkehr nicht behindern; eine Forderung nach Fortsetzung oder Ende fehlt.",
+          "zitat": "Grenzkontrollen dürfen den Pendler- und Warenfluss nicht behindern.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Grenzkontroll*, Binnengrenz*, Grenze, Schengen, Kontrolle, Schleierfahndung, Bundespolizei, Freizügigkeit, Luxemburg/Frankreich/Belgien. Durchsucht v. a. J.3 'Grenzregion stärken' (S. 38) und Kapitel K Migration (S. 40–43): nur Grenzpendler, Grenzverkehrsticket, Zusammenarbeit in der Großregion; zu Kontrollen an den Binnengrenzen nichts."
+        },
+        {
+          "partei_id": 89,
+          "position": "nein",
+          "kurzfassung": "Volt will die anlasslosen Grenzkontrollen sofort beenden und sich dafür über den Bundesrat einsetzen.",
+          "zitat": "Wir fordern die sofortige Beendigung der anlasslosen Grenzkontrollen und die Stärkung des Schengen-Systems durch gemeinsame europäische Lösungen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-rlp/pdf/20260213_wahlprogramm-rheinland-pfalz-zur_landtagswahl-2026.pdf#page=128",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-25",
+      "wahl": "rp26",
+      "frage": "Soll die Sperrklausel bei Landtagswahlen von fünf auf drei Prozent sinken?",
+      "beschreibung": "Ob Parteien schon mit drei Prozent der Stimmen in den Landtag einziehen können.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Sperrklausel, Fünf-Prozent, 5-Prozent, Prozent-Hürde, Hürde, Wahlrecht, Landtagswahl, Landeswahl, Wahlalter, Prozent der Stimmen; das Programm enthält kein Kapitel zum Wahlrecht."
+        },
+        {
+          "partei_id": 82,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zur Sperrklausel. Gesucht: Sperrklausel, Fünf-/5-/Drei-/3-Prozent, Prozent-Hürde, Hürde, Wahlrecht, Landeswahlgesetz, Wahlreform, Landtagswahl, Mandat. Zum Wahlrecht nur: Wahlalter 16 bei Landtagswahlen (S. 112) und kommunales Wahlrecht für Nicht-EU-Bürger (S. 114)."
+        },
+        {
+          "partei_id": 83,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Sperrklausel, Fünf-Prozent/5-Prozent, Prozenthürde, Hürde, Wahlrecht, Landeswahlgesetz, Landtagswahl, Wahlrechtsreform. Das Programm fordert Wahlalter 16 (S. 49) und Wahlrecht für EU-Bürger:innen bei Landtagswahlen (S. 66, 93), sagt aber nichts zur Sperrklausel."
+        },
+        {
+          "partei_id": 84,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Sperrklausel, Fünf-Prozent-Hürde, 5 %, Prozent, Hürde, Klausel, Wahlrecht, Landeswahlgesetz, Wahlsystem, Landtagswahl; Kapitel Jugend (S. 88) und Kommunales/Demokratie (S. 134). Zum Wahlrecht nur Wahlalter 16 und das Kommunalwahlsystem, nichts zur Sperrklausel."
+        },
+        {
+          "partei_id": 85,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Sperrklausel, Fünf-/5-Prozent-Hürde, Prozenthürde, drei Prozent (nur Quorum für Volksbegehren), Wahlrecht, Landeswahlgesetz, Kleinpartei; Kapitel 4 Demokratie (S. 12–13) behandelt nur direkte Demokratie und Meldestellen."
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsuchte Begriffe: Sperrklausel, Prozent-Hürde, Hürde, Wahlrecht, Landtagswahl (Kapitel Demokratie/Antifaschismus). Das Programm fordert Wahlalter 16 (S. 43), Wahlrecht für Wohnungslose (S. 9) und kommunales Wahlrecht für Drittstaatsangehörige (S. 56), sagt aber nichts zur Sperrklausel."
+        },
+        {
+          "partei_id": 87,
+          "position": "ja",
+          "kurzfassung": "Das BSW will die Sperrklausel bei Landtagswahlen von fünf auf drei Prozent senken.",
+          "zitat": "Wir fordern außerdem eine Herabsetzung der Sperrklausel bei Landtagswahlen von fünf auf drei Prozent.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Sperrklausel, Prozent-Hürde, Fünf-Prozent, 5 %/3 %, drei Prozent, Wahlrecht, Hürde. Durchsucht A.6 'Demokratie innovativ gestalten' (S. 9, nur Volksinitiative/Volksentscheid-Quoren) und F 'Kommunen, Finanzen und Demokratie'; zur Sperrklausel nichts."
+        },
+        {
+          "partei_id": 89,
+          "position": "ja",
+          "kurzfassung": "Volt will die Sperrklausel bei Landtagswahlen von 5 auf 3 Prozent senken und eine Ersatzstimme einführen.",
+          "zitat": "Um mehr Stimmen zu berücksichtigen, sollte die 5%-Hürde auf 3% gesenkt werden.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-rlp/pdf/20260213_wahlprogramm-rheinland-pfalz-zur_landtagswahl-2026.pdf#page=117",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-26",
+      "wahl": "rp26",
+      "frage": "Sollen Förderschulen in inklusiven Regelschulen aufgehen?",
+      "beschreibung": "Ob Förderschulen schrittweise mit Regelschulen zusammengeführt werden, sodass Kinder mit und ohne Behinderung gemeinsam lernen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "nein",
+          "kurzfassung": "Die CDU will die Förderschulen und Förderkitas erhalten und stärken und daneben die Inklusion an Regelschulen ausbauen.",
+          "zitat": "Wir stärken und erhalten die Förderschulen und Förderkitas als zentralen Bestandteil einer inklusiven Bildungslandschaft.",
+          "beleg_url": "https://www.cdurlp.de/data/documents/2026/01/23/3-697377ae72553.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 82,
+          "position": "nein",
+          "kurzfassung": "Die SPD will Regel-, Schwerpunkt- und Förderschulen als drei Säulen eines inklusiven Bildungsangebots mit vorbehaltlosem Elternwahlrecht erhalten.",
+          "zitat": "Das vorbehaltlose Elternwahlrecht bleibt von zentraler Bedeutung. Das heißt für uns auch: Die Regel-, Schwerpunkt- und Förderschulen sind die drei Säulen eines inklusiven Bildungsangebotes.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpspdwahlprogramm.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 83,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen, dass gemeinsamer Unterricht von Kindern mit und ohne Behinderung zur Regel wird und perspektivisch alle Schulen inklusiv arbeiten.",
+          "zitat": "Wir wollen die Rahmenbedingungen für inklusive Schulen verbessern, damit gemeinsamer Unterricht aller Kinder, Jugendlichen und jungen Erwachsenen auch mit und ohne Behinderung sowie mit und ohne Migrationshintergrund zur Regel wird.",
+          "beleg_url": "https://gruene-rlp.de/wp-content/uploads/2026/02/Wahlprogramm_B90_DieGruenen_2026.pdf#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 84,
+          "position": "nein",
+          "kurzfassung": "Die FDP will die Förderschulen erhalten und lehnt ihre Abschaffung sowie eine Einheitsschule ab; inklusive Schulen sollen zusätzliches Personal bekommen.",
+          "zitat": "Wir stellen uns ganz klar gegen jede Form einer Einheitsschule oder die Abschaffung der Förderschulen.",
+          "beleg_url": "https://www.fdp-rlp.de/sites/default/files/2025-12/FDPRLP_Programm%20LTW%202026.pdf#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 85,
+          "position": "nein",
+          "kurzfassung": "Die AfD will spezialisierte Förderschulen erhalten und stärken statt einer umfassenden Inklusion an Regelschulen.",
+          "zitat": "Die AfD steht für eine pragmatische und vernünftige Inklusion im Bildungsbereich, die für alle Beteiligten sinnvoll ist. Daher wird die AfD spezialisierte Förderschulen erhalten und stärken.",
+          "beleg_url": "https://alternative-rlp.de/wp-content/uploads/2026/01/Wahlprogramm_RLP2025_WEB.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 86,
+          "position": "teils",
+          "kurzfassung": "Die Linke will das gegliederte Schulsystem durch eine gemeinsame „Schule für Alle“ als Regelschule ersetzen und inklusive Bildung ausbauen, nennt Förderschulen aber nicht ausdrücklich.",
+          "zitat": "Daher wollen wir eine „Schule für Alle“ nach dem skandinavischen Vorbild als Regelschule einführen, um den Lernenden ein hohes Bildungsniveau garantieren zu können, um Ungleichheiten abzubauen und allen eine gute Zukunft zu ermöglichen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlp2026linkewahlprogramm-1.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 87,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Förderschule, Sonderschule, Inklusion, inklusiv, Regelschule, Schwerpunktschule, Förderbedarf, Behinderung, Beeinträchtigung, Sonderpädagogen, gemeinsames Lernen, Schulform; Kap. 7, 7.4. Keine Aussage zur Zukunft der Förderschulen."
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Förderschul*, Inklusion/inklusiv, Förderbedarf, Behinderung, Sonderpädagog*, Schwerpunktschule, Förderzentrum, Regelschule, Schulform/Schulsystem, gemeinsam lernen. Kapitel B Bildung (S. 10–14) vollständig gelesen: nur 'Anrechnungsstunden für Klassenleitung/Inklusion' (S. 13), zu Förderschulen nichts."
+        },
+        {
+          "partei_id": 89,
+          "position": "ja",
+          "kurzfassung": "Volt will Förder- und Regelschulen zu inklusiven Bildungseinrichtungen zusammenführen, beginnend mit Schwerpunkt-Grundschulen.",
+          "zitat": "Zügiger Rückbau der Sonderstrukturen zugunsten der Inklusion in die Regelschule: Zusammenführung von Förder- und Regelschulen zu inklusiven Bildungseinrichtungen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-rlp/pdf/20260213_wahlprogramm-rheinland-pfalz-zur_landtagswahl-2026.pdf#page=14",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-27",
+      "wahl": "rp26",
+      "frage": "Soll ein Untersuchungsausschuss des Landtags die Corona-Politik aufarbeiten?",
+      "beschreibung": "Ob der Landtag die Corona-Maßnahmen der damaligen Landesregierung in einem Untersuchungsausschuss prüft.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Corona, Pandemie, Untersuchungsausschuss, Enquete, Aufarbeitung; Treffer nur zu Pandemievorsorge der Krankenhäuser (S. 36), Corona-Defizit 2020 im Haushalt (S. 62) und zum Flut-Untersuchungsausschuss (S. 40). Keine Forderung nach Aufarbeitung der Corona-Politik."
+        },
+        {
+          "partei_id": 82,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Untersuchungsausschuss zur Corona-Politik. Gesucht: Corona, Pandemie, Untersuchungsausschuss, Enquete, Aufarbeitung/aufarbeiten. Einziger Treffer: Lehren aus der Pandemie für die Krisenvorsorge (Landesmateriallager Andernach, S. 49) – keine Aussage zu parlamentarischer Aufarbeitung."
+        },
+        {
+          "partei_id": 83,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Corona, Pandemie, Untersuchungsausschuss, Enquete, Aufarbeitung. Corona wird nur als Ursache wachsender Einsamkeit erwähnt (S. 52); zu einer Aufarbeitung der Corona-Politik oder einem Untersuchungsausschuss keine Aussage."
+        },
+        {
+          "partei_id": 84,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, COVID, Lockdown, Untersuchungsausschuss, Enquete, Aufarbeitung; Treffer nur in Wirtschaft (DigiBoost, BioNTech, S. 29/38), Gesundheit (Long-COVID, S. 68), Frauen/mobiles Arbeiten (S. 85) und Finanzen (S. 122) – keine Aufarbeitung der Corona-Politik."
+        },
+        {
+          "partei_id": 85,
+          "position": "ja",
+          "kurzfassung": "Die AfD fordert einen Untersuchungsausschuss zu den Corona-Maßnahmen der damaligen Landesregierung.",
+          "zitat": "Die AfD fordert einen Untersuchungsausschuss zu den Maßnahmen der damaligen Landesregierung im Zusammenhang mit dem Coronavirus SARS-CoV-2.",
+          "beleg_url": "https://alternative-rlp.de/wp-content/uploads/2026/01/Wahlprogramm_RLP2025_WEB.pdf#page=84",
+          "begruendung": null
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsuchte Begriffe: Corona, Pandemie, Covid, Lockdown, Untersuchungsausschuss, Enquete, Aufarbeitung. Die Pandemie wird nur beim Thema Vereinsamung queerer Senior*innen erwähnt (S. 45); eine Aufarbeitung der Corona-Politik oder ein Untersuchungsausschuss kommt nicht vor."
+        },
+        {
+          "partei_id": 87,
+          "position": "ja",
+          "kurzfassung": "Das BSW fordert einen Untersuchungsausschuss des Landtags zur Aufarbeitung der Corona-Politik.",
+          "zitat": "Wir fordern eine unabhängige und transparente Aufarbeitung der Corona-Politik in einem Untersuchungsausschuss des Landtages.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Corona, Pandemie, Covid, Lockdown, Impf*, Untersuchungsausschuss, Enquete, Aufarbeitung/aufarbeiten – keine Treffer im gesamten Programm."
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Covid, Pandemie, Untersuchungsausschuss, Aufarbeitung, Enquete; Kapitel Demokratie im modernen Zeitalter (S. 111-118) und Gesundheit (S. 95-110). Kein Treffer."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-28",
+      "wahl": "rp26",
+      "frage": "Soll die Mietpreisbremse in Rheinland-Pfalz für mehr Städte und Gemeinden gelten?",
+      "beschreibung": "Ob die Mietpreisbremse, die heute nur in wenigen Orten gilt, auf weitere Gebiete mit knappem Wohnraum ausgedehnt wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Mietpreisbremse, Kappungsgrenze, Mietpreis, Mieter, Mieten, Miete, Mietrecht, Wohnungsmarkt, Wohnraum; gelesen Kapitel 5a (Familien/Wohnen, S. 38–39) und Bauen (S. 55). Es geht um Eigenheim-Zuschuss, Umbau und Baurecht, nicht um Mietregulierung."
+        },
+        {
+          "partei_id": 82,
+          "position": "teils",
+          "kurzfassung": "Die SPD hat die bestehende Mietpreisbremse bis Ende 2029 verlängert und will angespannte Wohnlagen künftig kleinräumig unabhängig von Kreisgrenzen bestimmen; eine ausdrückliche Ausweitung auf mehr Orte nennt sie nicht.",
+          "zitat": "Die bestehende Mietpreisbremse haben wir bis Ende 2029 verlängert. Wir wollen zur Erhebung angespannter Wohnlagen eine individuelle Betrachtung von einzelnen Regionen unabhängig der Kreisgrenzen, ermöglichen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpspdwahlprogramm.pdf#page=64",
+          "begruendung": null
+        },
+        {
+          "partei_id": 83,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen Mietpreisbremse und Kappungsgrenze, die heute nur in wenigen Städten und Landkreisen gelten, ausweiten und die Gebiete kleinräumiger, etwa auf Ebene der Verbandsgemeinden, bestimmen.",
+          "zitat": "Sie gelten aber derzeit nur in wenigen Städten und Landkreisen. Das wollen wir ändern.",
+          "beleg_url": "https://gruene-rlp.de/wp-content/uploads/2026/02/Wahlprogramm_B90_DieGruenen_2026.pdf#page=80",
+          "begruendung": null
+        },
+        {
+          "partei_id": 84,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt die Mietpreisbremse in jeder Variante ab, will sie abschaffen, wo es sie gibt, und setzt stattdessen auf Wohnungsneubau.",
+          "zitat": "die Mietpreisbremse abschaffen, wo es sie bereits gibt, und verhindern, wo es sie noch nicht gibt.",
+          "beleg_url": "https://www.fdp-rlp.de/sites/default/files/2025-12/FDPRLP_Programm%20LTW%202026.pdf#page=138",
+          "begruendung": null
+        },
+        {
+          "partei_id": 85,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Mietpreisbremse, Mietpreis, Mietendeckel, Kappungsgrenze, Mieterschutz, Vermieter; Kapitel 17 Bauen und Wohnen (S. 65–67) setzt auf Abschiebungen, Grundsteuerabschaffung und einfachere Bauordnung, ohne Mietregulierung zu erwähnen."
+        },
+        {
+          "partei_id": 86,
+          "position": "teils",
+          "kurzfassung": "Die Linke kritisiert die Mietpreisbremse in den fünf Städten als wirkungslos und bemängelt, dass Kaiserslautern trotz stark gestiegener Mieten nicht erfasst ist, fordert eine Ausweitung aber nicht ausdrücklich.",
+          "zitat": "Die Mieten steigen enorm an und die gesetzliche Mietpreisbremse in Mainz, Landau in der Pfalz, Speyer, Ludwigshafen am Rhein und Trier bleibt wirkungslos. Und Kaiserslautern fällt aus dieser Regelung heraus, obwohl dort in den letzten fünf Jahren die Mieten um 24% gestiegen sind.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlp2026linkewahlprogramm-1.pdf#page=4",
+          "begruendung": null
+        },
+        {
+          "partei_id": 87,
+          "position": "teils",
+          "kurzfassung": "Das BSW hält die Mietpreisbremsen für zahnlos und will in besonders angespannten Wohnungsmärkten die Mieten für sechs Jahre einfrieren; eine Ausweitung der Mietpreisbremse auf weitere Orte wird nicht ausdrücklich genannt.",
+          "zitat": "In Regionen mit besonders angespanntem Wohnungsmarkt setzen wir uns dafür ein, dass Mieten für sechs Jahre eingefroren werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Miet*, Mietpreisbremse, Wohnraum, Wohnungs*, bezahlbar. Durchsucht C.7 'Wohnen ist soziale Gerechtigkeit' und C.8 'Bauen erleichtern' (S. 17–18): Fokus auf Neubau, Genossenschaften, private Investoren und Grunderwerbsteuer; Mietpreisbremse nicht erwähnt."
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Mietpreis, Mietendeckel, Kappungsgrenze, Miete(n), Mieterschutz, angespannte Wohnungsmärkte; Kapitel Bezahlbarer Wohnraum / Bauen und Wohnen (S. 87-90). Programm setzt auf kommunalen Wohnungsbau, Genossenschaften und Sozialwohnungen; Mieterschutz nur bei energetischer Sanierung (S. 79). Keine Aussage zur Mietpreisbremse."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-29",
+      "wahl": "rp26",
+      "frage": "Soll die Landesregierung mit weniger Ministerien auskommen?",
+      "beschreibung": "Ob Ministerien abgeschafft oder zusammengelegt werden, um Verwaltung und Kosten zu sparen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Ministerium, Ressort, Staatssekretär, Kabinett, verschlanken, Verwaltungsreform, Zusammenlegung, zusammenführen, Doppelstruktur, Stellenabbau; gelesen Kapitel 7 (Staat, Verwaltung, Finanzen, S. 59–63). Eine geringere Zahl von Ministerien wird nicht gefordert."
+        },
+        {
+          "partei_id": 82,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zur Zahl der Ministerien. Gesucht: Ministerium/Ministerien, Ressort, Kabinett, Staatssekretär, zusammenlegen, Landesregierung, Verwaltungsreform, Strukturreform, schlank, Stellenabbau, Personal-/Verwaltungskosten; Kapitel 9 (moderner Staat, Entbürokratisierung, stabile Finanzen). Dort nur Bürokratieabbau und Digitalisierung, keine Zusammenlegung von Ministerien."
+        },
+        {
+          "partei_id": 83,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Ministerium/Ministerien, Ressort, Kabinett, Staatssekretär, zusammenlegen, Verkleinerung, Verwaltungsreform, Bürokratieabbau. Keine Aussage zur Zahl oder Zusammenlegung von Ministerien; erwähnt ist nur ein neues Landesamt für Integration, Einwanderung und Rückführungen (S. 63)."
+        },
+        {
+          "partei_id": 84,
+          "position": "nein",
+          "kurzfassung": "Die FDP will ein zusätzliches, eigenständiges Digitalministerium schaffen; die Mobilitätszuständigkeiten sollen zwar in einem Ministerium gebündelt werden, eine Verringerung der Zahl der Ministerien fordert sie aber nicht.",
+          "zitat": "Wir Freie Demokraten wollen die Digitalpolitik des Landes neu aufstellen und ein eigenständiges Digitalministerium schaffen, als zentrale Schnittstelle zwischen Verwaltung, Wirtschaft und Gesellschaft.",
+          "beleg_url": "https://www.fdp-rlp.de/sites/default/files/2025-12/FDPRLP_Programm%20LTW%202026.pdf#page=141",
+          "begruendung": null
+        },
+        {
+          "partei_id": 85,
+          "position": "ja",
+          "kurzfassung": "Die AfD will zwei Ministerien abschaffen bzw. zusammenlegen, um Personal und Kosten zu sparen.",
+          "zitat": "Die AfD wird zwei Ministerien abschaffen. Das Bildungsministerium und das Ministerium für Wissenschaft und Gesundheit werden zusammengelegt.",
+          "beleg_url": "https://alternative-rlp.de/wp-content/uploads/2026/01/Wahlprogramm_RLP2025_WEB.pdf#page=63",
+          "begruendung": null
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsuchte Begriffe: Ministerium/Ministerien, Ressort, Staatssekretär, Verwaltungsreform, Bürokratieabbau, verschlanken, zusammenlegen, Landesregierung, Verwaltung. Ministerien werden nur als Akteure kritisiert (Gesundheits-, Integrationsministerium, S. 14 und 51); zu Zahl oder Zusammenlegung der Ministerien sagt das Programm nichts."
+        },
+        {
+          "partei_id": 87,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Ministerium, Ministerien, Ressort, Kabinett, Staatssekretär, Landesregierung verkleinern, zusammenlegen, schlanke Verwaltung, Verwaltungsabbau, Beauftragte; Kap. 4.1, 4.2, 11.2. Das Programm will eine schlankere Verwaltung und Entbürokratisierung, nennt aber keine Abschaffung oder Zusammenlegung von Ministerien."
+        },
+        {
+          "partei_id": 88,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen zwei Ministerien abschaffen und die übrigen Ressorts neu zuschneiden, etwa Bildung und Wissenschaft zusammenlegen.",
+          "zitat": "Deshalb wollen wir die Verwaltungsstrukturen im Land grundlegend reformieren und die Zahl der Ministerien verringern – durch die Abschaffung von zwei Ministerien und eine Neuzuschnitte der verbleibenden Ressorts.",
+          "beleg_url": "https://www.fwrlp.de/wp-content/uploads/2025/11/Wahlprogramm_FREIE_WAEHLER_LTW.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ministerium/Ministerien, Ressort, Landesregierung, Staatssekretär, zusammenlegen, verschlanken; Kapitel Digitalisierung und Entbürokratisierung (S. 39-40). Nur Digitalisierung und Bürokratieabbau in der Verwaltung, keine Aussage zur Zahl der Ministerien."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-30",
+      "wahl": "rp26",
+      "frage": "Soll das Land für junge Menschen die Gebühren für den ersten Führerschein übernehmen?",
+      "beschreibung": "Ob das Land für Fahranfängerinnen und Fahranfänger unter 25 Jahren die Verwaltungs- und Prüfungsgebühren zahlt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "teils",
+          "kurzfassung": "Die CDU will den Führerschein (Klasse B und C) für Feuerwehrangehörige mit 500 Euro Landesmitteln bezuschussen, wenn sie sich zu zehn Jahren aktivem Dienst verpflichten, und unterstützt Kostensenkungen beim Führerschein durch den Bund; eine allgemeine Gebührenübernahme für junge Menschen fordert sie nicht.",
+          "zitat": "Den Erwerb von Fahrerlaubnissen der Klassen B und C, die im Einsatz genutzt werden können, werden wir für alle Feuerwehrangehörigen pauschal mit je 500 Euro Landesmitteln fördern; Voraussetzung ist die Verpflichtung für einen mindestens 10-jährigen aktiven Dienst.",
+          "beleg_url": "https://www.cdurlp.de/data/documents/2026/01/23/3-697377ae72553.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 82,
+          "position": "ja",
+          "kurzfassung": "Die SPD will, dass das Land für alle Erstanmelderinnen und Erstanmelder unter 25 Jahren die Verwaltungs- und Prüfungsgebühren für den Führerschein übernimmt.",
+          "zitat": "Wir machen den Führerschein für junge Menschen günstiger, indem das Land künftig für alle Erstanmelderinnen und Erstanmelder unter 25 Jahren die Verwaltungs- und Prüfungsgebühren übernimmt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpspdwahlprogramm.pdf#page=112",
+          "begruendung": null
+        },
+        {
+          "partei_id": 83,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Führerschein, Fahrerlaubnis, Fahrschule, Fahrprüfung, Fahranfänger, Prüfungsgebühr, begleitetes Fahren, Kapitel Mobilität und Jugend (S. 31–34, 49–50). Keine Treffer; zu Gebühren für den Führerschein keine Aussage."
+        },
+        {
+          "partei_id": 84,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Führerschein, Fahrerlaubnis, Fahrschule, Fahranfänger, Fahrprüfung, Gebühren; Kapitel Mobilität (S. 60). Die FDP will den Führerschein „erschwinglicher machen“, aber über digitalen Theorieunterricht, Fahrsimulatoren und Öffnung des Prüfungsmarktes für weitere Anbieter sowie begleitetes Fahren ab 16 – eine Übernahme der Gebühren durch das Land wird nicht gefordert."
+        },
+        {
+          "partei_id": 85,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Führerschein, Fahrschule, Fahrerlaubnis, Fahranfänger, Fahrprüfung, Prüfungsgebühr; Kapitel 13 Verkehr und Infrastruktur (S. 50–54) vollständig gelesen."
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsuchte Begriffe: Führerschein, Fahrerlaubnis, Fahrschule, Fahranfänger, Gebühr, junge Menschen, Auto/PKW (Kapitel Mobilität, Bildung/Ausbildung). Das Programm fordert gebührenfreie Ausbildung und Studium (S. 20, 23), aber nichts zu Führerscheingebühren."
+        },
+        {
+          "partei_id": 87,
+          "position": "teils",
+          "kurzfassung": "Das BSW will den Führerschein wieder bezahlbar machen, ohne zu sagen, dass das Land die Gebühren übernimmt.",
+          "zitat": "Das Deutschlandticket muss ausgeweitet und für Schüler kostenlos werden, den Führerschein wollen wir wieder bezahlbar machen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=37",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Führerschein, Fahrerlaubnis, Fahrschul*, Fahranfänger, Prüfungsgebühr, Gebühr, junge Menschen, Jugendliche. Durchsucht u. a. G.4 'Mobilität und Verkehr' (S. 32–33) und B.7 Übergänge (S. 13); nur Azubi-Ticket erwähnt, zur Übernahme von Führerscheingebühren nichts."
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Führerschein, Fahrerlaubnis, Fahrschule, Fahranfänger, Gebühr/Prüfungsgebühr; Kapitel Verkehr (S. 84-86) und Bildung/Ausbildung (S. 23). Kein Treffer."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "st26-1",
       "wahl": "st26",
       "frage": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
@@ -16259,6 +17515,744 @@
           "zitat": null,
           "beleg_url": null,
           "begruendung": "Durchsucht: Intel, Chipfabrik, Halbleiter, Mikroelektronik, Subvention, Ansiedlung, Großansiedlung; Volt nennt nur allgemeine Ansiedlungsanreize (Rechenzentren, Logistikflächen, grüne Chemie), nicht Subventionen für Großansiedlungen wie die Chipfabrik."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-25",
+      "wahl": "st26",
+      "frage": "Soll Sachsen-Anhalt Beteiligungen des Landes an Unternehmen verkaufen?",
+      "beschreibung": "Ob das Land seine Unternehmensbeteiligungen überprüft und in einer Privatisierungsoffensive an Private abgibt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beteiligung, Landesbeteiligung, landeseigen, Landesunternehmen, Landesgesellschaft, Privatisierung, veräußern, verkaufen, Staatsbetrieb, Landesvermögen; Kapitel Finanzpolitik mit Verantwortung und Top-Region für Unternehmensansiedlungen. Kein Verkauf von Landesbeteiligungen erwähnt; die Investitionsbank soll als Förderbank weiterentwickelt werden."
+        },
+        {
+          "partei_id": 92,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beteiligung(en), Privatisier*, Verkauf/veräußer*, landeseigen*, Landesgesellschaft, Landesbeteiligung, Unternehmensbeteiligung, Staatsbeteiligung, Investitionsbank, Eigentum, öffentliche Hand, privat* – Kapitel Wirtschaft (S. 4–7) und Finanzen (S. 57–60). Keine Aussage zum Verkauf von Landesbeteiligungen an Unternehmen."
+        },
+        {
+          "partei_id": 93,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beteiligung(en), Landesbeteiligung, Landesunternehmen, landeseigen, Privatisierung, Verkauf/veräußern, öffentliche Hand, Investitionsbank, Stadtwerke – Kapitel 5 (Wirtschaft, Finanzen/Haushalt). Kein Wort zu Verkauf oder Überprüfung von Landesbeteiligungen; nur Sicherung der Eigenständigkeit der Investitionsbank (S. 96) und Stadtwerke möglichst in kommunaler Hand (S. 23)."
+        },
+        {
+          "partei_id": 94,
+          "position": "ja",
+          "kurzfassung": "Die FDP will alle Landesbeteiligungen überprüfen und eine umfassende Privatisierungsoffensive starten.",
+          "zitat": "Wir fordern, alle Beteiligungen des Landes kritisch zu evaluieren und eine umfassende Privatisierungsoffensive zu starten.",
+          "beleg_url": "https://42cloud.universum.com/sites/default/files/2026-06/Freiheit%20hat%20nur%20eine%20Heimat%20%E2%80%93%20Wahlprogramm%20der%20FDP%20Sachsen-Anhalt%20zur%20Landagswahl%202026.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 95,
+          "position": "teils",
+          "kurzfassung": "Die AfD will überflüssige Landesgesellschaften ohne klaren Mehrwert auflösen und schließen, spricht aber nicht von einem Verkauf an Private und lehnt die Privatisierung von Krankenhäusern ab.",
+          "zitat": "Der Staat ist kein Ersatzkonzern – wir werden überflüssige Landesgesellschaften auflösen. Staatsbetriebe wie die Landesenergieagentur (LENA) oder die Investitions- und Marketinggesellschaft (IMG) müssen geschlossen werden, sofern sie keinen klaren Mehrwert für das Land erbringen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdwahlprogrammsachsen-anhalt2026.pdf#page=212",
+          "begruendung": null
+        },
+        {
+          "partei_id": 96,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt jede Privatisierung öffentlichen Eigentums ab und will strategische Infrastruktur rekommunalisieren.",
+          "zitat": "Grundlage unserer Finanzpolitik ist die bedingungslose Ablehnung der Privatisierung öffentlichen Eigentums. Wir setzen uns aktiv für die Rekommunalisierung strategischer Infrastruktur ein.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/linkewahlprogrammsachsen-anhalt2026.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 97,
+          "position": "nein",
+          "kurzfassung": "Das BSW will landeseigene Unternehmen stärken und den weiteren Verkauf öffentlichen Eigentums stoppen; Privatisierungen lehnt es ab.",
+          "zitat": "Der soziale Wohnungsbau muss deutlich ausgeweitet, kommunale und landeseigene Wohnungsunternehmen gestärkt und weiterer Ausverkauf öffentlichen Eigentums gestoppt werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswwahlprogrammsachsenanhalt2026.pdf#page=76",
+          "begruendung": null
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beteiligung, Landesbeteiligung, Privatisier, veräußer, verkauf, Landesvermögen, Landesgesellschaft, GmbH, Holding, Anteil (Kapitel 3.3 Finanzen, 4.1 Wirtschaft). Keine Aussage zum Verkauf von Landesbeteiligungen."
+        },
+        {
+          "partei_id": 99,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beteiligung(en) des Landes, Unternehmensbeteiligung, Landesbeteiligung, Privatisier, Verkauf, veräußer, Anteile, Landesunternehmen, landeseigen, öffentliche Unternehmen, Landesbank, Investitionsbank, öffentliche Hand, im Wirtschafts- und Finanzkapitel (S. 50-65) und im Verwaltungskapitel (S. 106-123); kein Verkauf oder Überprüfung von Landesbeteiligungen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-26",
+      "wahl": "st26",
+      "frage": "Sollen Studierende aus Nicht-EU-Staaten Studiengebühren zahlen?",
+      "beschreibung": "Ob Hochschulen in Sachsen-Anhalt, abgestimmt mit den Nachbarländern, von Studierenden aus Staaten außerhalb der EU Gebühren erheben.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "ja",
+          "kurzfassung": "Die CDU will mit den mitteldeutschen Nachbarländern abgestimmte Studiengebühren für Studierende aus Nicht-EU-Staaten zur Mitfinanzierung der Hochschulen.",
+          "zitat": "Mit den mitteldeutschen Nachbarländern 2833 abgestimmte Studiengebühren für ausländische Studentinnen und Studenten aus Nicht2834 EU-Staaten sollen zur Mitfinanzierung unserer Hochschullandschaft beitragen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogrammsachsen-anhalt2026.pdf#page=72",
+          "begruendung": null
+        },
+        {
+          "partei_id": 92,
+          "position": "nein",
+          "kurzfassung": "Die SPD lehnt Studiengebühren ab und wendet sich gegen eine einseitige finanzielle Belastung ausländischer Studierender.",
+          "zitat": "Sachsen-Anhalt wird auch weiter ein attraktiver Lernort für ausländische Studierende bleiben. Wir setzen uns gegen einseitige finanzielle Belastung ausländischer Studierender ein.",
+          "beleg_url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/03/SPD-Wahlprogramm-2026.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 93,
+          "position": "nein",
+          "kurzfassung": "Die Grünen lehnen Studiengebühren kategorisch ab und wollen auch die Zweitstudiengebühren abschaffen.",
+          "zitat": "Studiengebühren lehnen wir aus diesem Grund kategorisch ab. Auch die Zweitstudiengebühren an unseren Hochschulen und Universitäten sollen abgeschafft werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=67",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Studiengebühr, Studienbeitrag, Gebühr, gebührenfrei, kostenfrei, Langzeitstudium, Nicht-EU, außerhalb der EU, Drittstaat, internationale/ausländische Studierende; Kapitel Wissenschaft (S. 32–34) vollständig gelesen. Keine Aussage zu Studiengebühren (Treffer zu Nicht-EU betreffen nur die Approbation von Ärzten, S. 60)."
+        },
+        {
+          "partei_id": 95,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel V. Wissenschaft (S. 92–100) vollständig gelesen: Bologna, Landesstipendium, Aufnahmeprüfungen, Hochschulgremien – keine Studiengebühren. Gesucht im ganzen Text: Studiengebühr, Gebühren, Studienbeitr, Studierend, Studenten, Nicht-EU, Drittstaat, ausländische Studierende, international."
+        },
+        {
+          "partei_id": 96,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt Studiengebühren ab und will internationale Studierende willkommen heißen und unterstützen.",
+          "zitat": "Studiengebühren lehnen wir ab.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/linkewahlprogrammsachsen-anhalt2026.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 97,
+          "position": "nein",
+          "kurzfassung": "Das BSW will, dass das Studium gebührenfrei bleibt.",
+          "zitat": "Das Studium muss gebührenfrei bleiben. Bildung ist ein öffentliches Gut und darf nicht vom Geldbeutel abhängen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswwahlprogrammsachsenanhalt2026.pdf#page=51",
+          "begruendung": null
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Studiengebühr, Gebühr, Beitrag, Semester, Studier, Hochschul, Universität, Drittstaat, internationale/ausländische Studierende (Kapitel Hochschulen/Wissenschaft S. 100–104). Keine Aussage zu Studiengebühren."
+        },
+        {
+          "partei_id": 99,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Studiengebühr, Gebühren, Nicht-EU, Drittstaat, internationale/ausländische Studierende, Studium, Hochschule im Bildungskapitel (S. 26-28) und Europa-Kapitel (S. 160-166); das Programm äußert sich nicht zu Studiengebühren."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-27",
+      "wahl": "st26",
+      "frage": "Soll die Landesenergieagentur abgeschafft werden?",
+      "beschreibung": "Ob das Land seine Energieagentur LENA auflöst, die zur Energiewende berät und vernetzt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: LENA, Energieagentur, Landesenergieagentur, Agentur, Energieberatung, Energiewende, Klimaschutzagentur; Kapitel zur Energiepolitik. Die Landesenergieagentur wird nicht erwähnt."
+        },
+        {
+          "partei_id": 92,
+          "position": "nein",
+          "kurzfassung": "Die SPD will die Landesenergieagentur LENA nicht abschaffen, sondern zum Energiekompetenzhub ausbauen.",
+          "zitat": "Wir wollen die Landesenergieagentur LENA zum Energiekompetenzhub für Wirtschaft und Verbraucher ausbauen. Sie soll zur Landeskoordinierungsstelle für die künftigen Wasserstoff- und Kohlendioxid-Infrastrukturen werden.",
+          "beleg_url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/03/SPD-Wahlprogramm-2026.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 93,
+          "position": "nein",
+          "kurzfassung": "Die Grünen halten die Landesenergieagentur LENA für unverzichtbar und wollen sie stärken.",
+          "zitat": "Die Landesenergieagentur Sachsen-Anhalt (LENA) ist als Beratungs- und Vernetzungsakteur für die Energiewende für uns unverzichtbar. Wir möchten diese Institution stärken und weitere Kompetenzen im Bereich Klimaschutz aufbauen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: LENA, Energieagentur, Agentur, Landesgesellschaft, Klimaschutzagentur, Energieberatung, auflösen, abschaffen; Kapitel Energie (S. 13–14). Die Landesenergieagentur wird nicht erwähnt."
+        },
+        {
+          "partei_id": 95,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Landesenergieagentur abschaffen, weil sie sie als Steuergeldvergeudung für die Energiewende ansieht.",
+          "zitat": "Eine AfD-geführte Landesregierung wird diese Steuergeldvergeudung beenden und die Landesenergieagentur abschaffen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdwahlprogrammsachsen-anhalt2026.pdf#page=156",
+          "begruendung": null
+        },
+        {
+          "partei_id": 96,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die Landesenergieagentur nicht abschaffen, sondern zu einer Landesenergiegesellschaft für Erzeugung, Netze und Speicher ausbauen.",
+          "zitat": "die Landesenergieagentur zu einer Landesenergiegesellschaft weiterentwickeln, die Erzeugung, Netze und Speicher bündelt",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/linkewahlprogrammsachsen-anhalt2026.pdf#page=108",
+          "begruendung": null
+        },
+        {
+          "partei_id": 97,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Energieagentur, LENA, Agentur, Energieberatung; Kapitel 3 Wirtschaft/Energie (S. 17–28, u. a. Energiemix, erneuerbare Energien, Netze). Keine Aussage zur Landesenergieagentur."
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: LENA, Energieagentur, Landesenergie, Agentur, Energieberatung, Energiewende (Kapitel 4.1.2 Energie – Wertschöpfung vor Ort). Keine Aussage zur Landesenergieagentur."
+        },
+        {
+          "partei_id": 99,
+          "position": "nein",
+          "kurzfassung": "Volt will die Landesenergieagentur LENA nicht abschaffen, sondern zu einem umfassenden Energiekompetenzzentrum für Unternehmen und Kommunen ausbauen.",
+          "zitat": "Landesenergieagentur LENA zu einem umfassenden Energiekompetenzzentrum für Unternehmen und Kommunen ausbauen",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/voltwahlprogrammst2026.pdf#page=51",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-28",
+      "wahl": "st26",
+      "frage": "Sollen Geschäfte auch sonntags und an Feiertagen weitgehend frei öffnen dürfen?",
+      "beschreibung": "Ob das Ladenöffnungszeitengesetz liberalisiert wird, mit deutlich mehr Sonntags- und Feiertagsöffnungen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ladenöffnung, Ladenöffnungszeiten, Öffnungszeiten, Sonntag, Feiertag, Einzelhandel, Laden, Kirchen; Kapitel Top-Region für Unternehmensansiedlungen, Religionsfreiheit und Kirchen. Keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 92,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ladenöffnung*, Sonntag*, Feiertag*, Öffnungszeit*, verkaufsoffen, Späti/Spätshop, Einzelhandel, Handel, Läden, Geschäfte – Kapitel Wirtschaft/Arbeit (S. 4–10). Keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 93,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ladenöffnung, Ladenschluss, Öffnungszeit, Sonntag, Sonn-/Feiertag, arbeitsfrei, Einzelhandel, Geschäfte – Kapitel Wirtschaft, Arbeit, Kultur. Nur Sonntagsöffnung öffentlicher Bibliotheken (S. 71) und kostenloser Museumssonntag (S. 69), nichts zum Ladenöffnungsgesetz."
+        },
+        {
+          "partei_id": 94,
+          "position": "ja",
+          "kurzfassung": "Die FDP will das Ladenöffnungszeitengesetz vollständig liberalisieren, mit möglichst vielen Sonntags- und auch Feiertagsöffnungen.",
+          "zitat": "Wir werden schnellstmöglich die vollständige Liberalisierung des Ladenöffnungszeitengesetzes vorantreiben, die insbesondere eine größtmögliche Ausweitung der Sonntagsöffnungen sowie Öffnungen an Feiertagen ermöglicht.",
+          "beleg_url": "https://42cloud.universum.com/sites/default/files/2026-06/Freiheit%20hat%20nur%20eine%20Heimat%20%E2%80%93%20Wahlprogramm%20der%20FDP%20Sachsen-Anhalt%20zur%20Landagswahl%202026.pdf#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 95,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Laden, Ladenöffnung, Öffnungszeit, Sonntag, sonntäg, Feiertag, Einzelhandel, Verkaufsstelle; Kapitel IX. Wirtschaft und Tourismus durchgesehen – keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 96,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (linke.txt und linke_lese.txt): Ladenöffnung, Ladenöffnungszeiten, Sonntag, Sonn-, Feiertag, verkaufsoffen, Öffnungszeit, Einzelhandel, Handel, Späti; Kapitel Gute Arbeit (S. 86–88), Wirtschaft (S. 89–95). Nur Treffer zu Zuschlägen für Feiertagsarbeit (S. 86), nichts zu Ladenöffnung."
+        },
+        {
+          "partei_id": 97,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ladenöffnung, Ladenschluss, Öffnungszeit, Sonntag/Sonn-, Feiertag, verkaufsoffen, Einzelhandel, Handel, Wochenende; Abschnitt Mittelstand (S. 20–22) und „Im Osten geht die Sonne auf“ (S. 87–90). Keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ladenöffnung, Ladenschluss, Laden, Sonntag, Sonn, verkaufsoffen, Feiertag, Öffnungszeit, Einzelhandel (Kapitel 1.2.5 Kultur, 4.1 Wirtschaft). Keine Aussage zu Ladenöffnungszeiten."
+        },
+        {
+          "partei_id": 99,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ladenöffnung, Öffnungszeiten, sonntag, Feiertag, verkaufsoffen, Späti, Smart Store, 24/7, Laden/Läden, Einzelhandel, Geschäfte, Nahversorgung; zu Ladenöffnungszeiten im Handel gibt es keine Aussage."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-29",
+      "wahl": "st26",
+      "frage": "Soll das Land kleinen und jungen Unternehmen eine kostenlose Beratung bezahlen?",
+      "beschreibung": "Ob kleine Betriebe und Gründungen vom Land finanzierte Beratung zu Finanzen, Steuern oder Recht bekommen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beratung, Berater, Unternehmensberatung, Gründung, Gründer, Existenzgründung, Jungunternehmer, Start-up, Coaching, Mittelstand, kostenlos; Kapitel Top-Region für Unternehmensansiedlungen, Digitalisierung. Allgemein werden Gründerkultur, gezielte Unterstützung von Jungunternehmern und Unternehmensnachfolgen genannt, aber keine vom Land bezahlte Beratung für kleine und junge Unternehmen."
+        },
+        {
+          "partei_id": 92,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Berat*, Beratungsgutschein, Beratungsförderung, Coaching, kostenlos/kostenfrei, Gründ*/Start-up/Existenzgründung, Kleinbetrieb, Solo-Selbständige, Mittelstand, Handwerk, KMU, Steuerberat*, Rechtsberat*, Unternehmensberat*, Anlaufstelle, Lotsen – Kapitel Wirtschaft (S. 4–7) und Arbeit (S. 8–10). Keine vom Land bezahlte Beratung für kleine und junge Unternehmen zu Finanzen, Steuern oder Recht genannt."
+        },
+        {
+          "partei_id": 93,
+          "position": "teils",
+          "kurzfassung": "Die Grünen wollen Beratungsangebote für Gründungen an Hochschulen ausbauen und Unternehmensnachfolgen durch Beratung unterstützen, ohne eine kostenlose Beratung zu Finanzen, Steuern oder Recht zu nennen.",
+          "zitat": "Die Gründungskultur an den Hochschulen wollen wir stärken, indem wir die Transferinfrastruktur verbessern, Beratungsangebote ausbauen, Gründungszentren vernetzen und Spin-offs gezielt fördern, etwa durch Gründungsstipendien.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=90",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beratung, Berater, Gutschein, Coaching, Gründung/Gründer, Existenzgründung, Start-up, Kleinunternehmen, Mittelstand, Steuerberatung; Kapitel Wirtschaft (S. 6–9). Keine vom Land bezahlte Beratung zu Finanzen, Steuern oder Recht für kleine oder junge Unternehmen."
+        },
+        {
+          "partei_id": 95,
+          "position": "teils",
+          "kurzfassung": "Die AfD will kleinen und mittelständischen Unternehmen eine kostenfreie Beratung anbieten, allerdings nur zu Technisierung, Digitalisierung und Künstlicher Intelligenz.",
+          "zitat": "Kostenfreie Beratung kleiner und mittelständischer Unternehmen bei der Planung, Finanzierung und Umsetzung von Technisierungs- und Digitalisierungsprozessen sowie dem Einsatz Künstlicher Intelligenz.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdwahlprogrammsachsen-anhalt2026.pdf#page=41",
+          "begruendung": null
+        },
+        {
+          "partei_id": 96,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beratung, Beratungsangebot, Unternehmensberatung, Coaching, Gründung, Gründer, Existenzgründung, Startup, KMU, kleine und mittlere Unternehmen, Selbstständige, Handwerk, Nachfolge; Kapitel Wirtschaft/Industriepolitik, Handwerk, Tourismus (S. 89–95). Es gibt Investitionsfonds, Kredite, Zuschüsse und Unterstützung bei Nachfolge (S. 90–93), aber keine vom Land bezahlte Beratung für kleine oder junge Unternehmen."
+        },
+        {
+          "partei_id": 97,
+          "position": "teils",
+          "kurzfassung": "Das BSW nennt niedrigschwellige Beratung und Mentoring für Gründungen unverzichtbar und will Gründungen stärker unterstützen, sagt aber nicht, dass das Land die Beratung kostenlos bezahlt.",
+          "zitat": "Eine aktive Gründungskultur, niedrigschwellige Beratung, Mentoringprogramme und ein verlässliches soziales Umfeld sind deshalb unverzichtbar.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswwahlprogrammsachsenanhalt2026.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 98,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen jungen Unternehmen in den ersten zwei Jahren eine vom Land finanzierte Unternehmensberatung bieten.",
+          "zitat": "eine vom Land finanzierte Unternehmensberatung zur Überwindung von strukturellen oder finanziellen Hindernissen in den ersten zwei Jahren,",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/freiewahlerwahlprogrammsachsen-anhalt2026.pdf#page=83",
+          "begruendung": null
+        },
+        {
+          "partei_id": 99,
+          "position": "ja",
+          "kurzfassung": "Volt will in allen Landkreisen und kreisfreien Städten kostenlose Beratung für kleine Unternehmen bis 20 Beschäftigte zu Steuern, Buchhaltung, Liquidität und Arbeitsrecht anbieten.",
+          "zitat": "Wir bauen in Sachsen-Anhalt ein Netz kostenloser Beratungsangebote für kleine Unternehmen auf. Ziel ist es, frühzeitig Orientierung zu geben und betriebliche Stabilität zu sichern.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/voltwahlprogrammst2026.pdf#page=58",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-30",
+      "wahl": "st26",
+      "frage": "Soll das Justizministerium den Staatsanwaltschaften keine Weisungen mehr erteilen dürfen?",
+      "beschreibung": "Ob das Weisungsrecht der Justizministerin oder des Justizministers gegenüber den Staatsanwaltschaften abgeschafft wird, auch per Bundesratsinitiative.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Weisung, Weisungsrecht, Staatsanwaltschaft, Justizminister, Unabhängigkeit der Justiz; Kapitel zu Justiz und Rechtsstaat. Staatsanwaltschaften nur zum Erhalt der Standorte erwähnt, nichts zum Weisungsrecht."
+        },
+        {
+          "partei_id": 92,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Weisung*, Staatsanwalt*, Justizminist*, Unabhängigkeit der Justiz, Bundesrat – Kapitel Justiz/Rechtsstaat (S. 30–32). Staatsanwaltschaften sollen nur personell und technisch gestärkt werden; zum ministeriellen Weisungsrecht keine Aussage."
+        },
+        {
+          "partei_id": 93,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Weisung(srecht), weisungsunabhängig, Staatsanwaltschaft, Justizministerium, Unabhängigkeit der Justiz, Selbstverwaltung der Justiz, Bundesratsinitiative – Kapitel 2.6 Justiz und Strafvollzug. Staatsanwaltschaften nur bei Personal und Cyberkriminalität; Unabhängigkeit nur für das Landesverfassungsgericht."
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Weisung, Weisungsrecht, Staatsanwalt, Unabhängigkeit, Selbstverwaltung, Bundesratsinitiative; Kapitel Justiz (S. 45–47) vollständig gelesen. Das Weisungsrecht gegenüber den Staatsanwaltschaften wird nicht erwähnt."
+        },
+        {
+          "partei_id": 95,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kapitel VII. Justizwesen (S. 118–127) vollständig gelesen; gesucht: Weisung, Weisungsrecht, weisungsgebunden, Staatsanwalt, Justizminist, Unabhängigkeit. Kein Wort zum ministeriellen Weisungsrecht gegenüber Staatsanwaltschaften."
+        },
+        {
+          "partei_id": 96,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Weisung, weisungs, Staatsanwalt, Justizminist, Selbstverwaltung, unabhängige Justiz, Bundesratsinitiative; Kapitel Justiz (S. 135–141). Staatsanwaltschaften nur zu Personal und Schwerpunktstaatsanwaltschaften, nichts zum Weisungsrecht."
+        },
+        {
+          "partei_id": 97,
+          "position": "teils",
+          "kurzfassung": "Das BSW will das ministerielle Einzelweisungsrecht in konkreten Ermittlungsverfahren abschaffen, auch per Bundesrat, verbleibende Weisungsrechte aber nur begrenzt und kontrolliert beibehalten.",
+          "zitat": "Das ministerielle Einzelweisungsrecht in konkreten Ermittlungsverfahren ist ein Einfallstor für politische Einflussnahme und muss abgeschafft werden. Verbleibende Weisungsrechte dürfen ausschließlich transparent, schriftlich begründet und parlamentarisch kontrolliert ausgeübt werden – und nur bei klaren Rechtsfragen, niemals aus politischen Motiven.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswwahlprogrammsachsenanhalt2026.pdf#page=71",
+          "begruendung": null
+        },
+        {
+          "partei_id": 98,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen das Weisungsrecht des Justizministeriums gegenüber den Staatsanwaltschaften abschaffen.",
+          "zitat": "Die Weisungsbefugnis des Justizministeriums gegenüber Staatsanwaltschaften ist abzuschaffen. Sie entspricht nicht dem Prinzip der Gewaltenteilung.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/freiewahlerwahlprogrammsachsen-anhalt2026.pdf#page=66",
+          "begruendung": null
+        },
+        {
+          "partei_id": 99,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Weisung, Weisungsrecht, Staatsanwalt, Justizminister, Unabhängigkeit der Justiz, Bundesratsinitiative im Kapitel Innen, Recht & Bevölkerungsschutz (S. 167-180); Staatsanwaltschaften kommen nur bei Personal, Schwerpunktdezernaten und Verfahrenseinstellungen vor."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-31",
+      "wahl": "st26",
+      "frage": "Sollen Menstruationsprodukte in Schulen und öffentlichen Gebäuden kostenlos sein?",
+      "beschreibung": "Ob das Land Binden und Tampons in Schulen, Hochschulen und Behörden gratis bereitstellt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Menstruation, Menstruationsprodukte, Periode, Tampon, Binden, Hygieneartikel, kostenlos; Kapitel Soziale Gerechtigkeit und Familie, Bildung. Keine Aussage."
+        },
+        {
+          "partei_id": 92,
+          "position": "ja",
+          "kurzfassung": "Die SPD will Menstruationsprodukte in Schulen, Hochschulen und öffentlichen Gebäuden kostenfrei bereitstellen.",
+          "zitat": "Menstruationsprodukte sollen in öffentlichen Einrichtungen wie Schulen, Hochschulen und öffentlichen Gebäuden kostenfrei zur Verfügung stehen.",
+          "beleg_url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/03/SPD-Wahlprogramm-2026.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 93,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen Menstruationsprodukte in Schulen und allen öffentlichen Einrichtungen des Landes kostenfrei bereitstellen.",
+          "zitat": "Die Initiative der Hochschule Merseburg, entsprechende Hygieneartikel kostenfrei zur Verfügung zu stellen, begrüßen wir und sehen dies als Vorbild für alle öffentlichen Einrichtungen des Landes und der Schulen in Sachsen-Anhalt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=82",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Menstruation, Periode, Periodenarmut, Tampon, Binden, Hygieneartikel; Kapitel Frauen/Gleichstellung (S. 39), Bildung. Keine Aussage zu kostenlosen Menstruationsprodukten."
+        },
+        {
+          "partei_id": 95,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Menstru, Periode, Tampon, Binde, Hygieneartikel, Monatshygiene, kostenlos, gratis, unentgeltlich – keine Treffer zum Thema (nur kostenlose Kita, Bücher, Kulturzugang)."
+        },
+        {
+          "partei_id": 96,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Menstruation, Menstruationsprodukte, Periode, Periodenarmut, Tampon, Binden, Hygieneartikel, Hygieneprodukte, Monatshygiene; Kapitel Gleichstellung/Frauen (S. 20–24), Bildung (S. 26–34), Gesundheit (S. 47–56). Keine Treffer."
+        },
+        {
+          "partei_id": 97,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Menstruation, Periode, Hygieneartikel, Tampon, Binden, kostenlos/kostenfrei/gratis; Abschnitt „Gleichstellung voranbringen“ (S. 36–38) und Bildungskapitel (S. 43–49). Keine Aussage zu Menstruationsprodukten."
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Menstru, Tampon, Binden, Periode, Hygiene, Frauen, Mädchen, Gleichstellung, kostenlos/kostenfrei (Kapitel Familie, Bildung, Gleichstellung). Keine Aussage zu Menstruationsprodukten."
+        },
+        {
+          "partei_id": 99,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Menstruation, Periode, Periodenarmut, Tampon, Binden, Hygieneartikel/-produkte, kostenlos/kostenfrei im Bildungs-, Gesundheits- und Sozialkapitel; Menstruation kommt nur als Menstruationszyklus in der geschlechtersensiblen Medizin vor (S. 38)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-32",
+      "wahl": "st26",
+      "frage": "Soll der Internationale Frauentag am 8. März in Sachsen-Anhalt gesetzlicher Feiertag werden?",
+      "beschreibung": "Ob das Land einen zusätzlichen arbeitsfreien Feiertag am 8. März einführt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, 8. März, Weltfrauentag, Feiertag, arbeitsfrei, Gedenktag; Kapitel Soziale Gerechtigkeit und Familie, Kultur. Erwähnt wird nur der 20. Juni als Gedenktag für Flucht und Vertreibung, kein Feiertag am 8. März."
+        },
+        {
+          "partei_id": 92,
+          "position": "ja",
+          "kurzfassung": "Die SPD will den Internationalen Frauentag am 8. März in Sachsen-Anhalt zum gesetzlichen Feiertag machen.",
+          "zitat": "Der 8. März, der Internationale Frauentag, soll in Sachsen-Anhalt als gesetzlicher Feiertag die Bedeutung von Gleichstellung sichtbar machen.",
+          "beleg_url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/03/SPD-Wahlprogramm-2026.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 93,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, Weltfrauentag, Frauenkampftag, 8. März, Feiertag, gesetzlicher Feiertag, Gedenktag – Kapitel Gleichstellung/Frauen und gesamtes Programm. Keine Treffer."
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, 8. März, Feiertag, Gedenktag. Einziger Treffer zu Feiertagen betrifft Ladenöffnungen (S. 7); kein zusätzlicher Feiertag gefordert oder abgelehnt."
+        },
+        {
+          "partei_id": 95,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Frauentag, Weltfrauentag, 8. März, Feiertag, arbeitsfrei, Gedenktag – keine Treffer."
+        },
+        {
+          "partei_id": 96,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, Frauenkampftag, 8. März, März, Feiertag, gesetzlicher Feiertag; Kapitel Gleichstellung/Frauen (S. 20–24) und Gute Arbeit (S. 86–88). Keine Aussage zu einem neuen Feiertag."
+        },
+        {
+          "partei_id": 97,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, Weltfrauentag, 8. März, Feiertag, arbeitsfrei, Gedenktag; Abschnitt „Gleichstellung voranbringen“ (S. 36–38). Keine Aussage zu einem Feiertag am 8. März."
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, 8. März, Feiertag, arbeitsfrei, Frauen, Gleichstellung. Einzige Feiertagsstelle (S. 25) betrifft den Erhalt christlicher Feiertage; keine Aussage zum Frauentag."
+        },
+        {
+          "partei_id": 99,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, Weltfrauentag, 8. März, Feiertag, arbeitsfrei, Gedenktag, Gleichstellung im Sozial- und Kulturkapitel; das Programm fordert keinen zusätzlichen Feiertag."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-33",
+      "wahl": "st26",
+      "frage": "Soll der Friedhofszwang gelockert werden?",
+      "beschreibung": "Ob das Bestattungsgesetz neue Formen erlaubt, etwa die Urne zu Hause aufzubewahren oder die Asche in der Natur zu verstreuen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Friedhof, Friedhofszwang, Bestattung, Bestattungsgesetz, Urne, Asche, Totenruhe; Kapitel Religionsfreiheit und Kirchen, Kommunen. Keine Aussage."
+        },
+        {
+          "partei_id": 92,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Friedhof*, Bestattung*, Urne, Asche, Beisetzung, Totenruhe – im ganzen Programm, auch Kapitel Kommunen und Gesellschaft. Keine Aussage zum Friedhofszwang oder Bestattungsgesetz."
+        },
+        {
+          "partei_id": 93,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen die Urnenaufbewahrung zu Hause und das Ausbringen der Asche im Garten, in der Natur oder als Flussbestattung erlauben.",
+          "zitat": "Die Urnenaufbewahrung im Familienkreis und die Ascheausbringung im heimischen Garten oder in der freien Natur wollen wir ermöglichen, um dem Wunsch vieler Menschen nach einer individuellen Bestattungskultur zu entsprechen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=84",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bestattung, Bestattungsgesetz, Friedhof, Friedhofszwang, Urne, Asche, Beisetzung, Trauer. Keine Aussage zum Bestattungsrecht."
+        },
+        {
+          "partei_id": 95,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Friedhof, Bestattung, Beerdig, Urne (nur „Urnenwahl“), Asche, Grab, Totenruhe – keine Treffer zum Bestattungsrecht."
+        },
+        {
+          "partei_id": 96,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bestattung, Bestattungsgesetz, Friedhof, Friedhofszwang, Urne, Asche, Beerdigung, Trauer; ganzes Programm (linke.txt und linke_lese.txt). Keine Treffer."
+        },
+        {
+          "partei_id": 97,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bestattung, Friedhof, Urne, Asche, Beerdigung, Trauer, Verstorbene. Keine Aussage zum Bestattungsrecht (einziger Treffer „Wahlurnen“, S. 88)."
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Friedhof, Friedhofszwang, Bestattung, Beerdigung, Urne, Asche, Grab, Trauer, Tod, Verstorb. Keine Aussage zum Bestattungsrecht."
+        },
+        {
+          "partei_id": 99,
+          "position": "ja",
+          "kurzfassung": "Volt will den Friedhofszwang aufheben, wenn der Wille zu Lebzeiten eindeutig festgelegt wurde, und neue Bestattungsformen wie Fluss-, Diamant- und Tuchbestattung, Reerdigung und Resomation zulassen.",
+          "zitat": "Friedhofszwang aufheben, wenn der Wille zu Lebzeiten eindeutig festgelegt wurde",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/voltwahlprogrammst2026.pdf#page=135",
+          "begruendung": null
         }
       ],
       "zielkonflikte": []
