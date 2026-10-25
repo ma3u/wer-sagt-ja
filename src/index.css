@@ -1533,6 +1533,57 @@ html:has(.quiz-aktion) {
 .uebersicht-stand {
   margin: 0 0 1rem;
 }
+/* Ausgewogenheit des Katalogs (Issue #1): aufklappbar, Zielfläche der Zusammenfassung mindestens 24 px (2.5.8). */
+.ausgewogenheit {
+  margin: 0 0 1rem;
+  padding: 4px 16px;
+  background: var(--flaeche);
+  border: 1.5px solid var(--linie);
+  border-radius: var(--papier-radius);
+}
+.ausgewogenheit summary {
+  min-height: 24px;
+  padding: 8px 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.ausgewogenheit summary:focus-visible {
+  outline: 3px solid var(--fokus);
+  outline-offset: 2px;
+}
+.ausgewogenheit .meta {
+  margin: 0 0 0.75rem;
+}
+.ausgewogenheit-titel {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1rem;
+}
+.ausgewogenheit-richtung {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  margin: 0 0 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+.ausgewogenheit-profil {
+  margin: 0 0 0.75rem;
+  border-collapse: collapse;
+}
+.ausgewogenheit-profil caption {
+  margin-bottom: 4px;
+  text-align: left;
+  font-weight: 700;
+}
+.ausgewogenheit-profil th,
+.ausgewogenheit-profil td {
+  padding: 2px 16px 2px 0;
+  border-bottom: 1px solid var(--linie);
+  text-align: left;
+}
+.ausgewogenheit-profil td {
+  font-variant-numeric: tabular-nums;
+}
 .uebersicht-frage {
   margin: 0 0 1rem;
   padding: 12px 16px 14px;

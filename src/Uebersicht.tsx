@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Geprueft, KiHinweis, Positionen, ProgrammLink, PruefZeile, Zielkonflikte } from './Ansicht'
+import { QUELLCODE } from './app'
+import { RICHTUNG_TEXT, ausgewogenheit, type Richtung } from './ausgewogenheit'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { spielbar, standardWahl, wahlFuer } from './katalog'
 import { ladeKatalog } from './laden'
@@ -115,6 +117,7 @@ export function Uebersicht({
               <p className="hinweis">Die Programme zur {daten.wahl.name} liegen noch nicht vor.</p>
             )}
             <ParteiStand daten={daten} partei={gewaehlt} />
+            {!gewaehlt && daten.fragen.length > 0 && <Ausgewogenheit daten={daten} />}
             {daten.fragen.map((f) => (
               <Frage key={f.id} frage={f} daten={daten} partei={gewaehlt} pfad={pfad} wahlPfad={wahlPfad} ziel={f.id === frageId} />
             ))}
@@ -151,6 +154,66 @@ function ParteiStand({ daten, partei }: { daten: QuizDaten; partei: QuizPartei |
         Wahlprogramm
       </a>
     </p>
+  )
+}
+
+/**
+ * Ausgewogenheit des Katalogs (Issue #1): wohin das Ja der Fragen zeigt und wie viele Profilfragen jede Partei hat.
+ * Das Spielprinzip bleibt – die Kennzahlen zeigen, ob die Auswahl der Fragen alle Parteien fair abbildet.
+ */
+function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
+  const a = ausgewogenheit(daten)
+  const reihenfolge: Richtung[] = ['links', 'quer', 'rechts', 'offen']
+  return (
+    <details className="ausgewogenheit">
+      <summary>Ausgewogenheit dieses Katalogs</summary>
+      <p className="meta">
+        Gefragt wird immer, wer Ja sagt, und die Fragen dürfen zuspitzen. Ausgewogen sein muss die Auswahl: Jede
+        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Die Zahlen sind eine grobe Prüfung – SPD, Grüne und
+        Linke gelten dafür als links, CDU/CSU, FDP und AfD als rechts; andere Parteien zählen bei der Richtung nicht mit.
+      </p>
+      <h2 className="ausgewogenheit-titel">Wohin das Ja zeigt</h2>
+      <ul className="ausgewogenheit-richtung">
+        {reihenfolge.map((r) => (
+          <li key={r}>
+            <strong>{a.richtung[r]}</strong> {RICHTUNG_TEXT[r]}
+          </li>
+        ))}
+      </ul>
+      <table className="ausgewogenheit-profil">
+        <caption>Profilfragen je Partei – Fragen, bei denen sie mit höchstens einer anderen Partei Ja sagt</caption>
+        <thead>
+          <tr>
+            <th scope="col">Partei</th>
+            <th scope="col">Profilfragen</th>
+          </tr>
+        </thead>
+        <tbody>
+          {a.profil.map(({ partei, anzahl }) => (
+            <tr key={partei.id}>
+              <th scope="row">{partei.kurzname}</th>
+              <td>{anzahl}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {a.hinweise.length > 0 && (
+        <>
+          <h2 className="ausgewogenheit-titel">Woran wir arbeiten</h2>
+          <ul>
+            {a.hinweise.map((h) => (
+              <li key={h}>{h}</li>
+            ))}
+          </ul>
+        </>
+      )}
+      <p className="meta">
+        Methode und Diskussion:{' '}
+        <a href={`${QUELLCODE}/issues/1`} target="_blank" rel="noopener noreferrer">
+          Issue #1 zur Ausgewogenheit
+        </a>
+      </p>
+    </details>
   )
 }
 
