@@ -11420,6 +11420,302 @@
       "zielkonflikte": []
     },
     {
+      "id": "bb24-30",
+      "wahl": "bb24",
+      "frage": "Soll Brandenburg Steuererhöhungen grundsätzlich ausschließen?",
+      "beschreibung": "Ob das Land neue oder höhere Steuern ablehnt – auch eine Vermögensteuer für sehr große Vermögen oder eine Abgabe auf Übergewinne von Konzernen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "ja",
+          "kurzfassung": "Die CDU verspricht eine Belastungsbremse ohne neue Steuern oder Abgaben.",
+          "zitat": "Belastungsbremse für die Bürger: keine neuen Steuern oder Abgaben",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Steuer*, Vermögen*, Erbschaft*, Abgabe*, Übergewinn*, Steuererhöhung, Steuersenkung und Entlastung im gesamten Programm (u. a. Kapitel zu Wirtschaft, Arbeit und Kommunalfinanzen). Zu neuen oder höheren Steuern gibt es keine Aussage."
+        },
+        {
+          "partei_id": 53,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Steuer*, Vermögen*, Erbschaft*, Superreich*, Übergewinn*, Steuererhöhung und Steuergerechtigkeit im gesamten Programm (u. a. Kapitel „Verwaltung, Finanzen und Kommunales“ und Wirtschaft). Zu neuen oder höheren Steuern gibt es keine Aussage."
+        },
+        {
+          "partei_id": 54,
+          "position": "ja",
+          "kurzfassung": "Die FDP will ein Belastungsmoratorium ohne höhere oder neue Steuern und stattdessen Entlastungen, etwa bei Grunderwerb-, Erbschaft- und Schenkungsteuer.",
+          "zitat": "Wir erteilen weiteren Belastungen durch höhere oder neue Steuern eine Absage und setzen uns für gezielte Entlastungen ein.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=73",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "ja",
+          "kurzfassung": "Die AfD fordert drastische Steuersenkungen, darunter die Abschaffung von Grund-, Erbschaft- und Schenkungsteuer und aller Substanzsteuern.",
+          "zitat": "Wir fordern die Abschaffung der Grundsteuer, die Aufhebung der Grunderwerbssteuer für die erste selbstgenutzte Immobilie sowie die Abschaffung der Erbschaftssteuer und Schenkungssteuer.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdbrandenburgltw-2024.pdf#page=16",
+          "begruendung": null
+        },
+        {
+          "partei_id": 56,
+          "position": "nein",
+          "kurzfassung": "Die Linke will Übergewinne von Energiekonzernen abschöpfen und spricht sich dafür aus, sehr Reiche stärker heranzuziehen.",
+          "zitat": "Runter mit den Nebenkosten durch einen bundesweiten Deckel bei den Strom- und Heizkosten und die Abschöpfung von Übergewinnen bei Energiekonzernen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/die-linkebrandenburgltw-2024.pdf#page=3",
+          "begruendung": null
+        },
+        {
+          "partei_id": 57,
+          "position": "nein",
+          "kurzfassung": "Das BSW will per Bundesratsinitiative die Vermögensteuer für Multimillionäre und Milliardäre wieder einführen.",
+          "zitat": "Wir regen eine Bundesratsinitiative Brandenburgs für eine Wiedereinführung der Vermögenssteuer für Multimillionäre und Milliardäre an.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen ihre Ziele über Wirtschaftswachstum und höhere Steuereinnahmen ohne Steuererhöhungen erreichen und die Grunderwerbsteuer senken.",
+          "zitat": "Wir setzen dabei auf eine aktive und positive wirtschaftliche Entwicklung, die über mehr und qualifiziertere Arbeitsplätze sowie damit einhergehende Steuermehreinnahmen die Zielerreichung ohne Steuererhöhungen und möglichst auch ohne Leistungsabbau erreichen lässt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bvbfwbrandenburgltw-2024.pdf#page=15",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-32",
+      "wahl": "bb24",
+      "frage": "Sollen Gemeinden mehr Bauland für Wohnungen und Gewerbe ausweisen dürfen?",
+      "beschreibung": "Ob das Land die Landesplanung lockert, damit Städte und Gemeinden mehr neue Wohn- und Gewerbegebiete ausweisen können, statt den Flächenverbrauch zu begrenzen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "ja",
+          "kurzfassung": "Die CDU will mit einer Baulandoffensive neue Flächen für Bauland ausweisen und die Spielräume des Landesentwicklungsplans für Kommunen ausnutzen.",
+          "zitat": "Baulandoffensive starten, um neue Flächen für bezahlbares Bauland auszuweisen; Spielräume im Landesentwicklungsplan für Kommunen bestmöglich ausnutzen und die Planungsförderung für Kommunen aufstocken",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "teils",
+          "kurzfassung": "Die SPD will Gemeinden beim Grundstückserwerb und bei der Flächenbevorratung unterstützen und ihnen landeseigene Flächen für den Wohnungsbau geben, sagt aber nichts zu einer Lockerung der Landesplanung.",
+          "zitat": "Wir werden den Gemeinden den Erwerb von Grundstücken erleichtern und sie bei der Flächenbevorratung unterstützen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdbrandenburgltw-2024.pdf#page=27",
+          "begruendung": null
+        },
+        {
+          "partei_id": 53,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen den Flächenverbrauch schrittweise senken und ab 2030 keine neuen Flächen mehr verbrauchen.",
+          "zitat": "Ab 2030 sollen keine neuen Flächen mehr verbraucht werden, bis dahin muss der Flächenverbrauch in sinnvollen Zwischenschritten reduziert werden.",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "ja",
+          "kurzfassung": "Die FDP will Kommunen bei neuen Gewerbe- und Industriegebieten unterstützen und das Flächenkonzept des Landesentwicklungsplans für Ansiedlungen und Wohnraum erneuern.",
+          "zitat": "Damit Brandenburg seine Potenziale bestmöglich ausschöpft, werden wir gemeinsam mit den Kommunen neue Mindeststandards für Gewerbe- und Industrieflächen definieren und die Kommunen bei der Errichtung neuer Gebiete unterstützen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "ja",
+          "kurzfassung": "Die AfD will den Landesentwicklungsplan reformieren, damit Kommunen freier Wohn- und Gewerbegebiete planen können, und fordert ein Sofortprogramm zur Baulandentwicklung.",
+          "zitat": "Die Kommunen müssen wieder mehr Freiheit in der Planung von Wohn- und Gewerbegebieten bekommen. Der Landesentwicklungsplan Berlin-Brandenburg (LEP) muss daher zum Wohle unseres Bundeslandes reformiert werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdbrandenburgltw-2024.pdf#page=51",
+          "begruendung": null
+        },
+        {
+          "partei_id": 56,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Bauland, Fläche*, Gewerbegebiet, Wohngebiet, Landesentwicklungsplan, Versiegel* und Wohnungsbau im ganzen Kurzprogramm (u. a. Kapitel „Wohnen ist Menschenrecht!“). Bauland kommt nur bei steigenden Preisen vor („Da muss ein „Deckel“ drauf.“, S. 3); zur Ausweisung neuer Wohn- und Gewerbegebiete gibt es keine Aussage."
+        },
+        {
+          "partei_id": 57,
+          "position": "nein",
+          "kurzfassung": "Das BSW will keine weitere Versiegelung landwirtschaftlicher Nutzflächen.",
+          "zitat": "Keine weitere Versiegelung von landwirtschaftlicher Nutzfläche.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen auch Orten außerhalb der Entwicklungsachsen erlauben, mehr Wohnflächen und Gewerbegebiete auszuweisen.",
+          "zitat": "BVB / FREIE WÄHLER will diesen Orten die Freiräume geben, mehr Wohnflächen und mehr Gewerbegebiete ausweisen zu dürfen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bvbfwbrandenburgltw-2024.pdf#page=20",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-33",
+      "wahl": "bb24",
+      "frage": "Soll das Land die Vier-Tage-Woche bei vollem Lohn in einem Modellprojekt erproben?",
+      "beschreibung": "Ob das Land einen Modellversuch startet, in dem Beschäftigte vier Tage pro Woche arbeiten, ohne dass ihr Lohn sinkt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        },
+        {
+          "partei_id": 52,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        },
+        {
+          "partei_id": 53,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        },
+        {
+          "partei_id": 54,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        },
+        {
+          "partei_id": 56,
+          "position": "ja",
+          "kurzfassung": "Die Linke will in einem Modellprojekt des Landes die Vier-Tage-Woche bei vollem Lohnausgleich erproben.",
+          "zitat": "Mit einem Modellprojekt des Landes zur Vier-Tage-Woche bei vollem Lohnausgleich wollen wir neue Wege für die Vereinbarkeit von Familie und Beruf",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/die-linkebrandenburgltw-2024.pdf#page=2",
+          "begruendung": null
+        },
+        {
+          "partei_id": 57,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vier-Tage, 4-Tage, Viertagewoche, Lohnausgleich, Arbeitszeitverkürzung, kürzere Arbeitszeit, Wochenarbeitszeit, Arbeitszeitmodell und Arbeitszeit im gesamten Programm (u. a. Kapitel zu Arbeit, Wirtschaft und Familie). Ein Modellprojekt zur Vier-Tage-Woche bei vollem Lohnausgleich kommt nicht vor."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-31",
+      "wahl": "bb24",
+      "frage": "Soll das Land Unternehmen und Beteiligungen in Landesbesitz an Private verkaufen?",
+      "beschreibung": "Ob das Land sich aus unternehmerischen Tätigkeiten zurückzieht und landeseigene Gesellschaften oder Beteiligungen privatisiert, statt sie in öffentlicher Hand zu halten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "teils",
+          "kurzfassung": "Die CDU ist offen für den Einstieg eines strategischen Investors bei der Flughafengesellschaft BER, äußert sich aber nicht allgemein zum Verkauf von Landesunternehmen.",
+          "zitat": "Offenheit für den Einstieg eines strategischen Investors bei der FBB GmbH, um neue Potentiale zu erschließen und wirtschaftlichen Erfolg zu erreichen",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Privatisier*, privat*, Landesbeteiligung, Landesunternehmen, öffentliche Hand, Daseinsvorsorge, Flughafengesellschaft, FBB und Landesbetrieb im gesamten Programm. Zum Verkauf oder Behalt von Landesunternehmen und -beteiligungen gibt es keine allgemeine Aussage."
+        },
+        {
+          "partei_id": 53,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen, dass kein öffentliches Krankenhaus mehr privatisiert wird, und alle landeseigenen Flächen in öffentlicher Hand behalten.",
+          "zitat": "Wir wollen dafür sorgen, dass kein öffentliches Krankenhaus in Brandenburg mehr privatisiert wird.",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "ja",
+          "kurzfassung": "Die FDP will alle Landesbeteiligungen prüfen, unternehmerische Tätigkeiten des Landes reduzieren und etwa die Brandenburgische Grund und Boden GmbH und die Flughafengesellschaft privatisieren.",
+          "zitat": "Wir werden alle Landesbeteiligungen kritisch prüfen und unternehmerische Tätigkeiten des Landes reduzieren. So werden wir beispielsweise die Brandenburgische Grund und Boden GmbH privatisieren.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=75",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Privatisier*, privat*, Landesbeteiligung, Landesunternehmen, Beteiligung, öffentliche Hand, Daseinsvorsorge, Flughafen und BER im gesamten Programm. Zum Verkauf von Landesunternehmen oder -beteiligungen gibt es keine Aussage."
+        },
+        {
+          "partei_id": 56,
+          "position": "nein",
+          "kurzfassung": "Die Linke will Privatisierungen stoppen, Kliniken in die öffentliche Hand zurückholen und perspektivisch auch die Energieversorgung samt Netzen.",
+          "zitat": "Alle Krankenhausstandorte erhalten, Privatisierungen stoppen und Kliniken in die öffentliche Hand zurückholen durch die Schaffung regionaler Klinik-Verbünde unter dem Dach einer Landeskrankenhausgesellschaft.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/die-linkebrandenburgltw-2024.pdf#page=4",
+          "begruendung": null
+        },
+        {
+          "partei_id": 57,
+          "position": "nein",
+          "kurzfassung": "Das BSW lehnt die Privatisierung kommunaler und staatlicher Aufgaben ab; Krankenhäuser, Wasser und Energie gehörten in öffentliche Hand.",
+          "zitat": "Eine Privatisierung von kommunalen und Landesaufgaben lehnen wir ab.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "teils",
+          "kurzfassung": "Die Freien Wähler wollen die Landesbeteiligungen kritisch überprüfen und die Zuschüsse an die Flughafengesellschaft so weit wie möglich zurückfahren, fordern aber keinen Verkauf.",
+          "zitat": "Ferner sind die unmittelbaren und mittelbaren Landesbeteiligungen kritisch zu überprüfen. Daraus resultierende wirtschaftliche Chancen und Risiken müssen in einem angemessenen Verhältnis stehen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bvbfwbrandenburgltw-2024.pdf#page=41",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "hh25-2",
       "wahl": "hh25",
       "frage": "Soll Tempo 30 innerorts zur Regel werden?",
@@ -16029,6 +16325,334 @@
           "zitat": "Unser Ziel ist es, dass Städte und Kommunen vor Ort selbst über wirksame Steuerungsinstrumente wie City-Maut oder Abgaben auf Parkflächen entscheiden können. Die Einnahmen fließen direkt in die Verbesserung des ÖPNV, den Ausbau von Radwegen, die Begrünung von Innenstädten und eine gerechte Nutzung des öffentlichen Raums.",
           "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=91",
           "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-35",
+      "wahl": "bw26",
+      "frage": "Soll das Land mit Kampagnen und Feiern für Einbürgerungen werben?",
+      "beschreibung": "Ob Baden-Württemberg Menschen ohne deutschen Pass gezielt ermutigt, sich einbürgern zu lassen, etwa mit landesweiten Informationskampagnen und Einbürgerungsfeiern.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Einbürger, eingebürgert, Staatsangehörigkeit, Staatsbürger, Doppelpass, Mehrstaatigkeit, Willkommenskultur; Kapitel zu Migration und Integration (S. 39–40). Die CDU will Erfolgsbiografien gelungener Integration sichtbar machen und Betriebe, Vereine und Einzelpersonen auszeichnen, sagt aber nichts zu Werbung für Einbürgerungen."
+        },
+        {
+          "partei_id": 72,
+          "position": "ja",
+          "kurzfassung": "Die SPD will mit landesweiten Kampagnen und Kommunikationspaketen für Kommunen Einbürgerungen bewerben und jährliche Einbürgerungsfeiern unterstützen.",
+          "zitat": "Deshalb setzen wir landesweite Kampagnen und Kommunikationspakete für Kommunen um, die Einbürgerungsprozesse bewerben und erklären. Dazu gehört auch die Unterstützung jährlicher Einbürgerungsfeiern.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Einbürger, eingebürgert, Staatsangehörigkeit, Staatsbürger, Doppelpass, Mehrstaatigkeit, Willkommenskultur; Kapitel 5.2 Migration und Integration (S. 76–77). Die Grünen fordern eine Willkommenskultur und schnellere Anerkennung von Abschlüssen, sagen aber nichts zu Einbürgerungskampagnen oder -feiern."
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Einbürger, eingebürgert, Staatsangehörigkeit, Staatsbürger, Doppelpass, Mehrstaatigkeit, Willkommenskultur; Kapitel „Chancen nutzen, Ordnung schaffen – Migration und Integration“ (ab S. 85). Nur Fachkräfteeinwanderung, Anerkennung von Abschlüssen und Rückführungen, nichts zur Einbürgerung."
+        },
+        {
+          "partei_id": 75,
+          "position": "nein",
+          "kurzfassung": "Die AfD will die Einbürgerungsbehörden zu restriktiver Handhabung verpflichten und im Bundesrat das Einbürgerungsrecht verschärfen.",
+          "zitat": "Ohne nachgewiesene echte Integration in unseren Staat und unsere Gesellschaft darf es keine Einbürgerung geben. Die AfD wird die Einbürgerungsbehörden zur restriktiven Handhabung der Vorschriften verpflichten.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=56",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Die Linke will Einbürgerung ohne Aufgabe der bisherigen Staatsangehörigkeit ermöglichen und setzt sich für Einbürgerungskampagnen ein.",
+          "zitat": "Einbürgerung muss möglich werden, ohne den Zwang, die bisherige Staatsangehörigkeit aufzugeben. Wir setzen uns für Einbürgerungskampagnen ein.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=46",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Einbürger, eingebürgert, Staatsangehörigkeit, Staatsbürger, Doppelpass, Mehrstaatigkeit, Willkommenskultur; Kapitel zu Migration und Integration (S. 36–37). Nur Asyl, Rückführung, Fachkräfte und Integration, nichts zur Einbürgerung."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Einbürger, eingebürgert, Staatsangehörigkeit, Staatsbürger, Doppelpass, Mehrstaatigkeit, Willkommenskultur; Kapitel Integration (S. 29–30). Die Freien Wähler fordern Regeln und Mitmachen bei der Integration, sagen aber nichts zur Einbürgerung."
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Einbürger, eingebürgert, Staatsangehörigkeit, Staatsbürger, Doppelpass, Mehrstaatigkeit, Willkommenskultur; Kapitel Migration & Integration (S. 122–129). Volt setzt auf Integrationskurse ab Woche 1, Willkommenszentren und schnelle Anerkennung, sagt aber nichts zur Einbürgerung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-36",
+      "wahl": "bw26",
+      "frage": "Soll ein Demokratiefördergesetz die Förderung von Demokratie-Initiativen dauerhaft absichern?",
+      "beschreibung": "Ob ein Landesgesetz festschreibt, dass das Land zivilgesellschaftliche Projekte für Demokratie und gegen Extremismus verlässlich und auf Dauer finanziert.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "nein",
+          "kurzfassung": "Die CDU will die staatliche Einflussnahme auf die Zivilgesellschaft begrenzen, Landeszuschüsse stärker an den Interessen der Allgemeinheit ausrichten und stattdessen private Spenden erleichtern.",
+          "zitat": "Seine wichtige Rolle kann es aber nur dann unabhängig und glaubwürdig erfüllen, wenn das › GLÜCKSSPIEL GEMEINNÜTZIG GESTALTEN Engagement der Menschen im Vordergrund steht und nicht die Beteiligung des Staates. Die Bezuschussung dieser Organisationen aus Landesmitteln muss sich stärker an den Interessen Aus",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=54",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "teils",
+          "kurzfassung": "Die SPD will Demokratie-Initiativen mit einem Landesprogramm „Wehrhafte Demokratie“ nachhaltig finanziell absichern, nennt dafür aber kein Gesetz.",
+          "zitat": "Hierzu ist die Einführung eines Landesprogramms „Wehrhafte Demokratie“ vorgesehen, das Projekte zivilgesellschaftlicher Akteur:innen im Bereich Demokratieförderung und Extremismusprävention nachhaltig finanziell absichert.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen das zivilgesellschaftliche Engagement verlässlich fördern und dafür ein Landesdemokratiefördergesetz schaffen.",
+          "zitat": "Außerdem stärken wir das zivilgesellschaftliche Engagement und seine vielfältigen Akteur*innen – auskömmlich und verlässlich. Mit einem Landesdemokratiefördergesetz schaffen wir dafür einen klaren gesetzlichen Auftrag und Rahmen.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=80",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratiefördergesetz, Demokratieförderung, Demokratiezentrum, Extremismusprävention, Zivilgesellschaft, NGO, Nichtregierungsorganisation, Neutralität, Fördergesetz; Kapitel zu Innerer Sicherheit und Resilienz (S. 80 und 113). Die FDP will Präventionsprogramme und politische Bildung stärken und sich „für eine wehrhafte Demokratie einsetzen“, sagt aber nichts zu einem Demokratiefördergesetz oder einer gesetzlich gesicherten Förderung."
+        },
+        {
+          "partei_id": 75,
+          "position": "nein",
+          "kurzfassung": "Die AfD sieht in der staatlichen Finanzierung politisch einseitiger NGOs einen Verstoß gegen die Neutralität und will diese Form der Einflussnahme abschaffen.",
+          "zitat": "Auch die Auslagerung öffentlicher Gelder an nichtöffentliche Institutionen verletzt dieses Neutralitätsprinzip – etwa durch die Finanzierung politisch einseitiger NGOs oder die Bevorzugung bestimmter Medien.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Die Linke fordert ein Demokratiefördergesetz, damit die Mittel für Strukturen der Demokratieförderung dauerhaft gesichert sind.",
+          "zitat": "Demokratiefördergesetz zur Verstetigung der finanziellen Mittel für Strukturen der Demokratieförderung.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=82",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratiefördergesetz, Demokratieförderung, Demokratiezentrum, Extremismusprävention, Zivilgesellschaft, NGO, Nichtregierungsorganisation, Neutralität, Fördergesetz; Kapitel zu Innerer Sicherheit und Verfassungsschutz (S. 46–48). Keine Aussage zur Förderung zivilgesellschaftlicher Demokratieprojekte; die Kritik an „Meldestellen und Diversity-Programmen“ (S. 13) betrifft Pflichten für Unternehmen."
+        },
+        {
+          "partei_id": 78,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratiefördergesetz, Demokratieförderung, Demokratiezentrum, Extremismusprävention, Zivilgesellschaft, NGO, Nichtregierungsorganisation, Neutralität, Fördergesetz; Kapitel Sicherheit (S. 13), Bildung (S. 20) und Ehrenamt (S. 38). Keine Aussage zur gesetzlichen Förderung von Demokratie-Initiativen."
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratiefördergesetz, Demokratieförderung, Demokratiezentrum, Extremismusprävention, Zivilgesellschaft, NGO, Nichtregierungsorganisation, Neutralität, Fördergesetz; Kapitel Innere Sicherheit & Rechtsstaatlichkeit und „Freie Zivilgesellschaft“ (S. 94–100). Volt will Zivilgesellschaft vor Einschüchterungsklagen schützen (Anti-SLAPP-Gesetz), sagt aber nichts zu einem Demokratiefördergesetz oder zur dauerhaften Finanzierung von Demokratieprojekten."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-37",
+      "wahl": "bw26",
+      "frage": "Sollen abgelehnte Asylsuchende mit Ausbildung oder fester Arbeit vor Abschiebung geschützt werden?",
+      "beschreibung": "Ob ausreisepflichtige Geflüchtete, die eine Ausbildung machen oder sozialversicherungspflichtig arbeiten und nicht schwer straffällig geworden sind, bleiben dürfen, etwa indem das Land Spielräume bei Duldung und Bleiberecht nutzt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "nein",
+          "kurzfassung": "Die CDU will, dass Ausreisepflichtige das Land verlassen, und Duldungen nur noch in rechtlich zwingenden Fällen erteilen.",
+          "zitat": "Wer zur Ausreise verpflichtet ist, muss das Land verlassen. Die Erteilung von Duldungen an vollziehbar Ausreisepflichtige wollen wir deshalb auf rechtlich zwingende Fälle beschränken.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.kas.de/documents/d/geschichte-der-cdu/2026_cdu_bw_agenda-der-zuversicht-regierungsprogramm#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 72,
+          "position": "teils",
+          "kurzfassung": "Die SPD will der Härtefallkommission wieder öfter folgen, damit gut integrierte Menschen einen Aufenthaltstitel bekommen, die Ausreisepflicht aber grundsätzlich konsequent durchsetzen.",
+          "zitat": "Die Ausreisepflicht von Menschen, die nicht freiwillig ausreisen und in besonderer Weise bei Menschen, die erhebliche Straftaten begehen, werden wir konsequent durchsetzen. Wir unterstützen die wertvolle Arbeit der Härtefallkommission, die vielen gut integrierten Menschen eine Chance auf einen Aufenthaltstitel gibt.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.spd-bw.de/dl/251222_spd_bw_Wahlprogramm_Online-end.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 73,
+          "position": "ja",
+          "kurzfassung": "Die Grünen lehnen Abschiebungen von Auszubildenden und Beschäftigten ohne schwere Straftaten ab und wollen die Spielräume des Aufenthaltsrechts landesweit zugunsten des Bleiberechts nutzen.",
+          "zitat": "Abschiebungen von Auszubildenden und sozialversicherungspflichtig Beschäftigten, die keine schweren Straftaten begangen haben, lehnen wir ab. Wir werden sicherstellen, dass gesetzliche Spielräume des Aufenthaltsgesetzes landeseinheitlich zugunsten des Bleiberechts genutzt werden.",
+          "beleg_url": "https://web.archive.org/web/2026id_/https://www.gruene-bw.de/wp-content/uploads/2025/12/GrueneBW_Landtagswahl2026_Wahlprogramm.pdf#page=77",
+          "begruendung": null
+        },
+        {
+          "partei_id": 74,
+          "position": "nein",
+          "kurzfassung": "Die FDP will, dass Menschen ohne Schutzanspruch das Land verlassen, und ausreisepflichtige Personen konsequent zurückführen.",
+          "zitat": "schnelle, faire Asyl- und Asylgerichtsverfahren unterstützen und ausreisepflichtige Personen konsequent rückführen.",
+          "beleg_url": "https://www.fdpbw.de/sites/default/files/resolutions/2025-10/0_Landtagswahlprogramm_2026_FDPBW.pdf#page=85",
+          "begruendung": null
+        },
+        {
+          "partei_id": 75,
+          "position": "nein",
+          "kurzfassung": "Die AfD will, dass Asylbewerber im Verfahren und abgelehnte Asylbewerber keine Arbeitserlaubnis mehr bekommen, unabhängig von der Aufenthaltsdauer.",
+          "zitat": "Krankheitskosten müssen trennscharf landesweit erfasst werden, Asylbewerber im laufenden Verfahren und Abgelehnte dürfen keine Arbeitserlaubnis mehr erhalten, egal, wie lange sie sich hier aufhalten.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=55",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "ja",
+          "kurzfassung": "Die Linke will Geduldeten statt Kettenduldungen echte Bleibeperspektiven geben und lehnt Abschiebungen weitgehend ab.",
+          "zitat": "Bleiberecht: Geduldete brauchen echte Perspektiven statt endloser Kettenduldungen. Das Land muss die Möglichkeiten für Bleiberecht nutzen.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "nein",
+          "kurzfassung": "Das BSW will Flüchtlingspolitik und Arbeitsmigration strikt trennen und Ausreisepflichtige konsequent zurückführen.",
+          "zitat": "Flüchtlingspolitik und Arbeitsmigration sind klar voneinander zu trennen.",
+          "beleg_url": "https://bw.bsw-vg.de/wp-content/uploads/2025/12/Landtagswahlprogramm_2026_BSW_BW_Final.pdf#page=37",
+          "begruendung": null
+        },
+        {
+          "partei_id": 78,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen, dass Menschen mit Migrationshintergrund, die hier lernen und arbeiten, bleiben dürfen und Sicherheit statt Duldung bekommen.",
+          "zitat": "Fachkräfte sind Zukunft – auch mit Migrationshintergrund! Wer bei uns lernt und arbeitet, soll auch bleiben dürfen – Sicherheit statt Duldung!",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "ja",
+          "kurzfassung": "Volt will, dass Zugewanderte, die dauerhaft arbeiten oder eine Ausbildung beginnen, über ein reformiertes Chancenjahr eine sichere Aufenthaltsperspektive bekommen.",
+          "zitat": "Wer dauerhaft arbeitet oder eine Ausbildung beginnt, soll durch ein reformiertes Chancenjahr eine sichere Aufenthaltsperspektive erhalten.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-bw/_wahlen-ltw-2026/volt-wahlprogramm-landtagswahl-2026.pdf#page=126",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bw26-38",
+      "wahl": "bw26",
+      "frage": "Soll ein verpflichtendes Gesellschaftsjahr für junge Menschen eingeführt werden?",
+      "beschreibung": "Ob alle jungen Menschen per Gesetz ein Jahr lang Dienst für die Allgemeinheit leisten müssen, etwa in sozialen Einrichtungen, im Katastrophenschutz oder bei der Bundeswehr, statt wie bisher nur freiwillig.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 71,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtjahr, Dienstpflicht, Pflichtdienst, Zwangsdienst, Wehrpflicht, Wehrdienst, Freiwilligendienst, FSJ, soziales Jahr; Kapitel Jugend und Ehrenamt (S. 45). Die CDU will nur die Landesmittel für die (freiwilligen) Jugendfreiwilligendienste erhöhen und den Ausbau der Plätze vorantreiben; zu einem Pflichtjahr nichts."
+        },
+        {
+          "partei_id": 72,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtjahr, Dienstpflicht, Pflichtdienst, Zwangsdienst, Wehrpflicht, Wehrdienst, Freiwilligendienst, FSJ, soziales Jahr; Kapitel Gesellschaft und Ehrenamt (S. 27). Die SPD bekennt sich zu einem „Recht auf Freiwilligendienst“ und will Freiwilligendienste attraktiver machen; zu einem verpflichtenden Dienst nichts."
+        },
+        {
+          "partei_id": 73,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtjahr, Dienstpflicht, Pflichtdienst, Zwangsdienst, Wehrpflicht, Wehrdienst, Freiwilligendienst, FSJ, soziales Jahr; Kapitel 5.1 Gemeinschaft (S. 70–71, Abschnitt „Starkes FSJ und FÖJ – freiwilliges Engagement für alle ermöglichen“). Nur Förderung der freiwilligen Dienste, keine Aussage zu einem Pflichtjahr."
+        },
+        {
+          "partei_id": 74,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtjahr, Dienstpflicht, Pflichtdienst, Zwangsdienst, Wehrpflicht, Wehrdienst, Freiwilligendienst, FSJ, soziales Jahr; Kapitel Sport und Ehrenamt (S. 35) und Bevölkerungsschutz (S. 113). Die FDP will das (freiwillige) FSJ stärken, auch im Zivil- und Katastrophenschutz; zu einem Pflichtjahr nichts."
+        },
+        {
+          "partei_id": 75,
+          "position": "teils",
+          "kurzfassung": "Die AfD will eine allgemeine Wehrpflicht zur Landesverteidigung, Wehrpflichtige sollen aber nicht für andere Zwecke eingesetzt werden; ein ziviles Pflichtjahr fordert sie nicht.",
+          "zitat": "Leitbild ist der „Bürger in Uniform“ auf Basis einer allgemeinen Wehrpflicht zur Landesverteidigung.",
+          "beleg_url": "https://afd-bw.de/afd-bw/downloads/2026/landtagswahl-2026/AfD_WAHLPROGRAMM_BaWue_2026_DS_N.pdf#page=65",
+          "begruendung": null
+        },
+        {
+          "partei_id": 76,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt die Wehrpflicht und alle Zwangsdienste ab und will stattdessen gut ausgestattete Freiwilligendienste.",
+          "zitat": "Nein zur Wehrerfassung junger Menschen und zu allen Zwangsdiensten. Stattdessen wollen wir zivile und gesellschaftlich sinnvolle Formen von Freiwilligendiensten, die gut finanziell ausgestattet sind und fachlich begleitet werden.",
+          "beleg_url": "https://www.die-linke-bw.de/fileadmin/lv/2026Landtagswahl/Die_Linke_Landtagswahlprogramm_2026.pdf#page=75",
+          "begruendung": null
+        },
+        {
+          "partei_id": 77,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtjahr, Dienstpflicht, Pflichtdienst, Zwangsdienst, Wehrpflicht, Wehrdienst, Freiwilligendienst, FSJ, soziales Jahr; Einleitung (S. 4–5). Das BSW lehnt die Wehrpflicht ab und unterstützt Schulstreiks dagegen, sagt aber nichts zu einem zivilen Pflichtjahr."
+        },
+        {
+          "partei_id": 78,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler fordern ein verpflichtendes Gesellschaftsjahr, das das Ehrenamt stärkt und jungen Menschen bei der Berufswahl hilft.",
+          "zitat": "Gesellschaft braucht Zusammenhalt! Ein verpflichtendes Gesellschaftsjahr schafft Wertschätzung für Ehrenamt stärkt unsere Gemeinschaft und kann jungen Menschen bei der Berufswahl unterstützen.",
+          "beleg_url": "https://freiewaehler-bw.de/wp-content/uploads/2026/01/Landtagswahlprogramm_2026_Freie_Wahler_Web_klein.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 79,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gesellschaftsjahr, Pflichtjahr, Dienstpflicht, Pflichtdienst, Zwangsdienst, Wehrpflicht, Wehrdienst, Freiwilligendienst, FSJ, soziales Jahr, Europajahr; Kapitel Bildung (Sport, S. 70) und Europa (S. 152–154). Das „Europajahr“ für junge Menschen ist ein freiwilliges Angebot über Erasmus+; zu einem Pflichtjahr nichts."
         }
       ],
       "zielkonflikte": []
