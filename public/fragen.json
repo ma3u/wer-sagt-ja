@@ -7458,6 +7458,732 @@
       "zielkonflikte": []
     },
     {
+      "id": "th24-22",
+      "wahl": "th24",
+      "frage": "Sollen Beschäftigte im Einzelhandel an mehr als zwei Samstagen im Monat arbeiten dürfen?",
+      "beschreibung": "Ob die Thüringer Grenze von zwei Arbeitssamstagen pro Monat im Handel gelockert wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "ja",
+          "kurzfassung": "Die CDU will vom Verbot, an mehr als zwei Samstagen im Monat zu arbeiten, Abweichungen zulassen.",
+          "zitat": "Vom Arbeitsverbot an zwei Samstagen pro Monat sollen Abweichungen möglich werden. So wird den Arbeitnehmern, die dies wünschen, die Möglichkeit gegeben, ihre Arbeitszeit an ihre individuellen Lebensumstände anzupassen.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "nein",
+          "kurzfassung": "Die SPD lehnt eine Ausweitung des Ladenöffnungsgesetzes und mehr Samstags-, Sonntags- und Feiertagsarbeit entschieden ab.",
+          "zitat": "Deshalb treten wir einer Ausweitung der Ladenöffnungsgesetzes, mehr Samstags-, Sonntags- und Feiertagsarbeit entschieden entgegen.",
+          "beleg_url": "https://spd-thueringen.de/wp-content/uploads/SPD-Regierungsprogramm_2024.pdf#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 33,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Samstag, Sonntag, Ladenöffnung, Ladenschluss, Einzelhandel, Verkaufsstelle, Handel, Verkäufer, Öffnungszeit, Arbeitszeit, Wochenende (Kapitel Wirtschaft, Arbeit, Fachkräfte); keine Aussage zu Arbeitssamstagen im Handel. Nur allgemein 'Ausweitung der Flexibilitätsoptionen für Arbeitnehmer*innen bei Wochen- und Lebensarbeitszeiten' (S. 34)."
+        },
+        {
+          "partei_id": 34,
+          "position": "ja",
+          "kurzfassung": "Die FDP lehnt die Begrenzung der Samstagsarbeit im Einzelhandel auf zwei Samstage im Monat strikt ab und will flexible Regeln für Unternehmen.",
+          "zitat": "Eine Begrenzung von der Samstagsarbeit auf zwei Samstage pro Monat im Einzelhandel lehnen wir strikt ab und setzen uns für Gesetze ein, die flexible Handlungsmöglichkeiten für Unternehmen unter Berücksichtigung der Interessen aller Beteiligten schaffen.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Samstag, Sonntag, Ladenöffnung/Ladenschluss, Öffnungszeit, Einzelhandel, Arbeitszeit, Arbeitsrecht, Beschäftigte, Arbeitnehmer; Kapitel 06 (Wirtschafts- & Sozialpolitik) gelesen – keine Aussage zu Arbeitssamstagen im Handel."
+        },
+        {
+          "partei_id": 36,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Samstag, Sonntag, Wochenende, Ladenöffnung, Ladenschluss, Öffnungszeit, Einzelhandel, Verkäufer, Handel, Arbeitszeit; Kapitel 2.1 Gute Arbeit. Nur allgemeine Aussagen zu Arbeitszeitverkürzung und Viertagewoche, nichts zu Arbeitssamstagen im Handel."
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Samstag, Arbeitssamstag, Ladenöffnung, Ladenschluss, Sonntag, Einzelhandel, Handel, Arbeitszeit. Keine Treffer zu Arbeitssamstagen im Handel; im Kapitel „Anständige Löhne“ nur Lebensarbeitszeitkonten und Tarifbindung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-23",
+      "wahl": "th24",
+      "frage": "Soll die Mietpreisbremse in Thüringen abgeschafft werden?",
+      "beschreibung": "Ob das Land die Mietpreisbremse nicht mehr anwendet und auch keinen Mietendeckel einführt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Mietendeckel, Mietpreis, Miet*, Kappungsgrenze, Mietbegrenzung, Mietrecht, Wohnungsmarkt, Wohnraum, Wohnungsbau (Kapitel Wohnen/Ländlicher Raum S. 61–62). Das Programm setzt auf Wohnungsbauförderung und Sonderabschreibungen für Investoren, die „Mietbegrenzungen garantieren“ (S. 62), äußert sich aber nicht zur Mietpreisbremse oder zu einem Mietendeckel."
+        },
+        {
+          "partei_id": 32,
+          "position": "nein",
+          "kurzfassung": "Die SPD will die Mietpreisbremse ausweiten und entfristen sowie die Kappungsgrenze gezielter anwenden.",
+          "zitat": "Zudem setzen wir uns dafür ein, die Mietpreisbremse auszuweiten und zu entfristen.",
+          "beleg_url": "https://spd-thueringen.de/wp-content/uploads/SPD-Regierungsprogramm_2024.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen einen Mietendeckel für Thüringen ermöglichen und kostenfreie Beratung zur Mietpreisbremse anbieten.",
+          "zitat": "Mietendeckel für Thüringen ermöglichen durch Nutzung der Länderöffnungsklausel auf Bundesebene",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "ja",
+          "kurzfassung": "Die FDP hält Mietpreisbremse und Mietendeckel für schädlich und setzt stattdessen auf eine landesweite Wohnagenda.",
+          "zitat": "Statt einer Mietpreisbremse braucht Thüringen eine Wohnagenda für den ganzen Freistaat, inklusive des ländlichen Raumes. Mietpreisbremsen, Mietendeckel oder gar Diskussionen um Enteignungen privater Vermieter vergiften das Investitionsklima.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Mietpreisbremse, Mietendeckel, Kappungsgrenze, Miete/Mieter/Vermieter; Kapitel 09 (Wohnen, S. 75–79) gelesen – nur allgemein steigende Mieten, Bauvorschriften, Grundsteuer, Genossenschaften und sozialer Wohnungsbau, nichts zur Mietpreisbremse."
+        },
+        {
+          "partei_id": 36,
+          "position": "nein",
+          "kurzfassung": "Die Linke fordert einen Preisdeckel unter anderem für Mieten und will bezahlbaren Wohnraum über eine Landeswohnungsbaugesellschaft schaffen.",
+          "zitat": "Gute Arbeit, bessere Löhne und Renten und ein Preisdeckel für Lebensmittel, Energie und Mieten müssen Armut effektiv bekämpfen.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Mietendeckel, Miete, Mieter, Kappung, Wohnungsmarkt. Das Kapitel „Bezahlbare Mieten, mehr Wohnungen“ (S. 41) fordert Sozialwohnungsbau, Förderprogramme und schnellere Genehmigungen, sagt aber nichts zur Mietpreisbremse oder zu einem Mietendeckel."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-24",
+      "wahl": "th24",
+      "frage": "Soll der Anspruch auf Bildungsurlaub in Thüringen eingeschränkt werden?",
+      "beschreibung": "Ob das Bildungsfreistellungsgesetz, nach dem Beschäftigte bezahlt für Weiterbildung freigestellt werden, zurückgeschnitten wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "ja",
+          "kurzfassung": "Die CDU hält das Bildungsfreistellungsgesetz für verfehlt und lehnt bezahlte Freistellungen etwa für Yoga-Freizeiten ab; Bildungsfreistellung soll sich auf Bedarfe von Betrieben und Beschäftigten ausrichten.",
+          "zitat": "Das Thüringer Bildungsfreistellungsgesetz wird diesem Anspruch nicht gerecht. Vom Arbeitgeber bezahlte Freistellungen für Yoga-Freizeiten und linkes Demo-Training lehnen wir ab.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "nein",
+          "kurzfassung": "Die SPD will das Bildungsfreistellungsgesetz novellieren, damit mehr Beschäftigte unabhängig von der Betriebsgröße Anspruch auf Bildungsurlaub haben.",
+          "zitat": "Dazu werden wir das Thüringer Bildungsfreistellungsgesetz novellieren, um noch mehr Beschäftigten die Möglichkeit zu geben, Bildungsurlaub zu nehmen. Künftig sollen alle Arbeitnehmer:innen unabhängig von der Betriebsgröße Anspruch auf Bildungsurlaub erlangen.",
+          "beleg_url": "https://spd-thueringen.de/wp-content/uploads/SPD-Regierungsprogramm_2024.pdf#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen das Recht auf Weiterbildung stärken und für das Bildungsfreistellungsgesetz werben.",
+          "zitat": "Recht auf Weiterbildung stärken, unter anderem mit einer Werbekampagne für das Bildungsfreistellungsgesetz",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=104",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "teils",
+          "kurzfassung": "Die FDP stellt den Bildungsurlaub unter Vorbehalt und will, dass vor allem Veranstaltungen zur Bevölkerungsresilienz dafür anerkannt werden.",
+          "zitat": "Solange in Thüringen ein Anspruch auf Bildungsurlaub existiert, sprechen wir uns dafür aus, dass vor allem Bildungsveranstaltungen zur Bevölkerungsresilienz für diesen anerkannt werden.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Bildungsfreistellung, Bildungsurlaub, Bildungszeit, Freistellung, Urlaub, Weiterbildung, Fortbildung; Kapitel 05 und 06 durchgesehen – Weiterbildung nur zur Lehrerbildung, nichts zum Bildungsfreistellungsgesetz."
+        },
+        {
+          "partei_id": 36,
+          "position": "nein",
+          "kurzfassung": "Die Linke will das Bildungsfreistellungsgesetz für mehr Beschäftigte öffnen, auch für kleine Betriebe und Auszubildende.",
+          "zitat": "Wir wollen das Bildungsfreistellungsgesetz für mehr Beschäftigte öffnen. Auch in kleinen Betrieben und für Auszubildende sollen fünf Tage Bildungsfreistellung pro Jahr möglich sein.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bildungsurlaub, Bildungsfreistellung, Bildungszeit, Freistellung, Weiterbildung, Arbeitnehmerrechte. Treffer nur zu Haftungsfreistellung im Ehrenamt und zu Weiterbildung im Digitalbonus; zum Bildungsfreistellungsgesetz nichts."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-25",
+      "wahl": "th24",
+      "frage": "Soll Thüringen seine Beteiligungen an Unternehmen konsequent abbauen?",
+      "beschreibung": "Ob sich der Freistaat aus landeseigenen und teilstaatlichen Unternehmen zurückzieht.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "nein",
+          "kurzfassung": "Die CDU will die Möglichkeiten von Landesbeteiligungen an Unternehmen in geförderten Technologie- und Gründerzentren ausbauen.",
+          "zitat": "Die Möglichkeiten von Landesbeteiligungen und Gründungen von Unternehmen in geförderten Technologie- und Gründerzentren müssen ausgebaut werden.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "nein",
+          "kurzfassung": "Die SPD will mit einer Privatisierungsbremse den Verkauf öffentlicher Unternehmen der Daseinsvorsorge erschweren und Rekommunalisierungen unterstützen.",
+          "zitat": "Als ein neues Instrument der demokratischen Kontrolle führen wir eine Privatisierungsbremse ein. Sie sieht vor, dass öffentliche Unternehmen der Daseinsvorsorge nicht verkauft werden können, wenn die Bürgerinnen und Bürger der Privatisierung in einem Referendum mit Mehrheit ablehnen.",
+          "beleg_url": "https://spd-thueringen.de/wp-content/uploads/SPD-Regierungsprogramm_2024.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen Landesgesellschaften und Unternehmensbeteiligungen des Landes nach Nachhaltigkeitskriterien ausrichten statt sie abzubauen.",
+          "zitat": "Ausrichtung der Thüringer Landesgesellschaften und der Unternehmensbeteiligungen des Landes nach Nachhaltigkeitskriterien",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=33",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die Beteiligungen des Freistaats kritisch überprüfen und konsequent reduzieren, weil der Staat nicht als Unternehmer agieren soll.",
+          "zitat": "Unser Ziel ist es, die Beteiligungen des Freistaats Thüringen kritisch zu überprüfen und konsequent zu reduzieren.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Beteiligung, landeseigen, Privatisierung, Anteile, Holding, Landesgesellschaft/-unternehmen, Staatsunternehmen, Aufbaubank; Kapitel 06 (Wirtschaft) und 17 (Finanzen) gelesen – allgemein weniger Staatseingriffe, aber nichts zum Abbau von Landesbeteiligungen."
+        },
+        {
+          "partei_id": 36,
+          "position": "nein",
+          "kurzfassung": "Die Linke will bestehende und neue staatliche Beteiligungen stärker nutzen und eine neue Industriebeteiligungsstrategie des Landes.",
+          "zitat": "Im Bereich der Industriepolitik gilt es, bestehende und möglicherweise neue staatliche Beteiligungen stärker als bisher zu nutzen, um Arbeitsplätze, Regionen und wichtige Branchen zu stützen und notwendige Modernisierungen zu unterstützen und die Veränderungen in der Arbeitswelt nicht auf dem Rücken der Beschäftigten auszutragen.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=12",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "nein",
+          "kurzfassung": "Das BSW will die Privatisierung existenzieller Dienstleistungen stoppen und die Daseinsvorsorge in öffentlicher Hand halten.",
+          "zitat": "Die Privatisierung und Kommerzialisierung existenzieller Dienstleistungen müssen gestoppt werden, Kommunen oder gemeinnützige Anbieter sollten in diesen Branchen Vorrang haben.",
+          "beleg_url": "https://bsw-th.de/wp-content/uploads/2024/06/240608_LWP_fin-2.pdf#page=35",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-26",
+      "wahl": "th24",
+      "frage": "Soll der Rundfunkbeitrag deutlich sinken oder ganz abgeschafft werden?",
+      "beschreibung": "Ob Thüringen über die Medienstaatsverträge auf einen viel niedrigeren oder gar keinen Rundfunkbeitrag hinwirkt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "nein",
+          "kurzfassung": "Die CDU lehnt eine Erhöhung des Rundfunkbeitrags ab, setzt auf Einsparungen und will den öffentlich-rechtlichen Rundfunk reformieren und den MDR stärken, aber nicht deutlich senken oder abschaffen.",
+          "zitat": "Eine Erhöhung des Rundfunkbeitrags lehnen wir ab. Stattdessen setzen wir auf Einsparungen durch Kooperationen und eine Anpassung des Programmauftrags.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=74",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk*, Rundfunkbeitrag, Beitrag, öffentlich-rechtlich*, MDR, Medienstaatsvertrag; Kapitel 8.2 'Medien' (S. 39). Der öffentlich-rechtliche Rundfunk wird nur allgemein als bedeutsam genannt, zum Rundfunkbeitrag sagt das Programm nichts."
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen stehen zum öffentlich-rechtlichen Rundfunk und zum Rundfunkbeitrag und wollen ihn reformieren, nicht abschaffen.",
+          "zitat": "Wir stehen klar zum öffentlich-rechtlichen Rundfunk und auch zum Rundfunkbeitrag.",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=181",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "ja",
+          "kurzfassung": "Die FDP will den öffentlich-rechtlichen Rundfunk umfassend reformieren und den Rundfunkbeitrag perspektivisch halbieren.",
+          "zitat": "Angesichts der sinkenden gesellschaftlichen Akzeptanz des öffentlich-rechtlichen Rundfunks ist für uns Freie Demokraten klar, dass dieser umfassend reformiert und der Rundfunkbeitrag perspektivisch halbiert werden muss.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=22",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Medienstaatsverträge kündigen und den Rundfunkbeitrag abschaffen.",
+          "zitat": "Darüber hinaus setzen wir uns für die Abschaffung des Rundfunkbeitrags ein und wollen die Verfolgung säumiger Gebührenzahler durch lokale Verwaltungen beenden.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=16",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "nein",
+          "kurzfassung": "Die Linke steht zum öffentlich-rechtlichen Rundfunk und will die Mittel des Rundfunkbeitrags effektiv einsetzen, nicht den Beitrag abschaffen oder deutlich senken.",
+          "zitat": "Die Strukturen des MDR sind aufgabenkritisch zu prüfen. Die Mittel des Rundfunkbeitrags sind effektiv einzusetzen.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=63",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunkbeitrag, Rundfunk, Beitrag, Gebühr, GEZ, Medienstaatsvertrag, öffentlich-rechtlich. Das Programm fordert eine Enquete-Kommission zur Berichterstattung der öffentlich-rechtlichen Rundfunkanstalten (S. 13–14), sagt aber nichts zur Höhe oder Abschaffung des Rundfunkbeitrags."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-27",
+      "wahl": "th24",
+      "frage": "Soll der Flughafen Erfurt-Weimar stillgelegt werden?",
+      "beschreibung": "Ob das Land den Landesflughafen schließt, weil er dauerhaft Verluste macht.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "nein",
+          "kurzfassung": "Die CDU will den Flughafen Erfurt-Weimar weiter nutzen und dort einen Lösch- und Katastrophenschutz-Hub einrichten.",
+          "zitat": "Am Flughafen Erfurt-Weimar wollen wir einen Lösch- und Katastrophenschutz-Hub einrichten und ihn durch die dauerhafte Stationierung von Löschhelikoptern und Löschflugzeugen zum zentralen Anlaufpunkt im Krisen- und Katastrophenfall machen.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=51",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flug*, Flughafen, Airport, Erfurt-Weimar, Luftverkehr, Luftfahrt; Mobilitätskapitel (S. 25 f.). Der Flughafen kommt im Programm nicht vor."
+        },
+        {
+          "partei_id": 33,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen den Flughafen Erfurt-Weimar sozialverträglich stilllegen und umnutzen.",
+          "zitat": "Der Flughafen Erfurt-Weimar kann absehbar nicht wirtschaftlich betrieben werden und sollte daher sozialverträglich stillgelegt werden.",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flugplatz, Luftverkehr, Airport, Flug*, Erfurt-Weimar (Verkehrskapitel S. 31-33). Nur die Erreichbarkeit der Flughäfen München, Berlin, Nürnberg und Leipzig per Bahn wird genannt, nichts zum Flughafen Erfurt-Weimar."
+        },
+        {
+          "partei_id": 35,
+          "position": "nein",
+          "kurzfassung": "Die AfD will den Flughafen Erfurt-Weimar als Standortfaktor erhalten.",
+          "zitat": "Dieser stellt einen wichtigen und entwicklungsfähigen Standortfaktor auch für die Ansiedlung von Wirtschaftsunternehmen dar, den wir erhalten wollen.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=87",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flug, Luftverkehr, Luftfahrt, Airport, Erfurt-Weimar; Kapitel 5 Mobilität. Der Flughafen kommt im Programm nicht vor."
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Airport, Erfurt-Weimar, Flug, Luftverkehr. Kein Treffer zum Flughafen; im Verkehrskapitel geht es um Bahn, Bus, Radwege und Straßen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-28",
+      "wahl": "th24",
+      "frage": "Sollen in Thüringen weitere Waldflächen dauerhaft aus der Nutzung genommen werden?",
+      "beschreibung": "Ob das Land zusätzliche Waldflächen als Wildnis für den Naturschutz stilllegt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "nein",
+          "kurzfassung": "Die CDU lehnt weitere Waldstilllegungen und neue Wildnisgebiete in Wirtschaftswäldern ab und will prüfen, vorhandene Stilllegungsflächen wieder umzuwidmen.",
+          "zitat": "Wir lehnen es ab, weitere wertvolle Wirtschaftswälder zu sogenannten „Wildnisgebieten“ umzufunktionieren. Mit uns gibt es keine weiteren Waldstilllegungen.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=63",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wildnis, Wald*, Waldfläche*, Stilllegung/stillgelegt, nutzungsfrei, Prozessschutz, Naturwald, Nationalpark, Biosphär*; Kapitel Land- und Forstwirtschaft (S. 16) und Naturschutz (S. 34 f.). Kein Satz zu zusätzlichen Wildnis- oder Stilllegungsflächen."
+        },
+        {
+          "partei_id": 33,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen die abgestimmte Flächenkulisse nutzungsfreier Waldflächen für das 5-Prozent-Ziel bis spätestens 2029 umsetzen.",
+          "zitat": "Umsetzung der in Thüringen abgestimmten Flächenkulisse für Nutzungsfreie Flächen im Rahmen des 5 Prozent - Biodiversitätsziels bis spätestens 2029",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt eine Ausweitung der Stilllegungsflächen im Wald ab und setzt auf nachhaltige Bewirtschaftung.",
+          "zitat": "Doppelzertifizierungen lehnen wir ebenso ab wie die Ausweitung der Stilllegungsflächen.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "nein",
+          "kurzfassung": "Die AfD will Nutzungseinschränkungen für Forstbetriebe, etwa durch das Grüne Band, vermeiden und setzt auf Wiederbewaldung und Waldumbau.",
+          "zitat": "Nutzungseinschränkungen für land-, aber auch für forstwirtschaftliche Betriebe, die beispielsweise durch Leitungsbau von Stromtrassen, durch Windkraftanlagen oder durch das „Grüne Band“ bedingt sind, sollen vermieden werden.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=101",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "teils",
+          "kurzfassung": "Die Linke bewertet die bereits stillgelegten Waldflächen als wichtigen Beitrag zum Natur- und Klimaschutz, fordert aber keine weiteren Stilllegungen und setzt auf naturnahe Bewirtschaftung.",
+          "zitat": "Mit stillgelegten Waldflächen leisten wir bereits einen wichtigen Beitrag zum Klima- und Naturschutz sowie zur Artenvielfalt.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wald, Wildnis, Stilllegung, Nutzungsverzicht, Prozessschutz, Nationalpark, Schutzgebiet, Naturschutz. Das Forstkapitel (S. 54) will Wiederaufforstung, Waldumbau und Waldflächen unbekannter Eigentümer „wieder in Bewirtschaftung“ bringen; zu zusätzlichen Wildnisflächen nichts."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-29",
+      "wahl": "th24",
+      "frage": "Sollen Handys und Tablets an Grundschulen aus dem Unterricht verbannt werden?",
+      "beschreibung": "Ob Smartphones und Tablets an Grundschulen im Unterricht nicht mehr eingesetzt werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Handy, Smartphone, Tablet, Mobiltelefon, Bildschirm, Endgerät, digitale Medien, Mediennutzung, Medienkonsum, Medienkompetenz, Grundschule (Kapitel Bildung S. 21–26). Für Kindergärten sollen digitale Medien „altersgerecht und zeitlich begrenzt“ eingesetzt werden (S. 22), ab Klasse 5 soll jedes Kind ein digitales Endgerät haben (S. 24); zu Handys und Tablets im Grundschulunterricht äußert sich das Programm nicht."
+        },
+        {
+          "partei_id": 32,
+          "position": "nein",
+          "kurzfassung": "Die SPD will mehr Digitalität in den Schulen und die Lernmittelfreiheit auf digitale Geräte ausweiten.",
+          "zitat": "Um die Digitalität in den Schulen weiter voranzubringen, braucht es ebenso eine Ausweitung der Lernmittelfreiheit auf digitale Geräte.",
+          "beleg_url": "https://spd-thueringen.de/wp-content/uploads/SPD-Regierungsprogramm_2024.pdf#page=28",
+          "begruendung": null
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen lehnen ein pauschales Smartphoneverbot an Schulen ab und wollen, dass jedes Kind in der Schule mit einem digitalen Endgerät arbeiten kann.",
+          "zitat": "Kein pauschales Smartphoneverbot an Schulen, stattdessen Schüler*innen demokratisch einbeziehen",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=92",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "nein",
+          "kurzfassung": "Die FDP will digitale Lernmittelfreiheit und allen Schülerinnen und Schülern Zugang zu digitalen Endgeräten für den Unterricht verschaffen.",
+          "zitat": "Der Zugang zu digitalen Endgeräten zu Bildungszwecken soll jeder Schülerin und jedem Schüler eröffnet werden.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "ja",
+          "kurzfassung": "Die AfD will an Grundschulen keine digitalen Endgeräte einsetzen.",
+          "zitat": "Der zu frühe Gebrauch von digitalen Endgeräten behindert den Erwerb der gebundenen Handschrift zusätzlich. Digitale Endgeräte sollen deswegen an Grundschulen nicht eingesetzt werden.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Programm auf Handy, Smartphone, Tablet, Endgerät, Grundschule, digitale Medien und Medienkonzept durchsucht; S. 23 fordert nur ein Medienkonzept je Schule mit modernen medialen Unterrichtsmitteln – keine Aussage dazu, ob Geräte an Grundschulen aus dem Unterricht verbannt werden sollen."
+        },
+        {
+          "partei_id": 37,
+          "position": "ja",
+          "kurzfassung": "Das BSW will Handys und Tablets bis zum Ende der Grundschule aus den Klassenzimmern verbannen.",
+          "zitat": "Handys und Tablets, die den Wissenserwerb nachweislich erschweren, werden wir bis zum Ende der Grundschule aus den Klassenzimmern verbannen.",
+          "beleg_url": "https://bsw-th.de/wp-content/uploads/2024/06/240608_LWP_fin-2.pdf#page=17",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-30",
+      "wahl": "th24",
+      "frage": "Soll ein Untersuchungsausschuss des Landtags die Corona-Politik aufarbeiten?",
+      "beschreibung": "Ob der Landtag die Corona-Maßnahmen mit einem parlamentarischen Untersuchungsausschuss aufklärt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Covid, Lockdown, Impf, Schulschließung, Untersuchungsausschuss, Enquete, Aufarbeitung. Corona kommt nur bei der Rückzahlung von Krisenschulden vor (S. 80); eine parlamentarische Aufarbeitung wird nicht gefordert."
+        },
+        {
+          "partei_id": 32,
+          "position": "teils",
+          "kurzfassung": "Die SPD will die Corona-Politik im Landtag aufarbeiten, allerdings mit einer Enquete-Kommission statt mit einem Untersuchungsausschuss.",
+          "zitat": "Dies wollen wir durch eine Enquete-Kommission „Folgerungen und Konsequenzen für den Freistaat Thüringen aus der Corona Pandemie“ des Thüringer Landtags erarbeiten.",
+          "beleg_url": "https://spd-thueringen.de/wp-content/uploads/SPD-Regierungsprogramm_2024.pdf#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 33,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Covid, Lockdown, Untersuchungsausschuss, Enquete, Aufarbeitung (Kapitel Demokratie, Gesundheit, Aufarbeitung); Corona nur als Krisenerwähnung in der Einleitung (S. 10), Untersuchungsausschuss nur zu FIDO/Mafia (S. 164), Aufarbeitung nur zu NSU, NS, SED, Kolonialismus."
+        },
+        {
+          "partei_id": 34,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Untersuchungsausschuss, Enquete, Aufarbeit*, Lockdown, Schulschließung. Corona wird nur beim Öffentlichen Gesundheitsdienst (Krisenfestigkeit) und Katastrophenschutz („aus Fehlern der Vergangenheit lernen“) erwähnt; kein Untersuchungsausschuss oder parlamentarische Aufarbeitung."
+        },
+        {
+          "partei_id": 35,
+          "position": "ja",
+          "kurzfassung": "Die AfD fordert einen parlamentarischen Untersuchungsausschuss zur Aufarbeitung der Corona-Politik.",
+          "zitat": "Hierzu fordern wir als wichtigen Schritt zur Ermittlung der fragwürdigen Entscheidungsfindung während der Corona-Krise die Einsetzung eines parlamentarischen Untersuchungsausschusses.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=63",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Covid, Untersuchungsausschuss (nur zu NSU und rechten Netzwerken), Aufarbeitung, Enquete; Kapitel 9 Gesundheit und 11 Demokratie. Keine Forderung nach Aufarbeitung der Corona-Politik."
+        },
+        {
+          "partei_id": 37,
+          "position": "ja",
+          "kurzfassung": "Das BSW will die Corona-Zeit durch einen parlamentarischen Untersuchungsausschuss im Landtag aufklären lassen.",
+          "zitat": "Wir werden uns im Landtag dafür einsetzen, dass die Geschehnisse während der Corona-Pandemie durch einen parlamentarischen Untersuchungsausschuss umfassend aufgeklärt werden.",
+          "beleg_url": "https://bsw-th.de/wp-content/uploads/2024/06/240608_LWP_fin-2.pdf#page=13",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-31",
+      "wahl": "th24",
+      "frage": "Sollen abgelehnte Asylbewerber bis zur Abschiebung in zentralen Landeseinrichtungen bleiben?",
+      "beschreibung": "Ob Menschen ohne Bleibeperspektive in zentralen Rückführungszentren untergebracht werden, statt auf die Kommunen verteilt zu werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "ja",
+          "kurzfassung": "Die CDU will Thüringer Zentren für Aufnahme und Rückführung einrichten, in denen Menschen ohne Bleibeperspektive statt in den Kommunen untergebracht und von dort abgeschoben werden.",
+          "zitat": "Wer keine Bleibeperspektive hat, soll in die TZAR untergebracht, anstatt in Landkreise und Gemeinden verteilt zu werden. Von diesen zentralen Rückführungszentren aus soll eine direkte Abschiebung erfolgen.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=55",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung, Rückführung*, Ausreise, Rückkehr, Bleibeperspektive, Aufnahmeeinrichtung, Erstaufnahme, Unterbringung, Verteilung, Kommunen, Duldung; Kapitel 1.7 'Vielfalt, Migration und Zuwanderung' (S. 10). Zu zentralen Rückführungseinrichtungen sagt das Programm nichts."
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen den Aufenthalt in der Erstaufnahme so kurz wie möglich halten, die Wohnverpflichtung dort aufheben und Geflüchtete dezentral in Wohnungen unterbringen.",
+          "zitat": "Aufenthalt in der Erstaufnahme so kurz wie möglich gestalten, Aufhebung der Wohnverpflichtung in der Erstaufnahmeeinrichtung",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=135",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "teils",
+          "kurzfassung": "Die FDP will erst nach Feststellung der Bleibeperspektive in der Erstaufnahme auf die Kommunen verteilen; bei absehbarer Rückführung kann ein Verbleib in der Erstaufnahmeeinrichtung geboten sein.",
+          "zitat": "Erst nach dieser Feststellung erfolgt eine Verteilung auf die Landkreise und kreisfreien Städte, die dann entsprechend der Bleibeperspektive eine Unterkunft auswählen können. Bei bereits absehbarer Rückführungsanordnung kann ein Verbleib in der Erstaufnahmeeinrichtung geboten sein.",
+          "beleg_url": "https://fdp-jena-shk.de/sites/default/files/2024-07/FDP_Wahlprogramm_A4_20240722_sml.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 35,
+          "position": "ja",
+          "kurzfassung": "Die AfD will neu angekommene Migranten in landeseigenen Auffangzentren statt in den Kommunen unterbringen und gewaltauffällige Asylbewerber bis zur Abschiebung gesondert unterbringen.",
+          "zitat": "Neu angekommene Migranten müssen in landeseigenen Auffangzentren kostengünstig untergebracht werden, um so Kommunen und Steuerzahler zu entlasten. Die Gemeinschaftsunterkunft muss wieder die Regelunterkunft werden.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=71",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt sogenannte Ankerzentren ab und will die dezentrale Unterbringung Geflüchteter in Wohnungen mit freier Wahl des Aufenthaltsorts.",
+          "zitat": "Die Einrichtung von sogenannten Ankerzentren lehnen wir ab.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=55",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rückführung, Rückführungszentrum, Abschiebung, ausreisepflichtig, abgelehnt, Bleibeperspektive, Erstaufnahme, Aufnahmeeinrichtung, Landeseinrichtung, zentral, Unterbringung, Verteilung. Das Migrationskapitel (S. 11–12) fordert, dass Ausreisepflichtige das Land verlassen, Sachleistungen und eine an der kommunalen Leistungsfähigkeit orientierte Verteilung, aber keine zentrale Unterbringung bis zur Abschiebung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "th24-32",
+      "wahl": "th24",
+      "frage": "Soll sich Thüringen für die Rücknahme der Cannabis-Legalisierung einsetzen?",
+      "beschreibung": "Ob das Land über den Bundesrat darauf hinwirkt, dass das Cannabisgesetz rückgängig gemacht wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 31,
+          "position": "ja",
+          "kurzfassung": "Die CDU fordert, die Legalisierung von Cannabis rückgängig zu machen.",
+          "zitat": "Wir stehen deshalb auch für eine konsequente Verfolgung von Drogenkriminalität. Die erfolgte Legalisierung von Cannabis muss rückgängig gemacht werden.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-th_ltw_wahlprogramm_wie-wir-thuringen-wieder-in-ordnung-bringen#page=54",
+          "begruendung": null
+        },
+        {
+          "partei_id": 32,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Cannabis, Hanf, Drogen, Betäubungsmittel, Legalisierung, Rauschmittel, Konsum, Sucht*; Gesundheitskapitel (S. 36 f.). Erwähnt wird nur ein Landeskonzept zur Suchtprävention, nichts zum Cannabisgesetz."
+        },
+        {
+          "partei_id": 33,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen die bundesgesetzliche Entkriminalisierung von Cannabis umsetzen und durch kontrollierte Abgabestellen ergänzen.",
+          "zitat": "Umsetzung der bundesgesetzlichen Initiative zur Entkriminalisierung von Cannabisbesitz sowie dessen Konsum und Anbau",
+          "beleg_url": "https://gruene-thueringen.de/wp-content/uploads/sites/88/2024/05/Buendnis_90_Die_Gruenen-Thueringen_LTW2024_Wahlprogramm.pdf#page=121",
+          "begruendung": null
+        },
+        {
+          "partei_id": 34,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Cannabis, Kiffen, Drogen, Betäubungsmittel, Legalisierung, Rauschmittel, Hanf, THC, Sucht, Prävention. Kein Treffer zu Cannabis."
+        },
+        {
+          "partei_id": 35,
+          "position": "ja",
+          "kurzfassung": "Die AfD lehnt die Legalisierung von Cannabis ab, steht dem medizinischen Einsatz aber offen gegenüber.",
+          "zitat": "Wir lehnen daher die Legalisierung und gesellschaftliche Normalisierung des Cannabiskonsums ab.",
+          "beleg_url": "https://afd-thueringen.de/wp-content/uploads/2025/01/wahlprogramm_2024_web-min.pdf#page=62",
+          "begruendung": null
+        },
+        {
+          "partei_id": 36,
+          "position": "nein",
+          "kurzfassung": "Die Linke will Drogenkonsum nicht kriminalisieren und setzt auf eine gesundheitsorientierte, selbstbestimmte Drogenpolitik.",
+          "zitat": "Wir stehen für eine gesundheitsorientierte und selbstbestimmte Drogenpolitik und Suchtprävention. Statt Drogenkonsum zu kriminalisieren, wollen wir einen effektiven Jugend- und Gesundheitsschutz ermöglichen.",
+          "beleg_url": "https://www.die-linke-thueringen.de/fileadmin/LV_Thueringen/dokumente/Regierungsprogramm_2024.pdf#page=61",
+          "begruendung": null
+        },
+        {
+          "partei_id": 37,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Cannabis, Drogen, Kiffen, Legalisierung, Marihuana, THC, Sucht, Rausch, Prävention. Keine Treffer zu Cannabis; Prävention nur als Kriminal-, Gewalt- und Gesundheitsprävention."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "sn24-5",
       "wahl": "sn24",
       "frage": "Soll es für Asylsuchende eine Bezahlkarte statt Bargeld geben?",
