@@ -1062,38 +1062,6 @@
       ],
       "hash": "5612fb924b85"
     },
-    "frage-h16": {
-      "datei": "frage-h16.mp3",
-      "sprecher": "mara",
-      "text": "Soll Deutschland Mitglied der NATO bleiben?",
-      "dauer": 2.16,
-      "woerter": [
-        0,
-        0.213,
-        0.846,
-        1.22,
-        1.344,
-        1.65
-      ],
-      "hash": "b54f7998bdfc"
-    },
-    "loesung-h16": {
-      "datei": "loesung-h16.mp3",
-      "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP und Volt!",
-      "dauer": 5.36,
-      "woerter": [
-        0.24,
-        0.507,
-        1.6,
-        2.22,
-        2.86,
-        3.56,
-        4.2,
-        4.688
-      ],
-      "hash": "abbb8cfc6281"
-    },
     "frage-h18": {
       "datei": "frage-h18.mp3",
       "sprecher": "mara",
@@ -1688,40 +1656,6 @@
         2.427
       ],
       "hash": "d1d07cb5e103"
-    },
-    "frage-h44": {
-      "datei": "frage-h44.mp3",
-      "sprecher": "mara",
-      "text": "Soll Deutschland die Zuwanderung von Fachkräften erleichtern?",
-      "dauer": 2.96,
-      "woerter": [
-        0,
-        0.2,
-        0.68,
-        0.88,
-        1.42,
-        1.648,
-        2.288
-      ],
-      "hash": "ef14815b68fc"
-    },
-    "loesung-h44": {
-      "datei": "loesung-h44.mp3",
-      "sprecher": "mara",
-      "text": "Ja sagen: Union, SPD, Grüne, FDP, Linke und Volt!",
-      "dauer": 5.04,
-      "woerter": [
-        0.16,
-        0.4,
-        1.013,
-        1.88,
-        2.46,
-        3.08,
-        3.66,
-        4.1,
-        4.512
-      ],
-      "hash": "bd82d28d1a33"
     },
     "frage-h45": {
       "datei": "frage-h45.mp3",

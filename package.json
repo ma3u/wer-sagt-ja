@@ -14,7 +14,8 @@
     "stimmen": "node --experimental-strip-types scripts/stimmen.ts",
     "aufraeumen": "node --experimental-strip-types scripts/aufraeumen.ts",
     "vorschau": "node --experimental-strip-types scripts/vorschau.ts",
-    "fragen": "node --experimental-strip-types scripts/fragen.ts"
+    "fragen": "node --experimental-strip-types scripts/fragen.ts",
+    "ergaenzen": "python3 -I scripts/recherche/ergaenzen.py"
   },
   "dependencies": {
     "@fontsource-variable/atkinson-hyperlegible-next": "^5.3.0",

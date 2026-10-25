@@ -57,6 +57,13 @@ describe('Fragendatei (katalog.ts)', () => {
     expect(fehlerIn(eintrag(['ja', 'ja', 'ja', 'ja']), parteien)).toEqual(['alle Parteien sagen Ja – es gibt nichts zu raten'])
   })
 
+  it('braucht eine Partei, die Nein oder nichts sagt – „teils“ allein lässt nichts zu raten', () => {
+    expect(fehlerIn(eintrag(['ja', 'ja', 'teils', 'teils']), parteien)).toEqual([
+      'keine Partei sagt Nein oder nichts – es gibt nichts zu raten',
+    ])
+    expect(fehlerIn(eintrag(['ja', 'ja', 'teils', 'keine_aussage']), parteien)).toEqual([])
+  })
+
   it('verlangt je Partei genau eine Position mit Beleg', () => {
     const e = eintrag(['ja', 'nein', 'nein'])
     e.positionen[1] = { ...e.positionen[1], zitat: null }
