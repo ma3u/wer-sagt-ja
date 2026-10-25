@@ -20486,6 +20486,170 @@
       "zielkonflikte": []
     },
     {
+      "id": "st26-34",
+      "wahl": "st26",
+      "frage": "Soll eine unabhängige Stelle Beschwerden über Fehlverhalten der Polizei untersuchen?",
+      "beschreibung": "Ob es einen unabhängigen Polizeibeauftragten oder eine unabhängige Beschwerde- oder Ermittlungsstelle gibt, die Hinweisen auf Fehlverhalten in der Polizei nachgeht – Sachsen-Anhalt hat seit Juli 2025 einen Polizeibeauftragten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Polizeibeauftragt, Beschwerdestelle, Beschwerde, unabhängige Stelle, Kontrolle der Polizei, Fehlerkultur, Polizeigewalt; Kapitel zur inneren Sicherheit (Landespolizei, Rechtsrahmen der Polizei). Kein Wort zum Polizeibeauftragten oder einer unabhängigen Beschwerdestelle; die Befugnisse der Polizei sollen erweitert werden."
+        },
+        {
+          "partei_id": 92,
+          "position": "ja",
+          "kurzfassung": "Die SPD will den unabhängigen Polizeibeauftragten beibehalten und seine Unabhängigkeit stärken.",
+          "zitat": "Eine starke Polizei braucht Akzeptanz in der Bevölkerung, die auch durch den unabhängigen Polizeibeauftragten getragen wird. Die Unabhängigkeit des Polizeibeauftragen soll gestärkt werden.",
+          "beleg_url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/03/SPD-Wahlprogramm-2026.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 93,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen eine unabhängige Polizeibeauftragte oder einen Polizeibeauftragten mit umfassenden Rechten, die Beschwerden und Fehlverhalten in der Polizei untersucht.",
+          "zitat": "Wir wollen eine unabhängige Stelle schaffen, die Beschwerden, Hinweise und Fehlverhalten in der Polizei untersucht – und das transparent, niedrigschwellig und mit umfassenden Rechten.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Polizeibeauftragt, Beschwerdestelle, Beschwerde, unabhängige Stelle, Kontrolle, Fehlerkultur, Polizeigewalt; Kapitel Sicherheit/Polizei und Null Toleranz für Diskriminierung. Nur feste Ansprechpersonen für Antidiskriminierung in der Polizei werden unterstützt; zu einer unabhängigen Beschwerdestelle nichts."
+        },
+        {
+          "partei_id": 95,
+          "position": "nein",
+          "kurzfassung": "Die AfD will die Funktion des Polizeibeauftragten abschaffen; die Zentrale Beschwerdestelle des Innenministeriums reiche aus.",
+          "zitat": "Die Zentrale Beschwerdestelle leistet hervorragende Arbeit. Daneben braucht es keinen Polizeibeauftragten.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdwahlprogrammsachsen-anhalt2026.pdf#page=109",
+          "begruendung": null
+        },
+        {
+          "partei_id": 96,
+          "position": "ja",
+          "kurzfassung": "Die Linke will eine unabhängige Polizeibeschwerdestelle mit eigenen Ermittlungsbefugnissen und ausreichender Ausstattung.",
+          "zitat": "Ihre Rechte werden gestärkt durch eine unabhängige Polizeibeschwerdestelle mit eigenen Ermittlungsbefugnissen und ausreichender Ausstattung, damit Beschwerden nicht zu den Akten gelegt werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/linkewahlprogrammsachsen-anhalt2026.pdf#page=128",
+          "begruendung": null
+        },
+        {
+          "partei_id": 97,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Polizeibeauftragt, Beschwerdestelle, Beschwerde, unabhängige Stelle, Kontrolle, Fehlerkultur, Polizeigewalt; Kapitel Schutz ist staatliche Kernaufgabe und Polizei – Sicherheit braucht Vertrauen. Es geht um Personal, Besoldung und Beförderung; unabhängige Ombudsstellen nur für die Kinder- und Jugendhilfe."
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Polizeibeauftragt, Beschwerdestelle, Beschwerde, unabhängige Stelle, Kontrolle, Fehlerkultur, Polizeigewalt; Kapitel 3.2.1 Polizei – Innere Sicherheit. Es geht um Präsenz, Ausstattung, Bodycams und härtere Strafen bei Angriffen auf Polizei."
+        },
+        {
+          "partei_id": 99,
+          "position": "ja",
+          "kurzfassung": "Volt will eine unabhängige Ermittlungsstelle für mutmaßliche Polizeigewalt beim Justizministerium einrichten.",
+          "zitat": "Eine unabhängige Ermittlungsstelle für mutmaßliche Polizeigewalt im Bereich des Justizministeriums einrichten",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/voltwahlprogrammst2026.pdf#page=172",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "st26-35",
+      "wahl": "st26",
+      "frage": "Soll das Land Demokratieprojekte und Initiativen gegen Extremismus dauerhaft und verlässlich finanzieren?",
+      "beschreibung": "Ob zivilgesellschaftliche Demokratie- und Präventionsprojekte über ein Landesprogramm oder ein Demokratiefördergesetz mehrjährig gesichert und ausgebaut werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 91,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratieförderung, Demokratiefördergesetz, Demokratie leben, Landesprogramm, Zivilgesellschaft, Extremismus, Rechtsextremismus, Prävention, politische Bildung; Kapitel Bildung und innere Sicherheit. Nur die politische Bildung über die Landeszentrale soll gestärkt und neu ausgerichtet werden; zur Förderung zivilgesellschaftlicher Demokratieprojekte nichts."
+        },
+        {
+          "partei_id": 92,
+          "position": "ja",
+          "kurzfassung": "Die SPD will das Landesprogramm für Demokratie fortführen und ausbauen und Projekte mehrjährig fördern.",
+          "zitat": "Das Landesprogramm für Demokratie, Vielfalt und Weltoffenheit wird fortgeführt und ausgebaut. Projekte für zivilgesellschaftlichen Zusammenhalt werden mehrjährig gefördert, um Kontinuität und Planungssicherheit zu gewährleisten.",
+          "beleg_url": "https://spdsachsenanhalt.de/wp-content/uploads/sites/63/2026/03/SPD-Wahlprogramm-2026.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 93,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen ein Landes-Demokratiefördergesetz, das Projekte gegen Extremismus dauerhaft und unabhängig von kurzfristigen Haushaltsentscheidungen fördert.",
+          "zitat": "Ein Landes-Demokratiefördergesetz soll geschaffen werden, um Engagement langfristig zu stärken und demokratische Strukturen verlässlich abzusichern. Ein solches Gesetz bietet die Möglichkeit, Projekte gegen Extremismus, Hass und Gewalt dauerhaft zu fördern und unabhängig von kurzfristigen Haushaltsentscheidungen zu schützen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/grunewahlprogrammsachsen-anhalt2026.pdf#page=74",
+          "begruendung": null
+        },
+        {
+          "partei_id": 94,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratieförderung, Demokratie leben, Landesprogramm, Zivilgesellschaft, Extremismus, Prävention, politische Bildung, Landeszentrale; Kapitel Gesellschaft und Sicherheit. Zivilgesellschaftliche Initiativen kommen nur im Zusammenhang mit Seniorenarbeit vor."
+        },
+        {
+          "partei_id": 95,
+          "position": "nein",
+          "kurzfassung": "Die AfD lehnt die geförderten Demokratie- und Toleranzinitiativen als linkes Netzwerk ab und will die Landeszentrale für politische Bildung in der jetzigen Form abschaffen.",
+          "zitat": "Vom „Miteinander e. V.“ über das Netzwerk „Schule ohne Rassismus“ bis hin zu diversen Initiativen für mehr Demokratie und Toleranz, die auf das genaue Gegenteil von Demokratie und Toleranz hinwirken, steht die Landeszentrale wie die Spinne in einem Netz linker bis linksextremer Institutionen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdwahlprogrammsachsen-anhalt2026.pdf#page=60",
+          "begruendung": null
+        },
+        {
+          "partei_id": 96,
+          "position": "ja",
+          "kurzfassung": "Die Linke will die Mittel für politische Bildung und für freie Träger zur Stärkung von Zivilgesellschaft und Demokratie deutlich erhöhen und Mobile Beratungsteams gegen Rechtsextremismus.",
+          "zitat": "Dafür ist eine deutliche Erhöhung der Mittel für die politische Bildungsarbeit nötig. Dies betrifft sowohl die Landeszentrale für politische Bildung als auch die demokratischen politischen Landesstiftungen in Sachsen-Anhalt und die freien Träger zur Stärkung der Zivilgesellschaft und der Demokratie.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/linkewahlprogrammsachsen-anhalt2026.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 97,
+          "position": "teils",
+          "kurzfassung": "Das BSW will Zivilgesellschaft stärken und einzelne Präventionsprojekte weiter fördern, Demokratieförderung aber regelmäßig evaluieren und Programme wie „Demokratie leben!“ kritisch überprüfen.",
+          "zitat": "Förderstrukturen wie „Demokratie leben! – Partnerschaften für Demokratie“ müssen kritisch überprüft werden, wenn sie nicht der offenen Zivilgesellschaft dienen, sondern politische Einseitigkeit verstärken.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswwahlprogrammsachsenanhalt2026.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 98,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Demokratieförderung, Demokratie leben, Landesprogramm, Zivilgesellschaft, Extremismus, Prävention, politische Bildung, Landeszentrale; Kapitel 3.2.1 Polizei – Innere Sicherheit und 2.1.6 Vielfalt. Extremismus soll mit Polizei und Verfassungsschutz bekämpft werden; zur Förderung von Demokratieprojekten nichts."
+        },
+        {
+          "partei_id": 99,
+          "position": "ja",
+          "kurzfassung": "Volt will Demokratieförderung als dauerhafte Aufgabe mit mehrjähriger, verlässlicher Förderung für Demokratieprojekte.",
+          "zitat": "Wir wollen die Demokratieförderung als dauerhafte Aufgabe stärken und Engagement verlässlich absichern.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/voltwahlprogrammst2026.pdf#page=131",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "mv26-3",
       "wahl": "mv26",
       "frage": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
