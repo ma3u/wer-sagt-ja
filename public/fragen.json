@@ -13270,6 +13270,228 @@
       "zielkonflikte": []
     },
     {
+      "id": "hh25-30",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg seine Beteiligungen an Unternehmen abbauen?",
+      "beschreibung": "Ob die Stadt weniger eigene Unternehmen und Firmenanteile hält und Beteiligungen verkauft, etwa an der Reederei Hapag-Lloyd.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "teils",
+          "kurzfassung": "Die CDU will das Wachstum der öffentlichen Unternehmen und Beteiligungen beenden und Beteiligungen ohne wichtiges staatliches Interesse kritisch überprüfen, nennt aber keinen Abbau.",
+          "zitat": "Zudem werden wir die Unternehmensbeteiligungen der Stadt in den Fällen kritisch überprüfen, in denen das erforderliche wichtige staatliche Interesse nicht vorliegt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=100",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Beteiligung(en), öffentliche/städtische Unternehmen, Gesamtkonzern, Konzernunternehmen, Privatisierung, Verkauf/verkaufen, Hapag, HHLA, MSC, Eigentum der Stadt, öffentliche Hand; Kapitel Verwaltung und Finanzen, Immobilien und Grundstücke der Stadt, Hafen. Gefunden nur: SAGA bleibt in städtischem Eigentum, Energienetze wieder im Eigentum der Stadt, Kooperationen mit Privaten „wo es sinnvoll oder erforderlich ist“ – keine Aussage zum Ab- oder Ausbau der Beteiligungen insgesamt."
+        },
+        {
+          "partei_id": 63,
+          "position": "teils",
+          "kurzfassung": "Die Grünen wollen Unternehmen der Daseinsvorsorge in öffentlichem Eigentum halten und nur Unternehmen ohne öffentlichen Zweck veräußern; einen allgemeinen Abbau fordern sie nicht.",
+          "zitat": "Gleichzeitig soll es keine Unternehmen in öffentlicher Hand geben, die allgemeine privatwirtschaftliche Aufgaben übernehmen. In diesem Sinne veräußern wir Unternehmen konsequent, wenn sie weder der Daseinsfürsorge noch anderen öffentlichen Zwecken nachkommen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=139",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die Zahl öffentlicher Unternehmen reduzieren: Nur Unternehmen der Daseinsvorsorge oder für gesetzliche Aufgaben sollen städtisch bleiben, auch die Beteiligung an Hapag-Lloyd soll auf den Prüfstand.",
+          "zitat": "Deshalb fordern wir eine umfassende Überprüfung aller städtischen und staatlichen Beteiligungen hinsichtlich ihrer Zulässigkeit und Zweckmäßigkeit. Nur Unternehmen, die zur sozialen Daseinsvorsorge erforderlich oder zur Sicherstellung gesetzlicher Aufgaben des Landes Hamburg notwendig sind, sollen weiterhin in städtischem Eigentum bleiben.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "teils",
+          "kurzfassung": "Die AfD lehnt den Teilverkauf der HHLA an MSC ab, befürwortet aber private Investoren an einzelnen Hafenterminals oder über eine Holding mehrerer Unternehmen.",
+          "zitat": "Wir befürworten stattdessen die Einbeziehung privater Investoren am Hafen durch Beteiligungen an einzelnen Hafenterminals oder über eine Holding-Gesellschaft, die aus mehr als nur einem Unternehmen besteht.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "nein",
+          "kurzfassung": "Die Linke will ein Privatisierungsverbot in der Hamburger Verfassung und die Rekommunalisierung zentraler Infrastruktur und des Hafens.",
+          "zitat": "Stopp von Privatisierungen in die Hamburger Verfassung.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "nein",
+          "kurzfassung": "Das BSW will Privatisierungen öffentlicher Unternehmen stoppen; Daseinsvorsorge und zentrale Bereiche wie der Hafen sollen in öffentlicher Hand bleiben oder zurückgewonnen werden.",
+          "zitat": "Die Privatisierung öffentlicher Unternehmen muss gestoppt werden, so dass es keine weitere Verschlechterung der öffentlichen Versorgung und der Beschäftigungsverhältnisse gibt.",
+          "beleg_url": "https://hh.bsw-vg.de/wp-content/uploads/2025/02/BSW_HAMBURG_BUeRGERSCHAFTS-WAHLPROGRAMM_2025.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 68,
+          "position": "teils",
+          "kurzfassung": "Volt steht einer weiteren Privatisierung der Hafeninfrastruktur kritisch gegenüber, befürwortet aber Minderheitsbeteiligungen verschiedener Reedereien an Terminals.",
+          "zitat": "Einer weiteren Privatisierung von essentieller Hafeninfrastruktur oder ganzer Hafen-Holdings, wie kürzlich im Falle des HHLA/MSC-Deals, stehen wir kritisch gegenüber. Stattdessen sind Minderheitsbeteiligungen an Terminals durch verschiedene Reedereien zu befürworten, da Häfen mit einer vielfältigen Beteiligungslandschaft, laut Studienlage, vom Grundsatz her als krisenfester gelten.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=138",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-31",
+      "wahl": "hh25",
+      "frage": "Sollen die Bewohnerparkzonen in Hamburg ausgesetzt werden?",
+      "beschreibung": "Ob die Gebiete, in denen nur Anwohnerinnen und Anwohner mit Ausweis länger parken dürfen, vorerst aufgehoben und keine neuen eingerichtet werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "teils",
+          "kurzfassung": "Die CDU will jede Anwohnerparkzone auf den Prüfstand stellen, den Antragsaufwand senken und Ausnahmen für Handwerk und kritische Infrastruktur schaffen, fordert aber kein generelles Aussetzen.",
+          "zitat": "Wir werden jede Anwohnerparkzone unter diesen Gesichtspunkten auf den Prüfstand stellen und den bürokratischen Aufwand, zum Beispiel durch jährlich neue Antragstellung, erheblich reduzieren.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "teils",
+          "kurzfassung": "Die SPD hält Bewohnerparkgebiete in Gebieten mit hohem Parkdruck für nützlich, lehnt flächendeckende Gebiete ohne Parkplatznot ab und setzt das Moratorium für neue Gebiete fort; bestehende will sie nicht aussetzen.",
+          "zitat": "Bewohnerparkgebiete haben die Verfügbarkeit von Parkständen für die Anwohner*innen in Gebieten mit einem hohen Parkdruck erhöht. Flächendeckende Bewohnerparkgebiete lehnen wir jedoch ab, wenn vor Ort gar keine Parkplatznot vorherrscht.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen das Bewohnerparken mit dem Bund zum Quartiersparken weiterentwickeln und die Parkgebühren nach Fahrzeuggröße staffeln.",
+          "zitat": "Wir verfolgen die beschlossene „Strategie Mobilitätswende” weiter und wollen zusammen mit dem Bund das Bewohner- zum Quartiersparken weiterentwickeln.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die meisten Bewohnerparkzonen vorerst aussetzen, weitere Verfahren stoppen und das Bewohnerparken im Umfeld von Kliniken und Polizeikommissariaten abschaffen.",
+          "zitat": "Die Bewohnerparkzonen sind in ihrer jetzigen Form nicht bedarfsgerecht und führen zu vielen Problemen. Vorerst wollen wir uns für ein Aussetzen der meisten Bewohnerparkzonen und Stopp weiterer Verfahren einsetzen.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "ja",
+          "kurzfassung": "Die AfD lehnt das Anwohnerparken ab.",
+          "zitat": "Das so genannte „Anwohnerparken“ lehnen wir als Abzocke der Bürger ab.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "teils",
+          "kurzfassung": "Die Linke will Anwohnerparken nur mit Begleitmaßnahmen, damit sich der Parkdruck nicht in Nachbarquartiere verlagert; ein Aussetzen fordert sie nicht.",
+          "zitat": "Anwohnerparken nur mit Begleitmaßnahmen: Verlagerung des Parkdrucks in benachbarte Quartiere ist keine Lösung.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=12",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "teils",
+          "kurzfassung": "Das BSW lehnt eine undurchdachte Ausweitung der Parkraumbewirtschaftung ab und will kostenloses Parken für Handwerk und Pflegedienste, fordert aber kein Aussetzen bestehender Bewohnerparkzonen.",
+          "zitat": "Deshalb lehnen wir Dieselfahrverbote ebenso ab wie eine undurchdachte Ausweitung der Parkraumbewirtschaftung oder die Einführung einer City-Maut.",
+          "beleg_url": "https://hh.bsw-vg.de/wp-content/uploads/2025/02/BSW_HAMBURG_BUeRGERSCHAFTS-WAHLPROGRAMM_2025.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 68,
+          "position": "nein",
+          "kurzfassung": "Volt will die Gebühren für Bewohnerparkausweise deutlich erhöhen und begrüßt einen Neustart beim Quartiersparken.",
+          "zitat": "Volt setzt sich daher auch in Hamburg für eine deutliche Erhöhung der Gebühren von Bewohnerparkausweisen ein.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=86",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-32",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg die sozialen Erhaltungsverordnungen abschaffen?",
+      "beschreibung": "Ob die Schutzgebiete wegfallen, in denen Luxusmodernisierungen und die Umwandlung von Miet- in Eigentumswohnungen genehmigt werden müssen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "teils",
+          "kurzfassung": "Die CDU erkennt das Ziel der sozialen Erhaltungsverordnungen an, beklagt aber ausbleibende Instandsetzungen und will Vermietern Instandsetzungen ermöglichen; eine Abschaffung fordert sie nicht.",
+          "zitat": "Wir werden uns für Rahmenbedingungen einsetzen, sodass die Vermieter in die Lage versetzt werden, notwendige Instandsetzungen an ihren Gebäuden zu realisieren.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "nein",
+          "kurzfassung": "Die SPD will die bestehenden 13 Gebiete mit sozialen Erhaltungsverordnungen sichern und neue Gebiete prüfen.",
+          "zitat": "Wir schützen Mieter*innen in Gebieten mit Sozialen Erhaltungsverordnungen vor Verdrängung und dämmen Spekulation ein. Die derzeit 13 Gebiete wollen wir sichern und die Aufnahme neuer Gebiete in die Verordnung prüfen.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen weitere Gebiete mit sozialen Erhaltungsverordnungen schaffen.",
+          "zitat": "Wir werden regelhaft prüfen, wo wir weitere Gebiete mit sozialen Erhaltungsverordnungen schaffen können und so vor allem in innenstadtnahen Stadtteilen Luxusmodernisierungen und Umwandlungen von Miet- in Eigentumswohnungen noch breiter unterbinden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die sozialen Erhaltungsverordnungen abschaffen.",
+          "zitat": "Wir wollen dies sozialverträglich ändern. Mit der Abschaffung der Erhaltensverordnungen sorgen wir für mehr nachhaltigen und barrierearmen Wohnraum.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Erhaltungsverordnung, Erhaltensverordnung, Erhaltungssatzung, Milieuschutz, soziale Erhaltung, Verdrängung, Gentrifizierung, Luxusmodernisierung/-sanierung, Umwandlung, Vorkaufsrecht, Mieter, Modernisierung; Kapitel 3 (Wohnen, u. a. 3.8 Grundsteuer) und 4 (Stadtentwicklung). Keine Aussage zu sozialen Erhaltungsverordnungen."
+        },
+        {
+          "partei_id": 66,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die Umwandlung von Miet- in Eigentumswohnungen generell verbieten und ein stadtweites Vorkaufsrecht – also den Schutz der Erhaltungsgebiete auf die ganze Stadt ausdehnen.",
+          "zitat": "Die Umwandlung von Miet- in Eigentumswohnungen wird verboten.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=3",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Erhaltungsverordnung, Erhaltensverordnung, Milieuschutz, soziale Erhaltung, Verdrängung, Gentrifizierung, Luxusmodernisierung, Umwandlung, Vorkaufsrecht, Mieter; Kapitel „Wohnen muss bezahlbar sein“ (S. 25–26) und Stadtentwicklung (S. 30). Gefunden nur Wohnraumschutzgesetz gegen Zweckentfremdung und Vorkaufsrecht der Stadt – keine Aussage zu sozialen Erhaltungsverordnungen."
+        },
+        {
+          "partei_id": 68,
+          "position": "nein",
+          "kurzfassung": "Volt will stärker als bisher auf soziale Erhaltungsverordnungen zurückgreifen.",
+          "zitat": "Um Fehlentwicklungen von Vernichtung günstigen Wohnraumes bei „Optimierung der Grundstücksverwertung“ entgegenzuwirken, soll mehr als bisher auf das Instrument der Erhaltungsverordnung zurückgegriffen werden.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=36",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "bw26-2",
       "wahl": "bw26",
       "frage": "Soll die Landespolizei flächendeckend mit Tasern ausgestattet werden?",
