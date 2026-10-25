@@ -10176,6 +10176,524 @@
       "zielkonflikte": []
     },
     {
+      "id": "bb24-23",
+      "wahl": "bb24",
+      "frage": "Soll Brandenburg seinen eigenen Mindestlohn für öffentliche Aufträge abschaffen?",
+      "beschreibung": "Ob der Brandenburger Vergabemindestlohn entfällt und bei öffentlichen Aufträgen nur noch der gesetzliche Mindestlohn gilt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "ja",
+          "kurzfassung": "Die CDU hält den Brandenburger Vergabemindestlohn neben dem allgemeinen Mindestlohn für überflüssig und will das Vergabegesetz verschlanken.",
+          "zitat": "der Vergabemindestlohn ist seit der Einführung des allgemeinen Mindestlohns entbehrlich",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "nein",
+          "kurzfassung": "Die SPD will den Brandenburger Vergabemindestlohn beibehalten und in zwei Schritten auf 15 Euro pro Stunde erhöhen.",
+          "zitat": "Entsprechend der Einkommensentwicklung wollen wir den Vergabemindestlohn in zwei Schritten auf 15 Euro pro Stunde erhöhen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdbrandenburgltw-2024.pdf#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 53,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen den Brandenburger Vergabemindestlohn deutlich anheben und zusätzlich eine Tariftreueklausel einführen.",
+          "zitat": "Nach der hohen Inflation und den nachfolgenden Lohnsteigerungen muss dieser Vergabemindestlohn deutlich angehoben werden.",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=56",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "ja",
+          "kurzfassung": "Das Programm will den eigenen Brandenburger Mindestlohn samt den zugehörigen bürokratischen Regelungen abschaffen.",
+          "zitat": "Wir werden den draufgesattelten Brandenburgischen Mindestlohn und die damit verbundenen bürokratischen Regelungen abschaffen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=67",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Mindestlohn, Vergabe, Vergabegesetz, Vergabemindestlohn, Lohn/Löhne, Tarif, öffentliche Aufträge, Ausschreibung, Auftraggeber. Durchgesehen v. a. Kapitel 5 (Arbeit und Soziales, S. 16–18) und 7 (Wirtschaft und Mittelstand, S. 23–25). Treffer betreffen nur regionale Produkte bei Catering-Ausschreibungen (S. 38) und Löhne in Behindertenwerkstätten (S. 18); zum Vergabemindestlohn nichts."
+        },
+        {
+          "partei_id": 56,
+          "position": "nein",
+          "kurzfassung": "Die Linke will den Brandenburger Vergabemindestlohn nicht abschaffen, sondern auf 15 Euro erhöhen und an die Inflation koppeln.",
+          "zitat": "Den Vergabemindestlohn auf 15 Euro pro Stunde erhöhen und dessen Entwicklung an die Inflationsrate koppeln.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/die-linkebrandenburgltw-2024.pdf#page=2",
+          "begruendung": null
+        },
+        {
+          "partei_id": 57,
+          "position": "nein",
+          "kurzfassung": "Das BSW will den Vergabemindestlohn nicht abschaffen, sondern erhöhen und öffentliche Aufträge nur noch an tarifzahlende Betriebe vergeben.",
+          "zitat": "Außerdem braucht Brandenburg ein Tariftreuegesetz, allgemeinverbindliche Tarifverträge und einen höheren Vergabemindestlohn. Öffentliche Aufträge gehen nur noch an Betriebe, die Tariflohn zahlen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (fw.txt und fw_lese.txt): Mindestlohn, Vergabe, Tariftreue, Tarif, Lohn, Bezahlung, Entgelt, öffentliche Aufträge, Auftrag, Ausschreibung, Bürokratie, Mittelstand/Handwerk; Kapitel 1.2 Arbeitsmarkt und Soziales, 6.1 Wirtschaft, 11.2 Haushalt. Kein Wort zum Vergabemindestlohn oder Vergabegesetz."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-24",
+      "wahl": "bb24",
+      "frage": "Soll das Land mehr Geld für das Programm „Tolerantes Brandenburg“ gegen Rechtsextremismus ausgeben?",
+      "beschreibung": "Ob das Land Initiativen und Beratung gegen Rechtsextremismus stärker und dauerhaft finanziert.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "teils",
+          "kurzfassung": "Die CDU will Aussteigerprogramme stärken und das Bündnis „Tolerantes Brandenburg“ in diese Richtung weiterentwickeln, nennt aber keine höhere Finanzierung.",
+          "zitat": "Aussteigerprogramme wie „WageMut“ stärken und auch das Bündnis „Tolerantes Brandenburg“ in diese Richtung entwickeln",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "ja",
+          "kurzfassung": "Die SPD will das Handlungskonzept „Tolerantes Brandenburg“ stärken und die Förderung von Projekten gegen Rechtsextremismus verstetigen und ausbauen.",
+          "zitat": "Wir werden das Handlungskonzept „Tolerantes Brandenburg“ und sein zivilgesellschaftliches Beratungssystem stärken und es mit dem Bündnis für Brandenburg weiterentwickeln sowie die Förderung von Projekten der Demokratiestärkung und des Kampfes gegen Rechtsextremismus verstetigen und den Herausforderungen gemäß ausbauen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdbrandenburgltw-2024.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 53,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen die Mittel für das Programm „Tolerantes Brandenburg“ erhöhen und Demokratieprojekte über ein Demokratiefördergesetz dauerhaft absichern.",
+          "zitat": "Um sie weiter zu fördern, wollen wir die Gelder für das Programm „Tolerantes Brandenburg“ erhöhen und es besser mit dem Bundesprogramm „Demokratie leben!“ zusammendenken.",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=33",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tolerantes Brandenburg, Toleranz, Rechtsextremismus, Extremismus, Demokratieförderung, Zivilgesellschaft, Initiative, Beratung, Opferberatung, Mobile Beratung, Aktionsbündnis, Prävention; Kapitel „Extremismus bekämpfen“ (S. 46–47) und Schulklima (S. 13). Das Programm will allgemein jede Form des Extremismus bekämpfen, Präventionsmaßnahmen stärken und Rechtsextremismus weiterhin entgegentreten, nennt aber weder das Programm „Tolerantes Brandenburg“ noch mehr oder dauerhaftes Geld für Initiativen und Beratung gegen Rechtsextremismus."
+        },
+        {
+          "partei_id": 55,
+          "position": "nein",
+          "kurzfassung": "Die AfD will die Finanzierung von Initiativen im „Kampf gegen rechts“ und insbesondere des Aktionsbündnisses Tolerantes Brandenburg beenden.",
+          "zitat": "Deshalb werden zukünftig keine Vereine, Institutionen, Veranstaltungen, Demonstrationen, Aktionen im sogenannten Kampf gegen rechts mehr finanziert. Insbesondere die Finanzierung des Aktionsbündnisses Tolerantes Brandenburg ist zu beenden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdbrandenburgltw-2024.pdf#page=66",
+          "begruendung": null
+        },
+        {
+          "partei_id": 56,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Rechtsextrem*, rechts, extrem, Toleran*, Demokrat*, Rassis*, Nazi, Faschis*, Hass, Hetze, Beratung, Initiative im ganzen Kurzprogramm (alle Kapitel, u. a. „Sicherheit im Wandel!“). Weder das Programm „Tolerantes Brandenburg“ noch Initiativen oder Beratung gegen Rechtsextremismus werden erwähnt."
+        },
+        {
+          "partei_id": 57,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tolerant/Toleranz, Rechtsextrem/Extremismus, Rassismus, Demokratie, Zivilgesellschaft, Initiative, Beratung, Prävention, Vielfalt, weltoffen, politische Bildung, Landeszentrale, Verfassungsfeind (Kapitel Demokratie und Freiheit S. 8, Polizei/Verfassungsschutz S. 10–11, Migration S. 15–16). Das Programm lehnt rechtsextreme Ideologien ab (S. 8) und will rassistischen Bestrebungen den Nährboden entziehen (S. 15–16), sagt aber nichts zum Programm „Tolerantes Brandenburg“ oder zur Finanzierung von Initiativen und Beratung gegen Rechtsextremismus."
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rechtsextremismus, Extremismus, Tolerantes Brandenburg, Toleranz, Rassismus, Antisemitismus, Zivilgesellschaft, Prävention, Mobile Beratung, Aussteiger, Diskriminierung, politische Bildung, Demokratie; Kapitel 1.6 Kinder und Jugend, 4 Migration, 10.2 Inneres, 10.5 Verfassungsschutz. Das Programm lehnt Intoleranz und Rassismus ab (S. 14) und will den Verfassungsschutz alle Extremismus-Phänomene beobachten lassen (S. 38), sagt aber nichts zur Finanzierung von Programmen oder Initiativen gegen Rechtsextremismus."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-25",
+      "wahl": "bb24",
+      "frage": "Soll die Landesverwaltung keine zusätzlichen Stellen mehr schaffen?",
+      "beschreibung": "Ob neue Aufgaben mit dem vorhandenen Personal erledigt werden, statt die Zahl der Stellen in der Landesverwaltung zu erhöhen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "nein",
+          "kurzfassung": "Die CDU will in mehreren Bereichen der Landesverwaltung zusätzliche Stellen schaffen, etwa 500 bei der Polizei, dazu bei Justiz und Finanzämtern.",
+          "zitat": "den Wachstumskurs konsequent fortsetzen: Die Brandenburger Polizei wird bis 2029 um 500 Stellen auf dann 9.000 Stellen erhöht",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=16",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "nein",
+          "kurzfassung": "Die SPD will zusätzliche Stellen im Landesdienst schaffen, etwa die Stellenzielzahl der Polizei auf 9.000 erhöhen und zusätzliches Justizpersonal einstellen.",
+          "zitat": "Wir stellen die Polizei zukunftsfest auf. Dazu passen wir die Stellenzahl an das an, was zur Aufgabenerfüllung erforderlich ist, und erhöhen die Stellenzielzahl auf 9.000.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdbrandenburgltw-2024.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 53,
+          "position": "nein",
+          "kurzfassung": "Die Grünen fordern in mehreren Bereichen der Landesverwaltung mehr Personal, etwa in der Umweltverwaltung, den Genehmigungsbehörden und der Wasserwirtschaft.",
+          "zitat": "Wir konnten den jahrzehntelangen Personalabbau in der Umweltverwaltung stoppen und umkehren. Das wollen wir fortsetzen, es braucht für den Schutz von Umwelt und Natur mehr Personal im Land und in den Kommunen.",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "teils",
+          "kurzfassung": "Das Programm will offene Stellen in der Landesverwaltung vorrangig besetzen oder umwidmen, bevor neue Stellen geschaffen werden, schließt neue Stellen aber nicht grundsätzlich aus.",
+          "zitat": "Offene Stellen sind vorrangig zu besetzen oder umzuwidmen, bevor weitere Stellen in einem Verwaltungsbereich geschaffen werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=75",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "ja",
+          "kurzfassung": "Die AfD will keine weiteren Verwaltungsstellen schaffen und wachsende Aufgaben mit Personal aus Bereichen mit sinkenden Aufgaben abdecken.",
+          "zitat": "Eine weitere Zunahme von Verwaltungsstellen wird es mit der AfD nicht geben. Der größer werdende Aufgabenumfang in einem Bereich wird von Mitarbeitern aus Bereichen mit geringer werdenden Aufgaben abgedeckt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/afdbrandenburgltw-2024.pdf#page=64",
+          "begruendung": null
+        },
+        {
+          "partei_id": 56,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Stelle*, Verwaltung, Personal, Beamt*, öffentlicher Dienst im ganzen Kurzprogramm. Zur Zahl der Stellen in der Landesverwaltung gibt es keine Aussage; „Personal“ kommt nur bei ÖPNV, Pflege, Schulen und Kitas vor (Arbeitsbedingungen, Ausbildung)."
+        },
+        {
+          "partei_id": 57,
+          "position": "nein",
+          "kurzfassung": "Das BSW lehnt weiteren Stellenabbau ab und will mehr Personal in Schulen, Krankenhäusern, Pflegeheimen und Ämtern von Land und Kommunen.",
+          "zitat": "Ein weiterer Stellenabbau in der öffentlichen Verwaltung wäre verantwortungslos und wird von uns nicht unterstützt: Ganz im Gegenteil, wir brauchen wieder mehr Personal in den Schulen, den Krankenhäusern, den Pflegeheimen und bei den Ämtern in Landes- und kommunaler Trägerschaft.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Stellen, Personal, Landesverwaltung, Verwaltung, öffentlicher Dienst, Beamte, Stellenabbau, schlanke Verwaltung, Verwaltungsreform, Aufwuchs; Kapitel 10 Wahlen, Inneres und Justiz, 11.2 Haushalt, 12 Europa. Kapitel 11.2 bekennt sich nur allgemein zu sparsamer Haushaltsführung, ohne Aussage zur Stellenzahl der Landesverwaltung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-26",
+      "wahl": "bb24",
+      "frage": "Soll ein privater Investor beim Flughafen BER einsteigen?",
+      "beschreibung": "Ob das Land Anteile an der Flughafengesellschaft Berlin Brandenburg an Private abgibt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "ja",
+          "kurzfassung": "Die CDU ist offen für den Einstieg eines strategischen Investors bei der Flughafengesellschaft FBB.",
+          "zitat": "Offenheit für den Einstieg eines strategischen Investors bei der FBB GmbH, um neue Potentiale zu erschließen und wirtschaftlichen Erfolg zu erreichen",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, BER, Flughafengesellschaft, FBB, Luftverkehr, Privatisier*, Investor, privat, Anteil, Beteiligung, Gesellschafter, Landesunternehmen; Kapitel Mobilität/Verkehr (S. 11–12). Zum BER nur Nachtflugverbot, Schallschutz und Ablehnung einer dritten Start- und Landebahn (S. 12), nichts zu Eigentum oder Anteilsverkauf."
+        },
+        {
+          "partei_id": 53,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: BER, Flughafen, FBB, Luftverkehr, Gesellschafter, Privatisier*, Investor, Anteile, Beteiligung (Kapitel Mobilität „Emissionen des Luftverkehrs begrenzen“, Verwaltung, Finanzen und Kommunales, Wirtschaft). Das Programm will, dass Brandenburg „als Gesellschafter des BER seine Stimme nutzt“ (Fluglärm, Nachtflugverbot), äußert sich aber nicht zu einem Verkauf von Anteilen an private Investoren."
+        },
+        {
+          "partei_id": 54,
+          "position": "ja",
+          "kurzfassung": "Das Programm will die Flughafengesellschaft BER vollständig privatisieren und alle staatlichen Anteile an einen spezialisierten Flughafenbetreiber verkaufen.",
+          "zitat": "Wir setzen uns für eine vollständige Privatisierung der „Flughafen Berlin-Brandenburg GmbH“ durch den Verkauf aller staatlichen Unternehmensanteile an einen spezialisierten Flughafenbetreiber ein.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht (auch case-sensitiv): BER, Flughafen, Flughafengesellschaft, FBB, Luftverkehr, Privatisierung/privatisieren, Anteile, Beteiligung, Landesbeteiligung. Durchgesehen Kapitel 7 (Wirtschaft), 13 (Verkehr, Infrastruktur, S. 50–54) und 18 (Haushalt, S. 64–66). Der BER kommt im Programm nicht vor."
+        },
+        {
+          "partei_id": 56,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Flughafen, BER, Luftverkehr, Airport, privatis* im ganzen Kurzprogramm (u. a. Kapitel Verkehrswende). Der Flughafen BER kommt nicht vor; „Privatisierungen stoppen“ steht nur bei Krankenhäusern (S. 4)."
+        },
+        {
+          "partei_id": 57,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: BER, Flughafen, Flughäfen, Luftverkehr, Fluglärm, Investor, Anteil, Beteiligung, Privatisierung, Verkauf (u. a. Kapitel Kommunen S. 9–10, Soziale Gerechtigkeit S. 21–22, Arbeit S. 35, Wirtschaft S. 36–37). Der Flughafen BER und die Flughafengesellschaft werden nicht erwähnt."
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: BER, Flughafen, Flughafengesellschaft, FBB, privatisieren, Investor, Anteil, Beteiligung, Verkauf; Kapitel 5.6 Flugverkehr / BER, 11.2 Haushalt. Das Programm will die Abhängigkeit der FBB von Landeszuschüssen auf das geringstmögliche Maß zurückfahren (S. 18) und Landesbeteiligungen allgemein kritisch überprüfen (S. 41), sagt aber nichts zu einem Einstieg privater Investoren oder zum Verkauf von Anteilen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-27",
+      "wahl": "bb24",
+      "frage": "Soll die Mietpreisbremse in mehr Brandenburger Gemeinden gelten?",
+      "beschreibung": "Ob das Land die Verordnung so ändert, dass mehr Orte die Begrenzung der Miete bei Neuvermietung nutzen können.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreis, Mietpreisbremse, Miete, Mieter, Mietrecht, Kappungs, Mietendeckel, Wohnungsmarkt, angespannt, Regulierung; Kapitel 13 „Bezahlbaren Wohn(t)raum erfüllen“ und 58 „Schneller, einfacher und günstiger bauen“ gelesen – nur Bau- und Eigentumsförderung, keine Aussage zur Mietpreisbremse."
+        },
+        {
+          "partei_id": 52,
+          "position": "ja",
+          "kurzfassung": "Die SPD will die Mietpreisbremsen-Regelung so ändern, dass mehr Gemeinden in Brandenburg sie nutzen können.",
+          "zitat": "Wir werden die Regelung zur Mietpreisbremse verändern, sodass mehr Gemeinden in Brandenburg diese Begrenzung nutzen können.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdbrandenburgltw-2024.pdf#page=27",
+          "begruendung": null
+        },
+        {
+          "partei_id": 53,
+          "position": "teils",
+          "kurzfassung": "Die Grünen wollen bundesrechtliche Schutzregeln für Mieter*innen in Brandenburg so umfassend wie möglich umsetzen, um vor starken Mieterhöhungen zu schützen.",
+          "zitat": "Schutzbestimmungen für Mieter*innen sind größtenteils Regelungen auf Bundesebene, die wir in Brandenburg aber so umfassend wie möglich für Mieter*innen umsetzen wollen, um sie vor Luxussanierungen und starken Mieterhöhungen zu schützen.",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Mietpreis, Miete/Mieten, Mieter, Kappungsgrenze, Wohnraum, Wohnungsbau, Wohnen; Kapitel „Bauen schneller, günstiger und unbürokratischer ermöglichen“ (S. 67–68) und „Entlastung der Menschen und Unternehmen“ (S. 73). Das Programm setzt auf Bauvereinfachung und Wohneigentum, äußert sich aber nicht zur Mietpreisbremse."
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Miet* (Mietpreisbremse, Mieten, Mieter), Kappungsgrenze, Wohnungsmarkt. Durchgesehen Kapitel 5 (Wohngeld, S. 16) und 13 (Bauen und Wohnen, S. 51–54). Das Programm setzt auf Bauen, niedrigere Baukosten, Wohngeld und Eigentumsförderung; zur Mietpreisbremse nichts."
+        },
+        {
+          "partei_id": 56,
+          "position": "ja",
+          "kurzfassung": "Die Linke will die Mietpreisbremse auf mehr Gemeinden ausweiten.",
+          "zitat": "Leistbare Mieten durch die Ausweitung der Mietpreisbremse auf mehr Gemeinden und die Schaffung von mehr dauerhaft gesicherten Sozialwohnungen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/die-linkebrandenburgltw-2024.pdf#page=3",
+          "begruendung": null
+        },
+        {
+          "partei_id": 57,
+          "position": "teils",
+          "kurzfassung": "Das BSW will Mietsteigerungen durch einen bundesweiten Mietendeckel begrenzen; zur Mietpreisbremse und ihrer Landesverordnung äußert es sich nicht.",
+          "zitat": "Begrenzung der Mietsteigerungen durch einen bundesweiten Mietendeckel.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Miete, Mieten, Mieter, Wohnraum, Wohnung, bezahlbar; Kapitel 5.2 Bauen und Wohnen, 5.10 Ländliche Entwicklung. Das Programm setzt auf Wohnraumförderung, kreisliche Wohnungsbaugesellschaften und mehr Bauland, äußert sich aber nicht zur Mietpreisbremse."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-28",
+      "wahl": "bb24",
+      "frage": "Soll das Land den Verkauf landeseigener Flächen an Private ausschließen?",
+      "beschreibung": "Ob Grundstücke im Landesbesitz grundsätzlich in öffentlicher Hand bleiben, statt verkauft zu werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: landeseigen, Liegenschaft, Grundstück, Landesbesitz, Bodenfonds, Bodenpolitik, Erbbau, Flächenverkauf, öffentlicher Hand, Landesflächen, Fläche, Boden, Verkauf, veräußer, Eigentum; Kapitel 9 (Gewerbeflächen), 13 (Wohnen, Baulandoffensive) und 59/60 (Finanzen) gelesen – keine Aussage zum Verkauf landeseigener Flächen."
+        },
+        {
+          "partei_id": 52,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: landeseigen, Liegenschaft, Grundstück, Flächen, Boden, Bodenpolitik, Bodenmarkt, Erbbau, Konzeptvergabe, Verkauf/verkauf, veräußer, öffentliche Hand, Landeseigentum, privat; Abschnitt Wohnen (S. 27). Gefunden nur S. 27: „Wir werden den Kommunen weiterhin landeseigene Flächen zum Wohnungsbau und zur Entwicklung der kommunalen Infrastruktur zur Verfügung stellen.“ – das betrifft die Abgabe an Kommunen, kein Ausschluss eines Verkaufs an Private."
+        },
+        {
+          "partei_id": 53,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen alle landeseigenen Flächen in öffentlicher Hand halten und lehnen einen Verkauf an private Investoren ab; stattdessen eigene Entwicklung oder Erbpacht.",
+          "zitat": "setzen uns für einen Verbleib aller landeseigenen Flächen in öffentlicher Hand ein. Zum Schutz vor Spekulationen, von (potenziell) wertvollen Naturräumen und zur Sicherung zukünftiger öffentlicher Funktionen lehnen wir einen Verkauf lan Bauen, Planen, Wohnen deseigener Flächen an private Investoren",
+          "beleg_url": "https://wordpress02.gcms.verdigado.net/gruene-brandenburg/wp-content/uploads/sites/291/2025/06/Wahlprogramm_B90DIEGRUENEN_LTW2024.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 54,
+          "position": "nein",
+          "kurzfassung": "Das Programm will nicht benötigte Grundstücke und Flächen des Landes privatisieren.",
+          "zitat": "Das Land Brandenburg besitzt unmittelbar und mittelbar zahlreiche Grundstücke und Flächen, die weder heute noch in Zukunft benötigt werden. Diese Flächen sollen privatisiert und einer Nutzung zugeführt werden.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=76",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: landeseigen, Landesflächen, Landesbesitz, Landeseigentum, Grundstück, Liegenschaft, Verkauf, veräußern, Bodenpolitik, Bodenverwertung/BVVG, Landeswald, Bauland, Erbbau. Durchgesehen Kapitel 9 (Landwirtschaft, S. 36–38), 13 (Bauen und Wohnen, S. 51–54) und 18 (Haushalt, S. 64–66). Kein Grundsatz zum Verkauf oder Behalten landeseigener Flächen."
+        },
+        {
+          "partei_id": 56,
+          "position": "ja",
+          "kurzfassung": "Die Linke will den Verkauf öffentlicher Flächen verbieten und zusätzlich BVVG-Flächen durch das Land ankaufen.",
+          "zitat": "Bodenspekulation unterbinden durch ein Verbot des Verkaufs öffentlicher Flächen und den Ankauf der ehemals volkseigenen BVVG-Flächen durch das Land.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/die-linkebrandenburgltw-2024.pdf#page=3",
+          "begruendung": null
+        },
+        {
+          "partei_id": 57,
+          "position": "ja",
+          "kurzfassung": "Das BSW will keine weitere Privatisierung von Wohnungen und Grundstücken der öffentlichen Hand.",
+          "zitat": "Eine weitere Privatisierung von Wohnungen und Grundstücken der öffentlichen Hand darf es nicht geben.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswbrandenburgltw-2024.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: landeseigene Flächen, Grundstück, Liegenschaft, Boden, Landesbesitz, Verkauf, veräußern, Privatisierung, Pacht, BVVG, Landvergabe, öffentliche Hand; Kapitel 5.2 Bauen und Wohnen, 7.1 Landwirtschaft, 11.2 Haushalt. Keine Aussage zum Verkauf landeseigener Flächen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "bb24-29",
+      "wahl": "bb24",
+      "frage": "Soll das Tanzverbot an stillen Feiertagen abgeschafft werden?",
+      "beschreibung": "Ob Tanz- und Unterhaltungsveranstaltungen etwa an Karfreitag erlaubt werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 51,
+          "position": "nein",
+          "kurzfassung": "Die CDU will die Karfreitagsruhe und das gesetzliche Tanzverbot beibehalten.",
+          "zitat": "Wahrung der Karfreitagsruhe und des gesetzlich verankerten Tanzverbots",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cdubrandenburgltw-2024.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 52,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tanz, Feiertag, stiller Tag, Karfreitag, Sonntag, Veranstaltung, Clubs, Musik, Kirche, Ladenöffnung. Gefunden nur S. 8 (Harmonisierung der Feiertage mit Berlin, Zahl der Feiertage nicht verringern), nichts zum Tanzverbot."
+        },
+        {
+          "partei_id": 53,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tanz*, Tanzverbot, stille Feiertage, Karfreitag, Feiertag*, Feiertagsgesetz, Unterhaltungsveranstaltung (u. a. Kapitel „Gute Ausbildung und Gute Arbeit“ mit der Forderung nach einem zusätzlichen Feiertag, „Kultur und Medien“). Zum Tanzverbot an stillen Feiertagen sagt das Programm nichts."
+        },
+        {
+          "partei_id": 54,
+          "position": "ja",
+          "kurzfassung": "Das Programm will das Tanzverbot an stillen Feiertagen abschaffen.",
+          "zitat": "Das Tanzverbot an „stillen Feiertagen“ werden wir abschaffen. Derzeit sind öffentliche Unterhaltungsveranstaltungen mit fröhlichem Charakter an bestimmten Feiertagen untersagt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/2024-07-15-fdp-wahlprogramm-brandenburg-2024.pdf#page=71",
+          "begruendung": null
+        },
+        {
+          "partei_id": 55,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Tanz, Tanzverbot, Feiertag, Feiertagsgesetz, Karfreitag, stille Feiertage, Sonntag, Kirche, Disko, Club, Veranstaltung. Durchgesehen Kapitel 15 (Kultur und Denkmalschutz, S. 58–60) und 2 (Demokratie und Staatsverständnis). Keine Aussage zum Tanzverbot."
+        },
+        {
+          "partei_id": 56,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Tanz*, Feiertag, Karfreitag, Sonntag, Ladenöffnung im ganzen Kurzprogramm. „Tanzabende“ (S. 3) und „alle tanzen“ (S. 5) kommen nur in erzählenden Passagen vor; zum Tanzverbot an stillen Feiertagen gibt es keine Aussage."
+        },
+        {
+          "partei_id": 57,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tanz, Tanzverbot, Feiertag, Karfreitag, Ostern, Totensonntag, Kirche, Religion, Sonntag, Ladenöffnung, Club, Nachtleben, Diskothek, Veranstaltung (u. a. Kapitel Kultur S. 17–18, Ländlicher Raum S. 40–41). Das Programm äußert sich nicht zum Tanzverbot an stillen Feiertagen."
+        },
+        {
+          "partei_id": 58,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tanzverbot, Tanz, Feiertag, stille Feiertage, Karfreitag, Sonntag, Feiertagsgesetz, Diskothek, Club, Nachtleben, Kirche, Religion; Kapitel 2.2 Kultur, 10 Wahlen, Inneres und Justiz. Keine Aussage zum Feiertagsschutz oder Tanzverbot."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "hh25-2",
       "wahl": "hh25",
       "frage": "Soll Tempo 30 innerorts zur Regel werden?",
