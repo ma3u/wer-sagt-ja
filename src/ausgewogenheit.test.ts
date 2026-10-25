@@ -17,20 +17,20 @@ const frage = (...werte: Positionswert[]) => {
 }
 
 describe('richtungswert', () => {
-  it('ist +1, wenn links alle Ja und rechts alle Nein sagen', () => {
+  it('ist +1, wenn SPD/Grüne/Linke alle Ja und CDU/FDP/AfD alle Nein sagen', () => {
     expect(richtungswert(pos('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'ja'), parteien)).toBe(1)
   })
   it('ist −1 im umgekehrten Fall – BSW zählt nicht mit', () => {
     expect(richtungswert(pos('nein', 'nein', 'nein', 'ja', 'ja', 'ja', 'ja'), parteien)).toBe(-1)
   })
   it('zählt „teils“ halb und lässt „keine Aussage“ weg', () => {
-    // links: ja, teils → 0,75; rechts: nein → 0
+    // Gruppe A: ja, teils → 0,75; Gruppe B: nein → 0
     expect(richtungswert(pos('ja', 'teils', 'keine_aussage', 'nein', 'keine_aussage', 'keine_aussage', 'ja'), parteien)).toBe(0.75)
   })
-  it('ist null, wenn ein Lager gar keine Aussage hat', () => {
+  it('ist null, wenn eine Gruppe gar keine Aussage hat', () => {
     expect(richtungswert(pos('ja', 'ja', 'ja', 'keine_aussage', 'keine_aussage', 'keine_aussage', 'nein'), parteien)).toBeNull()
   })
-  it('ordnet Union, CDU und CSU rechts zu', () => {
+  it('ordnet Union, CDU und CSU der Gruppe B zu', () => {
     const union = parteien.map((p) => (p.kurzname === 'CDU' ? { ...p, kurzname: 'Union' } : p))
     expect(richtungswert(pos('nein', 'nein', 'nein', 'ja', 'keine_aussage', 'keine_aussage', 'nein'), union)).toBe(-1)
   })
@@ -38,7 +38,7 @@ describe('richtungswert', () => {
 
 describe('richtungVon', () => {
   it('teilt an der Schwelle ±0,5', () => {
-    expect([0.5, 0.49, 0, -0.49, -0.5, null].map(richtungVon)).toEqual(['links', 'quer', 'quer', 'quer', 'rechts', 'offen'])
+    expect([0.5, 0.49, 0, -0.49, -0.5, null].map(richtungVon)).toEqual(['a', 'gemischt', 'gemischt', 'gemischt', 'b', 'offen'])
   })
 })
 
@@ -61,22 +61,24 @@ describe('ausgewogenheit', () => {
         frage('ja', 'nein', 'nein', 'ja', 'nein', 'nein', 'nein'),
       ],
     })
-    expect(a.richtung).toEqual({ links: 1, quer: 1, rechts: 1, offen: 0 })
-    expect(a.anteilLinks).toBe(0.5)
+    expect(a.richtung).toEqual({ a: 1, gemischt: 1, b: 1, offen: 0 })
+    expect(a.anteilA).toBe(0.5)
     expect(a.profil.map((x) => x.anzahl)).toEqual([1, 0, 0, 2, 1, 0, 0])
   })
 
-  it('warnt, wenn mehr als 60 % der gerichteten Fragen in eine Richtung zeigen', () => {
-    const links = frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'nein')
-    const rechts = frage('nein', 'nein', 'nein', 'ja', 'ja', 'ja', 'nein')
-    const a = ausgewogenheit({ parteien, fragen: [links, links, links, links, links, rechts] })
-    expect(a.hinweise[0]).toMatch(/^5 von 6 gerichteten Fragen \(83 %\) zeigen mit dem Ja nach links/)
+  it('warnt, wenn bei mehr als 60 % der gerichteten Fragen das Ja von derselben Gruppe kommt', () => {
+    const a1 = frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'nein')
+    const b1 = frage('nein', 'nein', 'nein', 'ja', 'ja', 'ja', 'nein')
+    const a = ausgewogenheit({ parteien, fragen: [a1, a1, a1, a1, a1, b1] })
+    expect(a.hinweise[0]).toBe(
+      'Bei 5 von 6 gerichteten Fragen (83 %) kommt das Ja eher von SPD/Grüne/Linke – ebenso zugespitzte Fragen ergänzen, bei denen CDU/CSU/FDP/AfD Ja sagen.',
+    )
   })
 
   it('warnt nicht bei ausgeglichener Richtung', () => {
-    const links = frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'nein')
-    const rechts = frage('nein', 'nein', 'nein', 'ja', 'ja', 'ja', 'nein')
-    const a = ausgewogenheit({ parteien, fragen: [links, links, links, rechts, rechts, rechts] })
+    const a1 = frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'nein')
+    const b1 = frage('nein', 'nein', 'nein', 'ja', 'ja', 'ja', 'nein')
+    const a = ausgewogenheit({ parteien, fragen: [a1, a1, a1, b1, b1, b1] })
     expect(a.hinweise.some((h) => h.includes('gerichteten'))).toBe(false)
   })
 

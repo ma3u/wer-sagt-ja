@@ -39,7 +39,9 @@ console.log('\nAusgewogenheit je Wahl (Issue #1) – Spielprinzip bleibt, ausgew
 for (const d of quizKatalog(datei).wahlen.filter((d) => d.parteien.length && d.fragen.length)) {
   const a = ausgewogenheit(d)
   const r = a.richtung
-  console.log(`\n${d.wahl.name}: ${r.links}× links · ${r.quer}× gemischt · ${r.rechts}× rechts · ${r.offen}× nicht bestimmbar`)
+  console.log(
+    `\n${d.wahl.name}: ${r.a}× ${RICHTUNG_TEXT.a} · ${r.gemischt}× gemischt · ${r.b}× ${RICHTUNG_TEXT.b} · ${r.offen}× nicht bestimmbar`,
+  )
   console.log(`    Profilfragen: ${a.profil.map((x) => `${x.partei.kurzname} ${x.anzahl}`).join(', ')}`)
   for (const h of a.hinweise) console.log(`    ⚠ ${h}`)
 }

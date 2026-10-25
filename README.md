@@ -74,19 +74,22 @@ Leitlinie für neue Fragen:
    zugespitzte Frage in ihren Begriffen.
 3. **Profilfragen für jede Partei:** Je Katalog hat jede Partei mindestens zwei Fragen, bei denen sie mit höchstens
    einer anderen Partei Ja sagt. An solchen Fragen erkennt man eine Partei im Spiel.
-4. **Keine Schlagseite:** Von den Fragen, deren Ja klar nach links oder rechts zeigt, sollen höchstens 60 % in
-   dieselbe Richtung zeigen. Fehlt eine Seite, werden Fragen ergänzt – nicht bestehende abgeschwächt.
+4. **Keine Schlagseite:** Von den Fragen, deren Ja klar von einer der beiden Parteigruppen kommt, sollen höchstens
+   60 % von derselben Gruppe kommen. Fehlt eine Seite, werden Fragen ergänzt – nicht bestehende abgeschwächt.
 5. **Keine erfundenen Positionen:** Ausgewogenheit entsteht nie dadurch, dass einer Partei ein Ja zugeschrieben wird,
    das nicht im Programm steht. Ergänzt werden Fragen, nicht Positionen.
-6. **„Keine Aussage“ belegen:** Sagt ein ganzes Lager nichts, ist das oft eine Lücke der Erfassung – erst das Programm
+6. **„Keine Aussage“ belegen:** Sagt eine ganze Parteigruppe nichts, ist das oft eine Lücke der Erfassung – erst das Programm
    erneut durchsuchen, dann `begruendung` genau angeben.
 
 `npm run fragen` zeigt je Frage die Richtung und je Wahl die Verteilung, die Profilfragen je Partei und Warnungen (⚠)
 zu diesen Punkten; die Warnungen sind ein Arbeitsauftrag und lassen die Prüfung nicht scheitern. Die Übersicht
 (`#/fragen`) zeigt dieselben Zahlen unter „Ausgewogenheit dieses Katalogs“. Berechnet werden sie in
 `src/ausgewogenheit.ts`: Der Richtungswert ist der Ja-Anteil von SPD, Grünen und Linken minus dem von CDU/CSU, FDP und
-AfD (je nur Parteien mit Aussage, „teils“ halb), ab ±0,5 gilt eine Frage als gerichtet. Diese Lager sind eine bewusste
-Vereinfachung; andere Parteien zählen bei der Richtung nicht mit, bei den Profilfragen aber schon.
+AfD (je nur Parteien mit Aussage, „teils“ halb), ab ±0,5 gilt eine Frage als gerichtet. Diese beiden Gruppen sind eine bewusste
+Vereinfachung und **keine Einordnung nach links und rechts**: Das Parteiensystem lässt sich nicht auf einer Achse
+ordnen, die Forschung arbeitet mit mindestens zwei Dimensionen (wirtschaftlich und gesellschaftlich, „GAL-TAN“).
+Andere Parteien zählen bei der Richtung nicht mit, bei den Profilfragen aber schon. Eine Messung auf zwei Dimensionen
+ist in [Issue #1](https://github.com/ma3u/wer-sagt-ja/issues/1) geplant.
 
 ## Technik
 

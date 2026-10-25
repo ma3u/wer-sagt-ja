@@ -158,21 +158,22 @@ function ParteiStand({ daten, partei }: { daten: QuizDaten; partei: QuizPartei |
 }
 
 /**
- * Ausgewogenheit des Katalogs (Issue #1): wohin das Ja der Fragen zeigt und wie viele Profilfragen jede Partei hat.
+ * Ausgewogenheit des Katalogs (Issue #1): von welcher Parteigruppe das Ja der Fragen eher kommt und wie viele Profilfragen jede Partei hat.
  * Das Spielprinzip bleibt – die Kennzahlen zeigen, ob die Auswahl der Fragen alle Parteien fair abbildet.
  */
 function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
   const a = ausgewogenheit(daten)
-  const reihenfolge: Richtung[] = ['links', 'quer', 'rechts', 'offen']
+  const reihenfolge: Richtung[] = ['a', 'gemischt', 'b', 'offen']
   return (
     <details className="ausgewogenheit">
       <summary>Ausgewogenheit dieses Katalogs</summary>
       <p className="meta">
         Gefragt wird immer, wer Ja sagt, und die Fragen dürfen zuspitzen. Ausgewogen sein muss die Auswahl: Jede
-        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Die Zahlen sind eine grobe Prüfung – SPD, Grüne und
-        Linke gelten dafür als links, CDU/CSU, FDP und AfD als rechts; andere Parteien zählen bei der Richtung nicht mit.
+        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Die Zahlen sind eine grobe Prüfung: Sie zählen, ob das
+        Ja eher von SPD, Grünen und Linken oder eher von CDU/CSU, FDP und AfD kommt. Das ist keine Einordnung nach links
+        und rechts – andere Parteien zählen hier nicht mit, bei den Profilfragen aber schon.
       </p>
-      <h2 className="ausgewogenheit-titel">Wohin das Ja zeigt</h2>
+      <h2 className="ausgewogenheit-titel">Von wem das Ja eher kommt</h2>
       <ul className="ausgewogenheit-richtung">
         {reihenfolge.map((r) => (
           <li key={r}>
