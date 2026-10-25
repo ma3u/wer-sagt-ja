@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Geprueft, KiHinweis, Positionen, ProgrammLink, PruefZeile, Zielkonflikte } from './Ansicht'
 import { QUELLCODE } from './app'
-import { RICHTUNG_TEXT, ausgewogenheit, type Richtung } from './ausgewogenheit'
+import { CHES_QUELLE, DIMENSION, DIMENSIONEN, ausgewogenheit, richtungText, type Richtung } from './ausgewogenheit'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { spielbar, standardWahl, wahlFuer } from './katalog'
 import { ladeKatalog } from './laden'
@@ -158,29 +158,39 @@ function ParteiStand({ daten, partei }: { daten: QuizDaten; partei: QuizPartei |
 }
 
 /**
- * Ausgewogenheit des Katalogs (Issue #1): von welcher Parteigruppe das Ja der Fragen eher kommt und wie viele Profilfragen jede Partei hat.
- * Das Spielprinzip bleibt – die Kennzahlen zeigen, ob die Auswahl der Fragen alle Parteien fair abbildet.
+ * Ausgewogenheit des Katalogs (Issue #1): von welchem Pol der beiden CHES-Dimensionen das Ja der Fragen eher kommt und wie
+ * viele Profilfragen jede Partei hat. Das Spielprinzip bleibt – die Kennzahlen zeigen, ob die Auswahl alle Parteien fair abbildet.
  */
 function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
   const a = ausgewogenheit(daten)
-  const reihenfolge: Richtung[] = ['a', 'gemischt', 'b', 'offen']
+  const reihenfolge: Richtung[] = ['niedrig', 'hoch', 'keine', 'offen']
   return (
     <details className="ausgewogenheit">
       <summary>Ausgewogenheit dieses Katalogs</summary>
       <p className="meta">
         Gefragt wird immer, wer Ja sagt, und die Fragen dürfen zuspitzen. Ausgewogen sein muss die Auswahl: Jede
-        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Die Zahlen sind eine grobe Prüfung: Sie zählen, ob das
-        Ja eher von SPD, Grünen und Linken oder eher von CDU/CSU, FDP und AfD kommt. Das ist keine Einordnung nach links
-        und rechts – andere Parteien zählen hier nicht mit, bei den Profilfragen aber schon.
+        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Gemessen wird auf zwei Dimensionen, wirtschaftlich und
+        gesellschaftlich, mit der Einordnung der Parteien durch Fachleute im{' '}
+        <a href={CHES_QUELLE.url} target="_blank" rel="noopener noreferrer">
+          Chapel Hill Expert Survey 2024
+        </a>
+        . Eine Frage gilt als gerichtet, wenn die Antworten der Parteien deutlich mit ihrer Lage zusammenhängen
+        (Spearman-Korrelation ab 0,5).
+        {a.ohneChes.length > 0 &&
+          ` Ohne Einordnung und deshalb bei der Richtung nicht mitgezählt: ${a.ohneChes.map((p) => p.kurzname).join(', ')}.`}
       </p>
-      <h2 className="ausgewogenheit-titel">Von wem das Ja eher kommt</h2>
-      <ul className="ausgewogenheit-richtung">
-        {reihenfolge.map((r) => (
-          <li key={r}>
-            <strong>{a.richtung[r]}</strong> {RICHTUNG_TEXT[r]}
-          </li>
-        ))}
-      </ul>
+      {DIMENSIONEN.map((d) => (
+        <section key={d}>
+          <h2 className="ausgewogenheit-titel">Von wem das Ja eher kommt – {DIMENSION[d].name}</h2>
+          <ul className="ausgewogenheit-richtung">
+            {reihenfolge.map((r) => (
+              <li key={r}>
+                <strong>{a.dimension[d].richtung[r]}</strong> {richtungText(d, r)}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
       <table className="ausgewogenheit-profil">
         <caption>Profilfragen je Partei – Fragen, bei denen sie mit höchstens einer anderen Partei Ja sagt</caption>
         <thead>

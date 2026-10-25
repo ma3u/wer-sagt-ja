@@ -74,22 +74,36 @@ Leitlinie für neue Fragen:
    zugespitzte Frage in ihren Begriffen.
 3. **Profilfragen für jede Partei:** Je Katalog hat jede Partei mindestens zwei Fragen, bei denen sie mit höchstens
    einer anderen Partei Ja sagt. An solchen Fragen erkennt man eine Partei im Spiel.
-4. **Keine Schlagseite:** Von den Fragen, deren Ja klar von einer der beiden Parteigruppen kommt, sollen höchstens
-   60 % von derselben Gruppe kommen. Fehlt eine Seite, werden Fragen ergänzt – nicht bestehende abgeschwächt.
+4. **Keine Schlagseite:** Je Dimension (wirtschaftlich, gesellschaftlich) ist mindestens ein Drittel der Fragen
+   gerichtet, und von den gerichteten Fragen kommt das Ja bei höchstens 60 % vom selben Pol. Fehlt eine Seite, werden
+   Fragen ergänzt – nicht bestehende abgeschwächt.
 5. **Keine erfundenen Positionen:** Ausgewogenheit entsteht nie dadurch, dass einer Partei ein Ja zugeschrieben wird,
    das nicht im Programm steht. Ergänzt werden Fragen, nicht Positionen.
-6. **„Keine Aussage“ belegen:** Sagt eine ganze Parteigruppe nichts, ist das oft eine Lücke der Erfassung – erst das Programm
-   erneut durchsuchen, dann `begruendung` genau angeben.
+6. **Ratbar:** Mindestens eine Partei sagt weder Ja noch teils – sonst gibt es nichts zu raten.
+7. **„Keine Aussage“ belegen:** Haben zu wenige Parteien eine Aussage, ist das oft eine Lücke der Erfassung – erst das
+   Programm erneut durchsuchen, dann `begruendung` genau angeben.
 
 `npm run fragen` zeigt je Frage die Richtung und je Wahl die Verteilung, die Profilfragen je Partei und Warnungen (⚠)
 zu diesen Punkten; die Warnungen sind ein Arbeitsauftrag und lassen die Prüfung nicht scheitern. Die Übersicht
 (`#/fragen`) zeigt dieselben Zahlen unter „Ausgewogenheit dieses Katalogs“. Berechnet werden sie in
-`src/ausgewogenheit.ts`: Der Richtungswert ist der Ja-Anteil von SPD, Grünen und Linken minus dem von CDU/CSU, FDP und
-AfD (je nur Parteien mit Aussage, „teils“ halb), ab ±0,5 gilt eine Frage als gerichtet. Diese beiden Gruppen sind eine bewusste
-Vereinfachung und **keine Einordnung nach links und rechts**: Das Parteiensystem lässt sich nicht auf einer Achse
-ordnen, die Forschung arbeitet mit mindestens zwei Dimensionen (wirtschaftlich und gesellschaftlich, „GAL-TAN“).
-Andere Parteien zählen bei der Richtung nicht mit, bei den Profilfragen aber schon. Eine Messung auf zwei Dimensionen
-ist in [Issue #1](https://github.com/ma3u/wer-sagt-ja/issues/1) geplant.
+`src/ausgewogenheit.ts`:
+
+- **Parteipositionen** auf zwei Dimensionen aus dem Chapel Hill Expert Survey 2024, unabhängig von den Programmen:
+  wirtschaftlich (LRECON, 0 = mehr Staat und Umverteilung, 10 = mehr Markt) und gesellschaftlich (GALTAN,
+  0 = grün-alternativ-libertär, 10 = traditionell-autoritär-national). Eine Achse links–rechts reicht nicht, um das
+  Parteiensystem abzubilden. CHES verortet Bundesparteien, für Landtagswahlen gelten sie als Näherung; „Union“ ist das
+  nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt ist in CHES 2024 nicht enthalten und zählt bei der
+  Richtung nicht mit, bei den Profilfragen aber schon. Quelle: Rovny, Polk, Bakker, Hooghe, Jolly, Marks, Steenbergen &
+  Vachudova (2025), „The 2024 Chapel Hill Expert Survey on political party positioning in Europe“, *Electoral Studies*
+  97, 102981, [doi:10.1016/j.electstud.2025.102981](https://doi.org/10.1016/j.electstud.2025.102981); Daten von
+  [chesdata.eu](https://www.chesdata.eu/ches-europe).
+- **Richtung je Frage und Dimension:** Rangkorrelation nach Spearman (ρ) zwischen der Antwort (Ja 1, teils 0,5,
+  Nein 0; „keine Aussage“ fehlt) und der CHES-Position, ab mindestens vier Parteien. Ab |ρ| ≥ 0,5 ist die Frage auf der
+  Dimension gerichtet; das Vorzeichen sagt, von welchem Pol das Ja kommt. Je Dimension steht auch das mittlere ρ da –
+  nahe 0 heißt ausgeglichen.
+
+Methode, Begründung und geprüfte Alternativen: [Issue #1](https://github.com/ma3u/wer-sagt-ja/issues/1),
+„Methode der Überarbeitung“. Die Schwellen sind Konventionen und werden mit Fachleuten abgestimmt.
 
 ## Technik
 
