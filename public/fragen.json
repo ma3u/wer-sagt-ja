@@ -20004,6 +20004,826 @@
         }
       ],
       "zielkonflikte": []
+    },
+    {
+      "id": "mv26-24",
+      "wahl": "mv26",
+      "frage": "Soll sich Mecklenburg-Vorpommern für die Aufhebung des Selbstbestimmungsgesetzes einsetzen?",
+      "beschreibung": "Ob das Land, etwa über den Bundesrat, auf die Rücknahme des Gesetzes hinwirkt, das die Änderung des Geschlechtseintrags per Erklärung erlaubt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Selbstbestimmung, Geschlechtseintrag, Geschlecht, Transsex, divers, queer, LSBT, Identität, Gender (Kapitel Sicherheitsland, Kultur/Sprache). Nur Genderverbot in Schule und Verwaltung (S. 7, 131), nichts zum Selbstbestimmungsgesetz."
+        },
+        {
+          "partei_id": 102,
+          "position": "nein",
+          "kurzfassung": "Die SPD will das Selbstbestimmungsgesetz verteidigen, nicht aufheben.",
+          "zitat": "Erfolge wie die „Ehe für alle“ und das Selbstbestimmungsgesetz werden wir verteidigen, die Regenbogenflagge soll weiterhin an öffentlichen Gebäuden wehen dürfen.",
+          "beleg_url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Programm_2026.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Selbstbestimmungsgesetz, Selbstbestimmung, Geschlechtseintrag, Personenstand, Geschlechtsidentität, trans*, queer, Bundesrat (Kap. 13.8 Queerfeminismus S. 87, Kap. 14 Vielfalt S. 89); das Gesetz wird nicht erwähnt, nur allgemeine Unterstützung für TINA*-Menschen und queeres Leben."
+        },
+        {
+          "partei_id": 104,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Selbstbestimmungsgesetz, Selbstbestimm*, Geschlecht*, Geschlechtseintrag, Personenstand, trans, queer, LSBT/LGBT, Bundesrat; Kapitel Familie (S. 37) nennt nur Toleranz und Nichtdiskriminierung unabhängig von Geschlechtsidentität, nichts zum Gesetz."
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will über den Bundesrat die Aufhebung des Selbstbestimmungsgesetzes beantragen.",
+          "zitat": "Das Selbstbestimmungsgesetz, das seit November 2024 die formale Änderung des Geschlechtseintrags einmal jährlich ermöglicht, widerspricht dieser Realität. Wir werden die Aufhebung des Gesetzes über den Bundesrat beantragen.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Selbstbestimmung(sgesetz), SBGG, Geschlechtseintrag, Personenstand, trans, queer, geschlechtlich – Kapitel 8 Gleichstellung/Queerpolitik (S. 14–16). Das Gesetz wird nicht erwähnt."
+        },
+        {
+          "partei_id": 107,
+          "position": "teils",
+          "kurzfassung": "Das BSW lehnt das Selbstbestimmungsgesetz in seiner aktuellen Form ab, weil es Schutzinteressen etwa von Frauenräumen und im Frauensport nicht ausreichend berücksichtige, fordert aber nicht ausdrücklich seine Aufhebung.",
+          "zitat": "Zugleich lehnen wir das Selbstbestimmungsgesetz in seiner aktuellen Form ab, weil es zentrale Schutzinteressen nicht ausreichend berücksichtigt.",
+          "beleg_url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf#page=72",
+          "begruendung": null
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesamtes Programm (34 Seiten) gelesen; durchsucht: Selbstbestimmung, Geschlecht, Geschlechtseintrag, trans, queer, divers, Identität (Präambel, Sofortprogramm, Sicherheit/Justiz, Kultur). Kein Bezug zum Selbstbestimmungsgesetz; nur allgemein „Schutz der Minderheiten“ (S. 3)."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Selbstbestimm*, Geschlechtseintrag, trans*, queer, nicht-binär, LSBT/LGBT, Gender, Geschlecht, sexuelle. Nur Treffer zu Queerfeindlichkeit im Kapitel 'Diskriminierung ernst nehmen und wirksam bekämpfen' (S. 17), keine Aussage zum Selbstbestimmungsgesetz."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-25",
+      "wahl": "mv26",
+      "frage": "Sollen Jugendoffiziere der Bundeswehr an allen Schulen politische Bildung anbieten?",
+      "beschreibung": "Ob Schulen für den Unterricht über Sicherheitspolitik mit Jugendoffizierinnen und -offizieren der Bundeswehr zusammenarbeiten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "ja",
+          "kurzfassung": "Die CDU will im Schulgesetz verankern, dass alle Schulen im Rahmen der politischen Bildung Jugendoffiziere der Bundeswehr einladen und mit ihnen zusammenarbeiten müssen.",
+          "zitat": "werden deshalb im Schulgesetz festlegen, dass 1934 alle Schulen im Land im Rahmen der politischen Bildung mit Jugendoffizierinnen 1935 und -offizieren der Bundeswehr zusammenarbeiten und sie zu diesem Zweck 1936 einladen müssen.",
+          "beleg_url": "https://danielpeters-mv.de/wp-content/uploads/2026/06/Wahlprogramm-CDU-MV-2026.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Jugendoffizier*, Bundeswehr, Militär, Soldat*, Sicherheitspolitik, Verteidigung, politische Bildung, Demokratiebildung; Kapitel Schule/Bildung (S. 64-70) und Politische Bildung (S. 43-44). Bundeswehr nur bei Sportförderung und Katastrophenschutz erwähnt; Demokratiebildung an Schulen ohne Bezug zu Jugendoffizieren."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Jugendoffizier, Offizier, Bundeswehr, Militär, Soldat, Wehr, Sicherheitspolitik, Verteidigung, politische Bildung (Kap. 6 Bildung, Kap. 14 S. 90, Kap. 17.3 S. 109); nur Katastrophen- und Zivilschutz in der Bildung mit Kooperationen mit THW und Feuerwehr, keine Bundeswehr an Schulen."
+        },
+        {
+          "partei_id": 104,
+          "position": "ja",
+          "kurzfassung": "Die FDP will die sicherheitspolitischen Bildungsangebote der Jugendoffiziere an Schulen niedrigschwellig zugänglich machen und Kooperationen auf freiwilliger Basis erleichtern.",
+          "zitat": "die sicherheitspolitischen Bildungsangebote der Jugendoffiziere der Bundeswehr an Schulen in Mecklenburg-Vorpommern niedrigschwellig zugänglich machen und Kooperationen auf freiwilliger Basis erleichtern.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=103",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Jugendoffizier, Offizier, Bundeswehr, Militär, Soldat, Streitkräfte, Verteidigung, Sicherheitspolitik, Wehrdienst, politische Bildung, Schule + Sicherheit/Wehr. Durchsucht: Kapitel Bildung (u. a. „Guter Unterricht und fachliche Bildung statt Politschulung“, S. 25) und Sicherheitsland MV (Zivil-militärische Zusammenarbeit, S. 40). Bundeswehr kommt nur bei Spitzensport und Katastrophenschutz vor; zu Jugendoffizieren an Schulen nichts. Das Programm kritisiert allgemein eine Ausweitung politischer Bildung, ohne Bezug auf die Bundeswehr."
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Jugendoffizier, Bundeswehr, Militär/Militarisierung, Soldat, Sicherheitspolitik, politische Bildung – Kapitel 1 Bildung, 3 Demokratie (politische Bildung, S. 7), 20 Europa/Frieden (S. 29). Keine Aussage zu Jugendoffizieren oder Bundeswehr an Schulen."
+        },
+        {
+          "partei_id": 107,
+          "position": "nein",
+          "kurzfassung": "Das BSW will keine Informations- und Werbeveranstaltungen der Bundeswehr an Schulen.",
+          "zitat": "Informations- und Werbeveranstaltungen der Bundeswehr gehören nicht in Schulen!",
+          "beleg_url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf#page=46",
+          "begruendung": null
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bundeswehr, Jugendoffizier, Streitkräfte, Sicherheitspolitik, Verteidigung, politische Bildung (Kapitel 3.1.2 Schulen, 3.2 Sicherheit). Streitkräfte und Zivile Verteidigung nur im Katastrophenschutz (S. 18), nichts zu Jugendoffizieren an Schulen."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Jugendoffizier, Bundeswehr, Sicherheitspolitik, Militär, Verteidigung, Wehrdienst/Wehrpflicht, politische Bildung, Demokratiebildung, Kooperationen mit externen Akteuren. Kapitel Bildung (S. 5–12) nennt Medien- und Demokratiebildung sowie Kooperationen mit Unternehmen, Hochschulen und Zivilgesellschaft, aber keine Bundeswehr."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-26",
+      "wahl": "mv26",
+      "frage": "Soll sich das Land für eine Vermögensteuer einsetzen?",
+      "beschreibung": "Ob Mecklenburg-Vorpommern über den Bundesrat darauf hinwirkt, dass große Vermögen wieder besteuert werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vermögensteuer, Vermögen, Vermögensabgabe, Erbschaft, Substanzsteuer, Steuererhöhung, Reiche, Umverteilung (Kapitel Wirtschaftsland, Finanzpolitik). Nur Forderungen nach Steuersenkungen (Einkommen-, Unternehmen-, Grunderwerbsteuer), nichts zur Vermögensteuer."
+        },
+        {
+          "partei_id": 102,
+          "position": "ja",
+          "kurzfassung": "Die SPD setzt sich im Bund für eine wieder erhobene Vermögensteuer mit hohen Freibeträgen ein.",
+          "zitat": "Deshalb setzen wir uns auf Bundesebene dafür ein, große Vermögen stärker an der Finanzierung des Gemeinwesens zu beteiligen und die Belastung von Arbeit zu senken. Eine wieder erhobene Vermögensteuer muss mit hohen Freibeträgen ausgestaltet werden, damit kleine und mittlere Vermögen nicht belastet werden.",
+          "beleg_url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Programm_2026.pdf#page=63",
+          "begruendung": null
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vermögensteuer, Vermögen, Vermögensabgabe, Erbschaft, Superreich, Millionär, Umverteilung, Steuergerechtigkeit, Bundesrat (Kap. 16 Finanzen S. 101-104); Kap. 16.2 'Steuergerechtigkeit' behandelt nur die Bekämpfung von Steuerhinterziehung und Geldwäsche."
+        },
+        {
+          "partei_id": 104,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt die Wiedereinführung einer Vermögensteuer klar ab.",
+          "zitat": "Gleichzeitig lehnen wir die wiederkehrenden Vorschläge zur Erhöhung der Erbschaftsteuer oder zur Wiedereinführung einer Vermögensteuer klar ab.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=71",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Vermögensteuer, Vermögenssteuer, Vermögensabgabe, Vermögen, Erbschaft, Reiche, Umverteilung, Substanz, Steuer. Durchsucht: Kapitel Zukunftsland MV („Steuer- und Abgabenlast senken“, „Absenkung der Grunderwerbsteuer“, S. 54 f.) und Wirtschaft. Das Programm fordert allgemein Steuersenkungen (Grundfreibetrag, kalte Progression), äußert sich aber nicht zur Vermögensteuer."
+        },
+        {
+          "partei_id": 106,
+          "position": "ja",
+          "kurzfassung": "Die Linke will die Vermögensteuer mit einem persönlichen Freibetrag von 1 Mio. Euro wieder erheben, um den Landeshaushalt zu stärken.",
+          "zitat": "Eine Reaktivierung der Vermögenssteuer gemäß Grundgesetz Art. 106 Abs. 2 Nr. 1 mit persönlichem Freibetrag von 1 Mio. Euro und Schonung von Immobilien in Eigennutzung zur Verbesserung der finanziellen Ausstattung des Landeshaushalts um bis zu 1,7 Mrd. Euro.",
+          "beleg_url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vermögen(steuer), Reich/Superreich, Erbschaft, Millionär, Spitzensteuer, Besteuerung, Steuer, Umverteilung, Einnahme; Kapitel 2 (Soziale Gerechtigkeit), 3.1 (Wirtschaftspolitik) und 10 (Haushaltspolitik). Nur allgemein „gerechte Verteilung öffentlicher Lasten“ und Entlastung niedriger und mittlerer Einkommen (S. 93), keine Vermögensteuer."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vermögen, Vermögensteuer, Steuer, Reiche, Bundesrat (Präambel, Sofortprogramm, 3.3 Wirtschaft). Nur allgemein „mehr Steuer- und Abgabengerechtigkeit“ (S. 4) und Senkung der Steuerlast auf Strom und Energie (S. 23), keine Vermögensteuer."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Vermögensteuer, Vermögen, Vermögensabgabe, Erbschaft, Spitzensteuer, Steuergerechtigkeit, Reichtum, Umverteilung, Steuer, Bundesrat. Steuertreffer nur zu Grundsteuer auf unbebautem Bauland (S. 59) und Steuererleichterungen für Öko-Technik (S. 63)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-27",
+      "wahl": "mv26",
+      "frage": "Soll ein Untersuchungsausschuss des Landtags die Corona-Politik aufarbeiten?",
+      "beschreibung": "Ob der Landtag die Corona-Maßnahmen des Landes in einem parlamentarischen Untersuchungsausschuss prüft.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Lockdown, Impf, Aufarbeitung, Untersuchungsausschuss, Enquete (gesamtes Programm, auch Gesundheit). Keine Aussage."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Untersuchungsausschuss, Enquete, Aufarbeitung; Kapitel Gesundheit (S. 31) und Demokratie (S. 41-44). Corona nur als Rückblick und bei Long Covid/ME/CFS; Untersuchungsausschüsse nur zu NSU/Nordkreuz."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Lockdown, Schulschließung, Impfung, Untersuchungsausschuss, Enquete, Aufarbeitung (Kap. 11 Demokratie, Kap. 12 Bürgerrechte); Aufarbeitung nur zur SED-Diktatur (S. 71)."
+        },
+        {
+          "partei_id": 104,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Corona, Covid, Pandemie, Lockdown, Infektion, Schulschließ*, Untersuchungsausschuss, Enquete, Aufarbeit*, Krise*; Corona nur als Post-/Long-Covid-Versorgung (S. 45), Aufarbeitung nur zur SED-Diktatur."
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Corona-Zeit und die Corona-Maßnahmen in einem Untersuchungsausschuss aufarbeiten.",
+          "zitat": "Wir werden die Coronazeit und die Coronamaßnahmen in einem Untersuchungsausschuss aufarbeiten. Bisher hat sich die Regierung lediglich selbst beurteilt.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=59",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Untersuchungsausschuss, Aufarbeitung, Enquete, Lockdown, Impfung, Infektion – gesamtes Programm, insbesondere Kapitel 3 Demokratie, 10 Gesundheit, 11 Inneres. Nur ein Treffer zur Enquete-Kommission 'Jung sein in MV' (S. 11), nichts zur Corona-Politik."
+        },
+        {
+          "partei_id": 107,
+          "position": "ja",
+          "kurzfassung": "Das BSW fordert einen Untersuchungsausschuss des Landtags zur Aufarbeitung der Corona-Zeit; eine Enquete-Kommission reiche nicht aus.",
+          "zitat": "Wir fordern einen Untersuchungsausschuss im Schweriner Landtag, wie er bereits auf Initiative des BSW in Sachsen, Brandenburg und Thüringen angestoßen wurde.",
+          "beleg_url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf#page=70",
+          "begruendung": null
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Corona, Pandemie, Untersuchungsausschuss, Aufarbeitung (Sofortprogramm, Sicherheit, Tourismus). Corona nur als Krisenfolge für den Tourismus (S. 22), keine Forderung nach Aufarbeitung oder Untersuchungsausschuss."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Corona, Pandemie, Untersuchungsausschuss, Enquete, Aufarbeitung, Untersuchung. Pandemie nur als Krisenbeispiel beim Kultur-Schutzfonds (S. 16) und im Kapitel Zivilschutz (S. 19)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-28",
+      "wahl": "mv26",
+      "frage": "Soll es in Mecklenburg-Vorpommern eine Tourismusabgabe geben?",
+      "beschreibung": "Ob Gäste oder Tourismusbetriebe eine zusätzliche Abgabe zahlen, etwa für Infrastruktur oder Küstenschutz.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tourismusabgabe, Kurtaxe, Kurabgabe, Gästeabgabe, Bettensteuer, Übernachtung, Fremdenverkehrsabgabe, Abgabe, Küstenschutz (Kapitel V. Tourismus, S. 20-21, Umwelt S. 93). Keine Aussage zu einer Abgabe."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tourismusabgabe, Kurabgabe, Kurtaxe, Bettensteuer, Übernachtung*, Gästeabgabe, Abgabe, Tourismusfinanzierung; Kapitel Tourismus (S. 11-12). Nur Verweis auf bestehende kommunale Instrumente der Tourismusfinanzierung und Gästekarten; keine Forderung nach einer zusätzlichen Abgabe."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tourismusabgabe, Kurabgabe, Kurtaxe, Bettensteuer, Übernachtung, Gästebeitrag, Abgabe, Küstenschutz, Tourismus (Kap. 4.8 Tourismus nachhaltig gestalten S. 33); dort Neustart des Landestourismusgesetzes, aber keine Abgabe."
+        },
+        {
+          "partei_id": 104,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt zusätzliche Abgaben auf Übernachtungen wie Betten- oder Übernachtungsteuern ab.",
+          "zitat": "zusätzliche Abgaben auf Übernachtungen ablehnen. Betten- und Übernachtungsteuer sind Tourismusbremsen und schaffen nur neue Bürokratie.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "nein",
+          "kurzfassung": "Die AfD lehnt neue Abgaben für die Wirtschaft in einem Tourismusgesetz und das geplante Tourismusgesetz insgesamt ab.",
+          "zitat": "Neue Abgaben für die Wirtschaft in einem künftigen Tourismusgesetz, wie die SPD es plant, lehnen wir entschieden ab.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "ja",
+          "kurzfassung": "Die Linke will eine Tourismusabgabe einführen, um Infrastruktur, Qualität und die Wohnsituation von Beschäftigten zu verbessern.",
+          "zitat": "Eine Tourismusabgabe einführen, um Infrastruktur und Qualität zu gewährleisten und um die Wohnsituation für Beschäftigte zu verbessern.",
+          "beleg_url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tourismusabgabe, Gästeabgabe, Bettensteuer, Übernachtung, Kurtaxe/Kurabgabe, Fremdenverkehrsabgabe, Abgabe; Kapitel 3.2 (Zukunftsfähiger Tourismus, S. 36–37) und 10 (Haushalt). Keine Aussage zu einer neuen oder zusätzlichen Tourismusabgabe."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Tourismusabgabe, Abgabe, Kurabgabe, Kurtaxe, Bettensteuer, Küstenschutz (Kapitel 3.3.2 Tourismus, III. Finanzielle Entlastung der Kommunen). Tourismuskapitel fordert Infrastruktur und Entwicklung mit Augenmaß, keine Aussage zu einer Abgabe."
+        },
+        {
+          "partei_id": 109,
+          "position": "ja",
+          "kurzfassung": "Volt will einen regionalen Küstenschutzfonds einrichten, der unter anderem aus Tourismusabgaben finanziert wird.",
+          "zitat": "Finanzierung von Küstenschutzmaßnahmen durch Tourismusabgaben, EU-Mittel und Landesmittel.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-mv/pdf/haltungzeigen_wahlprogramm_voltmv_ltw26.pdf#page=41",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-29",
+      "wahl": "mv26",
+      "frage": "Soll die Pflichtmitgliedschaft von Unternehmen in IHK und Handwerkskammer abgeschafft werden?",
+      "beschreibung": "Ob Betriebe nicht mehr Pflichtmitglied in den Kammern sein müssen, etwa per Bundesratsinitiative.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Kammer, IHK, HWK, Handwerkskammer, Pflichtmitgliedschaft, Zwangsmitgliedschaft (Kapitel Wirtschaftsland, Handwerk, berufliche Bildung). Kammern nur als Kooperationspartner genannt (S. 9, 10, 17, 18, 55, 108), nichts zur Pflichtmitgliedschaft."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Kammer*, IHK, Handwerkskammer, Pflichtmitglied*, Pflichtbeitr*, Zwangs*, Mitgliedschaft; Kapitel Wirtschaft/Handwerk (S. 7-22). Kammern nur als Partner (Zukunftsbündnis, Fachkräfteservicezentrale, Handwerk) erwähnt."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Kammer, IHK, Handwerkskammer, Pflichtmitgliedschaft, Zwangsmitgliedschaft, Bürokratieabbau (Kap. 4 Wirtschaft, 4.3 Mittelstand und Handwerk S. 29); Kammern werden nicht erwähnt."
+        },
+        {
+          "partei_id": 104,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach IHK, Kammer*, Handwerkskammer, Pflichtmitglied*, Zwangsmitglied*, Mitgliedsbeitrag; Kammern nur als Kooperationspartner (S. 43, 109) erwähnt, nichts zur Pflichtmitgliedschaft."
+        },
+        {
+          "partei_id": 105,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Kammer, IHK, HWK, Handwerkskammer, Pflichtmitglied, Zwangsmitglied, Zwangs-. Durchsucht: Kapitel Wirtschaft (Runder Tisch Wirtschaft, S. 13) und Bildung (MINT-Cluster, S. 30). Die Kammern werden nur als Gesprächs- und Kooperationspartner genannt; zur Pflichtmitgliedschaft nichts."
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Kammer, IHK, Handwerkskammer, Handwerk, Pflichtmitglied – Kapitel 5 Arbeit, Wirtschaft und Energie (S. 9–10). Kammern werden nur als Partner im Zukunftsbündnis MV genannt (S. 10), zur Pflichtmitgliedschaft gibt es keine Aussage."
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Kammer, IHK, Handwerkskammer, Pflichtmitgliedschaft, Zwangsmitgliedschaft; Kapitel 3.1 (Wirtschaftspolitik, Bürokratieabbau). Kammern nur als Partner genannt („partnerschaftliche Zusammenarbeit mit Unternehmen, Kammern, Verbänden“, S. 23), keine Aussage zur Pflichtmitgliedschaft."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Kammer, IHK, Handwerkskammer, Pflichtmitgliedschaft, Zwangsmitgliedschaft (Kapitel 3.3 Wirtschaft, 3.3.3 Handwerk). Keine Treffer zu Kammern."
+        },
+        {
+          "partei_id": 109,
+          "position": "ja",
+          "kurzfassung": "Volt will die Pflichtmitgliedschaften für Unternehmen abschaffen.",
+          "zitat": "Abschaffung von Pflichtmitgliedschaften für Unternehmen.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-mv/pdf/haltungzeigen_wahlprogramm_voltmv_ltw26.pdf#page=26",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-30",
+      "wahl": "mv26",
+      "frage": "Soll das Land Eltern bei der Geburt eines Kindes ein Begrüßungsgeld zahlen?",
+      "beschreibung": "Ob Familien bei der Geburt eines Kindes eine einmalige Zahlung vom Land erhalten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Begrüßungsgeld, Geburt, Babygeld, Familiengeld, Neugeborene, Willkommen, Prämie, Zuschuss, Elterngeld (Kapitel G. Familienland, S. 96-97). Nur MV-Baukindergeld beim Wohneigentumserwerb und Geburtshilfe-Programm, keine Zahlung bei Geburt."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Begrüßungsgeld, Geburt*, Baby*, Willkommen*, einmalig, Neugeboren*, Familiengeld, Elterngeld, Kindergeld; Abschnitte Geburtshilfe und Familie (S. 30, 35). Nur Geburtshilfe/Hebammen und Elterngeld-Erhöhung im Bund, keine einmalige Landeszahlung."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Begrüßungsgeld, Babygeld, Familiengeld, Geburt, Prämie, Bonus, Kindergeld, einmalig (Kap. 6 Kita S. 41, Kap. 13 Frauen/Geburtshilfe S. 81-83); nur Geburtshilfe-Versorgung, keine Zahlung an Eltern."
+        },
+        {
+          "partei_id": 104,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Begrüßungsgeld, Babygeld, Geburt, Neugeboren*, Familiengeld, Einmalzahlung, Prämie, Familienbonus; Kapitel Familie/Kindsein (S. 37–38) ohne Geldleistung bei Geburt."
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will ein Baby-Begrüßungsgeld von 3.000 Euro für Staatsbürger mit Hauptwohnsitz in MV einführen, ausgezahlt in drei Raten.",
+          "zitat": "Wir werden ein Baby-Begrüßungsgeld in Höhe von 3.000 Euro einführen. Damit erleichtern wir jungen Menschen die Entscheidung für den Schritt ins Elternsein.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Begrüßungsgeld, Geburt, Babygeld, Neugeborene, Willkommen, Familiengeld, Kindergeld, Einmalzahlung – Kapitel 6 Kinder und Jugend, 7 Soziales/Familienpolitik, 8 Gleichstellung. Zur Geburt nur Elternzeit für den zweiten Elternteil und Geburtshilfe (S. 15), kein Begrüßungsgeld."
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Begrüßungsgeld, Babygeld, Geburt, Neugeborene, Familiengeld, Kindergeld, Willkommen, Prämie, Einmalzahlung; Kapitel 2 (Starke Familien, Familien im Land stärken, S. 11–12). Nur allgemein „gezielte Förderung von Familien“, keine Geburtszahlung."
+        },
+        {
+          "partei_id": 108,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler nennen ein Begrüßungsgeld als Mittel einer Familienpolitik, die die Geburtenrate steigern soll.",
+          "zitat": "Zielgerichtete Familienpolitik zur besseren Vereinbarkeit von Familie und Beruf und Steigerung der Geburtenrate (z. B. Kinderbetreuung, Begrüßungsgeld, Baukindergeld usw.)",
+          "beleg_url": "https://freie-waehler-mv.eu/wp-content/uploads/2026/06/LTW_2026_Wahlprogramm_FW-M-V_A5_interaktiv.pdf#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Begrüßungsgeld, Geburt, Babygeld, Familiengeld, Neugeborene, Familie, Eltern, Kindergeld. Familienbezogene Maßnahmen nur im Bildungsbereich (kostenloses Mittagessen, Lernmittel, Endgeräte, S. 8–9)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-31",
+      "wahl": "mv26",
+      "frage": "Soll der Ministerpräsident direkt vom Volk gewählt werden?",
+      "beschreibung": "Ob die Landesverfassung so geändert wird, dass die Bürgerinnen und Bürger den Regierungschef direkt wählen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Direktwahl, direkt gewählt, Ministerpräsident, Landesverfassung, Verfassung, Volksentscheid, direkte Demokratie, Wahlrecht. Verfassungsänderung nur zur Schuldenbremse (S. 109), nichts zur Direktwahl."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ministerpräsident*, Direktwahl, direkt gewählt, direkt*, Landesverfassung, Wahlrecht, Volksentscheid, Volksbegehren; Kapitel Demokratie (S. 41-44). Nur Wahlalter 16, Schutz jüdischen Lebens in der Verfassung und Bürgerbeteiligung erwähnt."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Direktwahl, direkt gewählt, Ministerpräsident, Landesverfassung, Verfassung, direkte Demokratie, Wahlrecht (Kap. 11.2 Direkte Demokratie, 11.3 Wahlrecht S. 69); dort Volks-/Bürgerbegehren und Wahlrecht, keine Direktwahl des Regierungschefs."
+        },
+        {
+          "partei_id": 104,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Direktwahl, direkt gewählt, Ministerpräsident, Regierungschef, Volkswahl, Landesverfassung, Wahlrecht, Volksentscheid/Bürgerbeteiligung; Landesverfassung nur zur Schuldenregel, Wahlrecht nur zur Europawahl."
+        },
+        {
+          "partei_id": 105,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Ministerpräsident, Direktwahl, direkt gewählt, direkt vom Volk, Regierungschef, Volkswahl, Landesverfassung, Verfassungsänderung. Durchsucht: Kapitel Freiheitsland MV („Direkte Demokratie und Grundrechte“, „Volksinitiative, Volksbegehren und Volksentscheid“, „Bürgerbeteiligung vor Ort“, S. 45 f.). Das Programm will Volksentscheide stärken, eine Direktwahl des Ministerpräsidenten fordert es nicht."
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ministerpräsident, Direktwahl, direkt gewählt, Regierungschef, Landesverfassung, Volksentscheid, Wahlrecht – Kapitel 3 Demokratie (S. 7), 16 Kommunen. Gefordert werden niedrigere Hürden für Volksbegehren und Volksentscheide (S. 7), eine Direktwahl des Ministerpräsidenten wird nicht erwähnt."
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ministerpräsident, Direktwahl, direkt wählen, Regierungschef, Landesverfassung, Verfassung, Volksentscheid, Volksbegehren, direkte Demokratie, Wahlrecht; Kapitel 7 (Starke Kommunen und Demokratie). Direkte Demokratie nur auf kommunaler Ebene (Bürgerbegehren, S. 77)."
+        },
+        {
+          "partei_id": 108,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler fordern die Direktwahl des Ministerpräsidenten.",
+          "zitat": "Auch verfassungsrechtliche und wahlrechtliche Änderungen halten wir für dringend erforderlich: • Direktwahl des Ministerpräsidenten",
+          "beleg_url": "https://freie-waehler-mv.eu/wp-content/uploads/2026/06/LTW_2026_Wahlprogramm_FW-M-V_A5_interaktiv.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Ministerpräsident, Direktwahl, direkt gewählt, Regierungschef, Landesverfassung, Verfassung, Wahlrecht, Volksentscheid, Volksbegehren, direkte Demokratie, Bürgerbeteiligung. Treffer nur zu Verfassungsfeindlichkeit/Parteiverbot (S. 18–19) und Bürgerbeteiligung bei Kommunen und Klimaschutz (S. 24, 36)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-32",
+      "wahl": "mv26",
+      "frage": "Soll der Frauentag am 8. März gesetzlicher Feiertag bleiben?",
+      "beschreibung": "Ob der 8. März in Mecklenburg-Vorpommern weiter ein arbeitsfreier Feiertag ist.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, Feiertag, 8. März, Weltfrauentag (gesamtes Programm, auch Lesefassung). Keine Aussage."
+        },
+        {
+          "partei_id": 102,
+          "position": "ja",
+          "kurzfassung": "Die SPD will den Frauentag als Feiertag erhalten.",
+          "zitat": "Den Frauentag als Feiertag werden wir erhalten.",
+          "beleg_url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Programm_2026.pdf#page=5",
+          "begruendung": null
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, 8. März, Feiertag, Kampftag, arbeitsfrei (Kap. 13 Frauen, Kinder und FLINTA* S. 80-87); kein Treffer."
+        },
+        {
+          "partei_id": 104,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Frauentag, Feiertag, 8. März, arbeitsfrei, Frauen*; nur Frauenhäuser (S. 53) erwähnt."
+        },
+        {
+          "partei_id": 105,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Frauentag, Weltfrauentag, 8. März, Feiertag, Reformationstag. Keine Treffer im gesamten Programm (auch nicht in afd_lese.txt)."
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, 8. März, Feiertag, Frauenkampftag – Kapitel 3 Demokratie, 8 Gleichstellung. Erwähnt wird nur der 8. Mai als neuer Feiertag (S. 8), der Frauentag am 8. März nicht."
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Feiertag, Frauentag, 8. März, arbeitsfrei; Kapitel 6.1 (Schutz von Frauen und Mädchen) und 2 (Gute Arbeit, Gleichstellung). Keine Aussage zum Frauentag als Feiertag."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Frauentag, Feiertag, 8. März, Frauen (gesamtes Programm). Frauen nur im Kontext No-Go-Areas (S. 17), nichts zu Feiertagen."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Frauentag, Feiertag, 8. März, Gleichstellung, Frauen. Keine Treffer."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-33",
+      "wahl": "mv26",
+      "frage": "Soll Mecklenburg-Vorpommern mehr Plätze für Abschiebungshaft schaffen?",
+      "beschreibung": "Ob das Land eigene oder zusätzliche Haftplätze schafft, damit Abschiebungen nicht scheitern.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebungshaft, Abschiebehaft, Haft, Haftplätze, Gewahrsam, Ausreisegewahrsam, Abschiebung, Rückführung, Ausreisepflichtige (Kapitel Sicherheitsland, Migration S. 36-37). Nur Handyortung gegen gescheiterte Abschiebungen und Verschärfung des Aufenthaltsrechts, keine Aussage zu Haftplätzen."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung*, Abschiebehaft, Rückführung, Ausreise*, ausreisepflichtig, Haftpl*, Gewahrsam, Rückkehr, Asyl, Migration, Duldung; Kapitel Asyl und Migration (S. 60-61). Nur Integration und der allgemeine Satz, geltendes Recht werde konsequent umgesetzt."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebungshaft, Abschiebehaft, Haft, Gewahrsam, Ausreisegewahrsam, Abschiebung, Rückführung (Kap. 14.3 Flucht und Asyl S. 92); zu Haftplätzen nichts, nur Ablehnung bestimmter Abschiebungen und Abschiebestopp für einzelne Gruppen."
+        },
+        {
+          "partei_id": 104,
+          "position": "ja",
+          "kurzfassung": "Die FDP will Abschiebungen konsequent umsetzen und dafür ausreichend Plätze in der Abschiebungshaft bereitstellen.",
+          "zitat": "Abschiebungen bei Vorliegen der gesetzlichen Voraussetzungen konsequent umsetzen und dafür ausreichend Plätze in der Abschiebungshaft bereitstellen",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=144",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will eine landeseigene Abschiebungshafteinrichtung schaffen und Ausreisepflichtige bis dahin separat in Justizvollzugsanstalten unterbringen.",
+          "zitat": "Mecklenburg-Vorpommern braucht eine eigene Abschiebungshafteinrichtung. Die sehr hohen Zahlen bei gescheiterten Abschiebungen in den letzten Jahren haben eine konsequente Durchsetzung des Rechts verhindert.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=50",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung, Abschiebungshaft, Abschiebehaft, Rückführung, Ausreise, Haftplätze, Gewahrsam, Vollzug – Kapitel 7 Soziales/Migration (S. 13), 11 Inneres, 15 Justiz. Keine Aussage zu Haftplätzen für Abschiebungen."
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung(shaft), Abschiebehaft, Haft/Haftplätze, Gewahrsam, Ausreise, Rückführung; Kapitel 6.2 (Zuwanderung, Ordnung und Rechtsstaatlichkeit durchsetzen, S. 73). Keine Aussage zu Haftplätzen."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung, Abschiebungshaft, Ausreise, Asyl, Migration, Flüchtling, Zuwanderung, Haft (Kapitel 3.2 Sicherheit, 3.2.3 Justiz). Programm enthält kein Migrationskapitel; „Haft“ nur zu Haftentlassungen wegen überlasteter Justiz (S. 21)."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Abschiebung, Abschiebehaft, Ausreise, ausreisepflichtig, Rückführung, Rückkehr, Haftplätze, Gewahrsam, Haft, Justiz, Vollzug, Asyl, Duldung, Migration. Das Programm spricht nur über Integration Geflüchteter (S. 16–17), Ende der Grenzkontrollen und europäische Asylstandards (S. 47–48)."
+        }
+      ],
+      "zielkonflikte": []
     }
   ]
 }
