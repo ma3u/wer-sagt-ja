@@ -8448,6 +8448,402 @@
       "zielkonflikte": []
     },
     {
+      "id": "sn24-22",
+      "wahl": "sn24",
+      "frage": "Sollen sächsische Hochschulen Studiengebühren für Langzeit- und Zweitstudium oder für Studierende von außerhalb der EU erheben dürfen?",
+      "beschreibung": "Ob Hochschulen über das gebührenfreie Erststudium hinaus Gebühren verlangen dürfen, etwa bei langer Studiendauer, beim Zweitstudium oder für Studierende aus Nicht-EU-Staaten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Studiengebühr, Gebühr, gebührenfrei/kostenfrei/kostenlos, Langzeitstudium, Zweitstudium, Nicht-EU/außerhalb der EU/Drittstaat, Studium/Studier, Hochschul; Kapitel II.d Hochschule, Wissenschaft & Forschung (S. 23–25) vollständig gelesen. Zu Studiengebühren sagt das Programm nichts."
+        },
+        {
+          "partei_id": 42,
+          "position": "nein",
+          "kurzfassung": "Die SPD will Langzeitstudiengebühren und Studiengebühren für Nicht-EU-Staatsbürger abschaffen und das gebührenfreie Studium sichern.",
+          "zitat": "Wir bauen das Orientierungsstudium aus, setzen auf Studienberatung sowie Berufsorientierung und schaffen die Langzeitstudiengebühren sowie Studiengebühren für Nicht-EU-Staatsbürger:innen ab.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen die Langzeitstudiengebühren abschaffen, weil sie die Studiendauer nicht verkürzen und den Studienerfolg behindern.",
+          "zitat": "Wir schaffen Langzeitstudiengebühren ab, sie haben keinen positiven Effekt auf die Studiendauer und verhindern den Studienerfolg.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "ja",
+          "kurzfassung": "Das Erststudium in Regelstudienzeit soll kostenfrei bleiben, die Hochschulen sollen aber für Zweitstudium und längere Studienzeiten selbst nachgelagerte Studiengebühren beschließen dürfen.",
+          "zitat": "Wir Freie Demokraten wollen das Erststudium in der Regelstudienzeit kostenfrei belassen. Allerdings wollen wir für das Zweitstudium sowie längere Studienzeiten den Hochschulen ermöglichen, auf eigenen Beschluss nachgelagerte Studiengebühren zu erheben.",
+          "beleg_url": "https://sachsen.freie-demokraten.de/sites/default/files/2024-05/Wahlprogramm%20LTW%202024_1.pdf#page=56",
+          "begruendung": null
+        },
+        {
+          "partei_id": 45,
+          "position": "ja",
+          "kurzfassung": "Die AfD will, dass für Studierende aus Staaten außerhalb des Europäischen Wirtschaftsraums, die nach dem Studium nicht in Sachsen arbeiten, angemessene Studiengebühren erhoben werden.",
+          "zitat": "Für internationale Studenten aus Ländern, die nicht Teil des Abkommens über den Europäischen Wirtschaftsraum sind und im Anschluss an ihr Studium nicht in Sachsen tätig werden, sollen angemessene Studiengebühren erhoben werden.",
+          "beleg_url": "https://afdsachsen.de/wp-content/uploads/afd-wahlprogramm-landtagswahl-sachsen-2024.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will alle Studiengebühren abschaffen, ebenso den Numerus Clausus.",
+          "zitat": "Wir wollen den Zugang zum Hochschulstudium erleichtern. Darum wollen wir alle Studiengebühren und den Numerus Clausus abschaffen und eine Grundsicherung für alle Studierenden einführen.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=58",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "nein",
+          "kurzfassung": "Das BSW will, dass Bildung für alle kostenfrei zugänglich ist und ein Studienabschluss nicht vom Geldbeutel der Eltern abhängt.",
+          "zitat": "Die Finanzierung der Bildung in Sachsen muss hinterfragt werden. Bildung ist oberstes Gebot und muss jedem kostenfrei zugänglich sein.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswsachsenltw-2024.pdf#page=40",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-23",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen Stellen in der Landesverwaltung abbauen?",
+      "beschreibung": "Ob der Freistaat die Zahl der Stellen im Landesdienst deutlich verringert, etwa durch Digitalisierung und nicht nachbesetzte Stellen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "ja",
+          "kurzfassung": "Die CDU will bei der Einstellung von Personal im Staatsdienst Maß halten und durch die Digitalisierung der Verwaltung Personal einsparen.",
+          "zitat": "Wir sehen in der Digitalisierung von Verwaltungsprozessen die Möglichkeit Personal einzusparen, ohne für Bürger und Unternehmen die Qualität der staatlichen Leistungen zu vermindern.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "nein",
+          "kurzfassung": "Die SPD will eine angemessene Personalausstattung im öffentlichen Dienst und den Personalbedarf an den Aufgaben statt an Zielzahlen bemessen.",
+          "zitat": "Wir stehen für eine angemessene Personalausstattung, gute Arbeitsbedingungen und eine starke Mitbestimmung der Beschäftigten und Verwaltungsvereinfachung ein. Wie viel Personal es braucht, bemisst sich nicht nach abstrakten Zielzahlen, sondern anhand der Aufgaben.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=22",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen die Landesverwaltung mit genügend und gut qualifiziertem Personal ausstatten und den digitalisierungsbedingten Mehraufwand in der Personalplanung berücksichtigen.",
+          "zitat": "Der öffentliche Dienst muss handlungs- und leistungsfähig sein, um die Aufgaben für die Bürger*innen effektiv erledigen zu können. Dazu braucht es eine moderne digitale Ausstattung und genügend Personal, um weiterhin herausragende Arbeit leisten zu können.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=106",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "ja",
+          "kurzfassung": "Die FDP will bis 2040 rund 15.000 Stellen im Landesdienst abbauen, entsprechend dem demografisch sinkenden Arbeitskräftepotenzial.",
+          "zitat": "Wir Freie Demokraten fordern eine gezielte Stellenreduktion im Landesdienst um ca. 15.000 Stellen bis zum Jahr 2040 entsprechend der aktuell prognostizierten Entwicklung des demografischen Arbeitskräftepotenzials im Freistaat Sachsen, um den Verwaltungsapparat nicht unnötig aufzublähen.",
+          "beleg_url": "https://sachsen.freie-demokraten.de/sites/default/files/2024-05/Wahlprogramm%20LTW%202024_1.pdf#page=76",
+          "begruendung": null
+        },
+        {
+          "partei_id": 45,
+          "position": "ja",
+          "kurzfassung": "Die AfD will Stellen im öffentlichen Dienst abbauen, ausgenommen Polizei und Lehrer.",
+          "zitat": "Die AfD wird die Stellen im Öffentlichen Dienst reduzieren, außer bei Polizisten und Lehrern.",
+          "beleg_url": "https://afdsachsen.de/wp-content/uploads/afd-wahlprogramm-landtagswahl-sachsen-2024.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die bis 2030 ausscheidenden Beschäftigten durch neue Fachkräfte ersetzen und den künftigen Personalbedarf von einer Kommission ermitteln lassen.",
+          "zitat": "Der Freistaat Sachsen steht vor der Herausforderung, dass bis zum Jahre 2030 mehr als 40000 Beschäftigte aus dem Öffentlichen Dienst ausscheiden werden. Es ist dringend erforderlich, neue Fachkräfte für den Öffentlichen Dienst zu gewinnen, ihn zu verjüngen und eine verbesserte Verwaltungskultur zu etablieren.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=27",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "nein",
+          "kurzfassung": "Das BSW lehnt weiteren Stellenabbau in der öffentlichen Verwaltung ab und will wieder mehr Personal, auch in den Ämtern des Landes.",
+          "zitat": "Ein weiterer Stellenabbau in der öffentlichen Verwaltung wäre verantwortungslos und wird von uns nicht unterstützt: Ganz im Gegenteil, wir brauchen wieder mehr Personal in den Schulen, den Krankenhäusern, den Pflegeheimen und bei den Ämtern in Landes- und kommunaler Trägerschaft.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswsachsenltw-2024.pdf#page=27",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-24",
+      "wahl": "sn24",
+      "frage": "Soll der Frachtflughafen Leipzig/Halle weiter wachsen?",
+      "beschreibung": "Ob das Land als Anteilseigner den Flughafen Leipzig/Halle als Frachtdrehkreuz weiter stärkt, trotz Fluglärm in der Nacht, oder weiteren Ausbau ablehnt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "ja",
+          "kurzfassung": "Die CDU will die Flughäfen Dresden und Leipzig/Halle weiter stärken und hebt die Bedeutung der Luftfracht in Leipzig/Halle hervor.",
+          "zitat": "Wir wollen die Flughäfen in Dresden und Leipzig weiter stärken, denn sie sind essenziell wichtig für die gedeihliche Entwicklung im Freistaat.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Flughafen, Flug*, Luftfahrt, Luftverkehr, Fluglärm, Nachtflug, Fracht, Leipzig/Halle, Halle, DHL, Schkeuditz, Logistik, Lärm, Anteilseigner, Beteiligung des Landes; durchgesehen Kapitel Mobilität/Verkehr (u. a. Logistik, Straßen) und Wirtschaft. Kein Treffer zum Flughafen."
+        },
+        {
+          "partei_id": 43,
+          "position": "nein",
+          "kurzfassung": "Die Grünen lehnen die aktuellen Ausbaupläne für den Frachtflughafen Leipzig/Halle ab und fordern ein Nachtflugverbot sowie, Luftfracht perspektivisch zu verringern.",
+          "zitat": "Die aktuellen Ausbaupläne für den Frachtflughafen Leipzig/Halle, die einseitig zu Lasten der Bevölkerung in den umliegenden Städten und Gemeinden gehen, lehnen wir ab.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen, Flug*, Fracht, Luftfracht, Drehkreuz, DHL, Nachtflug, Fluglärm, Luftverkehr, Luftfahrt, Logistik, Leipzig, Halle, Beteiligung/Anteil; Kapitel Verkehrsinfrastruktur (S. 20) und Tourismus (S. 39). Der Flughafen Leipzig/Halle und Luftfracht kommen nicht vor."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Flughafen/Flughäfen, Flug*, Fluglärm, Nachtflug, Luftverkehr, Luftfracht, Fracht, Drehkreuz, DHL, Leipzig/Halle, Schkeuditz, Airport, Logistik, Güterverkehr, Lärm, Beteiligung; Kapitel 4 (Wirtschaft, 4.8 Tourismus), 9.6 Verkehrsnetze. Einziger Treffer: Wunsch nach Direktflügen von sächsischen Flughäfen nach Polen und Tschechien für den Tourismus (S. 27) – keine Aussage zum Ausbau des Frachtflughafens Leipzig/Halle."
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt den weiteren Ausbau des Flughafens Leipzig/Halle ab und will das Nachtflugverbot konsequent umsetzen.",
+          "zitat": "Den weiteren Ausbau des Flughafens Leipzig/Halle lehnen wir ab. Schon jetzt belastet der Flughafen die Anwohner:innen, das Klima und die Umwelt.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=43",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Flughaf, Flug, Luftverkehr, Luftfahrt, Fracht, DHL, Nachtflug, Schkeuditz, Airport, Drehkreuz, Lärm, Logistik; Kapitel 'Verkehrspolitik' (S. 47 ff.) und 'Wirtschaft' gelesen. Einziger Treffer S. 6: Sorge über die 'immer stärkere militärische Nutzung der Flughäfen Leipzig und Dresden' – keine Aussage zum Ausbau des Frachtflughafens."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-25",
+      "wahl": "sn24",
+      "frage": "Soll sich Sachsen für eine Lockerung des Arbeitszeitgesetzes einsetzen?",
+      "beschreibung": "Ob die tägliche Höchstarbeitszeit durch eine wöchentliche ersetzt wird, wie es der EU-Rahmen erlaubt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "teils",
+          "kurzfassung": "Die CDU will sich im Bund für flexiblere Arbeitszeiten und eine Flexibilisierung des Arbeitsrechts einsetzen, nennt aber keine wöchentliche statt täglicher Höchstarbeitszeit.",
+          "zitat": "Wir werden uns für flexiblere Arbeitszeitgestaltung einsetzen und im Bund auf eine Flexibilisierung insbesondere im Arbeits-, Sozialversicherungs- und Steuerrecht drängen.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "nein",
+          "kurzfassung": "Die SPD lehnt Forderungen nach einer Verlängerung der Arbeitszeiten entschieden ab.",
+          "zitat": "Deshalb lehnen wir Forderungen nach einer Erhöhung des Renteneintrittsalters, der Einschränkung des Streikrechts, der Streichung von Feiertagen oder der Verlängerung der Arbeitszeiten entschieden ab.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=22",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zum Arbeitszeitgesetz. Durchsucht (gruene.txt und gruene_lese.txt): Arbeitszeit, Arbeitszeitgesetz, Höchstarbeitszeit, wöchentlich, Wochenarbeit, Ruhezeit, Achtstunden/8-Stunden, flexible Arbeit, Arbeitsschutz, Arbeitsrecht; gelesen das Kapitel „Arbeitsmarkt der Zukunft in Sachsen gestalten“ inkl. „Gute Arbeit für alle schaffen“ (S. 77–80). Treffer zu „Arbeitszeitmodell“ betreffen nur Lehrkräfte (S. 34)."
+        },
+        {
+          "partei_id": 44,
+          "position": "ja",
+          "kurzfassung": "Die FDP will überzogene Dokumentationspflichten bei Arbeitszeiten streichen und das deutsche Arbeitszeitgesetz an den europäischen Rahmen anpassen.",
+          "zitat": "Wir setzen uns für die Streichung überzogener Dokumentationspflichten – zum Beispiel bei Arbeitszeiten – und für die Anpassung des deutschen Arbeitszeitgesetzes an den europäischen Rahmen ein.",
+          "beleg_url": "https://sachsen.freie-demokraten.de/sites/default/files/2024-05/Wahlprogramm%20LTW%202024_1.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 45,
+          "position": "teils",
+          "kurzfassung": "Die AfD will für den Tourismus-Mittelstand Bürokratieabbau mit weniger Aufzeichnungspflichten und flexibleren Arbeitszeitregeln, ohne sich allgemein zum Ersatz der täglichen durch eine wöchentliche Höchstarbeitszeit zu äußern.",
+          "zitat": "Die bestehenden Tourismuskonzepte werden wir weiterentwickeln. Das betrifft vor allem klassische Mittelstandsthemen wie Bürokratieabbau mit weniger Aufzeichnungspflichten und einer flexiblen Arbeitszeitverordnung, Fördermitteltransparenz und Verfahrensvereinfachung, Nachfolgeregelungen sowie Konzepte zur Fachkräftegewinnung.",
+          "beleg_url": "https://afdsachsen.de/wp-content/uploads/afd-wahlprogramm-landtagswahl-sachsen-2024.pdf#page=26",
+          "begruendung": null
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die gesetzliche Höchstarbeitszeit auf 40 Wochenstunden begrenzen und lehnt längeres Arbeiten ab.",
+          "zitat": "Die Linke setzt sich dafür ein, die gesetzliche Höchstarbeitszeit auf 40 Wochenstunden zu begrenzen.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Arbeitszeit, Höchstarbeitszeit, Wochenarbeit, Stunden, flexib, Arbeitswoche, Achtstunden, Überstund; Kapitel 'Sozialer Ausgleich' und 'Wirtschaft' gelesen. Keine Aussage zu einer Änderung des Arbeitszeitgesetzes."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-26",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen die Vier-Tage-Woche in einem Modellprojekt erproben?",
+      "beschreibung": "Ob das Land ein Modell startet, in dem Beschäftigte, vor allem in Schicht- und schwerer Arbeit, an vier Tagen pro Woche arbeiten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "nein",
+          "kurzfassung": "Die CDU lehnt jede Verringerung der Arbeitszeit strikt ab und steht für eine 40-Stunden-Woche; eine Vier-Tage-Woche ist nicht vorgesehen.",
+          "zitat": "Wir lehnen bei der aktuellen Situation auf dem Arbeitsmarkt alle Maßnahmen strikt ab, die die notwendige Arbeitszeit reduzieren wie beispielsweise einen fünftägigen „Bildungsurlaub“. Dabei stehen wir für eine Wochenarbeitszeit von 40 Stunden.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "ja",
+          "kurzfassung": "Die SPD will in Sachsen ein Modellprojekt zur Vier-Tage-Woche starten, vor allem für körperlich schwere, psychisch belastende und Schichtarbeit.",
+          "zitat": "Wir wollen in Sachsen ein Modell zur Erprobung der 4-Tage-Woche starten, bei dem insbesondere körperlich schwere Arbeit, psychisch belastende Arbeit sowie Schichtarbeit im Mittelpunkt stehen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=22",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zu einer Vier-Tage-Woche. Durchsucht: Vier-Tage, Viertage, 4-Tage, Arbeitswoche, Arbeitszeitverkürzung/-reduzierung, Wochenstunden, Schicht, Modellprojekt/Modellversuch; gelesen das Kapitel „Arbeitsmarkt der Zukunft in Sachsen gestalten“ (S. 77–80). Modellprojekte im Programm betreffen andere Themen (Energieberatung, Drug-Checking u. a.)."
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vier-Tage-Woche, 4-Tage, Arbeitswoche, Arbeitszeitverkürzung, kürzere Arbeitszeit, Arbeitszeitmodell, Schichtarbeit, schwere/körperliche Arbeit, Modellprojekt, Pilotprojekt. Nur allgemein „flexible Arbeitszeitmodelle“ für ältere Beschäftigte (S. 80), kein Modellprojekt zur Vier-Tage-Woche."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vier-Tage/4-Tage/Viertagewoche, vier Tage, Arbeitswoche, Wochenarbeit, Arbeitszeit, Arbeitszeitverkürzung, Schicht, Modellprojekt, Modellversuch, Pilotprojekt; Kapitel 3.3 Pflege, 4 Wirtschaft/Arbeit. Gefunden nur die Forderung nach einer '5-Tage-Woche im Pflegebereich' (S. 22) und Absenkung der Arbeitszeiten in der Pflege – kein Modellprojekt zur Vier-Tage-Woche."
+        },
+        {
+          "partei_id": 46,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Vier-Tage-Woche, 4-Tage, Tagewoche, vier Tage, Tage pro Woche, Modellprojekt, Modellversuch, Pilotprojekt, Schichtarbeit, Schicht, Arbeitszeitverkürzung, Wochenarbeitszeit (v. a. Kapitel Arbeit und Wirtschaft S. 6-14); kein Modellprojekt zur Vier-Tage-Woche."
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Vier-Tage, 4-Tage, Woche, Arbeitszeitverkürzung, Schicht, Modellprojekt, Modellversuch, Pilotprojekt, Teilzeit, Vollzeit; Kapitel 'Sozialer Ausgleich' und 'Wirtschaft' gelesen. Das einzige Modellprojekt (S. 27) betrifft Alltagshelfer für Arbeitslose, keine Vier-Tage-Woche."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-27",
+      "wahl": "sn24",
+      "frage": "Sollen Betriebe, die nicht ausbilden, in einen Ausbildungsfonds einzahlen?",
+      "beschreibung": "Ob eine landesweite Umlage Betriebe ohne Ausbildungsplätze zur Kasse bittet und das Geld an ausbildende Betriebe weitergibt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Umlage, Ausbildungsfonds, Fonds, Ausbildungsabgabe, Abgabe, Ausbildungsplatz, ausbildende Betriebe, Ausbildungsbetrieb; Kapitel I.c Fach- und Arbeitskräfte (S. 10–11) und II.c Berufliche Bildung (S. 21–23) vollständig gelesen. Eine Ausbildungsumlage wird weder gefordert noch abgelehnt."
+        },
+        {
+          "partei_id": 42,
+          "position": "ja",
+          "kurzfassung": "Die SPD will einen umlagefinanzierten Ausbildungsfonds einführen, der Ausbildung in kleinen Betrieben sowie Verbund- und außerbetriebliche Ausbildung mitfinanziert.",
+          "zitat": "Im nächsten Schritt führen wir einen umlagefinanzierten Ausbildungsfonds ein. Mithilfe dessen wird die Ausbildung in kleinen Betrieben gestärkt sowie die Verbundausbildung und außerbetriebliche Ausbildung mitfinanziert.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Keine Aussage zu einer Ausbildungsumlage oder einem Ausbildungsfonds. Durchsucht: Umlage, Ausbildungsfonds, Fonds, Ausbildungsabgabe, nicht ausbildende/ausbildende Betriebe, Ausbildungsbetriebe, Ausbildungsplätze, Ausbildungsgarantie; gelesen „Wege in den Beruf attraktiv gestalten“ (S. 41) und „Fach- und Arbeitskräfte in Sachsen gewinnen und halten“ (S. 78–79). Das Programm nennt nur allgemein eine „Ausbildungsgarantie“ (S. 41) und lobt, dass die Unternehmen viele Ausbildungsplätze anbieten (S. 79), ohne Finanzierung durch eine Umlage."
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ausbildungsfonds, Ausbildungsumlage, Umlage, Ausbildungsabgabe, Fonds, Abgabe, Ausbildungsbetrieb, ausbildende/nicht ausbildende Betriebe, Ausbildungsplätze, Auszubildende; Abschnitte „Stärkung der beruflichen Ausbildung“ und „Standortnahe Ausbildung“ (S. 18). Keine Aussage zu einer Umlage oder einem Fonds."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ausbildungsfonds, Umlage, Ausbildungsumlage, Ausbildungsabgabe, Ausbildungsplatz, Ausbildungsbetrieb, ausbilden, Lehrstelle, Azubi, Auszubildende; Kapitel 2.1.3 Berufliche Bildung stärken, 4.2 Handwerksmeister, 4.6 Überregulierung, 4.7 Fachkräftesicherung. Nur 'Ausbildungsumlagen' als Kostenbestandteil des Pflege-Eigenanteils (S. 21) – keine Aussage zu einem Ausbildungsfonds für nicht ausbildende Betriebe."
+        },
+        {
+          "partei_id": 46,
+          "position": "ja",
+          "kurzfassung": "Die Linke will eine sächsische Ausbildungsumlage: Ausbildungsfähige Betriebe zahlen in einen Fonds, ausbildende Betriebe werden daraus gefördert.",
+          "zitat": "Wir werden eine Sächsische Ausbildungsumlage einführen, um die duale Ausbildung besser und gerechter zu finanzieren. Ausbildungsfähige Betriebe zahlen dabei in einen Fonds ein – Betriebe, die ausbilden oder sich an überbetrieblicher Ausbildung beteiligen, erhalten aus dem Fonds eine Förderung.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Ausbildungsfonds, Fonds, Umlage, Ausbildungsabgabe, Ausbildungsplätz, Lehrstell, ausbilden, Ausbildungsbetrieb, Berufsausbildung, Azubi; Kapitel 'Sozialer Ausgleich', 'Bildung' und 'Wirtschaft' gelesen. Gefordert werden nur besser entlohnte Ausbildungen und die Sicherung der Berufsschulen; 'Ausbildungsumlage' kommt nur bei den Eigenanteilen in der Pflege vor (S. 25), keine Umlage für nicht ausbildende Betriebe."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "bb24-1",
       "wahl": "bb24",
       "frage": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
