@@ -24,6 +24,21 @@ import type { Katalog } from './typen'
 // Kriterien und Parteipositionen kommen aus src/ausgewogenheit.ts, der Stand je Katalog wird live berechnet – die Seite
 // bleibt so von selbst aktuell.
 
+const WAHL_O_MAT_RECHNUNG = 'https://www.bpb.de/themen/wahl-o-mat/294576/wie-funktioniert-der-wahl-o-mat/'
+
+/** Literatur zu den Fragen aus Issue #6. */
+const LITERATUR: { text: string; url?: string }[] = [
+  {
+    text: 'Marc Debus (2026): Die Landtagswahlen 2026 in Baden-Württemberg. Notes du Cerfa, Ifri, S. 24–26',
+    url: 'https://www.ifri.org/sites/default/files/2026-03/ifri_debus_landtagswahlen_baden_wurtemburg_03.2026.pdf',
+  },
+  { text: 'Thomas Bräuninger, Marc Debus, Jochen Müller, Christian Stecker (2020): Parteienwettbewerb in den deutschen Bundesländern. 2. Aufl., Springer VS' },
+  { text: 'Bundeszentrale für politische Bildung: Wie funktioniert der Wahl-O-Mat?', url: WAHL_O_MAT_RECHNUNG },
+  { text: 'Stefaan Walgrave, Michiel Nuytemans, Koen Pepermans (2009): Voting Aid Applications and the Effect of Statement Selection. West European Politics 32 (6), 1161–1180' },
+  { text: 'Klaus Krippendorff (2004): Content Analysis. An Introduction to Its Methodology. 2. Aufl., Sage' },
+  { text: 'Jacob Cohen (1988): Statistical Power Analysis for the Behavioral Sciences. 2. Aufl., Erlbaum' },
+]
+
 const prozent = (x: number) => `${Math.round(x * 100)} %`
 const komma = (x: number) => x.toFixed(2).replace('.', ',')
 
@@ -84,8 +99,30 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
           {String(RHO_SCHWELLE).replace('.', ',')} oder −{String(RHO_SCHWELLE).replace('.', ',')} gilt eine Frage auf dieser Achse als gerichtet: Das Ja kommt
           dann eher von einem Pol.
         </p>
+        <p>
+          Die Zählung folgt dem{' '}
+          <a href={WAHL_O_MAT_RECHNUNG} target="_blank" rel="noopener noreferrer">
+            Wahl-O-Mat
+          </a>
+          : Dort ist „neutral“ die Mitte zwischen Zustimmung und Ablehnung, und übersprungene Thesen zählen nicht.
+        </p>
+        {/* Die Anteile gelten für die Schwelle 0,5: exakte Verteilung von ρ ohne Gleichstände, 4 bis 9 Parteien. */}
+        {RHO_SCHWELLE === 0.5 && (
+          <p>
+            „Gerichtet“ ist eine beschreibende Einordnung, kein statistischer Test. Ein Wert von 0,5 gilt als großer
+            Zusammenhang. Bei vier bis neun Parteien erreicht aber auch eine rein zufällige Reihenfolge der Antworten
+            diesen Wert in 18 bis 45 % der Fälle. Aussagekräftig ist deshalb das Gesamtbild eines Katalogs, nicht die
+            einzelne Frage.
+          </p>
+        )}
 
         <h2>Wann ein Katalog als ausgewogen gilt</h2>
+        <p>
+          Dass das wichtig ist, zeigt die Forschung zu Wahlhilfen wie dem Wahl-O-Mat: Schon die Auswahl der Thesen kann
+          das Ergebnis deutlich zugunsten einzelner Parteien verschieben (Walgrave, Nuytemans und Pepermans 2009). Eine
+          feste Norm für Ausgewogenheit gibt es dort nicht. Unsere Kriterien sind deshalb Festlegungen, die wir offen
+          ausweisen:
+        </p>
         <ul>
           <li>
             <strong>Beide Pole kommen zum Zug:</strong> Je Achse kommt das Ja bei höchstens {prozent(HOECHSTANTEIL)} der
@@ -120,23 +157,35 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
         {!katalog && !fehler && <p className="hinweis">Lade Fragen …</p>}
         {katalog && <StandTabelle katalog={katalog} />}
 
-        <h2>Was wir noch abstimmen</h2>
-        <p>Diese Punkte klären wir mit dem Politikwissenschaftler, bevor wir die Schwellen festschreiben:</p>
+        <h2>Was die Forschung schon klärt</h2>
         <ul>
-          <li>Ist die Rangkorrelation bei vier bis neun Parteien je Wahl ein tragfähiges Maß, und passt die Schwelle?</li>
+          <li>
+            <strong>Landesparteien weichen ab.</strong> Die Bundespartei taugt nicht als Näherung. Marc Debus zeigt für
+            Baden-Württemberg 2026, dass das BSW dort laut Wahlprogramm den Grünen und der SPD nahesteht. Bundesweit
+            gilt es gesellschaftlich als konservativ. Wir fragen deshalb beim Mannheimer Zentrum für Europäische
+            Sozialforschung nach Positionen je Landtagswahl.
+          </li>
+          <li>
+            <strong>Die Zählung von „teils“ und „keine Aussage“</strong> entspricht der des Wahl-O-Mat (siehe oben).
+          </li>
+          <li>
+            <strong>Für die Prüfung der Positionen</strong> gilt eine Übereinstimmung zweier unabhängiger Codierungen ab
+            Krippendorffs Alpha 0,8 als belastbar, ab 0,667 für vorläufige Schlüsse.
+          </li>
+        </ul>
+
+        <h2>Was wir noch abstimmen</h2>
+        <p>Für diese Punkte gibt es keine feste Norm. Wir klären sie mit Fachleuten, bevor wir die Schwellen festschreiben:</p>
+        <ul>
+          <li>Passt die Schwelle von {String(RHO_SCHWELLE).replace('.', ',')} für eine gerichtete Frage?</li>
           <li>Ist die Grenze von {prozent(HOECHSTANTEIL)} vom selben Pol zu streng oder zu locker?</li>
           <li>
             Profilfragen haben oft nur zwei oder drei Parteien mit Aussage; dann ist keine Richtung messbar. Das
             Kriterium „ein Drittel gerichtet“ zieht deshalb gegen die Profilfragen. Unser Vorschlag: es nur auf Fragen mit
             messbarer Richtung beziehen.
           </li>
-          <li>Taugt die Bundespartei als Näherung für Landesverbände, etwa beim BSW oder bei den Freien Wählern?</li>
-          <li>Ist die Zählung von „teils“ (halb) und „keine Aussage“ (gar nicht) angemessen?</li>
-          <li>Wie lässt sich Volt verorten, das in CHES 2024 fehlt?</li>
-          <li>
-            Reichen Codebuch, eine zweite unabhängige Codierung und ein Übereinstimmungsmaß (Krippendorffs Alpha) für die
-            Prüfung der Positionen?
-          </li>
+          <li>Woher kommen Positionen je Landtagswahl, und wie lässt sich Volt verorten, das in CHES 2024 fehlt?</li>
+          <li>Wer übernimmt die zweite, unabhängige Codierung der Positionen?</li>
         </ul>
 
         <h2>Grenzen</h2>
@@ -162,6 +211,20 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
             Artikel
           </a>
         </p>
+        <p className="meta">Literatur:</p>
+        <ul className="meta">
+          {LITERATUR.map(({ text, url }) => (
+            <li key={text}>
+              {url ? (
+                <a href={url} target="_blank" rel="noopener noreferrer">
+                  {text}
+                </a>
+              ) : (
+                text
+              )}
+            </li>
+          ))}
+        </ul>
         <p className="meta">
           Ausführlich mit allen Zahlen:{' '}
           <a href={`${QUELLCODE}/issues/1`} target="_blank" rel="noopener noreferrer">
