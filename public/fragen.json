@@ -9400,6 +9400,270 @@
       "zielkonflikte": []
     },
     {
+      "id": "sn24-28",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen ausreisepflichtige Asylbewerber konsequenter abschieben?",
+      "beschreibung": "Ob der Freistaat abgelehnte Asylbewerber ohne Bleiberecht schneller und konsequenter in ihre Herkunftsländer zurückführt, etwa mit einer eigenen Polizeieinheit für Rückführungen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "ja",
+          "kurzfassung": "Die CDU will abgelehnte Asylbewerber ohne Bleiberecht zügig zurückführen und dafür in der sächsischen Polizei eine Einheit ausbauen, die die Landesdirektion bei Rückführungen unterstützt.",
+          "zitat": "Wir wollen die zügige Rückführung von abgelehnten Asylbewerbern ohne Bleiberecht. Dafür bauen wir in der sächsischen Polizei eine Einheit aus, die die Landesdirektion bei den Rückführungen unterstützt.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=30",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "teils",
+          "kurzfassung": "Die SPD hält fest, dass Menschen ohne dauerhaftes Aufenthaltsrecht ausreisen müssen, aber nur, wenn dies tatsächlich möglich und humanitär zumutbar ist.",
+          "zitat": "Wer kein dauerhaftes Aufenthaltsrecht hat, der muss das Land wieder verlassen, wenn dies tatsächlich möglich und humanitär zumutbar ist.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen Abschiebungen an verbindliche Richtlinien binden, Familientrennungen, Nachtabschiebungen und Abschiebungen trotz Wunsch zur freiwilligen Ausreise beenden und eine kritische Abschiebebeobachtung einführen.",
+          "zitat": "Wir wollen erreichen, dass verbindliche Richtlinien bei Abschiebungen gelten. Dafür muss der sächsische Leitfaden Abschiebung überarbeitet werden, damit Familientrennungen, Nachtabschiebungen und Abschiebungen beim Wunsch zu freiwilliger Ausreise nicht mehr stattfinden.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=51",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "ja",
+          "kurzfassung": "Die FDP will durchsetzen, dass der Freistaat Abschiebungen konsequent durchführt, und Asylanträge in der Regel binnen drei Monaten entscheiden lassen.",
+          "zitat": "Wir werden durchsetzen, dass der Freistaat seiner Aufgabe gerecht wird, Abschiebungen konsequent durchzuführen.",
+          "beleg_url": "https://sachsen.freie-demokraten.de/sites/default/files/2024-05/Wahlprogramm%20LTW%202024_1.pdf#page=60",
+          "begruendung": null
+        },
+        {
+          "partei_id": 45,
+          "position": "ja",
+          "kurzfassung": "Die AfD will Abschiebungen konsequent durchsetzen, auf Landesebene alles Zweckdienliche dafür tun und die Abschiebehaftplätze in Sachsen auf mindestens 350 erhöhen.",
+          "zitat": "Abschiebungen müssen endlich konsequent durchgeführt werden. Das wird die AfD Sachsen auf Bundesebene mit Nachdruck einfordern und auch auf Landesebene hierzu alles Zweckdienliche unternehmen.",
+          "beleg_url": "https://afdsachsen.de/wp-content/uploads/afd-wahlprogramm-landtagswahl-sachsen-2024.pdf#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will eine Bleiberechtsoffensive, geduldeten Menschen über behördliche Ermessensspielräume ein Bleiberecht geben und die Abschiebehaft abschaffen.",
+          "zitat": "Wir setzen uns für eine Bleiberechtsoffensive in Sachsen ein: Ermessensspielräume der zuständigen Behörden sollen genutzt werden, um geduldeten Menschen ein Bleiberecht zu gewähren.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=84",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "ja",
+          "kurzfassung": "Das BSW will eine Politik, die systematisch dafür sorgt, dass Ausreisepflichtige Sachsen verlassen, und straffällige Migranten konsequent abschiebt.",
+          "zitat": "Viele Menschen empfinden es als Staatsversagen, wenn die Ausreise dieser Menschen nicht mit Nachdruck verfolgt wird. Deshalb setzen wir uns für eine Politik ein, die sich systematisch darum kümmert, dass Ausreisepflichtige das Land verlassen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswsachsenltw-2024.pdf#page=14",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-29",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen einen Kohleausstieg vor 2038 ablehnen?",
+      "beschreibung": "Ob die Braunkohlekraftwerke in der Lausitz und um Leipzig nicht vor dem vereinbarten Enddatum 2038 vom Netz gehen sollen, statt den Ausstieg vorzuziehen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "ja",
+          "kurzfassung": "Die CDU hält am Kohlekompromiss mit dem Ausstieg aus der Kohleverstromung bis 2038 fest.",
+          "zitat": "An dem vertraglich und gesetzlich fixierten und von allen beteiligten Akteuren vereinbarten Kohlekompromiss mit einem Ausstieg aus der Kohleverstromung bis 2038 halten wir fest.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=41",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "teils",
+          "kurzfassung": "Die SPD steht zum Kohleausstieg bis spätestens 2038, hält einen früheren Ausstieg aber für möglich, wenn Versorgungssicherheit, Bezahlbarkeit und neue Arbeitsplätze gesichert sind.",
+          "zitat": "Wir stehen zum vereinbarten Kohle-Ausstieg bis spätestens 2038. Ein früherer Ausstieg ist möglich, wenn die Energieversorgung zu jedem Zeitpunkt sicher, verfügbar und bezahlbar bleibt sowie in den Braunkohlerevieren ausreichend neue, gut bezahlte Arbeitsplätze entstanden sind.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=41",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen den Kohleausstieg deutlich vor 2038 und jetzt die Rahmenbedingungen für einen frühestmöglichen Ausstieg schaffen.",
+          "zitat": "Der Kohleausstieg muss deutlich vor 2038 kommen. In Sachsen darf nicht mehr Kohle verbrannt werden, als das deutsche 1,5-Grad-Budget erlaubt.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "ja",
+          "kurzfassung": "Die FDP lehnt einen vorgezogenen Kohleausstieg ab; die Braunkohlekraftwerke sollen laufen, bis ein Umstieg auf andere Energieträger gesichert ist.",
+          "zitat": "Wir Freie Demokraten lehnen einen vorschnellen Kohleausstieg ab. Eine politische Vorgabe eines Ausstiegsjahres ist für uns immer nur ein Ziel, kein Dogma.",
+          "beleg_url": "https://sachsen.freie-demokraten.de/sites/default/files/2024-05/Wahlprogramm%20LTW%202024_1.pdf#page=94",
+          "begruendung": null
+        },
+        {
+          "partei_id": 45,
+          "position": "ja",
+          "kurzfassung": "Die AfD lehnt einen Kohleausstieg ab: Sie will den Ausstiegsbeschluss bis 2038 zurücknehmen und die sächsischen Braunkohlekraftwerke und Tagebaue weiterbetreiben.",
+          "zitat": "Die AfD Sachsen wird sich darum für die Rücknahme des Regierungsbeschlusses zum bereits begonnenen Ausstieg aus der Kohleverstromung bis 2038, den Weiterbetrieb der bestehenden Braunkohlekraftwerke in Sachsen sowie den Weiterbetrieb der Tagebaue um Leipzig und in der Lausitz einsetzen.",
+          "beleg_url": "https://afdsachsen.de/wp-content/uploads/afd-wahlprogramm-landtagswahl-sachsen-2024.pdf#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will die Voraussetzungen schaffen, dass der Kohleausstieg deutlich vor 2038 gelingt.",
+          "zitat": "Wir wollen die Voraussetzungen dafür schaffen, dass der Kohleausstieg schon deutlich vor dem Jahr 2038 gelingt – gemeinsam mit den Menschen in den Revieren. Er ist angesichts der Klimakrise unabdingbar.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "ja",
+          "kurzfassung": "Das BSW lehnt einen Ausstieg aus der sächsischen Braunkohle vor 2038 ab und knüpft den Verzicht auf Kohle an die Verfügbarkeit erneuerbarer Energien.",
+          "zitat": "Einen Ausstieg aus der Nutzung der sächsischen Braunkohle vor 2038 lehnen wir ab.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswsachsenltw-2024.pdf#page=39",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-31",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen an eigenen Förderschulen für Kinder mit Behinderung festhalten?",
+      "beschreibung": "Ob Kinder mit besonderem Förderbedarf weiter an eigenen Förderschulen lernen können, statt dass diese zugunsten gemeinsamen Unterrichts an Regelschulen zurückgebaut werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "ja",
+          "kurzfassung": "Die CDU will Inklusion umsetzen, wo sie möglich ist, und die Förderschulen in Sachsen in Bestand und Arbeit fortführen und weiterentwickeln.",
+          "zitat": "Wir wollen Inklusion überall dort umsetzen, wo sie möglich ist und bekennen uns gleichzeitig klar zur sehr guten Arbeit der Förderschulen in Sachsen, die wir in Bestand und Arbeit fortführen und weiterentwickeln.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Förderschule, Sonderschule, Förderzentrum, Förderbedarf, Inklusion, inklusiv, sonderpädagogisch, Regelschule, gemeinsames Lernen, UN-Behindertenrechtskonvention; durchgesehen Kapitel Bildung/Schule (Stichworte Inklusion) und Kinder/Jugend. Das Programm will Bildung „kontinuierlich inklusiv“ weiterentwickeln und Kooperationsverbünde stärken, „damit jede Schule Kinder aus dem Wohnumfeld aufnehmen“ kann, sagt aber weder, dass Förderschulen erhalten, noch dass sie zurückgebaut werden sollen. Förderschulen werden nur nebenbei beim EU-Schulprogramm für Obst, Gemüse und Milch erwähnt."
+        },
+        {
+          "partei_id": 43,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Förderschul, Förderschwerpunkt, Förderzentrum, Sonderschule, Förderbedarf, Inklusion, inklusive Beschulung, gemeinsames Lernen, Regelschule, UN-Behindertenrechtskonvention; Kapitel Schule (S. 35–37). Ob Förderschulen erhalten oder zurückgebaut werden sollen, sagt das Programm nicht."
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Förderschul*, Förderzentr*, Förderklass*, Sonderschul*, Förderbedarf, sonderpädagog*, heilpädagog*, Inklusion/inklusiv, Behinderung, Beeinträchtig*, Regelschul*, gemeinsamer Unterricht/gemeinsames Lernen, Schulart, Schulform, Schulnetz, Schulstruktur, Wahlfreiheit, Elternwille; Kapitel Schule/Bildung (S. 43–50), Kita (S. 51–52), Inklusion und Barrierefreiheit/UN-Behindertenrechtskonvention (S. 80). Förderschulen und ihre Zukunft kommen nicht vor."
+        },
+        {
+          "partei_id": 45,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Förderschulen erhalten und wendet sich gegen ihre Abschaffung; Inklusion soll nur „mit Augenmaß“ erfolgen.",
+          "zitat": "Kinder mit besonderem Förderbedarf erhalten in der Förderschule eine umfassende Unterstützung, welche die Regelschule nicht leisten kann. Die AfD wendet sich gegen Bestrebungen, die Förderschulen abzuschaffen.",
+          "beleg_url": "https://afdsachsen.de/wp-content/uploads/afd-wahlprogramm-landtagswahl-sachsen-2024.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will das Förderschulsystem zurückbauen und Kinder mit Behinderungen in Regelschulen aufnehmen (\"Schule für alle\").",
+          "zitat": "Dazu wollen wir die Trennung der Schulformen überwinden, das Förderschulsystem zurückbauen und die Aufnahme von Schüler:innen mit Behinderungen in Regelschulen ermöglichen.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "ja",
+          "kurzfassung": "Das BSW befürwortet Inklusion an Regelschulen, will aber weiterhin Förderschulen und Förderzentren für Kinder, die ein besonderes Lernumfeld brauchen.",
+          "zitat": "Wir sind und bleiben aber auch der Überzeugung, dass es weiter Förderschulen und Förderzentren für die Schülerinnen und Schüler geben muss, die ein besonderes Lernumfeld und spezielle Unterstützungsmöglichkeiten benötigen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bswsachsenltw-2024.pdf#page=32",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-32",
+      "wahl": "sn24",
+      "frage": "Soll sich Sachsen dafür einsetzen, die Legalisierung von Cannabis zurückzunehmen?",
+      "beschreibung": "Ob der Freistaat im Bund darauf drängt, den seit 2024 erlaubten Besitz und Anbau von Cannabis für Erwachsene wieder zu verbieten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "ja",
+          "kurzfassung": "Die CDU hält die Cannabis-Legalisierung für einen Fehler, der schnellstmöglich korrigiert werden muss, und will sich dafür auf Bundesebene einsetzen.",
+          "zitat": "Die Legalisierung von Cannabis durch die Ampelkoalition ist eine große Gefahr für die Gesundheit. Dieser Fehler muss schnellstmöglich korrigiert werden.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=39",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "nein",
+          "kurzfassung": "Die SPD unterstützt die Bundesinitiative, Cannabis zu entkriminalisieren und unter staatliche Kontrolle zu bringen.",
+          "zitat": "Wir stehen hinter der Bundesinitiative, Cannabis zu entkriminalisieren und unter staatliche Kontrolle zu bringen, denn so werden wirksame Prävention und der Kampf gegen den Schwarzmarkt möglich.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=31",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "nein",
+          "kurzfassung": "Die Grünen sehen die Cannabis-Legalisierung als Kriminalitätsprävention und wollen, dass eine sächsische Kommune Modellregion für die kontrollierte Abgabe von Cannabis wird.",
+          "zitat": "Weil die Legalisierung von Cannabis der Kriminalitätsprävention dient, setzen wir uns dafür ein, dass auch eine sächsische Kommune Modellregion für die kontrollierte Abgabe von Cannabis im Rahmen des entsprechenden Vorhabens des Bundes wird.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=112",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Cannabis, Hanf, Kiffen, Droge*, Betäubungsmittel, Legalisier*, Rauschmittel, Sucht, Konsum, Drug, Prävention, Anbauverein; ganzes Programm inkl. Kapitel Innere Sicherheit, Gesundheit und Jugend. Cannabis kommt nicht vor (einziger Sucht-Treffer: Suchtprävention beim Glücksspiel, S. 22)."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Cannabis, Legalisierung, Hanf, Kiffen, Marihuana kommen im Programm nicht vor (auch nicht in afd_lese.txt). Gesucht außerdem: Drogen, Rauschgift, Betäubungsmittel, Sucht. Einziger Bezug ist Kapitel 3.4.2 „Suchtprävention verbessern“ (S. 23): „Umdenken in der Drogen- und Suchtpolitik und ein Ende der Verharmlosung von Drogen“ – das ist ein verwandtes Anliegen, aber keine Forderung, die Cannabis-Legalisierung zurückzunehmen."
+        },
+        {
+          "partei_id": 46,
+          "position": "nein",
+          "kurzfassung": "Die Linke will Repression bei Drogen zurückfahren, die Regeln zu geringen Mengen etwa bei Cannabis erweitern und den Besitz illegalisierter Substanzen entkriminalisieren.",
+          "zitat": "Repression werden wir daher zurückfahren und unnötige Härte bei Bagatelldelikten beenden. Stattdessen wollen wir die bestehenden Regelungen zum Umgang mit geringen Mengen, etwa bei Cannabis, erweitern.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Cannabis wird im Programm nicht erwähnt. Gesucht: Cannabis, Kiffen, Marihuana, Haschisch, Drogen, Rausch, Sucht, Betäubungsmittel, Legalisier, Konsum, Anbau, Jugendschutz, Prävention; durchgesehen u. a. Kapitel „Bürgernahe Polizei“ und Justiz (S. 10–13), „Gesundheit und Pflege“ (S. 22–25) und „Sozialer Ausgleich“ (S. 26–28). Einziger Treffer ist eine Erwähnung von „Alkohol-, Drogensucht“ als Folge fehlender Jugendangebote (S. 27), ohne Position zur Legalisierung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "bb24-1",
       "wahl": "bb24",
       "frage": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
@@ -23371,6 +23635,416 @@
           "zitat": null,
           "beleg_url": null,
           "begruendung": "Gesucht: Abschiebung, Abschiebehaft, Ausreise, ausreisepflichtig, Rückführung, Rückkehr, Haftplätze, Gewahrsam, Haft, Justiz, Vollzug, Asyl, Duldung, Migration. Das Programm spricht nur über Integration Geflüchteter (S. 16–17), Ende der Grenzkontrollen und europäische Asylstandards (S. 47–48)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-34",
+      "wahl": "mv26",
+      "frage": "Sollen Förderschulen in Mecklenburg-Vorpommern dauerhaft erhalten bleiben?",
+      "beschreibung": "Ob Förderschulen als eigene Schulform neben dem gemeinsamen Unterricht an Regelschulen dauerhaft bestehen bleiben, statt schrittweise in inklusive Regelschulen überführt zu werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "ja",
+          "kurzfassung": "Die CDU will die Förderschule als eigenständige Schulart gleichrangig neben der inklusiven Beschulung an Regelschulen erhalten und so die Wahlfreiheit der Eltern sichern.",
+          "zitat": "Wir erhalten die Förderschule als eigenständiges Bildungsangebot und zentralen Bestandteil einer inklusiven Bildungslandschaft und stärken damit die Wahlfreiheit der Eltern.",
+          "beleg_url": "https://danielpeters-mv.de/wp-content/uploads/2026/06/Wahlprogramm-CDU-MV-2026.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Förderschul*, Förderzentr*, Sonderschul*, Sonderpädagog*, Förderbedarf, Förderschwerpunkt, Inklusi*, gemeinsames Lernen/gemeinsamer Unterricht, Schulform*, Schularten; Kapitel Allgemein- und berufsbildende Schulen (S. 65-70) und Inklusion und Teilhabe für Menschen mit Behinderungen (S. 34). Förderschulen werden nicht erwähnt."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Förderschule, Sonderschule, Förderzentrum, Schulform, Regelschule, sonderpädagogisch, Förderbedarf, Inklusion, gemeinsames Lernen (Kap. 6 Bildung S. 40-44, Kap. 14.4 Inklusion S. 93); Förderschulen werden weder genannt noch ihr Erhalt oder ihre Auflösung gefordert."
+        },
+        {
+          "partei_id": 104,
+          "position": "ja",
+          "kurzfassung": "Die FDP setzt sich als Alternative zur inklusiven Regelschule für den Erhalt der Förderschulen ein und lehnt die Schließung von Förderzentren ab.",
+          "zitat": "Unser Ziel ist eine inklusive Schule, in der Unterstützung fachlich fundiert, verlässlich und respektvoll geleistet wird - für echte Bildungsgerechtigkeit und Teilhabe von Anfang an. Als Alternative für Eltern und Kinder setzen wir uns für den Erhalt der Förderschulen ein.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=92",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will die Förderschulen dauerhaft erhalten und weiterentwickeln und lehnt eine pauschale Inklusion ab, die auf ihre Abschaffung hinausläuft.",
+          "zitat": "Die nötigen Voraussetzungen für die Inklusion – speziell ausgebildetes sonderpädagogisches Fachpersonal, kleine Klassen und auf Berufsorientierung ausgerichteter Unterricht – sind in Förderschulen vorhanden. Diese Schulen wollen und werden wir deshalb dauerhaft erhalten und weiterentwickeln.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "nein",
+          "kurzfassung": "Die Linke will alle Förderschulen schrittweise in inklusive Regelschulen umwandeln.",
+          "zitat": "Alle Förderschulen schrittweise in inklusive Regelschulen umwandeln.",
+          "beleg_url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 107,
+          "position": "ja",
+          "kurzfassung": "Das BSW will Förderschulen dauerhaft als gleichwertige Wahlmöglichkeit neben bedarfsgerechter Inklusion an allen Schulen erhalten und weiterentwickeln.",
+          "zitat": "Dauerha er Erhalt und Weiterentwicklung von Förderschulen als gleichwer ge Wahlmöglichkeit, um Eltern und Kindern bedarfsgerechte Alterna ven zu bieten.",
+          "beleg_url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf#page=48",
+          "begruendung": null
+        },
+        {
+          "partei_id": 108,
+          "position": "ja",
+          "kurzfassung": "Die Freien Wähler wollen die Förderschulen und überregionalen Förderzentren erhalten und wieder einrichten, besonders für den Förderschwerpunkt Lernen, wo Inklusion nicht möglich ist.",
+          "zitat": "Erhalt und die Wiedereinrichtung der überregionalen Förderzentren und der Förderschulen (besonders Förderschwerpunkt “Lernen”), wenn Inklusion nicht möglich ist",
+          "beleg_url": "https://freie-waehler-mv.eu/wp-content/uploads/2026/06/LTW_2026_Wahlprogramm_FW-M-V_A5_interaktiv.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Förderschulen werden im Programm nicht genannt; gesucht: Förderschul, Förderzentr, Inklusion, Sonderschul. Verwandt nur S. 11: „inklusive Schule für alle“ unter „Langfristige Abschaffung des dreigliedrigen Schulsystems“ – keine Aussage zum Erhalt der Förderschulen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-35",
+      "wahl": "mv26",
+      "frage": "Sollen Asylsuchende ohne Bleibeperspektive bis zur Ausreise in Landeseinrichtungen bleiben?",
+      "beschreibung": "Ob Asylsuchende ohne Aussicht auf ein Bleiberecht nicht mehr auf Städte und Gemeinden verteilt werden, sondern bis zur Ausreise oder Abschiebung in zentralen Einrichtungen des Landes untergebracht bleiben.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Asyl, Bleibeperspektive, Bleiberecht, Erstaufnahme, Landeseinrichtung, Unterbringung, Unterkunft, Verteilung, Kommunen, Ankerzentrum, Ausreisezentrum, Geflüchtete, Flüchtlinge, Schutzsuchende, Duldung (Kapitel Sicherheitsland, Abschnitt „Migration ordnen, Humanität und Ordnung verbinden“, Kommunen). Nur Rückführungen bei fehlendem Bleiberecht und Arbeitsgelegenheiten für Asylbewerber in den Kommunen (S. 36), nichts dazu, wo Asylsuchende ohne Bleibeperspektive untergebracht werden."
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bleibeperspektive, Bleiberecht, Erstaufnahme, Landeseinrichtung, Unterbringung, Gemeinschafts-/Sammelunterkunft, Ausreise*, Abschieb*, Rückführ*, Rückkehr, Duldung, Asyl, Geflüchtete, Kommunen; Kapitel Asyl und Migration mit Humanität und klaren Regeln (S. 60-61). Keine Aussage speziell zu Asylsuchenden ohne Bleibeperspektive."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bleibeperspektive, Ausreise, Erstaufnahme, Landeseinrichtung, zentrale Unterbringung, Verteilung, Kommunen, Sammelunterkunft, Gemeinschaftsunterkunft (Kap. 14.3 Flucht und Asyl S. 92, Kap. 13 S. 86, Kap. 6 S. 44); zur Unterbringung von Asylsuchenden ohne Bleibeperspektive bis zur Ausreise steht nichts."
+        },
+        {
+          "partei_id": 104,
+          "position": "ja",
+          "kurzfassung": "Die FDP will Menschen ohne Bleibeperspektive nicht auf die Kommunen verteilen, sondern in den Erstaufnahmeeinrichtungen belassen und von dort direkt zurückführen.",
+          "zitat": "Abschiebungen bei Vorliegen der gesetzlichen Voraussetzungen konsequent umsetzen und dafür ausreichend Plätze in der Abschiebungshaft bereitstellen- Menschen ohne Bleibeperspektive in den Erstaufnahmeeinrichtungen belassen und die direkte Rückführung von dort sicherstellen.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=144",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will Ausreisepflichtige in gesonderten landeseigenen Ausreiseeinrichtungen unterbringen und die kommunale Unterbringungsstruktur für Asylbewerber zurückbauen.",
+          "zitat": "Ausreisepflichtige werden wir in gesonderten Ausreiseeinrichtungen unterbringen. Kriminelle und gewaltauffällige Asylbewerber und Ausreisepflichtige bringen wir bis zu ihrer Abschiebung zum Schutz der Bürger außerhalb von Ortschaften unter.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=50",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Zur Unterbringung von Asylsuchenden ohne Bleibeperspektive bis zur Ausreise steht nichts im Programm; gesucht: Erstaufnahme, Landeseinrichtung, Ausreise, Bleibeperspektive, Unterbringung. Verwandt nur S. 13: dezentrale Unterbringung von Geflüchteten allgemein."
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bleibeperspek(tive), Bleiberecht, Erstaufnahme, Aufnahmeeinrichtung, Landeseinrichtung, Unterbring(ung), Gemeinschaftsunterkunft, Ausreisezentrum, Verteilung, Kommunen, Asyl, Geflüchtete; Kapitel 6.2 Zuwanderung (S. 72–74) und 7 Starke Kommunen. Nur verwandt: „Gerechte Verteilung von Geﬂüchteten nach der tatsächlichen Leistungsfähigkeit von Kommunen“ und Finanzierung der Unterbringung durch Land und Bund (S. 74) – kein Verbleib von Asylsuchenden ohne Bleibeperspektive in Landeseinrichtungen bis zur Ausreise."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesamtes Programm (34 Seiten) geprüft; durchsucht (auch mit Ligaturlücken): Asyl, Flücht/Flucht, Geflüchtete, Schutzsuchende, Migra, Integra, Zuwander/Einwander, Zuzug, Ausländ, Aufnahme/Erstaufnahme, Unterbringung, Bleibe, Ausreise, Duldung (Präambel, Sofortprogramm inkl. „Finanzielle Entlastung der Kommunen“, 3.2 Sicherheit, 3.2.3 Justiz). Das Programm behandelt Asyl und Migration nicht; „Zuzug“ (S. 10) meint nur ältere Zuziehende."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Asyl*, Bleibeperspektive, Bleiberecht, Ausreise*, Erstaufnahme, Aufnahmeeinrichtung, Landeseinrichtung, Unterbring*, Unterkun*, Sammel*, Verteil*, Geflüchtet*, Duldung. Das Kapitel 'Geflüchtete und Zugewanderte gleichberechtigt einbinden' (S. 16) fordert Arbeitsmarktzugang, Bankkonten und Integrationsleistungen ab Tag Eins statt Bezahlkarten, sagt aber nichts zur Unterbringung oder Verteilung von Asylsuchenden ohne Bleibeperspektive."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-36",
+      "wahl": "mv26",
+      "frage": "Soll Mecklenburg-Vorpommern ausreisepflichtige Asylbewerber konsequenter abschieben?",
+      "beschreibung": "Ob das Land abgelehnte Asylbewerber ohne Bleiberecht schneller und konsequenter in ihre Herkunftsländer zurückführt, statt Abschiebungen in bestimmte Länder oder Fallgruppen auszusetzen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "ja",
+          "kurzfassung": "Die CDU will Rückführungen bei fehlendem Bleiberecht konsequent umsetzen, etwa mit Handyortung bei untergetauchten Ausreisepflichtigen, um gescheiterte Abschiebungen zu verringern.",
+          "zitat": "Wir werden Migration konsequenter steuern, indem Rückführungen bei fehlendem Bleiberecht umgesetzt werden.",
+          "beleg_url": "https://danielpeters-mv.de/wp-content/uploads/2026/06/Wahlprogramm-CDU-MV-2026.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschieb*, Rückführ*, Rückkehr, ausreisepflichtig, Ausreise*, Herkunftsländer, Duldung, geduldet, Ausländerbehörde, irregulär, Asyl, Migration; Kapitel Asyl und Migration (S. 60-61) und Innenpolitik. Abschiebungen werden nicht erwähnt."
+        },
+        {
+          "partei_id": 103,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt Abschiebungen aus Schutzräumen, familientrennende Abschiebungen und Abschiebungen in Verfolgungsgebiete ab und fordert einen Abschiebestopp für Afghan*innen, Iraner*innen und Jesid*innen.",
+          "zitat": "Auf Landesebene setzen wir uns daher für einen konsequenten Abschiebestopp von Afghan*innen, Iraner*innen und Jesid*innen ein.",
+          "beleg_url": "https://gruene-mv.de/download/programm-zur-landtagswahl-2026/?wpdmdl=33772#page=92",
+          "begruendung": null
+        },
+        {
+          "partei_id": 104,
+          "position": "ja",
+          "kurzfassung": "Die FDP will Abschiebungen bei Vorliegen der Voraussetzungen konsequent umsetzen und Vollzugsdefizite beseitigen.",
+          "zitat": "Abschiebungen müssen bei Vorliegen der Voraussetzungen konsequent umgesetzt werden. Vollzugsdefizite bei Abschiebungen darf es nicht geben.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=143",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will kriminelle und vollziehbar ausreisepflichtige Migranten konsequent abschieben, unter anderem mit eigener Abschiebungshaft und einer Grenz- und Rückführungspolizei.",
+          "zitat": "Die illegale Einwanderung werden wir eindämmen, indem wir kriminelle und vollziehbar ausreisepflichtige Migranten konsequent abschieben.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "nein",
+          "kurzfassung": "Die Linke will alle Abschiebungen in Kriegsgebiete wie Syrien, Afghanistan und Iran stoppen und lebensgefährliche Abschiebungen beenden.",
+          "zitat": "Alle Abschiebungen in Kriegsgebiete inklusive Syrien, Afghanistan und den Iran stoppen und eine verbindliche Bleibeperspektive für alle Geflüchteten in Ausbildung oder Qualifizierungsmaßnahmen.",
+          "beleg_url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf#page=13",
+          "begruendung": null
+        },
+        {
+          "partei_id": 107,
+          "position": "teils",
+          "kurzfassung": "Das BSW will bestehende Ausreisepflichten konsequent durchsetzen, aber nur, wenn kein Aufenthaltsrecht besteht und Integrationsbemühungen fehlen, und fordert Härtefallregelungen für gut integrierte Menschen.",
+          "zitat": "Bestehende Ausreisepﬂichten müssen konsequent und rechtsstaatlich durchgesetzt werden, wenn kein Aufenthaltsrecht besteht und Integra onsbemühungen fehlen – menschenwürdig und nachvollziehbar.",
+          "beleg_url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf#page=73",
+          "begruendung": null
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschieb, Rückführ, ausreisepflichtig/Ausreise, Duldung, Herkunft, Asyl (3.2.1 Innere Sicherheit, 3.2.3 Justiz, Sofortprogramm). Keine Aussage zu Abschiebungen; einziger Treffer „abschieben“ betrifft Tierschutzaufgaben der Kommunen (S. 31)."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Abschieb*, Rückführ*, Rückkehr, Ausreise*, ausreisepflichtig, abgelehnt*, Duldung, Asyl*, Migration. Treffer nur zu Integration Geflüchteter (S. 16) und zu 'gemeinsame Asylstandards' auf EU-Ebene im Kapitel 'Freizügigkeit im Schengenraum erhalten' (S. 47); keine Aussage zu Abschiebungen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-37",
+      "wahl": "mv26",
+      "frage": "Soll sich Mecklenburg-Vorpommern für einen deutlich niedrigeren Rundfunkbeitrag einsetzen?",
+      "beschreibung": "Ob das Land bei den Rundfunkstaatsverträgen darauf hinwirkt, dass der Rundfunkbeitrag für ARD, ZDF und Deutschlandradio deutlich sinkt oder ganz entfällt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "teils",
+          "kurzfassung": "Die CDU bekennt sich zum öffentlich-rechtlichen Rundfunk und will per Strukturreform Effizienzpotenziale heben, um die Beitragsstabilität zu verbessern, fordert aber keine deutliche Senkung des Beitrags.",
+          "zitat": "Zugleich unterstützen wir eine Strukturreform mit dem Ziel, Effizienzpotenziale zu heben, Doppelstrukturen abzubauen, um die Beitragsstabilität für die Rundfunkbeitragszahler zu verbessern.",
+          "beleg_url": "https://danielpeters-mv.de/wp-content/uploads/2026/06/Wahlprogramm-CDU-MV-2026.pdf#page=131",
+          "begruendung": null
+        },
+        {
+          "partei_id": 102,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk*, Rundfunkbeitrag, Beitrag, GEZ, NDR, ARD, ZDF, öffentlich-rechtlich, Medienstaatsvertrag, Medienpolitik; Kapitel Medienkompetenz stärken und Medienvielfalt sichern (S. 44-45). Keine Aussage zur Höhe des Rundfunkbeitrags."
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk, Rundfunkbeitrag, Beitrag, öffentlich-rechtlich, NDR, ARD, ZDF, Deutschlandradio, Staatsvertrag, Medien, Presse, Sender (gesamtes Programm, u. a. Kap. 12 Bürgerrechte S. 73-76); Medien nur als Medienbildung/-kompetenz, zum Rundfunk kein Treffer."
+        },
+        {
+          "partei_id": 104,
+          "position": "ja",
+          "kurzfassung": "Die FDP will den Rundfunkbeitrag mittel- bis langfristig deutlich senken, indem der Auftrag präzisiert und Strukturen verschlankt werden.",
+          "zitat": "den Rundfunkbeitrag mittel- bis langfristig deutlich senken, indem der Finanzbedarf strikt am präzisierten Auftrag, den verschlankten Strukturen sowie den Grundsätzen von Wirtschaftlichkeit und Sparsamkeit ausgerichtet wird.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=152",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD will NDR-Staatsvertrag und Medienstaatsvertrag kündigen, einen schlanken „Grundfunk“ einführen und den Rundfunkbeitrag abschaffen.",
+          "zitat": "Weg vom zwangsfinanzierten Vollprogramm, hin zu einem schlanken Grundfunk, der sich auf objektive Information, Bildung, Kultur und regionale Berichterstattung beschränkt. Der Rundfunkbeitrag wird abgeschafft.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk(beitrag), Beitrag(szahlungen), ARD, ZDF, NDR, öffentlich-rechtlich (auch mit Ligaturlücke), GEZ, Staatsvertrag, Medien, Presse, Sender – Kapitel 18 Digitales und Medien (S. 27–28). Keine Aussage zur Höhe des Rundfunkbeitrags."
+        },
+        {
+          "partei_id": 107,
+          "position": "ja",
+          "kurzfassung": "Das BSW hält den Rundfunkbeitrag für zu hoch und will ihn auf zehn Euro im Monat begrenzen.",
+          "zitat": "Der Rundfunkbeitrag ist für Menschen mit kleinen und mi leren Einkommen zu hoch. Wir setzen uns dafür ein, dass er auf zehn Euro im Monat begrenzt wird.",
+          "beleg_url": "https://mv.bsw-vg.de/wp-content/uploads/2026/04/Landeswahlprogramm-2026.pdf#page=56",
+          "begruendung": null
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Rundfunk, Rundfunkbeitrag, GEZ, ARD, ZDF, öffentlich-rechtlich, Medien, Beitrag, Staatsvertrag (3.7 Kultur, Präambel, Sofortprogramm). Medien nur als Medienkompetenz/Medienpädagogik an Schulen (S. 14–15), nichts zum Rundfunkbeitrag."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Rundfunk*, ARD, ZDF, NDR, öffentlich-rechtlich, Beitrag, GEZ, Staatsvertr*, Presse, Journalis*, Sender. Keine Treffer zum Rundfunk; 'Medien' kommt nur als Medien- und Demokratiebildung in Schulen vor (Kapitel 'Medien- und Demokratiebildung von Anfang an', S. 7)."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "mv26-38",
+      "wahl": "mv26",
+      "frage": "Sollen Schwangerschaftsabbrüche im Strafgesetzbuch geregelt bleiben?",
+      "beschreibung": "Ob Schwangerschaftsabbrüche weiterhin im Strafgesetzbuch geregelt bleiben – straffrei nur nach Beratung in den ersten zwölf Wochen –, statt § 218 zu streichen und Abbrüche zu entkriminalisieren (Einsatz des Landes im Bundesrat).",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 101,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Schwangerschaft, Schwangerschaftsabbruch, Abbruch, Abtreibung, § 218, Strafgesetzbuch, StGB, entkriminalisieren, Lebensschutz, ungeboren, Schwangerenkonfliktberatung, Selbstbestimmung, Frauengesundheit (Kapitel Gesundheit, Familie, Sicherheitsland). Nur Geburtshilfe und Frauengesundheit allgemein, nichts zur Regelung von Schwangerschaftsabbrüchen."
+        },
+        {
+          "partei_id": 102,
+          "position": "nein",
+          "kurzfassung": "Die SPD will sich im Bund für die Entkriminalisierung von Schwangerschaftsabbrüchen und die ersatzlose Streichung der §§ 218 und 218a StGB einsetzen.",
+          "zitat": "Wir werden uns auf Bundesebene für die Entkriminalisierung von Schwangerschaftsabbrüchen und die ersatzlose Streichung der § 218 und § 218a Strafgesetzbuch einsetzen.",
+          "beleg_url": "https://spd-mv.de/uploads/bilderpool/2-Mecklenburg-Vorpommern/Wahlen-und-Kandidaturen/2026-Landtagswahlen/SPD_MV_Programm_2026.pdf#page=38",
+          "begruendung": null
+        },
+        {
+          "partei_id": 103,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: § 218, Paragraf, Strafgesetzbuch, StGB, Strafrecht, entkriminalisieren, legal, Beratungspflicht, Schwangerschaftsabbruch, reproduktive Selbstbestimmung, Bundesrat (Kap. 13 Frauen S. 81, 13.2 Gesundheitsversorgung und Selbstbestimmung S. 83); zur strafrechtlichen Regelung kein Treffer."
+        },
+        {
+          "partei_id": 104,
+          "position": "nein",
+          "kurzfassung": "Die FDP setzt sich für die vollständige Entkriminalisierung des Schwangerschaftsabbruchs ein.",
+          "zitat": "uns für die vollständige Entkriminalisierung des Schwangerschaftsabbruchs einsetzen.",
+          "beleg_url": "https://www.fdp-mv.de/sites/default/files/2026-06/Landtagswahlprogramm_2026.pdf#page=38",
+          "begruendung": null
+        },
+        {
+          "partei_id": 105,
+          "position": "ja",
+          "kurzfassung": "Die AfD hält an der geltenden Fristenregelung fest und lehnt eine Legalisierung von Abtreibungen ohne Beratung und ohne Frist ab.",
+          "zitat": "Wir halten an der bewährten Fristenregelung fest und lehnen jede Bestrebung ab, Abtreibungen ohne Beratung, ohne medizinische Notwendigkeit und ohne Frist bis unmittelbar vor der Geburt zu legalisieren.",
+          "beleg_url": "https://afd-mv.de/wp-content/uploads/2026/06/AfD-Regierungsprogramm-Mecklenburg-Vorpommern-2026.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 106,
+          "position": "nein",
+          "kurzfassung": "Die Linke unterstützt auf Bundesebene die ersatzlose Abschaffung des § 218 StGB und will Schwangerschaftsabbrüche als Teil der Gesundheitsversorgung anerkennen.",
+          "zitat": "Auf Bundesebene die ersatzlose Abschaffung des § 218 StGB unterstützen und Schwangerschaftsabbrüche als Teil der Gesundheitsversorgung anerkennen.",
+          "beleg_url": "https://wahlprogramm26.die-linke-mv.de/wp-content/uploads/sites/77/2026/08/LINKE-MV_LTW26_Langwahlprogramm_A4_web.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 107,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (mit Mustern, die Ligaturlücken erlauben, z. B. „Schwangerscha“): Schwangerschaft, § 218, Abtreibung, Abbruch/Abbrüche, Strafgesetzbuch, Lebensschutz, ungeboren, reproduktiv, Beratungsstelle, Gynäkologie, Geburt, Hebamme, Familienplanung, Verhütung; Kapitel 5 Gesundheit (S. 55–64), 6.1 mit „Schutz von Frauen und Mädchen“ (S. 71–72) und 2 Soziale Gerechtigkeit/Familie. Nur verwandt: Landesfonds für bezahlbare Verhütung (S. 57); zu Schwangerschaftsabbrüchen und § 218 nichts."
+        },
+        {
+          "partei_id": 108,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Schwanger, Abtreib, Abbruch/Abbr, § 218, Lebensschutz, ungeboren, Frauen, Gesundheit (Präambel, Sofortprogramm Familienpolitik, 3.4.1 Versorgung, 3.2.3 Justiz). Keine Aussage zu Schwangerschaftsabbrüchen; „Abbrecherquoten“ (S. 14) betrifft Lehramtsstudium."
+        },
+        {
+          "partei_id": 109,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Schwanger*, 218, Abtreib*, Abbruch/Abbrüche, reproduktiv*, Selbstbestimm*, körperlich*, Gynäkolog*, Frauengesundheit, Verhütung, Strafgesetz*, entkriminal*, Frauen*, Gleichstell*. Keine Treffer zum Schwangerschaftsabbruch; Frauen kommen nur im Gewaltschutz (Femizide, Schutzhäuser, S. 15) vor."
         }
       ],
       "zielkonflikte": []
