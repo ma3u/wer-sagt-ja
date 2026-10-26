@@ -45,12 +45,20 @@ Gäste folgen automatisch. Je Frage:
 
 Was richtig ist, leitet das Spiel ab (`src/katalog.ts`): Gefragt wird **immer, wer Ja sagt**. Richtig sind nur
 Parteien mit `ja`; „keine Aussage“ wird nie als Ja oder Nein gewertet und so angezeigt – ein Kreuz dort ist kein
-Treffer, weil die Partei nicht Ja sagt. Eine Frage, zu der keine Partei Ja sagt oder alle, ist nicht spielbar. `npm run fragen` zeigt je Wahl und Frage, wer Ja sagt, und meldet
+Treffer, weil die Partei nicht Ja sagt. Eine Frage, zu der keine Partei Ja sagt, ist nicht spielbar – ebenso eine, bei der keine Partei Nein sagt oder
+nichts dazu sagt, denn „teils“ zählt weder als richtig noch als falsch. `npm run fragen` zeigt je Wahl und Frage, wer Ja sagt, und meldet
 Fehler; `npm test` prüft die Datei ebenso. Neue oder geänderte Fragen brauchen danach neue Aufnahmen
 (`npm run stimmen`, kostet ElevenLabs-Credits) – ebenso jede neue Wahl die Ansage ihrer Antwortmöglichkeiten.
 
 Zurzeit sind alle Fragen **KI-Entwürfe, noch nicht von Menschen geprüft** – das Spiel sagt das auf der Startseite und
 in jeder Auflösung.
+
+Neue Fragen mit Belegen ergänzen: Die Programme liegen als PDF und Textauszug unter `.cache/landtagswahlen/<wahl>/`
+(nicht eingecheckt, `pdftotext -layout` und `pdftotext`; bei Spaltensatz zusätzlich `_sp.txt` oder `pdftotext -raw`
+als `_raw.txt`). Dort stehen die neuen Fragen in `neue-fragen.json`, je Partei die Recherche in `neu-<kurz>.json` nach
+`scripts/recherche/anleitung.md`. `npm run ergaenzen -- <wahl>` prüft jedes Zitat wörtlich gegen den Programmtext und
+zeigt, welche Fragen spielbar wären; mit `--schreiben` (und optional `--nur id1,id2`) kommen sie in `public/fragen.json`,
+bestehende Fragen bleiben unverändert.
 
 Zum Prüfen zeigt `#/fragen` alle Fragen mit Position, Wortlaut und Beleg jeder Partei, nach Partei filterbar
 (`#/fragen/volt`); andere Wahlen stehen davor (`#/be26/fragen/volt`). Je Position öffnen „Position bestätigen“ und „Fehler melden“ ein vorausgefülltes GitHub-Issue mit

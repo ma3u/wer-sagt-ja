@@ -65,6 +65,10 @@ export function fehlerIn(e: FragenEintrag, parteien: QuizPartei[]): string[] {
   const { richtig } = auswerten(e.positionen)
   if (!richtig.length) fehler.push('keine Partei sagt Ja – das Quiz fragt nur, wer Ja sagt')
   else if (richtig.length >= parteien.length) fehler.push('alle Parteien sagen Ja – es gibt nichts zu raten')
+  // „teils“ zählt im Spiel weder als richtig noch als falsch – ohne Nein und ohne „keine Aussage“ wäre alles ankreuzen
+  // immer richtig (Issue #1, Ratbarkeit).
+  else if (!e.positionen.some((p) => p.position === 'nein' || p.position === 'keine_aussage'))
+    fehler.push('keine Partei sagt Nein oder nichts – es gibt nichts zu raten')
   return fehler
 }
 
