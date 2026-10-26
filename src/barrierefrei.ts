@@ -1,5 +1,5 @@
 import { useEffect, useRef, useSyncExternalStore } from 'react'
-import { APP_NAME, UNTERTITEL } from './app'
+import { APP_NAME, SEITENTITEL } from './app'
 
 // Hilfen für Barrierefreiheit (WCAG 2.2 AA), für Quiz und Unterseiten gemeinsam.
 
@@ -21,7 +21,7 @@ export function useAnsicht<T extends HTMLElement = HTMLHeadingElement>(titel: st
     // Das Quiz bleibt unter einer Unterseite versteckt geladen – dann bestimmt die Unterseite den Titel.
     if (ref.current?.closest('[hidden]')) return
     const vorher = document.title
-    document.title = titel ? `${titel} – ${APP_NAME}` : `${APP_NAME} – ${UNTERTITEL}`
+    document.title = titel ? `${titel} – ${APP_NAME}` : SEITENTITEL
     // Unterseiten liegen über dem Spiel: Beim Schließen gilt wieder der Titel darunter.
     return () => {
       document.title = vorher
