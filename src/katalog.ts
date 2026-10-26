@@ -15,7 +15,7 @@ export interface FragenEintrag {
   id: string
   /** Zu welcher Wahl die Frage gehört (`wahlen[].id`). */
   wahl: string
-  /** Ja/Nein-Frage, neutral formuliert. Gefragt wird im Spiel immer, wer Ja sagt. */
+  /** Klare, gern zugespitzte Ja/Nein-Frage (Leitlinie: README, „Ausgewogenheit“). Gefragt wird immer, wer Ja sagt. */
   frage: string
   beschreibung: string
   /** true, solange die Positionen nur mit KI-Hilfe erfasst und noch nicht von Menschen geprüft sind. */

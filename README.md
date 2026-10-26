@@ -37,7 +37,7 @@ Gäste folgen automatisch. Je Frage:
 | --- | --- |
 | `id` | Stabile Kennung, über alle Wahlen eindeutig, nie ändern – die Aufnahmen heißen danach (`frage-<id>.mp3`, `loesung-<id>.mp3`); neue Wahlen bekommen ein Präfix (`be-1`) |
 | `wahl` | Kennung der Wahl, zu der die Frage gehört |
-| `frage`, `beschreibung` | Neutral formulierte Ja/Nein-Frage mit Fragezeichen und eine Erläuterung |
+| `frage`, `beschreibung` | Klare Ja/Nein-Frage mit Fragezeichen – zuspitzen ist erwünscht (siehe „Ausgewogenheit“) – und eine Erläuterung, die den heutigen Stand nennt |
 | `positionen` | Genau eine je Partei der Wahl: `ja`, `nein`, `teils` oder `keine_aussage`. Ja, Nein und teils immer mit wörtlichem `zitat` und `beleg_url` (Seite im Programm), keine Aussage mit `begruendung`, was durchsucht wurde |
 | `zielkonflikte` | Argumente beider Seiten mit Quelle (optional, leere Liste) |
 | `ki_entwurf` | `true`, solange die Positionen nicht von Menschen geprüft sind – das Spiel sagt das dann an |
@@ -56,6 +56,54 @@ Zum Prüfen zeigt `#/fragen` alle Fragen mit Position, Wortlaut und Beleg jeder 
 (`#/fragen/volt`); andere Wahlen stehen davor (`#/be26/fragen/volt`). Je Position öffnen „Position bestätigen“ und „Fehler melden“ ein vorausgefülltes GitHub-Issue mit
 Frage, Partei, eingetragener Position, Zitat und Beleg (`src/uebersicht.ts`). Bestätigt jemand eine Position, kommt
 das Issue als `geprueft` an die Position; Übersicht und Auflösung zeigen sie dann als geprüft.
+
+## Ausgewogenheit
+
+**Das Spielprinzip bleibt:** Gefragt wird immer, wer Ja sagt, nie nach Nein. Die Fragen dürfen und sollen zuspitzen –
+gerade Themen, die in der Bevölkerung heiß diskutiert werden. Weicher formuliert wären sie kaum greifbar.
+
+**Ausgewogen sein muss die Auswahl der Fragen, nicht ihr Ton.** Jede Partei soll ihre zentralen Forderungen als
+Ja-Frage wiederfinden, egal wo sie steht. Diskussion und erste Analyse:
+[Issue #1](https://github.com/ma3u/wer-sagt-ja/issues/1).
+
+Leitlinie für neue Fragen:
+
+1. **Kontrovers und klar:** eine Forderung, die im Wahlkampf umstritten ist, als Ja/Nein-Frage. Begriffe aus der
+   öffentlichen Debatte sind erlaubt, auch zugespitzte.
+2. **Gleich scharf für alle Seiten:** Übernimmt eine Frage die Begriffe einer Seite, bekommt die Gegenseite eine ebenso
+   zugespitzte Frage in ihren Begriffen.
+3. **Profilfragen für jede Partei:** Je Katalog hat jede Partei mindestens zwei Fragen, bei denen sie mit höchstens
+   einer anderen Partei Ja sagt. An solchen Fragen erkennt man eine Partei im Spiel.
+4. **Keine Schlagseite:** Je Dimension (wirtschaftlich, gesellschaftlich) ist mindestens ein Drittel der Fragen
+   gerichtet, und von den gerichteten Fragen kommt das Ja bei höchstens 60 % vom selben Pol. Fehlt eine Seite, werden
+   Fragen ergänzt – nicht bestehende abgeschwächt.
+5. **Keine erfundenen Positionen:** Ausgewogenheit entsteht nie dadurch, dass einer Partei ein Ja zugeschrieben wird,
+   das nicht im Programm steht. Ergänzt werden Fragen, nicht Positionen.
+6. **Ratbar:** Mindestens eine Partei sagt weder Ja noch teils – sonst gibt es nichts zu raten.
+7. **„Keine Aussage“ belegen:** Haben zu wenige Parteien eine Aussage, ist das oft eine Lücke der Erfassung – erst das
+   Programm erneut durchsuchen, dann `begruendung` genau angeben.
+
+`npm run fragen` zeigt je Frage die Richtung und je Wahl die Verteilung, die Profilfragen je Partei und Warnungen (⚠)
+zu diesen Punkten; die Warnungen sind ein Arbeitsauftrag und lassen die Prüfung nicht scheitern. Die Übersicht
+(`#/fragen`) zeigt dieselben Zahlen unter „Ausgewogenheit dieses Katalogs“. Berechnet werden sie in
+`src/ausgewogenheit.ts`:
+
+- **Parteipositionen** auf zwei Dimensionen aus dem Chapel Hill Expert Survey 2024, unabhängig von den Programmen:
+  wirtschaftlich (LRECON, 0 = mehr Staat und Umverteilung, 10 = mehr Markt) und gesellschaftlich (GALTAN,
+  0 = grün-alternativ-libertär, 10 = traditionell-autoritär-national). Eine Achse links–rechts reicht nicht, um das
+  Parteiensystem abzubilden. CHES verortet Bundesparteien, für Landtagswahlen gelten sie als Näherung; „Union“ ist das
+  nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt ist in CHES 2024 nicht enthalten und zählt bei der
+  Richtung nicht mit, bei den Profilfragen aber schon. Quelle: Rovny, Polk, Bakker, Hooghe, Jolly, Marks, Steenbergen &
+  Vachudova (2025), „The 2024 Chapel Hill Expert Survey on political party positioning in Europe“, *Electoral Studies*
+  97, 102981, [doi:10.1016/j.electstud.2025.102981](https://doi.org/10.1016/j.electstud.2025.102981); Daten von
+  [chesdata.eu](https://www.chesdata.eu/ches-europe).
+- **Richtung je Frage und Dimension:** Rangkorrelation nach Spearman (ρ) zwischen der Antwort (Ja 1, teils 0,5,
+  Nein 0; „keine Aussage“ fehlt) und der CHES-Position, ab mindestens vier Parteien. Ab |ρ| ≥ 0,5 ist die Frage auf der
+  Dimension gerichtet; das Vorzeichen sagt, von welchem Pol das Ja kommt. Je Dimension steht auch das mittlere ρ da –
+  nahe 0 heißt ausgeglichen.
+
+Methode, Begründung und geprüfte Alternativen: [Issue #1](https://github.com/ma3u/wer-sagt-ja/issues/1),
+„Methode der Überarbeitung“. Die Schwellen sind Konventionen und werden mit Fachleuten abgestimmt.
 
 ## Technik
 
@@ -95,9 +143,10 @@ Adresse `ma3u.github.io/wer-sagt-ja/` leitet dorthin weiter). Vor dem öffentlic
 
 ```
 src/            App: Quiz.tsx (Start, Räume), Ansicht.tsx (Frage, Auflösung, Ergebnis), spielleitung.ts (Regeln),
-                verbindung.ts (WebRTC + Firebase), show/ (Moderation, Ton), Uebersicht.tsx (alle Fragen), Rechtliches.tsx
+                verbindung.ts (WebRTC + Firebase), show/ (Moderation, Ton), Uebersicht.tsx (alle Fragen), Rechtliches.tsx,
+                ausgewogenheit.ts (Richtung und Profilfragen je Katalog)
 public/         fragen.json (Fragen und Positionen), audio/ (Stimmen und Geräusche), Vorschaubilder, llms.txt
-scripts/        fragen.ts (Übersicht und Prüfung), stimmen.ts (ElevenLabs), vorschau.ts, aufraeumen.ts (Firebase)
+scripts/        fragen.ts (Übersicht, Prüfung und Ausgewogenheit), stimmen.ts (ElevenLabs), vorschau.ts, aufraeumen.ts (Firebase)
 firebase/       Regeln der Realtime Database
 ```
 

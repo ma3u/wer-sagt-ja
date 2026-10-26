@@ -10,6 +10,9 @@ ohne KI im Spiel. Alles Wichtige steht in README.md.
   Je Wahl (`wahlen[]`) eigene Parteien und Fragen (`fragen[].wahl`); die erste Wahl ist die Standardwahl. Eine
   Position nur mit wörtlichem Zitat und Beleg-Link aus dem Programm setzen oder ändern; `id` nie ändern.
 - Gefragt wird immer, wer Ja sagt – nie nach Nein (Texte, Ansagen, Stempel).
+- Spielprinzip bleibt, Auswahl wird ausgewogen: Fragen dürfen zuspitzen; jede Partei soll ihre Forderungen als
+  Ja-Frage wiederfinden (Leitlinie in README.md, „Ausgewogenheit“; Kennzahlen in `src/ausgewogenheit.ts`). Schlagseite
+  durch zusätzliche, gleich scharfe Fragen der Gegenseite beheben – nie Fragen abschwächen oder Positionen erfinden.
 - Stimmen (`public/audio/`) erzeugt `npm run stimmen` über ElevenLabs – kostet Credits; Schlüssel nur in `.env.local`,
   nie einchecken.
 - Vorschaubild und App-Icons (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` (Chrome, ffmpeg).
