@@ -3458,6 +3458,598 @@
       "zielkonflikte": []
     },
     {
+      "id": "h46",
+      "wahl": "btw25",
+      "frage": "Soll der Solidaritätszuschlag für hohe Einkommen und Unternehmen bestehen bleiben?",
+      "beschreibung": "Ob der verbliebene Soli, den heute vor allem Spitzenverdiener, Kapitalgesellschaften und Kapitalerträge zahlen, weiter erhoben oder abgeschafft wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Die Union will den verbliebenen Solidaritätszuschlag vollständig abschaffen.",
+          "zitat": "Weg mit dem Rest-Soli. Wir schaffen den restlichen Solidaritätszuschlag ab. Er hat seine Aufgabe längst erfüllt, ist fast 35 Jahre nach der Wiedervereinigung nicht mehr zu rechtfertigen und belastet Unternehmen, Fachkräfte und Sparer.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=16",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "ja",
+          "kurzfassung": "Die SPD will den Solidaritätszuschlag für Spitzenverdiener, Kapitalgesellschaften und Kapitalerträge weiterführen, ohne den Kreis der Zahler auszuweiten.",
+          "zitat": "Bei der Bewältigung der Generationenaufgabe Wiedervereinigung hat sich der Solidaritätszuschlag bewährt. Wir werden dieses Instrument weiterführen; es dient der Finanzierung der Transformation unseres Landes.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=19",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "teils",
+          "kurzfassung": "Die Grünen wollen den Solidaritätszuschlag nicht als eigene Abgabe fortführen, sondern in den Einkommensteuertarif einbauen.",
+          "zitat": "Den Solidaritätszuschlag werden wir in den Einkommensteuertarif integrieren.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=74",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "nein",
+          "kurzfassung": "Die FDP will den Solidaritätszuschlag vollständig abschaffen, auch für Unternehmen.",
+          "zitat": "Darüber hinaus wollen wir den Solidaritätszuschlag vollständig abschaffen. Denn er hat sich mittlerweile zu einer Strafsteuer für den Mittelstand entwickelt.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "nein",
+          "kurzfassung": "Die AfD will den Solidaritätszuschlag für alle abschaffen.",
+          "zitat": "Abschaffung des Solidaritätszuschlags für alle",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Die Linke will den Solidaritätszuschlag für die einkommensstärksten zehn Prozent beibehalten und kleine Einkommen entlasten.",
+          "zitat": "Wir wollen den Solidaritätszuschlag für die reichsten 10 Prozent der Einkommen erhalten und Menschen mit geringen Einkommen entlasten.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Soli, Solidaritätszuschlag, Zuschlag, Spitzensteuer, Einkommensteuer, Unternehmenssteuer, Körperschaft, Kapitalerträge, Abgeltung; Kapitel „Steuern und Finanzen – Für mehr Investitionen und Zusammenhalt“ (S. 16–17) vollständig gelesen. Der Solidaritätszuschlag wird nicht erwähnt."
+        },
+        {
+          "partei_id": 18,
+          "position": "nein",
+          "kurzfassung": "Volt will den Solidaritätszuschlag vollständig abschaffen.",
+          "zitat": "Abschaffung des Solidaritätszuschlags: Der Solidaritätszuschlag wird vollständig abgeschafft.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=99",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h47",
+      "wahl": "btw25",
+      "frage": "Soll Deutschland auf die Lieferung von Taurus-Marschflugkörpern an die Ukraine verzichten?",
+      "beschreibung": "Ob der weitreichende Marschflugkörper Taurus aus Beständen der Bundeswehr nicht an die Ukraine geht oder geliefert wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Taurus, Marschflug, weitreichend, Waffenlieferung, Waffensystem, Ukraine (Kapitel zur Ukraine und Außen-/Sicherheitspolitik, S. 7, 47–48, 52). Das Programm nennt Taurus nicht; es fordert allgemein Waffenlieferungen an die Ukraine."
+        },
+        {
+          "partei_id": 12,
+          "position": "ja",
+          "kurzfassung": "Die SPD steht zur Entscheidung, den Marschflugkörper Taurus nicht an die Ukraine zu liefern, damit Deutschland und die NATO nicht Kriegspartei werden.",
+          "zitat": "Denn für uns gilt, dass Deutschland und die NATO nicht selbst zur Kriegspartei werden. Darum stehen wir zur Entscheidung von Bundeskanzler Olaf Scholz, den Marschflugkörper Taurus aus den Beständen der Bundeswehr nicht zu liefern.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=58",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Taurus, Marschflugkörper, Reichweite, weitreichend, Waffenlieferung, Raketen, Langstrecke, Munition, Rüstungsexport, Ukraine (Kapitel 3, Außen- und Sicherheitspolitik, S. 141–145). Das Programm fordert allgemein militärische Unterstützung der Ukraine („Dabei stehen wir fest an ihrer Seite – mit diplomatischer, finanzieller, humanitärer und militärischer Unterstützung“, S. 141/142), nennt aber weder Taurus noch weitreichende Waffen."
+        },
+        {
+          "partei_id": 14,
+          "position": "nein",
+          "kurzfassung": "Die FDP fordert die unverzügliche Lieferung von Taurus-Marschflugkörpern an die Ukraine.",
+          "zitat": "Dazu zählt für uns auch die Verteidigung gegen Abschussbasen und Nachschublinien auf russischer Seite mit weitreichenden Waffen. Daher fordern wir die unverzügliche Lieferung des Marschflugkörper Taurus.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Taurus, Marschflug*, Waffenliefer*, Waffen*, liefer*, Rüstungsexport, Ukraine, Kriegs*, Eskalation, Waffenstillstand, Verhandlung, Frieden; Kapitel Äußere Sicherheit (S. 87–94, u. a. Verteidigungspolitik, Abschnitt Ukraine) und EU-Kapitel (S. 140). Keine Aussage zu Taurus oder zu künftigen Waffenlieferungen an die Ukraine."
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Die Linke lehnt Waffenlieferungen in Kriegs- und Krisengebiete ab und setzt im Ukrainekrieg auf Diplomatie statt auf weitere Waffenlieferungen.",
+          "zitat": "Wir lehnen Waffenlieferungen in Kriegs- und Krisengebiete ab.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "ja",
+          "kurzfassung": "Das BSW lehnt die Lieferung von Taurus-Marschflugkörpern an die Ukraine ab.",
+          "zitat": "Wie die Mehrheit der Bundesbürger lehnen wir die Lieferung von Taurus-Marschflugkörpern ab.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "nein",
+          "kurzfassung": "Volt will der Ukraine alle erforderlichen Waffen liefern und deren uneingeschränkte Nutzung ermöglichen.",
+          "zitat": "Koordinierte Militärhilfe: Deutschland entwickelt gemeinsam mit der Ukraine und seinen Partnern ein strategisches Konzept zur militärischen Unterstützung, liefert alle erforderlichen Waffen und ermöglicht deren uneingeschränkte Nutzung.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=45",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h48",
+      "wahl": "btw25",
+      "frage": "Soll der Kauf von in Deutschland gebauten E-Autos steuerlich gefördert werden?",
+      "beschreibung": "Ob, wer ein in Deutschland produziertes Elektroauto kauft, befristet einen Abzug von der Steuerschuld bekommt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Elektroauto, E-Auto, E-Mobilität, Elektromobilität, Elektrofahrzeug, Kaufprämie, Kaufanreiz, Prämie, Dienstwagen, Pkw, Neuwagen, Steuerabzug, Steuerschuld (Kapitel Mobilität S. 10, 74–75, Steuern S. 16). Zur E-Mobilität nur Ausbau der Ladeinfrastruktur und Technologieoffenheit, keine steuerliche Kaufförderung."
+        },
+        {
+          "partei_id": 12,
+          "position": "ja",
+          "kurzfassung": "Die SPD will den privaten Kauf eines in Deutschland produzierten E-Autos mit einem befristeten Steuerabzugsbetrag fördern.",
+          "zitat": "Wir wollen mit einem zeitlich befristeten Steuerabzugsbetrag für die Anschaffung eines in Deutschland produzierten E-Autos auch den privaten Neuwagenkauf fördern.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "teils",
+          "kurzfassung": "Die Grünen wollen den Kauf verbrauchsarmer E-Autos aus europäischer Produktion für kleine und mittlere Einkommen fördern, unter anderem mit Social Leasing und einer steuerlichen Förderung.",
+          "zitat": "Dazu schlagen wir eine staatliche Unterstützung beim Erwerb eines verbrauchsarmen E-Autos vor, welches zusätzlich die europäische Automobilwirtschaft unterstützt.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "nein",
+          "kurzfassung": "Die FDP will Elektromobilität, klimaneutrale Kraftstoffe und Wasserstoff bei Besteuerung und Förderung gleichstellen statt E-Autos gesondert zu begünstigen.",
+          "zitat": "Für eine technologieneutrale, nachhaltige Mobilitätspolitik wollen wir eine Gleichstellung von Elektromobilität, klimaneutrale Kraftstoffe (z. B. aus Strom oder Biomasse) und Wasserstoff bei Regulatorik, Besteuerung und Förderung.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=42",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "nein",
+          "kurzfassung": "Die AfD will die Bevorzugung der Elektromobilität sofort beenden und lehnt Subventionen für einzelne Techniken ab.",
+          "zitat": "Die heutige einseitige Bevorzugung von Elektromobilität ist sofort zu stoppen, ebenso die Finanzierung der Ladeinfrastruktur aus öffentlichen Mitteln.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=44",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "teils",
+          "kurzfassung": "Die Linke will keine allgemeine Steuerförderung, sondern sozial gestaffelte Förderung kleiner E-Fahrzeuge für bestimmte Gruppen, und zwar nur für überwiegend in der EU gefertigte Fahrzeuge.",
+          "zitat": "Für Handwerksbetriebe, Pflegedienste oder Menschen im ländlichen Raum, die auf ein Auto zum Pendeln angewiesen sind, wollen wir sozial gestaffelte Förderangebote für kleine E-Fahrzeuge einführen. Förderung soll es künftig nur noch für Fahrzeuge geben, die zu großen Anteilen in der EU gefertigt werden.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=32",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "teils",
+          "kurzfassung": "Das BSW will den Absatz preisgünstiger E-Autos mit Kaufprämien im niedrigen Preissegment und einem „Volksleasing“ für umweltfreundliche Fahrzeuge aus europäischer Produktion fördern, nicht über die Steuer und nicht beschränkt auf in Deutschland gebaute Autos.",
+          "zitat": "Kaufprämien im niedrigen Preissegment für Niedrigenergiefahrzeuge und E-Autos können darüber hinaus den Absatz ankurbeln.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: E-Auto, Elektroauto, Elektrofahrzeug, E-Mobil(ität), Kaufprämie, Kaufanreiz, Umweltbonus, Steuerabzug, Steuergutschrift, Automobil(industrie), Pkw, Fahrzeug. Kapitel 'Nachhaltige Mobilität' (S. 68–70) und 'Abschaffung klimaschädlicher Subventionen' (S. 62) nennen nur den Ausbau der Ladeinfrastruktur für E-Fahrzeuge, keine steuerliche Kaufförderung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h49",
+      "wahl": "btw25",
+      "frage": "Soll der Verkauf von Silvesterfeuerwerk an Privatleute bundesweit verboten werden?",
+      "beschreibung": "Ob Böller und Raketen nicht mehr an Privatleute verkauft werden dürfen, sondern nur noch professionelle oder öffentliche Feuerwerke erlaubt sind.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Feuerwerk, Silvester, Böller, Pyrotechnik, Raketen, Knaller (gesamtes Programm, u. a. Innere Sicherheit und Umwelt). Kein Treffer zum Thema."
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Feuerwerk, Silvester, Böller, Pyrotechn*, Verkaufsverbot; Kapitel 16 (Respekt, Sicherheit und Schutz vor Gewalt); Volltext durchsucht. Ein bundesweites Verkaufsverbot wird weder gefordert noch abgelehnt."
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Die Grünen halten ein ganzjähriges Verkaufsverbot von Feuerwerk für den Privatgebrauch für geboten und wollen es bundesweit umsetzen.",
+          "zitat": "Grundsätzlich halten wir ein ganzjähriges Verkaufsverbot für den Privatgebrauch für geboten und setzen uns für eine bundesweite Umsetzung ein.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=54",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (fdp.txt und fdp_lese.txt): Feuerwerk, Silvester, Böller, Pyrotechnik, Raketen, Jahreswechsel, Neujahr, Brauchtum, Sprengstoff, Feinstaub – keine Treffer; auch Kapitel Innere Sicherheit, Umwelt- und Naturschutz ohne Aussage."
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Feuerwerk, Silvester, Böller, Pyrotechn*, Raketen; Kapitel Innere Sicherheit (u. a. Waffenrecht), Landwirtschaft/Umwelt (Tierschutz). Keine Treffer zum Thema."
+        },
+        {
+          "partei_id": 16,
+          "position": "teils",
+          "kurzfassung": "Die Linke will privates Feuerwerk zum Schutz von Menschen, Tieren und Natur reduzieren, fordert aber kein ausdrückliches Verkaufsverbot.",
+          "zitat": "Private Feuerwerke (das „Böllern“) müssen zum Schutz von Menschen, Tier und Natur reduziert werden.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=35",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesamtes Programm auf Feuerwerk, Böller, Pyrotechnik und Silvester durchsucht – keine Aussage gefunden."
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Feuerwerk, Silvester, Böller, Pyrotechnik, Knaller, Verbot/verbieten; keine Treffer zum Thema. Kapitel Umwelt- und Tierschutz (S. 81–84) durchgesehen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h50",
+      "wahl": "btw25",
+      "frage": "Soll der Wolf geschützt bleiben, statt ins Jagdrecht aufgenommen zu werden?",
+      "beschreibung": "Ob der Wolf weiter unter das Naturschutzrecht fällt, mit Abschüssen nur im Einzelfall, oder als jagdbare Art regulär bejagt werden darf.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Die Union will den Schutzstatus des Wolfs senken, ihn ins Bundesjagdgesetz aufnehmen und regional bejagen lassen.",
+          "zitat": "Wölfe müssen – regional unterschiedlich – bejagt werden können, damit weniger Weidetiere gerissen werden. Dafür passen wir den Schutzstatus des Wolfs an und nehmen ihn in das Bundesjagdgesetz auf.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=37",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Wolf, Wölfe, Jagd*, Herdenschutz, Weidetier, Nutztier, Artenschutz, Naturschutz, Biodiversität; Kapitel 19 (Kommunen, Land und Stadt, Landwirtschaft; Abschnitte „Natur und Ökosysteme schützen“, „Land- und Forstwirtschaft“). Der Wolf kommt im Programm nicht vor."
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen den Wolf nicht ins Jagdrecht aufnehmen, aber Abschüsse in problematischen Ausnahmefällen schneller und einfacher ermöglichen.",
+          "zitat": "Geschützte Arten wie der Wolf gehören nicht ins Jagdrecht. Das ist auch ein Beitrag zur Bürokratievermeidung.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=53",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "nein",
+          "kurzfassung": "Die FDP will den Wolfsbestand aktiv durch Bejagung regulieren.",
+          "zitat": "Wir Freie Demokraten werden ein aktives Bestandsmanagement von unter anderem Wolf und Kormoran durch Bejagung einführen.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=46",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "nein",
+          "kurzfassung": "Die AfD will den Wolfsbestand nach schwedischem und norwegischem Vorbild regulieren und wolfsfreie Gebiete ausweisen.",
+          "zitat": "Sie wird räumlich und zahlenmäßig nach schwedischem und norwegischem Vorbild reglementiert werden. Die AfD wird die Möglichkeit einer Bestandsregulierung und die Ausweisung von wolfsfreien Gebieten umsetzen.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=82",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Wolf, Wölfe, Jagd/Jagdrecht, Abschuss, Weidetier, Herdenschutz, Raubtier, Beutegreifer, Wildtier, Artenschutz, Naturschutz. Durchgesehen: Kapitel zu Natur-/Artenschutz (S. 42) und Abschnitt „Tiere schützen“ (S. 43); nur allgemein Arten- und Naturschutzabkommen, Biotopverbund, Wildtierhandel, Walfang – nichts zum Wolf."
+        },
+        {
+          "partei_id": 17,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wolf, Wölfe, Jagd, Jäger, Weidetier, Herdenschutz, Raubtier, Artenschutz, Naturschutz, Tierschutz, Wildtier, Biodiversität, Artenvielfalt; Kapitel „Respekt für unsere Landwirte, guter Umwelt- und Tierschutz“ (S. 19–20) vollständig gelesen. Der Wolf wird nicht erwähnt."
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Wolf, Wölfe, Jagd, jagdbar, Raubtier, Herdenschutz, Weidetier, Wildtier, Artenschutz, Naturschutzrecht; keine Treffer zum Wolf. Kapitel 'Landwirtschaft und Umweltschutz' und 'Tierschutz und Tierrechte' (S. 81–84) durchgesehen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h51",
+      "wahl": "btw25",
+      "frage": "Soll der CO2-Preis auf Heizöl, Gas und Sprit abgeschafft werden?",
+      "beschreibung": "Ob die Abgabe auf den CO2-Ausstoß beim Heizen und Tanken wegfällt oder als Instrument für den Klimaschutz bleibt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Die Union will die CO2-Bepreisung beibehalten und zum Leitinstrument ausbauen, die Einnahmen aber an Verbraucher und Wirtschaft zurückgeben.",
+          "zitat": "Die CO2-Bepreisung bauen wir im Instrumentenmix zum Leitinstrument aus und geben deren Einnahmen an Verbraucher und Wirtschaft zurück.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "nein",
+          "kurzfassung": "Die SPD hält am beschlossenen CO2-Preis und am europäischen Emissionshandel ab 2027 fest, will ihn aber nur als ergänzendes Instrument und mit sozialem Ausgleich wie einem Klimageld.",
+          "zitat": "Wenn ab 2027 die europäische Regelung in Kraft tritt, werden wir durch geeignete Maßnahmen auf europäischer und nationaler Ebene (zum Beispiel Klimageld) dafür Sorge tragen, dass niemand überfordert wird.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen den CO2-Preis über den europäischen Emissionshandel für Verkehr und Gebäude als zentralen Klimaschutzhebel stärken und die Einnahmen als Klimageld zurückgeben.",
+          "zitat": "Dazu gehört die Umsetzung der Emissionshandelssysteme auf europäischer Ebene wie geplant. So stärken wir den CO₂-Preis als einen zentralen Hebel für mehr Klimaschutz in Deutschland und Europa.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=38",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "nein",
+          "kurzfassung": "Die FDP will den CO2-Preis als Leitinstrument stärken; er soll die Energiesteuern auf Heiz- und Kraftstoffe perspektivisch ersetzen.",
+          "zitat": "Die EU-Mindestsätze für die Energiesteuer auf Heiz- und Kraftstoffe wollen wir angesichts des tendenziell steigenden CO2-Preises sukzessive bis auf null abschmelzen. Damit soll der CO2-Preis die Strom- und Energiesteuer perspektivisch vollständig ersetzen.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=17",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "ja",
+          "kurzfassung": "Die AfD will alle CO₂-Abgaben ersatzlos abschaffen.",
+          "zitat": "Wir fordern eine ersatzlose Abschaffung der CO₂-Abgaben.",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=58",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "teils",
+          "kurzfassung": "Die Linke lehnt den Emissionshandel für Wärme und Verkehr (ETS-2) und CO2-Preise im Wärmebereich ab, akzeptiert einen CO2-Preis aber grundsätzlich nur mit Klimageld als sozialem Ausgleich.",
+          "zitat": "Wir lehnen den Emissionshandel in den Sektoren Wärme und Verkehr (ETS-2) ab: Stattdessen müssen verbindliche Klimaziele und Emissionsgrenzen gesetzt werden.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=33",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "ja",
+          "kurzfassung": "Das BSW will den CO2-Preis abschaffen und den technologischen Wandel stattdessen über Innovationsförderung und gezielte Anreize erreichen.",
+          "zitat": "Den CO2-Preis, der alles teurer macht, ohne dass es für die meisten Menschen Alternativen gibt, wollen wir abschaffen.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "nein",
+          "kurzfassung": "Volt will den europäischen Emissionshandel wie geplant 2027 auf weitere Bereiche ausweiten und die Einnahmen teilweise an die Menschen zurückzahlen.",
+          "zitat": "Soziale marktwirtschaftliche Mechanismen für Nachhaltigkeit: Der europäische Emissionshandel (ETS-2) wird wie geplant Anfang 2027 ausgeweitet.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=60",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h52",
+      "wahl": "btw25",
+      "frage": "Soll Deutschland dem Atomwaffenverbotsvertrag beitreten?",
+      "beschreibung": "Ob Deutschland das UN-Abkommen zum Verbot von Atomwaffen unterzeichnet und damit aus der nuklearen Teilhabe der NATO aussteigt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Die Union bekennt sich zur nuklearen Teilhabe der NATO als unverzichtbarem Teil der Abschreckung.",
+          "zitat": "Zudem stehen wir zur nuklearen Teilhabe. Sie ist unverzichtbares Element der Abschreckung und Rückversicherung im gemeinsamen Bündnis.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Atomwaffenverbot*, Verbotsvertrag, TPNW, Atomwaffen, Kernwaffen, nuklear*, nukleare Teilhabe, Abschreckung, Abrüstung, Rüstungskontrolle; Kapitel 21 (Freiheit und Sicherheit). Der Atomwaffenverbotsvertrag und die nukleare Teilhabe werden nicht erwähnt."
+        },
+        {
+          "partei_id": 13,
+          "position": "teils",
+          "kurzfassung": "Die Grünen sehen einen Beitritt zum Atomwaffenverbotsvertrag als fernes Ziel eines schrittweisen, gemeinsamen Vorgehens, halten die nukleare Teilhabe in der NATO derzeit aber für eine essenzielle Säule der Sicherheit.",
+          "zitat": "Dass Deutschland den Atomwaffenverbotsvertrag als Beobachter konstruktiv begleitet, ist ein Erfolg grüner Regierungsbeteiligung und ein erster Schritt auf dem noch langen Weg zu einem sukzessiven, gemeinsamen Beitritt.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=153",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (fdp.txt und fdp_lese.txt): Atomwaffen, Kernwaffen, nuklear, Atomwaffenverbot, Verbotsvertrag, Teilhabe, Abschreckung, Abrüstung, Rüstungskontrolle, Stationierung, Vereinte Nationen; Kapitel VII (Verteidigungsfähigkeit, NATO, Außenpolitik) gelesen. Nur allgemeines Bekenntnis zur NATO und glaubhafter Abschreckung, keine Aussage zu Atomwaffen oder zum Verbotsvertrag."
+        },
+        {
+          "partei_id": 15,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Atomwaff*, Kernwaff*, nuklear*, Teilhabe, Abschreck*, Verbotsvertrag, UN/Vereinte Nationen, NATO; Kapitel Äußere Sicherheit (S. 87–94). Kein Wort zum Atomwaffenverbotsvertrag oder zur nuklearen Teilhabe."
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Die Linke will die nukleare Teilhabe beenden, US-Atomwaffen abziehen und Deutschland dem UN-Atomwaffenverbotsvertrag beitreten lassen.",
+          "zitat": "Die Bundesrepublik muss dem Beispiel vieler Staaten folgen und dem UN-Atomwaffenverbotsvertrag beitreten.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=23",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "ja",
+          "kurzfassung": "Das BSW will, dass Deutschland dem Atomwaffenverbotsvertrag beitritt und die in Deutschland stationierten Atomwaffen abgezogen werden.",
+          "zitat": "Deswegen setzen wir uns dafür ein, dass Deutschland dem Atomwaffenverbotsvertrag beitritt. Die Atomwaffen, die in Deutschland stationiert sind, müssen abgezogen werden.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=5",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "nein",
+          "kurzfassung": "Volt will die nukleare Teilhabe in der EU auf Grundlage französischer Kapazitäten weiterentwickeln und bekennt sich zum Nichtverbreitungsvertrag, nicht zum Atomwaffenverbotsvertrag.",
+          "zitat": "Nukleare Verteidigungsfähigkeit: Die nukleare Teilhabe in der EU wird auf Grundlage der französischen Kapazitäten weiterentwickelt. Hierdurch wird die Verteidigungsfähigkeit der EU gesichert und Abhängigkeiten von externen Akteuren reduziert.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-btw25/volt-programm-bundestagswahl-2025.pdf#page=40",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "h53",
+      "wahl": "btw25",
+      "frage": "Soll es beim Aus für neue Verbrennerautos ab 2035 bleiben?",
+      "beschreibung": "Ob ab 2035 in der EU nur noch Neuwagen ohne CO2-Ausstoß zugelassen werden oder das Verbrenner-Aus zurückgenommen wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 11,
+          "position": "nein",
+          "kurzfassung": "Die Union will das Verbrenner-Verbot rückgängig machen und die Flottengrenzwerte überprüfen.",
+          "zitat": "Das Verbrenner-Verbot muss rückgängig gemacht werden. Die Flottengrenzwerte müssen überprüft, Strafzahlungen verhindert werden.",
+          "beleg_url": "https://www.cdu.de/app/uploads/2025/01/km_btw_2025_wahlprogramm_langfassung_ansicht.pdf#page=74",
+          "begruendung": null
+        },
+        {
+          "partei_id": 12,
+          "position": "teils",
+          "kurzfassung": "Will die CO2-Flottenziele beibehalten, den Weg dorthin aber pragmatischer gestalten und Hersteller vorerst nicht mit Strafzahlungen belasten.",
+          "zitat": "Wir werden mit der EU-Kommission in Verhandlungen treten, die Ziele beizubehalten, aber den Weg dorthin pragmatischer zu gestalten.",
+          "beleg_url": "https://www.spd.de/fileadmin/Dokumente/Beschluesse/Programm/2025_SPD_Regierungsprogramm.pdf#page=7",
+          "begruendung": null
+        },
+        {
+          "partei_id": 13,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen daran festhalten, ab 2035 nur noch klimaneutrale Antriebe neu zuzulassen, und unterstützen die EU-Flottengrenzwerte.",
+          "zitat": "Für diese Unternehmen und ihre Arbeitnehmer*innen ist Planungssicherheit entscheidend: Wir bleiben dabei, ab 2035 nur noch klimaneutrale Antriebe neu zuzulassen.",
+          "beleg_url": "https://cms.gruene.de/uploads/assets/20250318_Regierungsprogramm_DIGITAL_DINA5.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 14,
+          "position": "nein",
+          "kurzfassung": "Die FDP will das faktische Verbrenner-Verbot ab 2035 umgehend aufheben.",
+          "zitat": "Deshalb setzen wir uns für eine umgehende Aufhebung des faktischen Verbrenner-Verbots ab dem Jahr 2035 und eine innovationsfreundliche Regulierung der Entnahme, Nutzung und Speicherung von Treibhausgasen ein, denn die Nutzung dieser Technologien ist für das Erreichen der Klimaziele unabdingbar.",
+          "beleg_url": "https://www.fdp.de/sites/default/files/2024-12/fdp-wahlprogramm_2025.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 15,
+          "position": "nein",
+          "kurzfassung": "Die AfD will das Verbot neuer Verbrennerautos aufheben.",
+          "zitat": "Es gibt daher auch keinen Grund, die notwendige und sinnvolle Nutzung fossiler Energien (also Kohle, Erdgas, Erdöl) zu beschränken oder gar zu verbieten (z. B. Verbrenner-Verbot).",
+          "beleg_url": "https://www.afd.de/wp-content/uploads/2025/02/AfD_Bundestagswahlprogramm2025_web.pdf#page=78",
+          "begruendung": null
+        },
+        {
+          "partei_id": 16,
+          "position": "ja",
+          "kurzfassung": "Die Linke hält am Auslaufen des Neuwagenverkaufs von Verbrennern nach geltender EU-Regel fest.",
+          "zitat": "Es braucht langfristige Planungssicherheit für Verbaucher*innen und Industrie, daher halten wir am Auslaufen vom Neuwagenverkauf für Verbrenner entsprechend der gültigen EU-Richtlinie fest.",
+          "beleg_url": "https://www.die-linke.de/fileadmin/user_upload/Wahlprogramm_Langfassung_Linke-BTW25_01.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 17,
+          "position": "nein",
+          "kurzfassung": "Das BSW will das Verbrenner-Verbot kippen und setzt auf sparsamere Verbrennermotoren, alternative Kraftstoffe und neue Antriebe.",
+          "zitat": "Das Verbrennerverbot wollen wir kippen.",
+          "beleg_url": "https://bsw-vg.de/wp-content/themes/bsw/assets/downloads/BSW%20Wahlprogramm%202025.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 18,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Verbrenner, 2035, Neuwagen, Neuzulassung, Flottengrenzwert, Grenzwert, emissionsfrei, Technologieoffenheit, E-Fuels, Pkw, Antrieb. Kapitel 'Nachhaltige Mobilität für eine klimaneutrale Zukunft' (S. 68–70) enthält Tempolimits, ÖPNV, Ladeinfrastruktur und Dienstwagenprivileg, aber nichts zum Verbrenner-Aus; '2035' betrifft nur Industrieanlagen, Strom und Aufforstung."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "be-1",
       "wahl": "be26",
       "frage": "Sollen große private Wohnungsunternehmen in Berlin vergesellschaftet werden?",
@@ -4785,6 +5377,894 @@
           "zitat": "Wir setzen dafür zeitnah einen modernen Nahverkehrsplan um, der Investitionen bündelt, Takte verbessert und neue Tangentialverbindungen wie Tram‑ und Expressbuslinien schafft. Der Ausbau von U‑Bahn, Tram, S‑Bahn und Regionalverkehr wird dabei integriert und frühzeitig abgestimmt, sodass Kosten und Planungsdauer sinken.",
           "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=32",
           "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-23",
+      "wahl": "be26",
+      "frage": "Soll Berlin eine Steuer auf leerstehende Wohnungen einführen?",
+      "beschreibung": "Ob Eigentümerinnen und Eigentümer Leerstand melden und eine mit der Dauer steigende Leerstandssteuer zahlen müssen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Leerstand/leerstehend/Leerstandssteuer, Zweckentfremdung, Steuer/Steuererhöhung, Grundsteuer, ungenutzt; Kapitel „Bezahlbare Mieten und Mieterschutz“, „Einfach mal bauen“, „Solide Finanzen“. Eine Steuer oder Meldepflicht für leerstehende Wohnungen kommt nicht vor."
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD will eine Meldepflicht für Leerstand und eine progressive Leerstandssteuer einführen, um langen und spekulativen Leerstand unattraktiv zu machen.",
+          "zitat": "Zusätzlich führen wir eine Leerstandsmeldepflicht für Eigentümer und eine progressive Leerstandssteuer ein, um langanhaltenden und spekulativen Leerstand unattraktiv zu machen.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Leerstand, leerstehend/leer stehen, Leerstandssteuer, Steuer, Abgabe, Grundsteuer (Kapitel 2 Wohnen: „Zweckentfremdung und Leerstand konsequent bekämpfen“, „Leerstand aktiv in Wohnraum umwandeln“; Kapitel 3 Haushalt/Steuern). Eine Steuer oder Abgabe auf leerstehende Wohnungen kommt nicht vor."
+        },
+        {
+          "partei_id": 24,
+          "position": "teils",
+          "kurzfassung": "Die FDP will untätige Eigentümer sogenannter Geisterhäuser über finanziellen Druck dazu bringen, ihre Objekte abzugeben oder zu sanieren, lehnt Steuererhöhungen aber allgemein ab.",
+          "zitat": "Wir wollen mit einem landesweiten Ansatz die Nutzbarmachung sogenannter Geisterhäuser zügig vorantreiben. Wir entwickeln ein effizientes Modell, um blockierende / untätige Eigentümerinnen und Eigentümer über finanziellen Druck zu veranlassen, ihre Objekte abzugeben oder zu sanieren.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=37",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Leerstand/leerstehend, Zweckentfremdung, Spekulation, Steuer/Abgabe, Grundsteuer im Kapitel Bauen & Wohnen und im ganzen Programm; Leerstand und eine Leerstandssteuer kommen nicht vor."
+        },
+        {
+          "partei_id": 26,
+          "position": "teils",
+          "kurzfassung": "Die Linke will spekulativen Wohnungsleerstand per Stromzählermethode aufdecken und ahnden; eine Leerstandsteuer will sie nur für dauerhaft leer stehende Gewerbeimmobilien prüfen.",
+          "zitat": "Wir prüfen die Einführung einer Leerstandsteuer auf dauerhaft leer stehende Gewerbeimmobilien.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=232",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Leerstand, Leerstandssteuer/-abgabe, Steuer/Abgabe im Zusammenhang mit Wohnen, Grund, Immobilien, Zweckentfremdung; Kapitel Wohnen (S. 6–9), Wohnungslosigkeit/Housing First (S. 12), Finanz- und Steuerpolitik (S. 52–55). Eine Steuer oder Abgabe auf Leerstand kommt nicht vor."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Leerstand, leerstehend, Steuer, Spekulation, Zweckentfremdung in den Kapiteln „Berlin lebt: mit schnellem und nachhaltigem Wohnungsbau“ (S. 25–29) und „Berlin schafft: mit wirtschaftlich starken Kiezen“ (S. 61–62). Keine Leerstandssteuer und keine Meldepflicht mit Abgabe."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-24",
+      "wahl": "be26",
+      "frage": "Soll Berlin den Bau von Mikroapartments begrenzen?",
+      "beschreibung": "Ob über Bebauungspläne oder Gesetze Mindestgrößen oder Obergrenzen für sehr kleine, meist teuer vermietete Apartments vorgeschrieben werden.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mikroapartment/Apartment, Kleinstwohnung/kleine Wohnungen, Wohnungsgröße/Mindestgröße, Wohnheim, möbliert, Studentenwohnen; Kapitel „Bezahlbare Mieten und Mieterschutz“, „Einfach mal bauen“, „Wachsen mit Plan“. Keine Aussage zu Mikroapartments."
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD will den Bau von Mikroapartments über Bebauungspläne mit Mindestgrößen oder einer Begrenzung der Wohnungszahl pro Gebäude einschränken und auch den Umbau von Bestandswohnungen zu Mikroapartments begrenzen.",
+          "zitat": "Hierzu nutzen wir insbesondere Bebauungspläne, um durch Mindestgrößen oder eine Begrenzung der Anzahl von Wohnungen pro Gebäude Mikroappartements einzuschränken. Ebenso begrenzen wir den Umbau von Bestandswohnungen zu Mikroappartements.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=21",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mikroapartment/Mikro, Apartment/Appartement, Kleinstwohnung, Mindestgröße, Wohnungsgröße, Boardinghouse, Co-Living, Bebauungsplan, Studierendenwohnen (Kapitel 2 Wohnen und Stadtentwicklung). Mikroapartments werden nicht erwähnt."
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mikro, Apartment/Appartement, Studio, Kleinst-, Mindestgröße, Wohnungsgröße, Wohnfläche, Grundriss, Wohnungsmix, möbliert, studentisch, Bebauungsplan; Kapitel Stadtentwicklung und Wohnen (S. 32–43), insbesondere 'Einfach mehr bauen'. Keine Aussage zu Mikroapartments."
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mikroapartment, Apartment/Appartement, Kleinstwohnung, Wohnungsgröße, Mindestgröße, Obergrenze, Wohnfläche, Quadratmeter, möbliert, Bebauungsplan im Kapitel Bauen & Wohnen und im ganzen Programm; nur Studenten- und Azubi-Wohnheime erwähnt, keine Begrenzung kleiner Apartments."
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Mikroapartment, Mikro-, Apartment/Appartement, Kleinstwohnung, Wohnungsgröße, Mindestgröße, Wohnungsmix, Grundriss, möbliert, Boarding, Studierendenwohnen; Kapitel 01 Mieten, Wohnen, Bauen (S. 14–40) und 02 Stadtentwicklung (S. 41–54). Keine Mindestgrößen oder Obergrenzen für kleine Apartments."
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm will sich über den Bundesrat dafür einsetzen, den Bau von Mikroapartments bundesgesetzlich einzuschränken.",
+          "zitat": "Der Stadt sind hier bisher gesetzlich die Hände gebunden. Wir werden uns über den Bundesrat dafür einzusetzen, den Bau solcher Apartments bundesgesetzlich einzuschränken, damit mehr bedarfsgerechter Wohnraum entstehen kann.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Mikro, Apartment, Kleinstwohnung, Wohnheim, Quadratmeter, Wohnfläche, möbliert, Bebauungsplan im Wohnungsbaukapitel (S. 25–29) und im ganzen Text. Keine Aussage zu Mindestgrößen oder Begrenzung kleiner Apartments."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-25",
+      "wahl": "be26",
+      "frage": "Soll es in Berlin einen Mindestfahrpreis für Fahrdienste wie Uber und Bolt geben?",
+      "beschreibung": "Ob für per App vermittelte Mietwagen ein Mindestpreis gilt, damit sie Taxis nicht unterbieten.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Taxi, Uber, Bolt, Mietwagen, Fahrdienst, Personenbeförderung, Fahrpreis, Ridepooling; Kapitel „Berlin wird schneller“ (Mobilität von morgen). Kein Mindestfahrpreis erwähnt."
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD will das Taxigewerbe vor unlauterem Wettbewerb schützen und ein Mindestbeförderungsentgelt für per App vermittelte Mietwagen einführen.",
+          "zitat": "Wir schützen das Taxigewerbe vor unlauterem Wettbewerb und führen ein Mindestbeförderungsentgelt für appvermittelte Mietwagen ein.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=25",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Uber, Bolt, Mietwagen, Taxi, Fahrdienst, Mindestpreis, Mindestentgelt, Plattform (Kapitel 3 Mobilität und Wirtschaft/Arbeit). Gefunden nur Inklusionstaxis/Sonderfahrdienst (S. 156) und Plattformarbeit von Lieferkurier*innen (S. 110), nichts zu Mindestfahrpreisen für Mietwagen."
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP setzt auf eine Liberalisierung des Taximarkts und Rechtssicherheit für neue Geschäftsmodelle in der Personenbeförderung.",
+          "zitat": "Ein fairer Wettbewerb zwischen gewerblichen Anbietern zur Personenbeförderung liegt im Interesse der Verbraucherinnen und Verbraucher. Daher setzen wir auf eine Liberalisierung des Taximarkts und schaffen Rechtssicherheit für neue Geschäftsmodelle.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Uber, Bolt, Taxi, Mietwagen, Fahrdienst, Ridesharing, Personenbeförderung, Mindestpreis, Mindestentgelt im Kapitel Verkehr und im ganzen Programm; keine Treffer zum Thema."
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will Mietwagenunternehmen zu Fiskaltaxametern verpflichten und Mindestpreise für Mietwagen einführen, um das Taxigewerbe zu stärken.",
+          "zitat": "Wir werden nach dem Vorbild Hamburgs Mietwagenunternehmen zur Installation von Fiskaltaxametern verpflichten, damit Kontrollen wirksam durchgeführt werden können, und führen Mindestpreise für Mietwagen ein.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=67",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Uber, Bolt, Taxi, Mietwagen, Fahrdienst, Personenbeförderung, Mindestpreis/Fahrpreis; Kapitel Verkehr (S. 48–51), Wirtschaft und Arbeit. Keine Aussage zu Fahrdiensten oder Mindestfahrpreisen."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Uber, Bolt, Taxi, Mietwagen, Fahrdienst, Personenbeförderung, Mindestpreis, Mindestentgelt, Ride-Hailing im Mobilitätskapitel (S. 29–32) und im ganzen Text. Erwähnt werden nur Sharing- und On-Demand-Anbieter in Jelbi (S. 31), kein Mindestfahrpreis."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-26",
+      "wahl": "be26",
+      "frage": "Soll Berlin die eingefrorene Städtepartnerschaft mit Moskau wiederbeleben?",
+      "beschreibung": "Ob die 1991 geschlossene Partnerschaft zwischen Berlin und Moskau, die seit dem russischen Angriff auf die Ukraine ruht, wieder aufgenommen wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Moskau, Russland/russisch, Putin, Angriffskrieg, Kreml, Städtepartnerschaft/Partnerstadt; Kapitel „Europa und Internationales“ (S. 124). Moskau wird nicht erwähnt."
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Moskau', 'Städtepartner', 'Russland', 'russisch', 'Ukrain', 'Angriffskrieg', 'Putin', 'Kyiv/Kiew'; Abschnitt 'Städtepartnerschaften' (S. 15) und Kapitel 'Internationalisierung' (S. 14–15). Moskau wird nicht erwähnt."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Moskau, Städtepartnerschaft, Russland/russisch (Kapitel 3.5 „Globale Partnerschaften strategisch ausrichten“, S. 118–119). Moskau wird nicht genannt."
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Moskau, Russ-, Putin, Ukrain-, Städtepartner-, Partnerstadt; Kapitel 'Die weltoffene und europäische Metropole' (S. 91) und 'Bürgerrechte' (S. 69–70). Städtepartnerschaften werden nur allgemein gestärkt, Moskau wird nicht erwähnt."
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Moskau, Russland/russisch, Städtepartnerschaft/Partnerstadt, Partnerschaft, Ukraine, Krieg im ganzen Programm; Städtepartnerschaften und Moskau kommen nicht vor."
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Moskau, Städtepartnerschaft, Partnerstadt, Partnerschaft, Russland/russisch, Ukraine, Putin, Kreml, Städtediplomatie; Kapitel 18 Verwaltung, Demokratie (Europa-Abschnitt S. 266–267), Völkerrecht (S. 302), alle Treffer zu Frieden. Moskau und die Städtepartnerschaft werden nicht erwähnt."
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm befürwortet, die eingefrorene Städtepartnerschaft zwischen Berlin und Moskau wieder aufzubauen.",
+          "zitat": "Wir befürworten den Wiederaufbau der eingefrorenen Städtepartnerschaft zwischen den beiden europäischen Metropolen Berlin und Moskau, denn die Bewohner beider Hauptstädte sind nicht gleichzusetzen mit ihren Staatsregierungen und deren außenpolitischen Entscheidungen.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=4",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Moskau, Russland, russisch, Städtepartnerschaft, Partnerstadt im Kapitel „Berlin verbindet“ (S. 102–104) und im ganzen Text. Städtepartnerschaften sollen allgemein strategisch genutzt werden (S. 103); Moskau wird nicht erwähnt."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-27",
+      "wahl": "be26",
+      "frage": "Soll Berlin die Gewerbesteuer erhöhen?",
+      "beschreibung": "Ob der Berliner Hebesatz für die Gewerbesteuer, seit 1999 unverändert bei 410 Prozent, angehoben wird.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt Steuererhöhungen ab und will die Gewerbesteuerhebesätze stabil halten.",
+          "zitat": "Gerade die Gewerbesteuer ist ein zentraler Standortfaktor für Handwerk, Mittelstand und Industrie. Deshalb stehen wir klar für stabile Gewerbesteuerhebesätze und Planungssicherheit für die Berliner Wirtschaft.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=92",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Gewerbesteuer', 'Hebesatz', 'Steuer', 'Einnahmen'; Kapitel 'Gute Arbeit und Fach- und Arbeitskräftesicherung' (S. 9) und 'Einnahmen erhöhen' (S. 63). Eine Anhebung des Hebesatzes wird nicht gefordert."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Gewerbesteuer, Hebesatz, Steuererhöhung, Steuer allgemein (Kapitel 3 Haushalt „Steuersystem gerecht und ökologisch umbauen“, S. 123–125). Genannt werden Vermögen- und Erbschaftsteuer (Bund), Verpackungssteuer, Grunderwerbsteuer, Parkgebühren, Grundsteuer C – die Gewerbesteuer nicht."
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP will finanzielle Spielräume nutzen, um den Gewerbesteuer-Hebesatz zu senken, und die Gewerbesteuer langfristig abschaffen.",
+          "zitat": "Wir werden mögliche finanzielle Spielräume für eine Absenkung des Gewerbesteuer-Hebesatzes nutzen.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Die AfD will die Gewerbesteuer senken, nicht erhöhen.",
+          "zitat": "Wir fordern eine Senkung der Gewerbesteuer und die Abschaffung ideologisch motivierter Zusatzlasten wie die CO2-Bepreisung für Gewerbeimmobilien.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "teils",
+          "kurzfassung": "Die Linke will eine Erhöhung des Gewerbesteuer-Hebesatzes auf das Potsdamer Niveau von 470 Punkten prüfen, wobei kleine und mittlere Unternehmen nicht übermäßig belastet werden sollen.",
+          "zitat": "Die Gewerbesteuer in Berlin wurde seit 1999 nicht mehr angepasst. Wir werden eine Erhöhung auf den Potsdamer Hebesatz von 470 Basispunkten prüfen.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=79",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm will den Gewerbesteuer-Hebesatz von 410 Prozent auf das Niveau anderer Großstädte anheben, höchstens auf 460 Prozent.",
+          "zitat": "Das BSW setzt sich daher dafür ein, den Gewerbesteuer-Hebesatz in Berlin dem Niveau der anderen Großstädte anzupassen, allerdings höchstens auf 460 Prozent festzulegen.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=54",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Gewerbesteuer, Hebesatz, Steuererhöhung, Einnahmen in den Kapiteln zu Finanzen (S. 18–20) und Wirtschaft (S. 56–63). Erwähnt wird nur eine faire Verteilung der Grundsteuer- und Gewerbeeinnahmen mit Brandenburg (S. 63), keine Anhebung des Hebesatzes."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-28",
+      "wahl": "be26",
+      "frage": "Sollen Berliner Hochschulen per Zivilklausel nicht mit Bundeswehr und Rüstungsindustrie zusammenarbeiten dürfen?",
+      "beschreibung": "Ob eine verpflichtende Zivilklausel die Hochschulen auf ausschließlich zivile Forschung und Lehre festlegt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm will die Zusammenarbeit von Hochschulen und Bundeswehr stärken und die Zivilklausel abschaffen.",
+          "zitat": "Forschungsergebnisse aus unseren Hochschulen sollen auch für die Sicherheitsinteressen Deutschlands und seiner NATO-Partner nutzbar sein. Die Zivilklausel an Hochschulen werden wir abschaffen.",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=15",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Zivilklausel', 'Bundeswehr', 'Rüstung', 'Militär', 'Dual Use', 'Verteidigung', 'zivile Forschung', 'Friedens'; Kapitel 'Hochschule, Wissenschaft, Forschung' (S. 43–45). Eine Zivilklausel wird nicht erwähnt."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Zivilklausel, zivil, Rüstung, Bundeswehr, Militär, Verteidigung, Dual Use, Wissenschaftsfreiheit (Kapitel 3 Wissenschaft, Kapitel 5 Hochschulen). Keine Aussage zu einer Zivilklausel oder zur Zusammenarbeit mit Bundeswehr und Rüstungsindustrie."
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt Zivilklauseln, die militärisch nutzbare Forschung untersagen, ab; über ihre Abschaffung sollen die Hochschulen selbst entscheiden.",
+          "zitat": "Sogenannte \"Zivilklauseln\", die militärisch nutzbare Forschung untersagen, lehnen wir ab. Die Entscheidung über ihre Abschaffung obliegt im Rahmen der Hochschulautonomie selbstverständlich den Hochschulen selbst.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=14",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Die AfD will die Universitäten dazu anhalten, militärische Forschung grundsätzlich zu ermöglichen, statt sie auszuschließen.",
+          "zitat": "Deutschland kann bei militärischen Innovationen nicht ausschließlich Trittbrettfahrer ausländischer Forschung sein. Wir wollen die Universitäten deshalb dazu anhalten, militärische Forschung grundsätzlich zu ermöglichen.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=36",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will die bestehenden Zivilklauseln an Hochschulen beibehalten, umsetzen und ausweiten und lehnt weitere Rüstungsforschung in Berlin ab.",
+          "zitat": "Wir setzen uns dafür ein, dass sich die Hochschulen und Forschungsinstitute der friedlichen Entwicklung der Gesellschaft verpflichtet sehen, und setzen auf die Umsetzung und Ausweitung von Zivilklauseln.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=225",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "ja",
+          "kurzfassung": "Das Programm will für alle Berliner Hochschulen eine verpflichtende Zivilklausel durchsetzen und eine Zusammenarbeit mit Bundeswehr und Rüstungsindustrie ausschließen.",
+          "zitat": "Eine Zusammenarbeit mit militärischen Einrichtungen, insbesondere der Bundeswehr, ihren nach- und übergeordneten Organisationen und der Rüstungsindustrie schließen wir aus.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=17",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Zivilklausel, Bundeswehr, Rüstung, Militär, Verteidigung, Dual-Use, zivil in den Kapiteln „Berlin lernt: mit Wissenschaft und Weiterbildung“ und „Berlin schafft: mit Innovation direkt aus den Hochschulen“ sowie im ganzen Text. Keine Aussage."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-29",
+      "wahl": "be26",
+      "frage": "Soll Berlin wieder ein eigenes Aufnahmeprogramm für Geflüchtete auflegen?",
+      "beschreibung": "Ob das Land zusätzlich zum Bund besonders schutzbedürftige Menschen, etwa aus Syrien, Afghanistan oder Gaza, gezielt aufnimmt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt die Wiederaufnahme von Landesaufnahmeprogrammen ab.",
+          "zitat": "Wiederaufnahme von Landesaufnahmeprogrammen",
+          "beleg_url": "https://berlin-wird.de/image/uploads/data/regierungsprogramm2026_2031.pdf#page=27",
+          "begruendung": null
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD drängt beim Bund darauf, Landesaufnahmeprogramme zuzulassen, damit Berlin besonders schutzbedürftige Menschen und Verwandte von Berliner*innen gezielt aufnehmen kann.",
+          "zitat": "Beim Bund drängen wir darauf, Landesaufnahmeprogramme zuzulassen. So kann Berlin besonders schutzbedürftige Menschen aufnehmen.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=51",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Berlin soll sein Landesaufnahmeprogramm für Geflüchtete aus Syrien, Irak und Afghanistan wieder aufnehmen, Menschen aus UN-Programmen aufnehmen und sich für den Ausbau der Bundesprogramme, etwa für Gaza, einsetzen.",
+          "zitat": "Wir setzen uns für die Wiederaufnahme des Berliner Landesaufnahmeprogramms für Geflüchtete aus Syrien, dem Irak und Afghanistan sowie den Ausbau humanitärer Aufnahmeprogramme des Bundes beispielsweise aus Afghanistan, Syrien, Irak und Gaza ein und nutzen zudem die Spielräume des Landes, um die Aufnahme von Geflüchteten zu ermöglichen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=148",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Aufnahme-, Landesaufnahme, Kontingent, Resettlement, humanitär, schutzbedürftig, Syrien, Afghan-, Gaza, Geflüchtete, Flüchtling; Kapitel Integration und Migration (S. 87–91). Es geht um Unterbringung, Bezahlkarte, Rückführungen und Integration, nicht um ein Landesaufnahmeprogramm."
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Die AfD fordert einen sofortigen Aufnahmestopp für Asylbewerber in Berlin und das Ende freiwilliger Aufnahmen.",
+          "zitat": "Einen sofortigen Aufnahmestopp für Asylbewerber in Berlin.",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=22",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will Landesaufnahmeprogramme für Menschen u. a. aus Syrien, dem Irak, Afghanistan, dem Sudan, Gaza und dem Libanon auflegen, besonders für vulnerable Personen.",
+          "zitat": "Daher wollen wir Landesaufnahmeprogramme insbesondere für Menschen aus Syrien, dem Irak, Afghanistan, dem Sudan sowie Gaza und dem Libanon aufsetzen, insbesondere müssen vulnerable Personen die Möglichkeit erhalten, über einen solchen sicheren Fluchtweg nach Berlin einzureisen und Schutz zu finden.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=279",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Aufnahmeprogramm, Landesaufnahme, Kontingent, Resettlement, humanitäre Aufnahme, aufnehmen, Syrien, Afghanistan, Gaza, Geflüchtete, Flüchtlinge, Asyl, schutzbedürftig; Kapitel Zuwanderung und Integration (S. 34–36) und Friedenspolitik (S. 3–5). Ein Landesaufnahmeprogramm wird weder gefordert noch ausdrücklich abgelehnt."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Aufnahmeprogramm, Aufnahme, Geflüchtete, Asyl, Syrien, Afghanistan, Gaza, Resettlement, humanitär im Kapitel „Berlin verbindet: mit Integration als Standortvorteil“ (S. 104–107) und im ganzen Text. Das Programm behandelt Ankommen, Integration und Unterkünfte, aber kein eigenes Landesaufnahmeprogramm."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-30",
+      "wahl": "be26",
+      "frage": "Soll Fahren ohne Fahrschein keine Straftat mehr sein?",
+      "beschreibung": "Ob Berlin sich dafür einsetzt, Schwarzfahren aus dem Strafgesetzbuch zu streichen; das erhöhte Beförderungsentgelt bliebe.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Fahrschein, Schwarzfahren, Erschleichen von Leistungen, § 265a, ohne Ticket, Beförderungsentgelt, Entkriminalisierung; Kapitel „Unsere Öffis für unser Berlin“, „Schlagkräftige Justiz“. Zur Strafbarkeit des Fahrens ohne Fahrschein keine Aussage."
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD setzt sich auf Bundesebene weiter für die Entkriminalisierung des Schwarzfahrens ein.",
+          "zitat": "Auf Bundesebene setzen wir uns weiter für die Entkriminalisierung des Schwarzfahrens ein.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=32",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Auf Bundesebene soll Fahren ohne Fahrschein als Bagatelldelikt entkriminalisiert werden; bis dahin sollen BVG und S-Bahn nicht mehr zu Strafanzeigen verpflichtet sein, das Bußgeld bleibt.",
+          "zitat": "Daher werden wir uns auf Bundesebene für die Abschaffung der Ersatzfreiheitsstrafe und die Entkriminalisierung von Bagatelldelikten wie z. B. das Fahren ohne Fahrschein im öffentlichen Nahverkehr einsetzen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=238",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Schwarzfahr-, Fahrschein, Fahrkarte, Ticket, Erschleichen, 265a, Beförderungsentgelt, Ersatzfreiheitsstrafe, entkriminalisieren, Straftat, strafbar, Strafgesetzbuch/StGB, Bagatell; Kapitel Mobilität (ÖPNV) sowie Innen, Recht (Justiz, Bürgerrechte, S. 60–70)."
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Fahrschein, Schwarzfahren, Beförderungserschleichung, Erschleichen, § 265a, Strafgesetzbuch/StGB, Entkriminalisierung, Bagatelle, Ersatzfreiheitsstrafe in den Kapiteln Innere Sicherheit & Justiz und Verkehr sowie im ganzen Programm."
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke fordert, das Fahren ohne Fahrschein (§ 265a StGB) ersatzlos zu entkriminalisieren, und will, dass BVG und S-Bahn keine Strafanzeigen mehr stellen.",
+          "zitat": "Wir fordern im Einklang mit Fachverbänden daher die Entkriminalisierung typischer Armutsdelikte, insbesondere des sogenannten „Schwarzfahrens“ (§ 265a StGB, und zwar ersatzlos statt nur einer Herabstufung zu einer Ordnungswidrigkeit, da dies häufig lediglich das Problem verlagern würde)",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=311",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Fahrschein, Schwarzfahren, Beförderungserschleichung, § 265a, ohne Ticket, Ersatzfreiheitsstrafe, Bagatell, Entkriminalisierung, StGB; Kapitel Verkehr (S. 48–51), Innere Sicherheit (S. 38–41), Justiz (S. 60–61), Digitalisierung (S. 64–66). Keine Aussage dazu."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Fahrschein, Schwarzfahren, Erschleichen, 265a, Strafgesetzbuch, Straftat, Ticket, Ersatzfreiheitsstrafe, Beförderungsentgelt in den Kapiteln Mobilität (S. 29–32) und Sicherheit/Justiz (S. 74–79). Keine Aussage."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-31",
+      "wahl": "be26",
+      "frage": "Soll Berlin eine City-Maut innerhalb des S-Bahn-Rings einführen?",
+      "beschreibung": "Ob Autofahrten in die Innenstadt eine nach Tageszeit und Abgasklasse gestaffelte Gebühr kosten, mit Ausnahmen etwa für Handwerk, Pflege und Rettungsdienste.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut/City-Maut, Innenstadt, S-Bahn-Ring, Gebühr, Zufahrt/Einfahrt; Kapitel „Auto verbieten verboten“ und Liste „Was wir für ein schnelleres Berlin NICHT brauchen“ (S. 75). Eine City-Maut wird nicht erwähnt."
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Maut', 'City-Maut', 'Straßennutzungsgebühr', 'Zufahrt', 'Gebühr', 'Umweltzone', 'Autoverkehr', 'Pkw', 'Innenstadt', 'S-Bahn-Ring', 'Parkraum', 'autofrei'; Kapitel 'Sichere Mobilität für alle Berliner*innen' (S. 24–27). Eine City-Maut wird nicht erwähnt."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut, City-Maut, Innenstadtgebühr, Straßennutzungsgebühr, Einfahrt/Zufahrt, Congestion, S-Bahn-Ring, Gebühr, Umwelt-/Nullemissionszone, autofrei (Kapitel 1 Luft, Kapitel 3 Mobilität, Haushalt). Eine Gebühr für Autofahrten in die Innenstadt kommt nicht vor."
+        },
+        {
+          "partei_id": 24,
+          "position": "nein",
+          "kurzfassung": "Die FDP lehnt die Einführung einer City-Maut ab.",
+          "zitat": "Die Einführung einer City-Maut lehnen wir ab.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=57",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Maut, City-Maut, Innenstadt, S-Bahn-Ring, Gebühr, Zufahrt, Umweltzone, Straßennutzung, Pkw im Kapitel Verkehr und im ganzen Programm; eine City-Maut kommt nicht vor."
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Maut, City-Maut, Citymaut, Innenstadtgebühr, Einfahrt, Zufahrt, S-Bahn-Ring, Umweltzone, Straßennutzungsgebühr, Abgabe/Gebühr; Kapitel 03 Mobilität und Verkehr (S. 55–72) und 04 Haushalt und Finanzen (S. 73–83). Keine Gebühr für Autofahrten in die Innenstadt."
+        },
+        {
+          "partei_id": 27,
+          "position": "nein",
+          "kurzfassung": "Das Programm lehnt neue finanzielle Belastungen für Autofahrer wie City-Tax-Modelle für Verbrenner ab.",
+          "zitat": "Viele Berliner sind auf ihr Auto angewiesen und können sich teure Umstiege nicht einfach leisten. Neue finanzielle Belastungen wie City-Tax-Modelle für Verbrenner lehnen wir daher ab.",
+          "beleg_url": "https://bsw.berlin/wp-content/uploads/Wahlprogramm-BSW-Berlin-AGH-Wahl-2026.pdf#page=49",
+          "begruendung": null
+        },
+        {
+          "partei_id": 28,
+          "position": "ja",
+          "kurzfassung": "Volt will eine City-Maut innerhalb des S-Bahn-Rings einführen, gestaffelt nach Tageszeit und Emissionsklasse und mit Ausnahmen u. a. für Handwerk, Pflege- und Rettungsdienste.",
+          "zitat": "Wir führen eine City-Maut innerhalb des S-Bahn-Rings ein. Ausgenommen sind Handwerks- und Lieferfahrzeuge mit Gewerbeschein, Fahrzeuge von Pflege- und Rettungsdiensten, Fahrten von Schichtarbeitenden ohne ÖPNV-Anbindung zwischen 22 und 6 Uhr sowie Fahrzeuge von Schwerbehinderten mit Mobilitätseinschränkung.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=31",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-32",
+      "wahl": "be26",
+      "frage": "Soll die Berliner Verwaltung alle Leistungen auch auf Englisch anbieten?",
+      "beschreibung": "Ob Englisch zur zweiten Sprache der Berliner Behörden wird, sodass Anträge, Dokumente und Kontakte auch auf Englisch möglich sind.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Englisch/englischsprachig, Amtssprache, Verwaltungssprache, mehrsprachig, Fremdsprache, Übersetzung, Sprachbarriere; Kapitel zur Verwaltung und „Berlin wird funktionieren“. Englisch als Amtssprache wird nicht erwähnt."
+        },
+        {
+          "partei_id": 22,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: 'Englisch', 'English', 'Amtssprache', 'mehrsprachig', 'Sprachen', 'Sprachmittlung', 'Behörden … Sprache'; Kapitel 'Zusammenhalt in der Einwanderungsmetropole' (S. 51–53) und Verwaltungskapitel (S. 60–62). Englisch als Amtssprache wird nicht erwähnt."
+        },
+        {
+          "partei_id": 23,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Englisch, English, Amtssprache, Mehrsprachigkeit/mehrsprachig, Sprachen, Landesamt für Einwanderung (Kapitel 2 Soziales, Kapitel 4 Migration, Kapitel 6 Verwaltung). Englisch als Verwaltungs- oder Amtssprache wird nicht genannt."
+        },
+        {
+          "partei_id": 24,
+          "position": "ja",
+          "kurzfassung": "Die FDP will alle Verwaltungsangebote und offiziellen Dokumente auf Deutsch und Englisch verfügbar machen.",
+          "zitat": "Alle Verwaltungsangebote und offiziellen Dokumente sollen auf Deutsch und auf Englisch verfügbar sein. Mit einer automatisierten Spracherkennung und -übersetzung stärken wir die Mehrsprachigkeit der Berliner Verwaltung.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=29",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Englisch, Amtssprache, Verwaltungssprache, Behördensprache, mehrsprachig, Dolmetscher, Übersetzung, Sprache/Deutsch in den Kapiteln Hochschulen, Schule, Kultur und im ganzen Programm; zur Sprache der Verwaltung gibt es keine Aussage."
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Englisch, Amtssprache, Verwaltungssprache, Mehrsprachigkeit/mehrsprachig, Sprachmittlung, Dolmetschen, Fremdsprachen, Bürgeramt, Landesamt für Einwanderung; Kapitel 18 Verwaltung, Demokratie (S. 259–267), 20 Flucht und Migration (S. 275–285), 10 Bildung. Englisch als Amtssprache wird nicht gefordert."
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Englisch, Amtssprache, mehrsprachig, Sprache der Verwaltung; Kapitel Verwaltung (S. 62–63), Meinungsfreiheit, ÖRR, Gendersprache (S. 30–32), Zuwanderung und Integration (S. 34–36). Nur mehrsprachige Hinweise auf Hilfsangebote bei Gewalt gegen Frauen (S. 40), nichts zu Englisch als Verwaltungssprache."
+        },
+        {
+          "partei_id": 28,
+          "position": "ja",
+          "kurzfassung": "Volt will Englisch als zweite Verkehrs- und Servicesprache der Verwaltung etablieren; langfristig soll jeder Behördenservice auf Englisch möglich sein.",
+          "zitat": "Wir etablieren Englisch als zweite Verkehrs- und Servicesprache der Verwaltung.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=106",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-33",
+      "wahl": "be26",
+      "frage": "Sollen Strafverfahren wegen kleiner Drogenmengen für den Eigenbedarf in Berlin grundsätzlich eingestellt werden?",
+      "beschreibung": "Ob Berlin die Grenzwerte für die „geringe Menge“ anhebt, damit Verfahren gegen Konsumierende eingestellt werden und sich Polizei und Justiz auf den Handel konzentrieren.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Drogen, Cannabis, Betäubungsmittel, geringe Menge, Eigenbedarf, Konsum, Einstellung/eingestellt, Bagatell, Sucht; Kapitel „Berlin wird sicher“, „Kampf gegen Organisierte Kriminalität“, „Schlagkräftige Justiz“. Zu Grenzwerten oder zur Einstellung von Verfahren gegen Konsumierende keine Aussage."
+        },
+        {
+          "partei_id": 22,
+          "position": "teils",
+          "kurzfassung": "Die SPD setzt in der Suchtpolitik auf Hilfe statt Strafe, Drug-Checking und mehr Drogenkonsumräume, sagt aber nichts zur Anhebung der 'geringen Menge' oder zur Einstellung von Strafverfahren.",
+          "zitat": "In der Suchtpolitik setzen wir auf Hilfe statt Strafe. Niedrigschwellige Beratung bleibt zentral.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=51",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Verfahren gegen Konsumierende sollen bei klar definierten Eigenverbrauchsmengen grundsätzlich eingestellt werden, damit sich Polizei und Justiz auf die Organisierte Kriminalität konzentrieren.",
+          "zitat": "Wir wollen die Möglichkeit des Betäubungsmittelrechts nutzen, um bei klar definierten Eigenverbrauchsmengen Verfahren gegen Konsumierende grundsätzlich einzustellen. Die Ressourcen bei Justiz und Polizei sollten gezielt in die Bekämpfung Organisierter Kriminalität investiert werden.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=209",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "teils",
+          "kurzfassung": "Die FDP will eine evidenzbasierte Drogenpolitik mit Hilfe statt Strafe im Mittelpunkt, nennt aber keine Grenzwerte für die geringe Menge oder Verfahrenseinstellungen.",
+          "zitat": "Wir Freie Demokraten setzen uns für eine evidenzbasierte Drogen- und Suchtpolitik ein, die Hilfe statt Strafe in den Mittelpunkt stellt und sich an wissenschaftlichen Erkenntnissen statt an Ideologie orientiert.",
+          "beleg_url": "https://www.fdp-berlin.de/sites/default/files/2026-05/Wahlprogramm_FDP%20Berlin_Abgeordnetenhauswahl%202026.pdf#page=107",
+          "begruendung": null
+        },
+        {
+          "partei_id": 25,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Drogen, Cannabis, Betäubungsmittel, geringe Menge, Eigenbedarf, Rauschgift, Konsum, Sucht, Legalisierung, Entkriminalisierung, Einstellung von Verfahren, Strafverfolgung im Kapitel Innere Sicherheit & Justiz und im ganzen Programm; Drogen nur als Drogenhandel/Drogenkriminalität (S. 14, 26, 63) erwähnt."
+        },
+        {
+          "partei_id": 26,
+          "position": "ja",
+          "kurzfassung": "Die Linke will alle Spielräume in Berlin nutzen, um Drogenkonsum nicht zu kriminalisieren, und setzt sich im Bund für legale Bezugsmöglichkeiten ein.",
+          "zitat": "Wir nutzen alle Spielräume, um in Berlin eine verantwortungsvolle Drogenpolitik umzusetzen, die Drogenkonsum nicht kriminalisiert und Konsumierende nicht stigmatisiert, sondern versucht, die gesundheitlichen und sozialen Risiken für die Konsumierenden zu reduzieren.",
+          "beleg_url": "https://dielinke.berlin/fileadmin/download/2026/Wahlprogramm_AGH_2026_Die_Linke_Berlin.pdf#page=144",
+          "begruendung": null
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: geringe Menge, Eigenbedarf, Cannabis, Konsumenten, Entkriminalisierung, Drogenhandel, Dealer, Betäubungsmittel, Drogen, Sucht; Kapitel Drogenpolitik und Suchtprävention (S. 12) und Sicherheit (S. 41). Keine Aussage zu Grenzwerten oder zur Einstellung von Verfahren."
+        },
+        {
+          "partei_id": 28,
+          "position": "ja",
+          "kurzfassung": "Volt will, dass Verfahren wegen geringer Mengen zum Eigenbedarf grundsätzlich eingestellt werden, und dafür die Grenzwerte anheben.",
+          "zitat": "Wir setzen uns dafür ein, dass Strafverfahren wegen Besitzes geringer Mengen zum Eigenbedarf grundsätzlich eingestellt werden. Dafür planen wir die Anhebung der bestehenden Grenzwerte, damit sich Polizei und Justiz auf Dealer, organisierte Strukturen und Beschaffungskriminalität konzentrieren können.",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-berlin/pdf/policy-wahlprogramm-2026/wahlprogramm-(last_edited_5-8-2026).pdf#page=84",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "be-34",
+      "wahl": "be26",
+      "frage": "Soll ein Paritätsgesetz Frauen und Männern gleich viele Sitze im Abgeordnetenhaus sichern?",
+      "beschreibung": "Ob ein Landesgesetz die Parteien verpflichtet, ihre Listen für das Abgeordnetenhaus abwechselnd mit Frauen und Männern zu besetzen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 21,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Parität/paritätisch, Paritätsgesetz, Quote, Wahlrecht, Wahlliste/Landesliste, Abgeordnetenhaus, Frauenanteil, Gleichstellung, Reißverschluss. Ein Paritätsgesetz wird nicht erwähnt."
+        },
+        {
+          "partei_id": 22,
+          "position": "ja",
+          "kurzfassung": "Die SPD will ein Berliner Paritätsgesetz einführen, damit Frauen und Männer im Abgeordnetenhaus künftig gleich stark vertreten sind.",
+          "zitat": "Deshalb führen wir ein Berliner Paritätsgesetz ein. Frauen und Männer sollen im Abgeordnetenhaus künftig gleich stark vertreten sein.",
+          "beleg_url": "https://spd.berlin/media/2026/08/SPD_Berlin_Wahlprogramm_20260521-v4-1.pdf#page=47",
+          "begruendung": null
+        },
+        {
+          "partei_id": 23,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen ein Paritätsgesetz für das Parlament als Teil ihrer Gleichstellungspolitik.",
+          "zitat": "Bündnisgrüne Politik sichert strukturelle Gleichstellung mit verbindlichen Strategien, einem Paritätsgesetz für das Parlament, fairer Finanzierung, transparenter Personalpolitik, Equal Pay, gezielter Förderung von Gründer*innen und Frauen in MINT-Berufen sowie Programmen für den Wiedereinstieg nach Familienphasen.",
+          "beleg_url": "https://gruene.berlin/fileadmin/BE/lv_berlin/files/Wahlprogramm_2026_Online.pdf#page=130",
+          "begruendung": null
+        },
+        {
+          "partei_id": 24,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Parität, paritätisch, Quote/quotiert, Frauenanteil, Reißverschluss, Wahlliste, Kandidat, Wahlrecht/Wahlgesetz, Gleichstellung, Mandat, Parlament; Kapitel 'Freiheit durch Emanzipation' (S. 74–75), Bürgerrechte, Verwaltungsmodernisierung. Gleichstellung nur zu MINT, Bezahlung und öffentlichem Dienst."
+        },
+        {
+          "partei_id": 25,
+          "position": "nein",
+          "kurzfassung": "Die AfD lehnt eine Pflicht der Parteien zur paritätischen Besetzung ihrer Wahlvorschläge mit Frauen und Männern ab.",
+          "zitat": "Doppelmandate und Parité-Gesetz verhindern",
+          "beleg_url": "https://afd.berlin/wp-content/uploads/2026/07/AfD-WK-Berlin-Wahlprogramm-Webversion-2.pdf#page=76",
+          "begruendung": null
+        },
+        {
+          "partei_id": 26,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht: Parität/Paritätsgesetz, quotiert/Quotierung, Reißverschluss, abwechselnd, Frauenanteil, Wahlrecht/Wahlgesetz, Repräsentation; Kapitel 13 Feministische Politik (S. 211–215) und Wahlrecht-Abschnitt (S. 301). Kein Paritätsgesetz für das Abgeordnetenhaus."
+        },
+        {
+          "partei_id": 27,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Parität, paritätisch, Quote, Frauenquote, Wahlliste, Listen, Wahlrecht, Wahlgesetz, Kandidaten, Frauen, Gleichstellung; Kapitel Meinungsfreiheit, ÖRR, Gendersprache und Direkte Demokratie (S. 30–33). Zu einem Paritätsgesetz für das Abgeordnetenhaus gibt es keine Aussage."
+        },
+        {
+          "partei_id": 28,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Gesucht nach Parität, Paritätsgesetz, Wahlrecht, Wahlliste, Listen, Kandidat, Frauenanteil, Quote, Geschlecht, Gleichstellung in den Kapiteln zu Demokratie/Beteiligung (S. 20–22), Sicherheit/Gewaltschutz (S. 74–76) und Integration (S. 104–105). Wahlrecht nur zu EU-Bürger*innen, keine Aussage zur Parität."
         }
       ],
       "zielkonflikte": []
