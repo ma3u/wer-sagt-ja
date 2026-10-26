@@ -89,20 +89,20 @@ describe('ausgewogenheit', () => {
   it('warnt, wenn bei mehr als 60 % der gerichteten Fragen das Ja vom selben Pol kommt', () => {
     const a = ausgewogenheit({ parteien, fragen: [staat(), staat(), staat(), staat(), staat(), markt()] })
     expect(a.hinweise[0]).toBe(
-      'Wirtschaftlich: Bei 5 von 6 gerichteten Fragen (83 %) kommt das Ja eher von „mehr Staat und Umverteilung“ – ' +
-        'ebenso zugespitzte Fragen ergänzen, bei denen „mehr Markt“ Ja sagt.',
+      'Sozialstaatskonflikt: Bei 5 von 6 gerichteten Fragen (83 %) kommt das Ja eher von „soziale Gerechtigkeit“ – ' +
+        'ebenso zugespitzte Fragen ergänzen, bei denen „Marktfreiheit“ Ja sagt.',
     )
   })
 
   it('warnt nicht bei ausgeglichener Richtung', () => {
     const a = ausgewogenheit({ parteien, fragen: [staat(), staat(), staat(), markt(), markt(), markt()] })
-    expect(a.hinweise.some((h) => h.startsWith('Wirtschaftlich'))).toBe(false)
+    expect(a.hinweise.some((h) => h.startsWith('Sozialstaatskonflikt'))).toBe(false)
   })
 
   it('warnt, wenn weniger als ein Drittel der Fragen auf einer Dimension gerichtet ist', () => {
     const quer = () => frage('ja', 'nein', 'ja', 'nein', 'ja', 'nein', 'ja', 'nein')
     const a = ausgewogenheit({ parteien, fragen: [quer(), quer(), quer(), staat()] })
-    expect(a.hinweise).toContain('Nur 1 von 4 Fragen sind wirtschaftlich gerichtet (Ziel: mindestens ein Drittel) – Fragen ergänzen, die diese Konfliktlinie abbilden.')
+    expect(a.hinweise).toContain('Sozialstaatskonflikt: Nur 1 von 4 Fragen sind gerichtet (Ziel: mindestens ein Drittel) – Fragen ergänzen, die diese Konfliktlinie abbilden.')
   })
 
   it('nennt nicht ratbare Fragen und Parteien mit zu wenigen Profilfragen', () => {
