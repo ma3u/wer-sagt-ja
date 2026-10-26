@@ -1,12 +1,12 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { DIMENSIONEN, ausgewogenheit, istProfilfrage, istRatbar, rho, richtungVon, spearman } from './ausgewogenheit'
+import { CHES, DIMENSIONEN, ausgewogenheit, istProfilfrage, istRatbar, rho, richtungVon, spearman } from './ausgewogenheit'
 import { quizKatalog, spielbar, type FragenDatei } from './katalog'
 import type { Positionswert, QuizPartei, QuizPosition } from './typen'
 
 // CHES 2024: wirtschaftlich Linke < BSW < Grüne < SPD < CDU < FDP < AfD, gesellschaftlich Grüne < Linke < FDP < SPD <
-// CDU < BSW < AfD. Volt hat keinen Wert.
-const KURZ = ['SPD', 'Grüne', 'Linke', 'CDU', 'FDP', 'AfD', 'BSW', 'Volt']
+// CDU < BSW < AfD. Die Tierschutzpartei hat keinen Wert.
+const KURZ = ['SPD', 'Grüne', 'Linke', 'CDU', 'FDP', 'AfD', 'BSW', 'Tierschutz']
 const parteien: QuizPartei[] = KURZ.map((kurzname, i) => ({ id: i + 1, name: kurzname, kurzname, farbe: '#000', programm_url: 'https://example.org' }))
 
 /** Positionen in der Reihenfolge von KURZ. */
@@ -38,7 +38,7 @@ describe('spearman', () => {
 })
 
 describe('rho', () => {
-  it('ist wirtschaftlich klar negativ, wenn die Parteien für mehr Staat Ja sagen – Volt zählt nicht mit', () => {
+  it('ist wirtschaftlich klar negativ, wenn die Parteien für mehr Staat Ja sagen – ohne CHES-Wert zählt nicht mit', () => {
     const r = rho(staat().positionen, parteien, 'lrecon')
     expect(r).toBeLessThanOrEqual(-0.5)
     expect(rho(frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'ja', 'ja').positionen, parteien, 'lrecon')).toBe(r)
@@ -83,7 +83,7 @@ describe('ausgewogenheit', () => {
     const a = ausgewogenheit({ parteien, fragen: [staat(), markt(), frage('ja', 'nein', 'nein', 'ja', 'nein', 'nein', 'nein', 'nein')] })
     expect(a.dimension.lrecon.richtung).toEqual({ niedrig: 1, hoch: 1, keine: 1, offen: 0 })
     expect(a.profil.map((x) => x.anzahl)).toEqual([1, 0, 0, 1, 0, 0, 0, 0])
-    expect(a.ohneChes.map((p) => p.kurzname)).toEqual(['Volt'])
+    expect(a.ohneChes.map((p) => p.kurzname)).toEqual(['Tierschutz'])
   })
 
   it('warnt, wenn bei mehr als 60 % der gerichteten Fragen das Ja vom selben Pol kommt', () => {
@@ -123,8 +123,9 @@ describe('fragen.json', () => {
       expect(a.profil).toHaveLength(d.parteien.length)
     }
   })
-  it('hat für jede Partei außer Volt einen CHES-Wert', () => {
+  it('hat für jede Partei einen CHES-Wert, Volt als Mittel aus zwei Quellen', () => {
     const ohne = new Set(quizKatalog(datei).wahlen.flatMap((d) => ausgewogenheit(d).ohneChes.map((p) => p.kurzname)))
-    expect([...ohne]).toEqual(['Volt'])
+    expect([...ohne]).toEqual([])
+    expect(CHES.Volt).toEqual({ lrecon: 4.05, galtan: 1.92 })
   })
 })

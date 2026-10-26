@@ -11,6 +11,7 @@ import {
   MINDESTANTEIL_GERICHTET,
   NIEDERMAYER_QUELLE,
   RHO_SCHWELLE,
+  VOLT_QUELLEN,
   ausgewogenheit,
 } from './ausgewogenheit'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
@@ -87,8 +88,15 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
           CHES verortet Bundesparteien; für Landtagswahlen gilt die Bundespartei als Näherung. Die Forschung zeigt, dass
           Landesparteien davon abweichen. Wir suchen deshalb Positionen je Landtagswahl aus der deutschen
           Parteienforschung. Die Union im Bund ist das
-          nach Zweitstimmen 2021 gewichtete Mittel aus CDU und CSU. Volt ist in CHES 2024 nicht enthalten und zählt bei
-          der Richtung nicht mit.
+          nach Zweitstimmen 2021 gewichtete Mittel aus CDU und CSU.
+        </p>
+        <p className="meta">
+          Volt Deutschland fehlt in CHES 2024. Wir nehmen das Mittel aus zwei Quellen: dem CHES-Wert für Volt Nederland
+          ({komma(VOLT_QUELLEN.chesNl.lrecon)} und {komma(VOLT_QUELLEN.chesNl.galtan)}), derselben pan-europäischen
+          Partei, und einer Schätzung aus den Antworten von Volt in unseren Katalogen ({komma(VOLT_QUELLEN.programme.lrecon)}{' '}
+          und {komma(VOLT_QUELLEN.programme.galtan)}). Die Schätzung ist der Wert, an dem die Antworten von Volt am besten zur
+          Antwortstruktur der übrigen Parteien passen. Sie stammt aus denselben Programmen wie die Antworten im Spiel und
+          ist deshalb nur eine Gegenprobe, kein unabhängiger Maßstab.
         </p>
 
         <h2>Von wem das Ja einer Frage kommt</h2>
@@ -184,7 +192,10 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
             Kriterium „ein Drittel gerichtet“ zieht deshalb gegen die Profilfragen. Unser Vorschlag: es nur auf Fragen mit
             messbarer Richtung beziehen.
           </li>
-          <li>Woher kommen Positionen je Landtagswahl, und wie lässt sich Volt verorten, das in CHES 2024 fehlt?</li>
+          <li>
+            Woher kommen Positionen je Landtagswahl, und gibt es eine unabhängige Verortung für Volt Deutschland statt des
+            Mittels aus zwei Näherungen?
+          </li>
           <li>Wer übernimmt die zweite, unabhängige Codierung der Positionen?</li>
         </ul>
 
@@ -246,13 +257,15 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
 
 // Beschriftung neben dem Punkt: Versatz in Pixeln und Ausrichtung, damit sich die eng beieinander liegenden Parteien
 // (CDU, CSU, Freie Wähler) nicht überdecken.
-const BESCHRIFTUNG: Record<string, [number, number, 'start' | 'end']> = {
+const BESCHRIFTUNG: Record<string, [number, number, 'start' | 'middle' | 'end']> = {
   CDU: [7, 10, 'start'],
   CSU: [7, -4, 'start'],
   'Freie Wähler': [-7, -6, 'end'],
+  Grüne: [0, 16, 'middle'],
+  Volt: [7, -4, 'start'],
 }
 
-/** Die Parteien nach CHES 2024 als maßstabsgetreues Streudiagramm (0 bis 10 auf beiden Achsen). */
+/** Die Parteien nach CHES 2024 (Volt als Mittel aus zwei Quellen) als maßstabsgetreues Streudiagramm (0 bis 10). */
 function Parteienkarte() {
   const links = 50
   const rechts = 330
@@ -308,7 +321,8 @@ function Parteienkarte() {
         })}
       </svg>
       <figcaption className="meta">
-        Waagerecht der Sozialstaatskonflikt (CHES: LRECON), senkrecht der soziokulturelle Konflikt (CHES: GALTAN).
+        Waagerecht der Sozialstaatskonflikt (CHES: LRECON), senkrecht der soziokulturelle Konflikt (CHES: GALTAN). Volt:
+        Mittel aus Volt Nederland und unserer Schätzung.
       </figcaption>
     </figure>
   )

@@ -103,8 +103,10 @@ zu diesen Punkten; die Warnungen sind ein Arbeitsauftrag und lassen die Prüfung
   (GALTAN, 0 = linksliberal-kosmopolitisch, 10 = konservativ bis autoritär). Eine Achse links–rechts reicht nicht, um
   das Parteiensystem abzubilden. CHES verortet Bundesparteien, für Landtagswahlen gelten sie als Näherung – Landesparteien
   weichen davon ab, Positionen je Landtagswahl aus der deutschen Parteienforschung sind gesucht (Issue #6); „Union“ ist das
-  nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt ist in CHES 2024 nicht enthalten und zählt bei der
-  Richtung nicht mit, bei den Profilfragen aber schon. Quelle: Rovny, Polk, Bakker, Hooghe, Jolly, Marks, Steenbergen &
+  nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt Deutschland fehlt in CHES 2024; wir nehmen das Mittel
+  aus dem CHES-Wert für Volt Nederland (4,70 / 1,09) und einer Schätzung aus den Antworten von Volt in unseren Katalogen
+  (3,4 / 2,75, dort, wo die Antworten am besten zur Antwortstruktur der übrigen Parteien passen) – also 4,05 / 1,92
+  (`VOLT_QUELLEN`). Quelle: Rovny, Polk, Bakker, Hooghe, Jolly, Marks, Steenbergen &
   Vachudova (2025), „The 2024 Chapel Hill Expert Survey on political party positioning in Europe“, *Electoral Studies*
   97, 102981, [doi:10.1016/j.electstud.2025.102981](https://doi.org/10.1016/j.electstud.2025.102981); Daten von
   [chesdata.eu](https://www.chesdata.eu/ches-europe).

@@ -49,10 +49,19 @@ export const CHES_QUELLE = {
 }
 
 /**
+ * Volt Deutschland fehlt in CHES 2024. Wir nehmen das Mittel aus zwei Quellen: CHES 2024 für Volt Nederland (Wahl
+ * 2023, gleiche pan-europäische Partei) und unsere Schätzung aus den Antworten von Volt in sieben Katalogen – der Wert,
+ * an dem die Antworten am besten zur Antwortstruktur der übrigen Parteien passen (Mitte des besten Bereichs).
+ */
+export const VOLT_QUELLEN = {
+  chesNl: { lrecon: 4.7, galtan: 1.09, text: 'CHES 2024, Volt Nederland' },
+  programme: { lrecon: 3.4, galtan: 2.75, text: 'Schätzung aus den Antworten von Volt in unseren Katalogen' },
+}
+
+/**
  * Mittelwerte aus CHES 2024 (CHES_2024_final_v2.csv, Deutschland), 0 bis 10, auf zwei Stellen gerundet. CHES verortet
  * Bundesparteien; für Landtagswahlen gilt die Bundespartei als Näherung. „Union“ ist das Mittel von CDU und CSU,
- * gewichtet nach ihrem Zweitstimmenanteil 2021 (18,9 und 6,2 %). Volt ist in CHES 2024 nicht enthalten und zählt bei
- * der Richtung nicht mit, bei den Profilfragen aber schon.
+ * gewichtet nach ihrem Zweitstimmenanteil 2021 (18,9 und 6,2 %). Volt ist das Mittel aus VOLT_QUELLEN.
  */
 export const CHES: Readonly<Record<string, Record<Dimension, number>>> = {
   CDU: { lrecon: 6.58, galtan: 6.56 },
@@ -65,6 +74,10 @@ export const CHES: Readonly<Record<string, Record<Dimension, number>>> = {
   Linke: { lrecon: 1.37, galtan: 2.29 },
   BSW: { lrecon: 2.78, galtan: 7.06 },
   'Freie Wähler': { lrecon: 6.45, galtan: 6.7 },
+  Volt: {
+    lrecon: (VOLT_QUELLEN.chesNl.lrecon + VOLT_QUELLEN.programme.lrecon) / 2,
+    galtan: (VOLT_QUELLEN.chesNl.galtan + VOLT_QUELLEN.programme.galtan) / 2,
+  },
 }
 
 /** Richtung einer Frage auf einer Dimension; `offen`, wenn sie sich nicht berechnen lässt. */
