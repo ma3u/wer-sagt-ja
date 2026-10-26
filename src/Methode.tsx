@@ -152,10 +152,11 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
 
         <h2>Stand je Katalog</h2>
         <p>
-          Im Oktober 2026 haben wir 104 Fragen ergänzt, gezielt gegen die Lücken. Vorher kam etwa in Thüringen das Ja bei
+          Im Oktober 2026 haben wir 113 Fragen ergänzt, gezielt gegen die Lücken. Vorher kam etwa in Thüringen das Ja bei
           8 von 9 gerichteten Fragen im Sozialstaatskonflikt von der Seite „soziale Gerechtigkeit“, in Berlin im
-          soziokulturellen Konflikt bei 5 von 7 von der konservativen Seite. Die Tabelle zeigt den heutigen Stand; Einzelheiten stehen in der Fragenübersicht jedes
-          Katalogs unter „Ausgewogenheit dieses Katalogs“.
+          soziokulturellen Konflikt bei 5 von 7 von der konservativen Seite, in Sachsen und Mecklenburg-Vorpommern bei 4
+          von 5 von der linksliberalen. Die Tabelle zeigt den heutigen Stand; Einzelheiten stehen in der Fragenübersicht
+          jedes Katalogs unter „Ausgewogenheit dieses Katalogs“.
         </p>
         {fehler && (
           <p className="hinweis" role="alert">

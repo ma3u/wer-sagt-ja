@@ -10415,6 +10415,295 @@
         2.24
       ],
       "hash": "8943486ccfc6"
+    },
+    "frage-sn24-28": {
+      "datei": "frage-sn24-28.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen ausreisepflichtige Asylbewerber konsequenter abschieben?",
+      "dauer": 3.68,
+      "woerter": [
+        0,
+        0.288,
+        0.72,
+        1.653,
+        2.36,
+        3.16
+      ],
+      "hash": "b38af2f3223e"
+    },
+    "loesung-sn24-28": {
+      "datei": "loesung-sn24-28.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, AfD und BSW!",
+      "dauer": 3.76,
+      "woerter": [
+        0.139,
+        0.24,
+        0.88,
+        1.64,
+        2.293,
+        2.78,
+        3.12
+      ],
+      "hash": "b3c094b288b8"
+    },
+    "frage-sn24-29": {
+      "datei": "frage-sn24-29.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen einen Kohleausstieg vor 2038 ablehnen?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.288,
+        0.76,
+        1.02,
+        1.82,
+        2.08,
+        3.248
+      ],
+      "hash": "e0755d8de510"
+    },
+    "loesung-sn24-29": {
+      "datei": "loesung-sn24-29.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, AfD und BSW!",
+      "dauer": 3.92,
+      "woerter": [
+        0.28,
+        0.387,
+        1.227,
+        1.8,
+        2.453,
+        2.9,
+        3.32
+      ],
+      "hash": "b3c094b288b8"
+    },
+    "frage-sn24-31": {
+      "datei": "frage-sn24-31.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen an eigenen Förderschulen für Kinder mit Behinderung festhalten?",
+      "dauer": 3.681,
+      "woerter": [
+        0,
+        0.304,
+        0.72,
+        0.92,
+        1.24,
+        1.861,
+        1.967,
+        2.281,
+        2.441,
+        2.945
+      ],
+      "hash": "10fd4d25369b"
+    },
+    "loesung-sn24-31": {
+      "datei": "loesung-sn24-31.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, AfD und BSW!",
+      "dauer": 3.52,
+      "woerter": [
+        0.16,
+        0.4,
+        1.093,
+        1.92,
+        2.46,
+        2.8
+      ],
+      "hash": "55ed12f77670"
+    },
+    "frage-sn24-32": {
+      "datei": "frage-sn24-32.mp3",
+      "sprecher": "mara",
+      "text": "Soll sich Sachsen dafür einsetzen, die Legalisierung von Cannabis zurückzunehmen?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.192,
+        0.368,
+        0.68,
+        0.94,
+        1.46,
+        1.573,
+        2.28,
+        2.453,
+        2.937
+      ],
+      "hash": "c634d643cf4f"
+    },
+    "loesung-sn24-32": {
+      "datei": "loesung-sn24-32.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: CDU!",
+      "dauer": 2.24,
+      "woerter": [
+        0.15,
+        0.427,
+        0.704,
+        1.02,
+        1.467
+      ],
+      "hash": "1ab7769331ae"
+    },
+    "frage-mv26-34": {
+      "datei": "frage-mv26-34.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Förderschulen in Mecklenburg-Vorpommern dauerhaft erhalten bleiben?",
+      "dauer": 3.76,
+      "woerter": [
+        0,
+        0.36,
+        1.093,
+        1.227,
+        2.28,
+        2.853,
+        3.32
+      ],
+      "hash": "60e3491aa048"
+    },
+    "loesung-mv26-34": {
+      "datei": "loesung-mv26-34.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP, AfD, BSW und Freie Wähler!",
+      "dauer": 4.96,
+      "woerter": [
+        0.208,
+        0.32,
+        1.013,
+        1.8,
+        2.48,
+        3.2,
+        3.76,
+        4.06,
+        4.44
+      ],
+      "hash": "8a36e705e854"
+    },
+    "frage-mv26-35": {
+      "datei": "frage-mv26-35.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Asylsuchende ohne Bleibeperspektive bis zur Ausreise in Landeseinrichtungen bleiben?",
+      "dauer": 4.88,
+      "woerter": [
+        0,
+        0.373,
+        1.104,
+        1.4,
+        2.38,
+        2.62,
+        2.86,
+        3.387,
+        3.488,
+        4.37
+      ],
+      "hash": "d8c23fe5aa1e"
+    },
+    "loesung-mv26-35": {
+      "datei": "loesung-mv26-35.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: FDP und AfD!",
+      "dauer": 2.64,
+      "woerter": [
+        0.24,
+        0.48,
+        1.24,
+        1.74,
+        2.08
+      ],
+      "hash": "8943486ccfc6"
+    },
+    "frage-mv26-36": {
+      "datei": "frage-mv26-36.mp3",
+      "sprecher": "mara",
+      "text": "Soll Mecklenburg-Vorpommern ausreisepflichtige Asylbewerber konsequenter abschieben?",
+      "dauer": 4.4,
+      "woerter": [
+        0,
+        0.213,
+        1.3,
+        2.293,
+        3,
+        3.74
+      ],
+      "hash": "2c52ff937ace"
+    },
+    "loesung-mv26-36": {
+      "datei": "loesung-mv26-36.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP und AfD!",
+      "dauer": 3.36,
+      "woerter": [
+        0.24,
+        0.493,
+        1.44,
+        1.96,
+        2.48,
+        2.853
+      ],
+      "hash": "d387d4fc4caa"
+    },
+    "frage-mv26-37": {
+      "datei": "frage-mv26-37.mp3",
+      "sprecher": "mara",
+      "text": "Soll sich Mecklenburg-Vorpommern für einen deutlich niedrigeren Rundfunkbeitrag einsetzen?",
+      "dauer": 4.56,
+      "woerter": [
+        0,
+        0.272,
+        0.453,
+        1.56,
+        1.733,
+        2.048,
+        2.528,
+        3.16,
+        3.96
+      ],
+      "hash": "3354be5e36bd"
+    },
+    "loesung-mv26-37": {
+      "datei": "loesung-mv26-37.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: FDP, AfD und BSW!",
+      "dauer": 3.92,
+      "woerter": [
+        0.28,
+        0.413,
+        1.2,
+        2.027,
+        2.54,
+        2.88
+      ],
+      "hash": "c615b0065731"
+    },
+    "frage-mv26-38": {
+      "datei": "frage-mv26-38.mp3",
+      "sprecher": "mara",
+      "text": "Sollen Schwangerschaftsabbrüche im Strafgesetzbuch geregelt bleiben?",
+      "dauer": 3.12,
+      "woerter": [
+        0,
+        0.272,
+        1.227,
+        1.328,
+        2.2,
+        2.61
+      ],
+      "hash": "bb641bf1b534"
+    },
+    "loesung-mv26-38": {
+      "datei": "loesung-mv26-38.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: AfD!",
+      "dauer": 2,
+      "woerter": [
+        0.192,
+        0.32,
+        0.544,
+        0.86,
+        1.307
+      ],
+      "hash": "6a7d18cc7838"
     }
   },
   "geraeusche": {
