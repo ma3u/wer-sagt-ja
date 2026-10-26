@@ -169,8 +169,9 @@ function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
       <summary>Ausgewogenheit dieses Katalogs</summary>
       <p className="meta">
         Gefragt wird immer, wer Ja sagt, und die Fragen dürfen zuspitzen. Ausgewogen sein muss die Auswahl: Jede
-        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Gemessen wird auf zwei Dimensionen, wirtschaftlich und
-        gesellschaftlich, mit der Einordnung der Parteien durch Fachleute im{' '}
+        Partei soll ihre Forderungen als Ja-Frage wiederfinden. Gemessen wird auf den zwei Konfliktlinien des
+        deutschen Parteiensystems, dem Sozialstaatskonflikt und dem soziokulturellen Konflikt, derzeit mit der
+        Einordnung der Parteien durch Fachleute im{' '}
         <a href={CHES_QUELLE.url} target="_blank" rel="noopener noreferrer">
           Chapel Hill Expert Survey 2024
         </a>

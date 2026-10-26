@@ -82,7 +82,7 @@ Leitlinie für neue Fragen:
    zugespitzte Frage in ihren Begriffen.
 3. **Profilfragen für jede Partei:** Je Katalog hat jede Partei mindestens zwei Fragen, bei denen sie mit höchstens
    einer anderen Partei Ja sagt. An solchen Fragen erkennt man eine Partei im Spiel.
-4. **Keine Schlagseite:** Je Dimension (wirtschaftlich, gesellschaftlich) ist mindestens ein Drittel der Fragen
+4. **Keine Schlagseite:** Je Konfliktlinie (Sozialstaatskonflikt, soziokultureller Konflikt) ist mindestens ein Drittel der Fragen
    gerichtet, und von den gerichteten Fragen kommt das Ja bei höchstens 60 % vom selben Pol. Fehlt eine Seite, werden
    Fragen ergänzt – nicht bestehende abgeschwächt.
 5. **Keine erfundenen Positionen:** Ausgewogenheit entsteht nie dadurch, dass einer Partei ein Ja zugeschrieben wird,
@@ -96,10 +96,13 @@ zu diesen Punkten; die Warnungen sind ein Arbeitsauftrag und lassen die Prüfung
 (`#/fragen`) zeigt dieselben Zahlen unter „Ausgewogenheit dieses Katalogs“. Berechnet werden sie in
 `src/ausgewogenheit.ts`:
 
-- **Parteipositionen** auf zwei Dimensionen aus dem Chapel Hill Expert Survey 2024, unabhängig von den Programmen:
-  wirtschaftlich (LRECON, 0 = mehr Staat und Umverteilung, 10 = mehr Markt) und gesellschaftlich (GALTAN,
-  0 = grün-alternativ-libertär, 10 = traditionell-autoritär-national). Eine Achse links–rechts reicht nicht, um das
-  Parteiensystem abzubilden. CHES verortet Bundesparteien, für Landtagswahlen gelten sie als Näherung; „Union“ ist das
+- **Parteipositionen** auf den zwei Konfliktlinien des deutschen Parteiensystems nach Niedermayer
+  ([bpb](https://www.bpb.de/themen/parteien/parteien-in-deutschland/314753/der-vergleich-von-parteiensystemen/)),
+  derzeit mit Werten aus dem Chapel Hill Expert Survey 2024, unabhängig von den Programmen: Sozialstaatskonflikt
+  (LRECON, 0 = soziale Gerechtigkeit, mehr Staat und Umverteilung, 10 = Marktfreiheit) und soziokultureller Konflikt
+  (GALTAN, 0 = linksliberal-kosmopolitisch, 10 = konservativ bis autoritär). Eine Achse links–rechts reicht nicht, um
+  das Parteiensystem abzubilden. CHES verortet Bundesparteien, für Landtagswahlen gelten sie als Näherung – Landesparteien
+  weichen davon ab, Positionen je Landtagswahl aus der deutschen Parteienforschung sind gesucht (Issue #6); „Union“ ist das
   nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt ist in CHES 2024 nicht enthalten und zählt bei der
   Richtung nicht mit, bei den Profilfragen aber schon. Quelle: Rovny, Polk, Bakker, Hooghe, Jolly, Marks, Steenbergen &
   Vachudova (2025), „The 2024 Chapel Hill Expert Survey on political party positioning in Europe“, *Electoral Studies*

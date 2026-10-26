@@ -3,11 +3,13 @@ import { QUELLCODE } from './app'
 import {
   CHES,
   CHES_QUELLE,
+  DIMENSION,
   HOECHSTANTEIL,
   MIN_PROFILFRAGEN,
   MINDEST_GERICHTET,
   MINDEST_PARTEIEN,
   MINDESTANTEIL_GERICHTET,
+  NIEDERMAYER_QUELLE,
   RHO_SCHWELLE,
   ausgewogenheit,
 } from './ausgewogenheit'
@@ -58,15 +60,18 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
 
         <h2>Wo die Parteien stehen</h2>
         <p>
-          Wir verorten die Parteien auf zwei Achsen: wirtschaftlich von mehr Staat und Umverteilung (0) bis mehr Markt
-          (10), gesellschaftlich von grün-alternativ-libertär (0) bis traditionell-autoritär-national (10). Die Werte
-          stammen aus dem Chapel Hill Expert Survey 2024, einer Befragung von Fachleuten für Parteien. Sie kommen also
-          nicht aus den Programmen, aus denen die Antworten im Spiel stammen. So prüfen wir die Fragen an einem
-          unabhängigen Maßstab.
+          Wir verorten die Parteien auf den zwei Konfliktlinien des deutschen Parteiensystems, wie Oskar Niedermayer sie
+          beschreibt: im Sozialstaatskonflikt zwischen sozialer Gerechtigkeit (0), also mehr Staat und Umverteilung, und
+          Marktfreiheit (10), im soziokulturellen Konflikt zwischen linksliberal-kosmopolitischen (0) und konservativen
+          bis autoritären Werten (10). Die Werte stammen derzeit aus dem Chapel Hill Expert Survey 2024, einer
+          Befragung von Fachleuten für Parteien. Sie kommen also nicht aus den Programmen, aus denen die Antworten im
+          Spiel stammen. So prüfen wir die Fragen an einem unabhängigen Maßstab.
         </p>
         <Parteienkarte />
         <p className="meta">
-          CHES verortet Bundesparteien; für Landtagswahlen gilt die Bundespartei als Näherung. Die Union im Bund ist das
+          CHES verortet Bundesparteien; für Landtagswahlen gilt die Bundespartei als Näherung. Die Forschung zeigt, dass
+          Landesparteien davon abweichen. Wir suchen deshalb Positionen je Landtagswahl aus der deutschen
+          Parteienforschung. Die Union im Bund ist das
           nach Zweitstimmen 2021 gewichtete Mittel aus CDU und CSU. Volt ist in CHES 2024 nicht enthalten und zählt bei
           der Richtung nicht mit.
         </p>
@@ -103,8 +108,8 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
         <h2>Stand je Katalog</h2>
         <p>
           Im Oktober 2026 haben wir 104 Fragen ergänzt, gezielt gegen die Lücken. Vorher kam etwa in Thüringen das Ja bei
-          8 von 9 wirtschaftlich gerichteten Fragen von „mehr Staat“, in Berlin gesellschaftlich bei 5 von 7 von der
-          traditionellen Seite. Die Tabelle zeigt den heutigen Stand; Einzelheiten stehen in der Fragenübersicht jedes
+          8 von 9 gerichteten Fragen im Sozialstaatskonflikt von der Seite „soziale Gerechtigkeit“, in Berlin im
+          soziokulturellen Konflikt bei 5 von 7 von der konservativen Seite. Die Tabelle zeigt den heutigen Stand; Einzelheiten stehen in der Fragenübersicht jedes
           Katalogs unter „Ausgewogenheit dieses Katalogs“.
         </p>
         {fehler && (
@@ -145,6 +150,12 @@ export function Methode({ onZurueck }: { onZurueck: () => void }) {
         </ul>
 
         <h2>Quellen</h2>
+        <p className="meta">
+          Konfliktlinien:{' '}
+          <a href={NIEDERMAYER_QUELLE.url} target="_blank" rel="noopener noreferrer">
+            {NIEDERMAYER_QUELLE.text}
+          </a>
+        </p>
         <p className="meta">
           Parteipositionen: {CHES_QUELLE.text}.{' '}
           <a href={CHES_QUELLE.url} target="_blank" rel="noopener noreferrer">
@@ -191,7 +202,7 @@ function Parteienkarte() {
     <figure className="methode-karte">
       <svg viewBox="0 0 360 300" role="img" aria-labelledby="methode-karte-titel">
         <title id="methode-karte-titel">
-          {`Parteien nach CHES 2024, waagerecht wirtschaftlich, senkrecht gesellschaftlich: ${parteien
+          {`Parteien nach CHES 2024, waagerecht Sozialstaatskonflikt, senkrecht soziokultureller Konflikt: ${parteien
             .map(([n, w]) => `${n} ${komma(w.lrecon)} und ${komma(w.galtan)}`)
             .join(', ')}`}
         </title>
@@ -215,10 +226,10 @@ function Parteienkarte() {
             </text>
           ))}
           <text x={(links + rechts) / 2} y={292} textAnchor="middle">
-            wirtschaftlich: mehr Staat ← → mehr Markt
+            Sozialstaat: Gerechtigkeit ← → Markt
           </text>
           <text transform={`translate(14 ${(oben + unten) / 2}) rotate(-90)`} textAnchor="middle">
-            gesellschaftlich: GAL ← → TAN
+            Werte: liberal ← → konservativ
           </text>
         </g>
         {parteien.map(([name, w]) => {
@@ -233,7 +244,9 @@ function Parteienkarte() {
           )
         })}
       </svg>
-      <figcaption className="meta">GAL = grün-alternativ-libertär, TAN = traditionell-autoritär-national.</figcaption>
+      <figcaption className="meta">
+        Waagerecht der Sozialstaatskonflikt (CHES: LRECON), senkrecht der soziokulturelle Konflikt (CHES: GALTAN).
+      </figcaption>
     </figure>
   )
 }
@@ -249,8 +262,8 @@ function StandTabelle({ katalog }: { katalog: Katalog }) {
           <tr>
             <th scope="col">Katalog</th>
             <th scope="col">Fragen</th>
-            <th scope="col">Staat : Markt</th>
-            <th scope="col">GAL : TAN</th>
+            <th scope="col">{DIMENSION.lrecon.kurz.niedrig} : {DIMENSION.lrecon.kurz.hoch}</th>
+            <th scope="col">{DIMENSION.galtan.kurz.niedrig} : {DIMENSION.galtan.kurz.hoch}</th>
             <th scope="col">Profil&shy;fragen min&shy;destens</th>
           </tr>
         </thead>

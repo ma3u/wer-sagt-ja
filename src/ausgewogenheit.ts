@@ -14,12 +14,31 @@ export type Dimension = 'lrecon' | 'galtan'
 /** Pol einer Dimension: `niedrig` sind die Werte nahe 0, `hoch` die nahe 10. */
 export type Pol = 'niedrig' | 'hoch'
 
-export const DIMENSION: Record<Dimension, { name: string; pol: Record<Pol, string> }> = {
-  lrecon: { name: 'wirtschaftlich', pol: { niedrig: 'mehr Staat und Umverteilung', hoch: 'mehr Markt' } },
-  galtan: { name: 'gesellschaftlich', pol: { niedrig: 'grün-alternativ-libertär', hoch: 'traditionell-autoritär-national' } },
+/**
+ * Die zwei Konfliktlinien des deutschen Parteiensystems, benannt nach Niedermayer (NIEDERMAYER_QUELLE). Die Werte
+ * kommen bis auf Weiteres aus CHES: LRECON für den Sozialstaatskonflikt, GALTAN für den soziokulturellen Konflikt.
+ * `kurz` ist die knappe Form für Tabellenköpfe und Achsen, mit weichem Trennstrich für schmale Bildschirme.
+ */
+export const DIMENSION: Record<Dimension, { name: string; pol: Record<Pol, string>; kurz: Record<Pol, string> }> = {
+  lrecon: {
+    name: 'Sozialstaatskonflikt',
+    pol: { niedrig: 'soziale Gerechtigkeit', hoch: 'Marktfreiheit' },
+    kurz: { niedrig: 'Gerech\u00adtigkeit', hoch: 'Markt' },
+  },
+  galtan: {
+    name: 'Soziokultureller Konflikt',
+    pol: { niedrig: 'linksliberal-kosmopolitisch', hoch: 'konservativ bis autoritär' },
+    kurz: { niedrig: 'liberal', hoch: 'konser\u00advativ' },
+  },
 }
 
 export const DIMENSIONEN = Object.keys(DIMENSION) as Dimension[]
+
+/** Quelle der Begriffe für die zwei Konfliktlinien. */
+export const NIEDERMAYER_QUELLE = {
+  text: 'Oskar Niedermayer: Der Vergleich von Parteiensystemen. Bundeszentrale für politische Bildung, Dossier Parteien in Deutschland',
+  url: 'https://www.bpb.de/themen/parteien/parteien-in-deutschland/314753/der-vergleich-von-parteiensystemen/',
+}
 
 /** Quelle der Parteipositionen – Zitierweise, wie CHES sie erbittet. */
 export const CHES_QUELLE = {
@@ -178,7 +197,7 @@ export function ausgewogenheit({ parteien, fragen }: Katalogdaten): Ausgewogenhe
     const gerichtet = richtung.niedrig + richtung.hoch
     if (fragen.length && gerichtet / fragen.length < MINDESTANTEIL_GERICHTET)
       hinweise.push(
-        `Nur ${gerichtet} von ${fragen.length} Fragen sind ${name} gerichtet (Ziel: mindestens ein Drittel) – ` +
+        `${name}: Nur ${gerichtet} von ${fragen.length} Fragen sind gerichtet (Ziel: mindestens ein Drittel) – ` +
           `Fragen ergänzen, die diese Konfliktlinie abbilden.`,
       )
     if (gerichtet >= MINDEST_GERICHTET) {
@@ -187,7 +206,7 @@ export function ausgewogenheit({ parteien, fragen }: Katalogdaten): Ausgewogenhe
       if (ueber) {
         const gegen: Pol = ueber === 'niedrig' ? 'hoch' : 'niedrig'
         hinweise.push(
-          `${name[0].toUpperCase()}${name.slice(1)}: Bei ${richtung[ueber]} von ${gerichtet} gerichteten Fragen ` +
+          `${name}: Bei ${richtung[ueber]} von ${gerichtet} gerichteten Fragen ` +
             `(${prozent(richtung[ueber] / gerichtet)}) kommt das Ja eher von „${pol[ueber]}“ – ebenso zugespitzte ` +
             `Fragen ergänzen, bei denen „${pol[gegen]}“ Ja sagt.`,
         )
