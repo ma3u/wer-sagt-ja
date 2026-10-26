@@ -219,7 +219,7 @@ function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
         </>
       )}
       <p className="meta">
-        Methode und Diskussion:{' '}
+        <a href="#/methode">So prüfen wir die Ausgewogenheit</a> · Diskussion:{' '}
         <a href={`${QUELLCODE}/issues/1`} target="_blank" rel="noopener noreferrer">
           Issue #1 zur Ausgewogenheit
         </a>
