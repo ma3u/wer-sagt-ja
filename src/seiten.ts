@@ -2,9 +2,10 @@ import { KI_HINWEIS, POSITION_TEXT, type QuizDaten, type QuizFrage, type QuizPar
 
 // Statische Seiten für Suchmaschinen: Die App selbst liegt unter einer Adresse, ihre Unterseiten hinter #/… – die
 // nimmt keine Suchmaschine einzeln auf. Darum erzeugt der Build (vite.config.ts) je spielbarer Wahl eine eigene Seite
-// mit allen Fragen, der Position jeder Partei und der Belegstelle, dazu sitemap.xml mit allen Adressen.
+// mit allen Fragen, der Position jeder Partei und der Belegstelle, dazu sitemap.xml mit allen Adressen. Für KI-Agenten
+// dieselbe Seite als Markdown (<pfad>/index.md) und llms.txt mit der Liste aller Wahlen.
 
-/** Öffentliche Adresse – auch in index.html, public/robots.txt und public/llms.txt. */
+/** Öffentliche Adresse – auch in index.html, public/robots.txt und src/llms.txt. */
 export const ADRESSE = 'https://wersagtja.de/'
 
 /** Pfad der Seite einer Wahl aus ihrem Namen: „Landtagswahl Sachsen 2024“ → „landtagswahl-sachsen-2024“. */
@@ -122,6 +123,7 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
     <meta name="description" content="${esc(beschreibung)}" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <link rel="canonical" href="${url}" />
+    <link rel="alternate" type="text/markdown" href="${url}index.md" title="Markdown für KI-Agenten" />
     <meta name="theme-color" content="#eef1f5" />
     <link rel="icon" type="image/svg+xml" href="${base}favicon.svg" />
     <link rel="apple-touch-icon" href="${base}icon-180.png" />
@@ -173,11 +175,59 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
         <a href="${base}#/impressum">Impressum</a>
         <a href="${base}#/datenschutz">Datenschutz</a>
         <a href="https://github.com/ma3u/wer-sagt-ja">Quellcode</a>
+        <a href="${base}${pfad(wahl)}/index.md">Als Markdown (für KI-Agenten)</a>
       </footer>
     </div>
   </body>
 </html>
 `
+}
+
+/** Markdown-Fassung einer Wahlseite für KI-Agenten (`<pfad>/index.md`): dieselben Fragen, Positionen und Belege. */
+export function wahlMarkdown(d: QuizDaten): string {
+  const { wahl, parteien, fragen } = d
+  const kurz = (id: number) => parteien.find((p) => p.id === id)?.kurzname ?? String(id)
+  const zeilen = [
+    `# ${wahl.name}: Wer sagt Ja?`,
+    '',
+    `> ${fragen.length} Fragen aus dem Quiz „Wer sagt Ja?“ zu den Wahlprogrammen zur ${wahl.name} (Wahltag ${datum(wahl.datum)}),`,
+    '> je Frage die Position jeder Partei mit Zitat und Link zur Stelle im Programm.',
+    '',
+    `Quelle: ${ADRESSE}${pfad(wahl)}/ · Rohdaten: ${ADRESSE}fragen.json · Hinweise: ${ADRESSE}llms.txt`,
+    '',
+    'Positionen: Ja, Nein, Teils oder Keine Aussage im Programm (weder Ja noch Nein). Fragen mit dem Vermerk',
+    '„KI-Entwurf“ sind noch nicht von Menschen geprüft – bitte das Zitat nennen und auf das Programm verweisen.',
+    '',
+    '## Wahlprogramme',
+    '',
+    ...parteien.map((p) => `- ${p.kurzname}${p.name === p.kurzname ? '' : ` (${p.name})`}: ${p.programm_url}`),
+    '',
+    '## Fragen',
+  ]
+  for (const f of fragen) {
+    const teils = f.neutral.length ? ` · Teils: ${f.neutral.map(kurz).join(', ')}` : ''
+    zeilen.push('', `### ${f.frage}`, '', `Kennung: ${f.id}${f.ki_entwurf ? ' · KI-Entwurf, noch nicht von Menschen geprüft' : ''}`, '', f.beschreibung, '')
+    zeilen.push(`Ja: ${f.richtig.map(kurz).join(', ')}${teils}`, '')
+    for (const p of parteien) {
+      const pos = f.positionen.find((x) => x.partei_id === p.id)
+      if (!pos) continue
+      const teile = [`- ${p.kurzname}: ${POSITION_TEXT[pos.position]}`]
+      if (pos.kurzfassung) teile.push(`– ${pos.kurzfassung}`)
+      if (pos.zitat) teile.push(`Zitat: „${pos.zitat}“`)
+      if (pos.beleg_url) teile.push(`Beleg: ${pos.beleg_url}`)
+      else if (pos.begruendung) teile.push(`(${pos.begruendung})`)
+      zeilen.push(teile.join(' '))
+    }
+  }
+  return `${zeilen.join('\n')}\n`
+}
+
+/** llms.txt aus der Vorlage src/llms.txt: Der Platzhalter `<!-- wahlen -->` wird zur Liste der Wahlseiten. */
+export function llmsTxt(vorlage: string, alle: QuizDaten[]): string {
+  const liste = alle
+    .map((d) => `- [${d.wahl.name}](${ADRESSE}${pfad(d.wahl)}/index.md): ${d.fragen.length} Fragen, ${d.parteien.map((p) => p.kurzname).join(', ')}`)
+    .join('\n')
+  return vorlage.replace('<!-- wahlen -->', liste)
 }
 
 /** sitemap.xml: die Startseite und die Seite jeder Wahl. */

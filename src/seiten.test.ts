@@ -1,7 +1,7 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
 import { quizKatalog, spielbar, type FragenDatei } from './katalog'
-import { ADRESSE, pfad, sitemap, wahlLinks, wahlSeite } from './seiten'
+import { ADRESSE, llmsTxt, pfad, sitemap, wahlLinks, wahlMarkdown, wahlSeite } from './seiten'
 
 const datei = JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as FragenDatei
 const katalog = quizKatalog(datei)
@@ -42,5 +42,23 @@ describe('wahlLinks und sitemap', () => {
       expect(links.includes(`/${pfad(d.wahl)}/`)).toBe(spielbar(d))
       expect(karte.includes(`${ADRESSE}${pfad(d.wahl)}/`)).toBe(spielbar(d))
     }
+  })
+})
+
+describe('wahlMarkdown und llmsTxt', () => {
+  it('enthält jede Frage mit Kennung und jede Partei mit Position', () => {
+    for (const d of alle) {
+      const md = wahlMarkdown(d)
+      expect(md.startsWith(`# ${d.wahl.name}: Wer sagt Ja?`)).toBe(true)
+      for (const f of d.fragen) expect(md).toContain(`Kennung: ${f.id}`)
+      for (const p of d.parteien) expect(md).toContain(`- ${p.kurzname}: `)
+    }
+  })
+  it('ersetzt den Platzhalter der Vorlage durch die Markdown-Seiten aller Wahlen', () => {
+    const vorlage = readFileSync(new URL('./llms.txt', import.meta.url), 'utf8')
+    expect(vorlage).toContain('<!-- wahlen -->')
+    const txt = llmsTxt(vorlage, alle)
+    expect(txt).not.toContain('<!-- wahlen -->')
+    for (const d of alle) expect(txt).toContain(`${ADRESSE}${pfad(d.wahl)}/index.md`)
   })
 })

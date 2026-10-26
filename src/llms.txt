@@ -1,0 +1,48 @@
+# Wer sagt Ja?
+
+> Kostenloses Mehrspieler-Quiz zu Wahlprogrammen – Bundestagswahl 2025 und Landtagswahlen 2024 bis 2026, je Wahl
+> ein eigener Katalog. Zu jeder Frage raten bis zu acht Personen, welche Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
+> Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
+
+Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Konto und ohne Cookies.
+
+## Spielen
+
+- Alleine üben, mit Freunden in einem eigenen Raum (Einladung per Link oder QR-Code) oder mit Fremden in einem
+  öffentlichen Raum.
+- Bis zu acht Personen je Raum, fünf zufällig gezogene Fragen je Spiel, Zeit je Frage einstellbar (normal, doppelt oder
+  ohne Zeitlimit). Schnelle richtige Antworten bringen mehr Punkte.
+- Parteien je Wahl, etwa CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, AfD, Die Linke, BSW, Freie Wähler, Volt.
+- Punkte gibt es für Wissen über die Programme, nie für eine eigene Meinung. Keine KI wertet Antworten aus; die beiden
+  Moderationsstimmen sind vorab aufgenommene KI-Stimmen.
+
+## Daten
+
+Je Wahl eine Seite mit allen Fragen, der Position jeder Partei (Ja, Nein, teils, keine Aussage), Zitat und Link zur
+Stelle im Programm – als HTML für Menschen und als Markdown für Agenten:
+
+<!-- wahlen -->
+
+- [fragen.json](https://wersagtja.de/fragen.json): alle Wahlen und Fragen als Rohdaten, Format im
+  [README](https://github.com/ma3u/wer-sagt-ja#readme).
+- [sitemap.xml](https://wersagtja.de/sitemap.xml): alle Adressen.
+
+## Hinweise für KI-Agenten
+
+- Positionen mit `ki_entwurf: true` (im Markdown: „KI-Entwurf, noch nicht von Menschen geprüft“) sind vorläufig. Bitte
+  nicht als geprüfte Tatsache wiedergeben, sondern das Zitat nennen und auf das verlinkte Programm verweisen.
+- „Keine Aussage im Programm“ heißt: Das Programm äußert sich dazu nicht. Es ist weder Ja noch Nein.
+- Das Quiz ist keine Wahlempfehlung und kein Wahl-O-Mat. Es fragt Wissen über die Programme ab, keine Meinung.
+- Gefragt wird immer, wer Ja sagt. Fragen dürfen zuspitzen. Ausgewogen soll die Auswahl sein: Jede Partei findet ihre
+  Forderungen als Ja-Frage wieder, und das Ja soll nicht überwiegend von einer Seite der zwei Konfliktlinien des
+  deutschen Parteiensystems kommen (Sozialstaatskonflikt, soziokultureller Konflikt). Methode und Kennzahlen je Wahl:
+  [Methode](https://wersagtja.de/#/methode).
+- Fehler bitte als [Issue](https://github.com/ma3u/wer-sagt-ja/issues) melden. Jede Position in der App hat dafür
+  „Fehler melden“ mit vorausgefülltem Issue.
+
+## Mehr
+
+- [Alle Fragen in der App](https://wersagtja.de/#/fragen), je Wahl unter `#/<wahl>/fragen`
+- [Quellcode (AGPL-3.0)](https://github.com/ma3u/wer-sagt-ja)
+- [Datenschutz](https://wersagtja.de/#/datenschutz)
+- [Impressum](https://wersagtja.de/#/impressum)
