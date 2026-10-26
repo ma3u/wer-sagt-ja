@@ -1,9 +1,9 @@
 import { useSyncExternalStore } from 'react'
 
-// Unterseiten (#/impressum, #/datenschutz, #/fragen, #/<wahl>/fragen) liegen über dem Spiel, damit eine laufende
-// Partie erhalten bleibt. Eine Wahl-Kennung besteht nur aus Kleinbuchstaben und Ziffern – ein Raumname enthält immer
-// einen Bindestrich, ein Raumcode Großbuchstaben, darum sind beide nie zu verwechseln.
-const UNTERSEITEN = ['#/impressum', '#/datenschutz', '#/fragen']
+// Unterseiten (#/impressum, #/datenschutz, #/fragen, #/methode, #/<wahl>/fragen) liegen über dem Spiel, damit eine
+// laufende Partie erhalten bleibt. Eine Wahl-Kennung besteht nur aus Kleinbuchstaben und Ziffern – ein Raumname enthält
+// immer einen Bindestrich, ein Raumcode Großbuchstaben, darum sind beide nie zu verwechseln.
+const UNTERSEITEN = ['#/impressum', '#/datenschutz', '#/fragen', '#/methode']
 
 export const istUnterseite = (hash: string) => UNTERSEITEN.some((s) => hash.startsWith(s)) || /^#\/[a-z0-9]+\/fragen/.test(hash)
 

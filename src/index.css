@@ -1584,6 +1584,72 @@ html:has(.quiz-aktion) {
 .ausgewogenheit-profil td {
   font-variant-numeric: tabular-nums;
 }
+/* Methode (#/methode): Grundsatz hervorgehoben, Parteienkarte maßstabsgetreu, Tabelle darf auf schmalen Schirmen scrollen. */
+.methode-grundsatz {
+  margin: 1rem 0;
+  padding: 12px 16px;
+  background: var(--stimmblau-hell);
+  border-radius: var(--papier-radius);
+}
+.methode-grundsatz p {
+  margin: 0;
+}
+.methode-karte {
+  margin: 1rem 0 0.5rem;
+}
+.methode-karte svg {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+}
+.methode-gitter line {
+  stroke: var(--linie);
+  stroke-width: 1;
+}
+.methode-skala text {
+  fill: var(--text-leise);
+  font-size: 10px;
+}
+.methode-partei circle {
+  fill: var(--stimmblau);
+}
+.methode-partei text {
+  fill: var(--text);
+  font-size: 11px;
+}
+.methode-tabelle {
+  overflow-x: auto;
+  margin: 0.75rem 0;
+}
+.methode-tabelle table {
+  border-collapse: collapse;
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+.methode-tabelle caption {
+  text-align: left;
+  color: var(--text-leise);
+  padding-bottom: 6px;
+}
+.methode-tabelle th,
+.methode-tabelle td {
+  padding: 6px 12px 6px 0;
+  border-bottom: 1px solid var(--linie);
+  text-align: left;
+  vertical-align: top;
+}
+.methode-tabelle td {
+  white-space: nowrap;
+}
+.methode-tabelle thead th {
+  color: var(--text-leise);
+  font-weight: 600;
+}
+.methode-tabelle a {
+  display: inline-block;
+  min-height: 24px;
+}
 .uebersicht-frage {
   margin: 0 0 1rem;
   padding: 12px 16px 14px;
