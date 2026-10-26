@@ -1,4 +1,22 @@
+# Suchmaschinen und KI-Agenten sind willkommen: Alle Inhalte sind öffentlich, Quellen und Rohdaten frei verfügbar.
+# Für KI-Agenten: https://wersagtja.de/llms.txt und je Wahl eine Markdown-Fassung (<wahl>/index.md).
 User-agent: *
+Allow: /
+
+# KI-Suche und Abrufe im Auftrag von Nutzenden ausdrücklich zugelassen
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot-Extended
+User-agent: Meta-ExternalAgent
+User-agent: MistralAI-User
+User-agent: DuckAssistBot
 Allow: /
 
 Sitemap: https://wersagtja.de/sitemap.xml

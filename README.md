@@ -129,9 +129,11 @@ Methode, Begründung und geprüfte Alternativen: [Issue #1](https://github.com/m
   Tabs desselben Browsers.
 - Optional `VITE_STUN_URLS` für Direktverbindungen übers Internet; die Datenschutzerklärung nennt den Server dann.
 - Vorschau beim Teilen und Suche: Open-Graph-Bild und -Video, strukturierte Daten (schema.org), `sitemap.xml`,
-  `llms.txt` für KI-Agenten und ein Textblock in `index.html` für Crawler ohne JavaScript. Die Bilder
-  (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` mit Chrome und ffmpeg. Die öffentliche Adresse
-  steht fest in `index.html`, `public/sitemap.xml` und `public/llms.txt` – bei einer eigenen Domain dort ändern.
+  `llms.txt` für KI-Agenten (Vorlage `src/llms.txt`, beim Build um die Wahlen ergänzt), je Wahl eine Markdown-Fassung
+  (`<wahl>/index.md`), `public/robots.txt` (lässt Suchmaschinen und KI-Agenten ausdrücklich zu) und ein Textblock in
+  `index.html` für Crawler ohne JavaScript. Die Bilder (`public/vorschau.*`, `public/icon-*.png`) erzeugt
+  `npm run vorschau` mit Chrome und ffmpeg. Die öffentliche Adresse steht fest in `index.html`, `src/seiten.ts`,
+  `public/robots.txt` und `src/llms.txt` – bei einer eigenen Domain dort ändern.
 - Adressen: `#/` Start, `#/<raumname>` Einladung, `#/fragen` alle Fragen mit Belegen (`#/fragen/<partei>` nur eine
   Partei, `#/fragen/<partei>/<frage-id>` springt zur Frage, `#/<wahl>/fragen/…` für andere Wahlen als die
   Standardwahl), `#/impressum`, `#/datenschutz`.
@@ -156,8 +158,8 @@ Adresse `ma3u.github.io/wer-sagt-ja/` leitet dorthin weiter). Vor dem öffentlic
 
 Suchmaschinen: Die App liegt unter einer Adresse, ihre Unterseiten hinter `#/…` – die nimmt keine Suchmaschine einzeln
 auf. Darum erzeugt der Build ([`src/seiten.ts`](src/seiten.ts), eingebunden in `vite.config.ts`) je spielbarer Wahl eine
-statische Seite mit allen Fragen, Positionen und Belegen (etwa `/landtagswahl-sachsen-2024/`) und `sitemap.xml`;
-`public/robots.txt` verweist darauf. Neue Wahlen kommen damit von selbst dazu.
+statische Seite mit allen Fragen, Positionen und Belegen (etwa `/landtagswahl-sachsen-2024/`, für KI-Agenten auch als
+`index.md`), `sitemap.xml` und `llms.txt`; `public/robots.txt` verweist darauf. Neue Wahlen kommen damit von selbst dazu.
 
 ## Struktur
 
@@ -165,7 +167,7 @@ statische Seite mit allen Fragen, Positionen und Belegen (etwa `/landtagswahl-sa
 src/            App: Quiz.tsx (Start, Räume), Ansicht.tsx (Frage, Auflösung, Ergebnis), spielleitung.ts (Regeln),
                 verbindung.ts (WebRTC + Firebase), show/ (Moderation, Ton), Uebersicht.tsx (alle Fragen), Rechtliches.tsx,
                 ausgewogenheit.ts (Richtung und Profilfragen je Katalog)
-public/         fragen.json (Fragen und Positionen), audio/ (Stimmen und Geräusche), Vorschaubilder, llms.txt
+public/         fragen.json (Fragen und Positionen), audio/ (Stimmen und Geräusche), Vorschaubilder, robots.txt
 scripts/        fragen.ts (Übersicht, Prüfung und Ausgewogenheit), stimmen.ts (ElevenLabs), vorschau.ts, aufraeumen.ts (Firebase)
 firebase/       Regeln der Realtime Database
 ```
