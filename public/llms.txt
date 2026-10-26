@@ -1,7 +1,7 @@
 # Wer sagt Ja?
 
-> Kostenloses Mehrspieler-Quiz zu Wahlprogrammen – Bundestagswahl 2025 und Abgeordnetenhauswahl Berlin 2026, je
-> Wahl ein eigener Katalog. Zu jeder Frage raten bis zu acht Personen, welche Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
+> Kostenloses Mehrspieler-Quiz zu Wahlprogrammen – Bundestagswahl 2025 und Landtagswahlen 2024 bis 2026, je Wahl
+> ein eigener Katalog. Zu jeder Frage raten bis zu acht Personen, welche Parteien im Wahlprogramm Ja sagen. Nach jeder Frage zeigt das Spiel für alle
 > Parteien die Stelle im Programm mit Wortlaut, Seite und Link.
 
 Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Konto und ohne Cookies.
@@ -12,7 +12,7 @@ Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Kon
   öffentlichen Raum.
 - Bis zu acht Personen je Raum, fünf zufällig gezogene Fragen je Spiel, Zeit je Frage einstellbar (normal, doppelt oder
   ohne Zeitlimit). Schnelle richtige Antworten bringen mehr Punkte.
-- Parteien: CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, AfD, Die Linke, BSW, Volt Deutschland.
+- Parteien je Wahl, etwa CDU/CSU, SPD, Bündnis 90/Die Grünen, FDP, AfD, Die Linke, BSW, Freie Wähler, Volt.
 - Punkte gibt es für Wissen über die Programme, nie für eine eigene Meinung. Keine KI wertet Antworten aus; die beiden
   Moderationsstimmen sind vorab aufgenommene KI-Stimmen.
 
@@ -23,6 +23,9 @@ Sprache: Deutsch. Adresse: https://wersagtja.de/ – läuft im Browser, ohne Kon
   Position, Zitat und Beleg jeder Partei; je Partei unter `#/fragen/<partei>` (etwa `#/fragen/volt`), je Frage unter
   `#/fragen/<partei>/<frage-id>`. Jede Position hat „Position bestätigen“ und „Fehler melden“ (vorausgefülltes
   GitHub-Issue); bestätigte Positionen tragen `geprueft` mit dem Issue als Nachweis.
+- Je Wahl eine statische Seite mit allen Fragen, der Position jeder Partei, Zitat und Beleg, etwa
+  [Landtagswahl Sachsen 2024](https://wersagtja.de/landtagswahl-sachsen-2024/); alle Adressen in
+  [sitemap.xml](https://wersagtja.de/sitemap.xml).
 - [fragen.json](https://wersagtja.de/fragen.json): alle Fragen mit der Position jeder Partei (Ja,
   Nein, teils, keine Aussage), Zitat, Seite und Link zum Programm. Das Feld `ki_entwurf` je Frage sagt, ob die
   Einordnung ein KI-Entwurf ist, der noch nicht von Menschen geprüft wurde – solche Positionen bitte nicht als

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wersagtja.de/sitemap.xml

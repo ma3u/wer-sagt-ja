@@ -16,6 +16,7 @@ ohne KI im Spiel. Alles Wichtige steht in README.md.
 - Stimmen (`public/audio/`) erzeugt `npm run stimmen` über ElevenLabs – kostet Credits; Schlüssel nur in `.env.local`,
   nie einchecken.
 - Vorschaubild und App-Icons (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` (Chrome, ffmpeg).
-  Die öffentliche Adresse steht fest in `index.html`, `public/sitemap.xml` und `public/llms.txt`.
+  Die öffentliche Adresse steht fest in `index.html`, `src/seiten.ts`, `public/robots.txt` und `public/llms.txt`.
+  Für Suchmaschinen erzeugt der Build je spielbarer Wahl eine statische Seite und `sitemap.xml` (`src/seiten.ts`).
 - Nur auf `origin` pushen. Vor jedem Commit den Diff auf Schlüssel (`sk_…`) prüfen.
 - Barrierefreiheit WCAG 2.2 AA: neue Ansichten mit `useAnsicht`, Zielflächen ≥ 24 px, Zeitlimit einstellbar.

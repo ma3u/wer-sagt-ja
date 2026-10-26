@@ -2,8 +2,10 @@
 
 ![Wer sagt Ja? – Das Quiz zu den Wahlprogrammen](public/vorschau.gif)
 
-Ein Quiz zu Wahlprogrammen für bis zu acht Personen – zur Bundestagswahl 2025, weitere Wahlen (Landtagswahlen)
-kommen als eigene Kataloge dazu. Eine Frage, alle Parteien: Wer sagt im Programm Ja? Wer richtig liegt, bekommt
+**Spielen: [wersagtja.de](https://wersagtja.de/)**
+
+Ein Quiz zu Wahlprogrammen für bis zu acht Personen – zur Bundestagswahl 2025 und zu Landtagswahlen, je Wahl ein
+eigener Katalog. Eine Frage, alle Parteien: Wer sagt im Programm Ja? Wer richtig liegt, bekommt
 Punkte – wer schneller ist, mehr. Nach jeder Frage zeigt das Spiel für alle Parteien die Stelle im Programm mit
 Wortlaut, Seite und Link.
 
@@ -151,6 +153,11 @@ Veröffentlichung: Der Workflow [`pages.yml`](.github/workflows/pages.yml) baut 
 veröffentlicht auf GitHub Pages unter https://wersagtja.de/ (eigene Domain in den Pages-Einstellungen; die alte
 Adresse `ma3u.github.io/wer-sagt-ja/` leitet dorthin weiter). Vor dem öffentlichen Start die Angaben in
 `src/betreiber.ts` ausfüllen.
+
+Suchmaschinen: Die App liegt unter einer Adresse, ihre Unterseiten hinter `#/…` – die nimmt keine Suchmaschine einzeln
+auf. Darum erzeugt der Build ([`src/seiten.ts`](src/seiten.ts), eingebunden in `vite.config.ts`) je spielbarer Wahl eine
+statische Seite mit allen Fragen, Positionen und Belegen (etwa `/landtagswahl-sachsen-2024/`) und `sitemap.xml`;
+`public/robots.txt` verweist darauf. Neue Wahlen kommen damit von selbst dazu.
 
 ## Struktur
 
