@@ -36,7 +36,7 @@ Stelle im Programm – als HTML für Menschen und als Markdown für Agenten:
 - Gefragt wird immer, wer Ja sagt. Fragen dürfen zuspitzen. Ausgewogen soll die Auswahl sein: Jede Partei findet ihre
   Forderungen als Ja-Frage wieder, und das Ja soll nicht überwiegend von einer Seite der zwei Konfliktlinien des
   deutschen Parteiensystems kommen (Sozialstaatskonflikt, soziokultureller Konflikt). Methode und Kennzahlen je Wahl:
-  [Methode](https://wersagtja.de/#/methode).
+  [Methode](https://wersagtja.de/methode/).
 - Fehler bitte als [Issue](https://github.com/ma3u/wer-sagt-ja/issues) melden. Jede Position in der App hat dafür
   „Fehler melden“ mit vorausgefülltem Issue.
 

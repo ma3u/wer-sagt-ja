@@ -41,3 +41,17 @@ jobs:
     steps:
       - id: pages
         uses: actions/deploy-pages@v5
+  # Meldet alle Adressen aus der Sitemap über IndexNow (Bing, Yandex, Seznam u. a.). Der Schlüssel ist öffentlich und
+  # liegt als public/<schlüssel>.txt auf der Seite – so prüft IndexNow, dass die Meldung von uns kommt.
+  melden:
+    needs: veroeffentlichen
+    runs-on: ubuntu-24.04
+    continue-on-error: true
+    steps:
+      - run: |
+          schluessel=49674f3af97fe1df63d4070602c3ce0c
+          adressen=$(curl -fsS https://wersagtja.de/sitemap.xml | grep -o '<loc>[^<]*</loc>' | sed 's/<[^>]*>//g' | jq -R . | jq -sc .)
+          jq -n --arg k "$schluessel" --argjson u "$adressen" \
+            '{host: "wersagtja.de", key: $k, keyLocation: "https://wersagtja.de/\($k).txt", urlList: $u}' |
+            curl -fsS -o /dev/null -w 'IndexNow: HTTP %{http_code}\n' -H 'Content-Type: application/json; charset=utf-8' \
+              --data-binary @- https://api.indexnow.org/indexnow
