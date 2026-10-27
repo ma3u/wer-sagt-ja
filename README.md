@@ -29,6 +29,7 @@ Alle Fragen stehen in `public/fragen.json` und werden hier gepflegt. Die Datei h
 | --- | --- |
 | `id` | Stabile Kennung aus Kleinbuchstaben und Ziffern, etwa `btw25` oder `be26` – steht in Adressen (`#/be26/fragen`) |
 | `name`, `kurz`, `datum` | Voller Name („Bundestagswahl 2025“), Kurzform für Knöpfe („Bund 2025“), Wahltag als ISO-Datum |
+| `bisher` | Nur für kommende Wahlen, freiwillig: die bei der letzten Wahl ins Parlament gewählten Parteien mit Quelle (`wahl`, `parteien`, `quelle`) – für die Ankündigungsseite |
 | `parteien` | Die Parteien dieser Wahl mit `id`, `name`, `kurzname`, `farbe` und `programm_url` – jede Wahl hat ihre eigene Liste. Leer für einen Platzhalter (vergangene Wahl ohne erfasste Programme oder kommende Wahl): steht in der Auswahl, ist aber nicht spielbar |
 
 Die erste Wahl der Datei ist die Standardwahl: Sie gilt für Adressen ohne Wahl (`#/fragen`), alte Links bleiben so
@@ -161,6 +162,8 @@ auf. Darum erzeugt der Build ([`src/seiten.ts`](src/seiten.ts), eingebunden in `
 statische Seite mit allen Fragen, Positionen und Belegen (etwa `/landtagswahl-sachsen-2024/`, für KI-Agenten auch als
 `index.md`), die Methodenseite als `/methode/` ([`src/methodeSeite.tsx`](src/methodeSeite.tsx), mit dem Stil der App
 gerendert), `sitemap.xml` und `llms.txt`; `public/robots.txt` verweist darauf. Neue Wahlen kommen damit von selbst dazu.
+Kommende Wahlen ohne Programme bekommen schon vorher eine Ankündigung unter derselben Adresse (Wahltag, `bisher`), damit
+sie im Wahlkampf bereits im Index steht.
 Nach jedem Deploy meldet `pages.yml` alle Adressen der Sitemap über IndexNow an Bing, Yandex und andere; der
 öffentliche Schlüssel liegt als `public/<schlüssel>.txt` auf der Seite.
 

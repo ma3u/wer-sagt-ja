@@ -75,6 +75,8 @@ export interface Wahl {
   kurz: string
   /** Wahltag (ISO-Datum). */
   datum: string
+  /** Für eine angekündigte Wahl: die bei der letzten Wahl ins Parlament gewählten Parteien, mit Quelle. */
+  bisher?: { wahl: string; parteien: string[]; quelle: string }
 }
 
 /** Die Spieldaten einer Wahl – ein Spiel läuft immer innerhalb einer Wahl. */

@@ -18,6 +18,7 @@ ohne KI im Spiel. Alles Wichtige steht in README.md.
 - Vorschaubild und App-Icons (`public/vorschau.*`, `public/icon-*.png`) erzeugt `npm run vorschau` (Chrome, ffmpeg).
   Die öffentliche Adresse steht fest in `index.html`, `src/seiten.ts`, `public/robots.txt` und `src/llms.txt`.
   Für Suchmaschinen und KI-Agenten erzeugt der Build je spielbarer Wahl eine statische Seite (HTML und Markdown),
+  je kommender Wahl ohne Programme eine Ankündigung unter derselben Adresse,
   die Methodenseite `/methode/`, `sitemap.xml` und `llms.txt` aus der Vorlage `src/llms.txt` (`src/seiten.ts`,
   `src/methodeSeite.tsx`); `pages.yml` meldet die Adressen danach über IndexNow.
 - Nur auf `origin` pushen. Vor jedem Commit den Diff auf Schlüssel (`sk_…`) prüfen.

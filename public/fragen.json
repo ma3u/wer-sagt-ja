@@ -659,6 +659,17 @@
       "name": "Landtagswahl Schleswig-Holstein 2027",
       "kurz": "Schleswig-Holstein 2027",
       "datum": "2027-04-18",
+      "bisher": {
+        "wahl": "Landtagswahl Schleswig-Holstein 2022",
+        "parteien": [
+          "CDU",
+          "Grüne",
+          "SPD",
+          "FDP",
+          "SSW"
+        ],
+        "quelle": "https://de.wikipedia.org/wiki/Landtagswahl_in_Schleswig-Holstein_2022"
+      },
       "parteien": []
     },
     {
@@ -666,6 +677,15 @@
       "name": "Landtagswahl Saarland 2027",
       "kurz": "Saarland 2027",
       "datum": "2027-04-18",
+      "bisher": {
+        "wahl": "Landtagswahl Saarland 2022",
+        "parteien": [
+          "SPD",
+          "CDU",
+          "AfD"
+        ],
+        "quelle": "https://de.wikipedia.org/wiki/Landtagswahl_im_Saarland_2022"
+      },
       "parteien": []
     },
     {
@@ -673,6 +693,17 @@
       "name": "Landtagswahl Nordrhein-Westfalen 2027",
       "kurz": "NRW 2027",
       "datum": "2027-04-25",
+      "bisher": {
+        "wahl": "Landtagswahl Nordrhein-Westfalen 2022",
+        "parteien": [
+          "CDU",
+          "SPD",
+          "Grüne",
+          "FDP",
+          "AfD"
+        ],
+        "quelle": "https://de.wikipedia.org/wiki/Landtagswahl_in_Nordrhein-Westfalen_2022"
+      },
       "parteien": []
     },
     {
@@ -680,6 +711,18 @@
       "name": "Bürgerschaftswahl Bremen 2027",
       "kurz": "Bremen 2027",
       "datum": "2027-05-30",
+      "bisher": {
+        "wahl": "Bürgerschaftswahl Bremen 2023",
+        "parteien": [
+          "SPD",
+          "CDU",
+          "Grüne",
+          "Linke",
+          "Bürger in Wut",
+          "FDP"
+        ],
+        "quelle": "https://de.wikipedia.org/wiki/B%C3%BCrgerschaftswahl_in_Bremen_2023"
+      },
       "parteien": []
     },
     {
@@ -687,6 +730,16 @@
       "name": "Landtagswahl Niedersachsen 2027",
       "kurz": "Niedersachsen 2027",
       "datum": "2027-09-26",
+      "bisher": {
+        "wahl": "Landtagswahl Niedersachsen 2022",
+        "parteien": [
+          "SPD",
+          "CDU",
+          "Grüne",
+          "AfD"
+        ],
+        "quelle": "https://de.wikipedia.org/wiki/Landtagswahl_in_Niedersachsen_2022"
+      },
       "parteien": []
     }
   ],
