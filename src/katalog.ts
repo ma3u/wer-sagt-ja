@@ -79,6 +79,11 @@ export function fehlerInWahl(w: WahlEintrag): string[] {
   if (!w.name?.trim()) fehler.push('name fehlt')
   if (!w.kurz?.trim()) fehler.push('kurz fehlt')
   if (!/^\d{4}-\d{2}-\d{2}$/.test(w.datum ?? '')) fehler.push('datum: ISO-Datum (JJJJ-MM-TT)')
+  if (w.bisher) {
+    if (!w.bisher.wahl?.trim()) fehler.push('bisher.wahl fehlt')
+    if (!w.bisher.parteien?.length) fehler.push('bisher.parteien fehlt')
+    if (!/^https:\/\//.test(w.bisher.quelle ?? '')) fehler.push('bisher.quelle fehlt')
+  }
   // Ohne Parteien ist die Wahl nur angekündigt (steht in der Auswahl, ist aber nicht spielbar).
   if (!Array.isArray(w.parteien)) fehler.push('parteien fehlt (leere Liste für eine angekündigte Wahl)')
   else if (w.parteien.length === 1) fehler.push('mindestens zwei Parteien – oder keine für eine angekündigte Wahl')
@@ -145,7 +150,7 @@ export function pruefsumme(text: string): string {
   return (h >>> 0).toString(16).padStart(8, '0')
 }
 
-const ohneParteien = ({ id, name, kurz, datum }: WahlEintrag): Wahl => ({ id, name, kurz, datum })
+const ohneParteien = ({ id, name, kurz, datum, bisher }: WahlEintrag): Wahl => ({ id, name, kurz, datum, ...(bisher && { bisher }) })
 
 /** Die Spieldaten einer Wahl – nur fehlerfreie Fragen kommen ins Spiel. */
 function datenFuer(w: WahlEintrag, datei: FragenDatei, version: string): QuizDaten {

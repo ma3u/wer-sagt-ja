@@ -2,8 +2,9 @@ import { KI_HINWEIS, POSITION_TEXT, type QuizDaten, type QuizFrage, type QuizPar
 
 // Statische Seiten für Suchmaschinen: Die App selbst liegt unter einer Adresse, ihre Unterseiten hinter #/… – die
 // nimmt keine Suchmaschine einzeln auf. Darum erzeugt der Build (vite.config.ts) je spielbarer Wahl eine eigene Seite
-// mit allen Fragen, der Position jeder Partei und der Belegstelle, dazu sitemap.xml mit allen Adressen. Für KI-Agenten
-// dieselbe Seite als Markdown (<pfad>/index.md) und llms.txt mit der Liste aller Wahlen.
+// mit allen Fragen, der Position jeder Partei und der Belegstelle, je angekündigter Wahl eine Seite mit Wahltag, dazu
+// sitemap.xml mit allen Adressen. Für KI-Agenten dieselbe Seite als Markdown (<pfad>/index.md) und llms.txt mit der
+// Liste aller Wahlen.
 
 /** Öffentliche Adresse – auch in index.html, public/robots.txt und src/llms.txt. */
 export const ADRESSE = 'https://wersagtja.de/'
@@ -83,13 +84,21 @@ const STIL = `
       nav ol li + li::before { content: '›'; margin-right: 0.4rem; }
       footer { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 2rem; }`
 
-/** Die Seite einer Wahl: alle Fragen mit Auflösung, Positionen, Zitaten und Belegen. */
-export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
-  const { wahl, parteien, fragen } = d
+interface Rahmen {
+  wahl: Wahl
+  titel: string
+  beschreibung: string
+  /** Parteien für JSON-LD (`mentions`). */
+  parteien: string[]
+  /** Mit Markdown-Fassung (`<pfad>/index.md`) – nur spielbare Wahlen. */
+  markdown: boolean
+  base: string
+  inhalt: string
+}
+
+/** Kopf, Brotkrumen und Fußzeile, gemeinsam für die Seiten spielbarer und angekündigter Wahlen. */
+function rahmen({ wahl, titel, beschreibung, parteien, markdown, base, inhalt }: Rahmen): string {
   const url = `${ADRESSE}${pfad(wahl)}/`
-  const titel = `${wahl.name}: Wer sagt Ja? – Quiz zu den Wahlprogrammen`
-  const kurznamen = parteien.map((p) => p.kurzname)
-  const beschreibung = `Quiz zur ${wahl.name}: ${fragen.length} Fragen zu den Wahlprogrammen von ${liste(kurznamen)}. Welche Partei sagt Ja? Mit Zitat und Beleg aus jedem Programm – kostenlos, ohne Anmeldung.`
   const daten = {
     '@context': 'https://schema.org',
     '@graph': [
@@ -102,7 +111,7 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
         inLanguage: 'de',
         isPartOf: { '@id': `${ADRESSE}#website` },
         about: { '@type': 'Event', name: wahl.name, startDate: wahl.datum, location: { '@type': 'Country', name: 'Deutschland' } },
-        mentions: parteien.map((p) => ({ '@type': 'PoliticalParty', name: p.name })),
+        mentions: parteien.map((name) => ({ '@type': 'PoliticalParty', name })),
         primaryImageOfPage: `${ADRESSE}vorschau.png`,
       },
       {
@@ -122,8 +131,7 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
     <title>${esc(titel)}</title>
     <meta name="description" content="${esc(beschreibung)}" />
     <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="${url}" />
-    <link rel="alternate" type="text/markdown" href="${url}index.md" title="Markdown für KI-Agenten" />
+    <link rel="canonical" href="${url}" />${markdown ? `\n    <link rel="alternate" type="text/markdown" href="${url}index.md" title="Markdown für KI-Agenten" />` : ''}
     <meta name="theme-color" content="#eef1f5" />
     <link rel="icon" type="image/svg+xml" href="${base}favicon.svg" />
     <link rel="apple-touch-icon" href="${base}icon-180.png" />
@@ -149,7 +157,32 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
           <li aria-current="page">${esc(wahl.name)}</li>
         </ol>
       </nav>
-      <main>
+      <main>${inhalt}
+      </main>
+      <footer>
+        <a href="${base}methode/">Methode</a>
+        <a href="${base}#/impressum">Impressum</a>
+        <a href="${base}#/datenschutz">Datenschutz</a>
+        <a href="https://github.com/ma3u/wer-sagt-ja">Quellcode</a>${markdown ? `\n        <a href="${base}${pfad(wahl)}/index.md">Als Markdown (für KI-Agenten)</a>` : ''}
+      </footer>
+    </div>
+  </body>
+</html>
+`
+}
+
+/** Die Seite einer Wahl: alle Fragen mit Auflösung, Positionen, Zitaten und Belegen. */
+export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
+  const { wahl, parteien, fragen } = d
+  const kurznamen = parteien.map((p) => p.kurzname)
+  return rahmen({
+    wahl,
+    titel: `${wahl.name}: Wer sagt Ja? – Quiz zu den Wahlprogrammen`,
+    beschreibung: `Quiz zur ${wahl.name}: ${fragen.length} Fragen zu den Wahlprogrammen von ${liste(kurznamen)}. Welche Partei sagt Ja? Mit Zitat und Beleg aus jedem Programm – kostenlos, ohne Anmeldung.`,
+    parteien: parteien.map((p) => p.name),
+    markdown: true,
+    base,
+    inhalt: `
         <h1>${esc(wahl.name)}: Welche Partei sagt Ja?</h1>
         <p>
           ${fragen.length} Fragen zu den Wahlprogrammen zur ${esc(wahl.name)} (Wahltag ${datum(wahl.datum)}). Im Quiz
@@ -168,19 +201,56 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
         <h2>Weitere Wahlen</h2>
         <ul>
           ${wahlLinks(alle, base, wahl.id)}
-        </ul>
-      </main>
-      <footer>
-        <a href="${base}methode/">Methode</a>
-        <a href="${base}#/impressum">Impressum</a>
-        <a href="${base}#/datenschutz">Datenschutz</a>
-        <a href="https://github.com/ma3u/wer-sagt-ja">Quellcode</a>
-        <a href="${base}${pfad(wahl)}/index.md">Als Markdown (für KI-Agenten)</a>
-      </footer>
-    </div>
-  </body>
-</html>
-`
+        </ul>`,
+  })
+}
+
+/**
+ * Die Seite einer angekündigten Wahl, noch ohne Programme: Wahltag, die bisher im Parlament vertretenen Parteien und
+ * der Hinweis, dass die Fragen folgen. Die Adresse bleibt, wenn die Wahl spielbar wird – so ist sie bis zum Wahlkampf
+ * schon bei den Suchmaschinen bekannt.
+ */
+export function ankuendigungsSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
+  const { wahl } = d
+  const bisher = wahl.bisher
+  const buergerschaft = wahl.name.startsWith('Bürgerschaftswahl')
+  return rahmen({
+    wahl,
+    titel: `${wahl.name}: Wer sagt Ja? – Quiz zu den Wahlprogrammen`,
+    beschreibung: `Quiz zur ${wahl.name} am ${datum(wahl.datum)}: Sobald die Wahlprogramme beschlossen sind, fragen wir, welche Partei Ja sagt – mit Zitat und Beleg aus jedem Programm. Bis dahin: Quiz zu ${alle.length} früheren Wahlen.`,
+    parteien: bisher?.parteien ?? [],
+    markdown: false,
+    base,
+    inhalt: `
+        <h1>${esc(wahl.name)}: Welche Partei sagt Ja?</h1>
+        <p>
+          Wahltag ist der ${datum(wahl.datum)}. Die Parteien beschließen ihre Wahlprogramme in den Monaten davor. Sobald
+          sie vorliegen, kommen hier die Fragen dazu: Im Quiz rätst du allein oder mit bis zu acht Personen, welche
+          Parteien Ja sagen, und siehst danach für jede Partei das Zitat mit dem Link zur Stelle im Programm.
+        </p>${
+          bisher
+            ? `
+        <h2>Bisher ${buergerschaft ? 'in der Bürgerschaft' : 'im Landtag'}</h2>
+        <p>
+          Bei der ${esc(bisher.wahl)} in ${buergerschaft ? 'die Bürgerschaft' : 'den Landtag'} gewählt: ${esc(liste(bisher.parteien))}
+          (<a href="${esc(bisher.quelle)}" rel="nofollow">Quelle</a>). Welche Parteien ins Quiz kommen, steht fest,
+          sobald die Programme vorliegen.
+        </p>`
+            : ''
+        }
+        <h2>Bis dahin: frühere Wahlen spielen</h2>
+        <p><a class="knopf" href="${base}">Quiz spielen</a></p>
+        <ul>
+          ${wahlLinks(alle, base)}
+        </ul>`,
+  })
+}
+
+/** Links zu den Seiten angekündigter Wahlen, mit Wahltag. */
+export function kommendLinks(kommend: QuizDaten[], base: string): string {
+  return kommend
+    .map((d) => `<li><a href="${base}${pfad(d.wahl)}/">${esc(d.wahl.name)}</a> – ${datum(d.wahl.datum)}, Fragen folgen</li>`)
+    .join('\n          ')
 }
 
 /** Markdown-Fassung einer Wahlseite für KI-Agenten (`<pfad>/index.md`): dieselben Fragen, Positionen und Belege. */
@@ -223,19 +293,20 @@ export function wahlMarkdown(d: QuizDaten): string {
 }
 
 /** llms.txt aus der Vorlage src/llms.txt: Der Platzhalter `<!-- wahlen -->` wird zur Liste der Wahlseiten. */
-export function llmsTxt(vorlage: string, alle: QuizDaten[]): string {
-  const liste = alle
-    .map((d) => `- [${d.wahl.name}](${ADRESSE}${pfad(d.wahl)}/index.md): ${d.fragen.length} Fragen, ${d.parteien.map((p) => p.kurzname).join(', ')}`)
-    .join('\n')
+export function llmsTxt(vorlage: string, alle: QuizDaten[], kommend: QuizDaten[] = []): string {
+  const liste = [
+    ...alle.map((d) => `- [${d.wahl.name}](${ADRESSE}${pfad(d.wahl)}/index.md): ${d.fragen.length} Fragen, ${d.parteien.map((p) => p.kurzname).join(', ')}`),
+    ...kommend.map((d) => `- [${d.wahl.name}](${ADRESSE}${pfad(d.wahl)}/): Wahltag ${datum(d.wahl.datum)}, Fragen folgen mit den Programmen`),
+  ].join('\n')
   return vorlage.replace('<!-- wahlen -->', liste)
 }
 
-/** sitemap.xml: die Startseite, die Methodenseite und die Seite jeder Wahl. */
-export function sitemap(alle: QuizDaten[]): string {
+/** sitemap.xml: die Startseite, die Methodenseite und die Seite jeder Wahl, auch der angekündigten. */
+export function sitemap(alle: QuizDaten[], kommend: QuizDaten[] = []): string {
   const urls = [
     `  <url>\n    <loc>${ADRESSE}</loc>\n    <image:image>\n      <image:loc>${ADRESSE}vorschau.png</image:loc>\n    </image:image>\n  </url>`,
     `  <url>\n    <loc>${ADRESSE}methode/</loc>\n  </url>`,
-    ...alle.map((d) => `  <url>\n    <loc>${ADRESSE}${pfad(d.wahl)}/</loc>\n  </url>`),
+    ...[...alle, ...kommend].map((d) => `  <url>\n    <loc>${ADRESSE}${pfad(d.wahl)}/</loc>\n  </url>`),
   ]
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
