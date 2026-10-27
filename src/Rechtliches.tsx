@@ -34,12 +34,19 @@ function Anschrift() {
 }
 
 /** Kopf jeder Unterseite: zurück ins Spiel und das Logo zur Startseite. */
-export function UnterseitenKopf({ onZurueck }: { onZurueck: () => void }) {
+/** Ohne `onZurueck` (statische Seite) führt ein Link zur Startseite. */
+export function UnterseitenKopf({ onZurueck }: { onZurueck?: () => void }) {
   return (
     <header className="recht-kopf">
-      <button className="knopf knopf-leise" onClick={onZurueck}>
-        ← Zurück
-      </button>
+      {onZurueck ? (
+        <button className="knopf knopf-leise" onClick={onZurueck}>
+          ← Zurück
+        </button>
+      ) : (
+        <a className="knopf knopf-leise" href="#/">
+          ← Zur Startseite
+        </a>
+      )}
       <a href="#/" className="recht-marke" aria-label={`${APP_NAME} – Startseite`}>
         <Logo groesse={32} />
       </a>

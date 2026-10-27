@@ -43,17 +43,19 @@ const LITERATUR: { text: string; url?: string }[] = [
 const prozent = (x: number) => `${Math.round(x * 100)} %`
 const komma = (x: number) => x.toFixed(2).replace('.', ',')
 
-export function Methode({ onZurueck }: { onZurueck: () => void }) {
+/** `vorab`: Katalog schon geladen – beim Build für die statische Seite /methode/ (src/methodeSeite.tsx). */
+export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: Katalog }) {
   const titel = useAnsicht('So prüfen wir die Ausgewogenheit')
   useFokusZurueck()
-  const [katalog, setKatalog] = useState<Katalog | null>(null)
+  const [katalog, setKatalog] = useState<Katalog | null>(vorab ?? null)
   const [fehler, setFehler] = useState<string | null>(null)
 
   useEffect(() => {
+    if (vorab) return
     ladeKatalog()
       .then(setKatalog)
       .catch((e: unknown) => setFehler(e instanceof Error ? e.message : String(e)))
-  }, [])
+  }, [vorab])
 
   return (
     <main className="seite recht methode">

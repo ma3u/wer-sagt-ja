@@ -171,7 +171,7 @@ export function wahlSeite(d: QuizDaten, alle: QuizDaten[], base = '/'): string {
         </ul>
       </main>
       <footer>
-        <a href="${base}#/methode">Methode</a>
+        <a href="${base}methode/">Methode</a>
         <a href="${base}#/impressum">Impressum</a>
         <a href="${base}#/datenschutz">Datenschutz</a>
         <a href="https://github.com/ma3u/wer-sagt-ja">Quellcode</a>
@@ -230,10 +230,11 @@ export function llmsTxt(vorlage: string, alle: QuizDaten[]): string {
   return vorlage.replace('<!-- wahlen -->', liste)
 }
 
-/** sitemap.xml: die Startseite und die Seite jeder Wahl. */
+/** sitemap.xml: die Startseite, die Methodenseite und die Seite jeder Wahl. */
 export function sitemap(alle: QuizDaten[]): string {
   const urls = [
     `  <url>\n    <loc>${ADRESSE}</loc>\n    <image:image>\n      <image:loc>${ADRESSE}vorschau.png</image:loc>\n    </image:image>\n  </url>`,
+    `  <url>\n    <loc>${ADRESSE}methode/</loc>\n  </url>`,
     ...alle.map((d) => `  <url>\n    <loc>${ADRESSE}${pfad(d.wahl)}/</loc>\n  </url>`),
   ]
   return `<?xml version="1.0" encoding="UTF-8"?>

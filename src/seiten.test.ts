@@ -62,3 +62,9 @@ describe('wahlMarkdown und llmsTxt', () => {
     for (const d of alle) expect(txt).toContain(`${ADRESSE}${pfad(d.wahl)}/index.md`)
   })
 })
+
+describe('sitemap', () => {
+  it('enthält die Methodenseite', () => {
+    expect(sitemap(alle)).toContain(`<loc>${ADRESSE}methode/</loc>`)
+  })
+})
