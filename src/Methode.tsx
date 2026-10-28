@@ -1,4 +1,4 @@
-import { useEffect, useId, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { QUELLCODE } from './app'
 import {
   CHES,
@@ -293,47 +293,47 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
   )
 }
 
-/** Die Positionen je Wahl aus PWIB als Tabelle, eine Wahl zur Auswahl, nach der wirtschaftspolitischen Lage geordnet. */
+/**
+ * Die Positionen je Wahl aus PWIB, je Wahl ein aufklappbarer Abschnitt mit Tabelle, nach der wirtschaftspolitischen Lage
+ * geordnet. Aufklappen statt Auswahlliste, weil die statische Seite /methode/ ohne JavaScript auskommt.
+ */
 function PwibTabelle() {
-  const id = useId()
-  const [wahl, setWahl] = useState('bw26')
   const namen: Record<string, string> = {
     btw25: 'Bund 2025', th24: 'Thüringen 2024', sn24: 'Sachsen 2024', bb24: 'Brandenburg 2024', hh25: 'Hamburg 2025',
     bw26: 'Baden-Württemberg 2026', rp26: 'Rheinland-Pfalz 2026', st26: 'Sachsen-Anhalt 2026', be26: 'Berlin 2026',
     mv26: 'Mecklenburg-Vorpommern 2026',
   }
-  const zeilen = Object.entries(PWIB[wahl]).sort(([, a], [, b]) => a.lrecon - b.lrecon)
   return (
-    <div className="methode-tabelle">
-      <label className="label" htmlFor={id}>
-        Positionen je Wahl
-      </label>
-      <select id={id} value={wahl} onChange={(e) => setWahl(e.target.value)}>
-        {Object.keys(PWIB).map((w) => (
-          <option key={w} value={w}>
-            {namen[w] ?? w}
-          </option>
-        ))}
-      </select>
-      <table>
-        <caption>Positionen nach PWIB, {namen[wahl] ?? wahl}</caption>
-        <thead>
-          <tr>
-            <th scope="col">Partei</th>
-            <th scope="col">Sozialstaat ({DIMENSION.lrecon.kurz.niedrig} ← → {DIMENSION.lrecon.kurz.hoch})</th>
-            <th scope="col">Werte ({DIMENSION.galtan.kurz.niedrig} ← → {DIMENSION.galtan.kurz.hoch})</th>
-          </tr>
-        </thead>
-        <tbody>
-          {zeilen.map(([name, w]) => (
-            <tr key={name}>
-              <th scope="row">{name}</th>
-              <td>{komma(w.lrecon)}</td>
-              <td>{komma(w.galtan)}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+    <div className="methode-pwib">
+      <p className="label">Positionen je Wahl</p>
+      {Object.entries(PWIB).map(([wahl, lagen]) => (
+        <details key={wahl} open={wahl === 'bw26'}>
+          <summary>{namen[wahl] ?? wahl}</summary>
+          <div className="methode-tabelle">
+            <table>
+              <caption>Positionen nach PWIB, {namen[wahl] ?? wahl}</caption>
+              <thead>
+                <tr>
+                  <th scope="col">Partei</th>
+                  <th scope="col">Sozialstaat ({DIMENSION.lrecon.kurz.niedrig} ← → {DIMENSION.lrecon.kurz.hoch})</th>
+                  <th scope="col">Werte ({DIMENSION.galtan.kurz.niedrig} ← → {DIMENSION.galtan.kurz.hoch})</th>
+                </tr>
+              </thead>
+              <tbody>
+                {Object.entries(lagen)
+                  .sort(([, a], [, b]) => a.lrecon - b.lrecon)
+                  .map(([name, w]) => (
+                    <tr key={name}>
+                      <th scope="row">{name}</th>
+                      <td>{komma(w.lrecon)}</td>
+                      <td>{komma(w.galtan)}</td>
+                    </tr>
+                  ))}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      ))}
     </div>
   )
 }
