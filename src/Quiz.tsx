@@ -139,11 +139,14 @@ export function Quiz() {
         </div>
       )}
       <header className="kopfzeile">
-        <a href="#/" className="kopfzeile-marke">
-          <Logo groesse={30} />
-          <span>{APP_NAME}</span>
-          <span className="sr-only"> – zur Startseite</span>
-        </a>
+        {/* Auf der Startseite steht Name und Logo schon groß auf dem Stimmzettel – oben nur der Ton. */}
+        {(modus.art !== 'start' || !katalog) && (
+          <a href="#/" className="kopfzeile-marke">
+            <Logo groesse={30} />
+            <span>{APP_NAME}</span>
+            <span className="sr-only"> – zur Startseite</span>
+          </a>
+        )}
         <span className="quiz-kopf-rechts">
           <TonKnopf />
         </span>
