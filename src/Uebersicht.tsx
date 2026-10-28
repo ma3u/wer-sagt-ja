@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Geprueft, KiHinweis, Positionen, ProgrammLink, PruefZeile, Zielkonflikte } from './Ansicht'
 import { QUELLCODE } from './app'
-import { CHES_QUELLE, DIMENSION, DIMENSIONEN, ausgewogenheit, richtungText, type Richtung } from './ausgewogenheit'
+import { CHES_QUELLE, DIMENSION, DIMENSIONEN, PWIB_QUELLE, ausgewogenheit, richtungText, type Richtung } from './ausgewogenheit'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { spielbar, standardWahl, wahlFuer } from './katalog'
 import { ladeKatalog } from './laden'
@@ -158,27 +158,40 @@ function ParteiStand({ daten, partei }: { daten: QuizDaten; partei: QuizPartei |
 }
 
 /**
- * Ausgewogenheit des Katalogs (Issue #1): von welchem Pol der beiden CHES-Dimensionen das Ja der Fragen eher kommt und wie
- * viele Profilfragen jede Partei hat. Das Spielprinzip bleibt – die Kennzahlen zeigen, ob die Auswahl alle Parteien fair abbildet.
+ * Ausgewogenheit des Katalogs (Issue #1): von welchem Pol der beiden Konfliktlinien das Ja der Fragen eher kommt – nach
+ * PWIB je Wahl, in Klammern die Gegenprobe mit CHES – und wie viele Profilfragen jede Partei hat. Das Spielprinzip
+ * bleibt – die Kennzahlen zeigen, ob die Auswahl alle Parteien fair abbildet.
  */
 function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
   const a = ausgewogenheit(daten)
   const reihenfolge: Richtung[] = ['niedrig', 'hoch', 'keine', 'offen']
+  const gegen = a.gegenprobe
+  const ohne = a.ohneLage.map((p) => p.kurzname).join(', ')
+  const abweichend = [...new Set(gegen?.abweichend.map((x) => x.id))]
   return (
     <details className="ausgewogenheit">
       <summary>Ausgewogenheit dieses Katalogs</summary>
       <p className="meta">
         Gefragt wird immer, wer Ja sagt, und die Fragen dürfen zuspitzen. Ausgewogen sein muss die Auswahl: Jede
         Partei soll ihre Forderungen als Ja-Frage wiederfinden. Gemessen wird auf den zwei Konfliktlinien des
-        deutschen Parteiensystems, dem Sozialstaatskonflikt und dem soziokulturellen Konflikt, derzeit mit der
-        Einordnung der Parteien durch Fachleute im{' '}
+        deutschen Parteiensystems, dem Sozialstaatskonflikt und dem soziokulturellen Konflikt.{' '}
+        {a.massstab === 'pwib' ? (
+          <>
+            Die Lage der Parteien stammt aus ihren Programmen zu dieser Wahl, geschätzt im Datensatz{' '}
+            <a href={PWIB_QUELLE.url} target="_blank" rel="noopener noreferrer">
+              Parteienwettbewerb in den deutschen Bundesländern
+            </a>
+            . In Klammern steht die Gegenprobe mit der Einordnung der Bundesparteien durch Fachleute im{' '}
+          </>
+        ) : (
+          'Die Lage der Parteien stammt aus der Einordnung der Bundesparteien durch Fachleute im '
+        )}
         <a href={CHES_QUELLE.url} target="_blank" rel="noopener noreferrer">
           Chapel Hill Expert Survey 2024
         </a>
         . Eine Frage gilt als gerichtet, wenn die Antworten der Parteien deutlich mit ihrer Lage zusammenhängen
         (Spearman-Korrelation ab 0,5).
-        {a.ohneChes.length > 0 &&
-          ` Ohne Einordnung und deshalb bei der Richtung nicht mitgezählt: ${a.ohneChes.map((p) => p.kurzname).join(', ')}.`}
+        {ohne && ` Ohne Position und deshalb bei der Richtung nicht mitgezählt: ${ohne}.`}
       </p>
       {DIMENSIONEN.map((d) => (
         <section key={d}>
@@ -187,11 +200,24 @@ function Ausgewogenheit({ daten }: { daten: QuizDaten }) {
             {reihenfolge.map((r) => (
               <li key={r}>
                 <strong>{a.dimension[d].richtung[r]}</strong> {richtungText(d, r)}
+                {gegen && ` (CHES: ${gegen.dimension[d].richtung[r]})`}
               </li>
             ))}
           </ul>
         </section>
       ))}
+      {gegen && (
+        <p className="meta">
+          {abweichend.length
+            ? `Bei ${abweichend.length} Fragen fällt die Richtung in der Gegenprobe auf einer Konfliktlinie anders aus ` +
+              `(${abweichend.join(', ')}): ` +
+              `Nach einem Maßstab ist die Frage gerichtet, nach dem anderen nicht.` +
+              (gegen.abweichend.some((x) => x.richtung !== 'keine' && x.gegenprobe !== 'keine')
+                ? ' Bei einigen zeigen die Maßstäbe sogar auf entgegengesetzte Pole.'
+                : ' Auf entgegengesetzte Pole zeigen sie bei keiner Frage.')
+            : 'In der Gegenprobe fällt die Richtung bei allen Fragen gleich aus.'}
+        </p>
+      )}
       <table className="ausgewogenheit-profil">
         <caption>Profilfragen je Partei – Fragen, bei denen sie mit höchstens einer anderen Partei Ja sagt</caption>
         <thead>
