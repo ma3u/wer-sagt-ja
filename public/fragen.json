@@ -9717,6 +9717,204 @@
       "zielkonflikte": []
     },
     {
+      "id": "sn24-33",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen einen gesetzlichen Anspruch auf fünf Tage Bildungsurlaub im Jahr einführen?",
+      "beschreibung": "Ob Beschäftigte in Sachsen wie in fast allen anderen Ländern das Recht bekommen, sich jedes Jahr für fünf Tage Weiterbildung bezahlt von der Arbeit freistellen zu lassen.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "nein",
+          "kurzfassung": "Die CDU lehnt angesichts der Lage auf dem Arbeitsmarkt einen fünftägigen Bildungsurlaub strikt ab.",
+          "zitat": "Wir lehnen bei der aktuellen Situation auf dem Arbeitsmarkt alle Maßnahmen strikt ab, die die notwendige Arbeitszeit reduzieren wie beispielsweise einen fünftägigen „Bildungsurlaub“.",
+          "beleg_url": "https://www.kas.de/documents/d/geschichte-der-cdu/2024-cdu-sn_ltw_wahlprogramm_weil-es-um-sachsen-geht#page=11",
+          "begruendung": null
+        },
+        {
+          "partei_id": 42,
+          "position": "ja",
+          "kurzfassung": "Die SPD unterstützt den Volksantrag für ein Bildungsfreistellungsgesetz mit einem Rechtsanspruch auf bezahlte Freistellung an fünf Arbeitstagen pro Jahr.",
+          "zitat": "Wir beteiligen uns daher am Bündnis „5 Tage Bildungszeit für Sachsen“ und unterstützen den Volksantrag für ein Bildungsfreistellungsgesetz. Mit einem Rechtsanspruch auf bezahlte Freistellung an fünf Arbeitstagen pro Jahr werden berufliche, politische, allgemeine und kulturelle Weiterbildung sowie die Qualifizierung im Ehrenamt unterstützt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "ja",
+          "kurzfassung": "Die Grünen setzen sich für ein sächsisches Bildungsfreistellungsgesetz ein und unterstützen den Volksantrag für fünf Tage Bildungszeit.",
+          "zitat": "Wir setzen uns für ein sächsisches Bildungsfreistellungsgesetz ein und unterstützen den Volksantrag „5 Tage Bildung – Zeit für Sachsen“.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=41",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bildungsurlaub, Bildungsfreistellung, Bildungszeit, Freistellung, Weiterbildung, Urlaub, Arbeitszeit, Qualifizierung (Kapitel Arbeit/Wirtschaft, Bildung, Ehrenamt). Kein gesetzlicher Freistellungsanspruch erwähnt."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bildungsurlaub, Bildungsfreistellung, Bildungszeit, Freistellung, Weiterbildung, Urlaub, Arbeitszeit, Qualifizierung (Kapitel Arbeit/Wirtschaft, Bildung, Ehrenamt). Kein Bildungsurlaub oder Freistellungsanspruch erwähnt."
+        },
+        {
+          "partei_id": 46,
+          "position": "ja",
+          "kurzfassung": "Die Linke fordert ein Recht auf fünf Tage Bildungszeit im Jahr.",
+          "zitat": "Unverzichtbar gerade in Zeiten des Fachkräftemangels sind großzügige Bildungs- und Weiterbildungsmöglichkeiten. Wir kämpfen für ein Recht auf 5 Tage Bildungszeit im Jahr.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=9",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Bildungsurlaub, Bildungsfreistellung, Bildungszeit, Freistellung, Weiterbildung, Urlaub, Arbeitszeit, Qualifizierung (Kapitel Arbeit/Wirtschaft, Bildung, Ehrenamt). Weiterbildung kommt nur als Förderung von Berufsqualifizierungen, Meister-Weiterbildungen und Hochschulweiterbildung vor; kein Freistellungsanspruch."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-34",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen die Mietpreisbremse verschärfen oder auf mehr Orte ausweiten?",
+      "beschreibung": "Ob der Freistaat Mieterhöhungen und Wiedervermietungsmieten stärker begrenzt, etwa mit einer wirksameren Mietpreisbremse und Kappungsgrenze über Dresden und Leipzig hinaus.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Kappungsgrenze, Mietendeckel, Mietpreis, Mieterhöhung, Mieterschutz, Miete/Mieten, Wiedervermietung, Mietspiegel (Kapitel Bauen/Wohnen). Mietpreisbremse und Kappungsgrenze werden nicht erwähnt."
+        },
+        {
+          "partei_id": 42,
+          "position": "teils",
+          "kurzfassung": "Die SPD will die bestehende Mietpreisbremse fortsetzen und Mietsteigerungen begrenzen, fordert aber keine Verschärfung oder Ausweitung auf weitere Orte.",
+          "zitat": "Um Mieter:innen vor steigenden Mieten zu schützen, wollen wir die Mietpreisbremse fortsetzen und Zweckentfremdung eindämmen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=45",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen, dass der Freistaat Mietpreisbremse und Kappungsgrenze in angespannten Wohnungsmärkten konsequent ausschöpft, um Mietsteigerungen zu begrenzen.",
+          "zitat": "Um Mietpreissteigerungen insbesondere in angespannten Wohnungsmärkten zu begrenzen, soll der Freistaat die Möglichkeiten bestehender Wohnungsmarktinstrumente wie Mietpreisbremse und Kappungsgrenze, zur Einschränkung der Zweckentfremdung von Wohnraum sowie der Umwandlung von Mietwohnungen in Eigentumswohnungen konsequent ausschöpfen.",
+          "beleg_url": "https://gruene-sachsen.de/wp-content/uploads/2024/06/DieGruenen_Wahlprogramm_Buch_ES.pdf#page=60",
+          "begruendung": null
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Kappungsgrenze, Mietendeckel, Mietpreis, Mieterhöhung, Mieterschutz, Miete/Mieten, Wiedervermietung, Mietspiegel (Kapitel Bauen/Wohnen). Mietpreisbremse und Kappungsgrenze werden nicht erwähnt."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Kappungsgrenze, Mietendeckel, Mietpreis, Mieterhöhung, Mieterschutz, Miete/Mieten, Wiedervermietung, Mietspiegel (Kapitel Bauen/Wohnen). Mieten kommen nur im Zusammenhang mit Kosten durch Energievorschriften vor; keine Aussage zur Mietpreisbremse."
+        },
+        {
+          "partei_id": 46,
+          "position": "ja",
+          "kurzfassung": "Die Linke will eine wirksame Mietpreisbremse einführen und Mieterinnen und Mieter mit weiteren Schutzregeln vor steigenden Mieten schützen.",
+          "zitat": "Wir wollen Menschen vor explodierenden Mieten schützen – alle Möglichkeiten dazu müssen genutzt werden. Wir wollen eine wirksame Mietpreisbremse einführen, den Kündigungsschutz bei Eigenbedarfskündigungen verlängern und es verbieten, dass Miet- in Eigentumswohnungen umgewandelt werden.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Mietpreisbremse, Kappungsgrenze, Mietendeckel, Mietpreis, Mieterhöhung, Mieterschutz, Miete/Mieten, Wiedervermietung, Mietspiegel (Kapitel Bauen/Wohnen). Das Programm beklagt Mietsteigerungen nach Sanierungen, nennt aber weder Mietpreisbremse noch Kappungsgrenze."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "sn24-35",
+      "wahl": "sn24",
+      "frage": "Soll Sachsen eine landeseigene Wohnungsbaugesellschaft gründen?",
+      "beschreibung": "Ob der Freistaat selbst ein Wohnungsunternehmen aufbaut, das bezahlbare Mietwohnungen baut und dauerhaft in öffentlicher Hand behält.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 41,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wohnungsbaugesellschaft, Landeswohnungs-, Wohnungsgesellschaft, Wohnungsunternehmen, landeseigen, kommunaler/öffentlicher Wohnungsbau, Wohnungsbau, Wohnraum (Kapitel Bauen/Wohnen). Das Programm will sozialen Wohnungsbau fördern und Wohnungsgenossenschaften stärken, nennt aber keine landeseigene Wohnungsbaugesellschaft."
+        },
+        {
+          "partei_id": 42,
+          "position": "ja",
+          "kurzfassung": "Die SPD will eine sächsische Wohnungsbaugesellschaft gründen, die bezahlbaren und barrierefreien Wohnraum bereitstellt und u. a. über den „Sachsenfonds 2050“ finanziert wird.",
+          "zitat": "Dafür gründen wir eine sächsische Wohnungsbaugesellschaft, die bezahlbaren und barrierefreien Wohnraum bereitstellt. Sie arbeitet mit den kommunalen Wohnungsbaugesellschaften und Wohnungsbaugenossenschaften zusammen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/spdsachsenltw-2024.pdf#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 43,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wohnungsbaugesellschaft, Landeswohnungs-, Wohnungsgesellschaft, Wohnungsunternehmen, landeseigen, kommunaler/öffentlicher Wohnungsbau, Wohnungsbau, Wohnraum (Kapitel Bauen/Wohnen). Das Programm will soziale Wohnraumförderung ausbauen, die Wohngemeinnützigkeit umsetzen und gemeinwohlorientierte, genossenschaftliche Wohnprojekte fördern, nennt aber keine landeseigene Wohnungsbaugesellschaft."
+        },
+        {
+          "partei_id": 44,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wohnungsbaugesellschaft, Landeswohnungs-, Wohnungsgesellschaft, Wohnungsunternehmen, landeseigen, kommunaler/öffentlicher Wohnungsbau, Wohnungsbau, Wohnraum (Kapitel Bauen/Wohnen). Das Programm will nur die Rahmenbedingungen für den Wohnungsbau verbessern und Kostentreiber beseitigen."
+        },
+        {
+          "partei_id": 45,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wohnungsbaugesellschaft, Landeswohnungs-, Wohnungsgesellschaft, Wohnungsunternehmen, landeseigen, kommunaler/öffentlicher Wohnungsbau, Wohnungsbau, Wohnraum (Kapitel Bauen/Wohnen). Das Programm setzt auf Wohneigentum, lockere Bauvorschriften sowie „Genossenschaften und Betriebswohnungsbau“ (S. 58), nennt aber keine landeseigene Wohnungsbaugesellschaft."
+        },
+        {
+          "partei_id": 46,
+          "position": "ja",
+          "kurzfassung": "Die Linke will eine Landeswohnungsbaugesellschaft schaffen, die landeseigene Grundstücke entwickelt, Grundstücke kauft und die Kommunen beim Wohnungsbau unterstützt.",
+          "zitat": "Wir wollen eine Landeswohnungsbaugesellschaft schaffen. Diese hat die Aufgabe, landeseigene Grundstücke zu entwickeln, selbst Grundstücke aufzukaufen und die Kommunen bei Planung, Bau und Sanierung von Wohnungen zu unterstützen.",
+          "beleg_url": "https://www.dielinke-sachsen.de/wp-content/uploads/2024/02/A.1._17LPT2T_Landtagswahlprogramm_2024.pdf#page=40",
+          "begruendung": null
+        },
+        {
+          "partei_id": 47,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Wohnungsbaugesellschaft, Landeswohnungs-, Wohnungsgesellschaft, Wohnungsunternehmen, landeseigen, kommunaler/öffentlicher Wohnungsbau, Wohnungsbau, Wohnraum (Kapitel Bauen/Wohnen). Keine landeseigene Wohnungsbaugesellschaft genannt."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
       "id": "bb24-1",
       "wahl": "bb24",
       "frage": "Soll das Abitur am Gymnasium nach neun Jahren kommen (G9)?",
@@ -13929,6 +14127,228 @@
           "kurzfassung": "Volt will stärker als bisher auf soziale Erhaltungsverordnungen zurückgreifen.",
           "zitat": "Um Fehlentwicklungen von Vernichtung günstigen Wohnraumes bei „Optimierung der Grundstücksverwertung“ entgegenzuwirken, soll mehr als bisher auf das Instrument der Erhaltungsverordnung zurückgegriffen werden.",
           "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=36",
+          "begruendung": null
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-33",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg ausreisepflichtige Menschen konsequenter abschieben?",
+      "beschreibung": "Ob die Stadt Menschen ohne Bleiberecht, etwa abgelehnte Asylbewerber und ausländische Straftäter, schneller und häufiger in ihre Herkunftsländer zurückführt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "ja",
+          "kurzfassung": "Die CDU will Abschiebungen ausweiten und beschleunigen, für alle Ausreisepflichtigen und insbesondere für Straftäter und Gefährder, auch mit Abschiebegewahrsam.",
+          "zitat": "Um die Akzeptanz für das Asylsystem zurückzugewinnen und die Überforderung auch in Hamburg zu beenden, müssen Abschiebungen ausgeweitet werden und schneller erfolgen. Wir wollen sicherstellen, dass diejenigen, die nicht bleiben dürfen, auch wirklich gehen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "ja",
+          "kurzfassung": "Die SPD will die Ausreisepflicht konsequent durchsetzen und die Zahl der priorisierten Abschiebungen von Straftäterinnen und Straftätern weiter erhöhen.",
+          "zitat": "Das bedeutet für uns zugleich: Wenn kein Aufenthaltsrecht besteht, setzen wir die Ausreisepflicht konsequent durch. Während die Zahl der registrierten Ankünfte 2024 zurückgegangen ist, steigt die Zahl der Rückführungen weiter deutlich an.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=32",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "nein",
+          "kurzfassung": "Die Grünen fordern keine konsequenteren Abschiebungen; sie wollen ein Bleiberecht ermöglichen, wann immer dies rechtlich möglich ist, das Abschiebemonitoring ausweiten und Wege der Legalisierung für Menschen ohne Papiere ausbauen.",
+          "zitat": "Hierbei soll ein Leitfaden die Sachbearbeiter*innen anleiten, Teilhabe- und Gewaltschutz-orientiert vorzugehen sowie ein Bleiberecht und eine Einbürgerung zu ermöglichen, wann immer dies rechtlich möglich ist.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=129",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP will irreguläre Migration bekämpfen und in Hamburg mehr Kapazitäten für die Abschiebehaft schaffen, die sie als wirksamstes Mittel der Rückführungen ansieht.",
+          "zitat": "Gleichzeitig fordern wir auch in Hamburg erhöhte Kapazitäten für die Abschiebehaft, die wirksamstes Mittel der Rückführungen ist.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=61",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "ja",
+          "kurzfassung": "Die AfD will gegenüber allen Ausreisepflichtigen eine Abschiebequote von 100 Prozent, mehr Abschiebehaftplätze und die zwingende Abschiebung ausländischer Straftäter.",
+          "zitat": "Für uns ist deshalb klar: Hamburg muss gegenüber allen Ausreisepflichtigen eine Abschiebequote von 100 Prozent erreichen.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=12",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "nein",
+          "kurzfassung": "Die Linke lehnt Abschiebungen ab, insbesondere in Kriegs- und Krisengebiete.",
+          "zitat": "Wir lehnen Abschiebungen ab. Insbesondere Abschiebungen in Kriegs- und Krisengebiete wie Afghanistan, Syrien, Iran oder Sudan darf es nicht geben.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=20",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "ja",
+          "kurzfassung": "Das BSW will eine Politik, die systematisch dafür sorgt, dass Ausreisepflichtige und Menschen ohne Aufenthaltsstatus das Land verlassen, und straffällige Migranten konsequent abschieben.",
+          "zitat": "Deshalb setzen wir uns für eine Politik ein, die sich systematisch darum kümmert, dass Ausreisepflichtige und Menschen ohne Aufenthaltsstatus das Land verlassen.",
+          "beleg_url": "https://hh.bsw-vg.de/wp-content/uploads/2025/02/BSW_HAMBURG_BUeRGERSCHAFTS-WAHLPROGRAMM_2025.pdf#page=10",
+          "begruendung": null
+        },
+        {
+          "partei_id": 68,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Abschiebung, Rückführung, ausreisepflichtig, Ausreise, Duldung, Bleiberecht, Bleibeperspektive, Abschiebehaft, Rückkehr, Aufenthaltsstatus, Asyl, Straftäter – Kapitel Migration/Integration (S. 42–44). Keine Aussage zu Abschiebungen."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-34",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg wieder einen bezirklichen Ordnungsdienst einführen?",
+      "beschreibung": "Ob die Bezirke wieder eigene Ordnungskräfte bekommen, die gegen Vermüllung, Lärm und andere Ordnungswidrigkeiten im öffentlichen Raum vorgehen, wie bis zur Auflösung 2014.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "ja",
+          "kurzfassung": "Die CDU will den 2014 aufgelösten Bezirklichen Ordnungsdienst wieder einführen, um die Polizei zu entlasten und gegen Verwahrlosung im öffentlichen Raum vorzugehen.",
+          "zitat": "Wir wollen die Polizei durch die Wiedereinführung des Bezirklichen Ordnungsdienstes entlasten, damit sie wieder Zeit für ihre eigentlichen Aufgaben hat.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/cduwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 62,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ordnungsdienst, BOD, Ordnungskräfte, Ordnungswidrigkeit, Sauberkeit, Vermüllung, Sicherheitsdienst, Präsenz, bezirklich – Kapitel Sicherheit (S. 31–32), Stadtreinigung/Grün (S. 29). Kein bezirklicher Ordnungsdienst."
+        },
+        {
+          "partei_id": 63,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ordnungsdienst, BOD, Ordnungskräfte, Ordnungswidrigkeit, Sauberkeit, Vermüllung, Müll, Sicherheitsdienst, Ordnungsamt, Kontrolldienst – Kapitel Innere Sicherheit, Stadtgrün, Kreislaufwirtschaft. Kein bezirklicher Ordnungsdienst; ‚Ordnungswidrigkeit‘ nur bei Mietwucher (S. 30, 41)."
+        },
+        {
+          "partei_id": 64,
+          "position": "ja",
+          "kurzfassung": "Die FDP fordert einen bezirklichen Ordnungsdienst, der mit der Stadtreinigung für mehr Sauberkeit im öffentlichen Raum sorgt.",
+          "zitat": "Mit der Stadtreinigung sowie dem von uns geforderten bezirklichen Ordnungsdienst sind Konzepte zur Erhöhung der Sauberkeit im öffentlichen Raum zu erstellen.",
+          "beleg_url": "https://fdphamburg.de/sites/default/files/2024-10/Wahlprogramm_B%C3%BCWa2025.pdf#page=52",
+          "begruendung": null
+        },
+        {
+          "partei_id": 65,
+          "position": "ja",
+          "kurzfassung": "Die AfD will den bezirklichen Ordnungsdienst (BOD) wieder einführen, der mit der Stadtreinigung für Ordnung und Sauberkeit sorgt und die Polizei entlastet.",
+          "zitat": "Die AfD Hamburg wird deshalb den bezirklichen Ordnungsdienst (BOD) wieder einführen. Der BOD wird die Polizei dort entlasten, wo keine hoheitlichen Aufgaben verfolgt werden müssen.",
+          "beleg_url": "https://afd-hamburg.de/wp-content/uploads/2024/12/Buergerschaftswahlprogramm-2025.pdf#page=8",
+          "begruendung": null
+        },
+        {
+          "partei_id": 66,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ordnungsdienst, BOD, Ordnungskräfte, Ordnungswidrigkeit, Sauberkeit, Vermüllung, Müll, Sicherheitsdienst, Ordnungsamt, Vertreibung – Kapitel Innere Sicherheit/Polizei (S. 21–23). Kein bezirklicher Ordnungsdienst."
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ordnungsdienst, BOD, Ordnungskräfte, Ordnungswidrigkeit, Ordnung, Sauberkeit, Vermüllung, Müll, Sicherheitsdienst, Ordnungsamt – Kapitel Kriminalität bekämpfen (S. 15), Bezirke/Verwaltung (S. 7, 12), Tourismus (S. 29). Kein bezirklicher Ordnungsdienst."
+        },
+        {
+          "partei_id": 68,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Ordnungsdienst, BOD, Ordnungskräfte, Ordnungswidrigkeit, Sauberkeit, Vermüllung, Müll, Sicherheitsdienst, Ordnungsamt – Kapitel Innere Sicherheit (S. 67–76), Justiz (S. 79–80), Verkehr (S. 84). Kein bezirklicher Ordnungsdienst."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "hh25-35",
+      "wahl": "hh25",
+      "frage": "Soll Hamburg Drug-Checking anbieten, bei dem Drogen vor dem Konsum auf gefährliche Stoffe geprüft werden?",
+      "beschreibung": "Ob die Stadt eine Stelle schafft, bei der Konsumierende Drogen anonym auf Reinheit und gefährliche Beimischungen testen lassen können, um Überdosierungen zu verhindern.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 61,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht (cdu.txt und cdu_kurz.txt): Drug-Checking/Drugchecking, Check, Substanzanalyse, Reinheit, Beimischung, Überdosis, Schadensminimierung, Drogen, Sucht, Konsum – Kapitel „Drogen und Sucht wirksam eindämmen“ (S. 74–75). Kein Wort zu Drug-Checking."
+        },
+        {
+          "partei_id": 62,
+          "position": "ja",
+          "kurzfassung": "Die SPD will das Angebot eines Drug-Checkings ausbauen, um Überdosierungen zu verhindern.",
+          "zitat": "Das Angebot eines Drug-Checkings, das Überdosierungen verhindern und Konsumkompetenz fördern kann, bauen wir aus.",
+          "beleg_url": "https://mitte.spd-hamburg.de/fileadmin/share/SPDRegierungsprogramm2025.pdf#page=38",
+          "begruendung": null
+        },
+        {
+          "partei_id": 63,
+          "position": "ja",
+          "kurzfassung": "Die Grünen wollen stationäres Drug-Checking in Drogenberatungsstellen und Konsumräumen sowie mobiles Drug-Checking in Hamburg ermöglichen.",
+          "zitat": "Nun müssen die Möglichkeiten für die Wahrnehmung von Drug-Checking geschaffen werden. Wir wollen das stationäre Drug-Checking in bestehenden Drogenberatungsstellen sowie Drogenkonsumräumen und das mobile (On-Site-)Drug-Checking, auch „Safer-Clubbing“ genannt, ermöglichen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/bundnis-90die-grunenwahlprogramm-burgerschaftswahl-hh-2025.pdf#page=68",
+          "begruendung": null
+        },
+        {
+          "partei_id": 64,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Drug-Checking/Drugchecking, Check, Substanzanalyse, Reinheit, Beimischung, Überdosis, Schadensminimierung, Drogen, Sucht, Konsumräume, Crack – Kapitel „Drogen- und Suchtpolitik“ (S. 82), Sicherheit (S. 55–56). Kein Wort zu Drug-Checking."
+        },
+        {
+          "partei_id": 65,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Drug-Checking/Drugchecking, Check, Substanzanalyse, Reinheit, Beimischung, Überdosis, Schadensminimierung, Drogen, Sucht, Konsumräume, Cannabis, Rauschgift – gesamtes Programm. Drogen nur als Drogenmissbrauch in vermüllten Parks erwähnt (S. 33); kein Wort zu Drug-Checking."
+        },
+        {
+          "partei_id": 66,
+          "position": "ja",
+          "kurzfassung": "Die Linke fordert ein Drug-Checking-Angebot in Hamburg, um Konsumrisiken durch verunreinigte Stoffe zu senken.",
+          "zitat": "Auch in Hamburg ein Angebot für „Drug-Checking“, um Konsumrisiken beispielsweise durch verunreinigte Stoffe zu reduzieren.",
+          "beleg_url": "https://epub.sub.uni-hamburg.de/epub/volltexte/2025/180482/pdf/LPT_9_1_Beschluss_L01_Wahlprogramm.pdf#page=6",
+          "begruendung": null
+        },
+        {
+          "partei_id": 67,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Durchsucht: Drug-Checking/Drugchecking, Check, Substanzanalyse, Reinheit, Beimischung, Überdosis, Schadensminimierung, Drogen, Sucht, Konsumräume, Cannabis – Abschnitt „Drogen bekämpfen – nicht die Abhängigen“ (S. 15), Soziales (S. 16, 24). Kein Wort zu Drug-Checking."
+        },
+        {
+          "partei_id": 68,
+          "position": "ja",
+          "kurzfassung": "Volt will Drugchecking nach dem Vorbild Wiens und Berlins, um Inhaltsstoffe und Dosierungen von Drogen testen und Risiken verringern zu können.",
+          "zitat": "Drugcheckings (Beispiel Wien, Berlin, Mecklenburg-Vorpommern), um Inhaltsstoffe und Dosierungen von psychotropen Substanzen testen zu können und auf Basis der Ergebnisse aufzuklären und Risiken zu verringern",
+          "beleg_url": "https://voltdeutschland.org/storage/assets-hamburg/pdf/wahlprogramme/b%C3%BCwa/mut-fur-hamburg-burgerschaftswahl-2025.pdf#page=58",
           "begruendung": null
         }
       ],
@@ -19096,6 +19516,170 @@
           "zitat": null,
           "beleg_url": null,
           "begruendung": "Durchsucht: Führerschein, Fahrerlaubnis, Fahrschule, Fahranfänger, Gebühr/Prüfungsgebühr; Kapitel Verkehr (S. 84-86) und Bildung/Ausbildung (S. 23). Kein Treffer."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-31",
+      "wahl": "rp26",
+      "frage": "Soll Rheinland-Pfalz die Mietpreisbremse abschaffen?",
+      "beschreibung": "Ob das Land die Verordnung auslaufen lässt, die in angespannten Wohnungsmärkten die Miete bei Wiedervermietung begrenzt, und auf mehr Bauen statt auf Mietregeln setzt.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Mietpreisbremse, Mietpreisbegrenzung, Kappungsgrenze, Mieterschutz(verordnung), Mietendeckel, Mietenstopp, Mietwucher, Mietrecht; Das Programm enthält kein Wort mit 'Miet'; Kapitel Wohnen/Bauen gesichtet."
+        },
+        {
+          "partei_id": 82,
+          "position": "nein",
+          "kurzfassung": "Die SPD hat die Mietpreisbremse bis Ende 2029 verlängert und will sie mit Kappungsgrenzen und Zweckentfremdungsschutz in einer Mieterschutzverordnung bündeln.",
+          "zitat": "Wir bündeln Mietpreisbremse, Kappungsgrenzen und den Schutz vor Zweckentfremdung in einer Mieterschutzverordnung. Damit sorgen wir für klare Regeln und schützen Mieterinnen und Mieter vor überhöhten Mieten.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpspdwahlprogramm.pdf#page=12",
+          "begruendung": null
+        },
+        {
+          "partei_id": 83,
+          "position": "nein",
+          "kurzfassung": "Die Grünen wollen Mietpreisbremse und Kappungsgrenze auf mehr Orte ausweiten, etwa nach Verbandsgemeinden, und Schlupflöcher schließen.",
+          "zitat": "Mit der Mietpreisbremse und der Kappungsgrenze haben wir Instrumente zur Hand, um steigenden Mieten etwas entgegenzusetzen. Sie gelten aber derzeit nur in wenigen Städten und Landkreisen.",
+          "beleg_url": "https://gruene-rlp.de/wp-content/uploads/2026/02/Wahlprogramm_B90_DieGruenen_2026.pdf#page=80",
+          "begruendung": null
+        },
+        {
+          "partei_id": 84,
+          "position": "ja",
+          "kurzfassung": "Die FDP lehnt die Mietpreisbremse in jeder Variante ab, will sie abschaffen, wo es sie gibt, und setzt auf Neubau und den Markt.",
+          "zitat": "Wir Freie Demokraten lehnen die Mietpreisbremse in jeder Variante ab, weil diese für Mieter den Fehlanreiz setzt, in günstigen großeren Wohnüngen langfristig zü verharren, obwohl ein Teil oder Großteil der Flache gar nicht (mehr) benotigt wird.",
+          "beleg_url": "https://www.fdp-rlp.de/sites/default/files/2025-12/FDPRLP_Programm%20LTW%202026.pdf#page=138",
+          "begruendung": null
+        },
+        {
+          "partei_id": 85,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Mietpreisbremse, Mietpreisbegrenzung, Kappungsgrenze, Mieterschutz(verordnung), Mietendeckel, Mietenstopp, Mietwucher, Mietrecht; Treffer zu Miete/Mieten/Wohnungsmarkt gesichtet, ohne Aussage zur Mietpreisbremse; Kapitel Wohnen/Bauen gesichtet."
+        },
+        {
+          "partei_id": 86,
+          "position": "nein",
+          "kurzfassung": "Die Linke hält die Mietpreisbremse für wirkungslos und zu eng gefasst und fordert weitergehende Mietregeln statt den Markt entscheiden zu lassen.",
+          "zitat": "Die Mieten steigen enorm an und die gesetzliche Mietpreisbremse in Mainz, Landau in der Pfalz, Speyer, Ludwigshafen am Rhein und Trier bleibt wirkungslos. Und Kaiserslautern fällt aus dieser Regelung heraus, obwohl dort in den letzten fünf Jahren die Mieten um 24% gestiegen sind.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlp2026linkewahlprogramm-1.pdf#page=4",
+          "begruendung": null
+        },
+        {
+          "partei_id": 87,
+          "position": "nein",
+          "kurzfassung": "Das BSW nennt die Mietpreisbremsen zahnlos und will den Mietpreisdeckel zu einem wirksamen Instrument machen und Mieten in angespannten Regionen sechs Jahre einfrieren.",
+          "zitat": "Wir wollen deshalb umsteuern: Die Landesregierung muss mehr Geld in den sozialen Wohnungsbau investieren, das Baurecht vernünftig gestalten und den Mietpreisdeckel zu einem wirkungsvollen Instrument gegen Mietwucher machen.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Mietpreisbremse, Mietpreisbegrenzung, Kappungsgrenze, Mieterschutz(verordnung), Mietendeckel, Mietenstopp, Mietwucher, Mietrecht; Einziger Treffer zu 'miet' ist 'Regalmieten' im Agrarkapitel; Kapitel Wohnen/Bauen gesichtet."
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Mietpreisbremse, Mietpreisbegrenzung, Kappungsgrenze, Mieterschutz(verordnung), Mietendeckel, Mietenstopp, Mietwucher, Mietrecht; Treffer zu Miete/Mieten/Wohnungsmarkt gesichtet, ohne Aussage zur Mietpreisbremse; Kapitel Wohnen/Bauen gesichtet."
+        }
+      ],
+      "zielkonflikte": []
+    },
+    {
+      "id": "rp26-32",
+      "wahl": "rp26",
+      "frage": "Soll Rheinland-Pfalz die Ladenöffnungszeiten ausweiten, etwa mit mehr verkaufsoffenen Sonntagen?",
+      "beschreibung": "Ob Geschäfte länger öffnen dürfen als heute, abends und an Sonntagen, um Innenstädte und Handel gegen den Onlinehandel zu stärken.",
+      "ki_entwurf": true,
+      "positionen": [
+        {
+          "partei_id": 81,
+          "position": "teils",
+          "kurzfassung": "Die CDU will den gesetzlichen Rahmen so ändern, dass verkaufsoffene Sonntage in allen Städten rechtssicher möglich sind, um die Innenstädte zu stärken.",
+          "zitat": "Zudem werden wir den gesetzlichen Rahmen so verändern, dass verkaufsoffene Sonntage in allen Städten rechtssicher möglich sind als Beitrag zur Stärkung der Innenstädte als Orte der Kommunikation und alltäglichen Begegnung.",
+          "beleg_url": "https://www.cdurlp.de/data/documents/2026/01/23/3-697377ae72553.pdf#page=24",
+          "begruendung": null
+        },
+        {
+          "partei_id": 82,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Ladenöffnung(szeiten), Ladenöffnungsgesetz, Ladenschluss, verkaufsoffen, Sonntagsöffnung, Sonntagsschutz, Sonntagsruhe, Sonntag, Arbeitsruhe; Treffer zu Öffnungszeiten betreffen nur Kitas/Verwaltung; Abschnitte zu Innenstädten und Einzelhandel gesichtet."
+        },
+        {
+          "partei_id": 83,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Ladenöffnung(szeiten), Ladenöffnungsgesetz, Ladenschluss, verkaufsoffen, Sonntagsöffnung, Sonntagsschutz, Sonntagsruhe, Sonntag, Arbeitsruhe; Abschnitte zu Innenstädten und Einzelhandel gesichtet. Nur Tanzverbote an Feiertagen sollen aufgehoben werden (kein Ladenbezug)."
+        },
+        {
+          "partei_id": 84,
+          "position": "ja",
+          "kurzfassung": "Die FDP will den Ladenschluss abschaffen, die Öffnungszeiten den Geschäften freistellen und personallose Läden rund um die Uhr an sieben Tagen erlauben.",
+          "zitat": "Wahrend die sog. „Ladenschlüsszeiten“ in zahlreichen Bündeslandern bereits abgeschafft sind, schreibt Rheinland-Pfalz bisher genaü vor, in welchen Zeiten eingekaüft werden darf. Doch wann Geschaftsbetreiber ihren Laden offnen wollen, sollte ganz allein deren Entscheidüng sein.",
+          "beleg_url": "https://www.fdp-rlp.de/sites/default/files/2025-12/FDPRLP_Programm%20LTW%202026.pdf#page=46",
+          "begruendung": null
+        },
+        {
+          "partei_id": 85,
+          "position": "ja",
+          "kurzfassung": "Die AfD will das Ladenöffnungsgesetz liberalisieren, Öffnung bis 24 Uhr erlauben und die verkaufsoffenen Sonntage von vier auf sechs mit bis zu acht Stunden erhöhen.",
+          "zitat": "Die AfD wird das rheinland-pfälzische Ladenöffnungszeitengesetz auch bezüglich der Sonntagsöffnung reformieren. Die Zahl der möglichen verkaufsoffenen Sonntage soll auf sechs erhöht werden.",
+          "beleg_url": "https://alternative-rlp.de/wp-content/uploads/2026/01/Wahlprogramm_RLP2025_WEB.pdf#page=34",
+          "begruendung": null
+        },
+        {
+          "partei_id": 86,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Ladenöffnung(szeiten), Ladenöffnungsgesetz, Ladenschluss, verkaufsoffen, Sonntagsöffnung, Sonntagsschutz, Sonntagsruhe, Sonntag, Arbeitsruhe; Abschnitte zu Innenstädten und Einzelhandel gesichtet. Nur Forderung nach zusätzlichen Feiertagen (kein Ladenbezug)."
+        },
+        {
+          "partei_id": 87,
+          "position": "nein",
+          "kurzfassung": "Das BSW lehnt eine Ausweitung der Ladenöffnungszeiten und der Sonntagsarbeit ab und will den freien Sonntag erhalten.",
+          "zitat": "Das BSW wehrt sich gegen Bestrebungen, die Ladenöffnungszeiten oder Arbeitszeiten an Sonntagen auszuweiten. Wir sehen den freien Sonntag als wichtiges soziales Gut und Kulturgut, das der Arbeitsruhe und der seelischen Erholung dient, und grundsätzlich zu erhalten gilt.",
+          "beleg_url": "https://www.abgeordnetenwatch.de/sites/default/files/election-program-files/ltwrlpbswwahlprogramm.pdf#page=18",
+          "begruendung": null
+        },
+        {
+          "partei_id": 88,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Ladenöffnung(szeiten), Ladenöffnungsgesetz, Ladenschluss, verkaufsoffen, Sonntagsöffnung, Sonntagsschutz, Sonntagsruhe, Sonntag, Arbeitsruhe; Treffer zu Öffnungszeiten betreffen nur Kitas/Verwaltung; Abschnitte zu Innenstädten und Einzelhandel gesichtet."
+        },
+        {
+          "partei_id": 89,
+          "position": "keine_aussage",
+          "kurzfassung": null,
+          "zitat": null,
+          "beleg_url": null,
+          "begruendung": "Kein Treffer zu Ladenöffnung(szeiten), Ladenöffnungsgesetz, Ladenschluss, verkaufsoffen, Sonntagsöffnung, Sonntagsschutz, Sonntagsruhe, Sonntag, Arbeitsruhe; Treffer zu Öffnungszeiten betreffen nur Kitas/Verwaltung; Abschnitte zu Innenstädten und Einzelhandel gesichtet."
         }
       ],
       "zielkonflikte": []

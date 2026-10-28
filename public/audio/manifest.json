@@ -10704,6 +10704,268 @@
         1.307
       ],
       "hash": "6a7d18cc7838"
+    },
+    "frage-sn24-33": {
+      "datei": "frage-sn24-33.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen einen gesetzlichen Anspruch auf fünf Tage Bildungsurlaub im Jahr einführen?",
+      "dauer": 4.56,
+      "woerter": [
+        0,
+        0.288,
+        0.76,
+        1,
+        1.58,
+        2.06,
+        2.28,
+        2.624,
+        2.928,
+        3.627,
+        3.728,
+        3.968
+      ],
+      "hash": "d0587cfd78b3"
+    },
+    "loesung-sn24-33": {
+      "datei": "loesung-sn24-33.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne und Linke!",
+      "dauer": 2.56,
+      "woerter": [
+        0.213,
+        0.307,
+        0.92,
+        1.4,
+        1.76,
+        2.06
+      ],
+      "hash": "1da1d12d0533"
+    },
+    "frage-sn24-34": {
+      "datei": "frage-sn24-34.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen die Mietpreisbremse verschärfen oder auf mehr Orte ausweiten?",
+      "dauer": 3.84,
+      "woerter": [
+        0,
+        0.208,
+        0.52,
+        0.68,
+        1.394,
+        2.016,
+        2.46,
+        2.672,
+        2.853,
+        3.18
+      ],
+      "hash": "568670ec9455"
+    },
+    "loesung-sn24-34": {
+      "datei": "loesung-sn24-34.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: Grüne und Linke!",
+      "dauer": 2.4,
+      "woerter": [
+        0.213,
+        0.4,
+        1.1,
+        1.54,
+        1.9
+      ],
+      "hash": "c2de2fd93af7"
+    },
+    "frage-sn24-35": {
+      "datei": "frage-sn24-35.mp3",
+      "sprecher": "mara",
+      "text": "Soll Sachsen eine landeseigene Wohnungsbaugesellschaft gründen?",
+      "dauer": 3.04,
+      "woerter": [
+        0,
+        0.208,
+        0.608,
+        0.848,
+        1.488,
+        2.533
+      ],
+      "hash": "5d24ad2a847f"
+    },
+    "loesung-sn24-35": {
+      "datei": "loesung-sn24-35.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD und Linke!",
+      "dauer": 2.24,
+      "woerter": [
+        0.16,
+        0.4,
+        1.04,
+        1.58,
+        1.8
+      ],
+      "hash": "02831fcd4101"
+    },
+    "frage-hh25-33": {
+      "datei": "frage-hh25-33.mp3",
+      "sprecher": "mara",
+      "text": "Soll Hamburg ausreisepflichtige Menschen konsequenter abschieben?",
+      "dauer": 3.2,
+      "woerter": [
+        0,
+        0.28,
+        0.64,
+        1.556,
+        1.9,
+        2.7
+      ],
+      "hash": "6b1f77829ee9"
+    },
+    "loesung-hh25-33": {
+      "datei": "loesung-hh25-33.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, SPD, FDP, AfD und BSW!",
+      "dauer": 4.88,
+      "woerter": [
+        0.213,
+        0.333,
+        1.227,
+        1.9,
+        2.6,
+        3.413,
+        3.86,
+        4.32
+      ],
+      "hash": "34c55c478e0c"
+    },
+    "frage-hh25-34": {
+      "datei": "frage-hh25-34.mp3",
+      "sprecher": "mara",
+      "text": "Soll Hamburg wieder einen bezirklichen Ordnungsdienst einführen?",
+      "dauer": 2.88,
+      "woerter": [
+        0,
+        0.22,
+        0.674,
+        0.907,
+        1.1,
+        1.653,
+        2.368
+      ],
+      "hash": "bbf14e118613"
+    },
+    "loesung-hh25-34": {
+      "datei": "loesung-hh25-34.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: CDU, FDP und AfD!",
+      "dauer": 3.36,
+      "woerter": [
+        0.133,
+        0.32,
+        1.013,
+        1.8,
+        2.4,
+        2.8
+      ],
+      "hash": "d387d4fc4caa"
+    },
+    "frage-hh25-35": {
+      "datei": "frage-hh25-35.mp3",
+      "sprecher": "mara",
+      "text": "Soll Hamburg Drug-Checking anbieten, bei dem Drogen vor dem Konsum auf gefährliche Stoffe geprüft werden?",
+      "dauer": 5.2,
+      "woerter": [
+        0,
+        0.21,
+        0.624,
+        1.333,
+        1.78,
+        1.88,
+        2.04,
+        2.54,
+        2.76,
+        2.92,
+        3.4,
+        3.56,
+        4.053,
+        4.373,
+        4.777
+      ],
+      "hash": "e0afc7d8d63c"
+    },
+    "loesung-hh25-35": {
+      "datei": "loesung-hh25-35.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: SPD, Grüne, Linke und Volt!",
+      "dauer": 3.28,
+      "woerter": [
+        0.133,
+        0.333,
+        1.04,
+        1.66,
+        2.15,
+        2.48,
+        2.816
+      ],
+      "hash": "26266f2fe457"
+    },
+    "frage-rp26-31": {
+      "datei": "frage-rp26-31.mp3",
+      "sprecher": "mara",
+      "text": "Soll Rheinland-Pfalz die Mietpreisbremse abschaffen?",
+      "dauer": 2.32,
+      "woerter": [
+        0,
+        0.26,
+        0.9,
+        1,
+        1.8
+      ],
+      "hash": "53facaddcafd"
+    },
+    "loesung-rp26-31": {
+      "datei": "loesung-rp26-31.mp3",
+      "sprecher": "mara",
+      "text": "Klar Ja sagt nur: FDP!",
+      "dauer": 2.08,
+      "woerter": [
+        0.18,
+        0.293,
+        0.48,
+        0.86,
+        1.36
+      ],
+      "hash": "6a3db394ff11"
+    },
+    "frage-rp26-32": {
+      "datei": "frage-rp26-32.mp3",
+      "sprecher": "mara",
+      "text": "Soll Rheinland-Pfalz die Ladenöffnungszeiten ausweiten, etwa mit mehr verkaufsoffenen Sonntagen?",
+      "dauer": 5.12,
+      "woerter": [
+        0,
+        0.28,
+        0.98,
+        1.093,
+        2.14,
+        2.944,
+        3.26,
+        3.472,
+        3.66,
+        4.44
+      ],
+      "hash": "d087cbfdf2fd"
+    },
+    "loesung-rp26-32": {
+      "datei": "loesung-rp26-32.mp3",
+      "sprecher": "mara",
+      "text": "Ja sagen: FDP und AfD!",
+      "dauer": 2.48,
+      "woerter": [
+        0.213,
+        0.32,
+        1,
+        1.58,
+        1.893
+      ],
+      "hash": "8943486ccfc6"
     }
   },
   "geraeusche": {

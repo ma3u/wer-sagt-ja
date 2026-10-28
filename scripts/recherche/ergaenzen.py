@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Ergänzt neue Fragen einer Wahl in public/fragen.json, ohne vorhandene Fragen anzufassen (Issue #1, Ausgewogenheit).
-Aufruf: npm run ergaenzen -- <wahl-id> [--schreiben] [--nur id1,id2]   (ohne --schreiben nur Bericht)
+Aufruf: npm run ergaenzen -- <wahl-id> [--schreiben] [--nur id1,id2] [--runde N]   (ohne --schreiben nur Bericht)
 Arbeitsordner: .cache/landtagswahlen/<wahl> (nicht eingecheckt) mit den Programmen als PDF und Textauszügen
 (`pdftotext -layout` als <kurz>.txt, `pdftotext` als <kurz>_lese.txt; bei Spaltensatz zusätzlich _sp.txt oder _raw.txt),
-neue-fragen.json ({id: {frage, beschreibung}}) und je Partei neu-<kurz>.json nach scripts/recherche/anleitung.md.
+neue-fragen.json ({id: {frage, beschreibung}}) und je Partei neu-<kurz>.json nach scripts/recherche/anleitung.md;
+mit --runde N stattdessen neue-fragen-N.json und neuN-<kurz>.json.
 Parteien, IDs und Programm-Adressen kommen aus fragen.json. Jedes Zitat muss wörtlich im Programmtext stehen."""
 import json, re, sys, os, difflib
 ziel = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'public', 'fragen.json'))
@@ -11,6 +12,7 @@ os.chdir(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', '.
 wahl_id = sys.argv[1]
 schreiben = '--schreiben' in sys.argv
 nur = set(sys.argv[sys.argv.index('--nur') + 1].split(',')) if '--nur' in sys.argv else None
+runde = sys.argv[sys.argv.index('--runde') + 1] if '--runde' in sys.argv else ''
 ORDNER = {'be26': 'berlin26'}.get(wahl_id, wahl_id)
 DATEI = {'Union': 'cdu', 'CDU': 'cdu', 'SPD': 'spd', 'Grüne': 'gruene', 'FDP': 'fdp', 'AfD': 'afd', 'Linke': 'linke',
          'BSW': 'bsw', 'Freie Wähler': 'fw', 'Volt': 'volt'}
@@ -18,7 +20,7 @@ DATEI = {'Union': 'cdu', 'CDU': 'cdu', 'SPD': 'spd', 'Grüne': 'gruene', 'FDP': 
 datei = json.load(open(ziel))
 wahl = next(w for w in datei['wahlen'] if w['id'] == wahl_id)
 parteien = [(DATEI[p['kurzname']], p['kurzname'], p['id'], p['programm_url']) for p in wahl['parteien']]
-FRAGEN = json.load(open(f'{ORDNER}/neue-fragen.json'))
+FRAGEN = json.load(open(f'{ORDNER}/neue-fragen{"-" + runde if runde else ""}.json'))
 
 norm = lambda s: re.sub(r'\s+', ' ', s.replace('\xad', '').replace('-\n', '')).strip()
 glatt = lambda s: re.sub(r'[‐‑‒–­]', '-', re.sub(r'[„“"»«]', '"', s))
@@ -69,7 +71,8 @@ def woertlich(z, t):
 falten = lambda s: re.sub(r'\s+|ffi|ffl|ff|fi|fl|ft|tt|ti', '', s.translate(str.maketrans('äöüÄÖÜ', 'aouAOU')))
 gefaltet = {d: falten(t) for d, t in texte.items()}
 
-recherche = {d: json.load(open(f'{ORDNER}/neu-{d}.json'))['positionen'] for d, _, _, _ in parteien if os.path.exists(f'{ORDNER}/neu-{d}.json')}
+recherche = {d: json.load(open(f'{ORDNER}/neu{runde}-{d}.json'))['positionen'] for d, _, _, _ in parteien
+             if os.path.exists(f'{ORDNER}/neu{runde}-{d}.json')}
 fehlend = [k for d, k, _, _ in parteien if d not in recherche]
 if fehlend: print('Fehlende Recherche:', fehlend)
 
