@@ -996,6 +996,7 @@ summary {
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  margin-left: auto;
 }
 .quiz-auftritt {
   animation: auftritt 0.38s cubic-bezier(0.2, 0.9, 0.3, 1.2) both;
