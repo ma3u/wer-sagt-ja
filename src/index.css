@@ -1712,3 +1712,11 @@ html:has(.quiz-aktion) {
 .uebersicht .quiz-ziele {
   margin-top: 0.8rem;
 }
+.methode-gegenprobe {
+  display: block;
+  font-size: 0.85em;
+}
+.methode-tabelle select {
+  max-width: 24rem;
+  margin-bottom: 0.5rem;
+}

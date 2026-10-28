@@ -1,0 +1,78 @@
+landyearparty,landyear,land,land_name,year,party,party_name,document_type,document_note,econ_pos_norm,econ_pos_lwr_norm,econ_pos_upr_norm,soci_pos_norm,soci_pos_lwr_norm,soci_pos_upr_norm
+de2025afd,de2025,de,Deutschland,2025,afd,AfD,election_manifesto,,16.05,15.55,16.54,16.58,15.87,17.29
+de2025bsw,de2025,de,Deutschland,2025,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,8.05,7.45,8.66,6.22,5.56,6.88
+de2025cdu,de2025,de,Deutschland,2025,cdu,CDU,election_manifesto,Gemeinsames Wahlprogramm von CDU und CSU,12.88,12.42,13.34,9.74,9.2,10.28
+de2025csu,de2025,de,Deutschland,2025,csu,CSU,supplement,CSU-Bayern-Agenda; ergänzend zum gemeinsamen Unionsprogramm,13.49,12.34,14.63,12.37,11.01,13.74
+de2025fdp,de2025,de,Deutschland,2025,fdp,FDP,election_manifesto,,14.61,14.06,15.16,5.82,5.25,6.39
+de2025gru,de2025,de,Deutschland,2025,gru,Grüne,election_manifesto,,8.19,7.8,8.59,5.44,5.01,5.88
+de2025pds,de2025,de,Deutschland,2025,pds,Linke,election_manifesto,,0.15,-0.38,0.68,0.41,-0.09,0.92
+de2025spd,de2025,de,Deutschland,2025,spd,SPD,election_manifesto,,8.61,8.18,9.04,6.89,6.42,7.36
+th2024afd,th2024,th,Thüringen,2024,afd,AfD,election_manifesto,,14.3,13.82,14.78,12.13,11.51,12.74
+th2024bsw,th2024,th,Thüringen,2024,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,10.57,9.95,11.2,7.52,6.85,8.19
+th2024cdu,th2024,th,Thüringen,2024,cdu,CDU,election_manifesto,,13.49,13.05,13.94,8.99,8.48,9.5
+th2024fdp,th2024,th,Thüringen,2024,fdp,FDP,election_manifesto,,16.59,16.16,17.01,6.74,6.3,7.19
+th2024fwg,th2024,th,Thüringen,2024,fwg,Freie Wähler,election_manifesto,,12.64,11.81,13.46,9.12,8.19,10.04
+th2024gru,th2024,th,Thüringen,2024,gru,Grüne,election_manifesto,,7.76,7.38,8.13,3.3,2.91,3.69
+th2024pds,th2024,th,Thüringen,2024,pds,Linke,election_manifesto,,4.95,3.78,6.11,6.95,5.61,8.29
+th2024spd,th2024,th,Thüringen,2024,spd,SPD,election_manifesto,,10.42,10.01,10.83,6.51,6.06,6.97
+sn2024afd,sn2024,sn,Sachsen,2024,afd,AfD,election_manifesto,,15.4,14.83,15.97,16.12,15.29,16.95
+sn2024bsw,sn2024,sn,Sachsen,2024,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,10.67,10.09,11.26,7.09,6.47,7.71
+sn2024cdu,sn2024,sn,Sachsen,2024,cdu,CDU,election_manifesto,,12.87,12.4,13.33,9.26,8.72,9.8
+sn2024fdp,sn2024,sn,Sachsen,2024,fdp,FDP,election_manifesto,,17.32,16.75,17.9,4.53,3.96,5.1
+sn2024fwg,sn2024,sn,Sachsen,2024,fwg,Freie Wähler,election_manifesto,,13.93,13.2,14.66,10.46,9.64,11.29
+sn2024gru,sn2024,sn,Sachsen,2024,gru,Grüne,election_manifesto,,8.75,8.39,9.12,3.96,3.54,4.37
+sn2024pds,sn2024,sn,Sachsen,2024,pds,Linke,election_manifesto,,5.98,5.6,6.35,2.92,2.54,3.3
+sn2024spd,sn2024,sn,Sachsen,2024,spd,SPD,election_manifesto,,7.93,7.57,8.29,5.54,5.15,5.92
+bb2024afd,bb2024,bb,Brandenburg,2024,afd,AfD,election_manifesto,,13.77,13.31,14.23,12.03,11.45,12.61
+bb2024bsw,bb2024,bb,Brandenburg,2024,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,10.54,9.95,11.13,8.03,7.39,8.66
+bb2024cdu,bb2024,bb,Brandenburg,2024,cdu,CDU,election_manifesto,,12.54,11.97,13.11,9.65,9,10.3
+bb2024fdp,bb2024,bb,Brandenburg,2024,fdp,FDP,election_manifesto,,13.3,12.76,13.84,6.64,6.07,7.2
+bb2024fwg,bb2024,bb,Brandenburg,2024,fwg,Freie Wähler,election_manifesto,,12.25,11.65,12.85,7.66,6.99,8.33
+bb2024gru,bb2024,bb,Brandenburg,2024,gru,Grüne,election_manifesto,,7.69,7.3,8.08,3.88,3.45,4.3
+bb2024pds,bb2024,bb,Brandenburg,2024,pds,Linke,election_manifesto,,3.28,1.8,4.75,1.67,0.13,3.21
+bb2024spd,bb2024,bb,Brandenburg,2024,spd,SPD,election_manifesto,,10.42,9.84,11.01,9.06,8.42,9.7
+hh2025afd,hh2025,hh,Hamburg,2025,afd,AfD,election_manifesto,,13.42,12.81,14.04,11.65,10.75,12.56
+hh2025bsw,hh2025,hh,Hamburg,2025,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,8.49,7.83,9.14,4.11,3.4,4.82
+hh2025cdu,hh2025,hh,Hamburg,2025,cdu,CDU,election_manifesto,,10.85,10.46,11.25,5.71,5.25,6.18
+hh2025fdp,hh2025,hh,Hamburg,2025,fdp,FDP,election_manifesto,,11.53,11.06,12,3.36,2.86,3.86
+hh2025fwg,hh2025,hh,Hamburg,2025,fwg,Freie Wähler,election_manifesto,,7.87,6.63,9.11,3.39,2,4.78
+hh2025gru,hh2025,hh,Hamburg,2025,gru,Grüne,election_manifesto,,7.78,7.49,8.06,2.48,2.16,2.8
+hh2025pds,hh2025,hh,Hamburg,2025,pds,Linke,election_manifesto,,0.95,0.22,1.68,-1.43,-2.16,-0.7
+hh2025spd,hh2025,hh,Hamburg,2025,spd,SPD,election_manifesto,,8.18,7.76,8.59,4.07,3.6,4.55
+bw2026afd,bw2026,bw,Baden-Württemberg,2026,afd,AfD,election_manifesto,,13.82,13.22,14.42,11.66,10.86,12.46
+bw2026bsw,bw2026,bw,Baden-Württemberg,2026,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,7.77,7.25,8.29,4.53,3.97,5.08
+bw2026cdu,bw2026,bw,Baden-Württemberg,2026,cdu,CDU,election_manifesto,,12.89,12.42,13.35,8.63,8.08,9.18
+bw2026fdp,bw2026,bw,Baden-Württemberg,2026,fdp,FDP,election_manifesto,,13.54,13.09,14,6.39,5.89,6.89
+bw2026fwg,bw2026,bw,Baden-Württemberg,2026,fwg,Freie Wähler,election_manifesto,,8.74,7.9,9.58,7.56,6.6,8.52
+bw2026gru,bw2026,bw,Baden-Württemberg,2026,gru,Grüne,election_manifesto,,8.38,8.07,8.69,4.87,4.52,5.22
+bw2026pds,bw2026,bw,Baden-Württemberg,2026,pds,Linke,election_manifesto,,1.65,1.11,2.18,0.42,-0.12,0.96
+bw2026spd,bw2026,bw,Baden-Württemberg,2026,spd,SPD,election_manifesto,,8.11,7.6,8.62,4.88,4.33,5.43
+rp2026afd,rp2026,rp,Rheinland-Pfalz,2026,afd,AfD,election_manifesto,,13.44,12.92,13.95,11.81,11.09,12.54
+rp2026bsw,rp2026,rp,Rheinland-Pfalz,2026,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,6.4,5.39,7.4,6.09,4.96,7.23
+rp2026cdu,rp2026,rp,Rheinland-Pfalz,2026,cdu,CDU,election_manifesto,,11.39,10.93,11.85,7.86,7.33,8.4
+rp2026fdp,rp2026,rp,Rheinland-Pfalz,2026,fdp,FDP,election_manifesto,,12.64,12.33,12.95,5.57,5.23,5.9
+rp2026fwg,rp2026,rp,Rheinland-Pfalz,2026,fwg,Freie Wähler,election_manifesto,,12.33,11.57,13.08,7.94,7.09,8.79
+rp2026gru,rp2026,rp,Rheinland-Pfalz,2026,gru,Grüne,election_manifesto,,5.6,5.17,6.03,1.57,1.1,2.04
+rp2026pds,rp2026,rp,Rheinland-Pfalz,2026,pds,Linke,election_manifesto,,2.04,1.37,2.7,-0.29,-0.93,0.35
+rp2026spd,rp2026,rp,Rheinland-Pfalz,2026,spd,SPD,election_manifesto,,9.15,8.79,9.5,6.35,5.95,6.76
+st2026afd,st2026,st,Sachsen-Anhalt,2026,afd,AfD,election_manifesto,,11.95,11.57,12.34,10.15,9.68,10.62
+st2026bsw,st2026,st,Sachsen-Anhalt,2026,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,8.89,8.5,9.28,6.4,5.98,6.83
+st2026cdu,st2026,st,Sachsen-Anhalt,2026,cdu,CDU,election_manifesto,,12.33,11.9,12.75,9.81,9.31,10.31
+st2026fdp,st2026,st,Sachsen-Anhalt,2026,fdp,FDP,election_manifesto,,13.68,13.18,14.19,7.68,7.12,8.24
+st2026gru,st2026,st,Sachsen-Anhalt,2026,gru,Grüne,election_manifesto,,8.17,7.78,8.56,3.67,3.24,4.11
+st2026pds,st2026,st,Sachsen-Anhalt,2026,pds,Linke,election_manifesto,,6.28,5.9,6.66,4.11,3.7,4.51
+st2026spd,st2026,st,Sachsen-Anhalt,2026,spd,SPD,election_manifesto,,8.92,8.43,9.41,6.38,5.84,6.91
+be2026afd,be2026,be,Berlin,2026,afd,AfD,election_manifesto,,13.67,13.08,14.27,10.97,10.23,11.7
+be2026bsw,be2026,be,Berlin,2026,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,8.09,7.55,8.62,5.45,4.88,6.01
+be2026cdu,be2026,be,Berlin,2026,cdu,CDU,election_manifesto,,11.5,11.11,11.89,7.57,7.16,7.99
+be2026fdp,be2026,be,Berlin,2026,fdp,FDP,election_manifesto,,11.26,10.77,11.76,5.33,4.83,5.83
+be2026gru,be2026,be,Berlin,2026,gru,Grüne,election_manifesto,,5.57,5.28,5.87,1.83,1.53,2.14
+be2026pds,be2026,be,Berlin,2026,pds,Linke,election_manifesto,,4.83,4.54,5.13,1.81,1.52,2.1
+be2026spd,be2026,be,Berlin,2026,spd,SPD,election_manifesto,,5.91,5.44,6.39,4.19,3.7,4.68
+mv2026afd,mv2026,mv,Mecklenburg-Vorpommern,2026,afd,AfD,election_manifesto,,13.07,12.56,13.58,9.75,9.15,10.34
+mv2026bsw,mv2026,mv,Mecklenburg-Vorpommern,2026,bsw,Bündnis Sahra Wagenknecht,election_manifesto,,9.69,9.24,10.13,7.01,6.51,7.51
+mv2026cdu,mv2026,mv,Mecklenburg-Vorpommern,2026,cdu,CDU,election_manifesto,,13.39,13,13.78,8.35,7.91,8.8
+mv2026fdp,mv2026,mv,Mecklenburg-Vorpommern,2026,fdp,FDP,election_manifesto,,15.62,15.2,16.03,6.37,5.93,6.82
+mv2026gru,mv2026,mv,Mecklenburg-Vorpommern,2026,gru,Grüne,election_manifesto,,6.67,6.24,7.09,3.52,3.06,3.99
+mv2026pds,mv2026,mv,Mecklenburg-Vorpommern,2026,pds,Linke,election_manifesto,,5.07,4.49,5.65,3.36,2.75,3.97
+mv2026spd,mv2026,mv,Mecklenburg-Vorpommern,2026,spd,SPD,election_manifesto,,9.75,9.38,10.13,7.32,6.91,7.74

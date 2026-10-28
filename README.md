@@ -100,23 +100,41 @@ zu diesen Punkten; die Warnungen sind ein Arbeitsauftrag und lassen die Prüfung
 `src/ausgewogenheit.ts`:
 
 - **Parteipositionen** auf den zwei Konfliktlinien des deutschen Parteiensystems nach Niedermayer
-  ([bpb](https://www.bpb.de/themen/parteien/parteien-in-deutschland/314753/der-vergleich-von-parteiensystemen/)),
-  derzeit mit Werten aus dem Chapel Hill Expert Survey 2024, unabhängig von den Programmen: Sozialstaatskonflikt
-  (LRECON, 0 = soziale Gerechtigkeit, mehr Staat und Umverteilung, 10 = Marktfreiheit) und soziokultureller Konflikt
-  (GALTAN, 0 = linksliberal-kosmopolitisch, 10 = konservativ bis autoritär). Eine Achse links–rechts reicht nicht, um
-  das Parteiensystem abzubilden. CHES verortet Bundesparteien, für Landtagswahlen gelten sie als Näherung – Landesparteien
-  weichen davon ab, Positionen je Landtagswahl aus der deutschen Parteienforschung sind gesucht (Issue #6); „Union“ ist das
-  nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt Deutschland fehlt in CHES 2024; wir nehmen das Mittel
-  aus dem CHES-Wert für Volt Nederland (4,70 / 1,09) und einer Schätzung aus den Antworten von Volt in unseren Katalogen
-  (3,4 / 2,75, dort, wo die Antworten am besten zur Antwortstruktur der übrigen Parteien passen) – also 4,05 / 1,92
-  (`VOLT_QUELLEN`). Quelle: Rovny, Polk, Bakker, Hooghe, Jolly, Marks, Steenbergen &
-  Vachudova (2025), „The 2024 Chapel Hill Expert Survey on political party positioning in Europe“, *Electoral Studies*
-  97, 102981, [doi:10.1016/j.electstud.2025.102981](https://doi.org/10.1016/j.electstud.2025.102981); Daten von
-  [chesdata.eu](https://www.chesdata.eu/ches-europe).
+  ([bpb](https://www.bpb.de/themen/parteien/parteien-in-deutschland/314753/der-vergleich-von-parteiensystemen/)):
+  Sozialstaatskonflikt (niedrig = soziale Gerechtigkeit, mehr Staat und Umverteilung, hoch = Marktfreiheit) und
+  soziokultureller Konflikt (niedrig = linksliberal-kosmopolitisch, hoch = konservativ bis autoritär). Eine Achse
+  links–rechts reicht nicht, um das Parteiensystem abzubilden.
+  - **Je Wahl (Maßstab):** fortgeschriebener Datensatz „Parteienwettbewerb in den deutschen Bundesländern“ (PWIB),
+    Wordscores aus den vollständigen Wahlprogrammen der Landesparteien, `econ_pos_norm` und `soci_pos_norm` (`PWIB`).
+    Der Auszug für unsere zehn Wahlen liegt unverändert mit Dokumentation in [`daten/pwib/`](daten/pwib/README.txt);
+    ein Test prüft die Werte in `src/ausgewogenheit.ts` gegen die CSV. Die Skala ist nicht 0 bis 10 und kann negativ
+    werden, es zählt nur die Rangfolge je Wahl. „Union“ im Bund ist das gemeinsame Programm (`de2025cdu`), nicht die
+    CSU-Bayern-Agenda. Volt fehlt im Datensatz, die Freien Wähler in Sachsen-Anhalt und Mecklenburg-Vorpommern auch;
+    sie zählen dort nicht mit, ergänzt wird nichts. Quelle: Bräuninger, Thomas; Debus, Marc; Müller, Jochen; Stecker,
+    Christian (2020): *Parteienwettbewerb in den deutschen Bundesländern*. 2., vollständig überarbeitete Auflage.
+    Wiesbaden: Springer VS, [doi:10.1007/978-3-658-29222-5](https://doi.org/10.1007/978-3-658-29222-5). Fortgeschriebene
+    PWIB-Wordscores-Daten, Schätzstand 20.10.2026; Auszug für Wer sagt Ja? vom 28.10.2026. Das Buch beschreibt die
+    Methode; die jüngeren Wahlen stammen aus der Fortschreibung. Die Autoren haben die Ablage im Repository mit
+    vollständiger Quellenangabe für diese Prüfung erlaubt; eine allgemeine Lizenz für den PWIB-Datensatz ist damit
+    nicht verbunden.
+  - **Kein unabhängiger Maßstab:** Die Positionen beruhen auf denselben Programmen wie die Antworten. Der Vergleich
+    ist eine Plausibilitätsprüfung, keine unabhängige Validierung.
+  - **Gegenprobe (`CHES`):** Chapel Hill Expert Survey 2024, Einordnung der Bundesparteien durch Fachleute, LRECON und
+    GALTAN (0 bis 10). „Union“ ist das nach Zweitstimmen 2021 gewichtete Mittel von CDU und CSU. Volt Deutschland fehlt
+    in CHES 2024; wir nehmen das Mittel aus dem CHES-Wert für Volt Nederland (4,70 / 1,09) und einer Schätzung aus den
+    Antworten von Volt in unseren Katalogen (3,4 / 2,75, dort, wo die Antworten am besten zur Antwortstruktur der
+    übrigen Parteien passen) – also 4,05 / 1,92 (`VOLT_QUELLEN`). Wo die Richtung einer Frage in der Gegenprobe anders
+    ausfällt, steht es in `npm run fragen` und in der Übersicht; eine Schlagseite nur nach CHES erscheint als Warnung
+    „Gegenprobe mit CHES“. Wahlen ohne PWIB-Werte werden an CHES gemessen. Quelle: Rovny, Polk, Bakker, Hooghe, Jolly,
+    Marks, Steenbergen & Vachudova (2025), „The 2024 Chapel Hill Expert Survey on political party positioning in
+    Europe“, *Electoral Studies* 97, 102981, [doi:10.1016/j.electstud.2025.102981](https://doi.org/10.1016/j.electstud.2025.102981);
+    Daten von [chesdata.eu](https://www.chesdata.eu/ches-europe).
 - **Richtung je Frage und Dimension:** Rangkorrelation nach Spearman (ρ) zwischen der Antwort (Ja 1, teils 0,5,
-  Nein 0; „keine Aussage“ fehlt) und der CHES-Position, ab mindestens vier Parteien. Ab |ρ| ≥ 0,5 ist die Frage auf der
-  Dimension gerichtet; das Vorzeichen sagt, von welchem Pol das Ja kommt. Je Dimension steht auch das mittlere ρ da –
-  nahe 0 heißt ausgeglichen.
+  Nein 0; „keine Aussage“ fehlt, ebenso Parteien ohne Position) und der Position, ab mindestens vier Parteien;
+  `npm run fragen` nennt je Frage die Zahl der einbezogenen Parteien (n). Antworten alle gleich, ist ρ nicht definiert
+  (nicht bestimmbar). Ab |ρ| ≥ 0,5 ist die Frage auf der Dimension gerichtet; das Vorzeichen sagt, von welchem Pol das
+  Ja kommt, bei wenigen Parteien nur unsicher. Je Dimension steht auch das mittlere ρ da – nahe 0 heißt ausgeglichen.
+  Gleich viele Fragen von beiden Polen belegen für sich noch keine ausgewogene Themenauswahl.
 
 Methode, Begründung und geprüfte Alternativen: [Issue #1](https://github.com/ma3u/wer-sagt-ja/issues/1),
 „Methode der Überarbeitung“. Die Schwellen sind Konventionen und werden mit Fachleuten abgestimmt.

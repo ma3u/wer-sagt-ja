@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useId, useState } from 'react'
 import { QUELLCODE } from './app'
 import {
   CHES,
@@ -10,6 +10,8 @@ import {
   MINDEST_PARTEIEN,
   MINDESTANTEIL_GERICHTET,
   NIEDERMAYER_QUELLE,
+  PWIB,
+  PWIB_QUELLE,
   RHO_SCHWELLE,
   VOLT_QUELLEN,
   ausgewogenheit,
@@ -21,7 +23,7 @@ import { UnterseitenKopf } from './Rechtliches'
 import { uebersichtHash } from './uebersicht'
 import type { Katalog } from './typen'
 
-// So prüfen wir die Ausgewogenheit (#/methode): Methode, Stand je Katalog und offene Punkte (Issue #1, #6). Schwellen,
+// So prüfen wir die Ausgewogenheit (#/methode): Methode, Stand je Katalog und offene Punkte (Issue #1, #6, #14). Schwellen,
 // Kriterien und Parteipositionen kommen aus src/ausgewogenheit.ts, der Stand je Katalog wird live berechnet – die Seite
 // bleibt so von selbst aktuell.
 
@@ -79,33 +81,55 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
         <h2>Wo die Parteien stehen</h2>
         <p>
           Wir verorten die Parteien auf den zwei Konfliktlinien des deutschen Parteiensystems, wie Oskar Niedermayer sie
-          beschreibt: im Sozialstaatskonflikt zwischen sozialer Gerechtigkeit (0), also mehr Staat und Umverteilung, und
-          Marktfreiheit (10), im soziokulturellen Konflikt zwischen linksliberal-kosmopolitischen (0) und konservativen
-          bis autoritären Werten (10). Die Werte stammen derzeit aus dem Chapel Hill Expert Survey 2024, einer
-          Befragung von Fachleuten für Parteien. Sie kommen also nicht aus den Programmen, aus denen die Antworten im
-          Spiel stammen. So prüfen wir die Fragen an einem unabhängigen Maßstab.
+          beschreibt: im Sozialstaatskonflikt zwischen sozialer Gerechtigkeit, also mehr Staat und Umverteilung, und
+          Marktfreiheit, im soziokulturellen Konflikt zwischen linksliberal-kosmopolitischen und konservativen bis
+          autoritären Werten.
+        </p>
+        <p>
+          Die Positionen stammen je Wahl aus dem Datensatz „Parteienwettbewerb in den deutschen Bundesländern“ von Thomas
+          Bräuninger, Marc Debus, Jochen Müller und Christian Stecker. Er schätzt die Lage jeder Landespartei aus ihrem
+          vollständigen Wahlprogramm (Wordscores), auf einer wirtschafts- und einer gesellschaftspolitischen Dimension.
+          Die Autoren haben uns einen Auszug für unsere zehn Wahlen überlassen;{' '}
+          <a href={`${QUELLCODE}/tree/main/daten/pwib`} target="_blank" rel="noopener noreferrer">
+            er liegt mit Dokumentation im Quellcode
+          </a>
+          . So wird sichtbar, wie weit Landesparteien von der Bundespartei abweichen: Das BSW steht in
+          Baden-Württemberg 2026 gesellschaftlich bei {komma(PWIB.bw26.BSW.galtan)}, liberaler als SPD (
+          {komma(PWIB.bw26.SPD.galtan)}) und Grüne ({komma(PWIB.bw26.Grüne.galtan)}). Bundesweit gilt es als
+          konservativ.
+        </p>
+        <PwibTabelle />
+        <p className="meta">
+          Die Werte liegen nicht auf einer Skala von 0 bis 10 und können negativ sein; für die Rechnung zählt nur die
+          Rangfolge innerhalb einer Wahl. Niedrige Werte stehen für mehr Umverteilung und Eingriffe des Staates bzw. für
+          progressive Positionen. Die wirtschaftspolitische Dimension erfasst den breiten Konflikt um Markt und Staat,
+          nicht allein den Sozialstaat. Für die Union im Bund gilt das gemeinsame Programm von CDU und CSU. Volt ist im
+          Datensatz nicht enthalten, die Freien Wähler in Sachsen-Anhalt und Mecklenburg-Vorpommern auch nicht. Sie zählen
+          dort bei der Richtung nicht mit; Werte ergänzen wir nicht.
+        </p>
+        <p>
+          <strong>Kein unabhängiger Maßstab.</strong> Die Positionen beruhen auf denselben Programmen wie die Antworten im
+          Spiel. Der Vergleich ist deshalb eine Plausibilitätsprüfung, keine unabhängige Bestätigung – so schreiben es auch
+          die Autoren in ihrer Dokumentation. Als Gegenprobe rechnen wir jede Frage zusätzlich mit dem Chapel Hill Expert
+          Survey 2024, einer Befragung von Fachleuten zu den Bundesparteien, und weisen aus, wo beide Maßstäbe zu einem
+          anderen Ergebnis kommen. Auch Fachleute urteilen nicht zwangsläufig unabhängig von den Programmen.
         </p>
         <Parteienkarte />
         <p className="meta">
-          CHES verortet Bundesparteien; für Landtagswahlen gilt die Bundespartei als Näherung. Die Forschung zeigt, dass
-          Landesparteien davon abweichen. Wir suchen deshalb Positionen je Landtagswahl aus der deutschen
-          Parteienforschung. Die Union im Bund ist das
-          nach Zweitstimmen 2021 gewichtete Mittel aus CDU und CSU.
-        </p>
-        <p className="meta">
-          Volt Deutschland fehlt in CHES 2024. Wir nehmen das Mittel aus zwei Quellen: dem CHES-Wert für Volt Nederland
-          ({komma(VOLT_QUELLEN.chesNl.lrecon)} und {komma(VOLT_QUELLEN.chesNl.galtan)}), derselben pan-europäischen
-          Partei, und einer Schätzung aus den Antworten von Volt in unseren Katalogen ({komma(VOLT_QUELLEN.programme.lrecon)}{' '}
-          und {komma(VOLT_QUELLEN.programme.galtan)}). Die Schätzung ist der Wert, an dem die Antworten von Volt am besten zur
-          Antwortstruktur der übrigen Parteien passen. Sie stammt aus denselben Programmen wie die Antworten im Spiel und
-          ist deshalb nur eine Gegenprobe, kein unabhängiger Maßstab.
+          In der Gegenprobe ist die Union im Bund das nach Zweitstimmen 2021 gewichtete Mittel aus CDU und CSU. Volt
+          Deutschland fehlt auch in CHES 2024. Dort nehmen wir das Mittel aus zwei Quellen: dem CHES-Wert für Volt
+          Nederland ({komma(VOLT_QUELLEN.chesNl.lrecon)} und {komma(VOLT_QUELLEN.chesNl.galtan)}), derselben
+          pan-europäischen Partei, und einer Schätzung aus den Antworten von Volt in unseren Katalogen (
+          {komma(VOLT_QUELLEN.programme.lrecon)} und {komma(VOLT_QUELLEN.programme.galtan)}). Die Schätzung ist der Wert,
+          an dem die Antworten von Volt am besten zur Antwortstruktur der übrigen Parteien passen.
         </p>
 
         <h2>Von wem das Ja einer Frage kommt</h2>
         <p>
           Für jede Frage und jede Achse vergleichen wir die Antworten der Parteien mit ihrer Lage, als Rangkorrelation
           nach Spearman. Dabei zählt Ja als 1, teils als 0,5 und Nein als 0; „keine Aussage“ zählt nicht mit, auch nicht
-          als Nein. Gerechnet wird ab {MINDEST_PARTEIEN} Parteien mit Aussage. Ab einem Wert von{' '}
+          als Nein, ebenso wenig eine Partei ohne Position. Gerechnet wird ab {MINDEST_PARTEIEN} Parteien mit Aussage und
+          Position; antworten alle gleich, ist keine Richtung bestimmbar. Ab einem Wert von{' '}
           {String(RHO_SCHWELLE).replace('.', ',')} oder −{String(RHO_SCHWELLE).replace('.', ',')} gilt eine Frage auf dieser Achse als gerichtet: Das Ja kommt
           dann eher von einem Pol.
         </p>
@@ -157,7 +181,8 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
           Im Oktober 2026 haben wir 113 Fragen ergänzt, gezielt gegen die Lücken. Vorher kam etwa in Thüringen das Ja bei
           8 von 9 gerichteten Fragen im Sozialstaatskonflikt von der Seite „soziale Gerechtigkeit“, in Berlin im
           soziokulturellen Konflikt bei 5 von 7 von der konservativen Seite, in Sachsen und Mecklenburg-Vorpommern bei 4
-          von 5 von der linksliberalen. Die Tabelle zeigt den heutigen Stand; Einzelheiten stehen in der Fragenübersicht
+          von 5 von der linksliberalen. Diese Zahlen sind noch mit CHES gemessen. Die Tabelle zeigt den heutigen Stand nach
+          den Positionen je Wahl, darunter klein die Gegenprobe mit CHES. Einzelheiten stehen in der Fragenübersicht
           jedes Katalogs unter „Ausgewogenheit dieses Katalogs“.
         </p>
         {fehler && (
@@ -173,8 +198,7 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
           <li>
             <strong>Landesparteien weichen ab.</strong> Die Bundespartei taugt nicht als Näherung. Marc Debus zeigt für
             Baden-Württemberg 2026, dass das BSW dort laut Wahlprogramm den Grünen und der SPD nahesteht. Bundesweit
-            gilt es gesellschaftlich als konservativ. Wir fragen deshalb beim Mannheimer Zentrum für Europäische
-            Sozialforschung nach Positionen je Landtagswahl.
+            gilt es gesellschaftlich als konservativ. Wir messen deshalb an den Positionen je Wahl (siehe oben).
           </li>
           <li>
             <strong>Die Zählung von „teils“ und „keine Aussage“</strong> entspricht der des Wahl-O-Mat (siehe oben).
@@ -196,8 +220,8 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
             messbarer Richtung beziehen.
           </li>
           <li>
-            Woher kommen Positionen je Landtagswahl, und gibt es eine unabhängige Verortung für Volt Deutschland statt des
-            Mittels aus zwei Näherungen?
+            Gibt es eine Verortung für Volt Deutschland? In den Positionen je Wahl fehlt Volt, in der Gegenprobe steht
+            das Mittel aus zwei Näherungen.
           </li>
           <li>Wer übernimmt die zweite, unabhängige Codierung der Positionen?</li>
         </ul>
@@ -208,7 +232,11 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
             Alle Positionen sind mit KI-Hilfe erfasst und noch nicht von Menschen geprüft. Jede lässt sich in der{' '}
             <a href={uebersichtHash()}>Fragenübersicht</a> prüfen: „Position bestätigen“ oder „Fehler melden“.
           </li>
-          <li>Die Messung sagt nichts darüber, ob die Themen angemessen gewichtet sind. Ein Themenraster ist geplant.</li>
+          <li>
+            Die Messung sagt nichts darüber, ob die Themen angemessen gewichtet sind. Gleich viele Fragen von beiden Polen
+            belegen für sich noch keine ausgewogene Auswahl. Ein Themenraster ist geplant.
+          </li>
+          <li>Bei wenigen Parteien und eng beieinander liegenden Positionen ist die Richtung einer Frage unsicher.</li>
           <li>Viele Profilfragen sind auf einer Achse nicht messbar, weil die meisten Programme dazu nichts sagen.</li>
         </ul>
 
@@ -220,7 +248,14 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
           </a>
         </p>
         <p className="meta">
-          Parteipositionen: {CHES_QUELLE.text}.{' '}
+          Parteipositionen je Wahl: {PWIB_QUELLE.text}.{' '}
+          <a href={PWIB_QUELLE.url} target="_blank" rel="noopener noreferrer">
+            Buch
+          </a>
+          . {PWIB_QUELLE.zusatz}. Das Buch beschreibt die Methode; die jüngeren Wahlen stammen aus der Fortschreibung.
+        </p>
+        <p className="meta">
+          Gegenprobe: {CHES_QUELLE.text}.{' '}
           <a href={CHES_QUELLE.url} target="_blank" rel="noopener noreferrer">
             Artikel
           </a>
@@ -258,6 +293,51 @@ export function Methode({ onZurueck, vorab }: { onZurueck?: () => void; vorab?: 
   )
 }
 
+/** Die Positionen je Wahl aus PWIB als Tabelle, eine Wahl zur Auswahl, nach der wirtschaftspolitischen Lage geordnet. */
+function PwibTabelle() {
+  const id = useId()
+  const [wahl, setWahl] = useState('bw26')
+  const namen: Record<string, string> = {
+    btw25: 'Bund 2025', th24: 'Thüringen 2024', sn24: 'Sachsen 2024', bb24: 'Brandenburg 2024', hh25: 'Hamburg 2025',
+    bw26: 'Baden-Württemberg 2026', rp26: 'Rheinland-Pfalz 2026', st26: 'Sachsen-Anhalt 2026', be26: 'Berlin 2026',
+    mv26: 'Mecklenburg-Vorpommern 2026',
+  }
+  const zeilen = Object.entries(PWIB[wahl]).sort(([, a], [, b]) => a.lrecon - b.lrecon)
+  return (
+    <div className="methode-tabelle">
+      <label className="label" htmlFor={id}>
+        Positionen je Wahl
+      </label>
+      <select id={id} value={wahl} onChange={(e) => setWahl(e.target.value)}>
+        {Object.keys(PWIB).map((w) => (
+          <option key={w} value={w}>
+            {namen[w] ?? w}
+          </option>
+        ))}
+      </select>
+      <table>
+        <caption>Positionen nach PWIB, {namen[wahl] ?? wahl}</caption>
+        <thead>
+          <tr>
+            <th scope="col">Partei</th>
+            <th scope="col">Sozialstaat ({DIMENSION.lrecon.kurz.niedrig} ← → {DIMENSION.lrecon.kurz.hoch})</th>
+            <th scope="col">Werte ({DIMENSION.galtan.kurz.niedrig} ← → {DIMENSION.galtan.kurz.hoch})</th>
+          </tr>
+        </thead>
+        <tbody>
+          {zeilen.map(([name, w]) => (
+            <tr key={name}>
+              <th scope="row">{name}</th>
+              <td>{komma(w.lrecon)}</td>
+              <td>{komma(w.galtan)}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
 // Beschriftung neben dem Punkt: Versatz in Pixeln und Ausrichtung, damit sich die eng beieinander liegenden Parteien
 // (CDU, CSU, Freie Wähler) nicht überdecken.
 const BESCHRIFTUNG: Record<string, [number, number, 'start' | 'middle' | 'end']> = {
@@ -268,7 +348,7 @@ const BESCHRIFTUNG: Record<string, [number, number, 'start' | 'middle' | 'end']>
   Volt: [7, -4, 'start'],
 }
 
-/** Die Parteien nach CHES 2024 (Volt als Mittel aus zwei Quellen) als maßstabsgetreues Streudiagramm (0 bis 10). */
+/** Gegenprobe: die Parteien nach CHES 2024 (Volt als Mittel aus zwei Quellen) als maßstabsgetreues Streudiagramm (0 bis 10). */
 function Parteienkarte() {
   const links = 50
   const rechts = 330
@@ -281,7 +361,7 @@ function Parteienkarte() {
     <figure className="methode-karte">
       <svg viewBox="0 0 360 300" role="img" aria-labelledby="methode-karte-titel">
         <title id="methode-karte-titel">
-          {`Parteien nach CHES 2024, waagerecht Sozialstaatskonflikt, senkrecht soziokultureller Konflikt: ${parteien
+          {`Gegenprobe: Parteien nach CHES 2024, waagerecht Sozialstaatskonflikt, senkrecht soziokultureller Konflikt: ${parteien
             .map(([n, w]) => `${n} ${komma(w.lrecon)} und ${komma(w.galtan)}`)
             .join(', ')}`}
         </title>
@@ -324,8 +404,8 @@ function Parteienkarte() {
         })}
       </svg>
       <figcaption className="meta">
-        Waagerecht der Sozialstaatskonflikt (CHES: LRECON), senkrecht der soziokulturelle Konflikt (CHES: GALTAN). Volt:
-        Mittel aus Volt Nederland und unserer Schätzung.
+        Gegenprobe: die Bundesparteien nach CHES 2024, 0 bis 10. Waagerecht der Sozialstaatskonflikt (CHES: LRECON),
+        senkrecht der soziokulturelle Konflikt (CHES: GALTAN). Volt: Mittel aus Volt Nederland und unserer Schätzung.
       </figcaption>
     </figure>
   )
@@ -350,7 +430,16 @@ function StandTabelle({ katalog }: { katalog: Katalog }) {
         <tbody>
           {wahlen.map((d) => {
             const a = ausgewogenheit(d)
-            const r = (dim: 'lrecon' | 'galtan') => `${a.dimension[dim].richtung.niedrig} : ${a.dimension[dim].richtung.hoch}`
+            const r = (dim: 'lrecon' | 'galtan') => (
+              <>
+                {a.dimension[dim].richtung.niedrig} : {a.dimension[dim].richtung.hoch}
+                {a.gegenprobe && (
+                  <span className="meta methode-gegenprobe">
+                    CHES {a.gegenprobe.dimension[dim].richtung.niedrig} : {a.gegenprobe.dimension[dim].richtung.hoch}
+                  </span>
+                )}
+              </>
+            )
             const wenigste = Math.min(...a.profil.map((p) => p.anzahl))
             return (
               <tr key={d.wahl.id}>

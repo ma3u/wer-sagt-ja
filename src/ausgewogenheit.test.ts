@@ -1,6 +1,18 @@
 import { readFileSync } from 'node:fs'
 import { describe, expect, it } from 'vitest'
-import { CHES, DIMENSIONEN, ausgewogenheit, istProfilfrage, istRatbar, rho, richtungVon, spearman } from './ausgewogenheit'
+import {
+  CHES,
+  DIMENSIONEN,
+  PWIB,
+  ausgewogenheit,
+  istProfilfrage,
+  istRatbar,
+  korrelation,
+  massstabFuer,
+  rho,
+  richtungVon,
+  spearman,
+} from './ausgewogenheit'
 import { quizKatalog, spielbar, type FragenDatei } from './katalog'
 import type { Positionswert, QuizPartei, QuizPosition } from './typen'
 
@@ -39,20 +51,27 @@ describe('spearman', () => {
 
 describe('rho', () => {
   it('ist wirtschaftlich klar negativ, wenn die Parteien für mehr Staat Ja sagen – ohne CHES-Wert zählt nicht mit', () => {
-    const r = rho(staat().positionen, parteien, 'lrecon')
+    const r = rho(staat().positionen, parteien, 'lrecon', CHES)
     expect(r).toBeLessThanOrEqual(-0.5)
-    expect(rho(frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'ja', 'ja').positionen, parteien, 'lrecon')).toBe(r)
+    expect(rho(frage('ja', 'ja', 'ja', 'nein', 'nein', 'nein', 'ja', 'ja').positionen, parteien, 'lrecon', CHES)).toBe(r)
   })
   it('ist gesellschaftlich positiv, wenn CDU, BSW und AfD Ja sagen', () => {
-    expect(rho(frage('nein', 'nein', 'nein', 'ja', 'nein', 'ja', 'ja', 'nein').positionen, parteien, 'galtan')).toBeGreaterThanOrEqual(0.5)
+    expect(rho(frage('nein', 'nein', 'nein', 'ja', 'nein', 'ja', 'ja', 'nein').positionen, parteien, 'galtan', CHES)).toBeGreaterThanOrEqual(0.5)
   })
   it('lässt „keine Aussage“ weg und ist null bei weniger als vier Werten', () => {
     const k = 'keine_aussage'
-    expect(rho(frage('ja', k, k, 'nein', k, 'nein', k, 'ja').positionen, parteien, 'lrecon')).toBeNull()
+    expect(rho(frage('ja', k, k, 'nein', k, 'nein', k, 'ja').positionen, parteien, 'lrecon', CHES)).toBeNull()
+  })
+  it('nennt die Zahl der einbezogenen Parteien', () => {
+    const k = 'keine_aussage'
+    expect(korrelation(frage('ja', k, 'ja', 'nein', 'nein', 'nein', 'ja', 'ja').positionen, parteien, 'lrecon', CHES)).toEqual({
+      rho: expect.any(Number),
+      n: 6,
+    })
   })
   it('kennt die Union', () => {
     const union = parteien.map((p) => (p.kurzname === 'CDU' ? { ...p, kurzname: 'Union' } : p))
-    expect(rho(markt().positionen, union, 'lrecon')).toBe(rho(markt().positionen, parteien, 'lrecon'))
+    expect(rho(markt().positionen, union, 'lrecon', CHES)).toBe(rho(markt().positionen, parteien, 'lrecon', CHES))
   })
 })
 
@@ -79,11 +98,13 @@ describe('istRatbar', () => {
 })
 
 describe('ausgewogenheit', () => {
-  it('zählt Richtungen je Dimension, Profilfragen und Parteien ohne CHES-Wert', () => {
+  it('zählt Richtungen je Dimension, Profilfragen und Parteien ohne Position', () => {
     const a = ausgewogenheit({ parteien, fragen: [staat(), markt(), frage('ja', 'nein', 'nein', 'ja', 'nein', 'nein', 'nein', 'nein')] })
     expect(a.dimension.lrecon.richtung).toEqual({ niedrig: 1, hoch: 1, keine: 1, offen: 0 })
     expect(a.profil.map((x) => x.anzahl)).toEqual([1, 0, 0, 1, 0, 0, 0, 0])
-    expect(a.ohneChes.map((p) => p.kurzname)).toEqual(['Tierschutz'])
+    expect(a.ohneLage.map((p) => p.kurzname)).toEqual(['Tierschutz'])
+    expect(a.massstab).toBe('ches')
+    expect(a.gegenprobe).toBeNull()
   })
 
   it('warnt, wenn bei mehr als 60 % der gerichteten Fragen das Ja vom selben Pol kommt', () => {
@@ -113,6 +134,57 @@ describe('ausgewogenheit', () => {
   })
 })
 
+describe('PWIB', () => {
+  const zeilen = readFileSync(new URL('../daten/pwib/pwib_wer_sagt_ja_2026-10-28.csv', import.meta.url), 'utf8')
+    .trim()
+    .split('\n')
+    .slice(1)
+    .map((z) => z.split(','))
+  const WAHL: Record<string, string> = {
+    de2025: 'btw25', th2024: 'th24', sn2024: 'sn24', bb2024: 'bb24', hh2025: 'hh25',
+    bw2026: 'bw26', rp2026: 'rp26', st2026: 'st26', be2026: 'be26', mv2026: 'mv26',
+  }
+  const NAME: Record<string, string> = { afd: 'AfD', bsw: 'BSW', cdu: 'CDU', fdp: 'FDP', fwg: 'Freie Wähler', gru: 'Grüne', pds: 'Linke', spd: 'SPD' }
+
+  it('hat die Werte aus daten/pwib/ – im Bund das gemeinsame Unionsprogramm, ohne CSU-Bayern-Agenda', () => {
+    expect(zeilen).toHaveLength(77)
+    let n = 0
+    for (const [, landyear, , , , party, , , , econ, , , soci] of zeilen) {
+      if (party === 'csu') continue
+      const name = landyear === 'de2025' && party === 'cdu' ? 'Union' : NAME[party]
+      expect(PWIB[WAHL[landyear]][name], `${landyear}${party}`).toEqual({ lrecon: Number(econ), galtan: Number(soci) })
+      n++
+    }
+    expect(Object.values(PWIB).reduce((x, w) => x + Object.keys(w).length, 0)).toBe(n)
+  })
+
+  it('misst an PWIB, wenn es die Wahl gibt, sonst an CHES', () => {
+    expect(massstabFuer('bw26')).toEqual({ massstab: 'pwib', lagen: PWIB.bw26 })
+    expect(massstabFuer('sh27').massstab).toBe('ches')
+    expect(massstabFuer(undefined).massstab).toBe('ches')
+  })
+
+  it('zeigt das BSW in Baden-Württemberg nahe SPD und Grünen, anders als CHES im Bund', () => {
+    const { BSW, SPD, Grüne, CDU } = PWIB.bw26
+    expect(BSW.galtan).toBeLessThan(Grüne.galtan)
+    expect(BSW.galtan).toBeLessThan(SPD.galtan)
+    expect(CHES.BSW.galtan).toBeGreaterThan(CHES.CDU.galtan)
+    expect(BSW.galtan).toBeLessThan(CDU.galtan)
+  })
+
+  it('nennt Fragen, deren Richtung in der Gegenprobe anders ausfällt', () => {
+    // BW 2026: Ja von SPD, Grünen, Linken und BSW. Gesellschaftlich sind das nach PWIB die vier liberalsten Parteien;
+    // nach CHES (Bund) steht das BSW konservativer als CDU und Freie Wähler, die Frage ist dort ungerichtet.
+    const bw = ['CDU', 'SPD', 'Grüne', 'FDP', 'AfD', 'Linke', 'BSW', 'Freie Wähler']
+    const bwParteien = bw.map((kurzname, i) => ({ ...parteien[0], id: i + 1, name: kurzname, kurzname }))
+    const f = frage('nein', 'ja', 'ja', 'nein', 'nein', 'ja', 'ja', 'nein')
+    const a = ausgewogenheit({ wahl: { id: 'bw26' }, parteien: bwParteien, fragen: [f] })
+    expect(a.massstab).toBe('pwib')
+    expect(a.gegenprobe?.massstab).toBe('ches')
+    expect(a.gegenprobe?.abweichend).toEqual([{ id: f.id, dimension: 'galtan', richtung: 'niedrig', gegenprobe: 'keine' }])
+  })
+})
+
 describe('fragen.json', () => {
   const datei = JSON.parse(readFileSync(new URL('../public/fragen.json', import.meta.url), 'utf8')) as FragenDatei
   it('liefert für jeden spielbaren Katalog Kennzahlen über alle Fragen', () => {
@@ -123,8 +195,18 @@ describe('fragen.json', () => {
       expect(a.profil).toHaveLength(d.parteien.length)
     }
   })
-  it('hat für jede Partei einen CHES-Wert, Volt als Mittel aus zwei Quellen', () => {
-    const ohne = new Set(quizKatalog(datei).wahlen.flatMap((d) => ausgewogenheit(d).ohneChes.map((p) => p.kurzname)))
+  it('misst jeden Katalog an PWIB; ohne Position sind nur Volt und zwei Mal die Freien Wähler', () => {
+    const ohne = quizKatalog(datei)
+      .wahlen.filter(spielbar)
+      .flatMap((d) => {
+        const a = ausgewogenheit(d)
+        expect(a.massstab, d.wahl.id).toBe('pwib')
+        return a.ohneLage.filter((p) => p.kurzname !== 'Volt').map((p) => `${d.wahl.id} ${p.kurzname}`)
+      })
+    expect(ohne).toEqual(['st26 Freie Wähler', 'mv26 Freie Wähler'])
+  })
+  it('hat in der Gegenprobe für jede Partei einen CHES-Wert, Volt als Mittel aus zwei Quellen', () => {
+    const ohne = new Set(quizKatalog(datei).wahlen.flatMap((d) => ausgewogenheit(d).gegenprobe?.ohneLage.map((p) => p.kurzname) ?? []))
     expect([...ohne]).toEqual([])
     expect(CHES.Volt).toEqual({ lrecon: 4.05, galtan: 1.92 })
   })
