@@ -537,8 +537,13 @@ textarea {
   margin-top: 1.75rem;
   font-size: 1.15rem;
 }
-.recht ul {
+.recht ul,
+.recht ol {
   padding-left: 1.25rem;
+}
+/* Mitmachen (#/mitmachen): Ablauf und Themen sind ganze Absätze – mit Luft dazwischen. */
+.mitmachen li + li {
+  margin-top: 0.5rem;
 }
 .recht-warnung {
   padding: 10px 14px;

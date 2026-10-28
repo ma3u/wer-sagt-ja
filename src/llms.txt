@@ -43,6 +43,8 @@ Stelle im Programm – als HTML für Menschen und als Markdown für Agenten:
 ## Mehr
 
 - [Alle Fragen in der App](https://wersagtja.de/#/fragen), je Wahl unter `#/<wahl>/fragen`
+- [Mitmachen](https://wersagtja.de/mitmachen/): Ablauf für eine Doppelstunde im Politikunterricht, Themen für
+  Abschlussarbeiten, Fragen prüfen und vorschlagen
 - [Quellcode (AGPL-3.0)](https://github.com/ma3u/wer-sagt-ja)
 - [Datenschutz](https://wersagtja.de/#/datenschutz)
 - [Impressum](https://wersagtja.de/#/impressum)

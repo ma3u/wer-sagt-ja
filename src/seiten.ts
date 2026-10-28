@@ -161,6 +161,7 @@ function rahmen({ wahl, titel, beschreibung, parteien, markdown, base, inhalt }:
       </main>
       <footer>
         <a href="${base}methode/">Methode</a>
+        <a href="${base}mitmachen/">Mitmachen</a>
         <a href="${base}#/impressum">Impressum</a>
         <a href="${base}#/datenschutz">Datenschutz</a>
         <a href="https://github.com/ma3u/wer-sagt-ja">Quellcode</a>${markdown ? `\n        <a href="${base}${pfad(wahl)}/index.md">Als Markdown (für KI-Agenten)</a>` : ''}
@@ -301,11 +302,12 @@ export function llmsTxt(vorlage: string, alle: QuizDaten[], kommend: QuizDaten[]
   return vorlage.replace('<!-- wahlen -->', liste)
 }
 
-/** sitemap.xml: die Startseite, die Methodenseite und die Seite jeder Wahl, auch der angekündigten. */
+/** sitemap.xml: die Startseite, die Methodenseite, die Seite zum Mitmachen und die Seite jeder Wahl, auch der angekündigten. */
 export function sitemap(alle: QuizDaten[], kommend: QuizDaten[] = []): string {
   const urls = [
     `  <url>\n    <loc>${ADRESSE}</loc>\n    <image:image>\n      <image:loc>${ADRESSE}vorschau.png</image:loc>\n    </image:image>\n  </url>`,
     `  <url>\n    <loc>${ADRESSE}methode/</loc>\n  </url>`,
+    `  <url>\n    <loc>${ADRESSE}mitmachen/</loc>\n  </url>`,
     ...[...alle, ...kommend].map((d) => `  <url>\n    <loc>${ADRESSE}${pfad(d.wahl)}/</loc>\n  </url>`),
   ]
   return `<?xml version="1.0" encoding="UTF-8"?>

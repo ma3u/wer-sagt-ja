@@ -10,7 +10,7 @@ import type { Katalog } from './src/typen.ts'
 const base = process.env.BASIS_PFAD ?? '/'
 
 /**
- * Statische Seiten je Wahl (HTML und Markdown, für kommende Wahlen ohne Programme eine Ankündigung), die Methodenseite /methode/, sitemap.xml, llms.txt und die Links in
+ * Statische Seiten je Wahl (HTML und Markdown, für kommende Wahlen ohne Programme eine Ankündigung), die Methodenseite /methode/, die Seite /mitmachen/, sitemap.xml, llms.txt und die Links in
  * index.html (src/seiten.ts, src/methodeSeite.tsx).
  */
 function seiten(): Plugin {
@@ -35,7 +35,7 @@ function seiten(): Plugin {
       this.emitFile({ type: 'asset', fileName: 'sitemap.xml', source: sitemap(alle, kommend()) })
       this.emitFile({ type: 'asset', fileName: 'llms.txt', source: llmsTxt(lesen('./src/llms.txt'), alle, kommend()) })
 
-      // Die Methodenseite ist eine React-Komponente: gerendert über einen Vite-Server ohne diese Konfiguration.
+      // Methode und Mitmachen sind React-Komponenten: gerendert über einen Vite-Server ohne diese Konfiguration.
       const server = await createServer({
         configFile: false,
         root: fileURLToPath(new URL('.', import.meta.url)),
@@ -45,11 +45,13 @@ function seiten(): Plugin {
         plugins: [react()],
       })
       try {
-        const { methodeSeite } = (await server.ssrLoadModule('/src/methodeSeite.tsx')) as {
+        const { methodeSeite, mitmachenSeite } = (await server.ssrLoadModule('/src/methodeSeite.tsx')) as {
           methodeSeite: (k: Katalog, stile: string[], base: string) => string
+          mitmachenSeite: (stile: string[], base: string) => string
         }
         const stile = Object.keys(bundle).filter((f) => f.endsWith('.css'))
         this.emitFile({ type: 'asset', fileName: 'methode/index.html', source: methodeSeite(katalog(), stile, base) })
+        this.emitFile({ type: 'asset', fileName: 'mitmachen/index.html', source: mitmachenSeite(stile, base) })
       } finally {
         await server.close()
       }

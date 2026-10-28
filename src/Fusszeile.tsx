@@ -7,6 +7,7 @@ export function Fusszeile() {
     <footer className="fusszeile">
       <a href="#/fragen">Alle Fragen</a>
       <a href="#/methode">Methode</a>
+      <a href="#/mitmachen">Mitmachen</a>
       <a href="#/impressum">Impressum</a>
       <a href="#/datenschutz">Datenschutz</a>
       <a href={QUELLCODE}>Quellcode</a>

@@ -1,4 +1,5 @@
 import { Methode } from './Methode.tsx'
+import { Mitmachen } from './Mitmachen.tsx'
 import { useHash, zurueck } from './navigation.ts'
 import { Quiz } from './Quiz.tsx'
 import { Rechtliches, type RechtsSeite } from './Rechtliches.tsx'
@@ -17,12 +18,14 @@ export function App() {
   const seite = rechtsSeite(hash)
   const uebersicht = uebersichtAus(hash)
   const methode = hash.startsWith('#/methode')
+  const mitmachen = hash.startsWith('#/mitmachen')
   return (
     <>
       {seite && <Rechtliches seite={seite} onZurueck={zurueck} />}
       {uebersicht && <Uebersicht wahlId={uebersicht.wahl} partei={uebersicht.partei} frageId={uebersicht.frage} onZurueck={zurueck} />}
       {methode && <Methode onZurueck={zurueck} />}
-      <div hidden={seite !== null || uebersicht !== null || methode}>
+      {mitmachen && <Mitmachen onZurueck={zurueck} />}
+      <div hidden={seite !== null || uebersicht !== null || methode || mitmachen}>
         <Quiz />
       </div>
     </>

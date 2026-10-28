@@ -178,8 +178,8 @@ Adresse `ma3u.github.io/wer-sagt-ja/` leitet dorthin weiter). Vor dem öffentlic
 Suchmaschinen: Die App liegt unter einer Adresse, ihre Unterseiten hinter `#/…` – die nimmt keine Suchmaschine einzeln
 auf. Darum erzeugt der Build ([`src/seiten.ts`](src/seiten.ts), eingebunden in `vite.config.ts`) je spielbarer Wahl eine
 statische Seite mit allen Fragen, Positionen und Belegen (etwa `/landtagswahl-sachsen-2024/`, für KI-Agenten auch als
-`index.md`), die Methodenseite als `/methode/` ([`src/methodeSeite.tsx`](src/methodeSeite.tsx), mit dem Stil der App
-gerendert), `sitemap.xml` und `llms.txt`; `public/robots.txt` verweist darauf. Neue Wahlen kommen damit von selbst dazu.
+`index.md`), die Methodenseite als `/methode/` und die Seite zum Mitmachen als `/mitmachen/`
+([`src/methodeSeite.tsx`](src/methodeSeite.tsx), mit dem Stil der App gerendert), `sitemap.xml` und `llms.txt`; `public/robots.txt` verweist darauf. Neue Wahlen kommen damit von selbst dazu.
 Kommende Wahlen ohne Programme bekommen schon vorher eine Ankündigung unter derselben Adresse (Wahltag, `bisher`), damit
 sie im Wahlkampf bereits im Index steht.
 Nach jedem Deploy meldet `pages.yml` alle Adressen der Sitemap über IndexNow an Bing, Yandex und andere; der
