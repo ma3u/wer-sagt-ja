@@ -158,8 +158,8 @@ Methode, Begründung und geprüfte Alternativen: [Issue #1](https://github.com/m
   Standardwahl), `#/impressum`, `#/datenschutz`.
 - Öffentliche Räume tragen die gespielte Wahl als Feld `w` in die Realtime Database ein; erlauben die veröffentlichten
   Regeln das Feld noch nicht, schreibt die App den Eintrag ohne (`firebase/database.rules.json` neu veröffentlichen).
-- Barrierefreiheit nach WCAG 2.2 AA: Fokusführung bei Ansichtswechsel, Zielflächen ≥ 24 px, „Bewegung anhalten“,
-  Zeitlimit einstellbar.
+- Barrierefreiheit nach WCAG 2.2 AA: Fokusführung bei Ansichtswechsel, Zielflächen ≥ 24 px, Zeitlimit einstellbar;
+  nichts bewegt sich länger als fünf Sekunden von selbst, „Bewegung reduzieren“ im System stellt alles still.
 
 ```bash
 cp .env.example .env
