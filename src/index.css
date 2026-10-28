@@ -1716,7 +1716,22 @@ html:has(.quiz-aktion) {
   display: block;
   font-size: 0.85em;
 }
-.methode-tabelle select {
-  max-width: 24rem;
-  margin-bottom: 0.5rem;
+.methode-pwib {
+  margin: 0.75rem 0;
+}
+.methode-pwib details {
+  border-bottom: 1px solid var(--linie);
+}
+.methode-pwib summary {
+  min-height: 24px;
+  padding: 8px 0;
+  font-weight: 700;
+  cursor: pointer;
+}
+.methode-pwib summary:focus-visible {
+  outline: 3px solid var(--fokus);
+  outline-offset: 2px;
+}
+.methode-pwib .methode-tabelle {
+  margin-top: 0;
 }
