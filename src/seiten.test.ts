@@ -65,8 +65,9 @@ describe('wahlMarkdown und llmsTxt', () => {
 })
 
 describe('sitemap', () => {
-  it('enthält die Methodenseite', () => {
+  it('enthält die Methodenseite und die Seite zum Mitmachen', () => {
     expect(sitemap(alle)).toContain(`<loc>${ADRESSE}methode/</loc>`)
+    expect(sitemap(alle)).toContain(`<loc>${ADRESSE}mitmachen/</loc>`)
   })
 })
 

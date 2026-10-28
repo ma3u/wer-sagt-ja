@@ -1,0 +1,42 @@
+name: Frage vorschlagen
+description: Eine neue Ja-Frage für das Quiz, belegt mit dem Wortlaut aus den Wahlprogrammen.
+title: 'Frage vorschlagen: '
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gefragt wird immer, wer **Ja** sagt – nie nach Nein. Zuspitzen ist erlaubt; jede Position braucht den Wortlaut
+        aus dem Programm mit Link und Seite. Leitlinie: [Ausgewogenheit](https://github.com/ma3u/wer-sagt-ja#ausgewogenheit),
+        Methode: [wersagtja.de/methode](https://wersagtja.de/methode/).
+  - type: input
+    id: wahl
+    attributes:
+      label: Wahl
+      placeholder: z. B. Bundestagswahl 2025, Abgeordnetenhauswahl Berlin 2026
+    validations:
+      required: true
+  - type: input
+    id: frage
+    attributes:
+      label: Frage
+      description: Als Ja-Frage formuliert, z. B. „Wer will …?“
+      placeholder: Wer will …?
+    validations:
+      required: true
+  - type: textarea
+    id: positionen
+    attributes:
+      label: Positionen mit Beleg
+      description: Je Partei, die du kennst – Ja, Nein, teils oder keine Aussage, dazu das wörtliche Zitat und der Link mit Seite.
+      placeholder: |
+        Partei: Ja
+        „Wörtliches Zitat aus dem Programm …“
+        https://…/programm.pdf#page=12
+    validations:
+      required: true
+  - type: textarea
+    id: warum
+    attributes:
+      label: Warum diese Frage?
+      description: Optional – etwa welche Partei ihre Forderung bisher nicht als Ja-Frage wiederfindet.
