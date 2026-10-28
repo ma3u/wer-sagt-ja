@@ -1,8 +1,6 @@
 import { QUELLCODE } from './app'
-import { useBewegung } from './barrierefrei'
 
 export function Fusszeile() {
-  const [bewegungAus, umschalten] = useBewegung()
   return (
     <footer className="fusszeile">
       <a href="#/fragen">Alle Fragen</a>
@@ -14,9 +12,6 @@ export function Fusszeile() {
       <a href={`${QUELLCODE}/issues`} target="_blank" rel="noopener noreferrer">
         Feedback
       </a>
-      <button type="button" aria-pressed={bewegungAus} onClick={umschalten}>
-        Bewegung anhalten
-      </button>
     </footer>
   )
 }

@@ -26,6 +26,7 @@ describe('mitmachenSeite', () => {
     expect(html).toContain('Mitmachen</h1>')
     for (const h of ['Im Politikunterricht', 'Themen für Abschlussarbeiten', 'Fragen prüfen', 'Kontakt']) expect(html).toContain(`<h2>${h}</h2>`)
     expect(html).toContain('issues/new?template=frage-vorschlagen.yml')
+    expect(html).toContain('issues/new?template=rueckmeldung-unterricht.yml')
     expect(html).toContain('← Zur Startseite')
   })
   it('plant die Doppelstunde auf 90 Minuten', () => {

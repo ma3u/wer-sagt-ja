@@ -1,0 +1,64 @@
+name: Rückmeldung zum Unterricht
+description: Wie lief „Wer sagt Ja?“ in eurem Kurs? Was hat geholfen, was hat gehakt?
+title: 'Rückmeldung Unterricht: '
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke, dass ihr das Quiz im Unterricht ausprobiert habt! Diese Rückmeldung ist **öffentlich** – bitte keine
+        Namen von Schülerinnen und Schülern und keine Angaben, die auf einzelne Personen schließen lassen.
+        Ablauf und Hinweise: [wersagtja.de/mitmachen](https://wersagtja.de/mitmachen/).
+  - type: input
+    id: kurs
+    attributes:
+      label: Fach und Stufe
+      placeholder: z. B. PoWi, Q1, Grundkurs
+    validations:
+      required: true
+  - type: input
+    id: land
+    attributes:
+      label: Bundesland
+      description: Optional – hilft bei den Katalogen der Landtagswahlen.
+  - type: input
+    id: wahl
+    attributes:
+      label: Gespielte Wahl
+      placeholder: z. B. Bundestagswahl 2025
+  - type: dropdown
+    id: ablauf
+    attributes:
+      label: Ablauf
+      options:
+        - Doppelstunde wie auf der Mitmachen-Seite
+        - Doppelstunde, eigener Ablauf
+        - Einzelstunde
+        - Projekttag oder Vertretungsstunde
+        - Anders (unten beschreiben)
+    validations:
+      required: true
+  - type: input
+    id: gruppe
+    attributes:
+      label: Kursgröße und Teams
+      placeholder: z. B. 24 Personen in 8 Teams, ein Gerät je Team
+  - type: textarea
+    id: gut
+    attributes:
+      label: Was hat gut funktioniert?
+    validations:
+      required: true
+  - type: textarea
+    id: hakte
+    attributes:
+      label: Was hat gehakt?
+      description: Technik, Zeit, Verständnis der Fragen, Diskussion …
+  - type: textarea
+    id: fragen
+    attributes:
+      label: Fragen, die aufgefallen sind
+      description: Optional – Fragen, die unklar, einseitig oder falsch wirkten (mit Wortlaut oder Kennung aus „Alle Fragen“).
+  - type: textarea
+    id: wunsch
+    attributes:
+      label: Was würde euch im Unterricht noch helfen?

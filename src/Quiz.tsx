@@ -443,10 +443,6 @@ function QuizStart({
             </>
           )}
         </div>
-
-        <p className="datenschutz">
-          Kein Konto, keine Cookies, keine KI im Spiel. <a href="#/datenschutz">Datenschutz</a>
-        </p>
       </div>
     </main>
   )

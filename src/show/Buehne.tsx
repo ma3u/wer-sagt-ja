@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import { SPRECHER } from './texte'
 import { entsperren, setzeTon, startmelodie, tonWahlMerken, useTon, useTonFrei, useUntertitel } from './ton'
 
-// Sichtbare Bausteine der Quiz-Show. Animationen stehen in index.css („Quiz-Show“) und ruhen bei „Bewegung
-// anhalten“ bzw. „Bewegung reduzieren“. Kein Blinken (WCAG 2.3.1).
+// Sichtbare Bausteine der Quiz-Show. Animationen stehen in index.css („Quiz-Show“), ruhen bei „Bewegung
+// reduzieren“ und enden nach spätestens fünf Sekunden (WCAG 2.2.2). Kein Blinken (WCAG 2.3.1).
 
 /** Clips, deren Inhalt ohnehin als Text auf der Seite steht – dazu kein zweiter Text darunter. */
 const steht_auf_der_seite = (id: string) => id.startsWith('frage-') || id.startsWith('anl-') || id === 'optionen' || id.startsWith('loesung-')

@@ -38,24 +38,20 @@ export function useAnsicht<T extends HTMLElement = HTMLHeadingElement>(titel: st
   return ref
 }
 
-// „Bewegung anhalten“ (2.2.2): nur für diesen Besuch im Arbeitsspeicher, nichts wird im Browser gespeichert.
-const hoerer = new Set<() => void>()
-let bewegungAus = typeof matchMedia === 'function' && matchMedia('(prefers-reduced-motion: reduce)').matches
+// Bewegung reduzieren (Systemeinstellung, 2.3.3). Einen eigenen Schalter braucht es nicht: Was sich von selbst bewegt,
+// steht nach spätestens fünf Sekunden still (2.2.2) – Konfetti, Wackeln vor der Auflösung, Auftritte.
+const BEWEGUNG_REDUZIERT = '(prefers-reduced-motion: reduce)'
 
-function setzeBewegung(aus: boolean) {
-  bewegungAus = aus
-  if (aus) document.documentElement.dataset.bewegung = 'aus'
-  else delete document.documentElement.dataset.bewegung
-  hoerer.forEach((h) => h())
-}
-
-export function useBewegung(): [aus: boolean, umschalten: () => void] {
-  const aus = useSyncExternalStore(
-    (h) => (hoerer.add(h), () => hoerer.delete(h)),
-    () => bewegungAus,
+export const useBewegungAus = () =>
+  useSyncExternalStore(
+    (h) => {
+      const m = matchMedia(BEWEGUNG_REDUZIERT)
+      m.addEventListener('change', h)
+      return () => m.removeEventListener('change', h)
+    },
+    () => matchMedia(BEWEGUNG_REDUZIERT).matches,
+    () => false,
   )
-  return [aus, () => setzeBewegung(!bewegungAus)]
-}
 
 /** Unterseite über dem Spiel: Beim Schließen bekommt das Element den Fokus zurück, das vorher ihn hatte. */
 export function useFokusZurueck() {

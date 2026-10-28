@@ -8,6 +8,7 @@ import { uebersichtHash } from './uebersicht'
 // Fragen prüfen. Auf diese Seite verweisen die Anschreiben an Studienseminare, Lehrstühle und Jugendorganisationen.
 
 export const FRAGE_VORSCHLAGEN = `${QUELLCODE}/issues/new?template=frage-vorschlagen.yml`
+export const RUECKMELDUNG_UNTERRICHT = `${QUELLCODE}/issues/new?template=rueckmeldung-unterricht.yml`
 
 /** Ablauf einer Doppelstunde: Minuten und Schritt. */
 const DOPPELSTUNDE: { minuten: number; titel: string; text: string }[] = [
@@ -130,8 +131,11 @@ export function Mitmachen({ onZurueck }: { onZurueck?: () => void }) {
         </p>
         <p>
           Wir speichern keine Spieldaten; die Geräte sind direkt miteinander verbunden. Mehr dazu in der{' '}
-          <a href="#/datenschutz">Datenschutzerklärung</a>. Wie es in eurem Kurs lief, hilft uns sehr – eine kurze
-          Rückmeldung per <a href={mail}>E-Mail</a> genügt.
+          <a href="#/datenschutz">Datenschutzerklärung</a>. Wie es in eurem Kurs lief, hilft uns sehr:{' '}
+          <a href={RUECKMELDUNG_UNTERRICHT} target="_blank" rel="noopener noreferrer">
+            Rückmeldung zum Unterricht geben
+          </a>{' '}
+          (GitHub, öffentlich – bitte ohne Namen von Schülerinnen und Schülern).
         </p>
 
         <h2>Themen für Abschlussarbeiten</h2>
@@ -173,7 +177,7 @@ export function Mitmachen({ onZurueck }: { onZurueck?: () => void }) {
           </li>
         </ul>
         <p className="meta">
-          Prüfen und Vorschlagen läuft über GitHub und ist dort öffentlich; dafür braucht es ein Konto. Ohne Konto geht es
+          Rückmeldungen, Prüfen und Vorschlagen laufen über GitHub und sind dort öffentlich; dafür braucht es ein Konto. Ohne Konto geht es
           per <a href={mail}>E-Mail</a>.
         </p>
 
