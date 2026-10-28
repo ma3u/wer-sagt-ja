@@ -1,6 +1,6 @@
 import { Fragment, useEffect, useId, useRef, useState } from 'react'
 import { APP_NAME, QUELLCODE, UNTERTITEL } from './app'
-import { useAnsicht, useBewegung } from './barrierefrei'
+import { useAnsicht, useBewegungAus } from './barrierefrei'
 import { Kreuzfeld } from './Kreuz'
 import { parteiStil } from './stil'
 import { QrCode } from './QrCode'
@@ -42,7 +42,7 @@ const sekunden = (ms: number) => (ms / 1000).toLocaleString('de-DE', { maximumFr
 /** Springt zu einem Element, sobald es gebraucht wird – ohne Animation, wenn Bewegung aus ist (2.3.3). */
 function useSprungZu<T extends HTMLElement>(wann: boolean) {
   const ref = useRef<T>(null)
-  const [bewegungAus] = useBewegung()
+  const bewegungAus = useBewegungAus()
   useEffect(() => {
     // Direkt nach dem Commit, ohne requestAnimationFrame: Das feuert in Hintergrund-Tabs nicht.
     if (wann) ref.current?.scrollIntoView({ block: 'end', behavior: bewegungAus ? 'auto' : 'smooth' })
