@@ -162,8 +162,7 @@ function rahmen({ wahl, titel, beschreibung, parteien, markdown, base, inhalt }:
       <footer>
         <a href="${base}methode/">Methode</a>
         <a href="${base}mitmachen/">Mitmachen</a>
-        <a href="${base}#/impressum">Impressum</a>
-        <a href="${base}#/datenschutz">Datenschutz</a>
+        <a href="${base}#/impressum">Impressum &amp; Datenschutz</a>
         <a href="https://github.com/ma3u/wer-sagt-ja">Quellcode</a>${markdown ? `\n        <a href="${base}${pfad(wahl)}/index.md">Als Markdown (für KI-Agenten)</a>` : ''}
       </footer>
     </div>

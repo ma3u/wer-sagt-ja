@@ -52,26 +52,22 @@ function Lautsprecher({ an, groesse = 22 }: { an: boolean; groesse?: number }) {
 
 /**
  * Ton an/aus (WCAG 1.4.2) – gilt für Sprache und Geräusche. Zeigt den Zustand, nicht die Aktion: Lautsprecher mit
- * Schallwellen = Ton spielt, durchgestrichen = aus oder vom Browser noch nicht freigegeben. Für Screenreader ein
- * Schalter „Ton“ (gedrückt = an); der Tooltip sagt, was ein Tippen tut. Die Wahl bleibt auf dem Gerät (ton.ts).
+ * Schallwellen = Ton spielt, durchgestrichen = aus. Für Screenreader ein Schalter „Ton“ (gedrückt = an); der Tooltip
+ * sagt, was ein Tippen tut. Die Wahl bleibt auf dem Gerät (ton.ts). Solange „Mit Ton spielen?“ offen ist, fragt
+ * schon der Hinweis – der Knopf erscheint erst mit der Wahl, im selben Moment, in dem der Hinweis geht.
  */
 export function TonKnopf() {
   const an = useTon()
   const frei = useTonFrei()
   const spielt = an && frei
+  const gewaehlt = useVerzoegertWeg(frei || !an)
   return (
     <button
       type="button"
-      className="knopf knopf-zweit knopf-klein show-ton ton-wahl"
+      className={`knopf knopf-zweit knopf-klein show-ton ton-wahl${gewaehlt ? '' : ' show-ton-wartet'}`}
       aria-pressed={spielt}
       aria-label="Ton"
-      title={
-        spielt
-          ? 'Ton ist an – tippen zum Ausschalten'
-          : an
-            ? 'Ton ist noch nicht freigegeben – tippen zum Einschalten'
-            : 'Ton ist aus – tippen zum Einschalten'
-      }
+      title={spielt ? 'Ton ist an – tippen zum Ausschalten' : 'Ton ist aus – tippen zum Einschalten'}
       onClick={() => {
         tonWahlMerken(!spielt)
         setzeTon(!spielt)

@@ -6,7 +6,7 @@ import { parteiStil } from './stil'
 import { QrCode } from './QrCode'
 import { anleitung, anleitungRegeln } from './fragen'
 import { MAX_PUNKTE, ZEITFAKTOR_TEXT, type Zeitfaktor } from './punkte'
-import { limitFuer, rangliste, type Ergebnis, type QuizSpieler, type QuizZustand, type Weg } from './spielleitung'
+import { limitFuer, MAX_SPIELER, rangliste, type Ergebnis, type QuizSpieler, type QuizZustand, type Weg } from './spielleitung'
 import { KI_HINWEIS, POSITION_TEXT, type QuizDaten, type QuizFrage, type QuizPartei, type QuizPosition } from './typen'
 import { frageVon } from './useSpiel'
 import type { PruefLinks } from './uebersicht'
@@ -88,19 +88,42 @@ export function QuizAnsicht(p: AnsichtProps) {
   return <Aufloesung {...p} frage={frage} />
 }
 
-function SpielerListe({ spieler, ich, mitWeg }: { spieler: QuizSpieler[]; ich: string; mitWeg: boolean }) {
+/**
+ * Wer im Raum ist: acht Plätze wie Zeilen auf dem Stimmzettel – belegte mit Nummer und Namen, freie gestrichelt. Groß
+ * genug, dass eine Klasse am Beamer sieht, wer schon drin ist und wie viele noch dazukommen können.
+ */
+function SpielerListe({ spieler, ich }: { spieler: QuizSpieler[]; ich: string }) {
+  const titelId = useId()
   return (
-    <ul className="quiz-spieler">
-      {spieler.map((s) => (
-        <li key={s.id} className={s.verbunden ? '' : 'getrennt'}>
-          <span className="quiz-spieler-name">
-            {s.name}
-            {s.id === ich && ' (du)'}
-          </span>
-          {mitWeg && <span className="quiz-weg">{s.verbunden ? WEG_TEXT[s.weg] : 'getrennt'}</span>}
-        </li>
-      ))}
-    </ul>
+    <section className="quiz-dabei" aria-labelledby={titelId}>
+      <h3 id={titelId} className="quiz-dabei-titel">
+        Dabei{' '}
+        <span className="quiz-dabei-zahl">
+          {spieler.length} von {MAX_SPIELER}
+        </span>
+      </h3>
+      <ul className="quiz-spieler">
+        {spieler.map((s, i) => (
+          <li key={s.id} className={`quiz-platz${s.verbunden ? '' : ' getrennt'}${s.id === ich ? ' ich' : ''}`}>
+            <span className="quiz-platz-nr" aria-hidden="true">
+              {i + 1}
+            </span>
+            <span className="quiz-spieler-name">
+              {s.name}
+              {s.id === ich && ' (du)'}
+            </span>
+            <span className="quiz-weg">{s.verbunden ? WEG_TEXT[s.weg] : 'getrennt'}</span>
+          </li>
+        ))}
+        {/* Freie Plätze nur fürs Auge – die Zahl steht schon in der Überschrift. */}
+        {Array.from({ length: Math.max(0, MAX_SPIELER - spieler.length) }, (_, i) => (
+          <li key={`frei-${i}`} className="quiz-platz quiz-platz-frei" aria-hidden="true">
+            <span className="quiz-platz-nr">{spieler.length + i + 1}</span>
+            <span>frei</span>
+          </li>
+        ))}
+      </ul>
+    </section>
   )
 }
 
@@ -126,7 +149,7 @@ function Lobby({ daten, z, ich, istLeitung, raum, onStart, onZeit, onVerlassen }
   }
 
   return (
-    <main className="seite quiz">
+    <main className="seite quiz quiz-lobby">
       <h2 ref={titel}>{istLeitung ? 'Dein Raum' : 'Du bist im Raum'}</h2>
       {raum && (
         <div className="quiz-raum stimmzettel">
@@ -154,40 +177,42 @@ function Lobby({ daten, z, ich, istLeitung, raum, onStart, onZeit, onVerlassen }
           )}
         </div>
       )}
-      <p className="meta quiz-wahl-stand">
-        Wahlprogramme zur <strong>{daten.wahl.name}</strong> – {daten.parteien.length} Parteien
-      </p>
-      <p className="label">Dabei ({z.spieler.length} von 8)</p>
-      <SpielerListe spieler={z.spieler} ich={ich} mitWeg />
-      {istLeitung && onZeit ? (
-        <>
-          <label className="label" htmlFor={zeitId}>
-            Zeit je Frage
-          </label>
-          <select id={zeitId} value={z.zeitfaktor} onChange={(e) => onZeit(Number(e.target.value) as Zeitfaktor)}>
-            {([1, 2, 0] as const).map((f) => (
-              <option key={f} value={f}>
-                {ZEITFAKTOR_TEXT[f]}
-              </option>
-            ))}
-          </select>
-        </>
-      ) : (
-        <p className="meta">Zeit je Frage: {ZEITFAKTOR_TEXT[z.zeitfaktor]}</p>
-      )}
-      {istLeitung ? (
-        <>
-          <button type="button" className="knopf knopf-gross" onClick={onStart} disabled={!raum?.bereit}>
-            {z.spieler.length > 1 ? `Spiel starten (${fragen} Fragen)` : `Allein starten (${fragen} Fragen)`}
-          </button>
-          <p className="meta">Nach dem Start kann niemand mehr dazukommen.</p>
-        </>
-      ) : (
-        <p className="hinweis quiz-warten">Gleich geht’s los – {leitung?.name ?? 'die Spielleitung'} startet das Spiel.</p>
-      )}
-      <button type="button" className="knopf knopf-leise" onClick={onVerlassen}>
-        Raum verlassen
-      </button>
+      {/* Auf dem Beamer rechts neben dem QR-Code (index.css, „Beamer“). */}
+      <div className="quiz-lobby-rest">
+        <p className="meta quiz-wahl-stand">
+          Wahlprogramme zur <strong>{daten.wahl.name}</strong> – {daten.parteien.length} Parteien
+        </p>
+        <SpielerListe spieler={z.spieler} ich={ich} />
+        {istLeitung && onZeit ? (
+          <>
+            <label className="label" htmlFor={zeitId}>
+              Zeit je Frage
+            </label>
+            <select id={zeitId} value={z.zeitfaktor} onChange={(e) => onZeit(Number(e.target.value) as Zeitfaktor)}>
+              {([1, 2, 0] as const).map((f) => (
+                <option key={f} value={f}>
+                  {ZEITFAKTOR_TEXT[f]}
+                </option>
+              ))}
+            </select>
+          </>
+        ) : (
+          <p className="meta">Zeit je Frage: {ZEITFAKTOR_TEXT[z.zeitfaktor]}</p>
+        )}
+        {istLeitung ? (
+          <>
+            <button type="button" className="knopf knopf-gross" onClick={onStart} disabled={!raum?.bereit}>
+              {z.spieler.length > 1 ? `Spiel starten (${fragen} Fragen)` : `Allein starten (${fragen} Fragen)`}
+            </button>
+            <p className="meta">Nach dem Start kann niemand mehr dazukommen.</p>
+          </>
+        ) : (
+          <p className="hinweis quiz-warten">Gleich geht’s los – {leitung?.name ?? 'die Spielleitung'} startet das Spiel.</p>
+        )}
+        <button type="button" className="knopf knopf-leise" onClick={onVerlassen}>
+          Raum verlassen
+        </button>
+      </div>
     </main>
   )
 }

@@ -1,12 +1,14 @@
-import { useEffect } from 'react'
+import { useEffect, type RefObject } from 'react'
 import { APP_NAME, QUELLCODE } from './app'
 import { useAnsicht, useFokusZurueck } from './barrierefrei'
 import { BETREIBER, betreiberVollstaendig, DATENSCHUTZ_STAND } from './betreiber'
 import { Logo } from './Logo'
 import { FIREBASE_URL, firebaseStandort, STUN_URLS, stunHost } from './netz'
 
-// Impressum (#/impressum) und Datenschutzerklärung (#/datenschutz). Die Texte beschreiben, was die App tatsächlich
-// tut – bei Änderungen an Datenflüssen (neue Dienste, neue gespeicherte Felder) hier mit anpassen.
+// Impressum und Datenschutzerklärung auf einer Seite, verlinkt als „Impressum & Datenschutz“: #/impressum öffnet sie
+// oben, #/datenschutz springt zum Abschnitt Datenschutz. Beide sind so von jeder Seite mit einem Klick erreichbar und
+// am Linktext erkennbar (§ 5 DDG, § 18 MStV, Art. 12 DSGVO). Die Texte beschreiben, was die App tatsächlich tut – bei
+// Änderungen an Datenflüssen (neue Dienste, neue gespeicherte Felder) hier mit anpassen.
 
 export type RechtsSeite = 'impressum' | 'datenschutz'
 
@@ -56,28 +58,34 @@ export function UnterseitenKopf({ onZurueck }: { onZurueck?: () => void }) {
 
 export function Rechtliches({ seite, onZurueck }: { seite: RechtsSeite; onZurueck: () => void }) {
   useFokusZurueck()
+  // Der Fokus geht auf die Überschrift des gewünschten Teils – #/datenschutz auf „Datenschutz“, sonst auf die Seite.
+  const titel = useAnsicht('Impressum und Datenschutz', seite)
   useEffect(() => {
-    scrollTo(0, 0)
+    if (seite === 'datenschutz') document.getElementById('datenschutz')?.scrollIntoView()
+    else scrollTo(0, 0)
   }, [seite])
 
   return (
     <main className="seite recht">
       <UnterseitenKopf onZurueck={onZurueck} />
       <Unvollstaendig />
-      {seite === 'impressum' ? <Impressum /> : <Datenschutz />}
+      <article>
+        <h1 ref={seite === 'impressum' ? titel : undefined}>Impressum und Datenschutz</h1>
+        <Impressum />
+        <Datenschutz titel={seite === 'datenschutz' ? titel : undefined} />
+      </article>
     </main>
   )
 }
 
 function Impressum() {
-  const titel = useAnsicht('Impressum')
   return (
-    <article>
-      <h1 ref={titel}>Impressum</h1>
-      <h2>Angaben nach § 18 Abs. 1 MStV</h2>
+    <section aria-labelledby="impressum">
+      <h2 id="impressum">Impressum</h2>
+      <h3>Angaben nach § 18 Abs. 1 MStV</h3>
       <Anschrift />
       <p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: {BETREIBER.name}, Anschrift wie oben.</p>
-      <h2>Zum Projekt</h2>
+      <h3>Zum Projekt</h3>
       <p>
         „{APP_NAME}“ ist ein privates, nicht-kommerzielles Quiz zu Wahlprogrammen (Bundestagswahl 2025 und weitere
         Wahlen). Es wird von keiner
@@ -86,33 +94,34 @@ function Impressum() {
         erfasst und noch nicht von Menschen geprüft – das Spiel weist darauf hin und verlinkt jede Stelle im Programm.
         Fehler bitte als <a href={`${QUELLCODE}/issues`}>Issue</a> oder per E-Mail melden.
       </p>
-      <h2>Links</h2>
+      <h3>Links</h3>
       <p>
         Die Beleg-Links führen zu Wahlprogrammen und Quellen auf fremden Websites. Für deren Inhalte sind allein die
         jeweiligen Anbieter verantwortlich.
       </p>
-    </article>
+    </section>
   )
 }
 
-function Datenschutz() {
-  const titel = useAnsicht('Datenschutz')
+function Datenschutz({ titel }: { titel?: RefObject<HTMLHeadingElement | null> }) {
   return (
-    <article>
-      <h1 ref={titel}>Datenschutz</h1>
+    <section aria-labelledby="datenschutz">
+      <h2 id="datenschutz" ref={titel}>
+        Datenschutz
+      </h2>
       <p className="meta">Stand: {DATENSCHUTZ_STAND}</p>
 
-      <h2>Kurz gesagt</h2>
+      <h3>Kurz gesagt</h3>
       <ul>
         <li>Kein Konto, keine Cookies, kein Tracking, keine Werbung, keine KI, die deine Antworten auswertet.</li>
         <li>Wir speichern keine Spieldaten. Das Spiel läuft zwischen den Geräten der Mitspielenden.</li>
         <li>Auf deinem Gerät bleiben nur dein Name im Spiel und deine Ton-Wahl – wenn du sie eingibst.</li>
       </ul>
 
-      <h2>1. Verantwortlich</h2>
+      <h3>1. Verantwortlich</h3>
       <Anschrift />
 
-      <h2>2. Aufruf der Seite</h2>
+      <h3>2. Aufruf der Seite</h3>
       <p>
         Die Seite liegt bei GitHub Pages (GitHub, Inc., USA). GitHub verarbeitet beim Aufruf technisch notwendige
         Verbindungsdaten wie die IP-Adresse; Näheres in der{' '}
@@ -123,7 +132,7 @@ function Datenschutz() {
         eingebunden.
       </p>
 
-      <h2>3. Das Spiel</h2>
+      <h3>3. Das Spiel</h3>
       <p>
         Zwischen den Geräten im selben Raum laufen: dein Name im Spiel (freiwillig, höchstens 20 Zeichen), deine
         Antworten mit Antwortzeit und der Spielstand. Das liegt nur im Arbeitsspeicher und ist weg, wenn ihr die Seite
@@ -182,7 +191,7 @@ function Datenschutz() {
         anzubieten (Art. 6 Abs. 1 lit. f DSGVO).
       </p>
 
-      <h2>4. Deine Rechte</h2>
+      <h3>4. Deine Rechte</h3>
       <p>
         Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch
         (Art. 15–21 DSGVO). Da wir keine Daten speichern, die sich dir zuordnen lassen, gibt es meist nichts, worüber
@@ -190,6 +199,6 @@ function Datenschutz() {
         Beschweren kannst du dich bei einer Aufsichtsbehörde, etwa der für uns zuständigen:{' '}
         <a href={BETREIBER.aufsichtsbehoerde.url}>{BETREIBER.aufsichtsbehoerde.name}</a>.
       </p>
-    </article>
+    </section>
   )
 }

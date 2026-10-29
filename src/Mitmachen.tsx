@@ -106,6 +106,14 @@ export function Mitmachen({ onZurueck }: { onZurueck?: () => void }) {
           privat und offen. Wir suchen Kurse, die es im Unterricht einsetzen, Studierende, die darüber eine Abschlussarbeit
           schreiben, und Menschen, die die Fragen prüfen.
         </p>
+        <ul>
+          <li>
+            <a href={uebersichtHash()}>Alle Fragen</a> mit den Positionen der Parteien und den Belegen aus den Programmen
+          </li>
+          <li>
+            <a href={QUELLCODE}>Quellcode</a> auf GitHub, offen unter der AGPL-3.0
+          </li>
+        </ul>
 
         <h2>Im Politikunterricht</h2>
         <p>

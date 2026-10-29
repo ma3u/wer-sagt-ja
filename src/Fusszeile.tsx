@@ -1,17 +1,10 @@
-import { QUELLCODE } from './app'
-
+// „Alle Fragen“ und der Quellcode stehen auf der Seite Mitmachen (Mitmachen.tsx).
 export function Fusszeile() {
   return (
     <footer className="fusszeile">
-      <a href="#/fragen">Alle Fragen</a>
       <a href="#/methode">Methode</a>
       <a href="#/mitmachen">Mitmachen</a>
-      <a href="#/impressum">Impressum</a>
-      <a href="#/datenschutz">Datenschutz</a>
-      <a href={QUELLCODE}>Quellcode</a>
-      <a href={`${QUELLCODE}/issues`} target="_blank" rel="noopener noreferrer">
-        Feedback
-      </a>
+      <a href="#/impressum">Impressum &amp; Datenschutz</a>
     </footer>
   )
 }
