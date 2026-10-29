@@ -75,7 +75,8 @@ a {
   white-space: nowrap;
 }
 .app {
-  max-width: 720px;
+  /* rem statt px: wächst auf dem Beamer mit der Grundschrift (siehe „Beamer“ am Ende). */
+  max-width: 42.4rem;
   margin: 0 auto;
   padding: 0 16px 48px;
 }
@@ -224,7 +225,7 @@ textarea:focus-visible {
   position: relative;
   z-index: 1;
   width: 100%;
-  max-width: 470px;
+  max-width: 27.6rem;
 }
 .start-kopf {
   display: flex;
@@ -236,6 +237,17 @@ textarea:focus-visible {
 }
 .start-kopf .logo {
   flex: none;
+  /* rem statt der festen 72 px aus Logo.tsx: wächst auf dem Beamer mit dem Schriftzug. */
+  width: 4.25rem;
+  height: 4.25rem;
+}
+.kopfzeile-marke .logo {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.recht-marke .logo {
+  width: 1.9rem;
+  height: 1.9rem;
 }
 .titel {
   margin: 0;
@@ -508,7 +520,7 @@ textarea {
   cursor: pointer;
 }
 .recht {
-  max-width: 720px;
+  max-width: 42.4rem;
   margin: 0 auto;
   padding: 0 16px 48px;
   overflow-wrap: break-word;
@@ -625,7 +637,8 @@ textarea {
   margin-top: 4px;
 }
 .quiz-start-felder {
-  padding: 0 20px 4px;
+  /* Unten so viel Luft wie an den Seiten – die Knöpfe stoßen sonst an den Rand des Stimmzettels. */
+  padding: 0 20px 20px;
 }
 .quiz-start-felder > .meta {
   margin: 0;
@@ -668,7 +681,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(5.5rem, 1fr));
   gap: 10px;
-  margin-top: 1.1rem;
+  margin-top: 1.25rem;
 }
 .quiz-arten .knopf {
   padding-inline: 0.5rem;
@@ -752,7 +765,7 @@ textarea {
 /* QR-Code zum Beitreten: Link der Einladung, zum Abfotografieren mit dem Handy. */
 .quiz-qr {
   display: block;
-  width: min(60vw, 220px);
+  width: min(60vw, 13rem);
   height: auto;
   margin: 0.2rem auto 0.8rem;
   padding: 8px;
@@ -788,6 +801,98 @@ textarea {
 .quiz-spieler .getrennt,
 .quiz-stand .getrennt {
   color: var(--text-leise);
+}
+/* Wer dabei ist (Raum): acht Plätze als Kärtchen, belegte mit Nummer und Namen, freie gestrichelt. */
+.quiz-dabei {
+  margin-top: 1rem;
+}
+.quiz-dabei-titel {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0 0 0.6rem;
+  font-size: 1.25rem;
+}
+.quiz-dabei-zahl {
+  font-size: 1rem;
+  color: var(--stimmblau);
+  font-variant-numeric: tabular-nums;
+}
+.quiz-spieler {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr));
+  gap: 8px;
+  border-top: 0;
+}
+.quiz-spieler .quiz-platz {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  column-gap: 0.5rem;
+  padding: 0.5rem 0.6rem;
+  background: var(--flaeche);
+  border: 1.5px solid var(--tinte);
+  border-radius: var(--papier-radius);
+  box-shadow: 0 2px 0 var(--tinte);
+  animation: platz-rein 0.35s cubic-bezier(0.2, 0.9, 0.3, 1.3) both;
+}
+@keyframes platz-rein {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+}
+.quiz-platz-nr {
+  grid-row: span 2;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  font-family: var(--schrift-titel);
+  font-weight: 800;
+  color: #fff;
+  background: var(--stimmblau);
+}
+.quiz-platz .quiz-spieler-name {
+  font-size: 1.05rem;
+  line-height: 1.2;
+  /* Namen nur trennen, wenn ein Wort allein nicht in die Zeile passt – keine Silbentrennung in Namen. */
+  overflow-wrap: break-word;
+}
+.quiz-platz .quiz-weg {
+  grid-column: 2;
+  line-height: 1.3;
+}
+.quiz-spieler .quiz-platz.ich {
+  background: var(--stimmblau-hell);
+}
+.quiz-spieler .quiz-platz.getrennt {
+  border-style: dashed;
+  box-shadow: none;
+}
+.quiz-platz.getrennt .quiz-platz-nr {
+  color: var(--text-leise);
+  background: var(--flaeche-2);
+}
+.quiz-spieler .quiz-platz-frei {
+  color: var(--text-leise);
+  background: none;
+  border: 1.5px dashed var(--rand-bedien);
+  box-shadow: none;
+  animation: none;
+}
+.quiz-platz-frei .quiz-platz-nr {
+  grid-row: auto;
+  color: var(--text-leise);
+  background: none;
+  border: 1.5px dashed var(--rand-bedien);
+}
+@media (prefers-reduced-motion: reduce) {
+  .quiz-spieler .quiz-platz {
+    animation: none;
+  }
 }
 .quiz-stand .ich {
   background: var(--stimmblau-hell);
@@ -1233,6 +1338,13 @@ summary {
 }
 .show-ton-symbol {
   display: block;
+}
+/* Erst nach der Wahl bei „Mit Ton spielen?“ (Buehne.tsx); steht sonst nichts in der Kopfzeile, fällt sie ganz weg. */
+.show-ton-wartet {
+  display: none;
+}
+.kopfzeile:not(:has(.kopfzeile-marke)):has(.show-ton-wartet) {
+  display: none;
 }
 /* „Mit Ton spielen?“ – solange der Browser den Ton noch nicht freigegeben hat. */
 /* Mit Hinweis steht die Startkarte direkt darunter statt mittig im Fenster (sonst klafft eine Lücke). */
@@ -1725,4 +1837,42 @@ html:has(.quiz-aktion) {
 }
 .methode-pwib .methode-tabelle {
   margin-top: 0;
+}
+
+/* ---------- Beamer ---------- */
+/* Laptop am Beamer oder Tafel im Querformat: Die ganze App wächst mit dem Fenster, damit eine Klasse Frage, QR-Code und
+   Ergebnis aus der letzten Reihe lesen kann. Die Grundschrift folgt der kleineren Seite des Fensters; Breiten in rem
+   wachsen mit. Mit Browser-Zoom wird das Fenster in CSS-Pixeln kleiner, die Regel greift nicht mehr, und die Schrift
+   wächst wie gewohnt mit dem Zoom (WCAG 1.4.4). */
+@media (orientation: landscape) and (min-width: 75em) and (min-height: 40em) {
+  :root {
+    font-size: max(106.25%, min(1.35vw, 2.4vh));
+  }
+  /* Raum: links Raumname und QR-Code zum Abfotografieren, rechts wer dabei ist und der Start. */
+  .app:has(.quiz-lobby) {
+    max-width: 72rem;
+  }
+  .quiz-lobby {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 2.5rem;
+    align-items: start;
+  }
+  .quiz-lobby > h2 {
+    grid-column: 1 / -1;
+  }
+  .quiz-lobby .quiz-qr {
+    width: min(20rem, 45vh);
+  }
+  /* Wer dabei ist: zwei Spalten, Namen groß. */
+  .quiz-lobby .quiz-spieler {
+    grid-template-columns: 1fr 1fr;
+  }
+  .quiz-lobby .quiz-platz .quiz-spieler-name {
+    font-size: 1.3rem;
+  }
+  .quiz-lobby .quiz-platz-nr {
+    width: 2.1rem;
+    height: 2.1rem;
+  }
 }
