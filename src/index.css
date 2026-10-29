@@ -1876,3 +1876,17 @@ html:has(.quiz-aktion) {
     height: 2.1rem;
   }
 }
+/* Startseite: breiterer Stimmzettel, Schriftzug und Logo größer – sonst wirkt die Karte im breiten Fenster verloren.
+   Erst ab 800 px Höhe, damit Karte und Fußzeile auch dann ohne Scrollen ins Bild passen. */
+@media (orientation: landscape) and (min-width: 75em) and (min-height: 50em) {
+  .start-inhalt {
+    max-width: 34rem;
+  }
+  .start-inhalt .titel {
+    font-size: 4.6rem;
+  }
+  .start-kopf .logo {
+    width: 5.25rem;
+    height: 5.25rem;
+  }
+}
