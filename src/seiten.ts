@@ -110,7 +110,9 @@ function rahmen({ wahl, titel, beschreibung, parteien, markdown, base, inhalt }:
         description: beschreibung,
         inLanguage: 'de',
         isPartOf: { '@id': `${ADRESSE}#website` },
-        about: { '@type': 'Event', name: wahl.name, startDate: wahl.datum, location: { '@type': 'Country', name: 'Deutschland' } },
+        // Keine Event-Auszeichnung: Google erwartet dafür Ort, Preis und Veranstalter – eine Wahl ist keine Veranstaltung.
+        about: { '@type': 'Thing', name: wahl.name },
+        temporalCoverage: wahl.datum,
         mentions: parteien.map((name) => ({ '@type': 'PoliticalParty', name })),
         primaryImageOfPage: `${ADRESSE}vorschau.png`,
       },
